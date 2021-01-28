@@ -3,7 +3,7 @@
         {
             "id": "r_translatehint",
             "label": "Attempt a translation of a text?",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "language": 1
             },
@@ -14,7 +14,7 @@
         {
             "id": "r_translate",
             "label": "Begin a translation of a text",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "language": 1,
                 "text": 1

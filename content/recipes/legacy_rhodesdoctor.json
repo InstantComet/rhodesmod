@@ -3,7 +3,7 @@
         {
             "id": "r_workr_doctorjob",
             "label": "石棺之中",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "r_introsanity": 1
             },
@@ -26,7 +26,7 @@
         {
             "id": "r_doctoropentalk",
             "label": "Our Cause",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {},
             "startdescription": "I remember these names, though I have never heard them spoken.",
             "description": "My allies; my Illuminated One.",
@@ -60,7 +60,7 @@
         {
             "id": "r_doctoropenstudy",
             "label": "寻找脱困的手段",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "startdescription": "幸运的是，我们找到了一张被撕毁了一半的地图，可以通过研究它找到控制中枢的位置。",
             "alt": [
                 {
@@ -78,7 +78,7 @@
         {
             "id": "r_doctoropenexplore",
             "label": "A Place to Begin",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "startdescription": "Where were we?",
             "description": "This is the place I saw, in the light at sleep's edge.",
             "alt": [
@@ -97,7 +97,7 @@
         {
             "id": "r_doctoropendream",
             "label": "梦中的嘈杂",
-            "actionid": "r_dream",
+            "actionid": "dream_r",
             "startdescription": "我是谁？我在哪里？我的身边有人……",
             "description": "我的梦里充斥着难以理解的片段和感受。",
             "warmup": 60,
@@ -116,7 +116,7 @@
         {
             "id": "r_doctoropenheadhunt",
             "label": "学习干员寻访",
-            "actionid": "r_headhunt",
+            "actionid": "headhunt_r",
             "requirements": {},
             "startdescription": "我学习干员寻访。",
             "description": ".",

@@ -13,7 +13,7 @@
         {
             "id": "r_studyincreasehealthskillc",
             "comments": "Backwards compatility only",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "description": "My efforts have gone awry.",
             "effects": {
                 "health": 1
@@ -23,7 +23,7 @@
         {
             "id": "r_studyincreasereasonskillc",
             "comments": "Backwards compatility only",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "description": "My efforts have gone awry.",
             "effects": {
                 "reason": 1
@@ -33,7 +33,7 @@
         {
             "id": "r_studyincreasepassionskillc",
             "comments": "Backwards compatility only",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "description": "My efforts have gone awry.",
             "effects": {
                 "passion": 1

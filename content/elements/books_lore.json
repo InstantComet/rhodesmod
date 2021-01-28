@@ -525,7 +525,7 @@
                     "required": {
                         "r_lmfunds": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "aspects": {

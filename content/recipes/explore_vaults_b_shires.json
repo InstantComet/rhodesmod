@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaultshires1_setup",
             "label": "Beginning an Expedition: Gladwyn Lake",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -26,7 +26,7 @@
         {
             "id": "r_explore_vaultshires2_setup",
             "label": "Beginning an Expedition: Lockwood Fen",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -50,7 +50,7 @@
         {
             "id": "r_explore_vaultshires3_setup",
             "label": "Beginning an Expedition: Crowkiss Hill",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -73,7 +73,7 @@
         {
             "id": "r_explore_vaultshires4_setup",
             "label": "Beginning an Expedition: Keglin's Scratch",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -97,7 +97,7 @@
         {
             "id": "r_explore_vaultshires5_setup",
             "label": "Beginning an Expedition: the Gwaer Inn",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -121,7 +121,7 @@
         {
             "id": "r_explore_vaultshiresdefault_setup",
             "label": "Beginning an Expedition: Kerisham",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -146,7 +146,7 @@
         {
             "id": "r_explorevaultshires1_success",
             "label": "The Chapel-Root",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshires1": 1
             },
@@ -171,7 +171,7 @@
         {
             "id": "r_explorevaultshires2_success",
             "label": "The Ring-Yew's Shrine",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshires2": 1
             },
@@ -197,7 +197,7 @@
         {
             "id": "r_explorevaultshires3_success",
             "label": "The Warrior's End",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshires3": 1
             },
@@ -231,7 +231,7 @@
         {
             "id": "r_explorevaultshires4_success",
             "label": "Once a Lady",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshires4": 1
             },
@@ -262,7 +262,7 @@
         {
             "id": "r_explorevaultshires5_success",
             "label": "The White Library",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshires5": 1
             },
@@ -289,7 +289,7 @@
         {
             "id": "r_explorevaultshiresdefault_success",
             "label": "The Last Room",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultshiresdefault": 1
             },

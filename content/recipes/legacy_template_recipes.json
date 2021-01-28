@@ -3,7 +3,7 @@
         {
             "id": "r_worktemplatejob",
             "label": "Start template Job",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "legacytemplatejob": 1
             },
@@ -28,7 +28,7 @@
         {
             "id": "r_worktemplatejob_matured",
             "label": "",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "legacytemplatejob_matured": 1
             },
@@ -50,7 +50,7 @@
         {
             "id": "r_worktemplatejob_epilogue",
             "label": "",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "effects": {
                 "legacytemplatejob_matured": -1
             },
@@ -61,7 +61,7 @@
         {
             "id": "r_templateopendream",
             "label": "OPEN DREAM",
-            "actionid": "r_dream",
+            "actionid": "dream_r",
             "startdescription": "",
             "description": "",
             "effects": {
@@ -80,7 +80,7 @@
         {
             "id": "r_templateopenstudy",
             "label": "OPEN STUDY",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "startdescription": "",
             "description": "",
             "alt": [
@@ -99,7 +99,7 @@
         {
             "id": "r_templateopenexplore",
             "label": "OPEN EXPLORE",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "startdescription": "",
             "description": "",
             "warmup": 10,
@@ -112,7 +112,7 @@
         {
             "id": "r_templateopentalk",
             "label": "",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "startdescription": "",
             "description": "",
             "effects": {},
@@ -122,7 +122,7 @@
         {
             "id": "r_templatestudy_plotitem",
             "label": "",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "legacytemplate_plotitem": 1
             },

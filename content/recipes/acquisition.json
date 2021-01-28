@@ -3,7 +3,7 @@
         {
             "id": "r_auctionbuy",
             "label": "Bid in an Auction",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "effects": {},
             "slots": [
                 {
@@ -34,7 +34,7 @@
         },
         {
             "id": "r_playerincreasedbid",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "label": "I've bid!",
             "requirements": {
                 "r_lmfunds": 1
@@ -62,7 +62,7 @@
         },
         {
             "id": "r_auctionbidmatched.grailapostlepillar3",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "bid": -6,
                 "apostlegrail.pillar3": 1
@@ -76,7 +76,7 @@
         {
             "id": "r_auctionbidmatched",
             "label": "Another bidder!",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "startdescription": "Someone else has matched my bid! I must match it with more funds, or forgo my prize.",
             "description": ".",
             "slots": [
@@ -103,7 +103,7 @@
         },
         {
             "id": "r_auctionfailureclear",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "effects": {
                 "text": -1,
                 "tool": -1,
@@ -120,7 +120,7 @@
         },
         {
             "id": "r_auctionfailure",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "label": "I haven't won the auction",
             "aspects": {
                 "restore": 1
@@ -132,7 +132,7 @@
         {
             "id": "r_auctionsuccess",
             "label": "I've won the auction!",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "effects": {
                 "r_lmfunds": -100,
                 "bid": -100

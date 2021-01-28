@@ -21,7 +21,7 @@
                 {
                     "id": "r_Meal5",
                     "consumes": true,
-                    "actionid": "r_explore"
+                    "actionid": "explore_r"
                 }
             ],
             "icon": "violet_p",

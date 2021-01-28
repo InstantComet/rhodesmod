@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaultrendingmountains1_setup",
             "label": "Beginning an Expedition: Hunter's Pit",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -28,7 +28,7 @@
         {
             "id": "r_explore_vaultrendingmountains2_setup",
             "label": "Beginning an Expedition: Snow's Keeper",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -53,7 +53,7 @@
         {
             "id": "r_explore_vaultrendingmountains3_setup",
             "label": "Beginning an Expedition: the Eye of Ikirmawi",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -78,7 +78,7 @@
         {
             "id": "r_explore_vaultrendingmountains4_setup",
             "label": "Beginning an Expedition: the Mausoleum of Wolves",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -103,7 +103,7 @@
         {
             "id": "r_explore_vaultrendingmountainsdefault_setup",
             "label": "Beginning an Expedition: Tombs of the Shadowless Kings",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -129,7 +129,7 @@
         {
             "id": "r_explorevaultrendingmountains1_success",
             "label": "The Memory of War",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultrendingmountains1": 1
             },
@@ -160,7 +160,7 @@
         {
             "id": "r_explorevaultrendingmountains2_success",
             "label": "The Altar's Garment",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultrendingmountains2": 1
             },
@@ -187,7 +187,7 @@
         {
             "id": "r_explorevaultrendingmountains3_success",
             "label": "The Progress of the Heavens",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultrendingmountains3": 1
             },
@@ -213,7 +213,7 @@
         {
             "id": "r_explorevaultrendingmountains4_success",
             "label": "The Coming of the Wolf",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultrendingmountains4": 1
             },
@@ -241,7 +241,7 @@
         {
             "id": "r_explorevaultrendingmountainsdefault_success",
             "label": "What Remains",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultrendingmountainsdefault": 1
             },

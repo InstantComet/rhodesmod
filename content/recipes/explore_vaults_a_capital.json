@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaultcapital1_setup",
             "label": "Beginning an Expedition: Strathcoyne's Collection",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital1": 1,
                 "r_lmfunds": 1,
@@ -26,7 +26,7 @@
         {
             "id": "r_explore_vaultcapital2_setup",
             "label": "Beginning an Expedition: the Forgotten Mithraeum",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -49,7 +49,7 @@
         {
             "id": "r_explore_vaultcapital3_setup",
             "label": "Beginning an Expedition: Cater & Hero Limited",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital3": 1,
                 "r_lmfunds": 1,
@@ -72,7 +72,7 @@
         {
             "id": "r_explore_vaultcapital4_setup",
             "label": "Beginning an Expedition: St Agnes Hospital",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -95,7 +95,7 @@
         {
             "id": "r_explore_vaultcapital5_setup",
             "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -118,7 +118,7 @@
         {
             "id": "r_explore_vaultcapitaldefault_setup",
             "label": "Beginning an Expedition: The Forsaken Reach",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -142,7 +142,7 @@
         {
             "id": "r_explorevaultcapital1_success",
             "label": "Strathcoyne's Treasures",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital1": 1
             },
@@ -169,7 +169,7 @@
         {
             "id": "r_explorevaultcapital2_success",
             "label": "The Deeper Sanctuary",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital2": 1
             },
@@ -195,7 +195,7 @@
         {
             "id": "r_explorevaultcapital3_success",
             "label": "Cater's Office",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital3": 1
             },
@@ -222,7 +222,7 @@
         {
             "id": "r_explorevaultcapital4_success",
             "label": "The Violet Chamber",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital4": 1
             },
@@ -249,7 +249,7 @@
         {
             "id": "r_explorevaultcapital5_success",
             "label": "Secret Devotions",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapital5": 1
             },
@@ -283,7 +283,7 @@
         {
             "id": "r_explorevaultcapitaldefault_success",
             "label": "A Delayed Delivery",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vaultcapitaldefault": 1
             },

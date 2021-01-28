@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "r_explorecabaret",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "label": "Visit the Ecdysis Club",
             "requirements": {
                 "locationcabaret": 1,
@@ -55,7 +55,7 @@
         {
             "id": "r_cabaretpleasure",
             "label": "Nightly Pleasures at the Cabaret Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "contentment": 1
             },
@@ -67,7 +67,7 @@
         {
             "id": "r_cabaretallure",
             "label": "Allure at the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "fascination": 1
             },
@@ -82,7 +82,7 @@
         {
             "id": "r_cabareteducation",
             "label": "The Educations of the Cabaret Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "erudition": 1
             },
@@ -97,7 +97,7 @@
         {
             "id": "r_cabaretglimpse",
             "label": "A Glimpse of Something More at the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "glimmering": 1
             },
@@ -109,7 +109,7 @@
         {
             "id": "r_cabaretharm",
             "label": "A Wounding Consummation at the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vitality": 1
             },
@@ -124,7 +124,7 @@
         {
             "id": "r_cabaretexposure",
             "label": "An Interruption at the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "notoriety": 1
             },
@@ -136,7 +136,7 @@
         {
             "id": "r_cabarethunger",
             "label": "The Hungers of the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "influencegrail": 1
             },
@@ -148,7 +148,7 @@
         {
             "id": "r_cabaretfey",
             "label": "The Mysteries of the Ecdysis Club",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "influencemoth": 1
             },

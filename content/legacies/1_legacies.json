@@ -11,7 +11,7 @@
             "image": "r_doctor",
             "fromending": "default",
             "availableWithoutEndingMatch": true,
-            "startingverbid": "r_work",
+            "startingverbid": "work_r",
             "tablecoverimage": "r_table_rhodes",
             "newstart": true,
             "statusbarelements": [

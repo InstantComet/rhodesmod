@@ -3,7 +3,7 @@
         {
             "id": "r_study_map_location_rhodes_a",
             "label": "解读：罗德岛内部结构图(浅层)",
-            "actionId": "r_study",
+            "actionId": "study_r",
             "requirements": {
                 "r_map_location_rhodes_a": 1,
                 "r_sanity": 1

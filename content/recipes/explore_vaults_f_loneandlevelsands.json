@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaultloneandlevelsands1_setup",
             "label": "Beginning an Expedition: the Star-Shattered Fane",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -28,7 +28,7 @@
         {
             "id": "r_explore_vaultloneandlevelsands2_setup",
             "label": "Beginning an Expedition: Lagun's Tomb",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -53,7 +53,7 @@
         {
             "id": "r_explore_vaultloneandlevelsands3_setup",
             "label": "Beginning an Expedition: Messana",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -78,7 +78,7 @@
         {
             "id": "r_explore_vaultloneandlevelsands4_setup",
             "label": "Beginning an Expedition: the Temple of Seven Coils",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -103,7 +103,7 @@
         {
             "id": "r_explore_vaultloneandlevelsandsdefault_setup",
             "label": "Beginning an Expedition: Miah",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -129,7 +129,7 @@
         {
             "id": "r_explorevaultloneandlevelsands1_success",
             "label": "The Opening Stone",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultloneandlevelsands1": 1
             },
@@ -155,7 +155,7 @@
         {
             "id": "r_explorevaultloneandlevelsands2_success",
             "label": "Lagun's End",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultloneandlevelsands2": 1
             },
@@ -188,7 +188,7 @@
         {
             "id": "r_explorevaultloneandlevelsands3_success",
             "label": "A Long Feast",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultloneandlevelsands3": 1
             },
@@ -213,7 +213,7 @@
         {
             "id": "r_explorevaultloneandlevelsands4_success",
             "label": "The Coils of God",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultloneandlevelsands4": 1
             },
@@ -240,7 +240,7 @@
         {
             "id": "r_explorevaultloneandlevelsandsdefault_success",
             "label": "The City No More",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultloneandlevelsandsdefault": 1
             },

@@ -3,7 +3,7 @@
         {
             "id": "r_recruitindependentresentmenthint",
             "label": "Recruit an Independent?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "independent": 1,
                 "mortal": 1,
@@ -16,7 +16,7 @@
         {
             "id": "r_recruitindependenthint",
             "label": "Recruit an Independent?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "independent": 1,
                 "mortal": 1,
@@ -29,7 +29,7 @@
         {
             "id": "r_promoteto_d_edgehint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultedge_1": 1,
                 "r_operator": 1,
@@ -42,7 +42,7 @@
         {
             "id": "r_promoteto_d_forgehint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultforge_1": 1,
                 "r_operator": 1,
@@ -55,7 +55,7 @@
         {
             "id": "r_promoteto_d_grailhint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultgrail_1": 1,
                 "r_operator": 1,
@@ -68,7 +68,7 @@
         {
             "id": "r_promoteto_d_hearthint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultheart_1": 1,
                 "r_operator": 1,
@@ -81,7 +81,7 @@
         {
             "id": "r_promoteto_d_knockhint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultknock_1": 1,
                 "r_operator": 1,
@@ -94,7 +94,7 @@
         {
             "id": "r_promoteto_d_lanternhint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultlantern_1": 1,
                 "r_operator": 1,
@@ -107,7 +107,7 @@
         {
             "id": "r_promoteto_d_mothhint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultmoth_1": 1,
                 "r_operator": 1,
@@ -120,7 +120,7 @@
         {
             "id": "r_promoteto_d_winterhint",
             "label": "Exalt a Disciple?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "venerationedge": -1,
@@ -140,7 +140,7 @@
         {
             "id": "r_promotetodisciplehint",
             "label": "Promote a Believer?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "society": 1,
                 "r_operator": 1,
@@ -154,7 +154,7 @@
         {
             "id": "r_talktobenefactorhint",
             "label": "My Benefactor Insists on Discretion",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "benefactor": 1
             },
@@ -165,7 +165,7 @@
         {
             "id": "r_recruitacquaintancenoculthint",
             "label": "Recruit a new Follower?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "society": -1,
                 "acquaintance": 1
@@ -177,7 +177,7 @@
         {
             "id": "r_recruitacquaintancehint",
             "label": "Recruit a new Follower?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "society": 1,
                 "acquaintance": 1
@@ -189,7 +189,7 @@
         {
             "id": "r_talk_aladim_wantscommission",
             "label": "A Commission?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "aladim": 1
             },
@@ -200,7 +200,7 @@
         {
             "id": "r_talk_bechet_wantscommission",
             "label": "A Commission?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "bechet": 1
             },
@@ -211,7 +211,7 @@
         {
             "id": "r_talk_jannings_wantscommission",
             "label": "A Commission?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "jannings": 1
             },
@@ -222,7 +222,7 @@
         {
             "id": "r_talk_poppy_wantscommission",
             "label": "A Commission?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "poppycommission": 1
             },
@@ -233,7 +233,7 @@
         {
             "id": "r_fulfilcommission_aladimhint",
             "label": "Fulfil a Commission for the Doctor?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "commission": 1,
                 "aladim": 1,
@@ -247,7 +247,7 @@
         {
             "id": "r_fulfilcommission_bechethint",
             "label": "Fulfil a Commission for Mme Bechet?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "commission": 1,
                 "bechet": 1,
@@ -261,7 +261,7 @@
         {
             "id": "r_fulfilcommission_janningshint",
             "label": "Fulfil a Commission for the Count?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "commission": 1,
                 "jannings": 1,
@@ -275,7 +275,7 @@
         {
             "id": "r_fulfilcommission_poppyhint",
             "label": "Fulfil a Commission for Poppy?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "commission": 1,
                 "poppycommission": 1,
@@ -289,7 +289,7 @@
         {
             "id": "r_talk_nointeraction_mortal",
             "label": "Nothing to say?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "mortal": 1
             },

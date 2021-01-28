@@ -3,7 +3,7 @@
         {
             "id": "r_explore_movehq_hint",
             "label": "A Change of Premises?",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "hq.potential": 1
             },
@@ -14,7 +14,7 @@
         {
             "id": "r_explorevault_hint_sending",
             "label": "A Second Self?",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vault": 1,
                 "sending": 1
@@ -26,7 +26,7 @@
         {
             "id": "r_explorevault_hint_addfunds",
             "label": "Preparations for an Expedition?",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vault": 1,
                 "r_operator": 1
@@ -38,7 +38,7 @@
         {
             "id": "r_explorevault_hint_addfollower",
             "label": "Preparations for an Expedition?",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vault": 1,
                 "r_lmfunds": 1
@@ -50,7 +50,7 @@
         {
             "id": "r_explorevault_hint",
             "label": "Preparations for an Expedition?",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_vault": 1
             },
@@ -61,7 +61,7 @@
         {
             "id": "r_exploresulochanacabaret_hint",
             "label": "The Old Form and the New",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "locationcabaret": 1,
                 "sulochana": 1
@@ -72,7 +72,7 @@
         },
         {
             "id": "r_explore.searchgraveyard.hint",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "location.cemetery": 1
             },
@@ -83,7 +83,7 @@
         },
         {
             "id": "r_explore.searchgraveyard.closing.hint",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "location.cemetery.closing": 1
             },

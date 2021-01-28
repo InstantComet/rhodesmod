@@ -3,7 +3,7 @@
         {
             "id": "r_studymapbookdealer",
             "label": "Find Morland's shop",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "mapbookdealer": 1
             },
@@ -26,8 +26,8 @@
         },
         {
             "id": "r_openexplore",
-            "label": "r_explore",
-            "actionid": "r_explore",
+            "label": "explore_r",
+            "actionid": "explore_r",
             "requirements": {},
             "effects": {
                 "fragmentsecrethistories": 1

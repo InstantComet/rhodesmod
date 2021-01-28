@@ -3,7 +3,7 @@
         {
             "id": "r_workintrojob",
             "label": "Another Shift at the Hospital",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "introjob": 1
             },
@@ -27,7 +27,7 @@
         {
             "id": "r_introdream",
             "label": "Recall my Dreams",
-            "actionid": "r_dream",
+            "actionid": "dream_r",
             "requirements": {},
             "effects": {
                 "passion": 1,
@@ -49,7 +49,7 @@
         {
             "id": "r_bequestcountdown",
             "label": "A Change in the Air",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {},
             "startdescription": "I need Funds to live. But perhaps this recent upset in my circumstances is a secret blessing. Is there something to my dreams? There is a change in the air.",
             "description": ".",
@@ -65,7 +65,7 @@
         {
             "id": "r_bequestarrives",
             "label": "A Bequest Arrives",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {},
             "effects": {
                 "reason": 1,
@@ -82,7 +82,7 @@
         {
             "id": "r_studybequestreason",
             "label": "Examine the Bequest, employing Reason",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "bequestintro": 1,
                 "reason": 1
@@ -102,7 +102,7 @@
         {
             "id": "r_studybequestpassion",
             "label": "Examine my Bequest, employing Passion",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "bequestintro": 1,
                 "passion": 1
@@ -122,7 +122,7 @@
         {
             "id": "r_studycontactintro",
             "label": "Find a potential collaborator",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "contactintro": 1
             },

@@ -3,7 +3,7 @@
         {
             "id": "r_recruitindependentedge",
             "label": "Recruit a Troublemaker, by invoking a great power of Edge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationedge": 1,
                 "tool": 1,
@@ -29,7 +29,7 @@
         {
             "id": "r_recruitindependentforge",
             "label": "Recruit a Troublemaker, by invoking a great power of Forge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationforge": 1,
                 "tool": 1,
@@ -55,7 +55,7 @@
         {
             "id": "r_recruitindependentgrail",
             "label": "Recruit a Troublemaker, by invoking a great power of Grail",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationgrail": 1,
                 "tool": 1,
@@ -81,7 +81,7 @@
         {
             "id": "r_recruitindependentheart",
             "label": "Recruit a Troublemaker, by invoking a great power of Heart",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationheart": 1,
                 "tool": 1,
@@ -107,7 +107,7 @@
         {
             "id": "r_recruitindependentknock",
             "label": "Recruit a Troublemaker, by invoking a great power of Knock",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationknock": 1,
                 "tool": 1,
@@ -133,7 +133,7 @@
         {
             "id": "r_recruitindependentlantern",
             "label": "Recruit a Troublemaker, by invoking a great power of Lantern",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationlantern": 1,
                 "tool": 1,
@@ -159,7 +159,7 @@
         {
             "id": "r_recruitindependentmoth",
             "label": "Recruit a Troublemaker, by invoking a great power of Moth",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationmoth": 1,
                 "tool": 1,
@@ -185,7 +185,7 @@
         {
             "id": "r_recruitindependentwinter",
             "label": "Recruit a Troublemaker, by invoking a great power of Winter",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "tool": 1,
@@ -211,7 +211,7 @@
         {
             "id": "r_recruitacquaintanceedge",
             "label": "Recruit an Acquaintance, by invoking Edge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationedge": 1,
                 "acquaintance": 1,
@@ -235,7 +235,7 @@
         {
             "id": "r_recruitacquaintanceforge",
             "label": "Recruit an Acquaintance, by invoking Forge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationforge": 1,
                 "acquaintance": 1,
@@ -259,7 +259,7 @@
         {
             "id": "r_recruitacquaintancegrail",
             "label": "Recruit an Acquaintance, by invoking Grail",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationgrail": 1,
                 "acquaintance": 1,
@@ -283,7 +283,7 @@
         {
             "id": "r_recruitacquaintanceheart",
             "label": "Recruit an Acquaintance, by invoking Heart",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationheart": 1,
                 "acquaintance": 1,
@@ -307,7 +307,7 @@
         {
             "id": "r_recruitacquaintanceknock",
             "label": "Recruit an Acquaintance, by invoking Knock",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationknock": 1,
                 "acquaintance": 1,
@@ -331,7 +331,7 @@
         {
             "id": "r_recruitacquaintancelantern",
             "label": "Recruit an Acquaintance, by invoking Lantern",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationlantern": 1,
                 "acquaintance": 1,
@@ -355,7 +355,7 @@
         {
             "id": "r_recruitacquaintancemoth",
             "label": "Recruit an Acquaintance, by invoking Moth",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationmoth": 1,
                 "acquaintance": 1,
@@ -379,7 +379,7 @@
         {
             "id": "r_recruitacquaintancewinter",
             "label": "Recruit an Acquaintance, by invoking Winter",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "acquaintance": 1,
@@ -403,7 +403,7 @@
         {
             "id": "r_promotetodiscipleedge",
             "label": "Promote a Believer by invoking Edge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationedge": 1,
                 "r_operator": 1,
@@ -427,7 +427,7 @@
         {
             "id": "r_promotetodiscipleforge",
             "label": "Promote a Believer by invoking Forge",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationforge": 1,
                 "r_operator": 1,
@@ -451,7 +451,7 @@
         {
             "id": "r_promotetodisciplegrail",
             "label": "Promote a Believer by invoking Grail",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationgrail": 1,
                 "r_operator": 1,
@@ -475,7 +475,7 @@
         {
             "id": "r_promotetodiscipleheart",
             "label": "Promote a Believer by invoking Heart",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationheart": 1,
                 "r_operator": 1,
@@ -499,7 +499,7 @@
         {
             "id": "r_promotetodiscipleknock",
             "label": "Promote a Believer by invoking Knock",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationknock": 1,
                 "r_operator": 1,
@@ -523,7 +523,7 @@
         {
             "id": "r_promotetodisciplelantern",
             "label": "Promote a Believer by invoking Lantern",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationlantern": 1,
                 "r_operator": 1,
@@ -547,7 +547,7 @@
         {
             "id": "r_promotetodisciplemoth",
             "label": "Promote a Believer by invoking Moth",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationmoth": 1,
                 "r_operator": 1,
@@ -571,7 +571,7 @@
         {
             "id": "r_promotetodisciplewinter",
             "label": "Promote a Believer by invoking Winter",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "r_operator": 1,
@@ -595,7 +595,7 @@
         {
             "id": "r_promoteto_d_edge",
             "label": "Attempt to Exalt a Disciple to an Assassin",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultedge_1": 1,
                 "r_operator": 1,
@@ -618,7 +618,7 @@
         {
             "id": "r_promoteto_d_forge",
             "label": "Attempt to Exalt a Disciple to a Reshaper",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultforge_1": 1,
                 "r_operator": 1,
@@ -641,7 +641,7 @@
         {
             "id": "r_promoteto_d_grail",
             "label": "Attempt to Exalt a Disciple to a Cyprian",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultgrail_1": 1,
                 "r_operator": 1,
@@ -664,7 +664,7 @@
         {
             "id": "r_promoteto_d_heart",
             "label": "Attempt to Exalt a Disciple to a Tarantellist",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultheart_1": 1,
                 "r_operator": 1,
@@ -687,7 +687,7 @@
         {
             "id": "r_promoteto_d_knock",
             "label": "Attempt to Exalt a Disciple to a Key",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultknock_1": 1,
                 "r_operator": 1,
@@ -710,7 +710,7 @@
         {
             "id": "r_promoteto_d_lantern",
             "label": "Attempt to Exalt a Disciple to a Seer",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultlantern_1": 1,
                 "r_operator": 1,
@@ -733,7 +733,7 @@
         {
             "id": "r_promoteto_d_moth",
             "label": "Attempt to Exalt a Disciple to a Skintwister",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "cultmoth_1": 1,
                 "r_operator": 1,
@@ -756,7 +756,7 @@
         {
             "id": "r_promoteto_d_winter",
             "label": "Attempt to Exalt a Disciple",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "venerationedge": -1,
@@ -786,7 +786,7 @@
         {
             "id": "r_recruitacquaintanceclue",
             "label": "Recruit an Acquaintance,?",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "requirements": {
                 "society": 1,
                 "mortal": 1,

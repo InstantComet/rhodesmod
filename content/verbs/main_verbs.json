@@ -1,13 +1,13 @@
 {
     "verbs": [
         {
-            "id": "r_work",
-            "label": "r_work",
+            "id": "work_r",
+            "label": "work_r",
             "description": "Earn a living, or practice the invisible arts.",
-            "icon": "r_work",
+            "icon": "work_r",
             "slot": {
-                "id": "r_work",
-                "label": "r_work",
+                "id": "work_r",
+                "label": "work_r",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
                     "r_ability": 1,
@@ -24,12 +24,12 @@
             }
         },
         {
-            "id": "r_dream",
-            "label": "r_dream",
+            "id": "dream_r",
+            "label": "dream_r",
             "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
             "slot": {
-                "id": "r_dream",
-                "label": "r_dream",
+                "id": "dream_r",
+                "label": "dream_r",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
                     "r_ability": 1,
@@ -48,12 +48,12 @@
             }
         },
         {
-            "id": "r_study",
-            "label": "r_study",
+            "id": "study_r",
+            "label": "study_r",
             "description": "Unlock books and other treasures.",
             "slot": {
-                "id": "r_study",
-                "label": "r_study",
+                "id": "study_r",
+                "label": "study_r",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
                     "r_text": 1,
@@ -70,12 +70,12 @@
             }
         },
         {
-            "id": "r_talk",
-            "label": "r_talk",
+            "id": "talk_r",
+            "label": "talk_r",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
-                "id": "r_talk",
-                "label": "r_talk",
+                "id": "talk_r",
+                "label": "talk_r",
                 "description": "An ally, an enemy, or something in between.",
                 "required": {
                     "mortal": 1,
@@ -91,12 +91,12 @@
             }
         },
         {
-            "id": "r_explore",
-            "label": "r_explore",
+            "id": "explore_r",
+            "label": "explore_r",
             "description": "Explore the city with Health or Followers; explore r_locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
             "slot": {
-                "id": "r_explore",
-                "label": "r_explore",
+                "id": "explore_r",
+                "label": "explore_r",
                 "description": "A place; a person; a r_location; a secret.",
                 "required": {
                     "r_operator": 1,
@@ -111,16 +111,16 @@
             }
         },
         {
-            "id": "r_time",
+            "id": "time_r",
             "label": "Time",
             "description": "The sundial's shadow.",
             "slot": {
-                "id": "r_time",
+                "id": "time_r",
                 "label": "Time"
             }
         },
 		{
-            "id": "r_headhunt",
+            "id": "headhunt_r",
             "label": "干员寻访",
 			"icon": "headhunt",
             "description": "罗德岛需要更多的人手，我也一样。",

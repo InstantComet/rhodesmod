@@ -3,7 +3,7 @@
         {
             "id": "r_expeditionascensionheartb",
             "label": "Name of the Serpent, Name of the Sister",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "sendingheartb": 1
             },
@@ -17,7 +17,7 @@
         {
             "id": "r_expeditionascensionheartc",
             "label": "The Name of the Velvet",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "sendingheartc": 1
             },
@@ -31,7 +31,7 @@
         {
             "id": "r_expeditionascensionheartd",
             "label": "The Name of the Flowermaker",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "sendingheartd": 1
             },
@@ -46,7 +46,7 @@
         {
             "id": "r_expeditionascensionhearte",
             "label": "A Dance with the Vagabond",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "sendinghearte": 1
             },
@@ -60,7 +60,7 @@
         {
             "id": "r_expeditionascensionheartf",
             "label": "The Elegiast's Name",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "sendingheartf": 1
             },

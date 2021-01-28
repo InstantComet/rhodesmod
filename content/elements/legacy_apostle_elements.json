@@ -162,7 +162,7 @@
             "slots": [
                 {
                     "id": "r_blood",
-                    "actionid": "r_dream",
+                    "actionid": "dream_r",
                     "label": "Blood",
                     "required": {
                         "apostlegrail.pillarfuel": 1
@@ -348,7 +348,7 @@
                     "required": {
                         "apostlelantern.pillarfuel": 1
                     },
-                    "actionid": "r_dream"
+                    "actionid": "dream_r"
                 },
                 {
                     "id": "r_lanterninfluence",
@@ -356,7 +356,7 @@
                     "required": {
                         "influencelanterng": 1
                     },
-                    "actionid": "r_dream"
+                    "actionid": "dream_r"
                 }
             ],
             "description": "A pair of knotted roads beneath the shadow of a tree, and the eye of the Tricuspid Gate, close to the head of the Ascent of Knives. The Concursum's shadow? Its reflection? Its sister?",
@@ -375,7 +375,7 @@
                     "required": {
                         "fascination": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "description": "Once seen, the Allure clings. Few living souls will ever venture this far into the Mansus. I must employ a Maid-in-the-Mirror and show her the Allure, so that she will know to bring them here.",

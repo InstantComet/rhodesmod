@@ -111,7 +111,7 @@
                     "required": {
                         "apostleforge.mentor": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "aspects": {
@@ -129,7 +129,7 @@
                     "required": {
                         "apostlegrail.mentor": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "aspects": {
@@ -147,7 +147,7 @@
                     "required": {
                         "apostlelantern.mentor": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "aspects": {
@@ -168,7 +168,7 @@
                         "apostlegrail.mentor": 1,
                         "apostlelantern.mentor": 1
                     },
-                    "actionid": "r_study"
+                    "actionid": "study_r"
                 }
             ],
             "aspects": {

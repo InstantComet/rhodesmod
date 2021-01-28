@@ -4,7 +4,7 @@
         {
             "id": "r_workbytjobstart",
             "label": "A Golden Day of Occasional Work",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "legacybytjob": 1
             },
@@ -28,7 +28,7 @@
         {
             "id": "r_workbytjob",
             "label": "A Golden Day of Occasional Work",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "requirements": {
                 "legacybytjobmatured": 1
             },
@@ -49,7 +49,7 @@
         {
             "id": "r_workbytjobend",
             "label": "A Cloud on the Horizon",
-            "actionid": "r_work",
+            "actionid": "work_r",
             "startdescription": "Papa has summoned me! I must race to his bedside. All the family affairs are suspended, for now - ",
             "craftable": false,
             "effects": {
@@ -87,7 +87,7 @@
         {
             "id": "r_bytopenexplore",
             "label": "A World of Possibilities!",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "startdescription": "Some ripping sorts are introducing me to some ripping sorts of places.",
             "description": "If I ever have trouble deciding how to spend my money, the good people at these spots can certainly be of assistance!",
             "warmup": 10,
@@ -100,7 +100,7 @@
         {
             "id": "r_bytopenstudy",
             "label": "Puzzling Papers",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "startdescription": "I am to receive papers found among Papa's belongings, which might perhaps shed some sort of light on where exactly the hell all the money has gone.",
             "alt": [
                 {
@@ -120,7 +120,7 @@
         {
             "id": "r_bytstudydiary",
             "label": "Studying a Troubling Diary",
-            "actionid": "r_study",
+            "actionid": "study_r",
             "requirements": {
                 "legacydiarylastcharacter": 1
             },
@@ -144,7 +144,7 @@
         {
             "id": "r_bytopendream",
             "label": "The House without Walls",
-            "actionid": "r_dream",
+            "actionid": "dream_r",
             "alt": [
                 {
                     "id": "r_despairrisk",
@@ -164,7 +164,7 @@
         {
             "id": "r_bytopentalk",
             "label": "Summoning a Stranger",
-            "actionid": "r_talk",
+            "actionid": "talk_r",
             "startdescription": "I've contacted the individual named in this troubling document. I have little reason to believe they will be able to enlighten me on the nature of what went before. But perhaps they can help with what is to come.",
             "description": "My new acquaintance speaks authoritatively of Papa. He knew he was dying. He had hoped to taste unknown pleasures before his end - pleasures denied to healthy society. My new acquaintance suggests that I might finish what he began - that if I do so, I might save myself from the despair which haunts my family.",
             "effects": {

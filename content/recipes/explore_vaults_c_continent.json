@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaultcontinent1_setup",
             "label": "Beginning an Expedition: Chateau Raveline",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -27,7 +27,7 @@
         {
             "id": "r_explore_vaultcontinent2_setup",
             "label": "Beginning an Expedition: Fermier Abbey",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -51,7 +51,7 @@
         {
             "id": "r_explore_vaultcontinent3_setup",
             "label": "Beginning an Expedition: Orthos Wood",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -75,7 +75,7 @@
         {
             "id": "r_explore_vaultcontinent4_setup",
             "label": "Beginning an Expedition: the Vanderschaaf Collection",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -99,7 +99,7 @@
         {
             "id": "r_explore_vaultcontinent5_setup",
             "label": "Beginning an Expedition: Forman House",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -123,7 +123,7 @@
         {
             "id": "r_explore_vaultcontinent6_setup",
             "label": "Beginning an Expedition: the Key-Hunter's Garret",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -147,7 +147,7 @@
         {
             "id": "r_explore_vaultcontinentdefault_setup",
             "label": "Beginning an Expedition: the Unnumbered Stones",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "r_lmfunds": 1,
                 "r_operator": 1,
@@ -172,7 +172,7 @@
         {
             "id": "r_explorevaultcontinent1_success",
             "label": "Childhood's End",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent1": 1
             },
@@ -199,7 +199,7 @@
         {
             "id": "r_explorevaultcontinent2_success",
             "label": "Beneath the Boughs",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent2": 1
             },
@@ -227,7 +227,7 @@
         {
             "id": "r_explorevaultcontinent3_success",
             "label": "The Memory of Crows",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent3": 1
             },
@@ -253,7 +253,7 @@
         {
             "id": "r_explorevaultcontinent4_success",
             "label": "In the Painted Chamber",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent4": 1
             },
@@ -282,7 +282,7 @@
         {
             "id": "r_explorevaultcontinent5_success",
             "label": "The Casts",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent5": 1
             },
@@ -308,7 +308,7 @@
         {
             "id": "r_explorevaultcontinent6_success",
             "label": "Ashes Above",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinent6": 1
             },
@@ -334,7 +334,7 @@
         {
             "id": "r_explorevaultcontinentdefault_success",
             "label": "Beneath the Stone",
-            "actionid": "r_explore",
+            "actionid": "explore_r",
             "requirements": {
                 "vaultcontinentdefault": 1
             },
