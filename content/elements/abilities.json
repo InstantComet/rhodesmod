@@ -91,7 +91,7 @@
                 "r_illsanity": 1
             },
             "lifetime": 60,
-            "decayTo": "sanity",
+            "decayTo": "r_sanity",
             "icon": "sanity",
             "xtriggers": {},
             "slots": [
