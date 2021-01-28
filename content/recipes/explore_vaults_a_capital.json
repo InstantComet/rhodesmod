@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultcapital1_setup",
+            "id": "explore_vaultrhodes1_setup",
             "label": "Beginning an Expedition: Strathcoyne's Collection",
             "actionid": "explore_r",
             "requirements": {
@@ -24,7 +24,7 @@
             ]
         },
         {
-            "id": "explore_vaultcapital2_setup",
+            "id": "explore_vaultrhodes2_setup",
             "label": "Beginning an Expedition: the Forgotten Mithraeum",
             "actionid": "explore_r",
             "requirements": {
@@ -47,7 +47,7 @@
             ]
         },
         {
-            "id": "explore_vaultcapital3_setup",
+            "id": "explore_vaultrhodes3_setup",
             "label": "Beginning an Expedition: Cater & Hero Limited",
             "actionid": "explore_r",
             "requirements": {
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "id": "explore_vaultcapital4_setup",
+            "id": "explore_vaultrhodes4_setup",
             "label": "Beginning an Expedition: St Agnes Hospital",
             "actionid": "explore_r",
             "requirements": {
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "id": "explore_vaultcapital5_setup",
+            "id": "explore_vaultrhodes5_setup",
             "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
             "actionid": "explore_r",
             "requirements": {
@@ -116,7 +116,7 @@
             ]
         },
         {
-            "id": "explore_vaultcapitaldefault_setup",
+            "id": "explore_vaultrhodesdefault_setup",
             "label": "Beginning an Expedition: The Forsaken Reach",
             "actionid": "explore_r",
             "requirements": {
@@ -140,7 +140,7 @@
             ]
         },
         {
-            "id": "explorevaultcapital1_success",
+            "id": "explorevaultrhodes1_success",
             "label": "Strathcoyne's Treasures",
             "actionid": "explore_r",
             "requirements": {
@@ -167,7 +167,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcapital2_success",
+            "id": "explorevaultrhodes2_success",
             "label": "The Deeper Sanctuary",
             "actionid": "explore_r",
             "requirements": {
@@ -193,7 +193,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcapital3_success",
+            "id": "explorevaultrhodes3_success",
             "label": "Cater's Office",
             "actionid": "explore_r",
             "requirements": {
@@ -220,7 +220,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcapital4_success",
+            "id": "explorevaultrhodes4_success",
             "label": "The Violet Chamber",
             "actionid": "explore_r",
             "requirements": {
@@ -247,7 +247,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcapital5_success",
+            "id": "explorevaultrhodes5_success",
             "label": "Secret Devotions",
             "actionid": "explore_r",
             "requirements": {
@@ -275,13 +275,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "expedition.corpse.find.vaultcapital5",
+                    "id": "expedition.corpse.find.vaultrhodes5",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "explorevaultcapitaldefault_success",
+            "id": "explorevaultrhodesdefault_success",
             "label": "A Delayed Delivery",
             "actionid": "explore_r",
             "requirements": {

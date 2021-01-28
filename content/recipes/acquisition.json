@@ -157,7 +157,7 @@
             "warmup": 10
         },
         {
-            "id": "expedition.corpse.find.vaultcapital5",
+            "id": "expedition.corpse.find.vaultrhodes5",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "I should not neglect this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
@@ -228,7 +228,7 @@
             "warmup": 60
         },
         {
-            "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultrhodes5.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",

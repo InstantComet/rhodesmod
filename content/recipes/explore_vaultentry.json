@@ -270,31 +270,31 @@
             },
             "linked": [
                 {
-                    "id": "explorevaultcapital1_success",
+                    "id": "explorevaultrhodes1_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapital1_success",
+                    "id": "explorevaultrhodes1_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapital2_success",
+                    "id": "explorevaultrhodes2_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapital3_success",
+                    "id": "explorevaultrhodes3_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapital4_success",
+                    "id": "explorevaultrhodes4_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapital5_success",
+                    "id": "explorevaultrhodes5_success",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcapitaldefault_success",
+                    "id": "explorevaultrhodesdefault_success",
                     "chance": 100
                 },
                 {
