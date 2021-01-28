@@ -6,7 +6,7 @@
             "actionid": "work",
             "requirements": {
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "passion": 1,
                 "passionskill": -1
             },
@@ -60,7 +60,7 @@
             "requirements": {
                 "passionskill": 1,
                 "ritual": -1,
-                "job": -1
+                "r_job": -1
             },
             "slots": [
                 {

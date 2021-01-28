@@ -5,7 +5,7 @@
             "label": "A Contract at the Gaiety",
             "description": "I have a position in the chorus at the Gaiety. It's mine until my luck or my looks run out... or until I find something better.",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "dance": 1,
                 "potentialbenefactorm": 1,
                 "potentialbenefactorf": 1,
@@ -14,7 +14,7 @@
             "lifetime": 120,
             "decayTo": "legacydancerjob_suspended",
             "xtriggers": {
-                "job": "legacydancerjob"
+                "r_job": "legacydancerjob"
             },
             "slots": [
                 {
@@ -32,7 +32,7 @@
             "label": "A Contract at the Gaiety: Suspended",
             "description": "I've missed too many performances. If I plead convincingly enough, I might get my job back.",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "lifetime": 300,
             "xtriggers": {
@@ -116,7 +116,7 @@
                 }
             ],
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }
@@ -179,7 +179,7 @@
                 }
             ],
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }
@@ -253,7 +253,7 @@
                 }
             ],
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }

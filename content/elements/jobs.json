@@ -4,7 +4,7 @@
             "id": "r_gloverandgloverjuniorjob",
             "label": "Junior Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "description": "My intellect should be put to better use! But the pay is better than labourer's work. [If you don't attend this job regularly, you might suffer a demotion.]",
             "xtriggers": {
@@ -18,7 +18,7 @@
             "id": "r_gloverandgloverjuniorjob_nodifficultbossa",
             "label": "Junior Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "description": "My intellect should be put to better use! But the pay is better than labourer's work. [If you don't attend this job regularly, you might suffer a demotion.]",
             "xtriggers": {
@@ -33,7 +33,7 @@
             "label": "A Position at Glover and Glover",
             "aspects": {
                 "annoyance": 1,
-                "job": 1
+                "r_job": 1
             },
             "description": "A position in Records under Mr Alden. I earn a little more; I stay a little later. Mr Alden always watches me closely. [If you don't attend this job regularly, you might suffer a demotion.]",
             "xtriggers": {
@@ -48,7 +48,7 @@
             "id": "r_gloverandglover_difficultbossa_gone_job",
             "label": "Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "description": "The man called Alden is gone. I may find matters easier when I return to work.",
             "comments": "interim job that immediately changes to standard one."
@@ -57,7 +57,7 @@
             "id": "r_gloverandgloverjob",
             "label": "Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "slots": [
                 {
@@ -82,7 +82,7 @@
             "id": "r_gloverandgloverjob_youngerglovergone",
             "label": "Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "slots": [
                 {
@@ -108,7 +108,7 @@
             "label": "Senior Position at Glover & Glover",
             "aspects": {
                 "annoyance": 1,
-                "job": 1
+                "r_job": 1
             },
             "slots": [
                 {
@@ -133,7 +133,7 @@
             "id": "r_gloverandgloverseniorjob_youngerglovergone",
             "label": "Senior Position at Glover & Glover",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "slots": [
                 {
@@ -157,7 +157,7 @@
         {
             "id": "r_gloverandglovertopjob",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "label": "Board Seat at Glover & Glover",
             "description": "The younger Glover's disappearance left a board seat empty. I now occupy it. [If you don't attend this job regularly, you might suffer a demotion.]",
@@ -170,7 +170,7 @@
         {
             "id": "r_gloverandglovertopjob_tainted",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "label": "Board Seat at Glover & Glover",
             "description": "Rumours of my esoteric interests have reached the ears of the elder Glover. This has left my position uncertain. [If you don't attend this job regularly, you might suffer a demotion.]",
@@ -183,7 +183,7 @@
         {
             "id": "r_gloverandgloverjuniorjob_demotion",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "demotion": 1
             },
             "label": "A Difficulty at Work: Demotion to a Junior Position",
@@ -205,7 +205,7 @@
         {
             "id": "r_gloverandgloverjuniorjob_nodifficultbossa_demotion",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "demotion": 1
             },
             "label": "A Difficulty at Work: Demotion to a Junior Position",
@@ -227,7 +227,7 @@
         {
             "id": "r_gloverandgloverjob_demotion",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "demotion": 1
             },
             "label": "A Difficulty at Work: Demotion",
@@ -249,7 +249,7 @@
         {
             "id": "r_gloverandgloverjob_youngerglovergone_demotion",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "demotion": 1
             },
             "label": "A Difficulty at Work: Demotion",
@@ -271,7 +271,7 @@
         {
             "id": "r_gloverandglovertopjob_tainted_demotion",
             "aspects": {
-                "job": 1,
+                "r_job": 1,
                 "demotion": 1
             },
             "label": "A Difficulty at Work: A Risk of Demotion",
@@ -293,7 +293,7 @@
         {
             "id": "r_institutephysicianjob",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "description": "Long hours; but good pay.",
             "label": "A Position at the Institute"
@@ -337,7 +337,7 @@
         {
             "id": "r_ghouljob.first",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "label": "A Convincing Spiritualist Routine",
             "description": "Sometimes, when I am particularly effective, the front row faints.",
@@ -358,7 +358,7 @@
         {
             "id": "r_ghouljob",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "label": "A Reputation as a Medium",
             "description": "Sometimes I speak in voices that even I do not expect.",
@@ -376,7 +376,7 @@
         {
             "id": "r_auctioneerjob",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "label": "A Position at Oriflamme's Auction House",
             "description": "",
@@ -385,7 +385,7 @@
         {
             "id": "r_priestjob",
             "aspects": {
-                "job": 1
+                "r_job": 1
             },
             "slots": [
                 {

@@ -7,7 +7,7 @@
             "requirements": {
                 "reason": 1,
                 "ritual": -1,
-                "job": -1
+                "r_job": -1
             },
             "effects": {
                 "gloverandgloverjuniorjob": 1
@@ -756,7 +756,7 @@
                 "health": 1,
                 "skillhealthd_strength": 1,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "effects": {
@@ -779,7 +779,7 @@
                 "health": 1,
                 "healthskill": 3,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "effects": {
@@ -802,7 +802,7 @@
                 "health": 1,
                 "healthskill": 2,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "effects": {
@@ -831,7 +831,7 @@
                 "health": 1,
                 "healthskill": 1,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "effects": {
@@ -853,7 +853,7 @@
             "requirements": {
                 "health": 1,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "aspects": {
@@ -890,7 +890,7 @@
             "requirements": {
                 "health": 1,
                 "ritual": -1,
-                "job": -1,
+                "r_job": -1,
                 "benefactor": -1
             },
             "effects": {

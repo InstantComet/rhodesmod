@@ -10,7 +10,7 @@
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
                     "ability": 1,
-                    "job": 1,
+                    "r_job": 1,
                     "ritual": 1,
                     "desire": 1,
                     "benefactor": 1

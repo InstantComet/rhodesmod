@@ -6,7 +6,7 @@
             "label": "This and That",
             "aspects": {
                 "benign": 1,
-                "job": 1
+                "r_job": 1
             }
         },
         {
@@ -15,7 +15,7 @@
             "label": "This and That",
             "aspects": {
                 "benign": 1,
-                "job": 1
+                "r_job": 1
             },
             "comments": "Exists to allow a switch to a longer cycle immediately after first use."
         },

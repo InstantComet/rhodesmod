@@ -1,6 +1,161 @@
 {
 	"elements": [
 		{
+			"id": "r_edge",
+			"label": "刃",
+			"description": "古人用兵器刺人而杀之，说：“非我也，刃也。”你很快会明白，这话说得没错。 [刃是关于搏杀、叛逆与争斗的力量。]",
+			"isAspect": true,
+			"noartneeded": true,
+			"icon": "edge"
+		},
+		{
+			"id": "r_forge",
+			"label": "铸",
+			"description": "铸庄严，沉重，不可撼动。[铸是关于坚守、毁灭与捍卫的力量。]",
+			"isAspect": true,
+			"icon": "forge"
+		},
+		{
+			"id": "r_grail",
+			"label": "杯",
+			"description": "传说圣子被钉死时，人们用他的餐杯去盛血。当满溢时，杯中淌出了泉与酒。[杯是关于治愈、祝福与救赎的力量。]",
+			"isAspect": true,
+			"icon": "grail",
+			"induces": [
+				{
+					"id": "r_grailinduction",
+					"chance": 5
+				}
+			]
+		},
+		{
+			"id": "r_heart",
+			"label": "心",
+			"description": "心是常开不败的花朵。听吧。藏匿在黑暗深邃的土壤里、它正在跳动。[心是生命的化身。心是关于激振、擢升与续存的力量。]",
+			"isAspect": true,
+			"icon": "heart",
+			"induces": []
+		},
+		{
+			"id": "r_knock",
+			"label": "启",
+			"description": "万物间皆存在联系。万物皆为一体。启是钥匙，而万物是一把锁。 [启是关于连接、拆分与瓦解的力量。它介于诸法则之中。]",
+			"isAspect": true,
+			"icon": "knock"
+		},
+		{
+			"id": "r_lantern",
+			"label": "灯",
+			"description": "父创造我。我澄澈如镜与窗。我为容器。容器中照进光。[灯是关于明识穷达、洞若观火与心无二用的力量。]",
+			"isAspect": true,
+			"icon": "lantern",
+			"induces": [
+				{
+					"id": "r_lanterninduction",
+					"chance": 5
+				}
+			]
+		},
+		{
+			"id": "r_moth",
+			"label": "蛾",
+			"isAspect": true,
+			"icon": "moth",
+			"description": "生命畏惧源石、就如同畏惧火。这是自然之理。可灰烬告诉我们，有一种生命的巡礼是越过死亡的。[法术与源石的结合是危险而野蛮的，如同飞蛾扑火。蛾是源自于追逐、拥抱与奋不顾身的力量。]",
+			"induces": [
+				{
+					"id": "r_mothinduction",
+					"chance": 10
+				}
+			]
+		},
+		{
+			"id": "r_winter",
+			"label": "冬",
+			"description": "“岁寒，然后知松柏之后凋也。”有一种人知晓。此谓之冬。 [冬是在模糊的生与死交界的边缘处使用的力量。它几乎不能被称之为一种力量，因为它的主人往往不一定能掌握。]",
+			"isAspect": true,
+			"icon": "winter"
+		},
+		{
+			"id": "r_ability",
+			"label": "能力",
+			"isAspect": true,
+			"description": "对我来说，就是使用理智的才能。",
+			"icon":"ability"
+		},
+		{
+			"id": "r_memory",
+			"label": "回忆",
+			"isAspect": true,
+			"description": "我们铭记死者，直至将其遗忘。",
+			"icon": "memory"
+		},
+		{
+			"id": "r_disaster",
+			"label": "天灾",
+			"description": "源石引发的各种灾害。",
+			"isAspect": true,
+			"icon": "disaster"
+		},
+		{
+			"id": "r_venerationtheresa",
+			"label": "崇敬：特蕾西娅",
+			"description": "该组织崇敬特蕾西娅之准则，我们以无罪女王之名贯彻她的遗志。",
+			"isAspect": true,
+			"icon": "r_venerationtheresa"
+		},
+		{
+			"id": "r_gift",
+			"label": "礼物",
+			"description": "也许可以展现诚意。",
+			"isAspect": true
+		},
+		{
+			"id": "r_vault",
+			"label": "藏宝地",
+			"description": "藏有一些珍贵之物。",
+			"isAspect": true
+		},
+		{
+			"id": "r_map",
+			"label": "指引",
+			"description": "一幅地图，几句提示，前往某处的指引。",
+			"isAspect": true,
+			"icon": "r_map"
+		},
+		{
+			"id": "r_secret",
+			"label": "秘密",
+			"description": "水面下的某物。",
+			"isAspect": true
+		},
+		{
+			"id": "r_food",
+			"label": "食物",
+			"description": "食物，能量。[使用可恢复理智]",
+			"isAspect": true
+		},
+		{
+			"id": "r_location",
+			"label": "地点",
+			"description": "一切事物皆有其所在之处，如此物位于此处。",
+			"isAspect": true,
+			"icon": "location"
+		},
+		{
+			"id": "r_terra_location",
+			"label": "位置",
+			"description": "这片大地上遥远的某处。",
+			"isAspect": true,
+			"icon": "location"
+		},
+		{
+			"id": "r_illsanity",
+			"label": "理智欠损",
+			"description": "也许我可以吃点东西，恢复理智。",
+			"isAspect": true
+		},
+		{
 			"id": "r_acquaintance",
 			"label": "Acquaintance",
 			"description": "Not yet a friend, nor yet an enemy.",
@@ -91,91 +246,10 @@
 			"isAspect": true
 		},
 		{
-			"id": "r_edge",
-			"label": "Edge",
-			"description": "All conquest occurs at the Edge. One who dwells there is blind, and cannot be wounded. Another is strong, and grows stronger. [Edge is the principle of battle and of struggle.]",
-			"isAspect": true,
-			"noartneeded": true
-		},
-		{
-			"id": "r_forge",
-			"label": "Forge",
-			"description": "'Fire', I once read, 'is the winter that warms and the spring that consumes.' [The principle of the Forge transforms and destroys.]",
-			"isAspect": true
-		},
-
-		{
-			"id": "r_grail",
-			"label": "Grail",
-			"description": "Hunger, lust, the drowning waters. [The principle of the Grail honours both the birth and the feast.]",
-			"isAspect": true,
-			"induces": [
-				{
-					"id": "r_grailinduction",
-					"chance": 5
-				}
-			]
-		},
-		{
-			"id": "r_heart",
-			"label": "Heart",
-			"description": "The Heart Relentless beats to protect the skin of the world we understand. [The Heart is the principle that continues and preserves.]",
-			"isAspect": true,
-			"induces": [
-				{
-					"id": "r_heartinduction",
-					"chance": 10
-				}
-			]
-		},
-		{
-			"id": "r_knock",
-			"label": "Knock",
-			"description": "The Knock permits no seal and no isolation. It thrusts us gleefully out of the safety of ignorance. [The Knock is the principle that opens doors and unseams barriers.]",
-			"isAspect": true
-		},
-		{
-			"id": "r_lantern",
-			"label": "Lantern",
-			"description": "'Life is a pure flame, and we live by an invisible Sun within us.' - Thomas Browne. [Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.]",
-			"isAspect": true,
-			"induces": [
-				{
-					"id": "r_lanterninduction",
-					"chance": 5
-				}
-			]
-		},
-		{
-			"id": "r_moth",
-			"label": "Moth",
-			"isAspect": true,
-			"description": "I knew a man who captured moths in a bell-jar. On nights like this, he would release them one by one to die in the candle. [Moth is the wild and perilous principle of chaos and yearning.]",
-			"induces": [
-				{
-					"id": "r_mothinduction",
-					"chance": 10
-				}
-			]
-		},
-		{
 			"id": "r_secrethistories",
 			"label": "Secret Histories",
 			"description": "History is the scar on the world's skin. [Secret Histories describe the unknown complexities of the world, and its many pasts.]",
 			"isAspect": true
-		},
-
-		{
-			"id": "r_winter",
-			"label": "Winter",
-			"description": "... [Winter is the principle of silence, of endings, and of those things that are not quite dead.]",
-			"isAspect": true
-		},
-		{
-			"id": "r_ability",
-			"label": "Ability",
-			"isAspect": true,
-			"description": "Brain or heart or hand or eye. Most of us are born with most of them."
 		},
 		{
 			"id": "r_scar",
@@ -197,7 +271,7 @@
 		},
 		{
 			"id": "r_job",
-			"label": "Job",
+			"label": "r_job",
 			"isAspect": true,
 			"description": "An arrangement to exchange one's life for money.",
 			"induces": [
@@ -511,13 +585,6 @@
 			"isHidden": true,
 			"noartneeded": true
 		},
-
-		{
-			"id": "r_memory",
-			"label": "Memory",
-			"isAspect": true,
-			"description": "We remember the dead, until we forget them."
-		},
 		{
 			"id": "r_language",
 			"label": "A Language",
@@ -636,30 +703,10 @@
 			"description": "A lightless well of solitude where I may experience grim insights.",
 			"isAspect": true
 		},
-
-		{
-			"id": "r_secret",
-			"label": "Secret",
-			"description": "This place is easily overlooked. [Use of this Headquarters will cause Reputation cards to disappear.]",
-			"isAspect": true,
-			"induces": [
-				{
-					"id": "r_secret.induction",
-					"chance": 30
-				}
-			]
-		},
 		{
 			"id": "r_sanctuary",
 			"label": "Sanctuary",
 			"description": "A space designed for contemplation and perhaps even peace.",
-			"isAspect": true
-		},
-
-		{
-			"id": "r_location",
-			"label": "Location",
-			"description": "Locations! Everything must be somewhere, and this is here.",
 			"isAspect": true
 		},
 		{
@@ -729,12 +776,6 @@
 			"id": "r_seal",
 			"label": "Seal",
 			"description": "Your progress is prevented.",
-			"isAspect": true
-		},
-		{
-			"id": "r_vault",
-			"label": "Vault",
-			"description": "There is something precious here.",
 			"isAspect": true
 		},
 		{

@@ -25,7 +25,7 @@
             "label": "Menial Employment",
             "description": "A precarious position as a hospital porter. Miserable, but it's all you can find just now.",
             "aspects": {
-                "job": 1
+                "r_job": 1
             }
         },
         {
