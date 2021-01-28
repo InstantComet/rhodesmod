@@ -105,6 +105,21 @@
                 "id": "r_time",
                 "label": "Time"
             }
+        },
+        {
+            "id": "r_headhunt",
+            "label": "干员寻访",
+			"icon": "headhunt",
+            "description": "罗德岛需要更多的人手，我也一样。",
+            "slot": {
+                "id": "r_hrtogo",
+                "label": "在哪里",
+                "description": "途径的区域，附近的移动城市，我们在整片大地上寻找志同道合之人。",
+                "required": {
+                    "r_location": 1
+                },
+                "forbidden": {}                
+            }
         }
     ]
 }
