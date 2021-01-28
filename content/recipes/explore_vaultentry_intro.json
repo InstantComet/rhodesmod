@@ -1,0 +1,89 @@
+{
+    "recipes": [
+        {
+            "id": "explorevault_expeditionbegun_intro",
+            "label": "The Expedition Sets Off",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes1": 1,
+            },
+            "startdescription": "这是第一次探险",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaulttick_intro",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "explorevaulttick_intro",
+            "comments": "Can't reach success until all the alternatives are unavailable. That means no obstacles, >0 followers and >0 funds.",
+            "label": "The Expedition Continues",
+            "actionid": "explore_r",
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "Assistance",
+                    "description": "Funds are essential for expeditions. Followers will defeat obstacles.",
+                    "required": {
+                        "operator": 1,
+                    }
+                }
+            ],
+            "startdescription": "Our expedition plans for the next challenge. It'll consume Funds; I can add Funds now, or I could send another Follower.",
+            "description": ".",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "explorevaultsuccesslink_intro",
+                    "chance": 100
+                },
+            ],
+            "effects": {
+            },
+            "linked": [
+                {
+                    "id": "explorevaultseal_hiddendoor_encounter_intro",
+                    "chance": 100
+                },
+            ],
+            "craftable": false
+        },
+        {
+            "id": "explorevaultsuccesslink_intro",
+            "label": "Treasures Lie Before Us",
+            "requirements": {
+                "peril": -1,
+                "seal": -1,
+                "guardian": -1,
+                "curse": -1
+            },
+            "actionid": "explore_r",
+            "comments": "Separate recipe link to remove the confusing slot from Success, next.",
+            "linked": [
+                {
+                    "id": "explorevaultsuccess_intro",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultsuccess_intro",
+            "label": "Treasures Lie Before Us",
+            "actionid": "explore_r",
+            "startdescription": "Success! I'll know more soon...",
+            "description": ".",
+            "effects": {
+                "notoriety": 1
+            },
+            "linked": [
+                {
+                    "id": "explorevaultrhodes1_success",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}

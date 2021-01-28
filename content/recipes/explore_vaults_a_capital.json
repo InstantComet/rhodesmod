@@ -6,11 +6,10 @@
             "actionid": "explore_r",
             "requirements": {
                 "vaultrhodes1": 1,
-                "lmfunds": 1,
                 "operator": 1
             },
             "effects": {
-                "guardian_watchers": 1
+                "seal_hiddendoor_intro": 1
             },
             "startdescription": "Mr Strathcoyne has forbidden entry to his library. Unfortunate. Let's see what we can do. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
             "description": ".",
@@ -18,7 +17,7 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun_intro",
                     "chance": 100
                 }
             ]

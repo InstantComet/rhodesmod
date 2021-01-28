@@ -131,6 +131,12 @@
 			"isAspect": true
 		},
 		{
+			"id": "introvault",
+			"label": "藏宝地",
+			"description": "藏有一些珍贵之物。",
+			"isAspect": true
+		},
+		{
 			"id": "vault",
 			"label": "藏宝地",
 			"description": "藏有一些珍贵之物。",

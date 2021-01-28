@@ -2,17 +2,17 @@
     "elements": [
         {
             "id": "vaultrhodes1",
-            "label": "Strathcoyne's Residence",
+            "label": "罗德岛内部构造（浅层）",
             "aspects": {
-                "vault": 1,
+                "introvault": 1,
                 "location": 1,
                 "vaultrhodes": 1
             },
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "领队",
+                    "description": "我需要至少派出一名干员才能开始探险。之后可以再追加人数。",
                     "required": {
                         "operator": 1
                     },
@@ -20,33 +20,15 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "援手",
+                    "description": "现在，如果认为追加人手有用，我可以选择再派出其他干员。",
                     "required": {
                         "operator": 1
                     },
                     "actionid": "explore_r"
-                },
-                {
-                    "id": "expeditionfunds",
-                    "label": "lmfunds",
-                    "description": "I must have at least one Funds to begin the expedition.",
-                    "required": {
-                        "lmfunds": 1
-                    },
-                    "actionid": "explore_r"
-                },
-                {
-                    "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
-                    "required": {
-                        "lmfunds": 1
-                    },
-                    "actionid": "explore_r"
                 }
             ],
-            "description": "The house of Mr Strathcoyne, a collector of rare objects. Strathcoyne will not sell his treasures. But a sufficiently cunning accomplice might gain entry.",
+            "description": "罗德岛废弃内部构造的浅层部分，我们需要尽快前往指挥中枢。",
             "unique": true
         },
         {
