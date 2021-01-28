@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studyupgrade_downgrade_lore_hint",
+            "id": "r_studyupgrade_downgrade_lore_hint",
             "label": "Improve my Knowledge of the invisible arts?",
             "actionid": "study",
             "requirements": {
@@ -23,7 +23,7 @@
             "hintonly": true
         },
         {
-            "id": "studyupgradelore_hint",
+            "id": "r_studyupgradelore_hint",
             "label": "Improve my Knowledge of the invisible arts?",
             "actionid": "study",
             "requirements": {
@@ -37,7 +37,7 @@
             "hintonly": true
         },
         {
-            "id": "studyprealzabo_hint",
+            "id": "r_studyprealzabo_hint",
             "label": "A Bold Experiment",
             "actionid": "study",
             "requirements": {
@@ -48,7 +48,7 @@
             "hintonly": true
         },
         {
-            "id": "studyalzabo_hint",
+            "id": "r_studyalzabo_hint",
             "label": "The Feast of the Honeyed Dove",
             "actionid": "study",
             "requirements": {
@@ -59,7 +59,7 @@
             "hintonly": true
         },
         {
-            "id": "translatelatinhint",
+            "id": "r_translatelatinhint",
             "label": "Translate from Latin?",
             "actionid": "study",
             "requirements": {
@@ -70,7 +70,7 @@
             "craftable": false
         },
         {
-            "id": "translategreekhint",
+            "id": "r_translategreekhint",
             "label": "Translate from Greek?",
             "actionid": "study",
             "requirements": {
@@ -81,7 +81,7 @@
             "craftable": false
         },
         {
-            "id": "translatearamaichint",
+            "id": "r_translatearamaichint",
             "label": "Translate from Aramaic?",
             "actionid": "study",
             "requirements": {
@@ -92,7 +92,7 @@
             "craftable": false
         },
         {
-            "id": "translatesanskrithint",
+            "id": "r_translatesanskrithint",
             "label": "Translate from Sanskrit?",
             "actionid": "study",
             "requirements": {
@@ -103,7 +103,7 @@
             "craftable": false
         },
         {
-            "id": "translatefucinehint",
+            "id": "r_translatefucinehint",
             "label": "Translate from Fucine?",
             "actionid": "study",
             "requirements": {
@@ -114,7 +114,7 @@
             "craftable": false
         },
         {
-            "id": "translatephrygianhint",
+            "id": "r_translatephrygianhint",
             "label": "Translate from Phrygian?",
             "actionid": "study",
             "requirements": {
@@ -125,7 +125,7 @@
             "craftable": false
         },
         {
-            "id": "translatemandaichint",
+            "id": "r_translatemandaichint",
             "label": "Translate from Deep Mandaic?",
             "actionid": "study",
             "requirements": {
@@ -136,7 +136,7 @@
             "craftable": false
         },
         {
-            "id": "translatevakhint",
+            "id": "r_translatevakhint",
             "label": "Translate from Vak?",
             "actionid": "study",
             "requirements": {
@@ -147,7 +147,7 @@
             "craftable": false
         },
         {
-            "id": "studyincreasehealthskilld_wronglore",
+            "id": "r_studyincreasehealthskilld_wronglore",
             "label": "Exercise the Body: Secret Techniques?",
             "actionid": "study",
             "requirements": {
@@ -160,7 +160,7 @@
             "craftable": false
         },
         {
-            "id": "increasehealthfurtherhint",
+            "id": "r_increasehealthfurtherhint",
             "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
@@ -171,7 +171,7 @@
             "craftable": false
         },
         {
-            "id": "increasereasonfurtherhint",
+            "id": "r_increasereasonfurtherhint",
             "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
@@ -182,7 +182,7 @@
             "craftable": false
         },
         {
-            "id": "increasepassionfurtherhint",
+            "id": "r_increasepassionfurtherhint",
             "label": "Increase my Passion?",
             "actionid": "study",
             "requirements": {
@@ -193,7 +193,7 @@
             "craftable": false
         },
         {
-            "id": "studyupgradeinfluences.apostlelanternhint",
+            "id": "r_studyupgradeinfluences.apostlelanternhint",
             "label": "Maintaining a Marvel",
             "actionid": "study",
             "requirements": {
@@ -204,7 +204,7 @@
             "craftable": false
         },
         {
-            "id": "studyupgradeinfluenceshint2",
+            "id": "r_studyupgradeinfluenceshint2",
             "label": "Upgrade Influences?",
             "actionid": "study",
             "requirements": {
@@ -219,7 +219,7 @@
             "craftable": false
         },
         {
-            "id": "increasehealthfurtherhintpluswithskillneedslore",
+            "id": "r_increasehealthfurtherhintpluswithskillneedslore",
             "label": "Increase my Skill to something extraordinary?",
             "actionid": "study",
             "requirements": {
@@ -231,7 +231,7 @@
             "craftable": false
         },
         {
-            "id": "increasehealthfurtherhintpluswithskill",
+            "id": "r_increasehealthfurtherhintpluswithskill",
             "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
@@ -243,7 +243,7 @@
             "craftable": false
         },
         {
-            "id": "increasehealthfurtherhintplus",
+            "id": "r_increasehealthfurtherhintplus",
             "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
@@ -254,7 +254,7 @@
             "craftable": false
         },
         {
-            "id": "increasehealthfurtherhint1",
+            "id": "r_increasehealthfurtherhint1",
             "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
@@ -265,7 +265,7 @@
             "craftable": false
         },
         {
-            "id": "increasereasonfurtherhintpluswithskillneedslore",
+            "id": "r_increasereasonfurtherhintpluswithskillneedslore",
             "label": "Increase my Skill to something extraordinary?",
             "actionid": "study",
             "requirements": {
@@ -277,7 +277,7 @@
             "craftable": false
         },
         {
-            "id": "increasereasonfurtherhintpluswithskill",
+            "id": "r_increasereasonfurtherhintpluswithskill",
             "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
@@ -289,7 +289,7 @@
             "craftable": false
         },
         {
-            "id": "increasereasonfurtherhintplus",
+            "id": "r_increasereasonfurtherhintplus",
             "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
@@ -300,7 +300,7 @@
             "craftable": false
         },
         {
-            "id": "increasereasonfurtherhint1",
+            "id": "r_increasereasonfurtherhint1",
             "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
@@ -311,7 +311,7 @@
             "craftable": false
         },
         {
-            "id": "increasepassionfurtherhintpluswithskillneedslore",
+            "id": "r_increasepassionfurtherhintpluswithskillneedslore",
             "label": "Increase my Skill to something extraordinary?",
             "actionid": "study",
             "requirements": {
@@ -323,7 +323,7 @@
             "craftable": false
         },
         {
-            "id": "increasepassionfurtherhintpluswithskill",
+            "id": "r_increasepassionfurtherhintpluswithskill",
             "label": "Increase my passion?",
             "actionid": "study",
             "requirements": {
@@ -335,7 +335,7 @@
             "craftable": false
         },
         {
-            "id": "increasepassionfurtherhintplus",
+            "id": "r_increasepassionfurtherhintplus",
             "label": "Increase my passion?",
             "actionid": "study",
             "requirements": {
@@ -346,7 +346,7 @@
             "craftable": false
         },
         {
-            "id": "increasepassionfurtherhint1",
+            "id": "r_increasepassionfurtherhint1",
             "label": "Increase my Passion?",
             "actionid": "study",
             "requirements": {
@@ -357,7 +357,7 @@
             "craftable": false
         },
         {
-            "id": "studyrestlessnesshint",
+            "id": "r_studyrestlessnesshint",
             "label": "Study Restlessness?",
             "actionid": "study",
             "requirements": {
@@ -368,7 +368,7 @@
             "craftable": false
         },
         {
-            "id": "studyupgradeinfluenceshint1",
+            "id": "r_studyupgradeinfluenceshint1",
             "label": "Upgrade Influences?",
             "actionid": "study",
             "requirements": {

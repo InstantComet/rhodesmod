@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultloneandlevelsands1_setup",
+            "id": "r_explore_vaultloneandlevelsands1_setup",
             "label": "Beginning an Expedition: the Star-Shattered Fane",
             "actionid": "explore",
             "requirements": {
@@ -20,13 +20,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultloneandlevelsands2_setup",
+            "id": "r_explore_vaultloneandlevelsands2_setup",
             "label": "Beginning an Expedition: Lagun's Tomb",
             "actionid": "explore",
             "requirements": {
@@ -45,13 +45,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultloneandlevelsands3_setup",
+            "id": "r_explore_vaultloneandlevelsands3_setup",
             "label": "Beginning an Expedition: Messana",
             "actionid": "explore",
             "requirements": {
@@ -70,13 +70,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultloneandlevelsands4_setup",
+            "id": "r_explore_vaultloneandlevelsands4_setup",
             "label": "Beginning an Expedition: the Temple of Seven Coils",
             "actionid": "explore",
             "requirements": {
@@ -95,13 +95,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultloneandlevelsandsdefault_setup",
+            "id": "r_explore_vaultloneandlevelsandsdefault_setup",
             "label": "Beginning an Expedition: Miah",
             "actionid": "explore",
             "requirements": {
@@ -121,13 +121,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultloneandlevelsands1_success",
+            "id": "r_explorevaultloneandlevelsands1_success",
             "label": "The Opening Stone",
             "actionid": "explore",
             "requirements": {
@@ -153,7 +153,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultloneandlevelsands2_success",
+            "id": "r_explorevaultloneandlevelsands2_success",
             "label": "Lagun's End",
             "actionid": "explore",
             "requirements": {
@@ -180,13 +180,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "expedition.corpse.find.vaultloneandlevelsands2",
+                    "id": "r_expedition.corpse.find.vaultloneandlevelsands2",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "explorevaultloneandlevelsands3_success",
+            "id": "r_explorevaultloneandlevelsands3_success",
             "label": "A Long Feast",
             "actionid": "explore",
             "requirements": {
@@ -211,7 +211,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultloneandlevelsands4_success",
+            "id": "r_explorevaultloneandlevelsands4_success",
             "label": "The Coils of God",
             "actionid": "explore",
             "requirements": {
@@ -238,7 +238,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultloneandlevelsandsdefault_success",
+            "id": "r_explorevaultloneandlevelsandsdefault_success",
             "label": "The City No More",
             "actionid": "explore",
             "requirements": {
@@ -256,11 +256,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "expeditionascensionmothe",
+                    "id": "r_expeditionascensionmothe",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionhearte",
+                    "id": "r_expeditionascensionhearte",
                     "chance": 100
                 }
             ]

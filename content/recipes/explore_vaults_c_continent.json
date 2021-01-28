@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultcontinent1_setup",
+            "id": "r_explore_vaultcontinent1_setup",
             "label": "Beginning an Expedition: Chateau Raveline",
             "actionid": "explore",
             "requirements": {
@@ -19,13 +19,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinent2_setup",
+            "id": "r_explore_vaultcontinent2_setup",
             "label": "Beginning an Expedition: Fermier Abbey",
             "actionid": "explore",
             "requirements": {
@@ -43,13 +43,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinent3_setup",
+            "id": "r_explore_vaultcontinent3_setup",
             "label": "Beginning an Expedition: Orthos Wood",
             "actionid": "explore",
             "requirements": {
@@ -67,13 +67,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinent4_setup",
+            "id": "r_explore_vaultcontinent4_setup",
             "label": "Beginning an Expedition: the Vanderschaaf Collection",
             "actionid": "explore",
             "requirements": {
@@ -91,13 +91,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinent5_setup",
+            "id": "r_explore_vaultcontinent5_setup",
             "label": "Beginning an Expedition: Forman House",
             "actionid": "explore",
             "requirements": {
@@ -115,13 +115,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinent6_setup",
+            "id": "r_explore_vaultcontinent6_setup",
             "label": "Beginning an Expedition: the Key-Hunter's Garret",
             "actionid": "explore",
             "requirements": {
@@ -139,13 +139,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultcontinentdefault_setup",
+            "id": "r_explore_vaultcontinentdefault_setup",
             "label": "Beginning an Expedition: the Unnumbered Stones",
             "actionid": "explore",
             "requirements": {
@@ -164,13 +164,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcontinent1_success",
+            "id": "r_explorevaultcontinent1_success",
             "label": "Childhood's End",
             "actionid": "explore",
             "requirements": {
@@ -197,7 +197,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinent2_success",
+            "id": "r_explorevaultcontinent2_success",
             "label": "Beneath the Boughs",
             "actionid": "explore",
             "requirements": {
@@ -225,7 +225,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinent3_success",
+            "id": "r_explorevaultcontinent3_success",
             "label": "The Memory of Crows",
             "actionid": "explore",
             "requirements": {
@@ -251,7 +251,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinent4_success",
+            "id": "r_explorevaultcontinent4_success",
             "label": "In the Painted Chamber",
             "actionid": "explore",
             "requirements": {
@@ -280,7 +280,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinent5_success",
+            "id": "r_explorevaultcontinent5_success",
             "label": "The Casts",
             "actionid": "explore",
             "requirements": {
@@ -306,7 +306,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinent6_success",
+            "id": "r_explorevaultcontinent6_success",
             "label": "Ashes Above",
             "actionid": "explore",
             "requirements": {
@@ -332,7 +332,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultcontinentdefault_success",
+            "id": "r_explorevaultcontinentdefault_success",
             "label": "Beneath the Stone",
             "actionid": "explore",
             "requirements": {
@@ -350,11 +350,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "expeditionascensionheartc",
+                    "id": "r_expeditionascensionheartc",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionmothc",
+                    "id": "r_expeditionascensionmothc",
                     "chance": 100
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "fervour",
+            "id": "r_fervour",
             "label": "Fervour",
             "aspects": {
                 "influence": 1,
@@ -12,7 +12,7 @@
             "decayTo": "dread"
         },
         {
-            "id": "lockscaredge",
+            "id": "r_lockscaredge",
             "label": "Edge-Lock Scar",
             "description": "When I am Threshold, this scar will open beneath a blade's touch.",
             "aspects": {
@@ -26,7 +26,7 @@
             }
         },
         {
-            "id": "lockscarforge",
+            "id": "r_lockscarforge",
             "label": "Forge-Lock Scar",
             "description": "When I am Threshold, this scar will open to the touch of hot iron.",
             "aspects": {
@@ -40,7 +40,7 @@
             }
         },
         {
-            "id": "lockscargrail",
+            "id": "r_lockscargrail",
             "label": "Grail-Lock Scar",
             "description": "When I am Threshold, this scar will open to a fervent kiss.",
             "aspects": {
@@ -54,7 +54,7 @@
             }
         },
         {
-            "id": "lockscarheart",
+            "id": "r_lockscarheart",
             "label": "Heart-Lock Scar",
             "description": "When I am Threshold, this scar will open at the beat of the drum.",
             "aspects": {
@@ -68,7 +68,7 @@
             }
         },
         {
-            "id": "lockscarlantern",
+            "id": "r_lockscarlantern",
             "label": "Lantern-Lock Scar",
             "description": "When I am Threshold, this scar will open at the flush of dawn.",
             "aspects": {
@@ -82,7 +82,7 @@
             }
         },
         {
-            "id": "lockscarmoth",
+            "id": "r_lockscarmoth",
             "label": "Moth-Lock Scar",
             "description": "When I am Threshold, this scar will answer to the scissors.",
             "aspects": {
@@ -96,7 +96,7 @@
             }
         },
         {
-            "id": "lockscarwinter",
+            "id": "r_lockscarwinter",
             "label": "Winter-Lock Scar",
             "description": "When I am Threshold, this scar will open last.",
             "aspects": {
@@ -110,7 +110,7 @@
             }
         },
         {
-            "id": "openedlockscaredge",
+            "id": "r_openedlockscaredge",
             "label": "Edge-Lock Scar",
             "description": "When I am Threshold, this scar will open beneath a blade's touch.",
             "aspects": {
@@ -124,7 +124,7 @@
             "icon": "lockscaredge"
         },
         {
-            "id": "openedlockscarforge",
+            "id": "r_openedlockscarforge",
             "label": "Forge-Lock Scar",
             "description": "When I am Threshold, this scar will open to the touch of hot iron.",
             "aspects": {
@@ -138,7 +138,7 @@
             "icon": "lockscarforge"
         },
         {
-            "id": "openedlockscargrail",
+            "id": "r_openedlockscargrail",
             "label": "Grail-Lock Scar",
             "description": "When I am Threshold, this scar will open to a fervent kiss.",
             "aspects": {
@@ -152,7 +152,7 @@
             "icon": "lockscargrail"
         },
         {
-            "id": "openedlockscarheart",
+            "id": "r_openedlockscarheart",
             "label": "Heart-Lock Scar",
             "description": "When I am Threshold, this scar will open at the beat of the drum.",
             "aspects": {
@@ -166,7 +166,7 @@
             "icon": "lockscarheart"
         },
         {
-            "id": "openedlockscarlantern",
+            "id": "r_openedlockscarlantern",
             "label": "Lantern-Lock Scar",
             "description": "When I am Threshold, this scar will open at the flush of dawn.",
             "aspects": {
@@ -180,7 +180,7 @@
             "icon": "lockscarlantern"
         },
         {
-            "id": "openedlockscarmoth",
+            "id": "r_openedlockscarmoth",
             "label": "Moth-Lock Scar",
             "description": "When I am Threshold, this scar will answer to the scissors.",
             "aspects": {
@@ -194,7 +194,7 @@
             "icon": "lockscarmoth"
         },
         {
-            "id": "openedlockscarwinter",
+            "id": "r_openedlockscarwinter",
             "label": "Winter-Lock Scar",
             "description": "When I am Threshold, this scar will open last.",
             "aspects": {
@@ -208,7 +208,7 @@
             "icon": "lockscarwinter"
         },
         {
-            "id": "devotee_edge",
+            "id": "r_devotee_edge",
             "label": "A Sturdy Worshipper",
             "aspects": {
                 "mortal": 1,
@@ -227,7 +227,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_forge",
+            "id": "r_devotee_forge",
             "label": "A Practical Worshipper",
             "aspects": {
                 "mortal": 1,
@@ -247,7 +247,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_grail",
+            "id": "r_devotee_grail",
             "label": "An Avid Worshipper",
             "aspects": {
                 "mortal": 1,
@@ -267,7 +267,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_heart",
+            "id": "r_devotee_heart",
             "label": "A Lively Worshipper ",
             "aspects": {
                 "mortal": 1,
@@ -287,7 +287,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_knock",
+            "id": "r_devotee_knock",
             "label": "A Dextrous Worshipper ",
             "aspects": {
                 "mortal": 1,
@@ -307,7 +307,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_lantern",
+            "id": "r_devotee_lantern",
             "label": "A Percipient Worshipper",
             "aspects": {
                 "mortal": 1,
@@ -327,7 +327,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_moth",
+            "id": "r_devotee_moth",
             "label": "An Erratic Worshipper",
             "aspects": {
                 "mortal": 1,
@@ -347,7 +347,7 @@
             "lifetime": 180
         },
         {
-            "id": "devotee_winter",
+            "id": "r_devotee_winter",
             "label": "A Silent Worshipper",
             "aspects": {
                 "mortal": 1,

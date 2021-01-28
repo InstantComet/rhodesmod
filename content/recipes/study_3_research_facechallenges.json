@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studyresearch.entrypoint",
+            "id": "r_studyresearch.entrypoint",
             "actionid": "study",
             "label": "Into the Night",
             "startdescription": "Wisdom is a country, and these are its maps. [Solve all the challenges on both fragments of lore to complete a research task. You can return to a task later, if you fail.]",
@@ -14,45 +14,45 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve",
+            "id": "r_studyresearch.attemptsolve",
             "actionid": "study",
             "label": "Into the Night",
             "startdescription": "Wisdom is a country, and these are its maps. [Solve all the challenges on both fragments of lore to complete a research task. You can return to a task later, if you fail.]",
             "linked": [
                 {
-                    "id": "studyresearch.nochallengesremaining"
+                    "id": "r_studyresearch.nochallengesremaining"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.knowledge"
+                    "id": "r_studyresearch.attemptsolve.challenge.knowledge"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.intuition"
+                    "id": "r_studyresearch.attemptsolve.challenge.intuition"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.grim"
+                    "id": "r_studyresearch.attemptsolve.challenge.grim"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.obsessive"
+                    "id": "r_studyresearch.attemptsolve.challenge.obsessive"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.paradox"
+                    "id": "r_studyresearch.attemptsolve.challenge.paradox"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.illumination"
+                    "id": "r_studyresearch.attemptsolve.challenge.illumination"
                 },
                 {
-                    "id": "studyresearch.attemptsolve.challenge.practical"
+                    "id": "r_studyresearch.attemptsolve.challenge.practical"
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.knowledge",
+            "id": "r_studyresearch.attemptsolve.challenge.knowledge",
             "actionid": "study",
             "label": "A Challenge: Knowledge",
             "requirements": {
@@ -61,7 +61,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Erudition, or use a Library.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "erudition": 1,
@@ -73,15 +73,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.knowledge"
+                    "id": "r_studyresearch.failed.challenge.knowledge"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.knowledge"
+                    "id": "r_studyresearch.solved.challenge.knowledge"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.knowledge",
+            "id": "r_studyresearch.failed.challenge.knowledge",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -92,7 +92,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.knowledge",
+            "id": "r_studyresearch.solved.challenge.knowledge",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved a Knowledge challenge.]",
@@ -109,13 +109,13 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.intuition",
+            "id": "r_studyresearch.attemptsolve.challenge.intuition",
             "actionid": "study",
             "label": "A Challenge: Intuition",
             "requirements": {
@@ -124,7 +124,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Glimmering, or use a Sanctuary.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "glimmering": 1,
@@ -136,15 +136,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.intuition"
+                    "id": "r_studyresearch.failed.challenge.intuition"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.intuition"
+                    "id": "r_studyresearch.solved.challenge.intuition"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.intuition",
+            "id": "r_studyresearch.failed.challenge.intuition",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -155,7 +155,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.intuition",
+            "id": "r_studyresearch.solved.challenge.intuition",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved an Intuition challenge.]",
@@ -172,13 +172,13 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.grim",
+            "id": "r_studyresearch.attemptsolve.challenge.grim",
             "actionid": "study",
             "label": "A Challenge: Grim Lessons",
             "requirements": {
@@ -187,7 +187,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Dread, use a Pit, or use the Silent Intensity skill. Dread may breed.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "dread": 1,
@@ -200,15 +200,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.grim"
+                    "id": "r_studyresearch.failed.challenge.grim"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.grim"
+                    "id": "r_studyresearch.solved.challenge.grim"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.grim",
+            "id": "r_studyresearch.failed.challenge.grim",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -220,7 +220,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.grim",
+            "id": "r_studyresearch.solved.challenge.grim",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved a Grim challenge.]",
@@ -234,20 +234,20 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "dreadinduction_ifdread",
+                    "id": "r_dreadinduction_ifdread",
                     "chance": 70,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.obsessive",
+            "id": "r_studyresearch.attemptsolve.challenge.obsessive",
             "actionid": "study",
             "label": "A Challenge: Obsessive Research",
             "requirements": {
@@ -256,7 +256,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Surrender your Reason, which may occasionally be permanently damaged; or use a Library; or use Never-No skill.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "reason": 1,
@@ -269,15 +269,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.obsessive"
+                    "id": "r_studyresearch.failed.challenge.obsessive"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.obsessive"
+                    "id": "r_studyresearch.solved.challenge.obsessive"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.obsessive",
+            "id": "r_studyresearch.failed.challenge.obsessive",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -289,7 +289,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.obsessive",
+            "id": "r_studyresearch.solved.challenge.obsessive",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved an Obsessive challenge.]",
@@ -306,17 +306,17 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.damagereason",
+                    "id": "r_studyresearch.damagereason",
                     "chance": 10
                 },
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.damagereason",
+            "id": "r_studyresearch.damagereason",
             "actionid": "study",
             "label": "Obsession's Burden",
             "startdescription": "I have sharpened my thoughts like a blade. Now the point of that blade has snapped. [Reason has been permanently damaged.]",
@@ -329,13 +329,13 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.paradox",
+            "id": "r_studyresearch.attemptsolve.challenge.paradox",
             "actionid": "study",
             "label": "A Challenge: Paradoxical Resolution",
             "requirements": {
@@ -344,7 +344,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Surrender Passion, which might occasionally be damaged; use a Sanctuary; or use an Open Soul skill.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "passion": 1,
@@ -357,15 +357,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.paradox"
+                    "id": "r_studyresearch.failed.challenge.paradox"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.paradox"
+                    "id": "r_studyresearch.solved.challenge.paradox"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.paradox",
+            "id": "r_studyresearch.failed.challenge.paradox",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -377,7 +377,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.paradox",
+            "id": "r_studyresearch.solved.challenge.paradox",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved a Paradoxical challenge.]",
@@ -394,17 +394,17 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.damagepassion",
+                    "id": "r_studyresearch.damagepassion",
                     "chance": 10
                 },
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.damagepassion",
+            "id": "r_studyresearch.damagepassion",
             "actionid": "study",
             "label": "The Labyrinth's Heart",
             "startdescription": "I followed my passions through the labyrinth, and here I am at its heart. The heart of the labyrinth is a black and hollow place, charred like wood. [Passion has been permanently damaged.]",
@@ -417,13 +417,13 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.illumination",
+            "id": "r_studyresearch.attemptsolve.challenge.illumination",
             "actionid": "study",
             "label": "A Challenge: Illumination",
             "requirements": {
@@ -432,7 +432,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Fascination, which may breed; use a Library; or employ a Rarefied Mind skill.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "fascination": 1,
@@ -445,15 +445,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.illumination"
+                    "id": "r_studyresearch.failed.challenge.illumination"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.illumination"
+                    "id": "r_studyresearch.solved.challenge.illumination"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.illumination",
+            "id": "r_studyresearch.failed.challenge.illumination",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -465,7 +465,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.illumination",
+            "id": "r_studyresearch.solved.challenge.illumination",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved an Illumination challenge.]",
@@ -479,20 +479,20 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "fascinationinduction_iffascination",
+                    "id": "r_fascinationinduction_iffascination",
                     "chance": 70,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.attemptsolve.challenge.practical",
+            "id": "r_studyresearch.attemptsolve.challenge.practical",
             "actionid": "study",
             "label": "A Challenge: Practical Experimentation",
             "requirements": {
@@ -501,7 +501,7 @@
             "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Risk your Health, or use a Prisoner.]",
             "slots": [
                 {
-                    "id": "solvechallenge",
+                    "id": "r_solvechallenge",
                     "label": "Solution",
                     "required": {
                         "health": 1,
@@ -513,15 +513,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearch.failed.challenge.practical"
+                    "id": "r_studyresearch.failed.challenge.practical"
                 },
                 {
-                    "id": "studyresearch.solved.challenge.practical"
+                    "id": "r_studyresearch.solved.challenge.practical"
                 }
             ]
         },
         {
-            "id": "studyresearch.failed.challenge.practical",
+            "id": "r_studyresearch.failed.challenge.practical",
             "actionid": "study",
             "label": "Balked!",
             "startdescription": "My studies have been stymied, for now.",
@@ -532,7 +532,7 @@
             "warmup": 30
         },
         {
-            "id": "studyresearch.solved.challenge.practical",
+            "id": "r_studyresearch.solved.challenge.practical",
             "actionid": "study",
             "label": "Aha - !",
             "startdescription": " - there it is. Is that it? [You have resolved a Practical challenge.]",
@@ -549,17 +549,17 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.damagehealth",
+                    "id": "r_studyresearch.damagehealth",
                     "chance": 30
                 },
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.damagehealth",
+            "id": "r_studyresearch.damagehealth",
             "actionid": "study",
             "label": "The Damage",
             "startdescription": "Pain is a teacher, they say, especially if they aren't in pain. [Health has been injured.]",
@@ -572,13 +572,13 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearch.attemptsolve",
+                    "id": "r_studyresearch.attemptsolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearch.nochallengesremaining",
+            "id": "r_studyresearch.nochallengesremaining",
             "actionid": "study",
             "label": "Blinking in the Light",
             "startdescription": "Now - now I understand!",
@@ -632,73 +632,73 @@
             ],
             "linked": [
                 {
-                    "id": "studyproject_upgrade_edge",
+                    "id": "r_studyproject_upgrade_edge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_forge",
+                    "id": "r_studyproject_upgrade_forge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_grail",
+                    "id": "r_studyproject_upgrade_grail",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_heart",
+                    "id": "r_studyproject_upgrade_heart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_lantern",
+                    "id": "r_studyproject_upgrade_lantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_moth",
+                    "id": "r_studyproject_upgrade_moth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_secrethistories",
+                    "id": "r_studyproject_upgrade_secrethistories",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_winter",
+                    "id": "r_studyproject_upgrade_winter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_edgetowinter",
+                    "id": "r_studyproject_subvert_edgetowinter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_forgetoedge",
+                    "id": "r_studyproject_subvert_forgetoedge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_grailtomoth",
+                    "id": "r_studyproject_subvert_grailtomoth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_hearttograil",
+                    "id": "r_studyproject_subvert_hearttograil",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_lanterntoforge",
+                    "id": "r_studyproject_subvert_lanterntoforge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_mothtolantern",
+                    "id": "r_studyproject_subvert_mothtolantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_wintertoheart",
+                    "id": "r_studyproject_subvert_wintertoheart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_subvert_knock",
+                    "id": "r_studyproject_upgrade_subvert_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchtick",
+            "id": "r_studyresearchtick",
             "comments": "The lore 2 requirement means this is only available when someone has paired two lore fragments with an earlier recipe. This routes to opportunities to increase Insight.",
             "label": "Promising Research",
             "actionid": "study",
@@ -710,32 +710,32 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "studyresearchearlyconclusion",
+                    "id": "r_studyresearchearlyconclusion",
                     "chance": 100
                 },
                 {
-                    "id": "studyresearchneedsreason",
+                    "id": "r_studyresearchneedsreason",
                     "chance": 50
                 },
                 {
-                    "id": "studyresearchneedserudition",
+                    "id": "r_studyresearchneedserudition",
                     "chance": 50
                 },
                 {
-                    "id": "studyresearchneedsglimmering",
+                    "id": "r_studyresearchneedsglimmering",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchneedsreason",
+            "id": "r_studyresearchneedsreason",
             "label": "Confusion's Shadow",
             "actionid": "study",
             "requirements": {},
             "effects": {},
             "slots": [
                 {
-                    "id": "Reason",
+                    "id": "r_Reason",
                     "required": {
                         "reason": 1
                     },
@@ -744,7 +744,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyresearchreasonsuccess",
+                    "id": "r_studyresearchreasonsuccess",
                     "chance": 100
                 }
             ],
@@ -754,13 +754,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearchconclusion",
+                    "id": "r_studyresearchconclusion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchreasonsuccess",
+            "id": "r_studyresearchreasonsuccess",
             "label": "The Intellect's Light!",
             "actionid": "study",
             "requirements": {
@@ -773,7 +773,7 @@
             "startdescription": "The task occupies ever more of my attention. But my efforts are paying off. [Gained Insight.].",
             "linked": [
                 {
-                    "id": "studyresearchtick",
+                    "id": "r_studyresearchtick",
                     "chance": 100
                 }
             ],
@@ -782,14 +782,14 @@
             }
         },
         {
-            "id": "studyresearchneedserudition",
+            "id": "r_studyresearchneedserudition",
             "label": "The Pieces of the Puzzle",
             "actionid": "study",
             "requirements": {},
             "effects": {},
             "slots": [
                 {
-                    "id": "Erudition",
+                    "id": "r_Erudition",
                     "required": {
                         "erudition": 1
                     },
@@ -799,7 +799,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyresearcheruditionsuccess",
+                    "id": "r_studyresearcheruditionsuccess",
                     "chance": 100
                 }
             ],
@@ -809,13 +809,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearchconclusion",
+                    "id": "r_studyresearchconclusion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearcheruditionsuccess",
+            "id": "r_studyresearcheruditionsuccess",
             "label": "The Pieces Fit!",
             "actionid": "study",
             "requirements": {
@@ -828,20 +828,20 @@
             "startdescription": "Knowledge breeds knowledge. [Gained Insight.]",
             "linked": [
                 {
-                    "id": "studyresearchtick",
+                    "id": "r_studyresearchtick",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchneedsglimmering",
+            "id": "r_studyresearchneedsglimmering",
             "label": "The Gates of Intuition",
             "actionid": "study",
             "requirements": {},
             "effects": {},
             "slots": [
                 {
-                    "id": "Glimmering",
+                    "id": "r_Glimmering",
                     "required": {
                         "glimmering": 1
                     },
@@ -851,7 +851,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyresearchglimmeringsuccess",
+                    "id": "r_studyresearchglimmeringsuccess",
                     "chance": 100
                 }
             ],
@@ -861,13 +861,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearchconclusion",
+                    "id": "r_studyresearchconclusion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchglimmeringsuccess",
+            "id": "r_studyresearchglimmeringsuccess",
             "label": "The Gates of Intuition are opened!",
             "actionid": "study",
             "requirements": {
@@ -880,13 +880,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyresearchtick",
+                    "id": "r_studyresearchtick",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchearlyconclusion",
+            "id": "r_studyresearchearlyconclusion",
             "actionid": "study",
             "comments": "this is a passthrough / router for if Insight reaches 3,which routes directly to the conclusion",
             "requirements": {
@@ -894,40 +894,40 @@
             },
             "alt": [
                 {
-                    "id": "studyresearchconclusion",
+                    "id": "r_studyresearchconclusion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchconclusion",
+            "id": "r_studyresearchconclusion",
             "actionid": "study",
             "comments": "this is a passthrough / router which the player sees if they don't satisfy a research requirement.",
             "alt": [
                 {
-                    "id": "studyresearchmaxinsight",
+                    "id": "r_studyresearchmaxinsight",
                     "chance": 100
                 },
                 {
-                    "id": "studyresearchmoderateinsight",
+                    "id": "r_studyresearchmoderateinsight",
                     "chance": 100
                 },
                 {
-                    "id": "studyresearchminimalinsight",
+                    "id": "r_studyresearchminimalinsight",
                     "chance": 100
                 },
                 {
-                    "id": "studyresearchconsolation",
+                    "id": "r_studyresearchconsolation",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyresearchmaxinsight",
+            "id": "r_studyresearchmaxinsight",
             "label": "Research complete, max insight",
             "alt": [
                 {
-                    "id": "studyresearchsuccess",
+                    "id": "r_studyresearchsuccess",
                     "chance": 100
                 }
             ],
@@ -942,15 +942,15 @@
             "comments": "This is currently a pass-through only; including for consistency."
         },
         {
-            "id": "studyresearchmoderateinsight",
+            "id": "r_studyresearchmoderateinsight",
             "label": "Research complete, some insight",
             "alt": [
                 {
-                    "id": "studyresearchsuccess",
+                    "id": "r_studyresearchsuccess",
                     "chance": 70
                 },
                 {
-                    "id": "studyresearchconsolation",
+                    "id": "r_studyresearchconsolation",
                     "chance": 100
                 }
             ],
@@ -964,17 +964,17 @@
             "warmup": 0
         },
         {
-            "id": "studyresearchminimalinsight",
+            "id": "r_studyresearchminimalinsight",
             "label": "Research complete, minimal insight",
             "actionid": "study",
             "requirements": {},
             "alt": [
                 {
-                    "id": "studyresearchsuccess",
+                    "id": "r_studyresearchsuccess",
                     "chance": 30
                 },
                 {
-                    "id": "studyresearchconsolation",
+                    "id": "r_studyresearchconsolation",
                     "chance": 100
                 }
             ],
@@ -984,7 +984,7 @@
             "warmup": 0
         },
         {
-            "id": "studyresearchsuccess",
+            "id": "r_studyresearchsuccess",
             "label": "Success!",
             "actionid": "study",
             "requirements": {},
@@ -1000,67 +1000,67 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "studyproject_upgrade_edge",
+                    "id": "r_studyproject_upgrade_edge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_forge",
+                    "id": "r_studyproject_upgrade_forge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_grail",
+                    "id": "r_studyproject_upgrade_grail",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_heart",
+                    "id": "r_studyproject_upgrade_heart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_lantern",
+                    "id": "r_studyproject_upgrade_lantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_moth",
+                    "id": "r_studyproject_upgrade_moth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_secrethistories",
+                    "id": "r_studyproject_upgrade_secrethistories",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_winter",
+                    "id": "r_studyproject_upgrade_winter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_edgetowinter",
+                    "id": "r_studyproject_subvert_edgetowinter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_forgetoedge",
+                    "id": "r_studyproject_subvert_forgetoedge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_grailtomoth",
+                    "id": "r_studyproject_subvert_grailtomoth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_hearttograil",
+                    "id": "r_studyproject_subvert_hearttograil",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_lanterntoforge",
+                    "id": "r_studyproject_subvert_lanterntoforge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_mothtolantern",
+                    "id": "r_studyproject_subvert_mothtolantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_subvert_wintertoheart",
+                    "id": "r_studyproject_subvert_wintertoheart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_upgrade_subvert_knock",
+                    "id": "r_studyproject_upgrade_subvert_knock",
                     "chance": 100
                 }
             ]

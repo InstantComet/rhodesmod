@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "translatehint",
+            "id": "r_translatehint",
             "label": "Attempt a translation of a text?",
             "actionid": "study",
             "requirements": {
@@ -12,7 +12,7 @@
             "hintonly": true
         },
         {
-            "id": "translate",
+            "id": "r_translate",
             "label": "Begin a translation of a text",
             "actionid": "study",
             "requirements": {

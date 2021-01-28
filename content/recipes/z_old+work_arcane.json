@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "conjurationpower",
+            "id": "r_conjurationpower",
             "label": "The Key to My Heart",
             "actionid": "work",
             "requirements": {
@@ -19,7 +19,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "conjurationpowerclue",
+            "id": "r_conjurationpowerclue",
             "label": "The Key to My Heart?",
             "actionid": "work",
             "requirements": {
@@ -37,7 +37,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "conjurationenlightenment",
+            "id": "r_conjurationenlightenment",
             "label": "The Door in my Dreams",
             "actionid": "work",
             "requirements": {
@@ -55,7 +55,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "conjurationenlightenmentclue",
+            "id": "r_conjurationenlightenmentclue",
             "label": "The Door in my Dreams?",
             "actionid": "work",
             "requirements": {
@@ -70,13 +70,13 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "ascensionpowerapromotion",
+            "id": "r_ascensionpowerapromotion",
             "label": "THE RED GRAIL COMES",
             "actionid": "grailminorpromotion",
             "requirements": {},
             "slots": [
                 {
-                    "id": "Dedication",
+                    "id": "r_Dedication",
                     "label": "Dedication",
                     "required": {
                         "passion": 1
@@ -91,7 +91,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "ascensionenlightenmentapromotion",
+            "id": "r_ascensionenlightenmentapromotion",
             "label": "I HEAR THE WATCHMAN'S FOOTSTEPS",
             "actionid": "watchmanminorpromotion",
             "requirements": {},
@@ -100,7 +100,7 @@
             },
             "slots": [
                 {
-                    "id": "Dedication",
+                    "id": "r_Dedication",
                     "label": "Dedication",
                     "required": {
                         "reason": 1

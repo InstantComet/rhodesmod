@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "send.first",
+            "id": "r_send.first",
             "actionid": "send",
             "label": "Communication",
             "startdescription": "I have excellent reasons not to contact anyone from my old life. But that might yet change.",
@@ -12,14 +12,14 @@
             "craftable": false
         },
         {
-            "id": "send.op.echidna",
+            "id": "r_send.op.echidna",
             "actionid": "send",
             "label": "Chaima's Pursuit",
             "startdescription": "At the first rumour of Echidna's presence...",
             "description": "Something's presented Chaima from going.",
             "slots": [
                 {
-                    "id": "chaima",
+                    "id": "r_chaima",
                     "label": "Chaima",
                     "description": "Chaima has business at the desert's edge.",
                     "required": {
@@ -30,7 +30,7 @@
             ],
             "alt": [
                 {
-                    "id": "send.op.echidna.2"
+                    "id": "r_send.op.echidna.2"
                 }
             ],
             "requirements": {
@@ -47,7 +47,7 @@
             "craftable": true
         },
         {
-            "id": "send.op.echidna.2",
+            "id": "r_send.op.echidna.2",
             "actionid": "send",
             "label": "Chaima's Prey",
             "startdescription": "At the first rumour of Echidna's presence, Chaima vanished into the desert. She left one of her characteristically curt notes: 'Hunting. Not hunting the Ligeian.'",
@@ -61,21 +61,21 @@
             }
         },
         {
-            "id": "send.op.morgen",
+            "id": "r_send.op.morgen",
             "actionid": "send",
             "label": "An Audience With Mme Matutine?",
             "startdescription": "Mme Matutine is what they call a Ligeian, which means she's something like a person who does something like eat people. But I've heard she has an acquaintance with the Nameless Name of the Velvet, 'in whose mists the defeated find solace.' That might be something I need.",
             "description": "Nothing. I'm left waiting on the quayside as the sea-wind beats at me.",
             "slots": [
                 {
-                    "id": "gift",
+                    "id": "r_gift",
                     "label": "A Gift",
                     "description": "Something to excite Mme Matutine's interest"
                 }
             ],
             "alt": [
                 {
-                    "id": "send.op.morgen.pentiment"
+                    "id": "r_send.op.morgen.pentiment"
                 }
             ],
             "requirements": {
@@ -88,7 +88,7 @@
             "craftable": true
         },
         {
-            "id": "send.op.morgen.pentiment",
+            "id": "r_send.op.morgen.pentiment",
             "actionid": "send",
             "label": "Mme Matutine!",
             "startdescription": "Mme Matutine comes laughing down the gangway. Her laughter is like birdsong and her eyes, too, are like something of a bird's - shining beads of black. 'Interesting,' she purrs. 'Is there any more?'",
@@ -98,15 +98,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.ii"
+                    "id": "r_send.op.morgen.pentiment.ii"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.ii",
+            "id": "r_send.op.morgen.pentiment.ii",
             "actionid": "send",
             "requirements": {
                 "pentiment": 1
@@ -115,7 +115,7 @@
             "startdescription": "'A good start. I suppose you'd like me to intercede for you. You'll have to work very hard to convince me. What else do you have?'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -125,15 +125,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.iii"
+                    "id": "r_send.op.morgen.pentiment.iii"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.iii",
+            "id": "r_send.op.morgen.pentiment.iii",
             "actionid": "send",
             "requirements": {
                 "pentiment": 2
@@ -142,7 +142,7 @@
             "startdescription": "'This is good. Keep going. My Nameless dear is greedy.'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -152,15 +152,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.iv"
+                    "id": "r_send.op.morgen.pentiment.iv"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.iv",
+            "id": "r_send.op.morgen.pentiment.iv",
             "actionid": "send",
             "requirements": {
                 "pentiment": 3
@@ -169,7 +169,7 @@
             "startdescription": "'Yes, yes. Another? And come closer. Let me look at you.'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -179,15 +179,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.v"
+                    "id": "r_send.op.morgen.pentiment.v"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.v",
+            "id": "r_send.op.morgen.pentiment.v",
             "actionid": "send",
             "requirements": {
                 "pentiment": 4
@@ -196,7 +196,7 @@
             "startdescription": "'I thought I smelt something rare. The blood of the Earth, hm? For one of your blood, I think I could arrange <i>passage</i>. Someone there will be glad to see you. But the price is higher. Seven of these.'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -206,15 +206,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.vi"
+                    "id": "r_send.op.morgen.pentiment.vi"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.vi",
+            "id": "r_send.op.morgen.pentiment.vi",
             "actionid": "send",
             "requirements": {
                 "pentiment": 5
@@ -223,7 +223,7 @@
             "startdescription": "'<i>Allez</i>, my friend. Together we can do this. Almost there -'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -233,15 +233,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.vii"
+                    "id": "r_send.op.morgen.pentiment.vii"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.vii",
+            "id": "r_send.op.morgen.pentiment.vii",
             "actionid": "send",
             "requirements": {
                 "pentiment": 6
@@ -250,7 +250,7 @@
             "startdescription": "Mme Matutine inhales dramatically. 'So many! The Nameless will be enraptured! One more - one more, and I will turn my Key, just for you.'",
             "slots": [
                 {
-                    "id": "pentiment",
+                    "id": "r_pentiment",
                     "label": "Pentiment",
                     "required": {
                         "pentiment": 1
@@ -260,15 +260,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.final"
+                    "id": "r_send.op.morgen.pentiment.final"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break"
+                    "id": "r_send.op.morgen.pentiment.break"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.final",
+            "id": "r_send.op.morgen.pentiment.final",
             "requirements": {
                 "pentiment": 7
             },
@@ -279,21 +279,21 @@
             "ending": "victoryvelvet"
         },
         {
-            "id": "send.op.morgen.pentiment.break",
+            "id": "r_send.op.morgen.pentiment.break",
             "actionid": "send",
             "label": "Not Enough",
             "startdescription": "'No?'",
             "linked": [
                 {
-                    "id": "send.op.morgen.pentiment.break.nothing"
+                    "id": "r_send.op.morgen.pentiment.break.nothing"
                 },
                 {
-                    "id": "send.op.morgen.pentiment.break.flute"
+                    "id": "r_send.op.morgen.pentiment.break.flute"
                 }
             ]
         },
         {
-            "id": "send.op.morgen.pentiment.break.nothing",
+            "id": "r_send.op.morgen.pentiment.break.nothing",
             "actionid": "send",
             "label": "Not Enough",
             "startdescription": "'I hope you are not here to waste my time. I have explained already about that.'",
@@ -302,7 +302,7 @@
             }
         },
         {
-            "id": "send.op.morgen.pentiment.break.flute",
+            "id": "r_send.op.morgen.pentiment.break.flute",
             "actionid": "send",
             "label": "Not Enough",
             "startdescription": "A tiny frown mars Mme Matutine's pale and peerless forehead. 'Insufficient. We can do better, <i>hein</i>? Take this. When you are by the sea, call me, and I will come. Once only. I do not like to waste my time. Until then.'",
@@ -311,14 +311,14 @@
             }
         },
         {
-            "id": "send.op.medusa",
+            "id": "r_send.op.medusa",
             "actionid": "send",
             "label": "Search for Something Unseen",
             "startdescription": "Medusa, the Ligeian. Peel said to me once, 'She might be the oldest of her kind still living; and she is dead.' It was the kind of thing Peel said. But now, in the rainy half-visible streets of Buda beneath the blind eyes of the statues, I remember the other thing he said, that Medusa's riddle is 'What is Not Seen?' and my skin prickles.",
             "description": "Nothing. The rain has found its way through my overcoat and found its way down the back of my neck. She's still out there, if she's anywhere at all.",
             "slots": [
                 {
-                    "id": "medusa",
+                    "id": "r_medusa",
                     "label": "Medusa's Riddle",
                     "description": "'What Is Not Seen?'",
                     "required": {
@@ -329,7 +329,7 @@
             ],
             "alt": [
                 {
-                    "id": "send.op.medusa.pentiment"
+                    "id": "r_send.op.medusa.pentiment"
                 }
             ],
             "requirements": {
@@ -349,7 +349,7 @@
             "craftable": true
         },
         {
-            "id": "send.op.medusa.pentiment",
+            "id": "r_send.op.medusa.pentiment",
             "actionid": "send",
             "label": "An Encounter",
             "startdescription": "I found my answer to Medusa's riddle... and I think she found me. Of course I never saw her, but I lost an hour, out there in the night, and now I carry a wound above my heart which will not heal.\n\nThis is what happens when I go looking for trouble. (If I really met a Ligeian, why did she spare me? I have my suspicions.)",
@@ -364,7 +364,7 @@
             "warmup": 30
         },
         {
-            "id": "send.ligeian",
+            "id": "r_send.ligeian",
             "actionid": "send",
             "label": "Seek out a Ligeian",
             "requirements": {
@@ -373,7 +373,7 @@
             "startdescription": "Like me, the Ligeians are criminals and fugitives. Unlike me, they've been cursed eternally because they devoured their children fresh from the womb. Still, perhaps we can find some common ground.",
             "slots": [
                 {
-                    "id": "gift",
+                    "id": "r_gift",
                     "label": "Gift",
                     "required": {
                         "remnant": 1,
@@ -388,7 +388,7 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "send.ligeian.risk"
+                    "id": "r_send.ligeian.risk"
                 }
             ],
             "effects": {
@@ -399,12 +399,12 @@
             },
             "linked": [
                 {
-                    "id": "send.ligeian.reward"
+                    "id": "r_send.ligeian.reward"
                 }
             ]
         },
         {
-            "id": "send.ligeian.risk",
+            "id": "r_send.ligeian.risk",
             "actionid": "send",
             "label": "The Hour of the Long Spoon",
             "requirements": {
@@ -416,22 +416,22 @@
             "startdescription": "If I seek out a Ligeian without bringing a gift. I'd better hope she's in a good mood. [Ligeians are sometimes, but not often, in a good mood.]",
             "linked": [
                 {
-                    "id": "send.ligeian.reward",
+                    "id": "r_send.ligeian.reward",
                     "chance": 30
                 },
                 {
-                    "id": "send.ligeian.displeased"
+                    "id": "r_send.ligeian.displeased"
                 }
             ]
         },
         {
-            "id": "send.ligeian.reward",
+            "id": "r_send.ligeian.reward",
             "actionid": "send",
             "label": "'LIGEIA REMEMBERS'",
             "startdescription": "@#op.echidna|'Sit down, sweetie. Let's have a chat.'\n#op.kleidouchos|'Today, I have not eaten you. What do you want? Be quick.'\n#op.marinette|'<sprite name=secrethistories>?'\n#op.sulochana|Sulochana takes a long draw from a clove cigarette. 'I'm feeling indulgent,' she purrs. 'Go on.'@\nn[Add an unknown Foe weakness to learn its nature. If you don't, the Ligeian will give you a gift, or eat a Reckoner without leaving a Trace - although she won't notice Informants and won't go after the Foe.]",
             "slots": [
                 {
-                    "id": "advice",
+                    "id": "r_advice",
                     "label": "Advice",
                     "description": "The Ligeians hear things, and they're very old.",
                     "required": {
@@ -442,30 +442,30 @@
             ],
             "alt": [
                 {
-                    "id": "send.ligeian.revelation"
+                    "id": "r_send.ligeian.revelation"
                 }
             ],
             "linked": [
                 {
-                    "id": "send.ligeian.ravage"
+                    "id": "r_send.ligeian.ravage"
                 },
                 {
-                    "id": "send.ligeian.echidna.reward"
+                    "id": "r_send.ligeian.echidna.reward"
                 },
                 {
-                    "id": "send.ligeian.kleidouchos.reward"
+                    "id": "r_send.ligeian.kleidouchos.reward"
                 },
                 {
-                    "id": "send.ligeian.marinette.reward"
+                    "id": "r_send.ligeian.marinette.reward"
                 },
                 {
-                    "id": "send.ligeian.sulochana.reward"
+                    "id": "r_send.ligeian.sulochana.reward"
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "send.ligeian.revelation",
+            "id": "r_send.ligeian.revelation",
             "actionid": "send",
             "label": "Intelligence",
             "startdescription": "@#op.echidna|'Of course I remember him. I knew your mother, too. I had high hopes of her, once...'\n#op.kleidouchos|'Mm. I have been aware of your Foe.'\n#op.marinette|'<sprite name=lantern>.'\n#op.sulochana|'Oh, yes. He used to come in here all the time, back before the War.'@",
@@ -480,7 +480,7 @@
             }
         },
         {
-            "id": "send.ligeian.ravage",
+            "id": "r_send.ligeian.ravage",
             "actionid": "send",
             "label": "Down In One",
             "startdescription": "@#op.echidna|'Is someone tasty causing you trouble, moppet? Let Auntie E sort it out.'\n#op.kleidouchos|'I have registered my objections with your reckoner friend.'\n#op.marinette|'<sprite name=edge>, <sprite name=edge>, <sprite name=edge>... <sprite name=grail>.'\n#op.sulochana|'That was silly of him. Well, he won't do it again.'@",
@@ -496,7 +496,7 @@
             "warmup": 10
         },
         {
-            "id": "send.ligeian.echidna.reward",
+            "id": "r_send.ligeian.echidna.reward",
             "actionid": "send",
             "label": "A Gift from Echidna",
             "startdescription": "'Here you are, dear. From someone who really shouldn't have changed their mind.'",
@@ -511,7 +511,7 @@
             "burnimage": "pentiment"
         },
         {
-            "id": "send.ligeian.kleidouchos.reward",
+            "id": "r_send.ligeian.kleidouchos.reward",
             "actionid": "send",
             "label": "A Gift from Kleidouchos",
             "startdescription": "'I have little use for this any more. You might. Do not drink it.'",
@@ -525,7 +525,7 @@
             }
         },
         {
-            "id": "send.ligeian.marinette.reward",
+            "id": "r_send.ligeian.marinette.reward",
             "actionid": "send",
             "label": "A Gift from Marinette",
             "startdescription": "<sprite name=mortal>.",
@@ -540,7 +540,7 @@
             "burnimage": "pentiment"
         },
         {
-            "id": "send.ligeian.sulochana.reward",
+            "id": "r_send.ligeian.sulochana.reward",
             "actionid": "send",
             "label": "A Gift from Sulochana",
             "startdescription": "'I'll arrange some introductions for you. You'd be surprised who I see at the Club.'",
@@ -556,7 +556,7 @@
             }
         },
         {
-            "id": "send.ligeian.displeased",
+            "id": "r_send.ligeian.displeased",
             "actionid": "send",
             "label": "Ligeian Irritation",
             "startdescription": "A flapping nightmare of teeth and webbed skin! I'm trying to struggle free - ",
@@ -569,7 +569,7 @@
             "warmup": 30
         },
         {
-            "id": "send.defiance.ascend.colonel",
+            "id": "r_send.defiance.ascend.colonel",
             "actionid": "send",
             "label": "An Immortal Enmity",
             "startdescription": "Now the Colonel salutes my resolution and my skill. He will vouch for me to his enemy, the Lionsmith.",
@@ -586,7 +586,7 @@
             "craftable": true
         },
         {
-            "id": "send.defiance.ascend.lionsmith",
+            "id": "r_send.defiance.ascend.lionsmith",
             "actionid": "send",
             "label": "An Immortal Enmity",
             "startdescription": "Now the Lionsmith salutes my valour and my strength. He will vouch for me to his enemy, the Colonel.",
@@ -603,7 +603,7 @@
             "craftable": true
         },
         {
-            "id": "send.defiance.ascend.wolf",
+            "id": "r_send.defiance.ascend.wolf",
             "actionid": "send",
             "label": "An Immortal Enmity",
             "startdescription": "The Wolf-Divided has marked me for his own. My neck is hot with his stinking breath.",
@@ -619,7 +619,7 @@
             "craftable": true
         },
         {
-            "id": "send.defiance.ascend.morewounds.hint",
+            "id": "r_send.defiance.ascend.morewounds.hint",
             "actionid": "send",
             "label": "An Immortal Enmity?",
             "startdescription": "There's another way to end this... and that's not to end it at all. My Foe and I are locked in the Corrivality now like the matching gears in a clock. I just need to turn the key. [I can call on an Edge Hour to exalt my duel with the Foe into something eternal - but only if I have fought him to a standstill by dealing him six grievous Wounds]",
@@ -633,7 +633,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.ascend.moremarks.hint",
+            "id": "r_send.defiance.ascend.moremarks.hint",
             "actionid": "send",
             "label": "An Immortal Enmity?",
             "startdescription": "There might be another way to end this... by not ending it at all. [At seven Defiance Marks, another form of victory is possible if your Foe is present.]",
@@ -647,7 +647,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.lureexists.hint",
+            "id": "r_send.defiance.lureexists.hint",
             "actionid": "send",
             "label": "A Defiant Summons: Already Sent",
             "startdescription": "My Foe already knows exactly where I am.",
@@ -664,7 +664,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.weaponalreadysent.hint",
+            "id": "r_send.defiance.weaponalreadysent.hint",
             "actionid": "send",
             "label": "A Defiant Gift: Already Sent",
             "startdescription": "I've already sent my Foe a weapon.",
@@ -681,7 +681,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.weaponprofane.hint",
+            "id": "r_send.defiance.weaponprofane.hint",
             "actionid": "send",
             "label": "A Defiant Gift: Not Enough",
             "startdescription": "A profane weapon won't cut it.",
@@ -697,7 +697,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.7",
+            "id": "r_send.defiance.marks.hint.7",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "If I can fight my Foe to a standstill, I'm ready to be welcomed into the heart of the Corrivality. Once I'm there, I'll never suffer peace again.",
@@ -708,7 +708,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.6",
+            "id": "r_send.defiance.marks.hint.6",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "I've become a locus for the Corrivality. Couples will sometimes quarrel as I pass. Dogs will turn to bite their owners. Fires will burn brightly or be extinguished.",
@@ -719,7 +719,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.5",
+            "id": "r_send.defiance.marks.hint.5",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "I woke this morning to find someone had written LOVE IS WAR on the mirror. It might have been me. It's probably more reassuring if it was me. ",
@@ -730,7 +730,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.4",
+            "id": "r_send.defiance.marks.hint.4",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "I remember when I thought I had nothing to do with the Corrivality, but of course I always did. Every Hour, every mortal, every speck of dust plays its part in the Strife Imperishable. But fighting a running battle across Europe with a half-immortal adversary - that means I have a speaking part in the Corrivality, not just a walk-on role.",
@@ -741,7 +741,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.3",
+            "id": "r_send.defiance.marks.hint.3",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "I'm beginning to notice patterns of contention in the world - the struggle of trees with wind, flames with smoke, rivers with the earth. Crowds are a constant skirmishing of motives. It's beautiful.",
@@ -752,7 +752,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.2",
+            "id": "r_send.defiance.marks.hint.2",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "I'm having knife-dreams now. That probably means an Edge hour has noticed me.",
@@ -763,7 +763,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.marks.hint.1",
+            "id": "r_send.defiance.marks.hint.1",
             "actionid": "send",
             "label": "The Corrivality",
             "startdescription": "'The Corrivality' is the ten-guinea word that adepts use to mean both the Edge Hours, and the Edge Hours' endless striving. Like most reckoners, I've stayed well away from all that.",
@@ -774,7 +774,7 @@
             "craftable": false
         },
         {
-            "id": "send.defiance.summons",
+            "id": "r_send.defiance.summons",
             "actionid": "send",
             "label": "Send a Defiant Summons",
             "startdescription": "My writing on the envelope is crisp and firm. My hand does not shake. [This will destroy all Obscurity.]",
@@ -808,7 +808,7 @@
             ],
             "alt": [
                 {
-                    "id": "rkx.foe.arrive.defiance",
+                    "id": "r_rkx.foe.arrive.defiance",
                     "additional": true
                 }
             ],
@@ -820,7 +820,7 @@
             "craftable": true
         },
         {
-            "id": "send.defiance.summons.again",
+            "id": "r_send.defiance.summons.again",
             "actionid": "send",
             "label": "Send a Defiant Summons, Again",
             "startdescription": "Let him come. Let him try to take his due. [This will destroy all Obscurity.]",
@@ -842,7 +842,7 @@
             ],
             "alt": [
                 {
-                    "id": "rkx.foe.arrive.defiance",
+                    "id": "r_rkx.foe.arrive.defiance",
                     "additional": true
                 }
             ],
@@ -854,7 +854,7 @@
             "craftable": true
         },
         {
-            "id": "send.defiance.gift",
+            "id": "r_send.defiance.gift",
             "actionid": "send",
             "label": "Send a Defiant Gift",
             "startdescription": "I'm going to send my Foe a weapon of power. Because it'll <i>really</i> annoy them.",
@@ -885,7 +885,7 @@
             "craftable": true
         },
         {
-            "id": "send.ahead.cash.hint",
+            "id": "r_send.ahead.cash.hint",
             "actionid": "send",
             "label": "Send Cash Ahead?",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
@@ -897,7 +897,7 @@
             "hintonly": true
         },
         {
-            "id": "send.ahead.cash",
+            "id": "r_send.ahead.cash",
             "actionid": "send",
             "label": "Send Cash Ahead",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
@@ -921,7 +921,7 @@
             "craftable": true
         },
         {
-            "id": "send.getsentahead.cash.hint",
+            "id": "r_send.getsentahead.cash.hint",
             "actionid": "send",
             "label": "Take Advantage of my Preparations?",
             "startdescription": "Once I arrive at this place, I can retrieve the cash I sent ahead.",
@@ -933,7 +933,7 @@
             "hintonly": true
         },
         {
-            "id": "send.getsentahead.cash",
+            "id": "r_send.getsentahead.cash",
             "actionid": "send",
             "label": "Take Advantage of my Preparations",
             "startdescription": "I should retrieve the cash I sent ahead.",
@@ -945,12 +945,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "send.getsentahead.cash.loop"
+                    "id": "r_send.getsentahead.cash.loop"
                 }
             ]
         },
         {
-            "id": "send.getsentahead.cash.loop",
+            "id": "r_send.getsentahead.cash.loop",
             "actionid": "send",
             "label": "Done!",
             "startdescription": "I've sent cash ahead. I can retrieve it once I arrive.",
@@ -970,12 +970,12 @@
             },
             "linked": [
                 {
-                    "id": "send.getsentahead.cash.loop"
+                    "id": "r_send.getsentahead.cash.loop"
                 }
             ]
         },
         {
-            "id": "send.victory.hint",
+            "id": "r_send.victory.hint",
             "actionid": "send",
             "label": "Security Through Obscurity?",
             "startdescription": "[If your Obscurity reaches 7, you can send a taunting message to your reckoner Foe before you disappear forever.]",
@@ -986,7 +986,7 @@
             "hintonly": true
         },
         {
-            "id": "send.victory.obscurity.c.begin",
+            "id": "r_send.victory.obscurity.c.begin",
             "actionid": "send",
             "label": "A Life of Rare Delight...",
             "startdescription": "Do I have everything I need? [If you still have Assets worth at least thirty Comfort at the moment you disappear, you'll achieve a greater victory.]",
@@ -1002,27 +1002,27 @@
             "signalEndingFlavour": "Grand",
             "linked": [
                 {
-                    "id": "send.victory.obscurity.c.foeslain"
+                    "id": "r_send.victory.obscurity.c.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.b.foeslain"
+                    "id": "r_send.victory.obscurity.b.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.a.foeslain"
+                    "id": "r_send.victory.obscurity.a.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.c"
+                    "id": "r_send.victory.obscurity.c"
                 },
                 {
-                    "id": "send.victory.obscurity.b"
+                    "id": "r_send.victory.obscurity.b"
                 },
                 {
-                    "id": "send.victory.obscurity.a"
+                    "id": "r_send.victory.obscurity.a"
                 }
             ]
         },
         {
-            "id": "send.victory.obscurity.b.begin",
+            "id": "r_send.victory.obscurity.b.begin",
             "actionid": "send",
             "label": "A Life of Peace and Comfort",
             "startdescription": "Do I have everything I need? [If you have Assets worth at least thirty Comfort at the moment you disappear, you'll achieve a greater victory.]",
@@ -1038,27 +1038,27 @@
             "signalEndingFlavour": "Grand",
             "linked": [
                 {
-                    "id": "send.victory.obscurity.c.foeslain"
+                    "id": "r_send.victory.obscurity.c.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.b.foeslain"
+                    "id": "r_send.victory.obscurity.b.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.a.foeslain"
+                    "id": "r_send.victory.obscurity.a.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.c"
+                    "id": "r_send.victory.obscurity.c"
                 },
                 {
-                    "id": "send.victory.obscurity.b"
+                    "id": "r_send.victory.obscurity.b"
                 },
                 {
-                    "id": "send.victory.obscurity.a"
+                    "id": "r_send.victory.obscurity.a"
                 }
             ]
         },
         {
-            "id": "send.victory.obscurity.a.begin",
+            "id": "r_send.victory.obscurity.a.begin",
             "actionid": "send",
             "label": "A Life Forgotten",
             "startdescription": "I'll be safe. Is that enough for me? [If you have Assets worth at least twenty Comfort at the moment you disappear, you'll achieve a greater victory.]",
@@ -1071,27 +1071,27 @@
             "signalEndingFlavour": "Pale",
             "linked": [
                 {
-                    "id": "send.victory.obscurity.c.foeslain"
+                    "id": "r_send.victory.obscurity.c.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.b.foeslain"
+                    "id": "r_send.victory.obscurity.b.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.a.foeslain"
+                    "id": "r_send.victory.obscurity.a.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.c"
+                    "id": "r_send.victory.obscurity.c"
                 },
                 {
-                    "id": "send.victory.obscurity.b"
+                    "id": "r_send.victory.obscurity.b"
                 },
                 {
-                    "id": "send.victory.obscurity.a"
+                    "id": "r_send.victory.obscurity.a"
                 }
             ]
         },
         {
-            "id": "send.victory.obscurity.c",
+            "id": "r_send.victory.obscurity.c",
             "actionid": "send",
             "label": "DELIGHT",
             "extantreqs": {
@@ -1100,7 +1100,7 @@
             "ending": "obscurityvictoryc"
         },
         {
-            "id": "send.victory.obscurity.b",
+            "id": "r_send.victory.obscurity.b",
             "actionid": "send",
             "label": "EASE",
             "extantreqs": {
@@ -1109,13 +1109,13 @@
             "ending": "obscurityvictoryb"
         },
         {
-            "id": "send.victory.obscurity.a",
+            "id": "r_send.victory.obscurity.a",
             "actionid": "send",
             "label": "SILENCE",
             "ending": "obscurityvictorya"
         },
         {
-            "id": "send.victory.obscurity.c.foeslain",
+            "id": "r_send.victory.obscurity.c.foeslain",
             "actionid": "send",
             "label": "DELIGHT",
             "extantreqs": {
@@ -1125,7 +1125,7 @@
             "ending": "obscurityvictorycfoeslain"
         },
         {
-            "id": "send.victory.obscurity.b.foeslain",
+            "id": "r_send.victory.obscurity.b.foeslain",
             "actionid": "send",
             "label": "EASE",
             "extantreqs": {
@@ -1135,7 +1135,7 @@
             "ending": "obscurityvictorybfoeslain"
         },
         {
-            "id": "send.victory.obscurity.a.foeslain",
+            "id": "r_send.victory.obscurity.a.foeslain",
             "actionid": "send",
             "label": "SILENCE",
             "extantreqs": {
@@ -1144,7 +1144,7 @@
             "ending": "obscurityvictoryafoeslain"
         },
         {
-            "id": "send.labhite.fallen.intro",
+            "id": "r_send.labhite.fallen.intro",
             "actionid": "send",
             "requirements": {
                 "contact.labhite.fallen": 1
@@ -1153,7 +1153,7 @@
             "startdescription": "Even before Echidna corrupted the labhite, Chaima would have killed him in the Colonel's Name. Now he's not only a monster, but a corrupt monster. Navil, meanwhile, has counselled mercy. 'The pretence of perfection,' he says grandly, 'is the deepest sickness of the soul. Exile him into the desert, and he'll find the sun again.' \n\nChaima isn't impressed. But she respects you and her father - enough to stay her hand if you insist.",
             "slots": [
                 {
-                    "id": "decision",
+                    "id": "r_decision",
                     "label": "Decision",
                     "required": {
                         "temptation.defiance": 1,
@@ -1167,16 +1167,16 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "send.labhite.fallen.merciless"
+                    "id": "r_send.labhite.fallen.merciless"
                 },
                 {
-                    "id": "send.labhite.fallen.merciful"
+                    "id": "r_send.labhite.fallen.merciful"
                 }
             ],
             "craftable": true
         },
         {
-            "id": "send.labhite.fallen.merciless",
+            "id": "r_send.labhite.fallen.merciless",
             "actionid": "send",
             "label": "No Mercy",
             "startdescription": "'He's betrayed what the Lionsmith intended. Let him die.'",
@@ -1191,7 +1191,7 @@
             }
         },
         {
-            "id": "send.labhite.fallen.merciful",
+            "id": "r_send.labhite.fallen.merciful",
             "actionid": "send",
             "label": "Mercy",
             "startdescription": "He's something the Lionsmith never intended. Who knows what else he might become?",
@@ -1206,7 +1206,7 @@
             }
         },
         {
-            "id": "send.retainer.chat",
+            "id": "r_send.retainer.chat",
             "actionid": "send",
             "label": "Lessons",
             "startdescription": "'Shall I speak of her?'",
@@ -1226,7 +1226,7 @@
             "craftable": true
         },
         {
-            "id": "send.mortal.intro",
+            "id": "r_send.mortal.intro",
             "actionid": "send",
             "label": "Arrange an Initial Meeting",
             "startdescription": "@#contact.barber|A meeting with Zulfiya, who is known, nowadays, as the Barber.\n#contact.delver|A meeting with Orsolina, 'la Scavatrice' - the Delver, in my own language.\n#contact.fivegoer|A meeting with Vasil, a Fivegoer.\n#contact.ghoul|A meeting with Dominykas, the Baker.\n#contact.huntress|A meeting with Lalla Chaima, sometimes called the Snare.\n#contact.smuggler|A meeting with M. Giorgiou, a smuggler.\n#contact.visionary|A meeting with the painter Mireya.\n#contact.vivisectionist|A meeting with Count Jannings, the surgeon, duellist, and vivisectionist.\n#contact.retainer|'Your mother was an initiate of the Antaeum. Not many women are, but her <i>barakah</i> - let us say her light - was very great. At first your father hoped to purchase her light. But he came to love her... while she came to recognise him for what he was. That is why, when your birth drew near, she fled him, and why he pursued her.'\n#|An introduction - @",
@@ -1251,7 +1251,7 @@
             "craftable": true
         },
         {
-            "id": "send.barber.upgrade",
+            "id": "r_send.barber.upgrade",
             "actionid": "send",
             "label": "Zulfiya paces, clicking her fingers",
             "startdescription": "'Where is it? Where is it??'",
@@ -1263,7 +1263,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Goo",
                     "required": {
                         "vault.barber.completed": 1
@@ -1273,14 +1273,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.delver.upgrade",
+            "id": "r_send.delver.upgrade",
             "actionid": "send",
             "label": "Orsolina has lit the lamps in her workshop - oil, not electric.",
             "startdescription": "'I appreciate the trouble you're taking.'",
@@ -1292,7 +1292,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Redness",
                     "required": {
                         "vault.delver.completed": 1
@@ -1302,14 +1302,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.fivegoer.upgrade",
+            "id": "r_send.fivegoer.upgrade",
             "actionid": "send",
             "label": "Vasil is soft with anticipation",
             "startdescription": "'Well? How are we doing?'",
@@ -1321,7 +1321,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Undergoer",
                     "required": {
                         "vault.fivegoer.completed": 1
@@ -1331,14 +1331,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.ghoul.upgrade",
+            "id": "r_send.ghoul.upgrade",
             "actionid": "send",
             "label": "Dominykas deploys a smile of amiable patience",
             "startdescription": "'My honey cake is still far short of its full potential.'",
@@ -1350,7 +1350,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Seasoning",
                     "required": {
                         "vault.ghoul.completed": 1
@@ -1360,14 +1360,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.huntress.upgrade",
+            "id": "r_send.huntress.upgrade",
             "actionid": "send",
             "label": "Challa's keen to fulfil her contract",
             "startdescription": "'My Goumier friend's growing anxious. I think he lacks faith in my abilities.'",
@@ -1379,7 +1379,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Carcass",
                     "required": {
                         "vault.huntress.completed": 1
@@ -1389,14 +1389,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.smuggler.upgrade",
+            "id": "r_send.smuggler.upgrade",
             "actionid": "send",
             "label": "Giorgiou wants this business over with",
             "startdescription": "Is it done?",
@@ -1408,7 +1408,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Relic",
                     "required": {
                         "vault.smuggler.completed": 1
@@ -1418,14 +1418,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.visionary.upgrade",
+            "id": "r_send.visionary.upgrade",
             "actionid": "send",
             "label": "Mireya trembles like water",
             "startdescription": "'Are they still out there?'",
@@ -1437,7 +1437,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": " Skin",
                     "required": {
                         "vault.visionary.completed": 1
@@ -1447,14 +1447,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.vivisectionist.upgrade",
+            "id": "r_send.vivisectionist.upgrade",
             "actionid": "send",
             "label": "Jannings greets me curtly",
             "startdescription": "'So?'",
@@ -1466,7 +1466,7 @@
             },
             "slots": [
                 {
-                    "id": "done",
+                    "id": "r_done",
                     "label": "Duelling Scar",
                     "required": {
                         "vault.vivisectionist.completed": 1
@@ -1476,14 +1476,14 @@
             ],
             "alt": [
                 {
-                    "id": "send.associate.upgraded"
+                    "id": "r_send.associate.upgraded"
                 }
             ],
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "send.associate.upgraded",
+            "id": "r_send.associate.upgraded",
             "actionid": "send",
             "label": "An Ally",
             "requirements": {
@@ -1508,7 +1508,7 @@
             }
         },
         {
-            "id": "send.ally.upgrade",
+            "id": "r_send.ally.upgrade",
             "actionid": "send",
             "label": "Potential, Realised",
             "startdescription": "I could talk with my Ally about what they've learnt. [This will add a point to your Ally's aspect.]",
@@ -1525,7 +1525,7 @@
             "craftable": true
         },
         {
-            "id": "send.ally.upgrade.hint",
+            "id": "r_send.ally.upgrade.hint",
             "actionid": "send",
             "label": "Potential?",
             "startdescription": "My Ally has their own reasons for travelling with me. Among those reasons: a thirst for new experiences. [When your Ally has gained three Experience, you can increase their power.]",
@@ -1537,7 +1537,7 @@
             "craftable": false
         },
         {
-            "id": "send.investigate.end",
+            "id": "r_send.investigate.end",
             "actionid": "send",
             "label": "No Further",
             "startdescription": "You might call this place the edge of the world.",
@@ -1549,13 +1549,13 @@
             "craftable": false
         },
         {
-            "id": "send.investigate.description",
+            "id": "r_send.investigate.description",
             "actionid": "send",
             "label": "Onwards?",
             "description": "@#city.aachen|A message from Aachen has found me. An old acquaintance from Marrakech is hunting there. She'd like my help.\n#city.alexandria|Back before the rising against the British, I was invited to the Invisible Serapeum in Alexandria. With luck, the invitation is still open.\n#city.algiers|My smuggler contact, M. Giorgiou, has people in Algiers. They could get me in there quietly.\n#city.amsterdam|Over the years I've found a dozen treasures for the Stegenga twins in Amsterdam. Perhaps they'll give me shelter now.\n#city.avignon|A smuggler contact in Avignon, M. Giorgiou, has a proposition for me.\n#city.baghdad|Percy Styles is still in Baghdad, doing whatever it is he does for the British government in Mandatory Iraq. He'd probably still be glad to see me.\n#city.budapest|I hear my old friend Lili has moved her black market operations to Budapest.\n#city.candia|It's a long time since I was in Crete, but I've been dreaming about it again, and about the scent of hawthorn...\n#city.cluj|My old friend Lili's operations in Cluj have suffered since Hungary gave the city up, but her name might still open doors.\n#city.granada|I've had dealings with a gallery owner in Granada. Last year she invited me to stay with her.\n#city.istanbul|My old comrade-in-arms Kara Kemal has connections with the Black Arm remnants in Istanbul. Perhaps his name will still open doors.\n#city.kaunas|Dominykas the Baker has done well for himself: high-level connections in the Iron Wolf in Kaunas. We never really got on, but he owes me, and I can't be fussy.\n#city.kiev|I've heard rumours the hungriest of the Ligeians is abroad in Kiev. My pursuers will need to go carefully there - although, of course, so will I.\n#city.krakow|Yitzchok Ashlag in Krakow has relied on me for years for the rarer occult texts. He's a hospitable man.\n#city.leningrad|The 'Athenians' who sell years in Russia are sworn enemies of the Reckoner mobs, but I've been known to get drunk with a certain Sushkin. Let's hope he remembers me.\n#city.london|Ottavio Berton in London has put out the word that he'd like my help. He's a scoundrel, but we go back a long way.\n#city.marrakech|A marabout named Navil has somehow discovered I'm here. His message reads only 'COME TO MARRAKECH, FOR GLORY'\n#city.meshad|A very old poet in Meshad has long been a favourite customer of mine. She'll certainly offer me hospitality.\n#city.munich|I have a standing invitation from Count Gottlob Jannings, of Munich, to attend a meeting of the duelling society he favours.\n#city.nizhny|Sushkin of the 'Athenians' has kept his import-export operation in Nizhny running, but it's difficult under the Soviets. His people there might be glad of my help.\n#city.paris|Tante Adeline used to run the Marais. She's moved on, but she still has people in Paris, and they'll give me shelter.\n#city.prague|The old rogue in Prague who calls herself 'Tante Adeline' could use my help.\n#city.rostock|My correspondent Count Jannings has a house in Rostock that I could use.\n#city.samarkand|I used to supply proscribed materials to a Jadidist magus in Samarkand. Perhaps he remembers me.\n#city.stalingrad|The criminal adepts called the Bird-Eaters have set their faces against the laws of both man and Mansus. I had heard that Zulfiya the Barber had joined them in Stalingrad. The Bird-Eaters are not good people. But I always liked Zulfiya.\n#city.strasbourg|The Hügelkinder of the Vosges sometimes take human shape to walk the streets of Strasbourg. I've dealt with them before. They know as well as anyone how to be unobtrusive: perhaps they can help.\n#city.sverdlovsk|Zulfiya the Barber used to buy life from me with jewels in the city of Sverdlovsk. She's turned strange and moved on to another city, but she introduced me to some of her contacts, back before the Civil War.\n#city.tiflis|Vasil the Fivegoer took refuge from the reckoners in Tiflis long ago. He owes me, though he might not welcome my visit.\n#city.tirana|Before all this went bad, I was negotiating a sale of life with one of President Zogu's people in Tirana. I still have her address.\n#city.tripoli|I don't have any people in Tripoli. I don't remember it at all. But quite some time ago, in the days of the Ottomans, I was born here.\n#city.valletta|My old comrade-in-arms Kara Kemal is in exile in Valletta. It's been a while, but I did save his life in the Great War...\n#city.venice|I know a woman named Orsolina in Venice. She wasn't always a woman. But she's lived there a very long time.\n#city.vienna|It was the White City once. Now they call it 'Red Vienna'. There's a Ligeian here, and the scars of the Worm Wars are still visible to those who know. But if I'm to die, I'd like to see the old place one more time.\n#wilderness|There are no other prospects of help in this region, and the roads and railways are too closely watched. My only chance is to strike out cross-country.\n#end.bornholm|There's a rugged little island in the Baltic where few ships go. I spent a summer there with someone whose name I've nearly forgotten. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.cheko|There's a lodge by a tiger-prowled lake deep in the taiga where I hunted in the days of the Tsars. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.ghardaia|There's a fortified quincunx of villages deep in the desert. Chaima drew me the route years ago.  Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.messana|There's a hermitage in the hills above an odd little village, where Mireya once spent a summer. I thought it'd make a good bolt-hole, and I asked her to draw me the route there once. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.morbihan|There's a peculiar priory in the Gulf of Morbihan, as far west as you can go without crossing the greater sea. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.paro|There's a monastery high in the great mountains beyond Russia. I visited it in my youth. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#end.slettnes|There's a lighthouse at the very end of Europe, where I first felt the touch of the Nameless Name's garment. Perhaps my Foe won't find me there, and if he does, perhaps it's time to make a stand.\n#|Somewhere?@"
         },
         {
-            "id": "send.investigate.aachen",
+            "id": "r_send.investigate.aachen",
             "actionid": "send",
             "label": "Send Discreet Messages from Aachen",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1581,12 +1581,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.alexandria",
+            "id": "r_send.investigate.alexandria",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
             "aspects": {
@@ -1612,12 +1612,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.algiers",
+            "id": "r_send.investigate.algiers",
             "actionid": "send",
             "label": "Send Discreet Messages from Algiers",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1644,12 +1644,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.amsterdam",
+            "id": "r_send.investigate.amsterdam",
             "actionid": "send",
             "label": "Send Discreet Messages from Amsterdam",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1675,12 +1675,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.avignon",
+            "id": "r_send.investigate.avignon",
             "actionid": "send",
             "label": "Send Discreet Messages from Avignon",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1706,12 +1706,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.baghdad",
+            "id": "r_send.investigate.baghdad",
             "actionid": "send",
             "label": "Send Discreet Messages from Baghdad",
             "requirements": {
@@ -1738,12 +1738,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.budapest",
+            "id": "r_send.investigate.budapest",
             "actionid": "send",
             "label": "Send Discreet Messages from Budapest",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1769,12 +1769,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.candia",
+            "id": "r_send.investigate.candia",
             "actionid": "send",
             "label": "Send Discreet Messages from Candia-Heraklion",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This will search for a place to flee to. There is a small risk of creating a Trace. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -1800,12 +1800,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.cluj",
+            "id": "r_send.investigate.cluj",
             "actionid": "send",
             "label": "Send Discreet Messages from Cluj-Napoca",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This will search for a place to flee to. There is a small risk of creating a Trace. Worse, the reckoners might get there before you.]",
@@ -1828,12 +1828,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.granada",
+            "id": "r_send.investigate.granada",
             "actionid": "send",
             "label": "Send Discreet Messages from Granada",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1859,12 +1859,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.istanbul",
+            "id": "r_send.investigate.istanbul",
             "actionid": "send",
             "label": "Send Discreet Messages from Istanbul",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1890,12 +1890,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.kaunas",
+            "id": "r_send.investigate.kaunas",
             "actionid": "send",
             "label": "Send Discreet Messages from Kaunas",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1922,12 +1922,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.kiev",
+            "id": "r_send.investigate.kiev",
             "actionid": "send",
             "label": "Send Discreet Messages from Kiev",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1953,12 +1953,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.krakow",
+            "id": "r_send.investigate.krakow",
             "actionid": "send",
             "label": "Send Discreet Messages from Kraków",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1984,12 +1984,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.leningrad",
+            "id": "r_send.investigate.leningrad",
             "actionid": "send",
             "label": "Send Discreet Messages from Leningrad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2015,12 +2015,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.london",
+            "id": "r_send.investigate.london",
             "actionid": "send",
             "label": "Send Discreet Messages from London",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2046,12 +2046,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.marrakech",
+            "id": "r_send.investigate.marrakech",
             "actionid": "send",
             "label": "Send Discreet Messages from Marrakech",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2077,12 +2077,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.meshad",
+            "id": "r_send.investigate.meshad",
             "actionid": "send",
             "label": "Send Discreet Messages from Meshad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -2108,12 +2108,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.munich",
+            "id": "r_send.investigate.munich",
             "actionid": "send",
             "label": "Send Discreet Messages from Munich",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2139,12 +2139,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.nizhny",
+            "id": "r_send.investigate.nizhny",
             "actionid": "send",
             "label": "Send Discreet Messages from Nizhny",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -2170,12 +2170,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.paris",
+            "id": "r_send.investigate.paris",
             "actionid": "send",
             "label": "Send Discreet Messages from Paris",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2201,12 +2201,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.prague",
+            "id": "r_send.investigate.prague",
             "actionid": "send",
             "label": "Send Discreet Messages from Prague",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2232,12 +2232,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.rostock",
+            "id": "r_send.investigate.rostock",
             "actionid": "send",
             "label": "Send Discreet Messages from Rostock",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2263,12 +2263,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.samarkand",
+            "id": "r_send.investigate.samarkand",
             "actionid": "send",
             "label": "Send Discreet Messages from Samarkand",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2294,12 +2294,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.strasbourg",
+            "id": "r_send.investigate.strasbourg",
             "actionid": "send",
             "label": "Send Discreet Messages from Strasbourg",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2325,12 +2325,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.stalingrad",
+            "id": "r_send.investigate.stalingrad",
             "actionid": "send",
             "label": "Send Discreet Messages from Stalingrad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -2356,12 +2356,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.sverdlovsk",
+            "id": "r_send.investigate.sverdlovsk",
             "actionid": "send",
             "label": "Send Discreet Messages from Sverdlovsk",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -2388,12 +2388,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.tiflis",
+            "id": "r_send.investigate.tiflis",
             "actionid": "send",
             "label": "Send Discreet Messages from Tiflis",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2419,12 +2419,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.tirana",
+            "id": "r_send.investigate.tirana",
             "actionid": "send",
             "label": "Send Discreet Messages from Tirana",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2450,12 +2450,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.tripoli",
+            "id": "r_send.investigate.tripoli",
             "actionid": "send",
             "label": "Send Discreet Messages from Tripoli dell'ovest",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2481,12 +2481,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.valletta",
+            "id": "r_send.investigate.valletta",
             "actionid": "send",
             "label": "Send Discreet Messages from Valletta",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
@@ -2512,12 +2512,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.venice",
+            "id": "r_send.investigate.venice",
             "actionid": "send",
             "label": "Send Discreet Messages from Venice",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2543,12 +2543,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.vienna",
+            "id": "r_send.investigate.vienna",
             "actionid": "send",
             "label": "Send Discreet Messages from Vienna",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -2574,12 +2574,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.aachen.turmoil",
+            "id": "r_send.investigate.aachen.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Aachen",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2605,12 +2605,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.algiers.turmoil",
+            "id": "r_send.investigate.algiers.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Algiers",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2637,12 +2637,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.baghdad.turmoil",
+            "id": "r_send.investigate.baghdad.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Baghdad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2669,12 +2669,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.istanbul.turmoil",
+            "id": "r_send.investigate.istanbul.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Istanbul",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2700,12 +2700,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.kiev.turmoil",
+            "id": "r_send.investigate.kiev.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Kiev",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2731,12 +2731,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.leningrad.turmoil",
+            "id": "r_send.investigate.leningrad.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Leningrad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2762,12 +2762,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.london.turmoil",
+            "id": "r_send.investigate.london.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from London",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2793,12 +2793,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.munich.turmoil",
+            "id": "r_send.investigate.munich.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Munich",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2824,12 +2824,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.nizhny.turmoil",
+            "id": "r_send.investigate.nizhny.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Nizhny Novgorod",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2855,12 +2855,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.samarkand.turmoil",
+            "id": "r_send.investigate.samarkand.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Samarkand",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2886,12 +2886,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.stalingrad.turmoil",
+            "id": "r_send.investigate.stalingrad.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Stalingrad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2917,12 +2917,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.sverdlovsk.turmoil",
+            "id": "r_send.investigate.sverdlovsk.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Sverdlovsk",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2949,12 +2949,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.tiflis.turmoil",
+            "id": "r_send.investigate.tiflis.turmoil",
             "actionid": "send",
             "label": "Send Hasty Messages from Tiflis",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
@@ -2980,12 +2980,12 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "send.investigate.wilderness",
+            "id": "r_send.investigate.wilderness",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [The wilds are dangerous. You'll receive a Wound each time you do this.]",
             "warmup": 30,
             "aspects": {
@@ -3049,7 +3049,7 @@
             },
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         }

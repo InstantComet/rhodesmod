@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "auctionentry6",
+            "id": "r_auctionentry6",
             "label": "Sell Something of Great Value",
             "actionid": "explore",
             "requirements": {
@@ -13,11 +13,11 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increasegrand",
+                    "id": "r_auctionsell_increasegrand",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -26,7 +26,7 @@
             "craftable": true
         },
         {
-            "id": "auctionentry5",
+            "id": "r_auctionentry5",
             "label": "Sell Something of Rare Value",
             "actionid": "explore",
             "requirements": {
@@ -38,11 +38,11 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increasemajor",
+                    "id": "r_auctionsell_increasemajor",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -51,7 +51,7 @@
             "craftable": true
         },
         {
-            "id": "auctionentry4",
+            "id": "r_auctionentry4",
             "label": "Sell Something of Significant Value",
             "actionid": "explore",
             "requirements": {
@@ -63,11 +63,11 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increasemajor",
+                    "id": "r_auctionsell_increasemajor",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -76,7 +76,7 @@
             "craftable": true
         },
         {
-            "id": "auctionentry3",
+            "id": "r_auctionentry3",
             "label": "Sell Something of Real Value",
             "actionid": "explore",
             "requirements": {
@@ -88,11 +88,11 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increaseminor",
+                    "id": "r_auctionsell_increaseminor",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -101,7 +101,7 @@
             "craftable": true
         },
         {
-            "id": "auctionentry2",
+            "id": "r_auctionentry2",
             "label": "Sell Something of Some Value",
             "actionid": "explore",
             "requirements": {
@@ -113,11 +113,11 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increaseminor",
+                    "id": "r_auctionsell_increaseminor",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -126,7 +126,7 @@
             "craftable": true
         },
         {
-            "id": "auctionentry1",
+            "id": "r_auctionentry1",
             "label": "Sell Something of Minimal Value",
             "actionid": "explore",
             "requirements": {
@@ -138,15 +138,15 @@
             },
             "linked": [
                 {
-                    "id": "auctionsell_increasepetty",
+                    "id": "r_auctionsell_increasepetty",
                     "chance": 30
                 },
                 {
-                    "id": "auctionsell_worthless",
+                    "id": "r_auctionsell_worthless",
                     "chance": 30
                 },
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -155,13 +155,13 @@
             "craftable": true
         },
         {
-            "id": "auctionsell_worthless",
+            "id": "r_auctionsell_worthless",
             "label": "Auction: A Total Lack of Interest",
             "actionid": "explore",
             "startdescription": "No-one is impressed. The auctioneer's gavel bangs. My item has sold, but for a sum so trifling as not to be worth recording.",
             "linked": [
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -172,13 +172,13 @@
             "warmup": 30
         },
         {
-            "id": "auctionsell_increasepetty",
+            "id": "r_auctionsell_increasepetty",
             "label": "Auction: Murmurings in the Audience",
             "actionid": "explore",
             "startdescription": "For whatever unlikely reason, my item has caught the fancy of the bidders.",
             "linked": [
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -188,13 +188,13 @@
             "warmup": 30
         },
         {
-            "id": "auctionsell_increaseminor",
+            "id": "r_auctionsell_increaseminor",
             "label": "Auction: Energetic Bidding",
             "actionid": "explore",
             "startdescription": "Some of the audience are on their feet, now. Passions are rising.",
             "linked": [
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -204,13 +204,13 @@
             "warmup": 30
         },
         {
-            "id": "auctionsell_increasemajor",
+            "id": "r_auctionsell_increasemajor",
             "label": "Auction: Shouts of Excitement",
             "actionid": "explore",
             "startdescription": "The auctioneer has to raise his voice over the hubbub of the crowd.",
             "linked": [
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -220,7 +220,7 @@
             "warmup": 30
         },
         {
-            "id": "auctionsell_increasegrand",
+            "id": "r_auctionsell_increasegrand",
             "label": "Auction: Duelling Bidders",
             "actionid": "explore",
             "startdescription": "Two wealthy collectors lock eyes with the auctioneer, signalling their intentions with the slightest nods. Except for the auctioneer's grave tones, the room is utterly silent.",
@@ -229,14 +229,14 @@
             },
             "linked": [
                 {
-                    "id": "auctioncleanup",
+                    "id": "r_auctioncleanup",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "auctioncleanup",
+            "id": "r_auctioncleanup",
             "label": "The Auction is Complete",
             "actionid": "explore",
             "description": "The auctioneer's gavel bangs. My item has sold.",

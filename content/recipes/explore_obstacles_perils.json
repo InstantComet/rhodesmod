@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explorevaultperil_treacherousground_encounter",
+            "id": "r_explorevaultperil_treacherousground_encounter",
             "actionid": "explore",
             "label": "Treacherous Ground",
             "startdescription": "Sucking mud, tricksy fissures: the earth is hungry. We need Lantern to show us a way, or Forge to make one.",
@@ -10,7 +10,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -21,27 +21,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultperil_treacherousground_highlantern",
+                    "id": "r_explorevaultperil_treacherousground_highlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_highforge",
+                    "id": "r_explorevaultperil_treacherousground_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_midlantern",
+                    "id": "r_explorevaultperil_treacherousground_midlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_midforge",
+                    "id": "r_explorevaultperil_treacherousground_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_lowlantern",
+                    "id": "r_explorevaultperil_treacherousground_lowlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_lowforge",
+                    "id": "r_explorevaultperil_treacherousground_lowforge",
                     "chance": 100
                 }
             ],
@@ -49,13 +49,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_highlantern",
+            "id": "r_explorevaultperil_treacherousground_highlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 10
@@ -65,17 +65,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_midlantern",
+            "id": "r_explorevaultperil_treacherousground_midlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 5
@@ -85,17 +85,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_lowlantern",
+            "id": "r_explorevaultperil_treacherousground_lowlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 1
@@ -105,17 +105,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_highforge",
+            "id": "r_explorevaultperil_treacherousground_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -125,17 +125,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_midforge",
+            "id": "r_explorevaultperil_treacherousground_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -145,17 +145,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_lowforge",
+            "id": "r_explorevaultperil_treacherousground_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -165,17 +165,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_treacherousground_success",
+                    "id": "r_explorevaultperil_treacherousground_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_treacherousground_failure",
+                    "id": "r_explorevaultperil_treacherousground_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_treacherousground_success",
+            "id": "r_explorevaultperil_treacherousground_success",
             "actionid": "explore",
             "label": "Safe Across the Treacherous Ground",
             "startdescription": "We're mud-spattered and thorn-scratched, but we've made it through.",
@@ -186,14 +186,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_treacherousground_failure",
+            "id": "r_explorevaultperil_treacherousground_failure",
             "actionid": "explore",
             "label": "The Earth is Hungry",
             "startdescription": "A promising route reveals itself as a sucking snare. We'll have to go round and try again.",
@@ -201,7 +201,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "explorevault_casualty",
+                    "id": "r_explorevault_casualty",
                     "chance": 70,
                     "additional": true,
                     "expulsion": {
@@ -214,14 +214,14 @@
             ],
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_forest_encounter",
+            "id": "r_explorevaultperil_forest_encounter",
             "actionid": "explore",
             "label": "Peril-Prowled Forest",
             "startdescription": "The darkness under the trees is quiet, for now, but we're not alone in here. Moth aspect will guide us through, or Forge aspect will clear a path.",
@@ -230,7 +230,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -241,27 +241,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultperil_forest_highmoth",
+                    "id": "r_explorevaultperil_forest_highmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_forest_highforge",
+                    "id": "r_explorevaultperil_forest_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_forest_midmoth",
+                    "id": "r_explorevaultperil_forest_midmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_forest_midforge",
+                    "id": "r_explorevaultperil_forest_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_forest_lowmoth",
+                    "id": "r_explorevaultperil_forest_lowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_forest_lowforge",
+                    "id": "r_explorevaultperil_forest_lowforge",
                     "chance": 100
                 }
             ],
@@ -269,13 +269,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_highmoth",
+            "id": "r_explorevaultperil_forest_highmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 10
@@ -285,17 +285,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_midmoth",
+            "id": "r_explorevaultperil_forest_midmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 5
@@ -305,17 +305,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_lowmoth",
+            "id": "r_explorevaultperil_forest_lowmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 1
@@ -325,17 +325,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_highforge",
+            "id": "r_explorevaultperil_forest_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -345,17 +345,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_midforge",
+            "id": "r_explorevaultperil_forest_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -365,17 +365,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_lowforge",
+            "id": "r_explorevaultperil_forest_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -385,17 +385,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_forest_success",
+                    "id": "r_explorevaultperil_forest_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_forest_failure",
+                    "id": "r_explorevaultperil_forest_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_forest_success",
+            "id": "r_explorevaultperil_forest_success",
             "actionid": "explore",
             "label": "'A Light Through the Trees...'",
             "startdescription": "There's something up ahead. We've made it through the forest.",
@@ -406,14 +406,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_forest_failure",
+            "id": "r_explorevaultperil_forest_failure",
             "actionid": "explore",
             "label": "The Deepening Silence",
             "startdescription": "We've lost the path. The forest towers against the dusk sky. The beasts of the forest are silent, but now and then we see their eyes.",
@@ -421,7 +421,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "explorevault_casualty",
+                    "id": "r_explorevault_casualty",
                     "chance": 70,
                     "additional": true,
                     "expulsion": {
@@ -434,14 +434,14 @@
             ],
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_mountains_encounter",
+            "id": "r_explorevaultperil_mountains_encounter",
             "actionid": "explore",
             "label": "The High Passes",
             "startdescription": "Savage peaks scar the sky. Winter aspect may preserve us from chill, and Forge aspect may give us a path. If we have neither, our expedition will fail.",
@@ -450,7 +450,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -461,27 +461,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultperil_mountains_highwinter",
+                    "id": "r_explorevaultperil_mountains_highwinter",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_mountains_highforge",
+                    "id": "r_explorevaultperil_mountains_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_mountains_midwinter",
+                    "id": "r_explorevaultperil_mountains_midwinter",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_mountains_midforge",
+                    "id": "r_explorevaultperil_mountains_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_mountains_lowwinter",
+                    "id": "r_explorevaultperil_mountains_lowwinter",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_mountains_lowforge",
+                    "id": "r_explorevaultperil_mountains_lowforge",
                     "chance": 100
                 }
             ],
@@ -489,13 +489,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_highwinter",
+            "id": "r_explorevaultperil_mountains_highwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 10
@@ -505,17 +505,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_midwinter",
+            "id": "r_explorevaultperil_mountains_midwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 5
@@ -525,17 +525,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_lowwinter",
+            "id": "r_explorevaultperil_mountains_lowwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 1
@@ -545,17 +545,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_highforge",
+            "id": "r_explorevaultperil_mountains_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -565,17 +565,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_midforge",
+            "id": "r_explorevaultperil_mountains_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -585,17 +585,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_lowforge",
+            "id": "r_explorevaultperil_mountains_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -605,17 +605,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_mountains_success",
+                    "id": "r_explorevaultperil_mountains_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_mountains_failure",
+                    "id": "r_explorevaultperil_mountains_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_mountains_success",
+            "id": "r_explorevaultperil_mountains_success",
             "actionid": "explore",
             "label": "Through the High Passes",
             "startdescription": "Frost-scarred and shivering, we've made it through the mountains.",
@@ -626,14 +626,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_mountains_failure",
+            "id": "r_explorevaultperil_mountains_failure",
             "actionid": "explore",
             "label": "Furious Echoes",
             "startdescription": "Rock-slides and avalanches drive us back. We'll try another route, if we survive.",
@@ -641,7 +641,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "explorevault_casualty",
+                    "id": "r_explorevault_casualty",
                     "chance": 70,
                     "additional": true,
                     "expulsion": {
@@ -654,14 +654,14 @@
             ],
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_desert_encounter",
+            "id": "r_explorevaultperil_desert_encounter",
             "actionid": "explore",
             "label": "Desolation",
             "startdescription": "An immense and tawny furnace barely contained by its horizons. At night, a chilly wilderness of stars. We must go carefully, with Forge to shape our way or Grail to secure us against thirst.",
@@ -670,7 +670,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -681,27 +681,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultperil_desert_highgrail",
+                    "id": "r_explorevaultperil_desert_highgrail",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_desert_highforge",
+                    "id": "r_explorevaultperil_desert_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_desert_midgrail",
+                    "id": "r_explorevaultperil_desert_midgrail",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_desert_midforge",
+                    "id": "r_explorevaultperil_desert_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_desert_lowgrail",
+                    "id": "r_explorevaultperil_desert_lowgrail",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_desert_lowforge",
+                    "id": "r_explorevaultperil_desert_lowforge",
                     "chance": 100
                 }
             ],
@@ -709,13 +709,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_highgrail",
+            "id": "r_explorevaultperil_desert_highgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 10
@@ -725,17 +725,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_midgrail",
+            "id": "r_explorevaultperil_desert_midgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 5
@@ -745,17 +745,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_lowgrail",
+            "id": "r_explorevaultperil_desert_lowgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 1
@@ -765,17 +765,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_highforge",
+            "id": "r_explorevaultperil_desert_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -785,17 +785,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_midforge",
+            "id": "r_explorevaultperil_desert_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -805,17 +805,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_lowforge",
+            "id": "r_explorevaultperil_desert_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -825,17 +825,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_desert_success",
+                    "id": "r_explorevaultperil_desert_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_desert_failure",
+                    "id": "r_explorevaultperil_desert_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_desert_success",
+            "id": "r_explorevaultperil_desert_success",
             "actionid": "explore",
             "label": "The Sun in Splendour",
             "startdescription": "The sun is setting. We look back across the desolation we crossed, and at all the colours it assumes in the evening light. Night falls. Stars prickle. The wind presses cold hands to our faces. Onwards.",
@@ -846,14 +846,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_desert_failure",
+            "id": "r_explorevaultperil_desert_failure",
             "actionid": "explore",
             "label": "The Sun in Wrath",
             "startdescription": "Day after day, the sun tautens our skin, dries our mouths, floods our skulls with savage light. We might be lost. It's possible we're lost.",
@@ -861,7 +861,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "explorevault_casualty",
+                    "id": "r_explorevault_casualty",
                     "chance": 70,
                     "additional": true,
                     "expulsion": {
@@ -874,14 +874,14 @@
             ],
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_sea_encounter",
+            "id": "r_explorevaultperil_sea_encounter",
             "actionid": "explore",
             "label": "The Sea around the Evening Isles",
             "startdescription": "The sea we sail is plagued by storms. The isles we seek are tucked in the corners of unmapped history. We will need Heart or Forge or both.",
@@ -890,7 +890,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -901,27 +901,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultperil_sea_highheart",
+                    "id": "r_explorevaultperil_sea_highheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_sea_highforge",
+                    "id": "r_explorevaultperil_sea_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_sea_midheart",
+                    "id": "r_explorevaultperil_sea_midheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_sea_midforge",
+                    "id": "r_explorevaultperil_sea_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_sea_lowheart",
+                    "id": "r_explorevaultperil_sea_lowheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultperil_sea_lowforge",
+                    "id": "r_explorevaultperil_sea_lowforge",
                     "chance": 100
                 }
             ],
@@ -929,13 +929,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_highheart",
+            "id": "r_explorevaultperil_sea_highheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 10
@@ -945,17 +945,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_midheart",
+            "id": "r_explorevaultperil_sea_midheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 5
@@ -965,17 +965,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_lowheart",
+            "id": "r_explorevaultperil_sea_lowheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 1
@@ -985,17 +985,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_highforge",
+            "id": "r_explorevaultperil_sea_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -1005,17 +1005,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_midforge",
+            "id": "r_explorevaultperil_sea_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -1025,17 +1025,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_lowforge",
+            "id": "r_explorevaultperil_sea_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -1045,17 +1045,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultperil_sea_success",
+                    "id": "r_explorevaultperil_sea_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultperil_sea_failure",
+                    "id": "r_explorevaultperil_sea_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultperil_sea_success",
+            "id": "r_explorevaultperil_sea_success",
             "actionid": "explore",
             "label": "Safe Across the Sea",
             "startdescription": "Wave-lashed and sea-spattered, sun-scorched and salt-stained. But here.",
@@ -1066,14 +1066,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultperil_sea_failure",
+            "id": "r_explorevaultperil_sea_failure",
             "actionid": "explore",
             "label": "Labyrinths of Salt and Basalt",
             "startdescription": "Another day battered by storms. We must be close. But the isles are a maddening maze, and the places we seek lie on no published chart.",
@@ -1081,7 +1081,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "explorevault_casualty",
+                    "id": "r_explorevault_casualty",
                     "chance": 70,
                     "additional": true,
                     "expulsion": {
@@ -1094,7 +1094,7 @@
             ],
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "scout.first",
+            "id": "r_scout.first",
             "actionid": "scout",
             "label": "Reconnoitre",
             "startdescription": "It's a cold old world out there, but I know a few tricks.",
@@ -10,7 +10,7 @@
             },
             "alt": [
                 {
-                    "id": "relinquish.first",
+                    "id": "r_relinquish.first",
                     "additional": true
                 }
             ],
@@ -18,7 +18,7 @@
             "comments": "opened by initial travel recipe"
         },
         {
-            "id": "scout.turmoil",
+            "id": "r_scout.turmoil",
             "actionid": "scout",
             "label": "A City in Turmoil",
             "startdescription": "I should leave - and soon.",
@@ -29,7 +29,7 @@
             "hintonly": true
         },
         {
-            "id": "scout.aachen",
+            "id": "r_scout.aachen",
             "actionid": "scout",
             "label": "Reconnoitre Aachen",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -60,7 +60,7 @@
             }
         },
         {
-            "id": "scout.alexandria",
+            "id": "r_scout.alexandria",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -99,7 +99,7 @@
             }
         },
         {
-            "id": "scout.algiers",
+            "id": "r_scout.algiers",
             "actionid": "scout",
             "label": "Reconnoitre Algiers",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -137,7 +137,7 @@
             }
         },
         {
-            "id": "scout.amsterdam",
+            "id": "r_scout.amsterdam",
             "actionid": "scout",
             "label": "Reconnoitre Amsterdam",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -171,7 +171,7 @@
             }
         },
         {
-            "id": "scout.avignon",
+            "id": "r_scout.avignon",
             "actionid": "scout",
             "label": "Reconnoitre Avignon",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -203,7 +203,7 @@
             }
         },
         {
-            "id": "scout.baghdad",
+            "id": "r_scout.baghdad",
             "actionid": "scout",
             "label": "Reconnoitre Baghdad",
             "requirements": {
@@ -236,7 +236,7 @@
             }
         },
         {
-            "id": "scout.budapest",
+            "id": "r_scout.budapest",
             "actionid": "scout",
             "label": "Reconnoitre Budapest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -269,7 +269,7 @@
             }
         },
         {
-            "id": "scout.candia",
+            "id": "r_scout.candia",
             "actionid": "scout",
             "label": "Reconnoitre Candia-Heraklion",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -305,7 +305,7 @@
             }
         },
         {
-            "id": "scout.cluj",
+            "id": "r_scout.cluj",
             "actionid": "scout",
             "label": "Reconnoitre Cluj-Napoca",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -339,7 +339,7 @@
             }
         },
         {
-            "id": "scout.granada",
+            "id": "r_scout.granada",
             "actionid": "scout",
             "label": "Reconnoitre Granada",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -375,7 +375,7 @@
             }
         },
         {
-            "id": "scout.istanbul",
+            "id": "r_scout.istanbul",
             "actionid": "scout",
             "label": "Reconnoitre Istanbul",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -413,7 +413,7 @@
             }
         },
         {
-            "id": "scout.kaunas",
+            "id": "r_scout.kaunas",
             "actionid": "scout",
             "label": "Reconnoitre Kaunas",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -449,7 +449,7 @@
             }
         },
         {
-            "id": "scout.kiev",
+            "id": "r_scout.kiev",
             "actionid": "scout",
             "label": "Reconnoitre Kiev",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -483,7 +483,7 @@
             }
         },
         {
-            "id": "scout.krakow",
+            "id": "r_scout.krakow",
             "actionid": "scout",
             "label": "Reconnoitre Kraków",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -516,7 +516,7 @@
             }
         },
         {
-            "id": "scout.leningrad",
+            "id": "r_scout.leningrad",
             "actionid": "scout",
             "label": "Reconnoitre Leningrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -548,7 +548,7 @@
             }
         },
         {
-            "id": "scout.london",
+            "id": "r_scout.london",
             "actionid": "scout",
             "label": "Reconnoitre London",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -580,7 +580,7 @@
             }
         },
         {
-            "id": "scout.marrakech",
+            "id": "r_scout.marrakech",
             "actionid": "scout",
             "label": "Reconnoitre Marrakech",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -618,7 +618,7 @@
             }
         },
         {
-            "id": "scout.meshad",
+            "id": "r_scout.meshad",
             "actionid": "scout",
             "label": "Reconnoitre Meshad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -655,7 +655,7 @@
             }
         },
         {
-            "id": "scout.munich",
+            "id": "r_scout.munich",
             "actionid": "scout",
             "label": "Reconnoitre Munich",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -687,7 +687,7 @@
             }
         },
         {
-            "id": "scout.nizhny",
+            "id": "r_scout.nizhny",
             "actionid": "scout",
             "label": "Reconnoitre Nizhny",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -719,7 +719,7 @@
             }
         },
         {
-            "id": "scout.paris",
+            "id": "r_scout.paris",
             "actionid": "scout",
             "label": "Reconnoitre Paris",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -753,7 +753,7 @@
             }
         },
         {
-            "id": "scout.prague",
+            "id": "r_scout.prague",
             "actionid": "scout",
             "label": "Reconnoitre Prague",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -786,7 +786,7 @@
             }
         },
         {
-            "id": "scout.rostock",
+            "id": "r_scout.rostock",
             "actionid": "scout",
             "label": "Reconnoitre Rostock",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -821,7 +821,7 @@
             }
         },
         {
-            "id": "scout.samarkand",
+            "id": "r_scout.samarkand",
             "actionid": "scout",
             "label": "Reconnoitre Samarkand",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -855,7 +855,7 @@
             }
         },
         {
-            "id": "scout.stalingrad",
+            "id": "r_scout.stalingrad",
             "actionid": "scout",
             "label": "Reconnoitre Stalingrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -888,7 +888,7 @@
             }
         },
         {
-            "id": "scout.strasbourg",
+            "id": "r_scout.strasbourg",
             "actionid": "scout",
             "label": "Reconnoitre Strasbourg",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -920,7 +920,7 @@
             }
         },
         {
-            "id": "scout.sverdlovsk",
+            "id": "r_scout.sverdlovsk",
             "actionid": "scout",
             "label": "Reconnoitre Sverdlovsk",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -951,7 +951,7 @@
             }
         },
         {
-            "id": "scout.tiflis",
+            "id": "r_scout.tiflis",
             "actionid": "scout",
             "label": "Reconnoitre Tiflis",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -983,7 +983,7 @@
             }
         },
         {
-            "id": "scout.tirana",
+            "id": "r_scout.tirana",
             "actionid": "scout",
             "label": "Reconnoitre Tirana",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1015,7 +1015,7 @@
             }
         },
         {
-            "id": "scout.tripoli",
+            "id": "r_scout.tripoli",
             "actionid": "scout",
             "label": "Reconnoitre Tripoli dell'ovest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1051,7 +1051,7 @@
             }
         },
         {
-            "id": "scout.valletta",
+            "id": "r_scout.valletta",
             "actionid": "scout",
             "label": "Reconnoitre Valletta",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1084,7 +1084,7 @@
             }
         },
         {
-            "id": "scout.venice",
+            "id": "r_scout.venice",
             "actionid": "scout",
             "label": "Reconnoitre Venice",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1118,7 +1118,7 @@
             }
         },
         {
-            "id": "scout.vienna",
+            "id": "r_scout.vienna",
             "actionid": "scout",
             "label": "Reconnoitre Vienna",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1150,7 +1150,7 @@
             }
         },
         {
-            "id": "scout.end.foe.defeated",
+            "id": "r_scout.end.foe.defeated",
             "actionid": "scout",
             "label": "Rest and Wait",
             "startdescription": "@#domicile.bornholm| The locals don't know exactly what happened, but they know it's over. One painter keeps pestering me to sit for a portrait. Perhaps, some day soon, I will.\n#domicile.cheko|Each day, sunrise comes a little earlier. The winds grow a little less savage. It's almost spring.\n#domicile.ghardaia|The buffeting half-silence of the high desert; the creeping sun. The locals still keep a respectful distance, but now they nod as I pass them.\n#domicile.messana|Shadows sprawl as each day passes. Sometimes, now, the villagers come up to leave me small gifts of food, and salute me.\n#domicile.morbihan|The brothers have tidied away the debris of the battle, and permit me to break fast with them in the long hall where the sunlight slants.\n#domicile.paro|Each morning I clamber up the steps and across the rickety bridges to watch the dawn. The monks smile at me as I pass.\n#domicile.slettnes|The sea crashes grey on the stones each morning, and grumbles at me all through the night. It's something to listen to when I can't sleep.@",
@@ -1168,7 +1168,7 @@
             }
         },
         {
-            "id": "scout.bornholm",
+            "id": "r_scout.bornholm",
             "actionid": "scout",
             "label": "Reconnoitre Sunshine Island",
             "startdescription": "Walk the island, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1189,7 +1189,7 @@
             }
         },
         {
-            "id": "scout.slettnes",
+            "id": "r_scout.slettnes",
             "actionid": "scout",
             "label": "Reconnoitre Fogfire Point",
             "startdescription": "Prowl the coast, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1212,7 +1212,7 @@
             }
         },
         {
-            "id": "scout.cheko",
+            "id": "r_scout.cheko",
             "actionid": "scout",
             "label": "Reconnoitre Wounded Moon Lake ",
             "startdescription": "Roam the woods, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1235,7 +1235,7 @@
             }
         },
         {
-            "id": "scout.paro",
+            "id": "r_scout.paro",
             "actionid": "scout",
             "label": "Reconnoitre the Tiger's Nest",
             "startdescription": "Range the mountain and the monastery, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1258,7 +1258,7 @@
             }
         },
         {
-            "id": "scout.messana",
+            "id": "r_scout.messana",
             "actionid": "scout",
             "label": "Reconnoitre the Hermitage of the Scythe",
             "startdescription": "Walk the hills, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1281,7 +1281,7 @@
             }
         },
         {
-            "id": "scout.ghardaia",
+            "id": "r_scout.ghardaia",
             "actionid": "scout",
             "label": "Reconnoitre the Pentapolis",
             "startdescription": "Roam the village and the plateau, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1303,7 +1303,7 @@
             }
         },
         {
-            "id": "scout.morbihan",
+            "id": "r_scout.morbihan",
             "actionid": "scout",
             "label": "Reconnoitre the Priory of Captains",
             "startdescription": "Roam the island, seeking opportunities. [Sometimes, this will create a Trace.]",
@@ -1326,7 +1326,7 @@
             }
         },
         {
-            "id": "scout.wilderness",
+            "id": "r_scout.wilderness",
             "actionid": "scout",
             "label": "Reconnoitre",
             "startdescription": "Where even am I?",

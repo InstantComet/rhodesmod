@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explorevaultcurse_dread_encounter",
+            "id": "r_explorevaultcurse_dread_encounter",
             "actionid": "explore",
             "label": "The Dry Soul Curse",
             "startdescription": "The treasures ahead lie under a Dry Soul Curse. Without Lantern or Heart, it may follow us back home and dessicate the spirit.",
@@ -10,7 +10,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -21,27 +21,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultcurse_dread_highheart",
+                    "id": "r_explorevaultcurse_dread_highheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_dread_highlantern",
+                    "id": "r_explorevaultcurse_dread_highlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_dread_midheart",
+                    "id": "r_explorevaultcurse_dread_midheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_dread_midlantern",
+                    "id": "r_explorevaultcurse_dread_midlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_dread_lowheart",
+                    "id": "r_explorevaultcurse_dread_lowheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_dread_lowlantern",
+                    "id": "r_explorevaultcurse_dread_lowlantern",
                     "chance": 100
                 }
             ],
@@ -49,13 +49,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_highheart",
+            "id": "r_explorevaultcurse_dread_highheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 10
@@ -65,17 +65,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_midheart",
+            "id": "r_explorevaultcurse_dread_midheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 5
@@ -85,17 +85,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_lowheart",
+            "id": "r_explorevaultcurse_dread_lowheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 1
@@ -105,17 +105,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_highlantern",
+            "id": "r_explorevaultcurse_dread_highlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 10
@@ -125,17 +125,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_midlantern",
+            "id": "r_explorevaultcurse_dread_midlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 5
@@ -145,17 +145,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_lowlantern",
+            "id": "r_explorevaultcurse_dread_lowlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 1
@@ -165,17 +165,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_dread_success",
+                    "id": "r_explorevaultcurse_dread_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_dread_failure",
+                    "id": "r_explorevaultcurse_dread_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_dread_success",
+            "id": "r_explorevaultcurse_dread_success",
             "actionid": "explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
@@ -186,14 +186,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_dread_failure",
+            "id": "r_explorevaultcurse_dread_failure",
             "actionid": "explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
@@ -203,7 +203,7 @@
             },
             "alt": [
                 {
-                    "id": "curse_dread_dormant",
+                    "id": "r_curse_dread_dormant",
                     "chance": 100,
                     "additional": true
                 }
@@ -211,14 +211,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_visions_encounter",
+            "id": "r_explorevaultcurse_visions_encounter",
             "actionid": "explore",
             "label": "The Fifth Eye Curse",
             "startdescription": "The treasures ahead lie under a Fifth Eye Curse. Without Winter or Heart, it may follow us back home and tear open the eye of the soul.",
@@ -227,7 +227,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -238,27 +238,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultcurse_visions_highheart",
+                    "id": "r_explorevaultcurse_visions_highheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_visions_highwinter",
+                    "id": "r_explorevaultcurse_visions_highwinter",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_visions_midheart",
+                    "id": "r_explorevaultcurse_visions_midheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_visions_midwinter",
+                    "id": "r_explorevaultcurse_visions_midwinter",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_visions_lowheart",
+                    "id": "r_explorevaultcurse_visions_lowheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_visions_lowwinter",
+                    "id": "r_explorevaultcurse_visions_lowwinter",
                     "chance": 100
                 }
             ],
@@ -266,13 +266,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_highheart",
+            "id": "r_explorevaultcurse_visions_highheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 10
@@ -282,17 +282,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_midheart",
+            "id": "r_explorevaultcurse_visions_midheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 5
@@ -302,17 +302,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_lowheart",
+            "id": "r_explorevaultcurse_visions_lowheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 1
@@ -322,17 +322,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_highwinter",
+            "id": "r_explorevaultcurse_visions_highwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 10
@@ -342,17 +342,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_midwinter",
+            "id": "r_explorevaultcurse_visions_midwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 5
@@ -362,17 +362,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_lowwinter",
+            "id": "r_explorevaultcurse_visions_lowwinter",
             "actionid": "explore",
             "requirements": {
                 "winter": 1
@@ -382,17 +382,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_visions_success",
+                    "id": "r_explorevaultcurse_visions_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_visions_failure",
+                    "id": "r_explorevaultcurse_visions_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_visions_success",
+            "id": "r_explorevaultcurse_visions_success",
             "actionid": "explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
@@ -403,14 +403,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_visions_failure",
+            "id": "r_explorevaultcurse_visions_failure",
             "actionid": "explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
@@ -420,7 +420,7 @@
             },
             "alt": [
                 {
-                    "id": "curse_visions_dormant",
+                    "id": "r_curse_visions_dormant",
                     "chance": 100,
                     "additional": true
                 }
@@ -428,14 +428,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_affliction_encounter",
+            "id": "r_explorevaultcurse_affliction_encounter",
             "actionid": "explore",
             "label": "The Creeping Breath",
             "startdescription": "The treasures ahead lie under a Creeping Breath Curse. Without Grail or Heart, it may follow us back home, and settle like spores into our lungs.",
@@ -444,7 +444,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -455,27 +455,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultcurse_affliction_highheart",
+                    "id": "r_explorevaultcurse_affliction_highheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_affliction_highgrail",
+                    "id": "r_explorevaultcurse_affliction_highgrail",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_affliction_midheart",
+                    "id": "r_explorevaultcurse_affliction_midheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_affliction_midgrail",
+                    "id": "r_explorevaultcurse_affliction_midgrail",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_affliction_lowheart",
+                    "id": "r_explorevaultcurse_affliction_lowheart",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_affliction_lowgrail",
+                    "id": "r_explorevaultcurse_affliction_lowgrail",
                     "chance": 100
                 }
             ],
@@ -483,13 +483,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_highheart",
+            "id": "r_explorevaultcurse_affliction_highheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 10
@@ -499,17 +499,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_midheart",
+            "id": "r_explorevaultcurse_affliction_midheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 5
@@ -519,17 +519,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_lowheart",
+            "id": "r_explorevaultcurse_affliction_lowheart",
             "actionid": "explore",
             "requirements": {
                 "heart": 1
@@ -539,17 +539,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_highgrail",
+            "id": "r_explorevaultcurse_affliction_highgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 10
@@ -559,17 +559,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_midgrail",
+            "id": "r_explorevaultcurse_affliction_midgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 5
@@ -579,17 +579,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_lowgrail",
+            "id": "r_explorevaultcurse_affliction_lowgrail",
             "actionid": "explore",
             "requirements": {
                 "grail": 1
@@ -599,17 +599,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_affliction_success",
+                    "id": "r_explorevaultcurse_affliction_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_affliction_failure",
+                    "id": "r_explorevaultcurse_affliction_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_affliction_success",
+            "id": "r_explorevaultcurse_affliction_success",
             "actionid": "explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
@@ -620,14 +620,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_affliction_failure",
+            "id": "r_explorevaultcurse_affliction_failure",
             "actionid": "explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
@@ -637,7 +637,7 @@
             },
             "alt": [
                 {
-                    "id": "curse_affliction_dormant",
+                    "id": "r_curse_affliction_dormant",
                     "chance": 100,
                     "additional": true
                 }
@@ -645,14 +645,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_nowhere_encounter",
+            "id": "r_explorevaultcurse_nowhere_encounter",
             "actionid": "explore",
             "label": "Curse-from-Nowhere",
             "startdescription": "Here is a place where the world's skin yellowed with fever. Lantern or Moth might protect us. Nothing else will. ",
@@ -661,7 +661,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -672,27 +672,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultcurse_nowhere_highmoth",
+                    "id": "r_explorevaultcurse_nowhere_highmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_highlantern",
+                    "id": "r_explorevaultcurse_nowhere_highlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_midmoth",
+                    "id": "r_explorevaultcurse_nowhere_midmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_midlantern",
+                    "id": "r_explorevaultcurse_nowhere_midlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_lowmoth",
+                    "id": "r_explorevaultcurse_nowhere_lowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_lowlantern",
+                    "id": "r_explorevaultcurse_nowhere_lowlantern",
                     "chance": 100
                 }
             ],
@@ -700,13 +700,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_highmoth",
+            "id": "r_explorevaultcurse_nowhere_highmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 10
@@ -716,17 +716,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_midmoth",
+            "id": "r_explorevaultcurse_nowhere_midmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 5
@@ -736,17 +736,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_lowmoth",
+            "id": "r_explorevaultcurse_nowhere_lowmoth",
             "actionid": "explore",
             "requirements": {
                 "moth": 1
@@ -756,17 +756,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_highlantern",
+            "id": "r_explorevaultcurse_nowhere_highlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 10
@@ -776,17 +776,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_midlantern",
+            "id": "r_explorevaultcurse_nowhere_midlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 5
@@ -796,17 +796,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_lowlantern",
+            "id": "r_explorevaultcurse_nowhere_lowlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 1
@@ -816,17 +816,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultcurse_nowhere_success",
+                    "id": "r_explorevaultcurse_nowhere_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultcurse_nowhere_failure",
+                    "id": "r_explorevaultcurse_nowhere_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultcurse_nowhere_success",
+            "id": "r_explorevaultcurse_nowhere_success",
             "actionid": "explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
@@ -837,14 +837,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultcurse_nowhere_failure",
+            "id": "r_explorevaultcurse_nowhere_failure",
             "actionid": "explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the Curse will tighten around us.",
@@ -854,7 +854,7 @@
             },
             "alt": [
                 {
-                    "id": "curse_nowhere_dormant",
+                    "id": "r_curse_nowhere_dormant",
                     "chance": 100,
                     "additional": true
                 }
@@ -862,7 +862,7 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],

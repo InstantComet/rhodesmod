@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultlandbeyondforest1_setup",
+            "id": "r_explore_vaultlandbeyondforest1_setup",
             "label": "Beginning an Expedition: the Cave of Candles",
             "actionid": "explore",
             "requirements": {
@@ -19,13 +19,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultlandbeyondforest2_setup",
+            "id": "r_explore_vaultlandbeyondforest2_setup",
             "label": "Beginning an Expedition: the Voivode's Citadel",
             "actionid": "explore",
             "requirements": {
@@ -43,13 +43,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultlandbeyondforest3_setup",
+            "id": "r_explore_vaultlandbeyondforest3_setup",
             "label": "Beginning an Expedition: Grunewald's Permanent Circus",
             "actionid": "explore",
             "requirements": {
@@ -67,13 +67,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultlandbeyondforest4_setup",
+            "id": "r_explore_vaultlandbeyondforest4_setup",
             "label": "Beginning an Expedition: Tower Revek",
             "actionid": "explore",
             "requirements": {
@@ -91,13 +91,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultlandbeyondforest5_setup",
+            "id": "r_explore_vaultlandbeyondforest5_setup",
             "label": "Beginning an Expedition: the Kusnetsov Endowment",
             "actionid": "explore",
             "requirements": {
@@ -116,13 +116,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultlandbeyondforestdefault_setup",
+            "id": "r_explore_vaultlandbeyondforestdefault_setup",
             "label": "Beginning an Expedition: Foxlily Meadows",
             "actionid": "explore",
             "requirements": {
@@ -141,13 +141,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultlandbeyondforest1_success",
+            "id": "r_explorevaultlandbeyondforest1_success",
             "label": "A Nest of Lights",
             "actionid": "explore",
             "requirements": {
@@ -173,7 +173,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultlandbeyondforest2_success",
+            "id": "r_explorevaultlandbeyondforest2_success",
             "label": "The Empty Tomb",
             "actionid": "explore",
             "requirements": {
@@ -201,7 +201,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultlandbeyondforest3_success",
+            "id": "r_explorevaultlandbeyondforest3_success",
             "label": "After the Circus",
             "actionid": "explore",
             "requirements": {
@@ -230,7 +230,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultlandbeyondforest4_success",
+            "id": "r_explorevaultlandbeyondforest4_success",
             "label": "A Long-Delayed Conclusion",
             "actionid": "explore",
             "requirements": {
@@ -256,7 +256,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultlandbeyondforest5_success",
+            "id": "r_explorevaultlandbeyondforest5_success",
             "label": "Words' End",
             "actionid": "explore",
             "requirements": {
@@ -284,7 +284,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultlandbeyondforestdefault_success",
+            "id": "r_explorevaultlandbeyondforestdefault_success",
             "label": "The Nourishment of Blossoms",
             "actionid": "explore",
             "requirements": {
@@ -302,11 +302,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "expeditionascensionheartd",
+                    "id": "r_expeditionascensionheartd",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionmothd",
+                    "id": "r_expeditionascensionmothd",
                     "chance": 100
                 }
             ]

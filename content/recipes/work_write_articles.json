@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "writeedgec",
+            "id": "r_writeedgec",
             "label": "Write an extensive treatise on the practices of the Edge, and the Hours that rule it",
             "actionid": "work",
             "requirements": {
@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "writeforgec",
+            "id": "r_writeforgec",
             "label": "Write an extensive treatise on the lore of the principle called Forge",
             "actionid": "work",
             "requirements": {
@@ -37,7 +37,7 @@
             "craftable": true
         },
         {
-            "id": "writegrailc",
+            "id": "r_writegrailc",
             "label": "Write an extensive treatise on the lore of the Red Grail",
             "actionid": "work",
             "requirements": {
@@ -56,7 +56,7 @@
             "craftable": true
         },
         {
-            "id": "writeheartc",
+            "id": "r_writeheartc",
             "label": "Write an extensive treatise on Heart-lore",
             "actionid": "work",
             "requirements": {
@@ -75,7 +75,7 @@
             "craftable": true
         },
         {
-            "id": "writeknockc",
+            "id": "r_writeknockc",
             "label": "Write an extensive treatise on the Knock-lore",
             "actionid": "work",
             "requirements": {
@@ -93,7 +93,7 @@
             "craftable": true
         },
         {
-            "id": "writelanternc",
+            "id": "r_writelanternc",
             "label": "Write an extensive treatise on the lore of the Lantern",
             "actionid": "work",
             "requirements": {
@@ -111,7 +111,7 @@
             "craftable": true
         },
         {
-            "id": "writemothc",
+            "id": "r_writemothc",
             "label": "Write an extensive treatise on the lore of the Moth",
             "actionid": "work",
             "requirements": {
@@ -130,7 +130,7 @@
             "craftable": true
         },
         {
-            "id": "writesecrethistoriesc",
+            "id": "r_writesecrethistoriesc",
             "label": "Write an extensive treatise on the Secret Histories",
             "actionid": "work",
             "requirements": {
@@ -148,7 +148,7 @@
             "craftable": true
         },
         {
-            "id": "writewinterc",
+            "id": "r_writewinterc",
             "label": "Write an extensive treatise on the White Lore",
             "actionid": "work",
             "requirements": {
@@ -166,7 +166,7 @@
             "craftable": true
         },
         {
-            "id": "writeedgeb",
+            "id": "r_writeedgeb",
             "label": "Write a substantial treatise on the lore of the practices of the Edge",
             "actionid": "work",
             "requirements": {
@@ -184,7 +184,7 @@
             "craftable": true
         },
         {
-            "id": "writeforgeb",
+            "id": "r_writeforgeb",
             "label": "Write a substantial treatise on the Forge-principle",
             "actionid": "work",
             "requirements": {
@@ -202,7 +202,7 @@
             "craftable": true
         },
         {
-            "id": "writegrailb",
+            "id": "r_writegrailb",
             "label": "Write a substantial treatise on the rites of the Red Grail",
             "actionid": "work",
             "requirements": {
@@ -220,7 +220,7 @@
             "craftable": true
         },
         {
-            "id": "writeheartb",
+            "id": "r_writeheartb",
             "label": "Write a substantial treatise on Heart-lore",
             "actionid": "work",
             "requirements": {
@@ -238,7 +238,7 @@
             "craftable": true
         },
         {
-            "id": "writeknockb",
+            "id": "r_writeknockb",
             "label": "Write a substantial treatise on the opening-rites of Knock",
             "actionid": "work",
             "requirements": {
@@ -256,7 +256,7 @@
             "craftable": true
         },
         {
-            "id": "writelanternb",
+            "id": "r_writelanternb",
             "label": "Write a substantial treatise on the Lantern",
             "actionid": "work",
             "requirements": {
@@ -274,7 +274,7 @@
             "craftable": true
         },
         {
-            "id": "writemothb",
+            "id": "r_writemothb",
             "label": "Write a substantial treatise on the Moth",
             "actionid": "work",
             "requirements": {
@@ -292,7 +292,7 @@
             "craftable": true
         },
         {
-            "id": "writesecrethistoriesb",
+            "id": "r_writesecrethistoriesb",
             "label": "Write a substantial treatise on the Secret Histories",
             "actionid": "work",
             "requirements": {
@@ -310,7 +310,7 @@
             "craftable": true
         },
         {
-            "id": "writewinterb",
+            "id": "r_writewinterb",
             "label": "Write a substantial treatise on the White Lore",
             "actionid": "work",
             "requirements": {
@@ -328,7 +328,7 @@
             "craftable": true
         },
         {
-            "id": "writeedgea",
+            "id": "r_writeedgea",
             "label": "Write a brief treatise on the Edge-principle",
             "actionid": "work",
             "requirements": {
@@ -346,7 +346,7 @@
             "craftable": true
         },
         {
-            "id": "writeforgea",
+            "id": "r_writeforgea",
             "label": "Write a brief treatise on the Forge-principle",
             "actionid": "work",
             "requirements": {
@@ -364,7 +364,7 @@
             "craftable": true
         },
         {
-            "id": "writegraila",
+            "id": "r_writegraila",
             "label": "Write a brief treatise on the lore of the Red Grail",
             "actionid": "work",
             "requirements": {
@@ -382,7 +382,7 @@
             "craftable": true
         },
         {
-            "id": "writehearta",
+            "id": "r_writehearta",
             "label": "Write a brief treatise on the lore of the Heart",
             "actionid": "work",
             "requirements": {
@@ -400,7 +400,7 @@
             "craftable": true
         },
         {
-            "id": "writeknocka",
+            "id": "r_writeknocka",
             "label": "Write a brief treatise on the Knock-principle and the rites of opening",
             "actionid": "work",
             "requirements": {
@@ -418,7 +418,7 @@
             "craftable": true
         },
         {
-            "id": "writelanterna",
+            "id": "r_writelanterna",
             "label": "Write a brief treatise on the lore of the Lantern",
             "actionid": "work",
             "requirements": {
@@ -436,7 +436,7 @@
             "craftable": true
         },
         {
-            "id": "writemotha",
+            "id": "r_writemotha",
             "label": "Write a brief treatise on the Moth",
             "actionid": "work",
             "requirements": {
@@ -454,7 +454,7 @@
             "craftable": true
         },
         {
-            "id": "writesecrethistoriesa",
+            "id": "r_writesecrethistoriesa",
             "label": "Write a brief treatise on the Secret Histories",
             "actionid": "work",
             "requirements": {
@@ -472,7 +472,7 @@
             "craftable": true
         },
         {
-            "id": "writewintera",
+            "id": "r_writewintera",
             "label": "Write a brief treatise on the White Lore",
             "actionid": "work",
             "requirements": {

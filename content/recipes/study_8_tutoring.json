@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studylatintutoring",
+            "id": "r_studylatintutoring",
             "label": "Study Latin with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -11,7 +11,7 @@
             },
             "slots": [
                 {
-                    "id": "Costs",
+                    "id": "r_Costs",
                     "label": "Costs",
                     "required": {
                         "compensationvalue": 1
@@ -20,7 +20,7 @@
             ],
             "alt": [
                 {
-                    "id": "studylatintutoringpaid",
+                    "id": "r_studylatintutoringpaid",
                     "chance": 100
                 }
             ],
@@ -30,7 +30,7 @@
             "craftable": true
         },
         {
-            "id": "studylatintutoringpaid",
+            "id": "r_studylatintutoringpaid",
             "label": "Study Latin with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -44,7 +44,7 @@
             "description": "The language of Lucretius' 'On the Nature of Things', of Aquinas' 'Summa Theologiae', and of the notorious 'De Horis...'"
         },
         {
-            "id": "studygreektutoring",
+            "id": "r_studygreektutoring",
             "label": "Study Greek with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -54,7 +54,7 @@
             },
             "slots": [
                 {
-                    "id": "Costs",
+                    "id": "r_Costs",
                     "label": "Costs",
                     "required": {
                         "compensationvalue": 1
@@ -63,7 +63,7 @@
             ],
             "alt": [
                 {
-                    "id": "studygreektutoringpaid",
+                    "id": "r_studygreektutoringpaid",
                     "chance": 100
                 }
             ],
@@ -73,7 +73,7 @@
             "craftable": true
         },
         {
-            "id": "studygreektutoringpaid",
+            "id": "r_studygreektutoringpaid",
             "label": "Study Greek with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -87,7 +87,7 @@
             "description": "The language of the Metaphysics, of Procopius' 'Secret History', and of the menacing 'On What is Contained by Silver'..."
         },
         {
-            "id": "studyaramaictutoring",
+            "id": "r_studyaramaictutoring",
             "label": "Study Aramaic with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -97,7 +97,7 @@
             },
             "slots": [
                 {
-                    "id": "Costs",
+                    "id": "r_Costs",
                     "label": "Costs",
                     "required": {
                         "compensationvalue": 1
@@ -106,7 +106,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyaramaictutoringpaid",
+                    "id": "r_studyaramaictutoringpaid",
                     "chance": 100
                 }
             ],
@@ -116,7 +116,7 @@
             "craftable": true
         },
         {
-            "id": "studyaramaictutoringpaid",
+            "id": "r_studyaramaictutoringpaid",
             "label": "Study Aramaic with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -130,7 +130,7 @@
             "description": "The language of the Visions of Aram, of the Book of Daniel, and of the Account of Kanishk at the Spider's Door."
         },
         {
-            "id": "studysanskrittutoring",
+            "id": "r_studysanskrittutoring",
             "label": "Study Sanskrit with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -140,7 +140,7 @@
             },
             "slots": [
                 {
-                    "id": "Costs",
+                    "id": "r_Costs",
                     "label": "Costs",
                     "required": {
                         "compensationvalue": 1
@@ -149,7 +149,7 @@
             ],
             "alt": [
                 {
-                    "id": "studysanskrittutoringpaid",
+                    "id": "r_studysanskrittutoringpaid",
                     "chance": 100
                 }
             ],
@@ -159,7 +159,7 @@
             "craftable": true
         },
         {
-            "id": "studysanskrittutoringpaid",
+            "id": "r_studysanskrittutoringpaid",
             "label": "Study Sanskrit with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -173,7 +173,7 @@
             "description": "The holy tongue of the Subcontinent. The door to four thousand years of poetry, ceremony and mystery."
         },
         {
-            "id": "studyfucinetutoringspirit",
+            "id": "r_studyfucinetutoringspirit",
             "label": "Study Fucine with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -182,7 +182,7 @@
             },
             "slots": [
                 {
-                    "id": "Background",
+                    "id": "r_Background",
                     "label": "Background",
                     "required": {
                         "scholarlatin": 1
@@ -191,7 +191,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyfucinetutoringsuccessful",
+                    "id": "r_studyfucinetutoringsuccessful",
                     "chance": 100
                 }
             ],
@@ -201,7 +201,7 @@
             "craftable": true
         },
         {
-            "id": "studyfucinetutoringsuccessful",
+            "id": "r_studyfucinetutoringsuccessful",
             "label": "Study Fucine with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -214,7 +214,7 @@
             "description": "One cannot speak Fucine for long without sipping water. It parches the lips; it dries the throat. It could only have been spoken by a people who lived close to a lake-shore."
         },
         {
-            "id": "studyphrygiantutoringspirit",
+            "id": "r_studyphrygiantutoringspirit",
             "label": "Study Phrygian with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -223,7 +223,7 @@
             },
             "slots": [
                 {
-                    "id": "Background",
+                    "id": "r_Background",
                     "label": "Background",
                     "required": {
                         "scholargreek": 1
@@ -232,7 +232,7 @@
             ],
             "alt": [
                 {
-                    "id": "studyphrygiantutoringsuccessful",
+                    "id": "r_studyphrygiantutoringsuccessful",
                     "chance": 100
                 }
             ],
@@ -242,7 +242,7 @@
             "craftable": true
         },
         {
-            "id": "studyphrygiantutoringsuccessful",
+            "id": "r_studyphrygiantutoringsuccessful",
             "label": "Study Phrygian with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -255,7 +255,7 @@
             "description": "Herodotus tells a wild story of a pharaoh who discovered the Phrygian language was the first spoken by humans. He was wrong, of course; it was Vak. But everyone enjoys the story."
         },
         {
-            "id": "studymandaictutoringspirit",
+            "id": "r_studymandaictutoringspirit",
             "label": "Study Deep Mandaic with a Tutor",
             "actionid": "study",
             "requirements": {
@@ -264,7 +264,7 @@
             },
             "slots": [
                 {
-                    "id": "Background",
+                    "id": "r_Background",
                     "label": "Background",
                     "required": {
                         "scholararamaic": 1
@@ -273,7 +273,7 @@
             ],
             "alt": [
                 {
-                    "id": "studymandaictutoringsuccessful",
+                    "id": "r_studymandaictutoringsuccessful",
                     "chance": 100
                 }
             ],
@@ -283,7 +283,7 @@
             "craftable": true
         },
         {
-            "id": "studymandaictutoringsuccessful",
+            "id": "r_studymandaictutoringsuccessful",
             "label": "Study Deep Mandaic with a Tutor",
             "actionid": "study",
             "requirements": {

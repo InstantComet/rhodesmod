@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "paintingmansus",
+            "id": "r_paintingmansus",
             "label": "A Painting of the Outer Mansus",
             "description": "Staircases rise in grey rainbows; windows wait.",
             "aspects": {
@@ -10,7 +10,7 @@
             }
         },
         {
-            "id": "overexposure",
+            "id": "r_overexposure",
             "label": "Overexposure",
             "description": "All audiences are fickle.",
             "lifetime": 1,

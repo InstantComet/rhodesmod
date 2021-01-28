@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "health_expel_to_scar",
+            "id": "r_health_expel_to_scar",
             "label": "Health: Scarred",
             "actionid": "scar_ability",
             "startdescription": "My body is changing...",
@@ -15,7 +15,7 @@
             "warmup": 10
         },
         {
-            "id": "passion_expel_to_scar",
+            "id": "r_passion_expel_to_scar",
             "label": "Passion: Scarred",
             "actionid": "scar_ability",
             "startdescription": "My sentiments are changing me...",
@@ -29,14 +29,14 @@
             "warmup": 10
         },
         {
-            "id": "expel_independent",
+            "id": "r_expel_independent",
             "label": "Safely Unaware",
             "actionid": "expel_independent",
             "startdescription": "My Rival cannot know what awaits them.",
             "warmup": 1
         },
         {
-            "id": "expel_corpses",
+            "id": "r_expel_corpses",
             "label": "A Frail Shadow",
             "actionid": "expel_corpse",
             "requirements": {
@@ -46,7 +46,7 @@
             "warmup": 1
         },
         {
-            "id": "expel_injury",
+            "id": "r_expel_injury",
             "label": "A Trail of Blood",
             "actionid": "expel_injury",
             "requirements": {

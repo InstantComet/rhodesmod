@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "temptationremembrancehintdream",
+            "id": "r_temptationremembrancehintdream",
             "label": "Temptations?",
             "actionid": "dream",
             "requirements": {
@@ -12,7 +12,7 @@
             "hintonly": true
         },
         {
-            "id": "vitalityhintdream",
+            "id": "r_vitalityhintdream",
             "label": "Vitality",
             "actionid": "dream",
             "requirements": {
@@ -24,7 +24,7 @@
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
-            "id": "eruditionhintdream",
+            "id": "r_eruditionhintdream",
             "label": "Erudition",
             "actionid": "dream",
             "requirements": {
@@ -36,7 +36,7 @@
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
-            "id": "glimmeringhintdream",
+            "id": "r_glimmeringhintdream",
             "label": "Glimmering",
             "actionid": "dream",
             "requirements": {
@@ -48,7 +48,7 @@
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
-            "id": "contentmenthintdream",
+            "id": "r_contentmenthintdream",
             "label": "Contentment",
             "actionid": "dream",
             "requirements": {
@@ -60,7 +60,7 @@
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
-            "id": "dedicationtoobsession_power_hint",
+            "id": "r_dedicationtoobsession_power_hint",
             "label": "The Next Step",
             "actionid": "dream",
             "requirements": {
@@ -71,7 +71,7 @@
             "hintonly": true
         },
         {
-            "id": "dedicationtoobsession_enlightenment_hint",
+            "id": "r_dedicationtoobsession_enlightenment_hint",
             "label": "The Next Step",
             "actionid": "dream",
             "requirements": {
@@ -82,7 +82,7 @@
             "hintonly": true
         },
         {
-            "id": "tryreducefascination",
+            "id": "r_tryreducefascination",
             "label": "Seek Composure?",
             "actionid": "dream",
             "requirements": {
@@ -93,7 +93,7 @@
             "craftable": false
         },
         {
-            "id": "tryrecoverreason",
+            "id": "r_tryrecoverreason",
             "label": "Clear my Mind?",
             "actionid": "dream",
             "requirements": {
@@ -104,7 +104,7 @@
             "craftable": false
         },
         {
-            "id": "tryrecoverillhealth",
+            "id": "r_tryrecoverillhealth",
             "label": "Recover?",
             "actionid": "dream",
             "requirements": {

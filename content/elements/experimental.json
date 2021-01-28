@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "owl",
+            "id": "r_owl",
             "label": "The Owl Without a Hat",
             "aspects": {
                 "job": 1
@@ -10,7 +10,7 @@
             "noartneeded": true
         },
         {
-            "id": "wolfatthedoor",
+            "id": "r_wolfatthedoor",
             "label": "T H  E  WO L  F  W  H  O   L  I  V  E  S IN THE BIG HOUSE",
             "aspects": {
                 "ability": 1,
@@ -19,7 +19,7 @@
             },
             "slots": [
                 {
-                    "id": "Meal5",
+                    "id": "r_Meal5",
                     "consumes": true,
                     "actionid": "explore"
                 }
@@ -29,35 +29,35 @@
             "noartneeded": true
         },
         {
-            "id": "wolf",
+            "id": "r_wolf",
             "lifetime": 1,
             "decayTo": "wolfatthedoor",
             "description": "",
             "noartneeded": true
         },
         {
-            "id": "lionweb",
+            "id": "r_lionweb",
             "label": "The Lion in the Web",
             "comments": "Information lives in the sky.",
             "icon": "valciane_p",
             "noartneeded": true
         },
         {
-            "id": "boarwords",
+            "id": "r_boarwords",
             "label": "The Boar in the Words",
             "comments": "Titles are criminal.",
             "icon": "victor_p",
             "noartneeded": true
         },
         {
-            "id": "worldbull",
+            "id": "r_worldbull",
             "label": "The World in the Bull",
             "comments": "The crime At the beginning",
             "icon": "clifton_p",
             "noartneeded": true
         },
         {
-            "id": "notaworm",
+            "id": "r_notaworm",
             "label": "Possibly a Bird",
             "comments": "We Await S.T.E.",
             "icon": "clovette_p",

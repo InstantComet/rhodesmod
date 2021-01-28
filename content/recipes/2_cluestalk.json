@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "recruitindependentresentmenthint",
+            "id": "r_recruitindependentresentmenthint",
             "label": "Recruit an Independent?",
             "actionid": "talk",
             "requirements": {
@@ -14,7 +14,7 @@
             "hintonly": true
         },
         {
-            "id": "recruitindependenthint",
+            "id": "r_recruitindependenthint",
             "label": "Recruit an Independent?",
             "actionid": "talk",
             "requirements": {
@@ -27,7 +27,7 @@
             "hintonly": true
         },
         {
-            "id": "promoteto_d_edgehint",
+            "id": "r_promoteto_d_edgehint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -40,7 +40,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_forgehint",
+            "id": "r_promoteto_d_forgehint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -53,7 +53,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_grailhint",
+            "id": "r_promoteto_d_grailhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -66,7 +66,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_hearthint",
+            "id": "r_promoteto_d_hearthint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -79,7 +79,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_knockhint",
+            "id": "r_promoteto_d_knockhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -92,7 +92,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_lanternhint",
+            "id": "r_promoteto_d_lanternhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -105,7 +105,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_mothhint",
+            "id": "r_promoteto_d_mothhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -118,7 +118,7 @@
             "craftable": true
         },
         {
-            "id": "promoteto_d_winterhint",
+            "id": "r_promoteto_d_winterhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk",
             "requirements": {
@@ -138,7 +138,7 @@
             "craftable": true
         },
         {
-            "id": "promotetodisciplehint",
+            "id": "r_promotetodisciplehint",
             "label": "Promote a Believer?",
             "actionid": "talk",
             "requirements": {
@@ -152,7 +152,7 @@
             "craftable": true
         },
         {
-            "id": "talktobenefactorhint",
+            "id": "r_talktobenefactorhint",
             "label": "My Benefactor Insists on Discretion",
             "actionid": "talk",
             "requirements": {
@@ -163,7 +163,7 @@
             "hintonly": true
         },
         {
-            "id": "recruitacquaintancenoculthint",
+            "id": "r_recruitacquaintancenoculthint",
             "label": "Recruit a new Follower?",
             "actionid": "talk",
             "requirements": {
@@ -175,7 +175,7 @@
             "hintonly": true
         },
         {
-            "id": "recruitacquaintancehint",
+            "id": "r_recruitacquaintancehint",
             "label": "Recruit a new Follower?",
             "actionid": "talk",
             "requirements": {
@@ -187,7 +187,7 @@
             "hintonly": true
         },
         {
-            "id": "talk_aladim_wantscommission",
+            "id": "r_talk_aladim_wantscommission",
             "label": "A Commission?",
             "actionid": "talk",
             "requirements": {
@@ -198,7 +198,7 @@
             "craftable": true
         },
         {
-            "id": "talk_bechet_wantscommission",
+            "id": "r_talk_bechet_wantscommission",
             "label": "A Commission?",
             "actionid": "talk",
             "requirements": {
@@ -209,7 +209,7 @@
             "craftable": true
         },
         {
-            "id": "talk_jannings_wantscommission",
+            "id": "r_talk_jannings_wantscommission",
             "label": "A Commission?",
             "actionid": "talk",
             "requirements": {
@@ -220,7 +220,7 @@
             "craftable": true
         },
         {
-            "id": "talk_poppy_wantscommission",
+            "id": "r_talk_poppy_wantscommission",
             "label": "A Commission?",
             "actionid": "talk",
             "requirements": {
@@ -231,7 +231,7 @@
             "craftable": true
         },
         {
-            "id": "fulfilcommission_aladimhint",
+            "id": "r_fulfilcommission_aladimhint",
             "label": "Fulfil a Commission for the Doctor?",
             "actionid": "talk",
             "requirements": {
@@ -245,7 +245,7 @@
             "hintonly": true
         },
         {
-            "id": "fulfilcommission_bechethint",
+            "id": "r_fulfilcommission_bechethint",
             "label": "Fulfil a Commission for Mme Bechet?",
             "actionid": "talk",
             "requirements": {
@@ -259,7 +259,7 @@
             "hintonly": true
         },
         {
-            "id": "fulfilcommission_janningshint",
+            "id": "r_fulfilcommission_janningshint",
             "label": "Fulfil a Commission for the Count?",
             "actionid": "talk",
             "requirements": {
@@ -273,7 +273,7 @@
             "hintonly": true
         },
         {
-            "id": "fulfilcommission_poppyhint",
+            "id": "r_fulfilcommission_poppyhint",
             "label": "Fulfil a Commission for Poppy?",
             "actionid": "talk",
             "requirements": {
@@ -287,7 +287,7 @@
             "hintonly": true
         },
         {
-            "id": "talk_nointeraction_mortal",
+            "id": "r_talk_nointeraction_mortal",
             "label": "Nothing to say?",
             "actionid": "talk",
             "requirements": {

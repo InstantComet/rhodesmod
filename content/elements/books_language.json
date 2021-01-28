@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "textbooklatin",
+            "id": "r_textbooklatin",
             "label": "Gildersleeve's Latin Grammar",
             "aspects": {
                 "text": 1,
@@ -10,7 +10,7 @@
             "description": "Just what you need to refresh your knowledge of Latin."
         },
         {
-            "id": "textbookfucine",
+            "id": "r_textbookfucine",
             "label": "The Journal of Alessandro LaCroce",
             "aspects": {
                 "text": 1,
@@ -20,7 +20,7 @@
             "unique": true
         },
         {
-            "id": "textbookgreek",
+            "id": "r_textbookgreek",
             "label": "Kühner and Gerth",
             "aspects": {
                 "text": 1,
@@ -29,7 +29,7 @@
             "description": "Kühner and Gerth's 'Ausführliche Grammatik der griechischen Sprache' - a Greek grammar. An essential weapon for a ferocious struggle with a challenging language."
         },
         {
-            "id": "textbookphrygian",
+            "id": "r_textbookphrygian",
             "label": "The Velshorn Inscriptions",
             "aspects": {
                 "text": 1,
@@ -39,7 +39,7 @@
             "unique": true
         },
         {
-            "id": "textbookaramaic",
+            "id": "r_textbookaramaic",
             "label": "THE MAGUS VON BRANDT'S AUTHENTIC AND UNIQUE ACCOUNT OF THE TRUE TONGUE OF THE TRUE HOLY LAND OF THE HIGHMOST",
             "aspects": {
                 "text": 1,
@@ -48,7 +48,7 @@
             "description": "Written excitably and in some haste by a gentleman in the grip of a Transcendentalist enthusiasm, but nevertheless a useful guide to Aramaic."
         },
         {
-            "id": "textbookmandaic",
+            "id": "r_textbookmandaic",
             "label": "The August Stone",
             "aspects": {
                 "text": 1,
@@ -58,7 +58,7 @@
             "unique": true
         },
         {
-            "id": "textbooksanskrit",
+            "id": "r_textbooksanskrit",
             "label": "Gartside's Sanskrit Reader",
             "aspects": {
                 "text": 1,
@@ -67,7 +67,7 @@
             "description": "A lucid book which outlines a careful path through the thickets of a vast and complex language."
         },
         {
-            "id": "textbookvak",
+            "id": "r_textbookvak",
             "label": "The Uyrus",
             "aspects": {
                 "text": 1,

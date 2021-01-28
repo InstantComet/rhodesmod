@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "commissionarticlesecrethistory",
+            "id": "r_commissionarticlesecrethistory",
             "label": "Commission: Secret Histories",
             "aspects": {},
             "description": "I must CHANGE",
@@ -10,7 +10,7 @@
             "noartneeded": true
         },
         {
-            "id": "commissionarticlesecrethistoryb",
+            "id": "r_commissionarticlesecrethistoryb",
             "label": "Commission: Secret Histories",
             "aspects": {},
             "description": "I must CHANGE",
@@ -19,7 +19,7 @@
             "noartneeded": true
         },
         {
-            "id": "commissionarticlesecrethistoryc",
+            "id": "r_commissionarticlesecrethistoryc",
             "label": "Commission: Secret Histories",
             "aspects": {},
             "description": "I must CHANGE",
@@ -28,7 +28,7 @@
             "noartneeded": true
         },
         {
-            "id": "commissionarticlesecrethistories",
+            "id": "r_commissionarticlesecrethistories",
             "label": "Commission: Secret Histories",
             "aspects": {
                 "commission": 1,
@@ -37,7 +37,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with any information you can assemble on the secret histories of the world. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -45,7 +45,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -58,7 +58,7 @@
             }
         },
         {
-            "id": "commissionarticlesecrethistoriesb",
+            "id": "r_commissionarticlesecrethistoriesb",
             "label": "Commission: Secret Histories (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -67,7 +67,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He's looking for a Substantial treatise on the secret histories of the world. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -75,7 +75,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -88,7 +88,7 @@
             }
         },
         {
-            "id": "commissionarticlesecrethistoriesc",
+            "id": "r_commissionarticlesecrethistoriesc",
             "label": "Commission: Secret Histories (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -97,7 +97,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He's looking for particularly obscure information on the secret histories of the world. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -105,7 +105,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -113,7 +113,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -126,7 +126,7 @@
             }
         },
         {
-            "id": "commissionarticlelantern",
+            "id": "r_commissionarticlelantern",
             "label": "Commission: Lantern",
             "aspects": {
                 "commission": 1,
@@ -135,7 +135,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with any information you can assemble on the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -143,7 +143,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -156,7 +156,7 @@
             }
         },
         {
-            "id": "commissionarticlelanternb",
+            "id": "r_commissionarticlelanternb",
             "label": "Commission: Lantern (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -165,7 +165,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with a Substantial discussion of the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -173,7 +173,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -186,7 +186,7 @@
             }
         },
         {
-            "id": "commissionarticlelanternc",
+            "id": "r_commissionarticlelanternc",
             "label": "Commission: Lantern (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -195,7 +195,7 @@
             "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with an Very Substantial investigation of the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -203,7 +203,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -211,7 +211,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -224,7 +224,7 @@
             }
         },
         {
-            "id": "commissionarticleforge",
+            "id": "r_commissionarticleforge",
             "label": "Commission: Forge",
             "aspects": {
                 "commission": 1,
@@ -233,7 +233,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something inspired by the principle of the Forge. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -241,7 +241,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -254,7 +254,7 @@
             }
         },
         {
-            "id": "commissionarticleforgeb",
+            "id": "r_commissionarticleforgeb",
             "label": "Commission: Forge (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -263,7 +263,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something more Substantial on the Forge. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -271,7 +271,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -284,7 +284,7 @@
             }
         },
         {
-            "id": "commissionarticleforgec",
+            "id": "r_commissionarticleforgec",
             "label": "Commission: Forge (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -293,7 +293,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something Very Substantial, or indeed intense, on the change and the suffering the Forge brings. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -301,7 +301,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -309,7 +309,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -322,7 +322,7 @@
             }
         },
         {
-            "id": "commissionarticlegrail",
+            "id": "r_commissionarticlegrail",
             "label": "Commission: Grail",
             "aspects": {
                 "commission": 1,
@@ -331,7 +331,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She would like something titillating about the Red Grail. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -339,7 +339,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -352,7 +352,7 @@
             }
         },
         {
-            "id": "commissionarticlegrailb",
+            "id": "r_commissionarticlegrailb",
             "label": "Commission: Grail (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -361,7 +361,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She's interested in a more Substantial response to the Red Grail and its allure. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -369,7 +369,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -382,7 +382,7 @@
             }
         },
         {
-            "id": "commissionarticlegrailc",
+            "id": "r_commissionarticlegrailc",
             "label": "Commission: Grail (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -391,7 +391,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She wants something Very Substantial and 'unflinching' on the Red Grail. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -399,7 +399,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -407,7 +407,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "passion1",
+                    "id": "r_passion1",
                     "label": "Passion",
                     "required": {
                         "passion": 1
@@ -420,7 +420,7 @@
             }
         },
         {
-            "id": "commissionarticlemoth",
+            "id": "r_commissionarticlemoth",
             "label": "Commission: Moth",
             "aspects": {
                 "commission": 1,
@@ -429,7 +429,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. In particular, she wants something suitably intriguing about the principle called Moth. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -437,7 +437,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -450,7 +450,7 @@
             }
         },
         {
-            "id": "commissionarticlemothb",
+            "id": "r_commissionarticlemothb",
             "label": "Commission: Moth (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -459,7 +459,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She wants a Substantially enigmatic piece on Moth. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -467,7 +467,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -480,7 +480,7 @@
             }
         },
         {
-            "id": "commissionarticlemothc",
+            "id": "r_commissionarticlemothc",
             "label": "Commission: Moth (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -489,7 +489,7 @@
             "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like an Very Substantial elaboration of Moth and its enigmas. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -497,7 +497,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -505,7 +505,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "passion1",
+                    "id": "r_passion1",
                     "label": "Passion",
                     "required": {
                         "passion": 1
@@ -518,7 +518,7 @@
             }
         },
         {
-            "id": "commissionarticleheart",
+            "id": "r_commissionarticleheart",
             "label": "Commission: Heart",
             "aspects": {
                 "commission": 1,
@@ -527,7 +527,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like some notes on the corporal mysteries of the Heart. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -535,7 +535,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -548,7 +548,7 @@
             }
         },
         {
-            "id": "commissionarticleheartb",
+            "id": "r_commissionarticleheartb",
             "label": "Commission: Heart (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -557,7 +557,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like Substantial research on the corporal mysteries of the Heart. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -565,7 +565,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -578,7 +578,7 @@
             }
         },
         {
-            "id": "commissionarticleheartc",
+            "id": "r_commissionarticleheartc",
             "label": "Commission: Heart (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -587,7 +587,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like Very Substantial research on the corporal mysteries of the Heart.[You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -595,7 +595,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -603,7 +603,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "passion1",
+                    "id": "r_passion1",
                     "label": "Passion",
                     "required": {
                         "passion": 1
@@ -616,7 +616,7 @@
             }
         },
         {
-            "id": "commissionarticleedge",
+            "id": "r_commissionarticleedge",
             "label": "Commission: Edge",
             "aspects": {
                 "commission": 1,
@@ -625,7 +625,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like whatever you can assemble on the practices of the Edge. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -633,7 +633,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -646,7 +646,7 @@
             }
         },
         {
-            "id": "commissionarticleedgeb",
+            "id": "r_commissionarticleedgeb",
             "label": "Commission: Edge (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -655,7 +655,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like Substantial notes on the practices of the Edge. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -663,7 +663,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -676,7 +676,7 @@
             }
         },
         {
-            "id": "commissionarticleedgec",
+            "id": "r_commissionarticleedgec",
             "label": "Commission: Edge (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -685,7 +685,7 @@
             "description": "The Count will pay for information of interest. This time, he'd like an Very Substantial work on the practices of the Edge. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -693,7 +693,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -701,7 +701,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -714,7 +714,7 @@
             }
         },
         {
-            "id": "commissionarticleknock",
+            "id": "r_commissionarticleknock",
             "label": "Commission: Knock",
             "aspects": {
                 "commission": 1,
@@ -723,7 +723,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like some notes on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -731,7 +731,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -744,7 +744,7 @@
             }
         },
         {
-            "id": "commissionarticleknockb",
+            "id": "r_commissionarticleknockb",
             "label": "Commission: Knock (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -753,7 +753,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like Substantial research on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -761,7 +761,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -774,7 +774,7 @@
             }
         },
         {
-            "id": "commissionarticleknockc",
+            "id": "r_commissionarticleknockc",
             "label": "Commission: Knock (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -783,7 +783,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like Very Substantial research on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -791,7 +791,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -799,7 +799,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -812,7 +812,7 @@
             }
         },
         {
-            "id": "commissionarticlewinter",
+            "id": "r_commissionarticlewinter",
             "label": "Commission: Winter",
             "aspects": {
                 "commission": 1,
@@ -821,7 +821,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like some notes on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -829,7 +829,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -842,7 +842,7 @@
             }
         },
         {
-            "id": "commissionarticlewinterb",
+            "id": "r_commissionarticlewinterb",
             "label": "Commission: Winter (Substantial)",
             "aspects": {
                 "commission": 1,
@@ -851,7 +851,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like Substantial research on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -859,7 +859,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -872,7 +872,7 @@
             }
         },
         {
-            "id": "commissionarticlewinterc",
+            "id": "r_commissionarticlewinterc",
             "label": "Commission: Winter (Very Substantial)",
             "aspects": {
                 "commission": 1,
@@ -881,7 +881,7 @@
             "description": "Poppy will pay for information of interest. This time, she'd like Very Substantial research on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
             "slots": [
                 {
-                    "id": "lore",
+                    "id": "r_lore",
                     "label": "Lore",
                     "required": {
                         "lore": 1
@@ -889,7 +889,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason1",
+                    "id": "r_reason1",
                     "label": "Reason",
                     "required": {
                         "reason": 1
@@ -897,7 +897,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "reason2",
+                    "id": "r_reason2",
                     "label": "Reason",
                     "required": {
                         "reason": 1

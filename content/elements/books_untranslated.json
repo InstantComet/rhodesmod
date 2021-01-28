@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "dehoris1latin",
+            "id": "r_dehoris1latin",
             "unique": true,
             "label": "De Horis (Book 1)",
             "aspects": {
@@ -15,7 +15,7 @@
             }
         },
         {
-            "id": "dehoris2latin",
+            "id": "r_dehoris2latin",
             "unique": true,
             "label": "De Horis (Book 2)",
             "aspects": {
@@ -29,7 +29,7 @@
             }
         },
         {
-            "id": "debellismurorumlatin",
+            "id": "r_debellismurorumlatin",
             "unique": true,
             "label": "De Bellis Murorum",
             "aspects": {
@@ -43,7 +43,7 @@
             }
         },
         {
-            "id": "onwhatiscontainedbysilvergreek",
+            "id": "r_onwhatiscontainedbysilvergreek",
             "unique": true,
             "label": "On What Is Contained By Silver",
             "aspects": {
@@ -57,7 +57,7 @@
             }
         },
         {
-            "id": "truecompleteasclepiangreek",
+            "id": "r_truecompleteasclepiangreek",
             "unique": true,
             "label": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
             "aspects": {
@@ -71,7 +71,7 @@
             }
         },
         {
-            "id": "orchidtransfigurations1latin",
+            "id": "r_orchidtransfigurations1latin",
             "unique": true,
             "label": "The Orchid Transfigurations, Vol 1",
             "aspects": {
@@ -85,7 +85,7 @@
             }
         },
         {
-            "id": "orchidtransfigurations2latin",
+            "id": "r_orchidtransfigurations2latin",
             "unique": true,
             "label": "The Orchid Transfigurations, Vol 2",
             "aspects": {
@@ -99,7 +99,7 @@
             }
         },
         {
-            "id": "orchidtransfigurations3latin",
+            "id": "r_orchidtransfigurations3latin",
             "unique": true,
             "label": "The Orchid Transfigurations, Vol 3",
             "aspects": {
@@ -113,7 +113,7 @@
             }
         },
         {
-            "id": "geminiadfucine",
+            "id": "r_geminiadfucine",
             "unique": true,
             "label": "The Geminiad",
             "aspects": {
@@ -129,7 +129,7 @@
             "description": "A fragile manuscript, illuminated with twinned shapes of sad and luminous beauty, and with all the phases of the moon. It might be as old as the seventh century, but the language - Fucine - is much older. Coral decorates its cover, and its page-edges are sharp enough to slash a throat."
         },
         {
-            "id": "textbookfucinelatin",
+            "id": "r_textbookfucinelatin",
             "unique": true,
             "label": "The Ciphered Journal of Alessandro LaCroce",
             "aspects": {
@@ -143,7 +143,7 @@
             }
         },
         {
-            "id": "textbookphrygiangreek",
+            "id": "r_textbookphrygiangreek",
             "unique": true,
             "label": "The Velshorn Inscriptions",
             "aspects": {
@@ -157,7 +157,7 @@
             }
         },
         {
-            "id": "textbookmandaicaramaic",
+            "id": "r_textbookmandaicaramaic",
             "unique": true,
             "label": "The August Stone",
             "aspects": {
@@ -171,7 +171,7 @@
             }
         },
         {
-            "id": "textbookvaksanskrit",
+            "id": "r_textbookvaksanskrit",
             "unique": true,
             "label": "An Enigmatic Sculpture",
             "aspects": {
@@ -185,7 +185,7 @@
             }
         },
         {
-            "id": "irreproachabletraditionssocietynobleendeavourlatin",
+            "id": "r_irreproachabletraditionssocietynobleendeavourlatin",
             "unique": true,
             "label": "The Irreproachable Traditions...",
             "aspects": {
@@ -199,7 +199,7 @@
             }
         },
         {
-            "id": "roseofnurielgreek",
+            "id": "r_roseofnurielgreek",
             "unique": true,
             "label": "The Rose of Nuriel",
             "aspects": {
@@ -213,7 +213,7 @@
             }
         },
         {
-            "id": "roseofhypatiagreek",
+            "id": "r_roseofhypatiagreek",
             "unique": true,
             "label": "The Rose of Hypatia",
             "aspects": {
@@ -227,7 +227,7 @@
             }
         },
         {
-            "id": "roseofwazneigreek",
+            "id": "r_roseofwazneigreek",
             "unique": true,
             "label": "The Rose of Waznei",
             "aspects": {
@@ -241,7 +241,7 @@
             }
         },
         {
-            "id": "sunsetpassageslatin",
+            "id": "r_sunsetpassageslatin",
             "unique": true,
             "label": "Sunset Passages",
             "aspects": {
@@ -255,7 +255,7 @@
             }
         },
         {
-            "id": "gospelzacchaeusgreek",
+            "id": "r_gospelzacchaeusgreek",
             "unique": true,
             "label": "The Gospel of Zacchaeus",
             "aspects": {
@@ -269,7 +269,7 @@
             }
         },
         {
-            "id": "matthiasamethystlossaramaic",
+            "id": "r_matthiasamethystlossaramaic",
             "unique": true,
             "label": "On Matthias and the Amethyst Imago: Loss",
             "aspects": {
@@ -283,7 +283,7 @@
             }
         },
         {
-            "id": "matthiasamethysttransformationaramaic",
+            "id": "r_matthiasamethysttransformationaramaic",
             "unique": true,
             "label": "On Matthias and the Amethyst Imago: Transformation",
             "aspects": {
@@ -297,7 +297,7 @@
             }
         },
         {
-            "id": "matthiasamethystpursuitaramaic",
+            "id": "r_matthiasamethystpursuitaramaic",
             "unique": true,
             "label": "On Matthias and the Amethyst Imago: Pursuit",
             "aspects": {
@@ -311,7 +311,7 @@
             }
         },
         {
-            "id": "franklinbancroftdiarieslatin",
+            "id": "r_franklinbancroftdiarieslatin",
             "unique": true,
             "label": "Lord Franklin Bancroft: Diaries, 1750-1790",
             "aspects": {
@@ -325,7 +325,7 @@
             }
         },
         {
-            "id": "indignitiesobliviatelatin",
+            "id": "r_indignitiesobliviatelatin",
             "unique": true,
             "label": "Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates",
             "aspects": {
@@ -339,7 +339,7 @@
             }
         },
         {
-            "id": "furioustantrasanskrit",
+            "id": "r_furioustantrasanskrit",
             "unique": true,
             "label": "The Furious Tantra",
             "aspects": {
@@ -353,7 +353,7 @@
             }
         },
         {
-            "id": "devouredtantrasanskrit",
+            "id": "r_devouredtantrasanskrit",
             "unique": true,
             "label": "The Devoured Tantra",
             "aspects": {
@@ -367,7 +367,7 @@
             }
         },
         {
-            "id": "ceaselesstantrasanskrit",
+            "id": "r_ceaselesstantrasanskrit",
             "unique": true,
             "label": "The Ceaseless Tantra",
             "aspects": {
@@ -381,7 +381,7 @@
             }
         },
         {
-            "id": "knownunknowntantrasanskrit",
+            "id": "r_knownunknowntantrasanskrit",
             "unique": true,
             "label": "The Known-Unknown Tantra",
             "aspects": {
@@ -395,7 +395,7 @@
             }
         },
         {
-            "id": "encirclingtantrasanskrit",
+            "id": "r_encirclingtantrasanskrit",
             "unique": true,
             "label": "The Encircling Tantra",
             "aspects": {
@@ -409,7 +409,7 @@
             }
         },
         {
-            "id": "shavenlocktantrasanskrit",
+            "id": "r_shavenlocktantrasanskrit",
             "unique": true,
             "label": "The Shaven Lock Tantra",
             "aspects": {
@@ -423,7 +423,7 @@
             }
         },
         {
-            "id": "tantrawormssanskrit",
+            "id": "r_tantrawormssanskrit",
             "unique": true,
             "label": "The Tantra of Worms",
             "aspects": {
@@ -437,7 +437,7 @@
             }
         },
         {
-            "id": "bookofcentipedegreek",
+            "id": "r_bookofcentipedegreek",
             "unique": true,
             "label": "The Book of the Centipede",
             "aspects": {
@@ -451,7 +451,7 @@
             }
         },
         {
-            "id": "accountkanishkspidersdooraramaic",
+            "id": "r_accountkanishkspidersdooraramaic",
             "unique": true,
             "label": "The Account of Kanishk at the Spider's Door",
             "aspects": {
@@ -465,7 +465,7 @@
             }
         },
         {
-            "id": "vinzantinscriptionsphrygian",
+            "id": "r_vinzantinscriptionsphrygian",
             "unique": true,
             "label": "The Vinzant Inscriptions",
             "aspects": {
@@ -479,7 +479,7 @@
             }
         },
         {
-            "id": "larquebinecodexphrygian",
+            "id": "r_larquebinecodexphrygian",
             "unique": true,
             "label": "The Larquebine Codex",
             "aspects": {
@@ -493,7 +493,7 @@
             }
         },
         {
-            "id": "againstsisterhoodknotgreek",
+            "id": "r_againstsisterhoodknotgreek",
             "unique": true,
             "label": "Against the Sisterhood of the Knot and...",
             "aspects": {
@@ -507,7 +507,7 @@
             }
         },
         {
-            "id": "morphycodexaramaic",
+            "id": "r_morphycodexaramaic",
             "unique": true,
             "label": "The Morphy Codex",
             "aspects": {
@@ -521,7 +521,7 @@
             }
         },
         {
-            "id": "leoninetantrasanskrit",
+            "id": "r_leoninetantrasanskrit",
             "unique": true,
             "label": "The Leonine Tantra",
             "aspects": {
@@ -535,7 +535,7 @@
             }
         },
         {
-            "id": "incandescenttantrasanskrit",
+            "id": "r_incandescenttantrasanskrit",
             "unique": true,
             "label": "The Incandescent Tantra",
             "aspects": {
@@ -549,7 +549,7 @@
             }
         },
         {
-            "id": "thirstingtantrasanskrit",
+            "id": "r_thirstingtantrasanskrit",
             "unique": true,
             "label": "The Thirsting Tantra",
             "aspects": {
@@ -563,7 +563,7 @@
             }
         },
         {
-            "id": "flayedtantrasanskrit",
+            "id": "r_flayedtantrasanskrit",
             "unique": true,
             "label": "The Flayed Tantra",
             "aspects": {
@@ -577,7 +577,7 @@
             }
         },
         {
-            "id": "watchfultantrasanskrit",
+            "id": "r_watchfultantrasanskrit",
             "unique": true,
             "label": "The Watchful Tantra",
             "aspects": {
@@ -591,7 +591,7 @@
             }
         },
         {
-            "id": "twinserpenttantrasanskrit",
+            "id": "r_twinserpenttantrasanskrit",
             "unique": true,
             "label": "The Twin-Serpent Tantra",
             "aspects": {
@@ -605,7 +605,7 @@
             }
         },
         {
-            "id": "firecircletantrasanskrit",
+            "id": "r_firecircletantrasanskrit",
             "unique": true,
             "label": "The Fire-Circle Tantra",
             "aspects": {
@@ -619,7 +619,7 @@
             }
         },
         {
-            "id": "asthesunhiscoursearamaic",
+            "id": "r_asthesunhiscoursearamaic",
             "unique": true,
             "label": "As The Sun His Course",
             "aspects": {
@@ -633,7 +633,7 @@
             }
         },
         {
-            "id": "concursumdiariesphrygian",
+            "id": "r_concursumdiariesphrygian",
             "unique": true,
             "label": "The Concursum Diaries",
             "aspects": {
@@ -647,7 +647,7 @@
             }
         },
         {
-            "id": "ironbookfucine",
+            "id": "r_ironbookfucine",
             "unique": true,
             "label": "The Iron Book",
             "aspects": {
@@ -661,7 +661,7 @@
             }
         },
         {
-            "id": "silverbookfucine",
+            "id": "r_silverbookfucine",
             "unique": true,
             "label": "The Silver Book",
             "aspects": {
@@ -675,7 +675,7 @@
             }
         },
         {
-            "id": "ivorybookfucine",
+            "id": "r_ivorybookfucine",
             "unique": true,
             "label": "The Ivory Book",
             "aspects": {
@@ -689,7 +689,7 @@
             }
         },
         {
-            "id": "worlddoesnotweeparamaic",
+            "id": "r_worlddoesnotweeparamaic",
             "unique": true,
             "label": "The World Does Not Weep",
             "aspects": {
@@ -703,7 +703,7 @@
             }
         },
         {
-            "id": "deedsofthescarredcaptaingreek",
+            "id": "r_deedsofthescarredcaptaingreek",
             "unique": true,
             "label": "The Deeds of the Scarred Captain",
             "aspects": {
@@ -717,7 +717,7 @@
             }
         },
         {
-            "id": "bookofdissolutionmandaic",
+            "id": "r_bookofdissolutionmandaic",
             "unique": true,
             "label": "The Book of Dissolution",
             "aspects": {
@@ -731,7 +731,7 @@
             }
         },
         {
-            "id": "catalogueofunchartedpleasuresphrygian",
+            "id": "r_catalogueofunchartedpleasuresphrygian",
             "unique": true,
             "label": "A Catalogue of Uncharted Pleasures",
             "aspects": {
@@ -745,7 +745,7 @@
             }
         },
         {
-            "id": "thosewhodonotsleepfucine",
+            "id": "r_thosewhodonotsleepfucine",
             "unique": true,
             "label": "Those Who Do Not Sleep",
             "aspects": {
@@ -759,7 +759,7 @@
             }
         },
         {
-            "id": "theskythesoularamaic",
+            "id": "r_theskythesoularamaic",
             "unique": true,
             "label": "The Sky, the Soul",
             "aspects": {
@@ -773,7 +773,7 @@
             }
         },
         {
-            "id": "onthematterandthedeedsofserpentsvak",
+            "id": "r_onthematterandthedeedsofserpentsvak",
             "unique": true,
             "label": "On the Matter and the Deeds of Serpents",
             "aspects": {
@@ -787,7 +787,7 @@
             }
         },
         {
-            "id": "serenityofblackwoodgreek",
+            "id": "r_serenityofblackwoodgreek",
             "unique": true,
             "label": "The Serenity of the Black Wood",
             "aspects": {
@@ -801,7 +801,7 @@
             }
         },
         {
-            "id": "bookofthronesphrygian",
+            "id": "r_bookofthronesphrygian",
             "unique": true,
             "label": "The Book of Thrones",
             "aspects": {
@@ -815,7 +815,7 @@
             }
         },
         {
-            "id": "secondglorymandaic",
+            "id": "r_secondglorymandaic",
             "unique": true,
             "label": "A Second Glory",
             "aspects": {
@@ -829,7 +829,7 @@
             }
         },
         {
-            "id": "bookoftruebloodlatin",
+            "id": "r_bookoftruebloodlatin",
             "unique": true,
             "label": "Book of True Blood",
             "aspects": {
@@ -843,7 +843,7 @@
             }
         },
         {
-            "id": "burningwomanphrygian",
+            "id": "r_burningwomanphrygian",
             "unique": true,
             "label": "The Burning Woman",
             "aspects": {
@@ -857,7 +857,7 @@
             }
         },
         {
-            "id": "twentysixenticementsseventormentsfucine",
+            "id": "r_twentysixenticementsseventormentsfucine",
             "unique": true,
             "label": "Twenty-Six Enticements, Seven Torments",
             "aspects": {
@@ -871,7 +871,7 @@
             }
         },
         {
-            "id": "historyofshadowlesskingsaramaic",
+            "id": "r_historyofshadowlesskingsaramaic",
             "unique": true,
             "label": "A True and Accurate History of the Shadowless Kings",
             "aspects": {
@@ -885,7 +885,7 @@
             }
         },
         {
-            "id": "highmysterieschurchsolarfucine",
+            "id": "r_highmysterieschurchsolarfucine",
             "unique": true,
             "label": "The High Mysteries of the Innermost...",
             "aspects": {
@@ -899,7 +899,7 @@
             }
         },
         {
-            "id": "medusaslamentgreek",
+            "id": "r_medusaslamentgreek",
             "unique": true,
             "label": "Medusa's Lament",
             "aspects": {
@@ -913,7 +913,7 @@
             }
         },
         {
-            "id": "bookofmasksphrygian",
+            "id": "r_bookofmasksphrygian",
             "unique": true,
             "label": "The Book of Masks",
             "aspects": {
@@ -927,7 +927,7 @@
             }
         },
         {
-            "id": "inthemountainsasupontheplainvak",
+            "id": "r_inthemountainsasupontheplainvak",
             "unique": true,
             "label": "In The Mountains As Upon The Plain...",
             "aspects": {
@@ -941,7 +941,7 @@
             }
         },
         {
-            "id": "memoryofgodsfucine",
+            "id": "r_memoryofgodsfucine",
             "unique": true,
             "label": "In Memory of Gods",
             "aspects": {
@@ -955,7 +955,7 @@
             }
         },
         {
-            "id": "sevenfoldslayingsevencoiledfucine",
+            "id": "r_sevenfoldslayingsevencoiledfucine",
             "unique": true,
             "label": "The Sevenfold Slaying of the Seven-Coiled",
             "aspects": {
@@ -969,7 +969,7 @@
             }
         },
         {
-            "id": "bighufffucine",
+            "id": "r_bighufffucine",
             "unique": true,
             "label": "My Deeds, My Powers, My Achievements...",
             "aspects": {
@@ -983,7 +983,7 @@
             }
         },
         {
-            "id": "dreamconspiracyskiesphrygian",
+            "id": "r_dreamconspiracyskiesphrygian",
             "unique": true,
             "label": "The Dream of the Conspiracy of the Lower Skies",
             "aspects": {
@@ -997,7 +997,7 @@
             }
         },
         {
-            "id": "bookwhitecatphrygian",
+            "id": "r_bookwhitecatphrygian",
             "unique": true,
             "label": "The Book of the White Cat",
             "aspects": {
@@ -1011,7 +1011,7 @@
             }
         },
         {
-            "id": "focusambermandaic",
+            "id": "r_focusambermandaic",
             "unique": true,
             "label": "The Focus of Amber",
             "aspects": {
@@ -1025,7 +1025,7 @@
             }
         },
         {
-            "id": "songscarapacecrossmandaic",
+            "id": "r_songscarapacecrossmandaic",
             "unique": true,
             "label": "The Songs of the Carapace Cross",
             "aspects": {
@@ -1039,7 +1039,7 @@
             }
         },
         {
-            "id": "originsofhoursvak",
+            "id": "r_originsofhoursvak",
             "unique": true,
             "label": "The Origins of Hours",
             "aspects": {
@@ -1053,7 +1053,7 @@
             }
         },
         {
-            "id": "wherehasshegonevak",
+            "id": "r_wherehasshegonevak",
             "unique": true,
             "label": "Where Has She Gone?",
             "aspects": {
@@ -1067,7 +1067,7 @@
             }
         },
         {
-            "id": "bookextinguishedheartmandaic",
+            "id": "r_bookextinguishedheartmandaic",
             "unique": true,
             "label": "The Book of the Extinguished Heart",
             "aspects": {
@@ -1081,7 +1081,7 @@
             }
         },
         {
-            "id": "howendwillbeginvak",
+            "id": "r_howendwillbeginvak",
             "unique": true,
             "label": "How the End will Begin",
             "aspects": {
@@ -1095,7 +1095,7 @@
             }
         },
         {
-            "id": "manneralchemistsparedvak",
+            "id": "r_manneralchemistsparedvak",
             "unique": true,
             "label": "The Manner in which the Alchemist was Spared",
             "aspects": {
@@ -1109,7 +1109,7 @@
             }
         },
         {
-            "id": "fivecreationsvak",
+            "id": "r_fivecreationsvak",
             "unique": true,
             "label": "Five Creations",
             "aspects": {
@@ -1123,7 +1123,7 @@
             }
         },
         {
-            "id": "commandspreservationallexistsmandaic",
+            "id": "r_commandspreservationallexistsmandaic",
             "unique": true,
             "label": "Commandments For the Preservation...",
             "aspects": {
@@ -1137,7 +1137,7 @@
             }
         },
         {
-            "id": "timedivisionmandaic",
+            "id": "r_timedivisionmandaic",
             "unique": true,
             "label": "The Time of Division",
             "aspects": {
@@ -1151,7 +1151,7 @@
             }
         },
         {
-            "id": "manualdeparturevak",
+            "id": "r_manualdeparturevak",
             "unique": true,
             "label": "A Manual for Departure",
             "aspects": {
@@ -1165,7 +1165,7 @@
             }
         },
         {
-            "id": "birdsongphrygian",
+            "id": "r_birdsongphrygian",
             "unique": true,
             "label": "Inaam, Kapigiginlupir, Garkie, Cryppys",
             "aspects": {
@@ -1179,7 +1179,7 @@
             }
         },
         {
-            "id": "voyagesfofucine",
+            "id": "r_voyagesfofucine",
             "unique": true,
             "label": "The Voyages of Ferninshun of Oreol",
             "aspects": {
@@ -1193,7 +1193,7 @@
             }
         },
         {
-            "id": "scarskyfucine",
+            "id": "r_scarskyfucine",
             "unique": true,
             "label": "The Scar in the Sky",
             "aspects": {

@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "legacydetectivejob",
+            "id": "r_legacydetectivejob",
             "label": "Inspector's Position",
             "description": "I have a senior position in the capital's police force.",
             "aspects": {
@@ -12,7 +12,7 @@
             }
         },
         {
-            "id": "legacydetectivejob_matured",
+            "id": "r_legacydetectivejob_matured",
             "label": "Inspector's Position",
             "description": "I have a senior position in the capital's police force, although I have been seconded to the Suppression Bureau.",
             "aspects": {
@@ -20,7 +20,7 @@
             },
             "slots": [
                 {
-                    "id": "target",
+                    "id": "r_target",
                     "label": "Subject",
                     "required": {
                         "suspicious": 1
@@ -29,7 +29,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "meticulous",
+                    "id": "r_meticulous",
                     "label": "Meticulous",
                     "description": "More Reason will give my investigation a better chance of success.",
                     "required": {
@@ -38,7 +38,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "vigilant",
+                    "id": "r_vigilant",
                     "label": "Vigilant",
                     "description": "More Reason will give my investigation a better chance of success.",
                     "required": {
@@ -47,7 +47,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "singleminded",
+                    "id": "r_singleminded",
                     "label": "Singleminded",
                     "description": "More Reason will give my investigation a better chance of success.",
                     "required": {
@@ -64,12 +64,12 @@
             "icon": "legacydetectivejob"
         },
         {
-            "id": "legacydetectivejob_suspended",
+            "id": "r_legacydetectivejob_suspended",
             "label": "Inspector of Police [Suspended]",
             "description": "My absence has been noted. I've been suspended. [Plead your case soon, or lose your position forever.]",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Passion",
                     "required": {
                         "passion": 1
@@ -87,14 +87,14 @@
             "decayTo": "legacydetectivejob_disgraced"
         },
         {
-            "id": "legacydetectivejob_disgraced",
+            "id": "r_legacydetectivejob_disgraced",
             "label": "Inspector of Police [Disgraced]",
             "description": "I've lost my position. I'm unlikely to regain it. I must find my own way in the civilian world.",
             "lifetime": 120,
             "decayTo": "mystique"
         },
         {
-            "id": "legacydetective_plotitem",
+            "id": "r_legacydetective_plotitem",
             "label": "Sealed Bureau File",
             "aspects": {
                 "desire": 1,
@@ -104,7 +104,7 @@
             "description": "A file on the enigmatic #PREVIOUSCHARACTERNAME#. I sealed it myself. I am all too familiar with its contents. If I were to revisit them, the dreams might begin again."
         },
         {
-            "id": "myevidence",
+            "id": "r_myevidence",
             "label": "Tentative Evidence",
             "description": "I have some evidence of my quarry's activities.",
             "lifetime": 300,
@@ -116,7 +116,7 @@
             }
         },
         {
-            "id": "myevidenceb",
+            "id": "r_myevidenceb",
             "label": "Damning Evidence",
             "description": "I have compelling evidence of my quarry's activities.",
             "lifetime": 300,
@@ -125,7 +125,7 @@
             }
         },
         {
-            "id": "legacydetective_plotitem_burning",
+            "id": "r_legacydetective_plotitem_burning",
             "label": "Burning Bureau File",
             "description": "It's almost gone! I could pluck it from the flames - ",
             "lifetime": 10,
@@ -137,7 +137,7 @@
             }
         },
         {
-            "id": "legacydetective_plotitem_backup",
+            "id": "r_legacydetective_plotitem_backup",
             "label": "Troubling Bureau File",
             "aspects": {
                 "desire": 1,

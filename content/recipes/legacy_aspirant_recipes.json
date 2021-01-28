@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "workintrojob",
+            "id": "r_workintrojob",
             "label": "Another Shift at the Hospital",
             "actionid": "work",
             "requirements": {
@@ -14,7 +14,7 @@
             },
             "alt": [
                 {
-                    "id": "introdream",
+                    "id": "r_introdream",
                     "chance": 100,
                     "additional": true
                 }
@@ -25,7 +25,7 @@
             "craftable": true
         },
         {
-            "id": "introdream",
+            "id": "r_introdream",
             "label": "Recall my Dreams",
             "actionid": "dream",
             "requirements": {},
@@ -35,7 +35,7 @@
             },
             "alt": [
                 {
-                    "id": "bequestcountdown",
+                    "id": "r_bequestcountdown",
                     "chance": 100,
                     "additional": true
                 }
@@ -47,7 +47,7 @@
             "comments": "This is triggered from the intro work recipe only."
         },
         {
-            "id": "bequestcountdown",
+            "id": "r_bequestcountdown",
             "label": "A Change in the Air",
             "actionid": "study",
             "requirements": {},
@@ -57,13 +57,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "bequestarrives",
+                    "id": "r_bequestarrives",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "bequestarrives",
+            "id": "r_bequestarrives",
             "label": "A Bequest Arrives",
             "actionid": "study",
             "requirements": {},
@@ -80,7 +80,7 @@
             "comments": "This makes the Study action available, and is triggered from intro only."
         },
         {
-            "id": "studybequestreason",
+            "id": "r_studybequestreason",
             "label": "Examine the Bequest, employing Reason",
             "actionid": "study",
             "requirements": {
@@ -100,7 +100,7 @@
             "craftable": true
         },
         {
-            "id": "studybequestpassion",
+            "id": "r_studybequestpassion",
             "label": "Examine my Bequest, employing Passion",
             "actionid": "study",
             "requirements": {
@@ -120,7 +120,7 @@
             "craftable": true
         },
         {
-            "id": "studycontactintro",
+            "id": "r_studycontactintro",
             "label": "Find a potential collaborator",
             "actionid": "study",
             "requirements": {
@@ -132,7 +132,7 @@
             },
             "alt": [
                 {
-                    "id": "findacquaintanceopentalk",
+                    "id": "r_findacquaintanceopentalk",
                     "chance": 100,
                     "additional": true
                 }

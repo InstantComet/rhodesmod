@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "rkx.spawn.escort",
+            "id": "r_rkx.spawn.escort",
             "actionid": "rkx",
             "label": "Not Alone",
             "startdescription": "It's never just one thing. [Your Foe will always bring in assistance against you... unless you meet him at the Map's Edge.]",
@@ -16,12 +16,12 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "rkx.enforcer.aggressive"
+                    "id": "r_rkx.enforcer.aggressive"
                 }
             ]
         },
         {
-            "id": "rkx.first",
+            "id": "r_rkx.first",
             "actionid": "rkx",
             "label": "Right Behind Me",
             "startdescription": "This one knows my face, and I know his.",
@@ -32,12 +32,12 @@
             "warmup": 1,
             "linked": [
                 {
-                    "id": "rkx.enforcer.aggressive"
+                    "id": "r_rkx.enforcer.aggressive"
                 }
             ]
         },
         {
-            "id": "rkx.arrive.ahead",
+            "id": "r_rkx.arrive.ahead",
             "actionid": "rkx",
             "label": "Reckoners Are Here First",
             "startdescription": "The reckoners guessed I might come here. They already have scouts in this city.",
@@ -53,12 +53,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.selector"
+                    "id": "r_rkx.selector"
                 }
             ]
         },
         {
-            "id": "rkx.arrive.traces",
+            "id": "r_rkx.arrive.traces",
             "actionid": "rkx",
             "label": "Too Many Traces",
             "startdescription": "I left one too many traces. Reckoners have followed me here. [If you have more than one Trace on the board, it'll usually draw reckoners.]",
@@ -71,12 +71,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.selector"
+                    "id": "r_rkx.selector"
                 }
             ]
         },
         {
-            "id": "rkx.arrive.trace",
+            "id": "r_rkx.arrive.trace",
             "actionid": "rkx",
             "label": "Just One Slip",
             "startdescription": "I've been careful... but not careful enough. [A Trace on the board will sometimes draw reckoners.]",
@@ -89,12 +89,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.selector"
+                    "id": "r_rkx.selector"
                 }
             ]
         },
         {
-            "id": "rkx.arrive.no.trace",
+            "id": "r_rkx.arrive.no.trace",
             "actionid": "rkx",
             "label": "Reckoners have Arrived!",
             "startdescription": "My pursuers are here. I've been careful. This must be sheer ill luck. [Occasionally, Reckoners decide to search a city even with no Traces to follow.]",
@@ -107,12 +107,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.selector"
+                    "id": "r_rkx.selector"
                 }
             ]
         },
         {
-            "id": "rkx.selector",
+            "id": "r_rkx.selector",
             "actionid": "rkx",
             "label": "The Search",
             "startdescription": "@#rkx.underboss|I know the signs. A minor reckoner lord has entered the city. My Foe can't be too far behind.\n#rkx.enforcer|I've seen a familiar face in the crowds - too familiar.\n#rkx.operative|I've learnt to listen to my instincts, and my instincts are telling me someone's working against me.\n#|There's that tingling sensation on the back of my neck. Someone's looking for me.@  [The more Traces on the board, the more quickly your pursuers will be able to move against you.]",
@@ -122,70 +122,70 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.underboss.slain"
+                    "id": "r_rkx.underboss.slain"
                 },
                 {
-                    "id": "rkx.reckoner.slain"
+                    "id": "r_rkx.reckoner.slain"
                 },
                 {
-                    "id": "rkx.escort.attack"
+                    "id": "r_rkx.escort.attack"
                 },
                 {
-                    "id": "rkx.underboss.aggressive.obscured"
+                    "id": "r_rkx.underboss.aggressive.obscured"
                 },
                 {
-                    "id": "rkx.underboss.aggressive.violent",
+                    "id": "r_rkx.underboss.aggressive.violent",
                     "chance": 50
                 },
                 {
-                    "id": "rkx.underboss.aggressive.cunning"
+                    "id": "r_rkx.underboss.aggressive.cunning"
                 },
                 {
-                    "id": "rkx.underboss.reinforcements"
+                    "id": "r_rkx.underboss.reinforcements"
                 },
                 {
-                    "id": "rkx.underboss.search"
+                    "id": "r_rkx.underboss.search"
                 },
                 {
-                    "id": "rkx.enforcer.aggressive.obscured"
+                    "id": "r_rkx.enforcer.aggressive.obscured"
                 },
                 {
-                    "id": "rkx.enforcer.aggressive"
+                    "id": "r_rkx.enforcer.aggressive"
                 },
                 {
-                    "id": "rkx.enforcer.reinforcements"
+                    "id": "r_rkx.enforcer.reinforcements"
                 },
                 {
-                    "id": "rkx.enforcer.search"
+                    "id": "r_rkx.enforcer.search"
                 },
                 {
-                    "id": "rkx.operative.aggressive.obscured"
+                    "id": "r_rkx.operative.aggressive.obscured"
                 },
                 {
-                    "id": "rkx.operative.aggressive"
+                    "id": "r_rkx.operative.aggressive"
                 },
                 {
-                    "id": "rkx.operative.reinforcements"
+                    "id": "r_rkx.operative.reinforcements"
                 },
                 {
-                    "id": "rkx.operative.search"
+                    "id": "r_rkx.operative.search"
                 },
                 {
-                    "id": "rkx.scouts.aggressive.reinforcements"
+                    "id": "r_rkx.scouts.aggressive.reinforcements"
                 },
                 {
-                    "id": "rkx.scouts.aggressive.search"
+                    "id": "r_rkx.scouts.aggressive.search"
                 },
                 {
-                    "id": "rkx.scouts.passive.hesitate"
+                    "id": "r_rkx.scouts.passive.hesitate"
                 },
                 {
-                    "id": "rkx.scouts.passive.leave"
+                    "id": "r_rkx.scouts.passive.leave"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.slain",
+            "id": "r_rkx.underboss.slain",
             "actionid": "rkx",
             "label": "Dead from Wounds",
             "startdescription": "This underboss is finished.",
@@ -200,7 +200,7 @@
             }
         },
         {
-            "id": "rkx.reckoner.slain",
+            "id": "r_rkx.reckoner.slain",
             "actionid": "rkx",
             "label": "Dead from Wounds",
             "startdescription": "This reckoner is finished.",
@@ -216,7 +216,7 @@
             }
         },
         {
-            "id": "rkx.escort.attack",
+            "id": "r_rkx.escort.attack",
             "actionid": "rkx.escort",
             "label": "Only a Moment's Respite",
             "startdescription": "My Foe's lackey will launch another attack against me soon - ",
@@ -232,15 +232,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "rkx.enforcer.aggressive.obscured"
+                    "id": "r_rkx.enforcer.aggressive.obscured"
                 },
                 {
-                    "id": "rkx.enforcer.aggressive"
+                    "id": "r_rkx.enforcer.aggressive"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.aggressive.obscured",
+            "id": "r_rkx.underboss.aggressive.obscured",
             "actionid": "rkx",
             "label": "Scouring the Shadows",
             "startdescription": "A reckoner underboss is searching for me. They won't find me yet. But my veil of secrecy is wearing thinner.",
@@ -256,7 +256,7 @@
             },
             "slots": [
                 {
-                    "id": "obscurity",
+                    "id": "r_obscurity",
                     "label": "Obscurity",
                     "required": {
                         "obscurity": 1
@@ -267,12 +267,12 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.enforcer.aggressive.obscured",
+            "id": "r_rkx.enforcer.aggressive.obscured",
             "actionid": "rkx",
             "label": "Scouring the Shadows",
             "startdescription": "A reckoner assassin is prowling the city. They won't find me yet. But my veil of secrecy is wearing thinner.",
@@ -285,7 +285,7 @@
             },
             "slots": [
                 {
-                    "id": "obscurity",
+                    "id": "r_obscurity",
                     "label": "Obscurity",
                     "required": {
                         "obscurity": 1
@@ -299,12 +299,12 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.operative.aggressive.obscured",
+            "id": "r_rkx.operative.aggressive.obscured",
             "actionid": "rkx",
             "label": "Scouring the Shadows",
             "startdescription": "A reckoner operative is at work here. They won't find me yet.  But my veil of secrecy is wearing thinner.",
@@ -317,7 +317,7 @@
             },
             "slots": [
                 {
-                    "id": "obscurity",
+                    "id": "r_obscurity",
                     "label": "Obscurity",
                     "required": {
                         "obscurity": 1
@@ -331,12 +331,12 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.aggressive.violent",
+            "id": "r_rkx.underboss.aggressive.violent",
             "actionid": "rkx",
             "label": "A Hostile Move!",
             "startdescription": "The Underboss is attacking me directly! [Direct reckoner attacks cause Wounds if they succeed. They usually succeed, unless you provide a card to defend yourself. You can also try to bribe them with a Decade, though Underbosses are always greedy.]",
@@ -346,7 +346,7 @@
             },
             "slots": [
                 {
-                    "id": "defence",
+                    "id": "r_defence",
                     "label": "Defence",
                     "required": {
                         "lore": 1,
@@ -364,27 +364,27 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "rkx.bossondeck.attack"
+                    "id": "r_rkx.bossondeck.attack"
                 }
             ],
             "linked": [
                 {
-                    "id": "rkx.underling.bribe.greedy"
+                    "id": "r_rkx.underling.bribe.greedy"
                 },
                 {
-                    "id": "rkx.underling.distracted"
+                    "id": "r_rkx.underling.distracted"
                 },
                 {
-                    "id": "rkx.underling.attack.success",
+                    "id": "r_rkx.underling.attack.success",
                     "chance": 70
                 },
                 {
-                    "id": "rkx.underling.attack.failure"
+                    "id": "r_rkx.underling.attack.failure"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.aggressive.cunning",
+            "id": "r_rkx.underboss.aggressive.cunning",
             "actionid": "rkx",
             "label": "Theft or Sabotage",
             "startdescription": "The underboss is going after my Assets. [You can pre-empt them by spending a Connection: Radicals, Underworld, Ruler or Officials. Otherwise, they'll destroy a random Asset. You can also try to bribe them with a Decade, though Underbosses are always greedy.]",
@@ -394,7 +394,7 @@
             },
             "slots": [
                 {
-                    "id": "defence",
+                    "id": "r_defence",
                     "label": "Defence",
                     "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
                     "required": {
@@ -408,10 +408,10 @@
             ],
             "alt": [
                 {
-                    "id": "rkx.bossondeck.underboss.cunning"
+                    "id": "r_rkx.bossondeck.underboss.cunning"
                 },
                 {
-                    "id": "rkx.underboss.aggressive.cunning.defended"
+                    "id": "r_rkx.underboss.aggressive.cunning.defended"
                 }
             ],
             "warmup": 30,
@@ -420,15 +420,15 @@
             },
             "linked": [
                 {
-                    "id": "rkx.underling.bribe.greedy"
+                    "id": "r_rkx.underling.bribe.greedy"
                 },
                 {
-                    "id": "rkx.underboss.aggressive.cunning.undefended"
+                    "id": "r_rkx.underboss.aggressive.cunning.undefended"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.aggressive.cunning.defended",
+            "id": "r_rkx.underboss.aggressive.cunning.defended",
             "actionid": "rkx",
             "label": "Friends in the Right Places",
             "startdescription": "I'm calling in a favour. That underboss is due a nasty surprise.",
@@ -440,24 +440,24 @@
             },
             "alt": [
                 {
-                    "id": "spit.underling.wounded",
+                    "id": "r_spit.underling.wounded",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.aggressive.cunning.undefended",
+            "id": "r_rkx.underboss.aggressive.cunning.undefended",
             "actionid": "rkx",
             "label": "Losing Ground",
             "startdescription": "@#connection|The underboss has driven a wedge between me and my ally.\n#space|One of my properties has mysteriously burnt to the ground.\n#portable|Something's missing! The underboss or their agents must have broken in.\n#|The underboss is working to rob me of my resources.@",
             "slots": [
                 {
-                    "id": "asset",
+                    "id": "r_asset",
                     "label": "Target",
                     "required": {
                         "asset": 1
@@ -476,12 +476,12 @@
             },
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.reinforcements",
+            "id": "r_rkx.underboss.reinforcements",
             "actionid": "rkx",
             "label": "Reinforcements!",
             "startdescription": "A reckoner underboss has evidence that I'm here, but they haven't moved against me. This can only mean that they've sent for their superior... my Foe. [When there are five Traces on the board, the Foe can appear.]",
@@ -495,19 +495,19 @@
             },
             "alt": [
                 {
-                    "id": "rkx.foe.arrive",
+                    "id": "r_rkx.foe.arrive",
                     "additional": true
                 }
             ],
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.underboss.search",
+            "id": "r_rkx.underboss.search",
             "actionid": "rkx",
             "label": "Widening the Search...",
             "startdescription": "A reckoner underboss is gathering information on my movements, and on me.",
@@ -517,19 +517,19 @@
             },
             "alt": [
                 {
-                    "id": "spawn.trace",
+                    "id": "r_spawn.trace",
                     "additional": true
                 }
             ],
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.enforcer.aggressive",
+            "id": "r_rkx.enforcer.aggressive",
             "actionid": "rkx",
             "label": "A Hostile Move!",
             "startdescription": "The Assassin is moving against me! [Direct reckoner attacks cause Wounds if they succeed. They usually succeed, unless you provide a card to defend yourself.  You can also try to bribe them with a Decade, though they may get greedy.]",
@@ -539,7 +539,7 @@
             },
             "slots": [
                 {
-                    "id": "defence",
+                    "id": "r_defence",
                     "label": "Defence",
                     "required": {
                         "lore": 1,
@@ -557,31 +557,31 @@
             "warmup": 40,
             "alt": [
                 {
-                    "id": "rkx.bossondeck.attack"
+                    "id": "r_rkx.bossondeck.attack"
                 }
             ],
             "linked": [
                 {
-                    "id": "rkx.underling.bribe.greedy",
+                    "id": "r_rkx.underling.bribe.greedy",
                     "chance": 30
                 },
                 {
-                    "id": "rkx.underling.bribe.success"
+                    "id": "r_rkx.underling.bribe.success"
                 },
                 {
-                    "id": "rkx.underling.distracted"
+                    "id": "r_rkx.underling.distracted"
                 },
                 {
-                    "id": "rkx.underling.attack.success",
+                    "id": "r_rkx.underling.attack.success",
                     "chance": 70
                 },
                 {
-                    "id": "rkx.underling.attack.failure"
+                    "id": "r_rkx.underling.attack.failure"
                 }
             ]
         },
         {
-            "id": "rkx.enforcer.reinforcements",
+            "id": "r_rkx.enforcer.reinforcements",
             "actionid": "rkx",
             "label": "Reinforcements!",
             "startdescription": "A reckoner assassin has evidence that I'm here, but they haven't moved against me. This can only mean that they've sent for their superior. [When there are three Traces on the board, an Underboss can appear.]",
@@ -601,12 +601,12 @@
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.enforcer.search",
+            "id": "r_rkx.enforcer.search",
             "actionid": "rkx",
             "label": "Widening the Search...",
             "startdescription": "A reckoner assassin is uncovering more clues. They may summon reinforcements soon.",
@@ -616,25 +616,25 @@
             },
             "alt": [
                 {
-                    "id": "spawn.trace",
+                    "id": "r_spawn.trace",
                     "additional": true
                 }
             ],
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.operative.aggressive",
+            "id": "r_rkx.operative.aggressive",
             "actionid": "rkx",
             "label": "Theft or Sabotage",
             "startdescription": "The reckoner operative's going after my Assets. [You can pre-empt them by spending a Connection: Radicals, Underworld, Official or Ruler. You can also try to bribe them with a Decade, though they may get greedy. Otherwise, they'll destroy a random Asset.]",
             "slots": [
                 {
-                    "id": "defence",
+                    "id": "r_defence",
                     "label": "Defence",
                     "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
                     "required": {
@@ -648,10 +648,10 @@
             ],
             "alt": [
                 {
-                    "id": "rkx.bossondeck.operative"
+                    "id": "r_rkx.bossondeck.operative"
                 },
                 {
-                    "id": "rkx.operative.aggressive.defended"
+                    "id": "r_rkx.operative.aggressive.defended"
                 }
             ],
             "requirements": {
@@ -664,19 +664,19 @@
             },
             "linked": [
                 {
-                    "id": "rkx.underling.bribe.greedy",
+                    "id": "r_rkx.underling.bribe.greedy",
                     "chance": 30
                 },
                 {
-                    "id": "rkx.underling.bribe.success"
+                    "id": "r_rkx.underling.bribe.success"
                 },
                 {
-                    "id": "rkx.operative.aggressive.undefended"
+                    "id": "r_rkx.operative.aggressive.undefended"
                 }
             ]
         },
         {
-            "id": "rkx.operative.aggressive.defended",
+            "id": "r_rkx.operative.aggressive.defended",
             "actionid": "rkx",
             "label": "Friends in the Right Places",
             "startdescription": "I'm calling in a favour. That operative's due a nasty surprise.",
@@ -688,24 +688,24 @@
             },
             "alt": [
                 {
-                    "id": "spit.underling.wounded",
+                    "id": "r_spit.underling.wounded",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.operative.aggressive.undefended",
+            "id": "r_rkx.operative.aggressive.undefended",
             "actionid": "rkx",
             "label": "Losing Ground",
             "startdescription": "@#connection|The reckoner operative has driven a wedge between me and my ally.\n#space|One of my properties has mysteriously burnt to the ground.\n#portable|Something's missing! The reckoner operative, or their agents, must have broken in.\n#|The reckoner operative is working to rob me of my resources.@",
             "slots": [
                 {
-                    "id": "asset",
+                    "id": "r_asset",
                     "label": "Target",
                     "required": {
                         "asset": 1
@@ -724,12 +724,12 @@
             },
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.operative.reinforcements",
+            "id": "r_rkx.operative.reinforcements",
             "actionid": "rkx",
             "label": "Reinforcements!",
             "startdescription": "A reckoner operative has evidence that I'm here, but they haven't moved against me. This can only mean that they've sent for their superior. [When there are three Traces on the board, an Underboss can appear.]",
@@ -749,12 +749,12 @@
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.operative.search",
+            "id": "r_rkx.operative.search",
             "actionid": "rkx",
             "label": "Widening the Search...",
             "startdescription": "A reckoner operative is uncovering more clues. They may summon reinforcements soon.",
@@ -764,19 +764,19 @@
             },
             "alt": [
                 {
-                    "id": "spawn.trace",
+                    "id": "r_spawn.trace",
                     "additional": true
                 }
             ],
             "warmup": 40,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.scouts.aggressive.reinforcements",
+            "id": "r_rkx.scouts.aggressive.reinforcements",
             "actionid": "rkx",
             "label": "Reinforcements!",
             "startdescription": "Reckoners have evidence that I'm here. They're summoning help to smoke me out.",
@@ -793,12 +793,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.scouts.aggressive.search",
+            "id": "r_rkx.scouts.aggressive.search",
             "actionid": "rkx",
             "label": "Widening the Search...",
             "startdescription": "Reckoner informants are uncovering more clues. They may summon reinforcements soon.",
@@ -808,19 +808,19 @@
             },
             "alt": [
                 {
-                    "id": "spawn.trace",
+                    "id": "r_spawn.trace",
                     "additional": true
                 }
             ],
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.scouts.passive.hesitate",
+            "id": "r_rkx.scouts.passive.hesitate",
             "actionid": "rkx",
             "label": "Hesitation",
             "startdescription": "My pursuers - cautious or cowardly or uncertain of their proof - have done nothing yet.",
@@ -834,12 +834,12 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.scouts.passive.leave",
+            "id": "r_rkx.scouts.passive.leave",
             "actionid": "rkx",
             "label": "Undiscovered!",
             "startdescription": "My pursuers are satisfied I'm not here. Of course, they may yet return.",
@@ -859,7 +859,7 @@
             "warmup": 50
         },
         {
-            "id": "rkx.underling.distracted",
+            "id": "r_rkx.underling.distracted",
             "actionid": "rkx",
             "label": "A Successful Distraction!",
             "startdescription": "...",
@@ -868,12 +868,12 @@
             },
             "linked": [
                 {
-                    "id": "rkx.underling.attack.failure"
+                    "id": "r_rkx.underling.attack.failure"
                 }
             ]
         },
         {
-            "id": "rkx.underling.attack.success",
+            "id": "r_rkx.underling.attack.success",
             "actionid": "rkx",
             "label": "I'm injured!",
             "startdescription": "My enemy's wounded me! I can't always be vigilant.",
@@ -882,7 +882,7 @@
             },
             "alt": [
                 {
-                    "id": "spit.underling.attack.success",
+                    "id": "r_spit.underling.attack.success",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -901,13 +901,13 @@
             },
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ],
             "warmup": 2
         },
         {
-            "id": "spit.underling.attack.success",
+            "id": "r_spit.underling.attack.success",
             "actionid": "spit.underling.attack",
             "label": "I'm injured!",
             "startdescription": "I need time and safety to heal.",
@@ -920,13 +920,13 @@
             "warmup": 2
         },
         {
-            "id": "rkx.underling.attack.failure",
+            "id": "r_rkx.underling.attack.failure",
             "actionid": "rkx",
             "label": "My Pursuers, Stymied",
             "startdescription": "@#lore|I've used my skills to hold my pursuer at bay.\n#weapon|I've used a weapon to keep my pursuer at bay.\n#associate|A friend has lent me their protection.\n#op.cold|Snow falls like night. I've left my pursuer floundering in the drifts.\n#op.heat|I've led my pursuer a dance through the noonday sun, until they're staggering with the heat.\n#op.sea|I've lost my pursuer in the bustle of the port.\n#op.faith|Reckoners are traditionally chary of sacred places. I've used that to slip away.\n#op.cats|The Colonel - the Hour that protects my Foe - has long disliked cats. Among my enemies, a wariness about felines has become a powerful superstition. I've slipped away while my pursuer hesitates.\n#op.height|I've hidden myself in the heights where few go, and my pursuer has been left behind.\n#op.horned|Reckoners are wary of the Hours. The shadows here are sharp with the presence of the Horned Axe. My pursuer hesitated, and I slipped away.\n#op.wolf|All fear the Wolf-Divided, and his breath has touched this place. My pursuer is reluctant to follow me into his shadow, and I've slipped away.\n#op.flowermaker|This place is sweet with the Flowermaker's scents. The airs here bewildered my pursuer long enough for me to slip away.\n#ligeian|A rapacity moves here - one that reckoners especially fear.\n#|...I got lucky. [Sometimes, Reckoner attacks fail.]@",
             "alt": [
                 {
-                    "id": "spit.underling.attack.failure.lore",
+                    "id": "r_spit.underling.attack.failure.lore",
                     "additional": true,
                     "expulsion": {
                         "limit": 1,
@@ -936,7 +936,7 @@
                     }
                 },
                 {
-                    "id": "spit.underling.attack.failure.weapon",
+                    "id": "r_spit.underling.attack.failure.weapon",
                     "additional": true,
                     "expulsion": {
                         "limit": 1,
@@ -946,7 +946,7 @@
                     }
                 },
                 {
-                    "id": "spit.underling.attack.failure.associate",
+                    "id": "r_spit.underling.attack.failure.associate",
                     "additional": true,
                     "expulsion": {
                         "limit": 1,
@@ -961,13 +961,13 @@
             },
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "spit.underling.attack.failure.lore",
+            "id": "r_spit.underling.attack.failure.lore",
             "actionid": "spit.underling.attack.failure",
             "requirements": {
                 "lore": 1
@@ -983,7 +983,7 @@
             "warmup": 2
         },
         {
-            "id": "spit.underling.attack.failure.weapon",
+            "id": "r_spit.underling.attack.failure.weapon",
             "actionid": "spit.underling.attack.failure",
             "requirements": {
                 "weapon": 1
@@ -999,7 +999,7 @@
             "warmup": 2
         },
         {
-            "id": "spit.underling.attack.failure.associate",
+            "id": "r_spit.underling.attack.failure.associate",
             "actionid": "spit.underling.attack.failure",
             "requirements": {
                 "associate": 1
@@ -1015,7 +1015,7 @@
             "warmup": 2
         },
         {
-            "id": "rkx.lookfurtherafield",
+            "id": "r_rkx.lookfurtherafield",
             "actionid": "rkx",
             "label": "Reckoners are Looking Further Afield",
             "startdescription": "If my pursuers can't find me here, they might look to other cities - particularly those in which I've shown an interest. [Reckoners will sometimes go ahead of you to a Destination. This is more likely if you've sent Funds there.]",
@@ -1028,7 +1028,7 @@
             },
             "slots": [
                 {
-                    "id": "destination",
+                    "id": "r_destination",
                     "label": "A Lead?",
                     "required": {
                         "destination": 1
@@ -1042,20 +1042,20 @@
             "warmup": 50,
             "linked": [
                 {
-                    "id": "rkx.infect.becauseprep",
+                    "id": "r_rkx.infect.becauseprep",
                     "chance": 70
                 },
                 {
-                    "id": "rkx.infect.noprep",
+                    "id": "r_rkx.infect.noprep",
                     "chance": 30
                 },
                 {
-                    "id": "rkx.notfollowinglead"
+                    "id": "r_rkx.notfollowinglead"
                 }
             ]
         },
         {
-            "id": "rkx.infect.becauseprep",
+            "id": "r_rkx.infect.becauseprep",
             "actionid": "rkx",
             "label": "Following the Money",
             "startdescription": "My pursuers have followed the trail of the funds I sent ahead.",
@@ -1073,12 +1073,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.infect.demote"
+                    "id": "r_rkx.infect.demote"
                 }
             ]
         },
         {
-            "id": "rkx.infect.noprep",
+            "id": "r_rkx.infect.noprep",
             "actionid": "rkx",
             "label": "A Red Herring?",
             "startdescription": "My pursuers are focusing their attention somewhere else - why? ",
@@ -1096,18 +1096,18 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.infect.demote"
+                    "id": "r_rkx.infect.demote"
                 }
             ]
         },
         {
-            "id": "rkx.notfollowinglead",
+            "id": "r_rkx.notfollowinglead",
             "actionid": "rkx",
             "label": "Reckoners are Holding Steady",
             "startdescription": "My pursuers are convinced I'm still here.",
             "alt": [
                 {
-                    "id": "spit.uninfected.destination",
+                    "id": "r_spit.uninfected.destination",
                     "additional": true,
                     "expulsion": {
                         "limit": 1,
@@ -1120,12 +1120,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.infect.demote",
+            "id": "r_rkx.infect.demote",
             "actionid": "rkx",
             "label": "Reckoners are reducing their presence",
             "startdescription": "There are fewer reckoners in the city now",
@@ -1135,7 +1135,7 @@
             "comments": "If we infected a destination in the previous step, spit the destination out",
             "alt": [
                 {
-                    "id": "spit.infected.destination",
+                    "id": "r_spit.infected.destination",
                     "additional": true,
                     "expulsion": {
                         "limit": 1,
@@ -1151,12 +1151,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "spit.infected.destination",
+            "id": "r_spit.infected.destination",
             "actionid": "spit.infected.destination",
             "label": "Perils Ahead",
             "startdescription": "If I go here, I may find my pursuers there before me.",
@@ -1166,14 +1166,14 @@
             "warmup": 2
         },
         {
-            "id": "spit.uninfected.destination",
+            "id": "r_spit.uninfected.destination",
             "actionid": "spit.uninfected.destination",
             "label": "A Rejected Lead",
             "startdescription": "My pursuers are convinced I'm still here. They've decided not to go to this destination.",
             "warmup": 2
         },
         {
-            "id": "spit.underling.wounded",
+            "id": "r_spit.underling.wounded",
             "actionid": "spit.underling.wounded",
             "label": "A Trail of Blood",
             "startdescription": "A pursuer's been hurt!",
@@ -1183,12 +1183,12 @@
             "warmup": 1,
             "linked": [
                 {
-                    "id": "use.attack.underling.slain"
+                    "id": "r_use.attack.underling.slain"
                 }
             ]
         },
         {
-            "id": "rkx.underling.bribe.greedy",
+            "id": "r_rkx.underling.bribe.greedy",
             "actionid": "rkx",
             "label": "A Higher Price",
             "startdescription": "'@#rkx.underboss|'Be serious.'\n#rkx.enforcer|'Double.'\n#rkx.operative|'Keep talking...'\n#|'Keep talking...'@ [If you add another Decade, the bribe will succeed. If not, your pursuer will consume the first Decade and keep coming.']",
@@ -1197,7 +1197,7 @@
             },
             "slots": [
                 {
-                    "id": "more",
+                    "id": "r_more",
                     "label": "More",
                     "description": "Double it or walk away.",
                     "required": {
@@ -1211,15 +1211,15 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "rkx.underling.bribe.success"
+                    "id": "r_rkx.underling.bribe.success"
                 },
                 {
-                    "id": "rkx.reset"
+                    "id": "r_rkx.reset"
                 }
             ]
         },
         {
-            "id": "rkx.underling.bribe.success",
+            "id": "r_rkx.underling.bribe.success",
             "actionid": "rkx",
             "label": "A Successful Bribe",
             "startdescription": "'@#rkx.underboss|'I always liked you, you know. If the Old Man ever meets with an accident... get in touch.'\n#rkx.enforcer|'Deal. And this never happened.'\n#rkx.operative|'You're not so bad. When the Old Man finally catches up... I'll pour one out for you.'\n#|'Lucky you were never here, eh?'@",
@@ -1238,7 +1238,7 @@
             "warmup": 10
         },
         {
-            "id": "rkx.bossondeck.attack",
+            "id": "r_rkx.bossondeck.attack",
             "actionid": "rkx",
             "label": "Too Late for That",
             "startdescription": "No underling will dare turn a blind eye to my presence while the Foe is here.",
@@ -1253,16 +1253,16 @@
             },
             "linked": [
                 {
-                    "id": "rkx.underling.attack.success",
+                    "id": "r_rkx.underling.attack.success",
                     "chance": 70
                 },
                 {
-                    "id": "rkx.underling.attack.failure"
+                    "id": "r_rkx.underling.attack.failure"
                 }
             ]
         },
         {
-            "id": "rkx.bossondeck.underboss.cunning",
+            "id": "r_rkx.bossondeck.underboss.cunning",
             "actionid": "rkx",
             "label": "Too Late for That",
             "startdescription": "No underling will dare turn a blind eye to my presence while the Foe is here.",
@@ -1277,12 +1277,12 @@
             },
             "linked": [
                 {
-                    "id": "rkx.underboss.aggressive.cunning.undefended"
+                    "id": "r_rkx.underboss.aggressive.cunning.undefended"
                 }
             ]
         },
         {
-            "id": "rkx.bossondeck.operative",
+            "id": "r_rkx.bossondeck.operative",
             "actionid": "rkx",
             "label": "Too Late for That",
             "startdescription": "No underling will dare turn a blind eye to my presence while the Foe is here.",
@@ -1297,12 +1297,12 @@
             },
             "linked": [
                 {
-                    "id": "rkx.operative.aggressive.undefended"
+                    "id": "r_rkx.operative.aggressive.undefended"
                 }
             ]
         },
         {
-            "id": "rkx.reset",
+            "id": "r_rkx.reset",
             "actionid": "rkx",
             "label": "What Next?",
             "startdescription": "What Next?",
@@ -1311,7 +1311,7 @@
             },
             "linked": [
                 {
-                    "id": "rkx.selector"
+                    "id": "r_rkx.selector"
                 }
             ]
         }

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "use.first",
+            "id": "r_use.first",
             "actionid": "use",
             "label": "From Under Their Noses",
             "startdescription": "My old confederates are out searching for me. I hear their whistles and their finger-snapping at every corner. And no wonder, given what I've just stolen. But enough was enough.",
@@ -28,15 +28,15 @@
             },
             "alt": [
                 {
-                    "id": "rkx.first",
+                    "id": "r_rkx.first",
                     "additional": true
                 },
                 {
-                    "id": "turn.begin",
+                    "id": "r_turn.begin",
                     "additional": true
                 },
                 {
-                    "id": "travel.first",
+                    "id": "r_travel.first",
                     "additional": true
                 }
             ],
@@ -44,12 +44,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "send.investigate.description"
+                    "id": "r_send.investigate.description"
                 }
             ]
         },
         {
-            "id": "use.attack.weapon.underling",
+            "id": "r_use.attack.weapon.underling",
             "actionid": "use",
             "label": "Attack my Pursuer",
             "startdescription": "A direct assault on my pursuer. [This will destroy all Obscurity.]",
@@ -64,7 +64,7 @@
             },
             "slots": [
                 {
-                    "id": "with.lore",
+                    "id": "r_with.lore",
                     "label": "Technique",
                     "description": "An attack that uses both an Edge technique and a weapon will always hit.",
                     "actionid": "use",
@@ -75,7 +75,7 @@
             ],
             "alt": [
                 {
-                    "id": "use.attack.underling.combo"
+                    "id": "r_use.attack.underling.combo"
                 }
             ],
             "purge": {
@@ -85,17 +85,17 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "use.attack.underling.hit",
+                    "id": "r_use.attack.underling.hit",
                     "chance": 70
                 },
                 {
-                    "id": "use.attack.underling.miss",
+                    "id": "r_use.attack.underling.miss",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "use.attack.lore.underling",
+            "id": "r_use.attack.lore.underling",
             "actionid": "use",
             "label": "Attack my Pursuer",
             "comments": "Priority>createdefiance, in case someone is actually under attack from a pursuer",
@@ -110,7 +110,7 @@
             },
             "slots": [
                 {
-                    "id": "with.weapon",
+                    "id": "r_with.weapon",
                     "label": "Weapon",
                     "description": "An attack that uses both an Edge technique and a weapon will always hit.",
                     "actionid": "use",
@@ -121,7 +121,7 @@
             ],
             "alt": [
                 {
-                    "id": "use.attack.underling.combo"
+                    "id": "r_use.attack.underling.combo"
                 }
             ],
             "purge": {
@@ -131,17 +131,17 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "use.attack.underling.hit",
+                    "id": "r_use.attack.underling.hit",
                     "chance": 70
                 },
                 {
-                    "id": "use.attack.underling.miss",
+                    "id": "r_use.attack.underling.miss",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "use.attack.underling.combo",
+            "id": "r_use.attack.underling.combo",
             "actionid": "use",
             "requirements": {
                 "lore": 1,
@@ -154,12 +154,12 @@
             "startdescription": "I outmatch them, and it's time they knew it. [An attack that uses both an Edge technique and a weapon will always hit.]",
             "linked": [
                 {
-                    "id": "use.attack.underling.hit.combo"
+                    "id": "r_use.attack.underling.hit.combo"
                 }
             ]
         },
         {
-            "id": "use.attack.underling.hit",
+            "id": "r_use.attack.underling.hit",
             "actionid": "use",
             "label": "A Palpable Hit",
             "startdescription": "I've struck, and faded back into the city! [Two Wounds will kill most Reckoners. Four Wounds will kill an Underboss.]",
@@ -174,15 +174,15 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "use.attack.underboss.slain"
+                    "id": "r_use.attack.underboss.slain"
                 },
                 {
-                    "id": "use.attack.underling.slain"
+                    "id": "r_use.attack.underling.slain"
                 }
             ]
         },
         {
-            "id": "use.attack.underling.hit.combo",
+            "id": "r_use.attack.underling.hit.combo",
             "actionid": "use",
             "label": "A Palpable Hit",
             "startdescription": "I've struck, and faded back into the city! [Two Wounds will kill most Reckoners. Four Wounds will kill an Underboss.]",
@@ -198,15 +198,15 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "use.attack.underboss.slain"
+                    "id": "r_use.attack.underboss.slain"
                 },
                 {
-                    "id": "use.attack.underling.slain"
+                    "id": "r_use.attack.underling.slain"
                 }
             ]
         },
         {
-            "id": "use.attack.underling.miss",
+            "id": "r_use.attack.underling.miss",
             "actionid": "use",
             "label": "Ill Met",
             "startdescription": "This one is better, or luckier, than I'd expected. I've done them no harm.",
@@ -219,7 +219,7 @@
             "warmup": 10
         },
         {
-            "id": "use.attack.underboss.slain",
+            "id": "r_use.attack.underboss.slain",
             "actionid": "use",
             "label": "I've Finished Off the Underboss!",
             "startdescription": "Even a minor reckoner lord is hard to kill. But then, I probably still count as a minor reckoner lord.",
@@ -243,7 +243,7 @@
             "warmup": 1
         },
         {
-            "id": "use.attack.underling.slain",
+            "id": "r_use.attack.underling.slain",
             "actionid": "use",
             "label": "I've Finished Off my Pursuer!",
             "startdescription": "Reckoners aren't immortal. We only buy years and sell them. If that ever needed proving, I've proved it tonight.",
@@ -268,7 +268,7 @@
             "warmup": 1
         },
         {
-            "id": "use.attack.weapon.createdefiance",
+            "id": "r_use.attack.weapon.createdefiance",
             "actionid": "use",
             "label": "A Sacred Weapon",
             "startdescription": "They used to say it would take a silver bullet to kill my Foe. I saw that tried, and I saw it fail. But what about this?",
@@ -292,12 +292,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "foe.weaknesses.generate"
+                    "id": "r_foe.weaknesses.generate"
                 }
             ]
         },
         {
-            "id": "use.attack.lore.createdefiance",
+            "id": "r_use.attack.lore.createdefiance",
             "actionid": "use",
             "label": "The Deadliest of Weapons",
             "startdescription": "No reckoner is ever foolish enough to pass into the higher levels of the Mansus. To draw the attention of the true Long - or their masters - would invite annihilation. But my Foe had some traffic with the Hours of struggle and conquest. He enjoyed certain protections. [Boldness draws attention. This will destroy any current Obscurity and create a Trace.]",
@@ -319,12 +319,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "foe.weaknesses.generate"
+                    "id": "r_foe.weaknesses.generate"
                 }
             ]
         },
         {
-            "id": "foe.weaknesses.generate",
+            "id": "r_foe.weaknesses.generate",
             "actionid": "use",
             "label": "Dangerous Possibilities",
             "startdescription": "Even my Foe has weaknesses - but he guarded them carefully. [Discover what Distractions will work against your Foe, and you'll be able to choose the most advantageous place to fight him.]",
@@ -335,7 +335,7 @@
             }
         },
         {
-            "id": "foe.weaknesses.generate.backup",
+            "id": "r_foe.weaknesses.generate.backup",
             "actionid": "foe.weaknesses.generate.backup",
             "label": "Dangerous Possibilities",
             "startdescription": "Even my Foe has weaknesses - but he guarded them carefully. [Discover what Distractions will work against your Foe, and you'll be able to choose the most advantageous place to fight him.]",
@@ -351,7 +351,7 @@
             }
         },
         {
-            "id": "use.attack.weapon.foe",
+            "id": "r_use.attack.weapon.foe",
             "actionid": "use",
             "label": "Use a sacred weapon to attack my Foe",
             "startdescription": "In confronting me, he too's become a target... but not an easy one. [Weapon attacks usually, but not always, hit. While a Foe is on the board, you can't attack lesser Reckoners. This will destroy all Obscurity.]",
@@ -365,7 +365,7 @@
             },
             "slots": [
                 {
-                    "id": "with.lore",
+                    "id": "r_with.lore",
                     "label": "Technique",
                     "description": "An attack that uses both an Edge technique and a weapon will always hit.",
                     "actionid": "use",
@@ -376,7 +376,7 @@
             ],
             "alt": [
                 {
-                    "id": "use.attack.foe.combo"
+                    "id": "r_use.attack.foe.combo"
                 }
             ],
             "purge": {
@@ -386,17 +386,17 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "use.attack.foe.hit",
+                    "id": "r_use.attack.foe.hit",
                     "chance": 70
                 },
                 {
-                    "id": "use.attack.foe.miss",
+                    "id": "r_use.attack.foe.miss",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "use.attack.lore.foe",
+            "id": "r_use.attack.lore.foe",
             "actionid": "use",
             "label": "Use an Edge technique to attack my Foe",
             "startdescription": "In confronting me, he too has become a target... but not an easy one. [Lore attacks usually, but not always, hit. While a Foe is on the board, you can't attack lesser Reckoners. This will destroy all Obscurity. ]",
@@ -409,7 +409,7 @@
             },
             "slots": [
                 {
-                    "id": "with.weapon",
+                    "id": "r_with.weapon",
                     "label": "Weapon",
                     "description": "An attack that uses both an Edge technique and a weapon will always hit.",
                     "actionid": "use",
@@ -423,7 +423,7 @@
             ],
             "alt": [
                 {
-                    "id": "use.attack.foe.combo"
+                    "id": "r_use.attack.foe.combo"
                 }
             ],
             "purge": {
@@ -433,17 +433,17 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "use.attack.foe.hit",
+                    "id": "r_use.attack.foe.hit",
                     "chance": 70
                 },
                 {
-                    "id": "use.attack.foe.miss",
+                    "id": "r_use.attack.foe.miss",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "use.attack.foe.combo",
+            "id": "r_use.attack.foe.combo",
             "actionid": "use",
             "requirements": {
                 "lore": 1,
@@ -456,12 +456,12 @@
             },
             "linked": [
                 {
-                    "id": "use.attack.foe.hit.combo"
+                    "id": "r_use.attack.foe.hit.combo"
                 }
             ]
         },
         {
-            "id": "use.attack.foe.hit",
+            "id": "r_use.attack.foe.hit",
             "actionid": "use",
             "label": "I've wounded him!",
             "startdescription": "'Don't think that will stop me -'",
@@ -475,12 +475,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "use.attack.foe.slain"
+                    "id": "r_use.attack.foe.slain"
                 }
             ]
         },
         {
-            "id": "use.attack.foe.hit.combo",
+            "id": "r_use.attack.foe.hit.combo",
             "actionid": "use",
             "label": "I've wounded him!",
             "startdescription": "'Don't think that will stop me -'",
@@ -495,12 +495,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "use.attack.foe.slain"
+                    "id": "r_use.attack.foe.slain"
                 }
             ]
         },
         {
-            "id": "use.attack.foe.miss",
+            "id": "r_use.attack.foe.miss",
             "actionid": "use",
             "label": "He's avoided my attack - ",
             "startdescription": "'I thought I'd taught you better than that.'",
@@ -513,7 +513,7 @@
             "warmup": 10
         },
         {
-            "id": "use.attack.foe.slain",
+            "id": "r_use.attack.foe.slain",
             "actionid": "use",
             "label": "A Bloody Victory",
             "startdescription": "My Foe's body is pierced with seven wounds, as a city wall might be pierced with seven gates: and every wound has ceased to bleed. His heart lies trembling in my bloodied hand. He's dead. It's almost over. My own wounds will strengthen to scars. With any luck, my other pursuers will fall to squabbling over the Foe's territory, and leave me here alone.",
@@ -536,7 +536,7 @@
             }
         },
         {
-            "id": "use.attack.weapon.notarget.hint",
+            "id": "r_use.attack.weapon.notarget.hint",
             "actionid": "use",
             "label": "A Sacred Weapon?",
             "startdescription": "This might be effective against my Foe's protections. I might even be able to duel him. If he were alone. And if I had some reason to believe I could actually defeat him in single combat. [You can attack the Foe when he arrives.]",
@@ -553,7 +553,7 @@
             "craftable": false
         },
         {
-            "id": "use.profaneweapon.notarget.hint",
+            "id": "r_use.profaneweapon.notarget.hint",
             "actionid": "use",
             "label": "A Weapon?",
             "startdescription": "This would be useless against my Foe's protections, but I may, regrettably, have to shoot someone else at some point. [You can attack reckoners when they arrive.]",
@@ -567,7 +567,7 @@
             "craftable": false
         },
         {
-            "id": "use.attack.lore.notarget",
+            "id": "r_use.attack.lore.notarget",
             "actionid": "use",
             "label": "A Sacred Technique?",
             "startdescription": "I've learnt something of the protections that my Foe uses. I might even be able to duel him. If he were alone. And if I had some reason to believe I could actually defeat him in single combat.",
@@ -584,7 +584,7 @@
             "craftable": false
         },
         {
-            "id": "use.attack.lore.notarget.notupgraded",
+            "id": "r_use.attack.lore.notarget.notupgraded",
             "actionid": "use",
             "label": "A Way Through?",
             "startdescription": "If I were to learn something more about the protections that my Foe uses, I might even be able to duel him. If he were alone. And if I had some reason to believe I could actually defeat him in single combat.",
@@ -600,7 +600,7 @@
             "craftable": false
         },
         {
-            "id": "use.dawn",
+            "id": "r_use.dawn",
             "actionid": "use",
             "label": "Watch the Dawn",
             "startdescription": "Is there something on my mind?",
@@ -609,7 +609,7 @@
             },
             "slots": [
                 {
-                    "id": "temptation",
+                    "id": "r_temptation",
                     "label": "Temptation",
                     "required": {
                         "desire": 1
@@ -619,10 +619,10 @@
             "warmup": 10,
             "alt": [
                 {
-                    "id": "tourism.tranquillity"
+                    "id": "r_tourism.tranquillity"
                 },
                 {
-                    "id": "tourism.rage"
+                    "id": "r_tourism.rage"
                 }
             ],
             "effects": {
@@ -632,7 +632,7 @@
             "craftable": true
         },
         {
-            "id": "use.sunset",
+            "id": "r_use.sunset",
             "actionid": "use",
             "label": "Watch the Sunset",
             "startdescription": "Is there something on my mind?",
@@ -641,7 +641,7 @@
             },
             "slots": [
                 {
-                    "id": "temptation",
+                    "id": "r_temptation",
                     "label": "Temptation",
                     "required": {
                         "desire": 1
@@ -651,10 +651,10 @@
             "warmup": 10,
             "alt": [
                 {
-                    "id": "tourism.tranquillity"
+                    "id": "r_tourism.tranquillity"
                 },
                 {
-                    "id": "tourism.rage"
+                    "id": "r_tourism.rage"
                 }
             ],
             "effects": {
@@ -664,7 +664,7 @@
             "craftable": true
         },
         {
-            "id": "use.night",
+            "id": "r_use.night",
             "actionid": "use",
             "label": "Walk the Streets at Night",
             "startdescription": "Is there something on my mind?",
@@ -673,7 +673,7 @@
             },
             "slots": [
                 {
-                    "id": "temptation",
+                    "id": "r_temptation",
                     "label": "Temptation",
                     "required": {
                         "desire": 1
@@ -683,10 +683,10 @@
             "warmup": 10,
             "alt": [
                 {
-                    "id": "tourism.tranquillity"
+                    "id": "r_tourism.tranquillity"
                 },
                 {
-                    "id": "tourism.rage"
+                    "id": "r_tourism.rage"
                 }
             ],
             "effects": {
@@ -696,7 +696,7 @@
             "craftable": true
         },
         {
-            "id": "tourism.tranquillity",
+            "id": "r_tourism.tranquillity",
             "actionid": "use",
             "label": "Thoughts of Peace",
             "startdescription": " It's been a long time since I knew peace. This could be a fresh start.",
@@ -709,7 +709,7 @@
             }
         },
         {
-            "id": "tourism.rage",
+            "id": "r_tourism.rage",
             "actionid": "use",
             "label": "Thoughts of Fury",
             "startdescription": "I clench my fists, feel the strength in them. The time is coming when I'll stop running. Sooner than they think.",
@@ -722,7 +722,7 @@
             }
         },
         {
-            "id": "use.negotiate.hint",
+            "id": "r_use.negotiate.hint",
             "actionid": "use",
             "label": "Negotiate?",
             "startdescription": "[Add an appropriate Connection.]",
@@ -734,7 +734,7 @@
             "craftable": false
         },
         {
-            "id": "use.negotiate",
+            "id": "r_use.negotiate",
             "actionid": "use",
             "label": "A Negotiation",
             "startdescription": "I don't have time to do this the right way. Lucky, then, that I have the connections to do it the fast way.",
@@ -751,7 +751,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase.lifespan.radicals.problem",
+            "id": "r_use.purchase.lifespan.radicals.problem",
             "actionid": "use",
             "label": "Purchase with Years",
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally. But I have a friend in high places who won't like it. [This will sabotage your Ruler connection.]",
@@ -774,7 +774,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase.lifespan.ruler.problem",
+            "id": "r_use.purchase.lifespan.ruler.problem",
             "actionid": "use",
             "label": "Purchase with Years",
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally. But I have radical friends who won't like it. [This will sabotage your Radicals connection.]",
@@ -797,7 +797,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase.lifespan",
+            "id": "r_use.purchase.lifespan",
             "actionid": "use",
             "label": "Purchase with Years",
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally.",
@@ -814,7 +814,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase.lifespan.hint",
+            "id": "r_use.purchase.lifespan.hint",
             "actionid": "use",
             "label": "Purchase with Years?",
             "startdescription": "[Add enough Years to match the price.]",
@@ -826,7 +826,7 @@
             "craftable": false
         },
         {
-            "id": "use.purchase.property.tripoli",
+            "id": "r_use.purchase.property.tripoli",
             "actionid": "use",
             "label": "Purchase",
             "startdescription": "Purchase something useful.",
@@ -852,7 +852,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase",
+            "id": "r_use.purchase",
             "actionid": "use",
             "label": "Purchase",
             "startdescription": "Purchase something useful.",
@@ -869,7 +869,7 @@
             "craftable": true
         },
         {
-            "id": "use.purchase.hint",
+            "id": "r_use.purchase.hint",
             "actionid": "use",
             "label": "Purchase?",
             "startdescription": "[Add enough items of Worth to match the price.]",
@@ -881,7 +881,7 @@
             "craftable": false
         },
         {
-            "id": "use.bookofsuns.restore",
+            "id": "r_use.bookofsuns.restore",
             "actionid": "use",
             "label": "Restore the Book of Suns",
             "startdescription": "What message here was sundered? How long have these pages lain in darkness?",
@@ -901,12 +901,12 @@
             "burnimage": "pentiment",
             "linked": [
                 {
-                    "id": "use.fatiguing"
+                    "id": "r_use.fatiguing"
                 }
             ]
         },
         {
-            "id": "use.comfort",
+            "id": "r_use.comfort",
             "actionid": "use",
             "label": "Relax",
             "startdescription": "@#domicile.tripoli|Something in the airs of this city, or the light, is familiar...\n#|I've risked so much for this pocket fortune. I may as well enjoy its benefits.@",
@@ -922,12 +922,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "use.fatiguing"
+                    "id": "r_use.fatiguing"
                 }
             ]
         },
         {
-            "id": "use.renew.op.sea.curio.morgen.used.hint",
+            "id": "r_use.renew.op.sea.curio.morgen.used.hint",
             "actionid": "use",
             "label": "'Once Only'",
             "startdescription": "A long warbling faltering squawk that dies in the air",
@@ -939,7 +939,7 @@
             "hintonly": true
         },
         {
-            "id": "use.renew.op.sea.curio.morgen",
+            "id": "r_use.renew.op.sea.curio.morgen",
             "actionid": "use",
             "label": "Call Mme Matutine",
             "startdescription": "A long harsh note like a gull's cry, which grows louder as I take the flute from my lips. The flute cracks along its whole length.",
@@ -964,7 +964,7 @@
             "craftable": true
         },
         {
-            "id": "use.renew.op.cats",
+            "id": "r_use.renew.op.cats",
             "actionid": "use",
             "label": "Follow",
             "startdescription": "I'll investigate a little more closely. [This will renew the lifespan of the Opportunity in case you need it later.]",
@@ -974,7 +974,7 @@
             },
             "slots": [
                 {
-                    "id": "light",
+                    "id": "r_light",
                     "label": "Light",
                     "description": "'When all candles be out, all cats be grey.'",
                     "required": {
@@ -985,7 +985,7 @@
             ],
             "alt": [
                 {
-                    "id": "use.find.nameless"
+                    "id": "r_use.find.nameless"
                 }
             ],
             "aspects": {
@@ -995,7 +995,7 @@
             "craftable": true
         },
         {
-            "id": "use.renew.op.horned.candia",
+            "id": "r_use.renew.op.horned.candia",
             "actionid": "use",
             "label": "Visit the Fane of Owls",
             "startdescription": "In the foothills of Mount Ida, in the precincts of the ruined Minoan Lodge of Doors, there's a hawthorn tree of great size. It will be deep night when I arrive. All around in the countryside the cicadas will buzz like saws, but at the Fane they're always silent. I, too, will find myself reluctant to speak aloud. I know these things from the last time I was there - the night I learnt my father's name -",
@@ -1009,20 +1009,20 @@
             },
             "linked": [
                 {
-                    "id": "use.renew.op.horned.candia.2"
+                    "id": "r_use.renew.op.horned.candia.2"
                 }
             ],
             "warmup": 30,
             "craftable": true
         },
         {
-            "id": "use.renew.op.horned.candia.2",
+            "id": "r_use.renew.op.horned.candia.2",
             "actionid": "use",
             "label": "At the Fane of Owls",
             "startdescription": "The eyes of the owls in the hawthorn tree glimmer pale gold. There's a flare of light, too, beneath the tree. A tall man in a snakeskin jacket has just lit a cigarette. In the match-light, his face is lean, dark, and familiar. 'Hello again,' he says. 'This is a surprise. I suppose the Double-Edged brought you here to make a point? She won't want any new Edge dyads in the world... do you have something to show me?'",
             "slots": [
                 {
-                    "id": "reference",
+                    "id": "r_reference",
                     "label": "Reference",
                     "description": "A point of reference.",
                     "required": {
@@ -1032,18 +1032,18 @@
             ],
             "alt": [
                 {
-                    "id": "use.renew.op.horned.candia.pentiment"
+                    "id": "r_use.renew.op.horned.candia.pentiment"
                 }
             ],
             "linked": [
                 {
-                    "id": "use.renew.op.horned.candia.3"
+                    "id": "r_use.renew.op.horned.candia.3"
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "use.renew.op.horned.candia.3",
+            "id": "r_use.renew.op.horned.candia.3",
             "actionid": "use",
             "label": "At the Fane of Owls",
             "startdescription": "The stranger shrugs. 'Never mind. You might find this more useful, anyway.' He spits tidily into a glass vial and pinches the top closed. 'Don't tell anyone I did that,' he says conspiratorially. 'I'd get in trouble, again.' He passes me the vial. 'Always remember,' he adds over his shoulder as he saunters off, 'either it's someone's lion, or no-one's lion.'",
@@ -1054,7 +1054,7 @@
             "warmup": 30
         },
         {
-            "id": "use.renew.op.horned.candia.pentiment",
+            "id": "r_use.renew.op.horned.candia.pentiment",
             "actionid": "use",
             "label": "At the Fane of Owls",
             "requirements": {
@@ -1069,7 +1069,7 @@
             "warmup": 30
         },
         {
-            "id": "use.rkx.foe.defeated",
+            "id": "r_use.rkx.foe.defeated",
             "actionid": "use",
             "label": "Begin my New Life",
             "startdescription": "Time to move on. Whatever I'd wanted to do... now I'm free to do it. [The more Comfort you have, the greater the degree of victory.]",
@@ -1078,20 +1078,20 @@
             },
             "linked": [
                 {
-                    "id": "send.victory.obscurity.c.foeslain"
+                    "id": "r_send.victory.obscurity.c.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.b.foeslain"
+                    "id": "r_send.victory.obscurity.b.foeslain"
                 },
                 {
-                    "id": "send.victory.obscurity.a.foeslain"
+                    "id": "r_send.victory.obscurity.a.foeslain"
                 }
             ],
             "warmup": 30,
             "craftable": true
         },
         {
-            "id": "use.renew",
+            "id": "r_use.renew",
             "actionid": "use",
             "label": "Reserve",
             "startdescription": "I'll investigate a little more closely. [This will renew the lifespan of the Opportunity in case you need it later.]",
@@ -1110,7 +1110,7 @@
             "craftable": true
         },
         {
-            "id": "use.find.nameless",
+            "id": "r_use.find.nameless",
             "actionid": "use",
             "label": "Follow",
             "startdescription": "The Velvet, who conceals secrets, has a Nameless Name. In that Name's mists, the defeated find solace. That Name is never seen; except, now and then, by the very greyest of cats. [This will consume both the Opportunity and the light.]",
@@ -1124,7 +1124,7 @@
             }
         },
         {
-            "id": "use.fatiguing",
+            "id": "r_use.fatiguing",
             "label": ".",
             "actionid": "use",
             "comments": "Follow-on recipe to fatigue resources and tidy up consumables",
@@ -1133,7 +1133,7 @@
             }
         },
         {
-            "id": "use.connection.official",
+            "id": "r_use.connection.official",
             "actionid": "use",
             "label": "Possibilities",
             "startdescription": "I can ask my contact to look out for opportunities. They'll need their expenses covered, of course. [This will create an Opportunity to purchase either a Medical License or an Import License.]",

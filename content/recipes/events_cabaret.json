@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explorecabaret",
+            "id": "r_explorecabaret",
             "actionid": "explore",
             "label": "Visit the Ecdysis Club",
             "requirements": {
@@ -19,41 +19,41 @@
             },
             "linked": [
                 {
-                    "id": "cabaretpleasure",
+                    "id": "r_cabaretpleasure",
                     "chance": 100
                 },
                 {
-                    "id": "cabaretallure",
+                    "id": "r_cabaretallure",
                     "chance": 100
                 },
                 {
-                    "id": "cabareteducation",
+                    "id": "r_cabareteducation",
                     "chance": 100
                 },
                 {
-                    "id": "cabaretglimpse",
+                    "id": "r_cabaretglimpse",
                     "chance": 100
                 },
                 {
-                    "id": "cabaretharm",
+                    "id": "r_cabaretharm",
                     "chance": 100
                 },
                 {
-                    "id": "cabaretexposure",
+                    "id": "r_cabaretexposure",
                     "chance": 100
                 },
                 {
-                    "id": "cabarethunger",
+                    "id": "r_cabarethunger",
                     "chance": 100
                 },
                 {
-                    "id": "cabaretfey",
+                    "id": "r_cabaretfey",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "cabaretpleasure",
+            "id": "r_cabaretpleasure",
             "label": "Nightly Pleasures at the Cabaret Club",
             "actionid": "explore",
             "requirements": {
@@ -65,7 +65,7 @@
             "craftable": false
         },
         {
-            "id": "cabaretallure",
+            "id": "r_cabaretallure",
             "label": "Allure at the Ecdysis Club",
             "actionid": "explore",
             "requirements": {
@@ -80,7 +80,7 @@
             "craftable": false
         },
         {
-            "id": "cabareteducation",
+            "id": "r_cabareteducation",
             "label": "The Educations of the Cabaret Club",
             "actionid": "explore",
             "requirements": {
@@ -95,7 +95,7 @@
             "craftable": false
         },
         {
-            "id": "cabaretglimpse",
+            "id": "r_cabaretglimpse",
             "label": "A Glimpse of Something More at the Ecdysis Club",
             "actionid": "explore",
             "requirements": {
@@ -107,7 +107,7 @@
             "craftable": false
         },
         {
-            "id": "cabaretharm",
+            "id": "r_cabaretharm",
             "label": "A Wounding Consummation at the Ecdysis Club",
             "actionid": "explore",
             "requirements": {
@@ -122,7 +122,7 @@
             "craftable": false
         },
         {
-            "id": "cabaretexposure",
+            "id": "r_cabaretexposure",
             "label": "An Interruption at the Ecdysis Club",
             "actionid": "explore",
             "requirements": {
@@ -134,7 +134,7 @@
             "craftable": false
         },
         {
-            "id": "cabarethunger",
+            "id": "r_cabarethunger",
             "label": "The Hungers of the Ecdysis Club",
             "actionid": "explore",
             "requirements": {
@@ -146,7 +146,7 @@
             "craftable": false
         },
         {
-            "id": "cabaretfey",
+            "id": "r_cabaretfey",
             "label": "The Mysteries of the Ecdysis Club",
             "actionid": "explore",
             "requirements": {

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "suspicion",
+            "id": "r_suspicion",
             "label": "The Wrong Kind of Attention",
             "actionid": "suspicion",
             "requirements": {
@@ -9,7 +9,7 @@
             },
             "slots": [
                 {
-                    "id": "Suspicion",
+                    "id": "r_Suspicion",
                     "label": "An Adversary?",
                     "required": {
                         "hunter": 1
@@ -23,17 +23,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "suspiciongrabreputation",
+                    "id": "r_suspiciongrabreputation",
                     "chance": 100
                 },
                 {
-                    "id": "suspiciontrycreatehunter",
+                    "id": "r_suspiciontrycreatehunter",
                     "chance": 70
                 }
             ]
         },
         {
-            "id": "suspiciongrabreputation",
+            "id": "r_suspiciongrabreputation",
             "label": "Searching for Clues...",
             "actionid": "suspicion",
             "requirements": {
@@ -43,7 +43,7 @@
             "description": "",
             "slots": [
                 {
-                    "id": "Clues",
+                    "id": "r_Clues",
                     "label": "Clues",
                     "required": {
                         "reputation": 1
@@ -54,24 +54,24 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "suspicion_searchlongerforevidence",
+                    "id": "r_suspicion_searchlongerforevidence",
                     "chance": 100
                 },
                 {
-                    "id": "suspiciongrabevidence",
+                    "id": "r_suspiciongrabevidence",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "suspiciongrabevidence",
+            "id": "r_suspiciongrabevidence",
             "actionid": "suspicion",
             "label": "Considering the Evidence...",
             "startdescription": "If a Hunter has found Notoriety, they will try to use it to create or upgrade Evidence. If they're Meticulous, they'll always succeed. If they're Erratic, they're more likely to fail... but they can occasionally create Evidence even without Notoriety.",
             "description": "I am safe, for now. My adversary has not enough evidence to bring a case against me, and they've found no new clues.",
             "slots": [
                 {
-                    "id": "Evidence",
+                    "id": "r_Evidence",
                     "label": "Evidence",
                     "required": {
                         "evidenceb": 1,
@@ -82,40 +82,40 @@
             ],
             "alt": [
                 {
-                    "id": "suspicionpretrial",
+                    "id": "r_suspicionpretrial",
                     "chance": 100
                 },
                 {
-                    "id": "suspicionerratic_alwaysfail",
+                    "id": "r_suspicionerratic_alwaysfail",
                     "chance": 10
                 },
                 {
-                    "id": "suspicionpromoteevidencemeticulous",
+                    "id": "r_suspicionpromoteevidencemeticulous",
                     "chance": 100
                 },
                 {
-                    "id": "suspicionpromoteevidence",
+                    "id": "r_suspicionpromoteevidence",
                     "chance": 70
                 },
                 {
-                    "id": "suspicioncreateevidencemeticulous",
+                    "id": "r_suspicioncreateevidencemeticulous",
                     "chance": 100
                 },
                 {
-                    "id": "suspicioncreateevidence",
+                    "id": "r_suspicioncreateevidence",
                     "chance": 70
                 }
             ],
             "warmup": 30,
             "linked": [
                 {
-                    "id": "suspicionerratic_alwayssucceed",
+                    "id": "r_suspicionerratic_alwayssucceed",
                     "chance": 10
                 }
             ]
         },
         {
-            "id": "suspicionerratic_alwaysfail",
+            "id": "r_suspicionerratic_alwaysfail",
             "actionid": "suspicion",
             "label": "Curious Habits",
             "requirements": {
@@ -129,7 +129,7 @@
             }
         },
         {
-            "id": "suspicionerratic_alwayssucceed",
+            "id": "r_suspicionerratic_alwayssucceed",
             "actionid": "suspicion",
             "label": "Bewildering Successes",
             "requirements": {
@@ -142,18 +142,18 @@
             "startdescription": "A rumour claims my adversary has taken to casting oracles with the I Ching. Another claims they seek answers in dreams. Yet another, that they select which questions to ask by rolling dice. They've found evidence where there should be no evidence to find. [This happens only occasionally.]",
             "linked": [
                 {
-                    "id": "suspicionpromoteevidence",
+                    "id": "r_suspicionpromoteevidence",
                     "chance": 100
                 },
                 {
-                    "id": "suspicioncreateevidence",
+                    "id": "r_suspicioncreateevidence",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "suspicion_searchlongerforevidence",
+            "id": "r_suspicion_searchlongerforevidence",
             "actionid": "suspicion",
             "requirements": {
                 "mystique": 1
@@ -165,7 +165,7 @@
             },
             "slots": [
                 {
-                    "id": "Clues",
+                    "id": "r_Clues",
                     "label": "Clues",
                     "required": {
                         "reputation": 1
@@ -176,17 +176,17 @@
             "warmup": 60,
             "linked": [
                 {
-                    "id": "suspicion_searchlongerforevidence",
+                    "id": "r_suspicion_searchlongerforevidence",
                     "chance": 100
                 },
                 {
-                    "id": "suspiciongrabevidence",
+                    "id": "r_suspiciongrabevidence",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "suspicionpromoteevidencemeticulous",
+            "id": "r_suspicionpromoteevidencemeticulous",
             "actionid": "suspicion",
             "label": "Creating Damning Evidence",
             "requirements": {
@@ -196,13 +196,13 @@
             },
             "linked": [
                 {
-                    "id": "suspicionpromoteevidence",
+                    "id": "r_suspicionpromoteevidence",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "suspicionpromoteevidence",
+            "id": "r_suspicionpromoteevidence",
             "actionid": "suspicion",
             "requirements": {
                 "evidence": 1,
@@ -219,7 +219,7 @@
             "warmup": 30
         },
         {
-            "id": "suspicioncreateevidencemeticulous",
+            "id": "r_suspicioncreateevidencemeticulous",
             "actionid": "suspicion",
             "label": "Converting Clues to Evidence",
             "requirements": {
@@ -228,13 +228,13 @@
             },
             "linked": [
                 {
-                    "id": "suspicioncreateevidence",
+                    "id": "r_suspicioncreateevidence",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "suspicioncreateevidence",
+            "id": "r_suspicioncreateevidence",
             "actionid": "suspicion",
             "requirements": {
                 "reputation": 1
@@ -249,13 +249,13 @@
             "warmup": 30
         },
         {
-            "id": "suspiciontrycreatehunter",
+            "id": "r_suspiciontrycreatehunter",
             "label": "The Curious Few",
             "actionid": "suspicion",
             "startdescription": "The wrong kind of reputation might awaken the interest of the curious, the puritanical, or the vengeful. [A Reputation may inspire an adversary to emerge.]",
             "slots": [
                 {
-                    "id": "Clues",
+                    "id": "r_Clues",
                     "label": "Clues",
                     "required": {
                         "reputation": 1
@@ -265,11 +265,11 @@
             ],
             "alt": [
                 {
-                    "id": "suspicioncreatefirsthunter",
+                    "id": "r_suspicioncreatefirsthunter",
                     "chance": 100
                 },
                 {
-                    "id": "suspicioncreatehunter",
+                    "id": "r_suspicioncreatehunter",
                     "chance": 100
                 }
             ],
@@ -280,7 +280,7 @@
             "warmup": 30
         },
         {
-            "id": "suspicioncreatefirsthunter",
+            "id": "r_suspicioncreatefirsthunter",
             "actionid": "suspicion",
             "label": "An Adversary!",
             "requirements": {
@@ -296,7 +296,7 @@
             "warmup": 0
         },
         {
-            "id": "suspicioncreatehunter",
+            "id": "r_suspicioncreatehunter",
             "actionid": "suspicion",
             "label": "An Adversary!",
             "requirements": {
@@ -313,7 +313,7 @@
             "warmup": 0
         },
         {
-            "id": "suspicionpretrial",
+            "id": "r_suspicionpretrial",
             "label": "The Bureau Considers My Case",
             "actionid": "suspicion",
             "requirements": {
@@ -325,18 +325,18 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "suspicion_attemptmitigation_me",
+                    "id": "r_suspicion_attemptmitigation_me",
                     "chance": 30
                 },
                 {
-                    "id": "suspicion_questionfollower",
+                    "id": "r_suspicion_questionfollower",
                     "chance": 100
                 }
             ],
             "burnimage": "beforetrial"
         },
         {
-            "id": "suspicion_questionme",
+            "id": "r_suspicion_questionme",
             "label": "I am to be tried in court!",
             "actionid": "suspicion",
             "startdescription": "The Suppression Bureau has taken me in for questioning.",
@@ -345,18 +345,18 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_me"
+                    "id": "r_suspicion_attemptmitigation_me"
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "suspicion_questionfollower",
+            "id": "r_suspicion_questionfollower",
             "label": "A Trial!",
             "actionid": "suspicion",
             "slots": [
                 {
-                    "id": "Suspect",
+                    "id": "r_Suspect",
                     "label": "Suspect",
                     "required": {
                         "follower": 1,
@@ -376,28 +376,28 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_follower"
+                    "id": "r_suspicion_attemptmitigation_follower"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_rival"
+                    "id": "r_suspicion_attemptmitigation_rival"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_me"
+                    "id": "r_suspicion_attemptmitigation_me"
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "suspicion_attemptmitigation_me",
+            "id": "r_suspicion_attemptmitigation_me",
             "actionid": "suspicion",
             "label": "The Suppression Bureau is bringing me to trial!",
             "startdescription": "There are crimes the state does not openly recognise. I stand accused of one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, I risk imprisonment!",
             "description": ".",
             "slots": [
                 {
-                    "id": "favour",
+                    "id": "r_favour",
                     "label": "A Favour",
                     "required": {
                         "favour": 1
@@ -407,21 +407,21 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_favourused"
+                    "id": "r_suspicion_favourused"
                 },
                 {
                     "chance": 70,
-                    "id": "suspicion_meimprisoned"
+                    "id": "r_suspicion_meimprisoned"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_meexonerated"
+                    "id": "r_suspicion_meexonerated"
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "suspicion_attemptmitigation_follower",
+            "id": "r_suspicion_attemptmitigation_follower",
             "label": "The Suppression Bureau is bringing an associate to trial!",
             "actionid": "suspicion",
             "requirements": {
@@ -431,7 +431,7 @@
             "description": ".",
             "slots": [
                 {
-                    "id": "favour",
+                    "id": "r_favour",
                     "label": "A Favour",
                     "required": {
                         "favour": 1
@@ -441,21 +441,21 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_favourused"
+                    "id": "r_suspicion_favourused"
                 },
                 {
                     "chance": 70,
-                    "id": "suspicion_followerimprisoned"
+                    "id": "r_suspicion_followerimprisoned"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_followerexonerated"
+                    "id": "r_suspicion_followerexonerated"
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "suspicion_attemptmitigation_rival",
+            "id": "r_suspicion_attemptmitigation_rival",
             "label": "The Suppression Bureau is bringing a Rival to trial!",
             "actionid": "suspicion",
             "requirements": {
@@ -465,7 +465,7 @@
             "description": ".",
             "slots": [
                 {
-                    "id": "favour",
+                    "id": "r_favour",
                     "label": "A Favour",
                     "required": {
                         "favour": 1
@@ -475,21 +475,21 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_favourused"
+                    "id": "r_suspicion_favourused"
                 },
                 {
                     "chance": 70,
-                    "id": "suspicion_rivalimprisoned"
+                    "id": "r_suspicion_rivalimprisoned"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_rivalexonerated"
+                    "id": "r_suspicion_rivalexonerated"
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "suspicion_favourused",
+            "id": "r_suspicion_favourused",
             "actionid": "suspicion",
             "label": "An Ally in the Shadows",
             "requirements": {
@@ -504,20 +504,20 @@
             "linked": [
                 {
                     "chance": 70,
-                    "id": "suspicion_followerexonerated"
+                    "id": "r_suspicion_followerexonerated"
                 },
                 {
                     "chance": 70,
-                    "id": "suspicion_meexonerated"
+                    "id": "r_suspicion_meexonerated"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_favourused_failure"
+                    "id": "r_suspicion_favourused_failure"
                 }
             ]
         },
         {
-            "id": "suspicion_favourused_failure",
+            "id": "r_suspicion_favourused_failure",
             "actionid": "suspicion",
             "label": "Not Enough!",
             "startdescription": "I've pulled all the strings I can, and it wasn't enough. The Bureau is remorseless. If I have another connection, I might be able to use that. Otherwise, we'll have to take our chances in the trial.",
@@ -526,16 +526,16 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_follower"
+                    "id": "r_suspicion_attemptmitigation_follower"
                 },
                 {
                     "chance": 100,
-                    "id": "suspicion_attemptmitigation_me"
+                    "id": "r_suspicion_attemptmitigation_me"
                 }
             ]
         },
         {
-            "id": "suspicion_followerimprisoned",
+            "id": "r_suspicion_followerimprisoned",
             "actionid": "suspicion",
             "label": "A Victory for the Bureau",
             "description": "My associate has been locked away in a prison where there are no visiting rights, and even the date of release is obscure. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
@@ -547,7 +547,7 @@
             }
         },
         {
-            "id": "suspicion_meimprisoned",
+            "id": "r_suspicion_meimprisoned",
             "actionid": "suspicion",
             "label": "A Victory for the Bureau",
             "startdescription": "I've been found guilty! All my schemes end here. I must prepare myself.",
@@ -557,7 +557,7 @@
             "ending": "arrest"
         },
         {
-            "id": "suspicion_followerexonerated",
+            "id": "r_suspicion_followerexonerated",
             "actionid": "suspicion",
             "requirements": {
                 "follower": 1
@@ -577,7 +577,7 @@
             ]
         },
         {
-            "id": "suspicion_meexonerated",
+            "id": "r_suspicion_meexonerated",
             "actionid": "suspicion",
             "label": "The Bureau's Fury",
             "startdescription": "I have been exonerated! The evidence was not sufficiently compelling to convict me, and I'm free to go.",
@@ -589,20 +589,20 @@
             }
         },
         {
-            "id": "suspiciontrial",
+            "id": "r_suspiciontrial",
             "comments": "Here for legacy compatibility",
             "actionid": "suspicion",
             "description": "ARREST!",
             "warmup": 0,
             "linked": [
                 {
-                    "id": "suspicionpretrial",
+                    "id": "r_suspicionpretrial",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "suspicion_rivalimprisoned",
+            "id": "r_suspicion_rivalimprisoned",
             "actionid": "suspicion",
             "label": "A Victory for the Bureau",
             "description": "My Rival will not be seen again by daylight. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
@@ -614,7 +614,7 @@
             }
         },
         {
-            "id": "suspicion_rivalexonerated",
+            "id": "r_suspicion_rivalexonerated",
             "actionid": "suspicion",
             "requirements": {
                 "independent": 1
@@ -634,7 +634,7 @@
             ]
         },
         {
-            "id": "scapegoat",
+            "id": "r_scapegoat",
             "actionid": "suspicion",
             "comments": "Here for legacy compatibility",
             "warmup": 0

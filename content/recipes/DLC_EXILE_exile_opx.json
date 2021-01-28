@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "use.sanatorium.duplicate.hint",
+            "id": "r_use.sanatorium.duplicate.hint",
             "actionid": "use",
             "label": "Run another Sanatorium?",
             "startdescription": "One at a time is enough.",
@@ -16,7 +16,7 @@
             },
             "alt": [
                 {
-                    "id": "opx.sanatorium.begin",
+                    "id": "r_opx.sanatorium.begin",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -31,7 +31,7 @@
             "hintonly": true
         },
         {
-            "id": "use.doctorspractice.duplicate.hint",
+            "id": "r_use.doctorspractice.duplicate.hint",
             "actionid": "use",
             "label": "Run another Doctor's Practice?",
             "startdescription": "One at a time is enough.",
@@ -47,7 +47,7 @@
             "hintonly": true
         },
         {
-            "id": "use.miracles.duplicate.hint",
+            "id": "r_use.miracles.duplicate.hint",
             "actionid": "use",
             "label": "Run another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
@@ -63,7 +63,7 @@
             "hintonly": true
         },
         {
-            "id": "use.cultseed.flowermaker.duplicate.hint",
+            "id": "r_use.cultseed.flowermaker.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Flowermaker?",
             "startdescription": "One at a time is enough.",
@@ -81,7 +81,7 @@
             "hintonly": true
         },
         {
-            "id": "use.cultseed.horned.duplicate.hint",
+            "id": "r_use.cultseed.horned.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Horned Axe?",
             "startdescription": "One at a time is enough.",
@@ -99,7 +99,7 @@
             "hintonly": true
         },
         {
-            "id": "use.cultseed.wolf.duplicate.hint",
+            "id": "r_use.cultseed.wolf.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Wolf Divided?",
             "startdescription": "One at a time is enough.",
@@ -117,7 +117,7 @@
             "hintonly": true
         },
         {
-            "id": "use.cultseed.miracles.duplicate.hint",
+            "id": "r_use.cultseed.miracles.duplicate.hint",
             "actionid": "use",
             "label": "Continue another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
@@ -134,7 +134,7 @@
             "hintonly": true
         },
         {
-            "id": "use.import.duplicate.hint",
+            "id": "r_use.import.duplicate.hint",
             "actionid": "use",
             "label": "Run another Import Business?",
             "startdescription": "One at a time is enough.",
@@ -151,7 +151,7 @@
             "hintonly": true
         },
         {
-            "id": "use.counterfeiting.duplicate.hint",
+            "id": "r_use.counterfeiting.duplicate.hint",
             "actionid": "use",
             "label": "Run another Counterfeiting Operation?",
             "startdescription": "One at a time is enough.",
@@ -168,7 +168,7 @@
             "hintonly": true
         },
         {
-            "id": "use.smuggling.duplicate.hint",
+            "id": "r_use.smuggling.duplicate.hint",
             "actionid": "use",
             "label": "Run another Smuggling Operation?",
             "startdescription": "One at a time is enough.",
@@ -185,7 +185,7 @@
             "hintonly": true
         },
         {
-            "id": "use.fights.duplicate.hint",
+            "id": "r_use.fights.duplicate.hint",
             "actionid": "use",
             "label": "Compete in Even More Illegal Fights?",
             "startdescription": "Seriously, though.",
@@ -200,7 +200,7 @@
             "hintonly": true
         },
         {
-            "id": "use.betrayal.duplicate.hint",
+            "id": "r_use.betrayal.duplicate.hint",
             "actionid": "use",
             "label": "Betray another Uprising?",
             "startdescription": "One at a time is enough.",
@@ -217,7 +217,7 @@
             "hintonly": true
         },
         {
-            "id": "use.uprising.duplicate.hint",
+            "id": "r_use.uprising.duplicate.hint",
             "actionid": "use",
             "label": "Assist another Uprising?",
             "startdescription": "One at a time is enough.",
@@ -236,7 +236,7 @@
             "hintonly": true
         },
         {
-            "id": "use.patronage.duplicate.hint",
+            "id": "r_use.patronage.duplicate.hint",
             "actionid": "use",
             "label": "Pester the Ruler for Further Patronage?",
             "startdescription": "Perhaps not.",
@@ -251,7 +251,7 @@
             "hintonly": true
         },
         {
-            "id": "use.sanatorium",
+            "id": "r_use.sanatorium",
             "actionid": "use",
             "label": "Run a Sanatorium",
             "startdescription": "Once I've treated a couple of wealthy widows, the word will spread quickly. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Sanatorium.]",
@@ -271,7 +271,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.sanatorium.setup",
+                    "id": "r_opx.sanatorium.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -285,7 +285,7 @@
             "craftable": true
         },
         {
-            "id": "use.sanatorium.doctor.hint",
+            "id": "r_use.sanatorium.doctor.hint",
             "actionid": "use",
             "label": "Run a Sanatorium or a Doctor's Practice?",
             "startdescription": "I'll need an Office to run a Doctor's Practice, or a large, but also an impressive venue to run a Sanatorium. A warehouse or other unattractive space won't cut it.",
@@ -301,7 +301,7 @@
             "craftable": false
         },
         {
-            "id": "use.doctorspractice",
+            "id": "r_use.doctorspractice",
             "actionid": "use",
             "label": "Run a Doctor's Practice",
             "startdescription": "My treatments may not be quite what they seem... but my results are always excellent. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Practice.]",
@@ -321,7 +321,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.doctorspractice.setup",
+                    "id": "r_opx.doctorspractice.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -335,7 +335,7 @@
             "craftable": true
         },
         {
-            "id": "use.miracles",
+            "id": "r_use.miracles",
             "actionid": "use",
             "label": "Run a Faith-Healing Cult",
             "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
@@ -357,7 +357,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.miracles.setup",
+                    "id": "r_opx.miracles.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 4,
@@ -371,7 +371,7 @@
             "craftable": true
         },
         {
-            "id": "use.cultseed.flowermaker",
+            "id": "r_use.cultseed.flowermaker",
             "actionid": "use",
             "label": "Assemble an Esoteric Cult of the Flowermaker",
             "startdescription": "The Flowermaker's presence is strong here. I'll let the enthusiasts in the congregation pursue their pleasures. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
@@ -392,7 +392,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.flowermaker.setup",
+                    "id": "r_opx.flowermaker.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -406,7 +406,7 @@
             "craftable": true
         },
         {
-            "id": "use.cultseed.horned",
+            "id": "r_use.cultseed.horned",
             "actionid": "use",
             "label": "Assemble an Esoteric Cult of the Horned Axe",
             "startdescription": "The Horned-Axe's presence is strong here. Some of the congregation will be drawn to her. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
@@ -427,7 +427,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.horned.setup",
+                    "id": "r_opx.horned.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -441,7 +441,7 @@
             "craftable": true
         },
         {
-            "id": "use.cultseed.wolf",
+            "id": "r_use.cultseed.wolf",
             "actionid": "use",
             "label": "Assemble an Esoteric Cult of the Wolf Divided",
             "startdescription": "The Wolf Divided's presence is strong here. The more violent members of the congregation will respond to that. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
@@ -462,7 +462,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.wolf.setup",
+                    "id": "r_opx.wolf.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -476,7 +476,7 @@
             "craftable": true
         },
         {
-            "id": "use.cultseed.miracles",
+            "id": "r_use.cultseed.miracles",
             "actionid": "use",
             "label": "Continue a Faith-Healing Cult",
             "startdescription": "Everyone's happy. The show must go on. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
@@ -496,7 +496,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.miracles.setup",
+                    "id": "r_opx.miracles.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -511,7 +511,7 @@
             "craftable": true
         },
         {
-            "id": "use.import",
+            "id": "r_use.import",
             "actionid": "use",
             "label": "Run an Import Business",
             "startdescription": "And everything's legal. So legal it's a little unnerving. [A reasonably safe way to generate cash. Lantern aspect cards are often useful when running an Import Business.]",
@@ -527,7 +527,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.import.setup",
+                    "id": "r_opx.import.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -542,7 +542,7 @@
             "craftable": true
         },
         {
-            "id": "use.counterfeiting",
+            "id": "r_use.counterfeiting",
             "actionid": "use",
             "label": "Run a Counterfeiting Operation",
             "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate cash. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
@@ -558,7 +558,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.counterfeiting.setup",
+                    "id": "r_opx.counterfeiting.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 4,
@@ -573,7 +573,7 @@
             "craftable": true
         },
         {
-            "id": "use.smuggling",
+            "id": "r_use.smuggling",
             "actionid": "use",
             "label": "Run a Smuggling Operation",
             "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate cash. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
@@ -592,7 +592,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.smuggling.setup",
+                    "id": "r_opx.smuggling.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -607,7 +607,7 @@
             "craftable": true
         },
         {
-            "id": "use.fights",
+            "id": "r_use.fights",
             "actionid": "use",
             "label": "Compete in Illegal Fights",
             "startdescription": "Nasty. But as long as I keep some years on hand, I shouldn't suffer too much permanent damage. [Any failed challenges will result in a Wound, which you won't be able to heal until the Operation is complete. Edge aspect cards are often useful when competing in Illegal Fights.]",
@@ -627,7 +627,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.fights.setup",
+                    "id": "r_opx.fights.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -641,7 +641,7 @@
             "craftable": true
         },
         {
-            "id": "use.underworld.hint",
+            "id": "r_use.underworld.hint",
             "actionid": "use",
             "label": "Use Underworld Connections?",
             "requirements": {
@@ -652,7 +652,7 @@
             "hintonly": true
         },
         {
-            "id": "use.radicals.hint",
+            "id": "r_use.radicals.hint",
             "actionid": "use",
             "label": "Use Connections with Radicals?",
             "requirements": {
@@ -663,7 +663,7 @@
             "hintonly": true
         },
         {
-            "id": "use.uprising.wolf",
+            "id": "r_use.uprising.wolf",
             "actionid": "use",
             "label": "Foment Chaos for the Wolf Divided",
             "startdescription": "'Caput gerat lupinum.' Well, why not, then? What do I owe to anyone, after all? [This will cause suffering and destruction. There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail.]",
@@ -685,7 +685,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.uprising.setup",
+                    "id": "r_opx.uprising.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 5,
@@ -702,7 +702,7 @@
             "craftable": true
         },
         {
-            "id": "use.betrayal",
+            "id": "r_use.betrayal",
             "actionid": "use",
             "label": "Betray an Uprising",
             "startdescription": "This has been a century for revolutions, and it's hardly begun. I'll be saving lives [There will be an opportunity for profit, and you'll win favour with the local authorities. The Colonel likes the status quo.]",
@@ -724,7 +724,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.betrayal.setup",
+                    "id": "r_opx.betrayal.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 5,
@@ -740,7 +740,7 @@
             "craftable": true
         },
         {
-            "id": "use.uprising",
+            "id": "r_use.uprising",
             "actionid": "use",
             "label": "Assist an Uprising",
             "startdescription": "It'll be messy, but it might even make the world a better place, eventually. [There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail. The Lionsmith likes rebellions.]",
@@ -763,7 +763,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.uprising.setup",
+                    "id": "r_opx.uprising.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 5,
@@ -779,7 +779,7 @@
             "craftable": true
         },
         {
-            "id": "use.patronage",
+            "id": "r_use.patronage",
             "actionid": "use",
             "label": "Accept Patronage",
             "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into cash.]",
@@ -799,7 +799,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "opx.patronage.setup",
+                    "id": "r_opx.patronage.setup",
                     "additional": true,
                     "expulsion": {
                         "limit": 3,
@@ -812,7 +812,7 @@
             "craftable": true
         },
         {
-            "id": "opx.sanatorium.setup",
+            "id": "r_opx.sanatorium.setup",
             "actionid": "opx.sanatorium",
             "label": "A Sanatorium",
             "startdescription": "Setting up...",
@@ -821,12 +821,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.sanatorium.begin"
+                    "id": "r_opx.sanatorium.begin"
                 }
             ]
         },
         {
-            "id": "opx.doctorspractice.setup",
+            "id": "r_opx.doctorspractice.setup",
             "actionid": "opx.doctorspractice",
             "label": "A Doctor's Practice",
             "startdescription": "Setting up...",
@@ -835,12 +835,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.doctorspractice.begin"
+                    "id": "r_opx.doctorspractice.begin"
                 }
             ]
         },
         {
-            "id": "opx.miracles.setup",
+            "id": "r_opx.miracles.setup",
             "actionid": "opx.miracles",
             "label": "A Faith-Healing Cult",
             "startdescription": "Setting up...",
@@ -849,12 +849,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.miracles.begin"
+                    "id": "r_opx.miracles.begin"
                 }
             ]
         },
         {
-            "id": "opx.flowermaker.setup",
+            "id": "r_opx.flowermaker.setup",
             "actionid": "opx.flowermaker",
             "label": "A Cult of the Flowermaker",
             "startdescription": "Setting up...",
@@ -863,12 +863,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.flowermaker.begin"
+                    "id": "r_opx.flowermaker.begin"
                 }
             ]
         },
         {
-            "id": "opx.horned.setup",
+            "id": "r_opx.horned.setup",
             "actionid": "opx.horned",
             "label": "A Cult of the Horned-Axe",
             "startdescription": "Setting up...",
@@ -877,12 +877,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.horned.begin"
+                    "id": "r_opx.horned.begin"
                 }
             ]
         },
         {
-            "id": "opx.wolf.setup",
+            "id": "r_opx.wolf.setup",
             "actionid": "opx.wolf",
             "label": "A Cult of the Wolf Divided",
             "startdescription": "Setting up...",
@@ -891,12 +891,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.wolf.begin"
+                    "id": "r_opx.wolf.begin"
                 }
             ]
         },
         {
-            "id": "opx.import.setup",
+            "id": "r_opx.import.setup",
             "actionid": "opx.import",
             "label": "An Import Business",
             "startdescription": "Setting up...",
@@ -905,12 +905,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.import.begin"
+                    "id": "r_opx.import.begin"
                 }
             ]
         },
         {
-            "id": "opx.counterfeiting.setup",
+            "id": "r_opx.counterfeiting.setup",
             "actionid": "opx.counterfeiting",
             "label": "A Counterfeiting Operation",
             "startdescription": "Setting up...",
@@ -919,12 +919,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.counterfeiting.begin"
+                    "id": "r_opx.counterfeiting.begin"
                 }
             ]
         },
         {
-            "id": "opx.smuggling.setup",
+            "id": "r_opx.smuggling.setup",
             "actionid": "opx.smuggling",
             "label": "A Smuggling Operation",
             "startdescription": "Setting up...",
@@ -933,12 +933,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.smuggling.begin"
+                    "id": "r_opx.smuggling.begin"
                 }
             ]
         },
         {
-            "id": "opx.fights.setup",
+            "id": "r_opx.fights.setup",
             "actionid": "opx.fights",
             "label": "Fighting",
             "startdescription": "Setting up...",
@@ -947,12 +947,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.fights.begin"
+                    "id": "r_opx.fights.begin"
                 }
             ]
         },
         {
-            "id": "opx.uprising.setup",
+            "id": "r_opx.uprising.setup",
             "actionid": "opx.uprising.betrayal",
             "label": "Uprising",
             "startdescription": "Setting up...",
@@ -961,12 +961,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.uprising.begin"
+                    "id": "r_opx.uprising.begin"
                 }
             ]
         },
         {
-            "id": "opx.betrayal.setup",
+            "id": "r_opx.betrayal.setup",
             "actionid": "opx.uprising.betrayal",
             "label": "Betrayal",
             "startdescription": "Setting up...",
@@ -975,12 +975,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.betrayal.begin"
+                    "id": "r_opx.betrayal.begin"
                 }
             ]
         },
         {
-            "id": "opx.patronage.setup",
+            "id": "r_opx.patronage.setup",
             "actionid": "opx.patronage",
             "label": "Patronage",
             "startdescription": "Setting up...",
@@ -989,19 +989,19 @@
             },
             "linked": [
                 {
-                    "id": "opx.patronage.begin"
+                    "id": "r_opx.patronage.begin"
                 }
             ]
         },
         {
-            "id": "opx.sanatorium.begin",
+            "id": "r_opx.sanatorium.begin",
             "actionid": "opx.sanatorium",
             "label": "A Sanatorium",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1018,19 +1018,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.doctorspractice.begin",
+            "id": "r_opx.doctorspractice.begin",
             "actionid": "opx.doctorspractice",
             "label": "A Doctor's Practice",
             "startdescription": "Business hours. [Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1047,19 +1047,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.miracles.begin",
+            "id": "r_opx.miracles.begin",
             "actionid": "opx.miracles",
             "label": "A Faith-Healing Cult",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1076,19 +1076,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.flowermaker.begin",
+            "id": "r_opx.flowermaker.begin",
             "actionid": "opx.flowermaker",
             "label": "A Cult of the Flowermaker",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1105,19 +1105,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.horned.begin",
+            "id": "r_opx.horned.begin",
             "actionid": "opx.horned",
             "label": "A Cult of the Horned-Axe",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1134,19 +1134,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.wolf.begin",
+            "id": "r_opx.wolf.begin",
             "actionid": "opx.wolf",
             "label": "A Cult of the Wolf Divided",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1163,19 +1163,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.import.begin",
+            "id": "r_opx.import.begin",
             "actionid": "opx.import",
             "label": "An Import Business",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1192,19 +1192,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.counterfeiting.begin",
+            "id": "r_opx.counterfeiting.begin",
             "actionid": "opx.counterfeiting",
             "label": "A Counterfeiting Operation",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1221,19 +1221,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.smuggling.begin",
+            "id": "r_opx.smuggling.begin",
             "actionid": "opx.smuggling",
             "label": "A Smuggling Operation",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1250,19 +1250,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.fights.begin",
+            "id": "r_opx.fights.begin",
             "actionid": "opx.fights",
             "label": "Fighting",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1279,19 +1279,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.uprising.begin",
+            "id": "r_opx.uprising.begin",
             "actionid": "opx.uprising.betrayal",
             "label": "Uprising",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1308,19 +1308,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.betrayal.begin",
+            "id": "r_opx.betrayal.begin",
             "actionid": "opx.uprising.betrayal",
             "label": "Betrayal",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1337,19 +1337,19 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.patronage.begin",
+            "id": "r_opx.patronage.begin",
             "actionid": "opx.patronage",
             "label": "Patronage",
             "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
             "warmup": 10,
             "slots": [
                 {
-                    "id": "preparations",
+                    "id": "r_preparations",
                     "label": "Preparations",
                     "required": {
                         "edge": 1,
@@ -1366,12 +1366,12 @@
             ],
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 }
             ]
         },
         {
-            "id": "opx.challenge",
+            "id": "r_opx.challenge",
             "actionid": "opx.",
             "label": "A Challenge",
             "startdescription": "@#ee.doctor1.heart.grail|Doctor's Practice: Cure the sick, or give the old a shot of youth?\n#ee.doctor2.heart.knock|Doctor's Practice: Quietly cure the sick, or focus on miraculously healing the wounded?\n#ee.doctor3.heart.forge|Doctor's Practice: Quietly cure the sick, or build showy props?\n#ee.sanatorium1.heart.grail|Sanatorium: Cure the sick, or give the old a shot of youth?\n#ee.sanatorium2.heart.knock|Sanatorium: Quietly cure the sick, or focus on miraculously healing the wounded?\n#ee.sanatorium3.heart.forge|Sanatorium: Quietly cure the sick, or build showy props?\n#ee.miracles1.moth.grail|Faith-Healing Cult: Preach parables, or pleasure?\n#ee.miracles2.moth.lantern|Faith-Healing Cult: Be carefully vague, or share real secrets?\n#ee.miracles3.moth.winter|Faith-Healing Cult: Comforting misdirection, or bleak revelation?\n#ee.flowermaker1.grail.lantern|Flowermaker Cult: Ceremonies of private pleasure or of public revelation?\n#ee.flowermaker2.grail.knock|Flowermaker Cult: Draw the velvet curtains close, or fling wide the doors of sensation?\n#ee.flowermaker3.grail.winter|Flowermaker Cult: Seduction, or awe?\n#ee.horned1.knock.winter|Horned-Axe Cult: Call up whatever visitors may come, or put down what will not go?\n#ee.horned2.knock.forge|Horned-Axe Cult: Ask assistance from whatever visitors may come, or set the congregation to work?\n#ee.horned3.knock.lantern|Horned-Axe Cult: The door, or the lamp?\n#ee.wolf1.edge.winter|Wolf Divided Cult: Agony, or ice?\n#ee.wolf2.edge.lantern|Wolf Divided Cult: Agony, or blindness?\n#ee.wolf3.grail.winter|Wolf Divided Cult: Ice, or blood?\n#ee.import1.lantern.heart|Import Business: Look for new opportunities, or keep the business ticking over?\n#ee.import2.lantern.forge|Import Business: Look for new opportunities, or improve what you have?\n#ee.import3.lantern.winter|Import Business: Look for new opportunities, or begin preparations to move on?\n#ee.counterfeiting1.forge.winter|Counterfeiting Operation: Increase production, or show caution?\n#ee.counterfeiting2.forge.moth|Counterfeiting Operation: Increase production, or focus on deception?\n#ee.counterfeiting3.forge.grail|Counterfeiting Operation: Increase production, or pay off troublemakers?\n#ee.smuggling1.moth.knock|Smuggling Operation: More camouflage, or more shipments?\n#ee.smuggling2.moth.heart|Smuggling Operation: More camouflage, or more care?\n#ee.smuggling3.moth.winter|Smuggling Operation: Stealthily, or quietly?\n#ee.fights1.edge.grail|Illegal Fights: Boldness, or bribery?\n#ee.fights2.edge.moth|Illegal Fights: Tough, or quick?\n#ee.fights3.edge.forge|Illegal Fights: Fists, or weapons?\n#ee.uprising1.edge.heart|Uprising: Words, or guns?\n#ee.uprising2.edge.heart|Uprising: Words, or guns?\n#ee.uprising3.edge.heart|Uprising: Words, or guns?\n#ee.betrayal1.winter.heart|Betraying an Uprising: Persuasion, or murder?\n#ee.betrayal2.winter.heart|Betraying an Uprising: Persuasion, or murder?\n#ee.betrayal3.winter.heart|Betraying an Uprising: Persuasion, or murder?\n#ee.patronage1.heart.lantern|Patronage: Discreet, or dramatic?\n#ee.patronage2.heart.lantern|Patronage: Discreet, or dramatic?\n#ee.patronage3.heart.lantern|Patronage: Discreet, or dramatic?\n#|A challenge lies ahead.@\n\n[Match the Challenge with Edge, Forge, Knock or Lantern to increase Effectiveness. Alternatively, match it with Heart, Grail, Moth, or Winter to increase Subtlety.]",
@@ -1381,7 +1381,7 @@
             },
             "slots": [
                 {
-                    "id": "response",
+                    "id": "r_response",
                     "label": "Response",
                     "required": {
                         "edge": 1,
@@ -1398,41 +1398,41 @@
             ],
             "alt": [
                 {
-                    "id": "opx.tryresolve.edge"
+                    "id": "r_opx.tryresolve.edge"
                 },
                 {
-                    "id": "opx.tryresolve.forge"
+                    "id": "r_opx.tryresolve.forge"
                 },
                 {
-                    "id": "opx.tryresolve.lantern"
+                    "id": "r_opx.tryresolve.lantern"
                 },
                 {
-                    "id": "opx.tryresolve.knock"
+                    "id": "r_opx.tryresolve.knock"
                 },
                 {
-                    "id": "opx.tryresolve.grail"
+                    "id": "r_opx.tryresolve.grail"
                 },
                 {
-                    "id": "opx.tryresolve.heart"
+                    "id": "r_opx.tryresolve.heart"
                 },
                 {
-                    "id": "opx.tryresolve.moth"
+                    "id": "r_opx.tryresolve.moth"
                 },
                 {
-                    "id": "opx.tryresolve.secrethistories"
+                    "id": "r_opx.tryresolve.secrethistories"
                 },
                 {
-                    "id": "opx.tryresolve.winter"
+                    "id": "r_opx.tryresolve.winter"
                 }
             ],
             "linked": [
                 {
-                    "id": "opx.challenge.failed"
+                    "id": "r_opx.challenge.failed"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.edge",
+            "id": "r_opx.tryresolve.edge",
             "actionid": "opx.",
             "label": "The Bright Edge",
             "startdescription": "I'm addressing a challenge with Edge. This will increase Effectiveness.",
@@ -1445,12 +1445,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.forge",
+            "id": "r_opx.tryresolve.forge",
             "actionid": "opx.",
             "label": "Hammer and Anvil",
             "startdescription": "I'm addressing a challenge with Forge. This will increase Effectiveness.",
@@ -1463,12 +1463,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.grail",
+            "id": "r_opx.tryresolve.grail",
             "actionid": "opx.",
             "label": "Delight and its Daughters",
             "startdescription": "I'm addressing a challenge with Grail. This will increase Subtlety.",
@@ -1481,12 +1481,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.heart",
+            "id": "r_opx.tryresolve.heart",
             "actionid": "opx.",
             "label": "The Drum Unceasing",
             "startdescription": "I'm addressing a challenge with Heart. This will increase Subtlety.",
@@ -1499,12 +1499,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.knock",
+            "id": "r_opx.tryresolve.knock",
             "actionid": "opx.",
             "label": "All Wounds Are Doors",
             "startdescription": "I'm addressing a challenge with Knock. This will increase Effectiveness.",
@@ -1517,12 +1517,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.lantern",
+            "id": "r_opx.tryresolve.lantern",
             "actionid": "opx.",
             "label": "Illumination",
             "startdescription": "I'm addressing a challenge with Lantern. This will increase Effectiveness.",
@@ -1535,12 +1535,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.moth",
+            "id": "r_opx.tryresolve.moth",
             "actionid": "opx.",
             "label": "Smoke and Mirrors",
             "startdescription": "I'm addressing a challenge with Moth. This will increase Subtlety.",
@@ -1553,12 +1553,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.secrethistories",
+            "id": "r_opx.tryresolve.secrethistories",
             "actionid": "opx.",
             "label": "Not Only One History",
             "startdescription": "I'm addressing a challenge with Secret Histories. This will increase Subtlety.",
@@ -1571,12 +1571,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.tryresolve.winter",
+            "id": "r_opx.tryresolve.winter",
             "actionid": "opx.",
             "label": "Night Deepens",
             "startdescription": "I'm addressing a challenge with Winter. This will increase Subtlety.",
@@ -1589,12 +1589,12 @@
             },
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.challenge.failed",
+            "id": "r_opx.challenge.failed",
             "actionid": "opx.",
             "label": "Missed Challenge!",
             "startdescription": "That could have gone better.",
@@ -1604,12 +1604,12 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "opx.next"
+                    "id": "r_opx.next"
                 }
             ]
         },
         {
-            "id": "opx.next",
+            "id": "r_opx.next",
             "actionid": "opx.",
             "label": "An Operation Continues",
             "startdescription": "@#opx.doctor|Patients come and go at my  Doctor's Practice.<br><br><i>'Next.'</i>\n\n#opx.sanatorium|Patients come and go at my Sanatorium.<br><br><i>'My staff will see you to your room.'</i>\n\n\n#opx.miracles|More recruits for my Faith-Healing Cult.<br><br><i>'Rejoice!'</i>\n\n#opx.flowermaker|More rites at my  Esoteric Cult of the Flowermaker.<br><br><i>'Love is the law, but there is more.'</i>\n\n\n#opx.horned|More rites at my Esoteric Cult of the Horned-Axe.<br><br><i>'We will divide what should never have been joined.'</i>\n\n\n#opx.wolf|More rites at my Esoteric Cult of the Wolf Divided.<br><br><i>'Agony is the gate of vengeance.'</i>\n\n\n#opx.counterfeiting|My Counterfeiting Operation is still running.<br><br><i>'Keep it running.' </i>\n\n\n#opx.smuggling|My Smuggling Operation is still running.<br><br><i>'No lights!'</i>\n\n\n#opx.import|My Import Business is still running.<br><br><i>'Sign here.'</i>\n\n\n#opx.fights|More illegal fights. I'll be ready.<br><br><i>'Who's NEXT?'</i>\n\n\n#opx.uprising|My uprising approaches its climax.<br><br><i>'Very soon, now.'</i>\n\n\n#opx.betrayal|My betrayal of local radicals is progressing..<br><br><i>'You can trust me.'</i>\n\n\n#opx.patronage|I'm benefitting from my Patronage.<br><br><i>'Yes, I'm expected.'</i>\n\n@",
@@ -1619,15 +1619,15 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "opx.challenge"
+                    "id": "r_opx.challenge"
                 },
                 {
-                    "id": "opx.end"
+                    "id": "r_opx.end"
                 }
             ]
         },
         {
-            "id": "opx.end",
+            "id": "r_opx.end",
             "actionid": "opx.",
             "label": "An Operation is Complete",
             "startdescription": "@#opx.doctor|'I'm delighted to see you looking so much better.'\n#opx.sanatorium|'See you next year.'\n#opx.miracles|'And now, I must leave you.'\n#opx.flowermaker|'Remember me fondly.'\n#opx.horned|'An end, a beginning.'\n#opx.wolf|'Your time has come.'\n#opx.counterfeiting|'Shut it down.'\n#opx.smuggling|'Close it up.'\n#opx.import|'Bring me the ledgers.'\n#opx.fights|'...ugh.'\n#opx.uprising|'This is the day we've worked for!'\n#opx.betrayal|'You'll find them at this address...'\n#opx.patronage|'There's a little business I need to take care of.'@",
@@ -1641,24 +1641,24 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.subtlety3"
+                    "id": "r_opx.end.subtlety3"
                 },
                 {
-                    "id": "opx.end.subtlety2"
+                    "id": "r_opx.end.subtlety2"
                 },
                 {
-                    "id": "opx.end.subtlety1"
+                    "id": "r_opx.end.subtlety1"
                 },
                 {
-                    "id": "opx.end.subtlety0"
+                    "id": "r_opx.end.subtlety0"
                 },
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 }
             ]
         },
         {
-            "id": "opx.end.subtlety3",
+            "id": "r_opx.end.subtlety3",
             "actionid": "opx.",
             "warmup": 5,
             "label": "Operation Complete: An Invisible Art?",
@@ -1672,15 +1672,15 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 },
                 {
-                    "id": "opx.end.special.router"
+                    "id": "r_opx.end.special.router"
                 }
             ]
         },
         {
-            "id": "opx.end.subtlety2",
+            "id": "r_opx.end.subtlety2",
             "actionid": "opx.",
             "warmup": 5,
             "label": "Operation Complete: A Light Touch",
@@ -1696,15 +1696,15 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 },
                 {
-                    "id": "opx.end.special.router"
+                    "id": "r_opx.end.special.router"
                 }
             ]
         },
         {
-            "id": "opx.end.subtlety1",
+            "id": "r_opx.end.subtlety1",
             "actionid": "opx.",
             "warmup": 5,
             "label": "Operation Complete: For Those With Eyes To See",
@@ -1720,15 +1720,15 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 },
                 {
-                    "id": "opx.end.special.router"
+                    "id": "r_opx.end.special.router"
                 }
             ]
         },
         {
-            "id": "opx.end.subtlety0",
+            "id": "r_opx.end.subtlety0",
             "actionid": "opx.",
             "warmup": 5,
             "label": "Operation Complete: Loose Ends",
@@ -1741,15 +1741,15 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 },
                 {
-                    "id": "opx.end.special.router"
+                    "id": "r_opx.end.special.router"
                 }
             ]
         },
         {
-            "id": "opx.end.effectiveness",
+            "id": "r_opx.end.effectiveness",
             "actionid": "opx.",
             "label": "Operation Complete: Return on Investment",
             "startdescription": "I've got good value for my years.",
@@ -1766,28 +1766,28 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.effectiveness"
+                    "id": "r_opx.end.effectiveness"
                 },
                 {
-                    "id": "opx.end.special.router"
+                    "id": "r_opx.end.special.router"
                 }
             ]
         },
         {
-            "id": "opx.end.special.router",
+            "id": "r_opx.end.special.router",
             "actionid": "opx.",
             "label": "[Special Outcomes]",
             "linked": [
                 {
-                    "id": "opx.end.uprising"
+                    "id": "r_opx.end.uprising"
                 },
                 {
-                    "id": "opx.end.betrayal"
+                    "id": "r_opx.end.betrayal"
                 }
             ]
         },
         {
-            "id": "opx.end.uprising",
+            "id": "r_opx.end.uprising",
             "actionid": "opx.",
             "label": "An Uprising!",
             "startdescription": "Our plans are laid, and today will end in fire.",
@@ -1810,18 +1810,18 @@
             },
             "linked": [
                 {
-                    "id": "opx.end.uprising.wolf"
+                    "id": "r_opx.end.uprising.wolf"
                 },
                 {
-                    "id": "opx.end.uprising.colonel"
+                    "id": "r_opx.end.uprising.colonel"
                 },
                 {
-                    "id": "opx.end.uprising.lionsmith"
+                    "id": "r_opx.end.uprising.lionsmith"
                 }
             ]
         },
         {
-            "id": "opx.end.betrayal",
+            "id": "r_opx.end.betrayal",
             "actionid": "opx.",
             "label": "An Uprising Betrayed!",
             "startdescription": "Our plans are laid, but today won't end as any of them expected.",
@@ -1839,15 +1839,15 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "opx.end.betrayal.colonel"
+                    "id": "r_opx.end.betrayal.colonel"
                 },
                 {
-                    "id": "opx.end.betrayal.lionsmith"
+                    "id": "r_opx.end.betrayal.lionsmith"
                 }
             ]
         },
         {
-            "id": "opx.end.uprising.wolf",
+            "id": "r_opx.end.uprising.wolf",
             "actionid": "opx.",
             "label": "A Feast of Fires",
             "startdescription": "'When we know not whom we serve,' Julian Coseley said once, 'we serve the Wolf Divided.' But I knew what I was doing. [Defiance has been increased. There's no limit to the number of times you can do this.]",
@@ -1864,7 +1864,7 @@
             ]
         },
         {
-            "id": "opx.end.uprising.colonel",
+            "id": "r_opx.end.uprising.colonel",
             "actionid": "opx.",
             "label": "The Colonel's Pique",
             "startdescription": "The Colonel dislikes revolutions. I will fall in his estimation. [Defiance has been reduced.]",
@@ -1888,7 +1888,7 @@
             ]
         },
         {
-            "id": "opx.end.uprising.lionsmith",
+            "id": "r_opx.end.uprising.lionsmith",
             "actionid": "opx.",
             "label": "The Lionsmith's Delight",
             "startdescription": "The Lionsmith delights in revolutions. He will favour me further. [Defiance has been increased.]",
@@ -1912,7 +1912,7 @@
             ]
         },
         {
-            "id": "opx.end.betrayal.colonel",
+            "id": "r_opx.end.betrayal.colonel",
             "actionid": "opx.",
             "label": "The Colonel's Satisfaction",
             "startdescription": "The Colonel enjoys the preservation of the status quo. I will rise in his estimation. [Defiance has been increased.]",
@@ -1936,7 +1936,7 @@
             ]
         },
         {
-            "id": "opx.end.betrayal.lionsmith",
+            "id": "r_opx.end.betrayal.lionsmith",
             "actionid": "opx.",
             "label": "The Lionsmith's Ire",
             "startdescription": "The Lionsmith's power waxes in revolutions. He may withdraw his favour. [Defiance has been reduced.]",

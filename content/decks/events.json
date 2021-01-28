@@ -1,7 +1,7 @@
 {
     "decks": [
         {
-            "id": "seasonevents",
+            "id": "r_seasonevents",
             "label": "Seasons",
             "description": "Whenever Time Passes, an unexpected event might occur.",
             "spec": [
@@ -21,7 +21,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "cabaretevents",
+            "id": "r_cabaretevents",
             "label": "An Evening at the Club",
             "description": "Each evening brings different delights, and occasionally perils.",
             "spec": [
@@ -41,7 +41,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "roserewards",
+            "id": "r_roserewards",
             "label": "Romance's Reward",
             "description": "Then, now, when?",
             "spec": [
@@ -53,7 +53,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "dreamreasonresults",
+            "id": "r_dreamreasonresults",
             "label": "Dream's Hinterlands",
             "description": "Sleep usually brings rest and peace; but not always. Not always.",
             "spec": [
@@ -67,7 +67,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "paintingresultsbasic",
+            "id": "r_paintingresultsbasic",
             "label": "Art's Rewards",
             "description": "Painting can bring contentment, or sometimes, a new kind of understanding.",
             "spec": [
@@ -81,7 +81,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "paintingresults",
+            "id": "r_paintingresults",
             "label": "Art's Rewards",
             "description": "Painting often brings contentment. Sometimes, my work will attract attention.",
             "spec": [
@@ -108,7 +108,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "paintingresultsreputation",
+            "id": "r_paintingresultsreputation",
             "label": "Fame's Rewards",
             "description": "This is where the money is.",
             "spec": [
@@ -136,7 +136,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "ecdysisrewards",
+            "id": "r_ecdysisrewards",
             "label": "The Offerings at the End",
             "description": "The Club guarantees a minimum, but the audience sometimes offer contributions of their own.",
             "spec": [
@@ -163,7 +163,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "robberyrewards",
+            "id": "r_robberyrewards",
             "label": "The Wages of Sin",
             "description": "My minions will usually bring me back petty treasures; sometimes junk; rarely, something extraordinary.",
             "spec": [
@@ -215,7 +215,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "exploreevents",
+            "id": "r_exploreevents",
             "label": "Exploring the Capital",
             "description": "Searching the city can find...",
             "spec": [
@@ -227,7 +227,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "schemeevents",
+            "id": "r_schemeevents",
             "label": "Potential Scheme",
             "description": "My Rival Plots...",
             "spec": [
@@ -245,7 +245,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "talkevents",
+            "id": "r_talkevents",
             "label": "Midnight Meetings",
             "description": "I might find recruits, allies, or rivals.",
             "spec": [
@@ -262,7 +262,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "citysecrets",
+            "id": "r_citysecrets",
             "label": "City Secrets",
             "description": "Easily overlooked locations.",
             "spec": [
@@ -274,7 +274,7 @@
             "defaultcard": "locationstreetsstrange"
         },
         {
-            "id": "streetsstrangefinds",
+            "id": "r_streetsstrangefinds",
             "label": "Strange Streets",
             "description": "Insights and influences.",
             "spec": [
@@ -289,7 +289,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "troublemakerconversations",
+            "id": "r_troublemakerconversations",
             "label": "Conversations with a Troublemaker",
             "description": "What might I learn?",
             "spec": [
@@ -306,7 +306,7 @@
             "defaultcard": "contentment"
         },
         {
-            "id": "forgelong",
+            "id": "r_forgelong",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -317,7 +317,7 @@
             "defaultcard": "julian_unknown"
         },
         {
-            "id": "graillong",
+            "id": "r_graillong",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -328,7 +328,7 @@
             "defaultcard": "julian_unknown"
         },
         {
-            "id": "lanternlong",
+            "id": "r_lanternlong",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -339,7 +339,7 @@
             "defaultcard": "julian_unknown"
         },
         {
-            "id": "long.strategies",
+            "id": "r_long.strategies",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -352,7 +352,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "long.strategies.preference.assault",
+            "id": "r_long.strategies.preference.assault",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -366,7 +366,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "long.strategies.preference.intrigue",
+            "id": "r_long.strategies.preference.intrigue",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -380,7 +380,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "long.strategies.preference.dreamwork",
+            "id": "r_long.strategies.preference.dreamwork",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
@@ -394,7 +394,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "priest.repevent",
+            "id": "r_priest.repevent",
             "label": "The Congregation's Passions",
             "description": "What will come of this?",
             "spec": [
@@ -414,7 +414,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "ghoul.memory",
+            "id": "r_ghoul.memory",
             "label": "Memories",
             "description": "I will remember what all others have forgotten",
             "spec": [

@@ -1,7 +1,7 @@
 {
     "decks": [
         {
-            "id": "vaultrewardsa",
+            "id": "r_vaultrewardsa",
             "label": "Capital Rewards",
             "description": "",
             "spec": [
@@ -38,7 +38,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardsb",
+            "id": "r_vaultrewardsb",
             "label": "Shires Rewards",
             "description": "",
             "spec": [
@@ -75,7 +75,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardsc",
+            "id": "r_vaultrewardsc",
             "label": "Continent Rewards",
             "description": "",
             "spec": [
@@ -129,7 +129,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardsd",
+            "id": "r_vaultrewardsd",
             "label": "Land Beyond the Forest Rewards",
             "description": "",
             "spec": [
@@ -176,7 +176,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardse",
+            "id": "r_vaultrewardse",
             "label": "Rending Mountains Rewards",
             "description": "",
             "spec": [
@@ -207,7 +207,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardsf",
+            "id": "r_vaultrewardsf",
             "label": "Lone and Level Sands Rewards",
             "description": "",
             "spec": [
@@ -248,7 +248,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "vaultrewardsg",
+            "id": "r_vaultrewardsg",
             "label": "Evening Isles Rewards",
             "description": "",
             "spec": [

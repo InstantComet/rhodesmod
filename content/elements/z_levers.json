@@ -1,42 +1,42 @@
 {
     "elements": [
         {
-            "id": "lever_lastdesire",
+            "id": "r_lever_lastdesire",
             "lever": "lastdesire",
             "noartneeded": true
         },
         {
-            "id": "lever_lasttool",
+            "id": "r_lever_lasttool",
             "lever": "lasttool",
             "noartneeded": true
         },
         {
-            "id": "lever_lastbook",
+            "id": "r_lever_lastbook",
             "lever": "lastbook",
             "noartneeded": true
         },
         {
-            "id": "lever_lastsignificantpainting",
+            "id": "r_lever_lastsignificantpainting",
             "lever": "lastsignificantpainting",
             "noartneeded": true
         },
         {
-            "id": "lever_lastcult",
+            "id": "r_lever_lastcult",
             "lever": "lastcult",
             "noartneeded": true
         },
         {
-            "id": "lever_lastheadquarters",
+            "id": "r_lever_lastheadquarters",
             "lever": "lastheadquarters",
             "noartneeded": true
         },
         {
-            "id": "lever_lastfollower",
+            "id": "r_lever_lastfollower",
             "lever": "lastfollower",
             "noartneeded": true
         },
         {
-            "id": "lever_lastpersonkilled",
+            "id": "r_lever_lastpersonkilled",
             "lever": "lastpersonkilled",
             "noartneeded": true
         }

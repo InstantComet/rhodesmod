@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "findclericalwork",
+            "id": "r_findclericalwork",
             "label": "Find Clerical Work",
             "actionid": "work",
             "requirements": {
@@ -20,7 +20,7 @@
             "burnimage": "office"
         },
         {
-            "id": "job_plead_hint",
+            "id": "r_job_plead_hint",
             "label": "Plead to Keep my Job?",
             "actionid": "work",
             "requirements": {
@@ -34,7 +34,7 @@
             "craftable": true
         },
         {
-            "id": "job_plead",
+            "id": "r_job_plead",
             "label": "Plead to Keep my Job",
             "actionid": "work",
             "requirements": {
@@ -50,7 +50,7 @@
             "warmup": 30
         },
         {
-            "id": "gloverandgloverjuniorwork",
+            "id": "r_gloverandgloverjuniorwork",
             "label": "Junior Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -61,7 +61,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandglover_diligence",
+                    "id": "r_gloverandglover_diligence",
                     "chance": 100
                 }
             ],
@@ -74,7 +74,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "Diligence",
+                    "id": "r_Diligence",
                     "label": "Diligence",
                     "required": {
                         "reason": 1
@@ -86,7 +86,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandglover_diligence",
+            "id": "r_gloverandglover_diligence",
             "label": "Extra Effort at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -96,7 +96,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandgloverjunior_diligence_promotion",
+                    "id": "r_gloverandgloverjunior_diligence_promotion",
                     "chance": 100
                 }
             ],
@@ -110,7 +110,7 @@
             "craftable": false
         },
         {
-            "id": "gloverandgloverjunior_diligence_promotion",
+            "id": "r_gloverandgloverjunior_diligence_promotion",
             "label": "A Promotion!",
             "requirements": {
                 "gloverandgloverjuniorjob": 1,
@@ -128,7 +128,7 @@
             "warmup": 0
         },
         {
-            "id": "gloverandgloverjuniorwork_again",
+            "id": "r_gloverandgloverjuniorwork_again",
             "label": "Junior Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -139,7 +139,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandglover_diligence_again",
+                    "id": "r_gloverandglover_diligence_again",
                     "chance": 100
                 }
             ],
@@ -152,7 +152,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "Diligence",
+                    "id": "r_Diligence",
                     "label": "Diligence",
                     "required": {
                         "reason": 1
@@ -164,7 +164,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandglover_diligence_again",
+            "id": "r_gloverandglover_diligence_again",
             "label": "Extra Effort at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -174,7 +174,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandgloverjunior_diligence_promotion_again",
+                    "id": "r_gloverandgloverjunior_diligence_promotion_again",
                     "chance": 100
                 }
             ],
@@ -188,7 +188,7 @@
             "craftable": false
         },
         {
-            "id": "gloverandgloverjunior_diligence_promotion_again",
+            "id": "r_gloverandgloverjunior_diligence_promotion_again",
             "label": "A Promotion!",
             "requirements": {
                 "gloverandgloverjuniorjob_nodifficultbossa": 1,
@@ -206,7 +206,7 @@
             "warmup": 0
         },
         {
-            "id": "gloverandgloverwork_difficultbossa",
+            "id": "r_gloverandgloverwork_difficultbossa",
             "actionid": "work",
             "aspects": {
                 "employment": 1
@@ -222,15 +222,15 @@
             },
             "linked": [
                 {
-                    "id": "gloverandglover_difficultbossa_overtime_initial",
+                    "id": "r_gloverandglover_difficultbossa_overtime_initial",
                     "chance": 100
                 },
                 {
-                    "id": "gloverandglover_difficultbossa_overtime",
+                    "id": "r_gloverandglover_difficultbossa_overtime",
                     "chance": 70
                 },
                 {
-                    "id": "gloverandglover_difficultbossa_no_overtime",
+                    "id": "r_gloverandglover_difficultbossa_no_overtime",
                     "chance": 100
                 }
             ],
@@ -238,7 +238,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandglover_difficultbossa_no_overtime",
+            "id": "r_gloverandglover_difficultbossa_no_overtime",
             "actionid": "work",
             "aspects": {
                 "employment": 1
@@ -248,7 +248,7 @@
             "description": "Mr Alden has found nothing to criticise in my work, today. He does not look up as I leave."
         },
         {
-            "id": "gloverandglover_difficultbossa_patienceisavirtue",
+            "id": "r_gloverandglover_difficultbossa_patienceisavirtue",
             "actionid": "work",
             "label": "Mr Alden is retiring!",
             "startdescription": "'I shall be leaving Glover & Glover tomorrow. When you've finished your work for the day, come and see me.'",
@@ -260,7 +260,7 @@
             }
         },
         {
-            "id": "gloverandglover_difficultbossa_overtime_initial",
+            "id": "r_gloverandglover_difficultbossa_overtime_initial",
             "comments": "Player will need to go through this minimum ten times. After that, the chance of overtime is reduced, and there is a small possibility Alden will retire.",
             "actionid": "work",
             "aspects": {
@@ -270,7 +270,7 @@
             "startdescription": "'The work is complete when I have assessed the work as complete, and not before. I trust we understand each other.'",
             "slots": [
                 {
-                    "id": "Attention",
+                    "id": "r_Attention",
                     "label": "Attention",
                     "required": {
                         "reason": 1
@@ -281,7 +281,7 @@
             "description": "'On this occasion I have determined that your work is of an acceptable standard. You may go. Be punctual tomorrow, please.'\n\n[There may be ways to deal with Mr Alden.]",
             "alt": [
                 {
-                    "id": "gloverandglover_difficultbossa_overtime_fail",
+                    "id": "r_gloverandglover_difficultbossa_overtime_fail",
                     "chance": 100
                 }
             ],
@@ -290,7 +290,7 @@
             "maxexecutions": 1
         },
         {
-            "id": "gloverandglover_difficultbossa_overtime",
+            "id": "r_gloverandglover_difficultbossa_overtime",
             "actionid": "work",
             "aspects": {
                 "employment": 1
@@ -299,7 +299,7 @@
             "startdescription": "'The work is complete when I have assessed the work as complete, and not before. I trust we understand each other.'",
             "slots": [
                 {
-                    "id": "Attention",
+                    "id": "r_Attention",
                     "label": "Attention",
                     "required": {
                         "reason": 1,
@@ -311,7 +311,7 @@
             "description": "'Once again, I have determined that your work is of an acceptable standard. You may go. Be punctual tomorrow, please.'\n\n[There may be ways to deal with Mr Alden.]",
             "alt": [
                 {
-                    "id": "gloverandglover_difficultbossa_overtime_fail",
+                    "id": "r_gloverandglover_difficultbossa_overtime_fail",
                     "chance": 100
                 }
             ],
@@ -319,13 +319,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "gloverandglover_difficultbossa_patienceisavirtue",
+                    "id": "r_gloverandglover_difficultbossa_patienceisavirtue",
                     "chance": 2
                 }
             ]
         },
         {
-            "id": "gloverandglover_difficultbossa_overtime_fail",
+            "id": "r_gloverandglover_difficultbossa_overtime_fail",
             "actionid": "work",
             "aspects": {
                 "employment": 1
@@ -342,7 +342,7 @@
             "craftable": false
         },
         {
-            "id": "gloverandgloverwork_difficultbossa_gone",
+            "id": "r_gloverandgloverwork_difficultbossa_gone",
             "actionid": "work",
             "aspects": {
                 "employment": 1
@@ -362,7 +362,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandgloverwork",
+            "id": "r_gloverandgloverwork",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -372,7 +372,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandglover_diligence_promotion",
+                    "id": "r_gloverandglover_diligence_promotion",
                     "chance": 100
                 }
             ],
@@ -385,7 +385,7 @@
             "warmup": 70,
             "slots": [
                 {
-                    "id": "Devotion",
+                    "id": "r_Devotion",
                     "label": "Devotion",
                     "required": {
                         "reason": 1
@@ -396,7 +396,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandglover_diligence_promotion",
+            "id": "r_gloverandglover_diligence_promotion",
             "label": "Extra Hours at Glover & Glover",
             "aspects": {
                 "careeradvancement": 1
@@ -414,7 +414,7 @@
             "warmup": 0
         },
         {
-            "id": "gloverandgloverwork_again",
+            "id": "r_gloverandgloverwork_again",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -424,7 +424,7 @@
             },
             "alt": [
                 {
-                    "id": "gloverandglover_diligence_promotion_again",
+                    "id": "r_gloverandglover_diligence_promotion_again",
                     "chance": 100
                 }
             ],
@@ -437,7 +437,7 @@
             "warmup": 70,
             "slots": [
                 {
-                    "id": "Devotion",
+                    "id": "r_Devotion",
                     "label": "Devotion",
                     "required": {
                         "reason": 1
@@ -448,7 +448,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandglover_diligence_promotion_again",
+            "id": "r_gloverandglover_diligence_promotion_again",
             "label": "Extra Hours at Glover & Glover",
             "aspects": {
                 "careeradvancement": 1
@@ -465,7 +465,7 @@
             "warmup": 0
         },
         {
-            "id": "gloverandgloverseniorwork_retirementoption",
+            "id": "r_gloverandgloverseniorwork_retirementoption",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -483,7 +483,7 @@
             "warmup": 70,
             "slots": [
                 {
-                    "id": "Acceptance",
+                    "id": "r_Acceptance",
                     "label": "Acceptance",
                     "required": {
                         "passion": 1
@@ -493,14 +493,14 @@
             ],
             "alt": [
                 {
-                    "id": "workvictory",
+                    "id": "r_workvictory",
                     "chance": 100
                 }
             ],
             "craftable": true
         },
         {
-            "id": "gloverandgloverseniorwork",
+            "id": "r_gloverandgloverseniorwork",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -519,7 +519,7 @@
             "craftable": true
         },
         {
-            "id": "gloverandgloverseniorwork_hint",
+            "id": "r_gloverandgloverseniorwork_hint",
             "label": "Work at Glover & Glover?",
             "actionid": "work",
             "requirements": {
@@ -530,7 +530,7 @@
             "craftable": false
         },
         {
-            "id": "gloverandgloverseniorworkyoungerglovergone",
+            "id": "r_gloverandgloverseniorworkyoungerglovergone",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -548,7 +548,7 @@
             "warmup": 70,
             "slots": [
                 {
-                    "id": "Ambition",
+                    "id": "r_Ambition",
                     "label": "Ambition",
                     "required": {
                         "passion": 1
@@ -558,14 +558,14 @@
             ],
             "alt": [
                 {
-                    "id": "gloverandgloversenior_diligence_promotion",
+                    "id": "r_gloverandgloversenior_diligence_promotion",
                     "chance": 30
                 }
             ],
             "craftable": true
         },
         {
-            "id": "gloverandgloverseniorwork_youngerglovergone_hint",
+            "id": "r_gloverandgloverseniorwork_youngerglovergone_hint",
             "label": "Work at Glover & Glover?",
             "actionid": "work",
             "requirements": {
@@ -576,7 +576,7 @@
             "craftable": false
         },
         {
-            "id": "gloverandgloversenior_diligence_promotion",
+            "id": "r_gloverandgloversenior_diligence_promotion",
             "label": "A Promotion!",
             "requirements": {
                 "passion": 1
@@ -592,7 +592,7 @@
             "description": "'My son,' the elder Glover confides, 'was a dear boy, but he did lack ambition. You, on the other hand, burn with it. I see myself in you, do you know that? I do. Well, I think we can find you a place on the board of directors.'"
         },
         {
-            "id": "gloverandglovertopwork",
+            "id": "r_gloverandglovertopwork",
             "label": "Work at Glover & Glover",
             "aspects": {
                 "employment": 1
@@ -603,7 +603,7 @@
             },
             "slots": [
                 {
-                    "id": "Scandal",
+                    "id": "r_Scandal",
                     "label": "Scandal",
                     "required": {
                         "notoriety": 1
@@ -622,13 +622,13 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "gloverandglovertopwork_scandal_a",
+                    "id": "r_gloverandglovertopwork_scandal_a",
                     "chance": 30
                 }
             ]
         },
         {
-            "id": "gloverandglovertopwork_scandal_a",
+            "id": "r_gloverandglovertopwork_scandal_a",
             "aspects": {
                 "employment": 1
             },
@@ -647,7 +647,7 @@
             }
         },
         {
-            "id": "gloverandglovertopjob_tainted",
+            "id": "r_gloverandglovertopjob_tainted",
             "aspects": {
                 "employment": 1
             },
@@ -658,7 +658,7 @@
             },
             "slots": [
                 {
-                    "id": "Scandal",
+                    "id": "r_Scandal",
                     "label": "Scandal",
                     "required": {
                         "notoriety": 1
@@ -677,13 +677,13 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "gloverandglovertopwork_scandal_b",
+                    "id": "r_gloverandglovertopwork_scandal_b",
                     "chance": 70
                 }
             ]
         },
         {
-            "id": "gloverandglovertopwork_scandal_b",
+            "id": "r_gloverandglovertopwork_scandal_b",
             "label": "Disgraced!",
             "actionid": "work",
             "requirements": {
@@ -698,7 +698,7 @@
             }
         },
         {
-            "id": "institutephysicianwork",
+            "id": "r_institutephysicianwork",
             "label": "Work at the Institute",
             "requirements": {
                 "institutephysicianjob": 1,
@@ -714,7 +714,7 @@
             "craftable": true
         },
         {
-            "id": "workbeg",
+            "id": "r_workbeg",
             "label": "Beg in the Streets",
             "actionid": "work",
             "requirements": {
@@ -726,7 +726,7 @@
             },
             "alt": [
                 {
-                    "id": "workbeg_lucky",
+                    "id": "r_workbeg_lucky",
                     "chance": 30
                 }
             ],
@@ -736,7 +736,7 @@
             "craftable": true
         },
         {
-            "id": "workbeg_lucky",
+            "id": "r_workbeg_lucky",
             "label": "Beg in the Streets",
             "actionid": "work",
             "requirements": {
@@ -749,7 +749,7 @@
             "warmup": 90
         },
         {
-            "id": "workhealthskilld_edge",
+            "id": "r_workhealthskilld_edge",
             "label": "Unskilled Labour: Like the Mountain",
             "actionid": "work",
             "requirements": {
@@ -772,7 +772,7 @@
             "craftable": true
         },
         {
-            "id": "workhealthskillc",
+            "id": "r_workhealthskillc",
             "label": "Unskilled Labour: Arms of Steel",
             "actionid": "work",
             "requirements": {
@@ -795,7 +795,7 @@
             "craftable": true
         },
         {
-            "id": "workhealthskillb",
+            "id": "r_workhealthskillb",
             "label": "Unskilled Labour: Arms of Iron",
             "actionid": "work",
             "requirements": {
@@ -818,11 +818,11 @@
             "craftable": true
         },
         {
-            "id": "workhealthskilla",
+            "id": "r_workhealthskilla",
             "label": "Unskilled Labour: Arms of Bronze",
             "alt": [
                 {
-                    "id": "workhealthinjury",
+                    "id": "r_workhealthinjury",
                     "chance": 10
                 }
             ],
@@ -847,7 +847,7 @@
             "craftable": true
         },
         {
-            "id": "workhealth_noinjurychance",
+            "id": "r_workhealth_noinjurychance",
             "label": "Unskilled Labour",
             "actionid": "work",
             "requirements": {
@@ -865,7 +865,7 @@
             },
             "alt": [
                 {
-                    "id": "needs",
+                    "id": "r_needs",
                     "chance": 100,
                     "additional": true
                 }
@@ -878,11 +878,11 @@
             "comments": "guaranteed three days without injury"
         },
         {
-            "id": "workhealth",
+            "id": "r_workhealth",
             "label": "Unskilled Labour",
             "alt": [
                 {
-                    "id": "workhealthinjury",
+                    "id": "r_workhealthinjury",
                     "chance": 30
                 }
             ],
@@ -906,7 +906,7 @@
             "craftable": true
         },
         {
-            "id": "workhealthinjury",
+            "id": "r_workhealthinjury",
             "label": "An injury at work!",
             "actionid": "work",
             "requirements": {},
@@ -921,7 +921,7 @@
             "craftable": false
         },
         {
-            "id": "workinvestmentjobc",
+            "id": "r_workinvestmentjobc",
             "label": "Manage my Affairs",
             "actionid": "work",
             "requirements": {
@@ -932,7 +932,7 @@
             },
             "linked": [
                 {
-                    "id": "investmentsjobdecline",
+                    "id": "r_investmentsjobdecline",
                     "chance": 30
                 }
             ],
@@ -942,7 +942,7 @@
             "craftable": true
         },
         {
-            "id": "workinvestmentjobb",
+            "id": "r_workinvestmentjobb",
             "label": "Manage my Affairs",
             "actionid": "work",
             "requirements": {
@@ -953,7 +953,7 @@
             },
             "linked": [
                 {
-                    "id": "investmentsjobdecline",
+                    "id": "r_investmentsjobdecline",
                     "chance": 30
                 }
             ],
@@ -963,7 +963,7 @@
             "craftable": true
         },
         {
-            "id": "workinvestmentjoba",
+            "id": "r_workinvestmentjoba",
             "label": "Manage my Affairs",
             "actionid": "work",
             "requirements": {
@@ -974,7 +974,7 @@
             },
             "linked": [
                 {
-                    "id": "investmentsjobdecline",
+                    "id": "r_investmentsjobdecline",
                     "chance": 30
                 }
             ],
@@ -984,7 +984,7 @@
             "craftable": true
         },
         {
-            "id": "investmentsjobdecline",
+            "id": "r_investmentsjobdecline",
             "label": "A Decline in Circumstances",
             "aspects": {
                 "decline": 1

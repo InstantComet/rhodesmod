@@ -1,7 +1,7 @@
 {
     "decks": [
         {
-            "id": "acquaintances",
+            "id": "r_acquaintances",
             "label": "Acquaintances",
             "description": "So many people in the world, and so few worth knowing.",
             "spec": [
@@ -38,7 +38,7 @@
             "defaultcard": "mistakenidentity"
         },
         {
-            "id": "hirelings",
+            "id": "r_hirelings",
             "label": "The Brutal and the Cunning",
             "description": "Some tools are apt to some ends.",
             "spec": [
@@ -64,7 +64,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "hunters",
+            "id": "r_hunters",
             "label": "Hunters",
             "description": "Those who wish me ill.",
             "spec": [
@@ -77,7 +77,7 @@
             "defaultcard": "defaulthunter"
         },
         {
-            "id": "scholarpatrons",
+            "id": "r_scholarpatrons",
             "label": "Patrons",
             "description": "Those who might assist me.",
             "spec": [
@@ -90,7 +90,7 @@
             "defaultcard": "rumour"
         },
         {
-            "id": "aladimcommissions",
+            "id": "r_aladimcommissions",
             "label": "Al-Adim's Interests",
             "description": "",
             "spec": [
@@ -105,7 +105,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "bechetcommissions",
+            "id": "r_bechetcommissions",
             "label": "Bechet's Interests",
             "description": "",
             "spec": [
@@ -123,7 +123,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "janningscommissions",
+            "id": "r_janningscommissions",
             "label": "Jannings' Interests",
             "description": "",
             "spec": [
@@ -137,7 +137,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "poppycommissions",
+            "id": "r_poppycommissions",
             "label": "Poppy's' Interests",
             "description": "",
             "spec": [
@@ -151,7 +151,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "randomvictim",
+            "id": "r_randomvictim",
             "label": "The Unwise and the Unwary",
             "description": "We'll make of them what we must.",
             "spec": [

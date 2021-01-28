@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "deathofthebody",
+            "id": "r_deathofthebody",
             "label": "No Health is left",
             "actionid": "healthend",
             "requirements": {
@@ -17,7 +17,7 @@
             "signalEndingFlavour": "Melancholy"
         },
         {
-            "id": "forlornblooddeathofthebody",
+            "id": "r_forlornblooddeathofthebody",
             "label": "No Health is left",
             "actionid": "healthend",
             "requirements": {
@@ -34,7 +34,7 @@
             "signalEndingFlavour": "Melancholy"
         },
         {
-            "id": "workvictory",
+            "id": "r_workvictory",
             "label": "I will settle into a comfortable existence",
             "actionid": "workwin",
             "requirements": {

@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "legacytemplatejob",
+            "id": "r_legacytemplatejob",
             "label": "Inspector of Police",
             "description": "I have a senior position in the capital's police force.",
             "aspects": {
@@ -13,7 +13,7 @@
             "noartneeded": true
         },
         {
-            "id": "legacytemplatejob_matured",
+            "id": "r_legacytemplatejob_matured",
             "description": "",
             "label": "",
             "aspects": {
@@ -23,7 +23,7 @@
             "noartneeded": true
         },
         {
-            "id": "legacytemplate_plotitem",
+            "id": "r_legacytemplate_plotitem",
             "label": "",
             "description": "#PREVIOUSCHARACTERNAME#.",
             "noartneeded": true

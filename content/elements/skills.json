@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "skillhealtha",
+            "id": "r_skillhealtha",
             "label": "Skill: a Stronger Physique",
             "aspects": {
                 "healthskill": 1,
@@ -10,7 +10,7 @@
             "description": "I have benefited from exercise. [Use this with two Lessons Learnt to gain more Health.]",
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "r_Health",
                     "actionid": "work",
                     "description": "I must devote my energies to this.",
                     "required": {
@@ -18,7 +18,7 @@
                     }
                 },
                 {
-                    "id": "V1",
+                    "id": "r_V1",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -28,7 +28,7 @@
                     "description": "Am I ready to grow stronger?"
                 },
                 {
-                    "id": "V2",
+                    "id": "r_V2",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -43,7 +43,7 @@
             }
         },
         {
-            "id": "skillhealthb",
+            "id": "r_skillhealthb",
             "label": "Skill: a Hardened Physique",
             "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with three Lessons Learnt to gain more Health.]",
             "xtriggers": {
@@ -55,7 +55,7 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "r_Health",
                     "actionid": "work",
                     "description": "I must devote my energies to this.",
                     "required": {
@@ -63,7 +63,7 @@
                     }
                 },
                 {
-                    "id": "V1",
+                    "id": "r_V1",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -73,7 +73,7 @@
                     "description": "Shall I grow stronger yet?[Use this with three Lessons Learnt  to gain more Health.]"
                 },
                 {
-                    "id": "V2",
+                    "id": "r_V2",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -83,7 +83,7 @@
                     "description": "Shall I grow stronger yet?"
                 },
                 {
-                    "id": "V3",
+                    "id": "r_V3",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -95,7 +95,7 @@
             ]
         },
         {
-            "id": "skillhealthc",
+            "id": "r_skillhealthc",
             "label": "Skill: a Steely Physique",
             "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
             "aspects": {
@@ -104,7 +104,7 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "r_Health",
                     "actionid": "work",
                     "description": "I must devote my energies to this.",
                     "required": {
@@ -112,7 +112,7 @@
                     }
                 },
                 {
-                    "id": "specialisation",
+                    "id": "r_specialisation",
                     "actionid": "study",
                     "label": "Something More",
                     "required": {
@@ -121,7 +121,7 @@
                     "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between strength and grace."
                 },
                 {
-                    "id": "V1",
+                    "id": "r_V1",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -131,7 +131,7 @@
                     "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
                 },
                 {
-                    "id": "V2",
+                    "id": "r_V2",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -141,7 +141,7 @@
                     "description": "Could I grow healthier still?"
                 },
                 {
-                    "id": "V3",
+                    "id": "r_V3",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -151,7 +151,7 @@
                     "description": "Could I grow healthier still?"
                 },
                 {
-                    "id": "V4",
+                    "id": "r_V4",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "id": "skillhealthd_strength",
+            "id": "r_skillhealthd_strength",
             "label": "Skill: a Matchless Physique",
             "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
             "aspects": {
@@ -173,7 +173,7 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "r_Health",
                     "actionid": "work",
                     "description": "I must devote my energies to this.",
                     "required": {
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "id": "skillhealthd_grace",
+            "id": "r_skillhealthd_grace",
             "label": "Skill: a Flawless Physique",
             "description": "Machine perfection. Sinew-bound ivory, tight in satin skin. 'From here, I can only deteriorate.' [Health and Skill can increase no further.]",
             "aspects": {
@@ -192,7 +192,7 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "r_Health",
                     "actionid": "work",
                     "description": "I must devote my energies to this.",
                     "required": {
@@ -202,7 +202,7 @@
             ]
         },
         {
-            "id": "skillreasona",
+            "id": "r_skillreasona",
             "label": "Skill: Scholarship",
             "aspects": {
                 "reasonskill": 1,
@@ -211,7 +211,7 @@
             "description": "I am flush with clever quotations. [Use this with two Lessons Learnt to gain more Reason.]",
             "slots": [
                 {
-                    "id": "e1",
+                    "id": "r_e1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -221,7 +221,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e2",
+                    "id": "r_e2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -236,7 +236,7 @@
             }
         },
         {
-            "id": "skillreasonb",
+            "id": "r_skillreasonb",
             "label": "Skill: Notable Scholarship",
             "description": "I have learnt enough to know how little I know. [Use this with three Lessons Learnt to gain more Reason.]",
             "xtriggers": {
@@ -248,7 +248,7 @@
             },
             "slots": [
                 {
-                    "id": "e1",
+                    "id": "r_e1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -258,7 +258,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e2",
+                    "id": "r_e2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -268,7 +268,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e3",
+                    "id": "r_e3",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -280,7 +280,7 @@
             ]
         },
         {
-            "id": "skillreasonc",
+            "id": "r_skillreasonc",
             "label": "Skill: Profound Scholarship",
             "description": "My skull creaks at the corners with the knowledge I've accrued. [Use this with four Lessons Learnt to gain more Reason.]",
             "aspects": {
@@ -289,7 +289,7 @@
             },
             "slots": [
                 {
-                    "id": "specialisation",
+                    "id": "r_specialisation",
                     "actionid": "study",
                     "label": "Something More",
                     "required": {
@@ -298,7 +298,7 @@
                     "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between illumination and concentration."
                 },
                 {
-                    "id": "e1",
+                    "id": "r_e1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -308,7 +308,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e2",
+                    "id": "r_e2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -318,7 +318,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e3",
+                    "id": "r_e3",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -328,7 +328,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "e4",
+                    "id": "r_e4",
                     "label": "A Lesson Learnt",
                     "required": {
                         "eruditionplus": 1
@@ -340,7 +340,7 @@
             ]
         },
         {
-            "id": "skillreasond_illumination",
+            "id": "r_skillreasond_illumination",
             "label": "Skill: a Rarefied Mind",
             "description": "My mind is glass, and my memory light. [Reason and Skill can increase no further.]",
             "aspects": {
@@ -350,7 +350,7 @@
             "icon": "skillreasonc"
         },
         {
-            "id": "skillreasond_concentration",
+            "id": "r_skillreasond_concentration",
             "label": "Skill: a Silent Intensity",
             "description": "This chilly stillness is the stillness of certainty. [Reason and Skill can increase no further.]",
             "aspects": {
@@ -360,7 +360,7 @@
             "icon": "skillreasonc"
         },
         {
-            "id": "skillpassiona",
+            "id": "r_skillpassiona",
             "label": "Skill: a Vivid Imagination",
             "aspects": {
                 "passionskill": 1,
@@ -369,7 +369,7 @@
             "description": "My daydreams sometimes outpace my dreams. [Use this with Work to Paint, or with Study and with two Lessons Learnt to gain more Passion.]",
             "slots": [
                 {
-                    "id": "G1",
+                    "id": "r_G1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -379,7 +379,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G2",
+                    "id": "r_G2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -389,7 +389,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "painting1",
+                    "id": "r_painting1",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -400,7 +400,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting2",
+                    "id": "r_painting2",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -416,7 +416,7 @@
             }
         },
         {
-            "id": "skillpassionb",
+            "id": "r_skillpassionb",
             "label": "Skill: a Wild Imagination",
             "description": "I have been known to break six pencils in a day. [Use this with Work to Paint, or with Study and three Lessons Learnt to gain more Passion.]",
             "xtriggers": {
@@ -428,7 +428,7 @@
             },
             "slots": [
                 {
-                    "id": "G1",
+                    "id": "r_G1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -438,7 +438,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G2",
+                    "id": "r_G2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -448,7 +448,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G3",
+                    "id": "r_G3",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -458,7 +458,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "painting1",
+                    "id": "r_painting1",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -469,7 +469,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting2",
+                    "id": "r_painting2",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -480,7 +480,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting3",
+                    "id": "r_painting3",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -493,7 +493,7 @@
             ]
         },
         {
-            "id": "skillpassionc",
+            "id": "r_skillpassionc",
             "label": "Skill: a Fevered Imagination",
             "description": "Phantoms ride my waking mind. [Use this with four Lessons Learnt to gain more Passion.]",
             "aspects": {
@@ -502,7 +502,7 @@
             },
             "slots": [
                 {
-                    "id": "specialisation",
+                    "id": "r_specialisation",
                     "actionid": "study",
                     "label": "Something More",
                     "required": {
@@ -511,7 +511,7 @@
                     "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between unreason and folly."
                 },
                 {
-                    "id": "G1",
+                    "id": "r_G1",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -521,7 +521,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G2",
+                    "id": "r_G2",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -531,7 +531,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G3",
+                    "id": "r_G3",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -541,7 +541,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "G4",
+                    "id": "r_G4",
                     "label": "A Lesson Learnt",
                     "required": {
                         "glimmeringplus": 1
@@ -551,7 +551,7 @@
                     "actionid": "study"
                 },
                 {
-                    "id": "painting1",
+                    "id": "r_painting1",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -562,7 +562,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting2",
+                    "id": "r_painting2",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -573,7 +573,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting3",
+                    "id": "r_painting3",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -584,7 +584,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting4",
+                    "id": "r_painting4",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -597,7 +597,7 @@
             ]
         },
         {
-            "id": "skillpassiond_unreason",
+            "id": "r_skillpassiond_unreason",
             "label": "Skill: Never-No",
             "description": "The more, the more, the more, the m - [Passion and Skill can increase no further.]",
             "aspects": {
@@ -606,7 +606,7 @@
             },
             "slots": [
                 {
-                    "id": "painting1",
+                    "id": "r_painting1",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -617,7 +617,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting2",
+                    "id": "r_painting2",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -628,7 +628,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting3",
+                    "id": "r_painting3",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -639,7 +639,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting4",
+                    "id": "r_painting4",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -653,7 +653,7 @@
             "icon": "skillpassionc"
         },
         {
-            "id": "skillpassiond_folly",
+            "id": "r_skillpassiond_folly",
             "label": "Skill: an Open Soul",
             "description": "'Behold, they stand at my door and knock; if I hear any voice, I will open the door, and they will come in to me, and sup with them, and they with me.' [Passion and Skill can increase no further.]",
             "aspects": {
@@ -662,7 +662,7 @@
             },
             "slots": [
                 {
-                    "id": "painting1",
+                    "id": "r_painting1",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -673,7 +673,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting2",
+                    "id": "r_painting2",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -684,7 +684,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting3",
+                    "id": "r_painting3",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,
@@ -695,7 +695,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "painting4",
+                    "id": "r_painting4",
                     "label": "Art or Bread",
                     "required": {
                         "passion": 1,

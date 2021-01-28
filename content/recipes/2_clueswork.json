@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "work.apostleforge.majorvictory.hint5",
+            "id": "r_work.apostleforge.majorvictory.hint5",
             "actionid": "work",
             "label": "The Last Pieces of the Great Work?",
             "startdescription": "We have the Core, its fuel, the Compass, the Key, the Mysteries of Opening. Now we require only the season of the Forge's most furious incandescence.",
@@ -18,7 +18,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostleforge.majorvictory.hint4",
+            "id": "r_work.apostleforge.majorvictory.hint4",
             "actionid": "work",
             "label": "The Last Pieces of the Great Work?",
             "startdescription": "We have the Core, its fuel, the Compass, the Key. Even all these will not be enough. We must prepare the way for our Shaper with the Mysteries of Opening. ",
@@ -34,7 +34,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostleforge.majorvictory.hint3",
+            "id": "r_work.apostleforge.majorvictory.hint3",
             "actionid": "work",
             "label": "The Last Pieces of the Great Work?",
             "startdescription": "We have the Core, its fuel, the Compass. We still need the Biting Key.",
@@ -49,7 +49,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostleforge.majorvictory.hint2",
+            "id": "r_work.apostleforge.majorvictory.hint2",
             "actionid": "work",
             "label": "The Last Pieces of the Great Work?",
             "startdescription": "We have the Core and its fuel. We need our blinded Compass, to find the flaw in the world.",
@@ -63,7 +63,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostleforge.majorvictory.hint1",
+            "id": "r_work.apostleforge.majorvictory.hint1",
             "actionid": "work",
             "label": "The Last Pieces of the Great Work?",
             "startdescription": "We have the Core: we must have blue gold to feed it.",
@@ -76,7 +76,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint5",
+            "id": "r_work.apostlelantern.majorvictory.hint5",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "We need our noble guest's co-operation.",
@@ -91,7 +91,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint4",
+            "id": "r_work.apostlelantern.majorvictory.hint4",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "The Gate will not open Outwards without its unlawed Key.",
@@ -105,7 +105,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint3",
+            "id": "r_work.apostlelantern.majorvictory.hint3",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "We'll need a Watchman's Glass for our Illuminated One to enact the utmost illumination.",
@@ -118,7 +118,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint2",
+            "id": "r_work.apostlelantern.majorvictory.hint2",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "Centipede always knows the way. We'll need her secrets.",
@@ -130,7 +130,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint1",
+            "id": "r_work.apostlelantern.majorvictory.hint1",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "The Watchman's Eye was opened, not in the usual way, but with a knife. We will need what it bled.",
@@ -141,7 +141,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlelantern.majorvictory.hint0",
+            "id": "r_work.apostlelantern.majorvictory.hint0",
             "actionid": "work",
             "label": "The Gate Opens Outwards?",
             "startdescription": "Certainly the Gate might open without Witnesses, but without Witnesses to be illuminated, how can we fulfil the Watchman's enactment? The Watchman is not compassionate.",
@@ -151,7 +151,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint5",
+            "id": "r_work.apostlegrail.majorvictory.hint5",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "Our particular spices must be particularly prepared. All else is ready.",
@@ -166,7 +166,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint4",
+            "id": "r_work.apostlegrail.majorvictory.hint4",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "Without the Unceasing Mysteries, the Vitulation will not reach the intensity we require.",
@@ -180,7 +180,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint3",
+            "id": "r_work.apostlegrail.majorvictory.hint3",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "We need the most powerful Grail influence we can muster.",
@@ -193,7 +193,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint2",
+            "id": "r_work.apostlegrail.majorvictory.hint2",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "No Vitulation would be a Vitulation without the Chalice Murmurous.",
@@ -205,7 +205,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint1",
+            "id": "r_work.apostlegrail.majorvictory.hint1",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "We cannot begin the Vitulation without sufficient guests. Our Delight cannot go hungry.",
@@ -216,7 +216,7 @@
             "hintonly": true
         },
         {
-            "id": "work.apostlegrail.majorvictory.hint0",
+            "id": "r_work.apostlegrail.majorvictory.hint0",
             "actionid": "work",
             "label": "The Last Elements of the Vitulation?",
             "startdescription": "We cannot begin the Vitulation without the correct flavouring, for myself and for the others of the Host.",
@@ -226,7 +226,7 @@
             "hintonly": true
         },
         {
-            "id": "workbenefactorhint",
+            "id": "r_workbenefactorhint",
             "label": "Private Performances?",
             "actionid": "work",
             "requirements": {
@@ -237,7 +237,7 @@
             "hintonly": true
         },
         {
-            "id": "workfundshint",
+            "id": "r_workfundshint",
             "label": "Money",
             "actionid": "work",
             "requirements": {
@@ -248,7 +248,7 @@
             "hintonly": true
         },
         {
-            "id": "skillhealthhintwork",
+            "id": "r_skillhealthhintwork",
             "label": "Health",
             "actionid": "work",
             "requirements": {
@@ -260,7 +260,7 @@
             "hintonly": true
         },
         {
-            "id": "vitalityhintwork",
+            "id": "r_vitalityhintwork",
             "label": "Vitality",
             "actionid": "work",
             "requirements": {
@@ -272,7 +272,7 @@
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
-            "id": "eruditionhintwork",
+            "id": "r_eruditionhintwork",
             "label": "Erudition",
             "actionid": "work",
             "requirements": {
@@ -284,7 +284,7 @@
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
-            "id": "glimmeringhintwork",
+            "id": "r_glimmeringhintwork",
             "label": "Glimmering",
             "actionid": "work",
             "requirements": {
@@ -296,7 +296,7 @@
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
-            "id": "contentmenthintwork",
+            "id": "r_contentmenthintwork",
             "label": "Contentment",
             "actionid": "work",
             "requirements": {
@@ -308,7 +308,7 @@
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
-            "id": "commissionhint_wronglore",
+            "id": "r_commissionhint_wronglore",
             "label": "Fulfilling a Commission",
             "actionid": "work",
             "requirements": {
@@ -320,7 +320,7 @@
             "hintonly": true
         },
         {
-            "id": "commissionhint",
+            "id": "r_commissionhint",
             "label": "Fulfilling a Commission?",
             "actionid": "work",
             "requirements": {
@@ -331,7 +331,7 @@
             "hintonly": true
         },
         {
-            "id": "minorforgevictory_hint_sixth",
+            "id": "r_minorforgevictory_hint_sixth",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -343,7 +343,7 @@
             "hintonly": true
         },
         {
-            "id": "minorforgevictory_hint",
+            "id": "r_minorforgevictory_hint",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -355,7 +355,7 @@
             "hintonly": true
         },
         {
-            "id": "minorgrailvictory_hint_sixth_with_romantic",
+            "id": "r_minorgrailvictory_hint_sixth_with_romantic",
             "label": "A quicker way to the Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -368,7 +368,7 @@
             "hintonly": true
         },
         {
-            "id": "minorgrailvictory_hint_sixth",
+            "id": "r_minorgrailvictory_hint_sixth",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -380,7 +380,7 @@
             "hintonly": true
         },
         {
-            "id": "minorgrailvictory_hint",
+            "id": "r_minorgrailvictory_hint",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -392,7 +392,7 @@
             "hintonly": true
         },
         {
-            "id": "minorlanternvictory_hint_sixth",
+            "id": "r_minorlanternvictory_hint_sixth",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -404,7 +404,7 @@
             "hintonly": true
         },
         {
-            "id": "minorlanternvictory_hint",
+            "id": "r_minorlanternvictory_hint",
             "label": "The Seventh Mark?",
             "actionid": "work",
             "requirements": {
@@ -416,7 +416,7 @@
             "hintonly": true
         },
         {
-            "id": "hint_summon_spirit_forgee_edge",
+            "id": "r_hint_summon_spirit_forgee_edge",
             "label": "Summon a mighty creature of the Forge of Days?",
             "actionid": "work",
             "requirements": {
@@ -436,7 +436,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_forgee_edge_exists",
+            "id": "r_hint_summon_spirit_forgee_edge_exists",
             "label": "King Crucible, again?",
             "actionid": "work",
             "requirements": {
@@ -454,7 +454,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_forgee_edge_dayd",
+            "id": "r_hint_summon_spirit_forgee_edge_dayd",
             "label": "King Crucible, already?",
             "actionid": "work",
             "requirements": {
@@ -472,7 +472,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_forgee_edge_nom",
+            "id": "r_hint_summon_spirit_forgee_edge_nom",
             "label": "King Crucible? Really?",
             "actionid": "work",
             "requirements": {
@@ -490,7 +490,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_graile_edge",
+            "id": "r_hint_summon_spirit_graile_edge",
             "label": "Summon a mighty creature of the Red Grail?",
             "actionid": "work",
             "requirements": {
@@ -509,7 +509,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_graile_edge_exists",
+            "id": "r_hint_summon_spirit_graile_edge_exists",
             "label": "Ezeem, again?",
             "actionid": "work",
             "requirements": {
@@ -527,7 +527,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_graile_edge_dayd",
+            "id": "r_hint_summon_spirit_graile_edge_dayd",
             "label": "Ezeem, already?",
             "actionid": "work",
             "requirements": {
@@ -545,7 +545,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_lanterne_secret",
+            "id": "r_hint_summon_spirit_lanterne_secret",
             "label": "Summon something unusual?",
             "actionid": "work",
             "requirements": {
@@ -564,7 +564,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_lanterne_secret_exists",
+            "id": "r_hint_summon_spirit_lanterne_secret_exists",
             "label": "The Baldomerian, again?",
             "actionid": "work",
             "requirements": {
@@ -582,7 +582,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_lanterne_secret_dayd",
+            "id": "r_hint_summon_spirit_lanterne_secret_dayd",
             "label": "The Baldomerian, already?",
             "actionid": "work",
             "requirements": {
@@ -600,7 +600,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_forgec_winter",
+            "id": "r_hint_summon_spirit_forgec_winter",
             "label": "Summon a creature of the Forge of Days?",
             "actionid": "work",
             "requirements": {
@@ -615,7 +615,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_grailc_moth",
+            "id": "r_hint_summon_spirit_grailc_moth",
             "label": "Summon a creature of the Red Grail?",
             "actionid": "work",
             "requirements": {
@@ -630,7 +630,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_lanternc_edge",
+            "id": "r_hint_summon_spirit_lanternc_edge",
             "label": "Summon a thing from behind mirrors?",
             "actionid": "work",
             "requirements": {
@@ -645,7 +645,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_heartc_edge",
+            "id": "r_hint_summon_spirit_heartc_edge",
             "label": "Summon a creature of the Thunderskin?",
             "actionid": "work",
             "requirements": {
@@ -660,7 +660,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_winterd_edge",
+            "id": "r_hint_summon_spirit_winterd_edge",
             "label": "Summon a creature of the Sun-in-Rags?",
             "actionid": "work",
             "requirements": {
@@ -675,7 +675,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_winterb_heart",
+            "id": "r_hint_summon_spirit_winterb_heart",
             "label": "Summon one of the throng of the Dead?",
             "actionid": "work",
             "requirements": {
@@ -690,7 +690,7 @@
             "craftable": false
         },
         {
-            "id": "hint_renew_spirit_wintera_edge",
+            "id": "r_hint_renew_spirit_wintera_edge",
             "label": "Renew a Shattered Risen with the power of the Cartographer of Scars?",
             "actionid": "work",
             "requirements": {
@@ -703,7 +703,7 @@
             "craftable": false
         },
         {
-            "id": "hint_renew_spirit_wintera_moth",
+            "id": "r_hint_renew_spirit_wintera_moth",
             "label": "Renew a Burgeoning Risen with the power of the Ring-Yew?",
             "actionid": "work",
             "requirements": {
@@ -716,7 +716,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_wintera_edge",
+            "id": "r_hint_summon_spirit_wintera_edge",
             "label": "Infuse a corpse with the power of the Cartographer of Scars?",
             "actionid": "work",
             "requirements": {
@@ -730,7 +730,7 @@
             "craftable": false
         },
         {
-            "id": "hint_summon_spirit_wintera_moth",
+            "id": "r_hint_summon_spirit_wintera_moth",
             "label": "Infuse a corpse with the power of the Ring-Yew?",
             "actionid": "work",
             "requirements": {
@@ -744,7 +744,7 @@
             "craftable": false
         },
         {
-            "id": "work.openscar.hint",
+            "id": "r_work.openscar.hint",
             "actionid": "work",
             "label": "A Threshold ascension?",
             "startdescription": "A Threshold ascension requires seven Lock-scars, and Knock aspect to the twenty-fourth intensity.",
@@ -759,7 +759,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockedge",
+            "id": "r_ritehinthasknockedge",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -779,7 +779,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockforge",
+            "id": "r_ritehinthasknockforge",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -799,7 +799,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockgrail",
+            "id": "r_ritehinthasknockgrail",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -819,7 +819,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockheart",
+            "id": "r_ritehinthasknockheart",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -839,7 +839,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknocklantern",
+            "id": "r_ritehinthasknocklantern",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -859,7 +859,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockmoth",
+            "id": "r_ritehinthasknockmoth",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -879,7 +879,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknocksecrethistories",
+            "id": "r_ritehinthasknocksecrethistories",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -899,7 +899,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknockwinter",
+            "id": "r_ritehinthasknockwinter",
             "label": "Winter",
             "actionid": "work",
             "requirements": {
@@ -920,7 +920,7 @@
         },
         {
             "label": "Reason's Glory?",
-            "id": "arcane_lantern_edge_hint",
+            "id": "r_arcane_lantern_edge_hint",
             "requirements": {
                 "ritual": 1,
                 "knock": -1,
@@ -935,7 +935,7 @@
         },
         {
             "label": "Passion's Gyre?",
-            "id": "arcane_moth_edge_hint",
+            "id": "r_arcane_moth_edge_hint",
             "requirements": {
                 "ritual": 1,
                 "knock": -1,
@@ -950,7 +950,7 @@
         },
         {
             "label": "Forge's Redemption?",
-            "id": "arcane_forge_grail_hint",
+            "id": "r_arcane_forge_grail_hint",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -965,7 +965,7 @@
         },
         {
             "label": "The End is Beautiful?",
-            "id": "arcane_winter_lantern_hint",
+            "id": "r_arcane_winter_lantern_hint",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -979,7 +979,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasedge",
+            "id": "r_ritehinthasedge",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -999,7 +999,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasforge",
+            "id": "r_ritehinthasforge",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1019,7 +1019,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasgrail",
+            "id": "r_ritehinthasgrail",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1039,7 +1039,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasheart",
+            "id": "r_ritehinthasheart",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1059,7 +1059,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasknock",
+            "id": "r_ritehinthasknock",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1079,7 +1079,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasmicroknock",
+            "id": "r_ritehinthasmicroknock",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1099,7 +1099,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthaslantern",
+            "id": "r_ritehinthaslantern",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1121,7 +1121,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthasmoth",
+            "id": "r_ritehinthasmoth",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1141,7 +1141,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthassecrethistories",
+            "id": "r_ritehinthassecrethistories",
             "label": "Summoning Something?",
             "actionid": "work",
             "requirements": {
@@ -1161,7 +1161,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehinthaswinter",
+            "id": "r_ritehinthaswinter",
             "label": "Winter",
             "actionid": "work",
             "requirements": {
@@ -1181,7 +1181,7 @@
             "hintonly": true
         },
         {
-            "id": "ritehint",
+            "id": "r_ritehint",
             "label": "Rites",
             "actionid": "work",
             "requirements": {
@@ -1198,7 +1198,7 @@
             "hintonly": true
         },
         {
-            "id": "ascensionpower_upgradetoobsession_hint",
+            "id": "r_ascensionpower_upgradetoobsession_hint",
             "label": "Not Enough, Not Yet",
             "actionid": "work",
             "requirements": {
@@ -1212,7 +1212,7 @@
             "hintonly": true
         },
         {
-            "id": "ascensionsensation_upgradetoobsession_hint_m",
+            "id": "r_ascensionsensation_upgradetoobsession_hint_m",
             "label": "Not Enough, Not Yet",
             "actionid": "work",
             "requirements": {
@@ -1225,7 +1225,7 @@
             "hintonly": true
         },
         {
-            "id": "ascensionsensation_upgradetoobsession_hint_f",
+            "id": "r_ascensionsensation_upgradetoobsession_hint_f",
             "label": "Not Enough, Not Yet",
             "actionid": "work",
             "requirements": {
@@ -1238,7 +1238,7 @@
             "hintonly": true
         },
         {
-            "id": "ascensionenlightenment_upgradetoobsession_hint",
+            "id": "r_ascensionenlightenment_upgradetoobsession_hint",
             "label": "Not Enough, Not Yet",
             "actionid": "work",
             "requirements": {
@@ -1252,7 +1252,7 @@
             "hintonly": true
         },
         {
-            "id": "work.temptation.remembrance.hint",
+            "id": "r_work.temptation.remembrance.hint",
             "actionid": "work",
             "label": "Lost Colours?",
             "startdescription": "I hunger for what is lost. The way to that lies through another hunger. There is a secret I must study.",
@@ -1263,7 +1263,7 @@
             "craftable": false
         },
         {
-            "id": "detectivework_plotitem_burning_hint",
+            "id": "r_detectivework_plotitem_burning_hint",
             "actionid": "work",
             "label": "Second Thoughts?",
             "startdescription": "It was the right decision. And yet... [There may still be time enough to Study the file before it is gone forever.]",
@@ -1274,7 +1274,7 @@
             "craftable": false
         },
         {
-            "id": "work.generaldesire.hint",
+            "id": "r_work.generaldesire.hint",
             "actionid": "work",
             "label": "A Great Work?",
             "startdescription": "The final fulfilment of a Desire is often a conclusion. It is not enough to hope. I stand or fail on my deeds. [Desires are often the means to winning a game. The Desire for Sensation or Power or Enlightenment will require a great ritual. But there are other, even rarer, Desires, especially in the Ghoul, Priest and Dancer expansions. ]",

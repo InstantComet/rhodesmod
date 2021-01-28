@@ -1,14 +1,14 @@
 {
     "elements": [
         {
-            "id": "locationbookdealer",
+            "id": "r_locationbookdealer",
             "label": "Morland's Shop",
             "aspects": {
                 "location": 1
             },
             "slots": [
                 {
-                    "id": "Cost",
+                    "id": "r_Cost",
                     "label": "Cost",
                     "required": {
                         "funds": 1
@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "locationbookdealer_exhausted",
+            "id": "r_locationbookdealer_exhausted",
             "label": "Morland's Shop [Closed]",
             "description": "This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now.",
             "aspects": {
@@ -33,7 +33,7 @@
             },
             "slots": [
                 {
-                    "id": "Old HQ",
+                    "id": "r_Old HQ",
                     "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
                     "actionid": "explore",
                     "required": {
@@ -47,7 +47,7 @@
             }
         },
         {
-            "id": "locationauctionhouse",
+            "id": "r_locationauctionhouse",
             "label": "Oriflamme's Auction House",
             "aspects": {
                 "location": 1
@@ -55,7 +55,7 @@
             "description": "Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]",
             "slots": [
                 {
-                    "id": "Sell",
+                    "id": "r_Sell",
                     "label": "Sell",
                     "description": "Add an item here to auction it off.",
                     "required": {
@@ -67,7 +67,7 @@
             "unique": true
         },
         {
-            "id": "locationcabaretclosed",
+            "id": "r_locationcabaretclosed",
             "label": "The Ecdysis Club [Closed]",
             "description": "A cabaret with an occult reputation. It opens only certain nights of the week; it'll re-open soon.",
             "unique": true,
@@ -77,7 +77,7 @@
             "resaturate": true
         },
         {
-            "id": "locationcabaret",
+            "id": "r_locationcabaret",
             "label": "The Ecdysis Club",
             "aspects": {
                 "location": 1,
@@ -88,7 +88,7 @@
             "description": "A cabaret with an occult reputation.",
             "slots": [
                 {
-                    "id": "Entry",
+                    "id": "r_Entry",
                     "label": "Entry",
                     "actionid": "explore",
                     "required": {
@@ -104,13 +104,13 @@
             "uniquenessgroup": "uqcabaret"
         },
         {
-            "id": "hq.abandoned",
+            "id": "r_hq.abandoned",
             "label": "Abandoned Headquarters",
             "description": "Forget it, J.N.",
             "lifetime": 1
         },
         {
-            "id": "generichq",
+            "id": "r_generichq",
             "label": "Headquarters?",
             "aspects": {
                 "hq": 1
@@ -119,7 +119,7 @@
             "unique": true
         },
         {
-            "id": "hq.temporary",
+            "id": "r_hq.temporary",
             "label": "Temporary Headquarters",
             "aspects": {
                 "hq": 1,
@@ -128,7 +128,7 @@
             "description": "Our business is private. We could use somewhere more secret.",
             "slots": [
                 {
-                    "id": "Cupboard",
+                    "id": "r_Cupboard",
                     "label": "Cupboard",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
@@ -147,7 +147,7 @@
             "icon": "generichq"
         },
         {
-            "id": "hq.townhouse",
+            "id": "r_hq.townhouse",
             "label": "Opulent Townhouse",
             "aspects": {
                 "hq": 1,
@@ -157,7 +157,7 @@
             "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
             "slots": [
                 {
-                    "id": "Attic",
+                    "id": "r_Attic",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -168,7 +168,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Grail-influence.",
                     "actionid": "explore",
@@ -183,7 +183,7 @@
             "unique": true
         },
         {
-            "id": "hq.church",
+            "id": "r_hq.church",
             "label": "Heterodox Church",
             "aspects": {
                 "hq": 1,
@@ -193,7 +193,7 @@
             "description": "Even on Sunday morning, there are quirks in the order of service, but most outsiders don't notice. Outsiders are not invited to the ceremonies we hold at chillier hours.",
             "slots": [
                 {
-                    "id": "Vestry",
+                    "id": "r_Vestry",
                     "description": "Lock a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -204,7 +204,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Knock-influence.",
                     "actionid": "explore",
@@ -219,7 +219,7 @@
             "unique": true
         },
         {
-            "id": "hq.mithraeum",
+            "id": "r_hq.mithraeum",
             "label": "Candle-lit Mithraeum",
             "aspects": {
                 "hq": 1,
@@ -230,7 +230,7 @@
             "description": "Initiates have celebrated the Mysteries here for almost two thousand years. The words change, the gods change, but always, eventually, there is blood.",
             "slots": [
                 {
-                    "id": "Chains",
+                    "id": "r_Chains",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -241,7 +241,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Lantern-influence.",
                     "actionid": "explore",
@@ -256,7 +256,7 @@
             "unique": true
         },
         {
-            "id": "hq.hospital",
+            "id": "r_hq.hospital",
             "label": "House Violet",
             "aspects": {
                 "hq": 1,
@@ -267,7 +267,7 @@
             "description": "We've painted the walls within the rich colour of the Violet Chamber. We've cleaned the cobwebs and placed unobtrusive shutters behind all the windows. And we've replaced all the locks.",
             "slots": [
                 {
-                    "id": "Cell",
+                    "id": "r_Cell",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -278,7 +278,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Knock-influence.",
                     "actionid": "explore",
@@ -293,7 +293,7 @@
             "unique": true
         },
         {
-            "id": "hq.bookshop",
+            "id": "r_hq.bookshop",
             "label": "Rooms Behind a Bookshop",
             "aspects": {
                 "hq": 1,
@@ -303,7 +303,7 @@
             "description": "The lesser elements of Miss Morland's stock yet remain. Over time, strangers drift in with books to sell, and sometimes we indulge them.",
             "slots": [
                 {
-                    "id": "Cellar",
+                    "id": "r_Cellar",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -314,7 +314,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Heart-influence.",
                     "actionid": "explore",
@@ -329,7 +329,7 @@
             "unique": true
         },
         {
-            "id": "hq.warehouse",
+            "id": "r_hq.warehouse",
             "label": "A Darkened Warehouse",
             "aspects": {
                 "hq": 1,
@@ -340,7 +340,7 @@
             "description": "The rafters are rank with rats. Their smell is almost lost beneath the reek of the river. It's a long way from anywhere anyone would want to go. All these things are, in their way, advantages.",
             "slots": [
                 {
-                    "id": "Shed",
+                    "id": "r_Shed",
                     "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
                     "actionid": "talk",
                     "required": {
@@ -351,7 +351,7 @@
                     }
                 },
                 {
-                    "id": "funds",
+                    "id": "r_funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Forge-influence.",
                     "actionid": "explore",
@@ -366,7 +366,7 @@
             "unique": true
         },
         {
-            "id": "hq.church.potential",
+            "id": "r_hq.church.potential",
             "label": "Unattended Church",
             "aspects": {
                 "location": 1,
@@ -375,7 +375,7 @@
             "description": "The minister disappeared, one night, quite abruptly, with his inner circle and the church's chiefest treasures. He is widely assumed to have gone to a better place: possibly a sunny place beside a shining sea. We could recruit his leaderless flock, and make this our base of operations.",
             "slots": [
                 {
-                    "id": "Old HQ",
+                    "id": "r_Old HQ",
                     "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
                     "actionid": "explore",
                     "required": {
@@ -390,7 +390,7 @@
             "icon": "hq.church"
         },
         {
-            "id": "hq.mithraeum.potential",
+            "id": "r_hq.mithraeum.potential",
             "label": "Empty Mithraeum",
             "aspects": {
                 "location": 1,
@@ -399,7 +399,7 @@
             "description": "This was a place of worship, once. We could make it so again.",
             "slots": [
                 {
-                    "id": "Old HQ",
+                    "id": "r_Old HQ",
                     "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
                     "actionid": "explore",
                     "required": {
@@ -414,7 +414,7 @@
             "icon": "hq.mithraeum"
         },
         {
-            "id": "hq.hospital.potential",
+            "id": "r_hq.hospital.potential",
             "label": "Empty Hospital",
             "aspects": {
                 "location": 1,
@@ -423,7 +423,7 @@
             "description": "Phantoms - the neighbours say - still walk the echoing halls here. If we take possession, of course, they will leave, or we'll turn them to our use.",
             "slots": [
                 {
-                    "id": "Old HQ",
+                    "id": "r_Old HQ",
                     "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
                     "actionid": "explore",
                     "required": {
@@ -438,7 +438,7 @@
             "icon": "hq.hospital"
         },
         {
-            "id": "hq.warehouse.potential",
+            "id": "r_hq.warehouse.potential",
             "label": "An Abandoned Warehouse",
             "aspects": {
                 "location": 1,
@@ -447,7 +447,7 @@
             "description": "A rotting shell beside a rotting river. Who would follow us here?",
             "slots": [
                 {
-                    "id": "Old HQ",
+                    "id": "r_Old HQ",
                     "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
                     "actionid": "explore",
                     "required": {
@@ -462,7 +462,7 @@
             "icon": "hq.warehouse"
         },
         {
-            "id": "locationstreetsstrange",
+            "id": "r_locationstreetsstrange",
             "label": "Streets Strange by Moonlight",
             "aspects": {
                 "location": 1
@@ -471,7 +471,7 @@
             "lifetime": 120
         },
         {
-            "id": "location.gallery",
+            "id": "r_location.gallery",
             "label": "The Montmerenzi-McDonald Gallery",
             "comments": "currently just used for early Ghoul flavour, but we could do more.",
             "aspects": {
@@ -480,11 +480,11 @@
             "description": "Alistair Montmerenzi, third and last of the Montmerenzi cartographers, and his enigmatic benefactor Timothy McDonald, collected this small but striking miscellany. After their loss on their final polar expedition, the collection was made available to the public in a blank-faced grey building beside a quiet park... on condition that no piece of art therein was ever to be photographed, nor exposed to daylight."
         },
         {
-            "id": "location.cemetery",
+            "id": "r_location.cemetery",
             "label": "Cemetery",
             "slots": [
                 {
-                    "id": "muscle",
+                    "id": "r_muscle",
                     "label": "Muscle",
                     "description": "I can employ a helper, or do the digging myself.",
                     "actionid": "explore",
@@ -502,12 +502,12 @@
             "decayTo": "location.cemetery.closing"
         },
         {
-            "id": "location.cemetery.closing",
+            "id": "r_location.cemetery.closing",
             "label": "Closely Watched Cemetery",
             "description": "The authorities have noticed peculiar activity in this place. They have set a watch upon it. Visits will take longer, and very soon they will no longer be possible at all.",
             "slots": [
                 {
-                    "id": "muscle",
+                    "id": "r_muscle",
                     "label": "Muscle",
                     "description": "I can employ a helper, or do the digging myself.",
                     "actionid": "explore",

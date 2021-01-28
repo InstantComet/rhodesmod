@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "summon_spirit_wintera_edge",
+            "id": "r_summon_spirit_wintera_edge",
             "label": "Call on the Cartographer of Scars to raise a corpse to half-life",
             "actionid": "work",
             "requirements": {
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "id": "summon_spirit_wintera_moth",
+            "id": "r_summon_spirit_wintera_moth",
             "label": "Call on the Ring-Yew to raise a corpse to half-life",
             "actionid": "work",
             "requirements": {
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "id": "renew_spirit_wintera_edge",
+            "id": "r_renew_spirit_wintera_edge",
             "label": "Call on the Cartographer of Scars to renew a corpse's half-life",
             "actionid": "work",
             "requirements": {
@@ -74,7 +74,7 @@
             "craftable": true
         },
         {
-            "id": "renew_spirit_wintera_moth",
+            "id": "r_renew_spirit_wintera_moth",
             "label": "Call on the Ring-Yew to renew a corpse's half-life",
             "actionid": "work",
             "requirements": {
@@ -93,7 +93,7 @@
             "craftable": true
         },
         {
-            "id": "summon_spirit_forgee_edge",
+            "id": "r_summon_spirit_forgee_edge",
             "label": "Summon one of the Name-emanations of the Forge of Days",
             "actionid": "work",
             "requirements": {
@@ -117,16 +117,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_forgee_edge.success"
+                    "id": "r_summon_spirit_forgee_edge.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_forgee_edge.success",
+            "id": "r_summon_spirit_forgee_edge.success",
             "label": "Summon one of the Name-emanations of the Forge of Days",
             "actionid": "work",
             "description": "He can hide in a candle-flame if he must. But here he is in all his bonfire pomp. After I speak with him, the skin of my face and hands will be pink as if from too much sun.",
@@ -134,7 +134,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_graile_edge",
+            "id": "r_summon_spirit_graile_edge",
             "label": "Summon one of the Name-emanations of the Red Grail",
             "actionid": "work",
             "requirements": {
@@ -157,16 +157,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_graile_edge.success"
+                    "id": "r_summon_spirit_graile_edge.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_graile_edge.success",
+            "id": "r_summon_spirit_graile_edge.success",
             "label": "Summon one of the Name-emanations of the Red Grail",
             "actionid": "work",
             "description": "So many rich aromas, like a feast upon the air! but first, and mostly, blood.",
@@ -174,7 +174,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_lanterne_secret",
+            "id": "r_summon_spirit_lanterne_secret",
             "label": "Summon the mysterious Name known as the Baldomerian",
             "actionid": "work",
             "requirements": {
@@ -199,7 +199,7 @@
             "comments": "Teresa doesn't struggle; she's always up for a chat"
         },
         {
-            "id": "summon_spirit_forgec_winter",
+            "id": "r_summon_spirit_forgec_winter",
             "label": "Summon a creature of smoky deception",
             "actionid": "work",
             "requirements": {
@@ -217,16 +217,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_forgec_winter.success"
+                    "id": "r_summon_spirit_forgec_winter.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_forgec_winter.success",
+            "id": "r_summon_spirit_forgec_winter.success",
             "label": "Summon a creature of smoky deception",
             "actionid": "work",
             "description": "Not all the Forge's children are bright. Its offcuts and its bastards gather in the Bounds like hammerscale in the cracks of a smithy floor. Here comes one now.",
@@ -234,7 +234,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_grailc_moth",
+            "id": "r_summon_spirit_grailc_moth",
             "label": "Summon one of the more bewildering creatures of the Red Grail",
             "actionid": "work",
             "requirements": {
@@ -252,16 +252,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_grailc_moth.success"
+                    "id": "r_summon_spirit_grailc_moth.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_grailc_moth.success",
+            "id": "r_summon_spirit_grailc_moth.success",
             "label": "Summon one of the more bewildering creatures of the Red Grail",
             "actionid": "work",
             "description": "It enters the world one limb at a time, questing like a serpent, cawing like a crow, throbbing like a vein. It will cuddle close against my leg, if I let it, and afterwards I will have to dispose of my shoes.",
@@ -269,7 +269,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_lanternc_edge",
+            "id": "r_summon_spirit_lanternc_edge",
             "label": "Summon a sharp-edged Lantern-thing",
             "actionid": "work",
             "requirements": {
@@ -287,16 +287,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_lanternc_edge.success"
+                    "id": "r_summon_spirit_lanternc_edge.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_lanternc_edge.success",
+            "id": "r_summon_spirit_lanternc_edge.success",
             "label": "Summon a sharp-edged Lantern-thing",
             "actionid": "work",
             "description": "The Hinter do not indulge themselves with showy entrances. A living gaze will shatter them. I know it's here, and that's enough for now.",
@@ -304,7 +304,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_heartc_edge",
+            "id": "r_summon_spirit_heartc_edge",
             "label": "Summon a creature of the Thunderskin",
             "actionid": "work",
             "requirements": {
@@ -322,16 +322,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_heartc_edge.success"
+                    "id": "r_summon_spirit_heartc_edge.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_heartc_edge.success",
+            "id": "r_summon_spirit_heartc_edge.success",
             "label": "Summon a creature of the Thunderskin",
             "actionid": "work",
             "description": "First the thump, the thump, the rattle and cry of the ceremonies it attends in the Wood. Now here it is, shouldering its way through the world's skin, like a clawed and ruthless uncle or a headless flapping bear.",
@@ -339,7 +339,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_winterd_edge",
+            "id": "r_summon_spirit_winterd_edge",
             "label": "Summon a servant of the Sun-in-Rags",
             "actionid": "work",
             "requirements": {
@@ -357,16 +357,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_winterd_edge.success"
+                    "id": "r_summon_spirit_winterd_edge.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_winterd_edge.success",
+            "id": "r_summon_spirit_winterd_edge.success",
             "label": "Summon a servant of the Sun-in-Rags",
             "actionid": "work",
             "description": "The thing that was a woman has no expression of her own. The movements of her eyes and mouth always match mine, as if I were looking in a mirror. Her fingernails are sharp as glass.",
@@ -374,7 +374,7 @@
             "craftable": false
         },
         {
-            "id": "summon_spirit_winterb_heart",
+            "id": "r_summon_spirit_winterb_heart",
             "label": "Summon one of the Voiceless Dead",
             "actionid": "work",
             "requirements": {
@@ -392,16 +392,16 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "summoninglosingcontrol",
+                    "id": "r_summoninglosingcontrol",
                     "chance": 30
                 },
                 {
-                    "id": "summon_spirit_winterb_heart.success"
+                    "id": "r_summon_spirit_winterb_heart.success"
                 }
             ]
         },
         {
-            "id": "summon_spirit_winterb_heart.success",
+            "id": "r_summon_spirit_winterb_heart.success",
             "label": "Summon one of the Voiceless Dead",
             "actionid": "work",
             "description": "A dark shape limned with winter light. It will not speak, but its eyes are avid, looking, looking. The Dead always long for the world, eventually.",
@@ -409,7 +409,7 @@
             "craftable": false
         },
         {
-            "id": "summoninglosingcontrol",
+            "id": "r_summoninglosingcontrol",
             "label": "Summoning: a Rebellious Spirit",
             "actionid": "work",
             "requirements": {},
@@ -417,17 +417,17 @@
             "description": "It's escaped my control!",
             "alt": [
                 {
-                    "id": "summoningshutitdown",
+                    "id": "r_summoningshutitdown",
                     "chance": 100
                 },
                 {
-                    "id": "summoningfightformastery",
+                    "id": "r_summoningfightformastery",
                     "chance": 100
                 }
             ],
             "slots": [
                 {
-                    "id": "Effort",
+                    "id": "r_Effort",
                     "label": "Effort",
                     "description": "I could use Reason to dismiss it safely, which is always reliable. I could try to reassert control with Passion, which is not reliable. Or I could let what will happen, happen.",
                     "required": {
@@ -440,13 +440,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "summoningescaped",
+                    "id": "r_summoningescaped",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "summoningshutitdown",
+            "id": "r_summoningshutitdown",
             "label": "Summoning: Sending it Home",
             "actionid": "work",
             "requirements": {
@@ -462,7 +462,7 @@
             "warmup": 10
         },
         {
-            "id": "summoningfightformastery",
+            "id": "r_summoningfightformastery",
             "label": "Summoning: Contending for Mastery",
             "actionid": "work",
             "startdescription": "The things from outside the world have many weapons: knives and riddles, fire and despair. I have weapons of my own. [This will usually, but not always, work.]",
@@ -476,17 +476,17 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "summoningmasteryregained",
+                    "id": "r_summoningmasteryregained",
                     "chance": 70
                 },
                 {
-                    "id": "summoningescaped",
+                    "id": "r_summoningescaped",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "summoningescaped",
+            "id": "r_summoningescaped",
             "label": "Summoning: a Breach!",
             "actionid": "work",
             "requirements": {},
@@ -495,7 +495,7 @@
             "warmup": 5,
             "alt": [
                 {
-                    "id": "summoning_haunt_devourer",
+                    "id": "r_summoning_haunt_devourer",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -506,7 +506,7 @@
                     }
                 },
                 {
-                    "id": "summoning_haunt_deceiver",
+                    "id": "r_summoning_haunt_deceiver",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -519,7 +519,7 @@
             ]
         },
         {
-            "id": "summoningmasteryregained",
+            "id": "r_summoningmasteryregained",
             "label": "Summoning: Mastery Regained!",
             "actionid": "work",
             "requirements": {},

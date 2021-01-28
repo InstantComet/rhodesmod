@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaulteveningisles1_setup",
+            "id": "r_explore_vaulteveningisles1_setup",
             "label": "An Expedition to Raven Isle",
             "actionid": "explore",
             "requirements": {
@@ -20,13 +20,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaulteveningisles2_setup",
+            "id": "r_explore_vaulteveningisles2_setup",
             "label": "An Expedition to Fort Geryk",
             "actionid": "explore",
             "requirements": {
@@ -45,13 +45,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaulteveningisles3_setup",
+            "id": "r_explore_vaulteveningisles3_setup",
             "label": "An Expedition to the Wreck of the Christabel",
             "actionid": "explore",
             "requirements": {
@@ -70,13 +70,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaulteveningisles4_setup",
+            "id": "r_explore_vaulteveningisles4_setup",
             "label": "An Expedition to St Tentreto of the Deep Door",
             "actionid": "explore",
             "requirements": {
@@ -95,13 +95,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaulteveningislesdefault_setup",
+            "id": "r_explore_vaulteveningislesdefault_setup",
             "label": "An Expedition to Port Noon",
             "actionid": "explore",
             "requirements": {
@@ -121,13 +121,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaulteveningisles1_success",
+            "id": "r_explorevaulteveningisles1_success",
             "label": "Raven Feathers",
             "actionid": "explore",
             "requirements": {
@@ -153,7 +153,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaulteveningisles2_success",
+            "id": "r_explorevaulteveningisles2_success",
             "label": "The Governor's Last Move",
             "actionid": "explore",
             "requirements": {
@@ -179,7 +179,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaulteveningisles3_success",
+            "id": "r_explorevaulteveningisles3_success",
             "label": "A Closed Eye",
             "actionid": "explore",
             "requirements": {
@@ -205,7 +205,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaulteveningisles4_success",
+            "id": "r_explorevaulteveningisles4_success",
             "label": "The First Tremors",
             "actionid": "explore",
             "requirements": {
@@ -231,7 +231,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaulteveningislesdefault_success",
+            "id": "r_explorevaulteveningislesdefault_success",
             "label": "All the Way from Gallaecia",
             "actionid": "explore",
             "requirements": {
@@ -249,11 +249,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "expeditionascensionheartf",
+                    "id": "r_expeditionascensionheartf",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionmothf",
+                    "id": "r_expeditionascensionmothf",
                     "chance": 100
                 }
             ]

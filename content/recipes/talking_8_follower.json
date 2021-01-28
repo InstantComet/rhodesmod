@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "talktofollower_attemptheal",
+            "id": "r_talktofollower_attemptheal",
             "label": "Attempt the healing of a Follower",
             "actionid": "talk",
             "startdescription": "Compassion, or convenience?",
@@ -13,7 +13,7 @@
             },
             "slots": [
                 {
-                    "id": "Healing",
+                    "id": "r_Healing",
                     "label": "Healing",
                     "description": "Funds will buy medicine.",
                     "required": {
@@ -23,7 +23,7 @@
             ],
             "alt": [
                 {
-                    "id": "talktofollower_heal",
+                    "id": "r_talktofollower_heal",
                     "chance": 100
                 }
             ],
@@ -31,7 +31,7 @@
             "craftable": true
         },
         {
-            "id": "talktofollower_heal",
+            "id": "r_talktofollower_heal",
             "label": "Complete the healing of a Follower",
             "startdescription": "Perhaps, now, they'll survive. But there are limits to what the human body can sustain.",
             "actionid": "talk",
@@ -57,21 +57,21 @@
             },
             "linked": [
                 {
-                    "id": "givescar_edge",
+                    "id": "r_givescar_edge",
                     "chance": 30
                 },
                 {
-                    "id": "givescar_knock",
+                    "id": "r_givescar_knock",
                     "chance": 50
                 },
                 {
-                    "id": "givescar_winter",
+                    "id": "r_givescar_winter",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "givescar_edge",
+            "id": "r_givescar_edge",
             "actionid": "talk",
             "label": "The Lessons of Experience",
             "description": "The wound is healed. The scar remains. But each scar, as the scholar Shulga once observed, is a lesson.",
@@ -91,13 +91,13 @@
             ],
             "linked": [
                 {
-                    "id": "deathscar_edge",
+                    "id": "r_deathscar_edge",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "givescar_knock",
+            "id": "r_givescar_knock",
             "label": "Pain's Gate",
             "actionid": "talk",
             "description": "The wound is healed - as much as it will ever be. A gate of pain and possibility remains.",
@@ -117,13 +117,13 @@
             ],
             "linked": [
                 {
-                    "id": "deathscar_knock",
+                    "id": "r_deathscar_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "givescar_winter",
+            "id": "r_givescar_winter",
             "actionid": "talk",
             "label": "The Beginning of an Ending",
             "description": "The wound is healed, but this one came very close to death. Silence has touched them, like snow.",
@@ -143,13 +143,13 @@
             ],
             "linked": [
                 {
-                    "id": "deathscar_winter",
+                    "id": "r_deathscar_winter",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "deathscar_edge",
+            "id": "r_deathscar_edge",
             "actionid": "talk",
             "label": "Death: a Defeat",
             "requirements": {
@@ -161,7 +161,7 @@
             }
         },
         {
-            "id": "deathscar_knock",
+            "id": "r_deathscar_knock",
             "actionid": "talk",
             "label": "Death: an Opening",
             "requirements": {
@@ -173,7 +173,7 @@
             }
         },
         {
-            "id": "deathscar_winter",
+            "id": "r_deathscar_winter",
             "actionid": "talk",
             "label": "Death: an Ending",
             "requirements": {
@@ -185,7 +185,7 @@
             }
         },
         {
-            "id": "talktofollower",
+            "id": "r_talktofollower",
             "label": "Discuss occult business with a Follower",
             "actionid": "talk",
             "requirements": {
@@ -195,7 +195,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "r_Subject",
                     "label": "Subject",
                     "description": "Our cult, for cult business; a target; or another topic.",
                     "required": {
@@ -213,242 +213,242 @@
             "comments": "We have clues upstream for recruitment/promotion, and we don't want this to override them, hence the society limitation.",
             "alt": [
                 {
-                    "id": "talktohireling_rehire",
+                    "id": "r_talktohireling_rehire",
                     "chance": 100
                 },
                 {
-                    "id": "talktodevotee_refire",
+                    "id": "r_talktodevotee_refire",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_givetool_router",
+                    "id": "r_A_talktofollower_givetool_router",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_cantgivetool",
+                    "id": "r_A_talktofollower_cantgivetool",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationcabaret_lustsensation",
+                    "id": "r_A_talktofollower_locationcabaret_lustsensation",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationcabaret_lustchange",
+                    "id": "r_A_talktofollower_locationcabaret_lustchange",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
+                    "id": "r_A_talktofollower_locationstreetsstrange_lustenlightenment",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationauctionhouse_lustpower",
+                    "id": "r_A_talktofollower_locationauctionhouse_lustpower",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationcabaret_notinterested",
+                    "id": "r_A_talktofollower_locationcabaret_notinterested",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationstreetsstrange_notinterested",
+                    "id": "r_A_talktofollower_locationstreetsstrange_notinterested",
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationauctionhouse_notinterested",
+                    "id": "r_A_talktofollower_locationauctionhouse_notinterested",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_repairtoollanternbcracked",
+                    "id": "r_followeraction_repairtoollanternbcracked",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_repairtoollanterndcracked",
+                    "id": "r_followeraction_repairtoollanterndcracked",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_repairtoollanternfcracked",
+                    "id": "r_followeraction_repairtoollanternfcracked",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction.repair.greatwork.sabotaged"
+                    "id": "r_followeraction.repair.greatwork.sabotaged"
                 },
                 {
-                    "id": "A_follower_settrap_independent",
+                    "id": "r_A_follower_settrap_independent",
                     "chance": 100
                 },
                 {
-                    "id": "A_follower_settrap_vault",
+                    "id": "r_A_follower_settrap_vault",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_murderhighwinter",
+                    "id": "r_followeraction_murderhighwinter",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_craftworkhighforge",
+                    "id": "r_followeraction_craftworkhighforge",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_seducehighgrail",
+                    "id": "r_followeraction_seducehighgrail",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_burglehighknock",
+                    "id": "r_followeraction_burglehighknock",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_charmhighheart",
+                    "id": "r_followeraction_charmhighheart",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_auguryhighlantern",
+                    "id": "r_followeraction_auguryhighlantern",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_hoodwinkhighmoth",
+                    "id": "r_followeraction_hoodwinkhighmoth",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_abducthighedge",
+                    "id": "r_followeraction_abducthighedge",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_murdermidwinter",
+                    "id": "r_followeraction_murdermidwinter",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_craftworkmidforge",
+                    "id": "r_followeraction_craftworkmidforge",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_seducemidgrail",
+                    "id": "r_followeraction_seducemidgrail",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_burglemidknock",
+                    "id": "r_followeraction_burglemidknock",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_charmmidheart",
+                    "id": "r_followeraction_charmmidheart",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_augurymidlantern",
+                    "id": "r_followeraction_augurymidlantern",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_hoodwinkmidmoth",
+                    "id": "r_followeraction_hoodwinkmidmoth",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_abductmidedge",
+                    "id": "r_followeraction_abductmidedge",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_murderlowwinter",
+                    "id": "r_followeraction_murderlowwinter",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_craftworklowforge",
+                    "id": "r_followeraction_craftworklowforge",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_seducelowgrail",
+                    "id": "r_followeraction_seducelowgrail",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_burglelowknock",
+                    "id": "r_followeraction_burglelowknock",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_charmlowheart",
+                    "id": "r_followeraction_charmlowheart",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_augurylowlantern",
+                    "id": "r_followeraction_augurylowlantern",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_hoodwinklowmoth",
+                    "id": "r_followeraction_hoodwinklowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_abductlowedge",
+                    "id": "r_followeraction_abductlowedge",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattackhighedge",
+                    "id": "r_hunterattackhighedge",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattackmidedge",
+                    "id": "r_hunterattackmidedge",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattacklowedge",
+                    "id": "r_hunterattacklowedge",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattackhighwinter",
+                    "id": "r_hunterattackhighwinter",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattackmidwinter",
+                    "id": "r_hunterattackmidwinter",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattacklowwinter",
+                    "id": "r_hunterattacklowwinter",
                     "chance": 100
                 },
                 {
-                    "id": "hunterattacknoedge",
+                    "id": "r_hunterattacknoedge",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceseducehighgrail",
+                    "id": "r_annoyanceseducehighgrail",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceattackhighedge",
+                    "id": "r_annoyanceattackhighedge",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceseducemidgrail",
+                    "id": "r_annoyanceseducemidgrail",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceattackmidedge",
+                    "id": "r_annoyanceattackmidedge",
                     "chance": 100
                 },
                 {
-                    "id": "annoyancederangemidmoth",
+                    "id": "r_annoyancederangemidmoth",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceseducelowgrail",
+                    "id": "r_annoyanceseducelowgrail",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceattacklowedge",
+                    "id": "r_annoyanceattacklowedge",
                     "chance": 100
                 },
                 {
-                    "id": "annoyancederangelowmoth",
+                    "id": "r_annoyancederangelowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "annoyanceattacknoedge",
+                    "id": "r_annoyanceattacknoedge",
                     "chance": 100
                 },
                 {
-                    "id": "evidencedestroymidmoth",
+                    "id": "r_evidencedestroymidmoth",
                     "chance": 100
                 },
                 {
-                    "id": "evidencedestroylowmoth",
+                    "id": "r_evidencedestroylowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "evidencedestroynomoth",
+                    "id": "r_evidencedestroynomoth",
                     "chance": 100
                 }
             ],
@@ -458,7 +458,7 @@
             "craftable": true
         },
         {
-            "id": "talktohireling_rehire",
+            "id": "r_talktohireling_rehire",
             "actionid": "talk",
             "label": "Offer this hireling another payment.",
             "requirements": {
@@ -477,7 +477,7 @@
             "warmup": 10
         },
         {
-            "id": "talktodevotee_refire",
+            "id": "r_talktodevotee_refire",
             "actionid": "talk",
             "label": "Fire this Devotee with faith again.",
             "requirements": {
@@ -493,7 +493,7 @@
             "warmup": 10
         },
         {
-            "id": "A_talktofollower_cantgivetool",
+            "id": "r_A_talktofollower_cantgivetool",
             "label": "Not Wise, or Not Permitted?",
             "actionid": "talk",
             "requirements": {
@@ -505,7 +505,7 @@
             "startdescription": "I have already given this follower a gift. [A follower cannot receive a second gift.]"
         },
         {
-            "id": "A_talktofollower_givetool_router",
+            "id": "r_A_talktofollower_givetool_router",
             "label": "Gift a Tool to a Follower",
             "actionid": "talk",
             "requirements": {
@@ -521,120 +521,120 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "L_give_tool_edgeb"
+                    "id": "r_L_give_tool_edgeb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_edged"
+                    "id": "r_L_give_tool_edged"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_edgef"
+                    "id": "r_L_give_tool_edgef"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_forgeb"
+                    "id": "r_L_give_tool_forgeb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_forged"
+                    "id": "r_L_give_tool_forged"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_forgef"
+                    "id": "r_L_give_tool_forgef"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_grailmoth"
+                    "id": "r_L_give_tool_grailmoth"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_grailb"
+                    "id": "r_L_give_tool_grailb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_graild"
+                    "id": "r_L_give_tool_graild"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_grailf"
+                    "id": "r_L_give_tool_grailf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_heartb"
+                    "id": "r_L_give_tool_heartb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_heartd"
+                    "id": "r_L_give_tool_heartd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_heartf"
+                    "id": "r_L_give_tool_heartf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_knockb"
+                    "id": "r_L_give_tool_knockb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_knockd"
+                    "id": "r_L_give_tool_knockd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_knockf"
+                    "id": "r_L_give_tool_knockf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_lanternb"
+                    "id": "r_L_give_tool_lanternb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_lanternd"
+                    "id": "r_L_give_tool_lanternd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_lanternf"
+                    "id": "r_L_give_tool_lanternf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_mothb"
+                    "id": "r_L_give_tool_mothb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_mothd"
+                    "id": "r_L_give_tool_mothd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_mothf"
+                    "id": "r_L_give_tool_mothf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_secrethistoriesb"
+                    "id": "r_L_give_tool_secrethistoriesb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_secrethistoriesd"
+                    "id": "r_L_give_tool_secrethistoriesd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_winterb"
+                    "id": "r_L_give_tool_winterb"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_winterd"
+                    "id": "r_L_give_tool_winterd"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_winterf"
+                    "id": "r_L_give_tool_winterf"
                 },
                 {
                     "chance": 100,
-                    "id": "L_give_tool_other"
+                    "id": "r_L_give_tool_other"
                 }
             ]
         },
         {
-            "id": "L_give_tool_edgeb",
+            "id": "r_L_give_tool_edgeb",
             "label": "A minor gift of Edge",
             "actionid": "talk",
             "description": "Around the neck, on a length of dried tiger-sinew.",
@@ -666,7 +666,7 @@
             ]
         },
         {
-            "id": "L_give_tool_edged",
+            "id": "r_L_give_tool_edged",
             "label": "A significant gift of Edge",
             "actionid": "talk",
             "description": "Close to the hand, but wrapped against the touch of blood which may excite it.",
@@ -698,7 +698,7 @@
             ]
         },
         {
-            "id": "L_give_tool_edgef",
+            "id": "r_L_give_tool_edgef",
             "label": "A great gift of Edge",
             "actionid": "talk",
             "description": "Buried somewhere it cannot incite rebellion.",
@@ -730,7 +730,7 @@
             ]
         },
         {
-            "id": "L_give_tool_forgeb",
+            "id": "r_L_give_tool_forgeb",
             "label": "A minor gift of Forge",
             "actionid": "talk",
             "description": "To be kept: around the neck, on a chain of fine steel links.",
@@ -762,7 +762,7 @@
             ]
         },
         {
-            "id": "L_give_tool_forged",
+            "id": "r_L_give_tool_forged",
             "label": "A significant gift of Forge",
             "actionid": "talk",
             "description": "To be kept: in a hoop of iron, fixed fast to the flesh.",
@@ -794,7 +794,7 @@
             ]
         },
         {
-            "id": "L_give_tool_forgef",
+            "id": "r_L_give_tool_forgef",
             "label": "A great gift of Forge",
             "actionid": "talk",
             "description": "To be kept: in the lamp of a private shrine.",
@@ -826,7 +826,7 @@
             ]
         },
         {
-            "id": "L_give_tool_grailmoth",
+            "id": "r_L_give_tool_grailmoth",
             "label": "A minor gift of Grail and Moth",
             "actionid": "talk",
             "description": "To be kept: below the neck, above the waist, in the central hollow of the chest.",
@@ -864,7 +864,7 @@
             ]
         },
         {
-            "id": "L_give_tool_grailb",
+            "id": "r_L_give_tool_grailb",
             "label": "A minor gift of Grail",
             "actionid": "talk",
             "description": "To be kept: never to be worn in daylight, and in moonlight, only with utmost caution.",
@@ -896,7 +896,7 @@
             ]
         },
         {
-            "id": "L_give_tool_graild",
+            "id": "r_L_give_tool_graild",
             "label": "A significant gift of Grail",
             "actionid": "talk",
             "description": "To be kept: into this ring will my servant weave their own hair, for its next owner to burn.",
@@ -928,7 +928,7 @@
             ]
         },
         {
-            "id": "L_give_tool_grailf",
+            "id": "r_L_give_tool_grailf",
             "label": "A great gift of Grail",
             "actionid": "talk",
             "description": "To be kept: in the cellar, beside the rarer sort of wine.",
@@ -960,7 +960,7 @@
             ]
         },
         {
-            "id": "L_give_tool_heartb",
+            "id": "r_L_give_tool_heartb",
             "label": "A minor gift of Heart",
             "actionid": "talk",
             "description": "To be carried: in a bandage-sling, like a well-behaved infant.",
@@ -992,7 +992,7 @@
             ]
         },
         {
-            "id": "L_give_tool_heartd",
+            "id": "r_L_give_tool_heartd",
             "label": "A significant gift of Heart",
             "actionid": "talk",
             "description": "To be kept: wrapped tight, so it will not shiver untimely.",
@@ -1024,7 +1024,7 @@
             ]
         },
         {
-            "id": "L_give_tool_heartf",
+            "id": "r_L_give_tool_heartf",
             "label": "A great gift of Heart",
             "actionid": "talk",
             "description": "To be kept: above the mantel, or before the threshold.",
@@ -1056,7 +1056,7 @@
             ]
         },
         {
-            "id": "L_give_tool_knockb",
+            "id": "r_L_give_tool_knockb",
             "label": "A minor gift of Knock",
             "actionid": "talk",
             "description": "To be kept: around the neck, on a length of dried serpent-gut.",
@@ -1088,7 +1088,7 @@
             ]
         },
         {
-            "id": "L_give_tool_knockd",
+            "id": "r_L_give_tool_knockd",
             "label": "A significant gift of Knock",
             "actionid": "talk",
             "description": "To be kept: at the door which is not to be opened.",
@@ -1120,7 +1120,7 @@
             ]
         },
         {
-            "id": "L_give_tool_knockf",
+            "id": "r_L_give_tool_knockf",
             "label": "A great gift of Knock",
             "actionid": "talk",
             "description": "It cannot be locked away. Keep it in the hand or beneath the tongue.",
@@ -1152,7 +1152,7 @@
             ]
         },
         {
-            "id": "L_give_tool_lanternb",
+            "id": "r_L_give_tool_lanternb",
             "label": "A minor gift of Lantern",
             "actionid": "talk",
             "description": "To be kept: around the neck, on a twist of golden wire.",
@@ -1184,7 +1184,7 @@
             ]
         },
         {
-            "id": "L_give_tool_lanternd",
+            "id": "r_L_give_tool_lanternd",
             "label": "A significant gift of Lantern",
             "actionid": "talk",
             "description": "Wherever it's kept, it will be visible in the splintered reflections of the pupils.",
@@ -1216,7 +1216,7 @@
             ]
         },
         {
-            "id": "L_give_tool_lanternf",
+            "id": "r_L_give_tool_lanternf",
             "label": "A great gift of Lantern",
             "actionid": "talk",
             "description": "To be kept: in a room without windows, to which no light is ever admitted.",
@@ -1248,7 +1248,7 @@
             ]
         },
         {
-            "id": "L_give_tool_mothb",
+            "id": "r_L_give_tool_mothb",
             "label": "A minor gift of Moth",
             "actionid": "talk",
             "description": "To be kept: in a clot of hair, in a bandage, in a box, in a place we visit only when we are ready.",
@@ -1280,7 +1280,7 @@
             ]
         },
         {
-            "id": "L_give_tool_mothd",
+            "id": "r_L_give_tool_mothd",
             "label": "A significant gift of Moth",
             "actionid": "talk",
             "description": "To be kept: upon the blank face of a mannequin-head, always facing the wall.",
@@ -1312,7 +1312,7 @@
             ]
         },
         {
-            "id": "L_give_tool_mothf",
+            "id": "r_L_give_tool_mothf",
             "label": "A great gift of Moth",
             "actionid": "talk",
             "description": "To be kept: in a copper bowl of water, mixed with three drops of blood and three strands of hair, freshened weekly; and an iron needle, so they may always be aligned to the North.",
@@ -1344,7 +1344,7 @@
             ]
         },
         {
-            "id": "L_give_tool_secrethistoriesb",
+            "id": "r_L_give_tool_secrethistoriesb",
             "label": "A minor gift in commemoration of the Secret Histories",
             "actionid": "talk",
             "description": "Sometimes, one object can be kept in more than one place.",
@@ -1376,7 +1376,7 @@
             ]
         },
         {
-            "id": "L_give_tool_secrethistoriesd",
+            "id": "r_L_give_tool_secrethistoriesd",
             "label": "A significant gift in commemoration of the Secret Histories",
             "actionid": "talk",
             "description": "To be kept: between two mirrors, beneath a light that is not to be extinguished.",
@@ -1408,7 +1408,7 @@
             ]
         },
         {
-            "id": "L_give_tool_winterb",
+            "id": "r_L_give_tool_winterb",
             "label": "A minor gift of Winter",
             "actionid": "talk",
             "description": "Kept in a silent place.",
@@ -1440,7 +1440,7 @@
             ]
         },
         {
-            "id": "L_give_tool_winterd",
+            "id": "r_L_give_tool_winterd",
             "label": "A significant gift of Winter",
             "actionid": "talk",
             "description": "Kept in an empty place.",
@@ -1472,7 +1472,7 @@
             ]
         },
         {
-            "id": "L_give_tool_winterf",
+            "id": "r_L_give_tool_winterf",
             "label": "A great gift of Winter",
             "actionid": "talk",
             "description": "Kept in an empty, silent place.",
@@ -1504,13 +1504,13 @@
             ]
         },
         {
-            "id": "L_give_tool_other",
+            "id": "r_L_give_tool_other",
             "label": "Not all gifts are suitable",
             "actionid": "talk",
             "description": "This is something that cannot be given away; or something that no-one would accept."
         },
         {
-            "id": "A_talktofollower_locationcabaret_lustsensation",
+            "id": "r_A_talktofollower_locationcabaret_lustsensation",
             "label": "Invite them to an evening at the Ecdysis Club",
             "actionid": "talk",
             "requirements": {
@@ -1522,13 +1522,13 @@
             "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
             "linked": [
                 {
-                    "id": "L_talk_roseopportunity",
+                    "id": "r_L_talk_roseopportunity",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "A_talktofollower_locationcabaret_lustchange",
+            "id": "r_A_talktofollower_locationcabaret_lustchange",
             "label": "Invite them to an evening at the Ecdysis Club",
             "actionid": "talk",
             "requirements": {
@@ -1540,13 +1540,13 @@
             "description": "My companion's breath comes short as they watch the display on the stage; not particularly when the bodies of the performers are unsheathed, but most of all when certain transformations are manifested. [To begin an affair with this character, show them that your deepest desires are aligned.]",
             "linked": [
                 {
-                    "id": "L_talk_roseopportunity",
+                    "id": "r_L_talk_roseopportunity",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
+            "id": "r_A_talktofollower_locationstreetsstrange_lustenlightenment",
             "label": "Invite them for a walk in strange streets",
             "actionid": "talk",
             "requirements": {
@@ -1558,13 +1558,13 @@
             "description": "The light is silver; the breeze is cool; the night's silence invites words as dark velvet invites a finger's touch. [To begin an affair with this character, show them that your deepest desires are aligned.]",
             "linked": [
                 {
-                    "id": "L_talk_roseopportunity",
+                    "id": "r_L_talk_roseopportunity",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "A_talktofollower_locationauctionhouse_lustpower",
+            "id": "r_A_talktofollower_locationauctionhouse_lustpower",
             "label": "Invite them to an evening at Oriflamme's",
             "actionid": "talk",
             "requirements": {
@@ -1576,13 +1576,13 @@
             "description": "Some prefer moonlit walks. Some prefer soft music. But there are those whose enjoy shining opulence, high company, and the soft click of the operations of power. [To begin an affair with this character, show them that your deepest desires are aligned.]",
             "linked": [
                 {
-                    "id": "L_talk_roseopportunity",
+                    "id": "r_L_talk_roseopportunity",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "A_talktofollower_locationcabaret_notinterested",
+            "id": "r_A_talktofollower_locationcabaret_notinterested",
             "label": "Invite them to an evening at the Ecdysis Club",
             "actionid": "talk",
             "requirements": {
@@ -1593,7 +1593,7 @@
             "description": "[Your follower has no especial interest in this place.]"
         },
         {
-            "id": "A_talktofollower_locationauctionhouse_notinterested",
+            "id": "r_A_talktofollower_locationauctionhouse_notinterested",
             "label": "Invite them to an evening at Oriflamme's",
             "actionid": "talk",
             "requirements": {
@@ -1604,7 +1604,7 @@
             "description": "[Your follower has no especial interest in this place.]"
         },
         {
-            "id": "A_talktofollower_locationstreetsstrange_notinterested",
+            "id": "r_A_talktofollower_locationstreetsstrange_notinterested",
             "label": "Invite them to take a walk in an uncanny place.",
             "actionid": "talk",
             "requirements": {
@@ -1615,7 +1615,7 @@
             "description": "[Your follower has no especial interest in this place.]"
         },
         {
-            "id": "followeraction_repairtoollanternbcracked",
+            "id": "r_followeraction_repairtoollanternbcracked",
             "label": "Repair a Cracked Noonstone",
             "actionid": "talk",
             "requirements": {
@@ -1628,17 +1628,17 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "followeraction_repairtoollanternbcracked_attempt"
+                    "id": "r_followeraction_repairtoollanternbcracked_attempt"
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanternbcracked_attempt",
+            "id": "r_followeraction_repairtoollanternbcracked_attempt",
             "label": "Repairing a Cracked Noonstone",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "r_Materials",
                     "label": "Materials",
                     "description": "Rare fuels and odd powders",
                     "required": {
@@ -1651,13 +1651,13 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "followeraction_repairtoollanternbcracked_succeed",
+                    "id": "r_followeraction_repairtoollanternbcracked_succeed",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanternbcracked_succeed",
+            "id": "r_followeraction_repairtoollanternbcracked_succeed",
             "label": "Repairing a Cracked Noonstone",
             "actionid": "talk",
             "requirements": {
@@ -1672,7 +1672,7 @@
             }
         },
         {
-            "id": "followeraction_repairtoollanterndcracked",
+            "id": "r_followeraction_repairtoollanterndcracked",
             "label": "Repair a Cracked Wildering Mirror",
             "actionid": "talk",
             "requirements": {
@@ -1685,17 +1685,17 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "followeraction_repairtoollanterndcracked_attempt"
+                    "id": "r_followeraction_repairtoollanterndcracked_attempt"
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanterndcracked_attempt",
+            "id": "r_followeraction_repairtoollanterndcracked_attempt",
             "label": "Repairing a Cracked Wildering Mirror",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "r_Materials",
                     "label": "Materials",
                     "description": "Rare metals and improbable tints",
                     "required": {
@@ -1708,13 +1708,13 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "followeraction_repairtoollanterndcracked_succeed",
+                    "id": "r_followeraction_repairtoollanterndcracked_succeed",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanterndcracked_succeed",
+            "id": "r_followeraction_repairtoollanterndcracked_succeed",
             "label": "Repairing a Cracked Wildering Mirror",
             "actionid": "talk",
             "requirements": {
@@ -1729,7 +1729,7 @@
             }
         },
         {
-            "id": "followeraction_repairtoollanternfcracked",
+            "id": "r_followeraction_repairtoollanternfcracked",
             "label": "Repair a Cracked Watchman's Glass",
             "actionid": "talk",
             "requirements": {
@@ -1742,17 +1742,17 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "followeraction_repairtoollanternfcracked_attempt"
+                    "id": "r_followeraction_repairtoollanternfcracked_attempt"
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanternfcracked_attempt",
+            "id": "r_followeraction_repairtoollanternfcracked_attempt",
             "label": "Repairing a Cracked Watchman's Glass",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "r_Materials",
                     "label": "Materials",
                     "description": "Shining songs and exotic alloys",
                     "required": {
@@ -1765,13 +1765,13 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "followeraction_repairtoollanternfcracked_succeed",
+                    "id": "r_followeraction_repairtoollanternfcracked_succeed",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_repairtoollanternfcracked_succeed",
+            "id": "r_followeraction_repairtoollanternfcracked_succeed",
             "label": "Repairing a Cracked Watchman's Glass",
             "actionid": "talk",
             "requirements": {
@@ -1786,7 +1786,7 @@
             }
         },
         {
-            "id": "followeraction.repair.greatwork.sabotaged",
+            "id": "r_followeraction.repair.greatwork.sabotaged",
             "label": "Repair a Sabotaged Element of the Great Work",
             "actionid": "talk",
             "requirements": {
@@ -1799,17 +1799,17 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "followeraction.repair.greatwork.sabotaged.attempt"
+                    "id": "r_followeraction.repair.greatwork.sabotaged.attempt"
                 }
             ]
         },
         {
-            "id": "followeraction.repair.greatwork.sabotaged.attempt",
+            "id": "r_followeraction.repair.greatwork.sabotaged.attempt",
             "label": "Repairing a Sabotaged Element of the Great Work",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "r_Materials",
                     "label": "Materials",
                     "description": "Metals and mercies",
                     "required": {
@@ -1822,13 +1822,13 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "followeraction.repair.greatwork.sabotaged.succeed",
+                    "id": "r_followeraction.repair.greatwork.sabotaged.succeed",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction.repair.greatwork.sabotaged.succeed",
+            "id": "r_followeraction.repair.greatwork.sabotaged.succeed",
             "label": "Repairing a Sabotaged Element of the Great Work",
             "actionid": "talk",
             "requirements": {
@@ -1841,7 +1841,7 @@
             }
         },
         {
-            "id": "A_follower_settrap_independent",
+            "id": "r_A_follower_settrap_independent",
             "actionid": "talk",
             "label": "Create a Snare to delay or defeat a Rival",
             "startdescription": "Rivals don't prowl the streets like Hunters. They will only meet us on neutral ground. To defeat one, we must prepare a trap they may stumble into. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
@@ -1853,7 +1853,7 @@
             "comments": "Follower requirement isn't redundant... cos we also link here from conversations with Independents.",
             "alt": [
                 {
-                    "id": "expel_independent",
+                    "id": "r_expel_independent",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -1866,13 +1866,13 @@
             ],
             "linked": [
                 {
-                    "id": "L_set_trap_router",
+                    "id": "r_L_set_trap_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "A_follower_settrap_vault",
+            "id": "r_A_follower_settrap_vault",
             "actionid": "talk",
             "label": "Create a Snare to delay or defeat a Rival",
             "startdescription": "Rivals are cautious: they don't prowl the streets like Hunters. To defeat one, we must prepare a trap, and await our opportunity. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
@@ -1881,230 +1881,230 @@
             },
             "linked": [
                 {
-                    "id": "L_set_trap_router",
+                    "id": "r_L_set_trap_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_set_trap_router",
+            "id": "r_L_set_trap_router",
             "actionid": "talk",
             "effects": {
                 "snare": 1
             },
             "linked": [
                 {
-                    "id": "L_settrap_highedge",
+                    "id": "r_L_settrap_highedge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_highwinter",
+                    "id": "r_L_settrap_highwinter",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_highforge",
+                    "id": "r_L_settrap_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_highmoth",
+                    "id": "r_L_settrap_highmoth",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_midedge",
+                    "id": "r_L_settrap_midedge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_midwinter",
+                    "id": "r_L_settrap_midwinter",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_midforge",
+                    "id": "r_L_settrap_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_midmoth",
+                    "id": "r_L_settrap_midmoth",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_lowedge",
+                    "id": "r_L_settrap_lowedge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_lowwinter",
+                    "id": "r_L_settrap_lowwinter",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_lowforge",
+                    "id": "r_L_settrap_lowforge",
                     "chance": 100
                 },
                 {
-                    "id": "L_settrap_lowmoth",
+                    "id": "r_L_settrap_lowmoth",
                     "chance": 100
                 },
                 {
-                    "id": "L_createsnare_rubbish",
+                    "id": "r_L_createsnare_rubbish",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_highedge",
+            "id": "r_L_settrap_highedge",
             "actionid": "talk",
             "requirements": {
                 "edge": 10
             },
             "linked": [
                 {
-                    "id": "L_createsnare_great",
+                    "id": "r_L_createsnare_great",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_highwinter",
+            "id": "r_L_settrap_highwinter",
             "actionid": "talk",
             "requirements": {
                 "winter": 10
             },
             "linked": [
                 {
-                    "id": "L_createsnare_great",
+                    "id": "r_L_createsnare_great",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_highforge",
+            "id": "r_L_settrap_highforge",
             "actionid": "talk",
             "requirements": {
                 "forge": 10
             },
             "linked": [
                 {
-                    "id": "L_createsnare_great",
+                    "id": "r_L_createsnare_great",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_highmoth",
+            "id": "r_L_settrap_highmoth",
             "actionid": "talk",
             "requirements": {
                 "moth": 10
             },
             "linked": [
                 {
-                    "id": "L_createsnare_great",
+                    "id": "r_L_createsnare_great",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_midedge",
+            "id": "r_L_settrap_midedge",
             "actionid": "talk",
             "requirements": {
                 "edge": 7
             },
             "linked": [
                 {
-                    "id": "L_createsnare_good",
+                    "id": "r_L_createsnare_good",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_midwinter",
+            "id": "r_L_settrap_midwinter",
             "actionid": "talk",
             "requirements": {
                 "winter": 7
             },
             "linked": [
                 {
-                    "id": "L_createsnare_good",
+                    "id": "r_L_createsnare_good",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_midforge",
+            "id": "r_L_settrap_midforge",
             "actionid": "talk",
             "requirements": {
                 "forge": 7
             },
             "linked": [
                 {
-                    "id": "L_createsnare_good",
+                    "id": "r_L_createsnare_good",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_midmoth",
+            "id": "r_L_settrap_midmoth",
             "actionid": "talk",
             "requirements": {
                 "moth": 7
             },
             "linked": [
                 {
-                    "id": "L_createsnare_good",
+                    "id": "r_L_createsnare_good",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_lowedge",
+            "id": "r_L_settrap_lowedge",
             "actionid": "talk",
             "requirements": {
                 "edge": 3
             },
             "linked": [
                 {
-                    "id": "L_createsnare_poor",
+                    "id": "r_L_createsnare_poor",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_lowwinter",
+            "id": "r_L_settrap_lowwinter",
             "actionid": "talk",
             "requirements": {
                 "winter": 3
             },
             "linked": [
                 {
-                    "id": "L_createsnare_poor",
+                    "id": "r_L_createsnare_poor",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_lowforge",
+            "id": "r_L_settrap_lowforge",
             "actionid": "talk",
             "requirements": {
                 "forge": 3
             },
             "linked": [
                 {
-                    "id": "L_createsnare_poor",
+                    "id": "r_L_createsnare_poor",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_settrap_lowmoth",
+            "id": "r_L_settrap_lowmoth",
             "actionid": "talk",
             "requirements": {
                 "moth": 3
             },
             "linked": [
                 {
-                    "id": "L_createsnare_poor",
+                    "id": "r_L_createsnare_poor",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "L_createsnare_great",
+            "id": "r_L_createsnare_great",
             "actionid": "talk",
             "label": "A Perilous Snare",
             "description": "My follower has set a perilously cunning ambuscade - one that will almost certainly succeed.",
@@ -2119,7 +2119,7 @@
             "warmup": 30
         },
         {
-            "id": "L_createsnare_good",
+            "id": "r_L_createsnare_good",
             "actionid": "talk",
             "label": "A Cunning Snare",
             "description": "My follower has set a cunning ambuscade - one that will likely succeed.",
@@ -2134,7 +2134,7 @@
             "warmup": 30
         },
         {
-            "id": "L_createsnare_poor",
+            "id": "r_L_createsnare_poor",
             "actionid": "talk",
             "label": "An Adequate Snare",
             "description": "My follower has prepared a stratagem which - with considerable luck - might defeat a rival's plans.",
@@ -2149,14 +2149,14 @@
             "warmup": 30
         },
         {
-            "id": "L_createsnare_rubbish",
+            "id": "r_L_createsnare_rubbish",
             "actionid": "talk",
             "label": "A Desperate Attempt",
             "description": "My follower's plan is eccentric at best and incompetent at worst, but perhaps an enemy will stumble into it.",
             "warmup": 30
         },
         {
-            "id": "followeraction_abducthighedge",
+            "id": "r_followeraction_abducthighedge",
             "label": "Cult Business: Abduct a Stranger",
             "actionid": "talk",
             "startdescription": "An Assassin can snatch a victim off the streets with ease.",
@@ -2168,17 +2168,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_abductsuccess",
+                    "id": "r_followeraction_abductsuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_abductfailure",
+                    "id": "r_followeraction_abductfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_abductmidedge",
+            "id": "r_followeraction_abductmidedge",
             "label": "Cult Business: Abduct a Stranger",
             "actionid": "talk",
             "startdescription": "A skilled Disciple can probably abduct an unwary victim.",
@@ -2189,17 +2189,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_abductsuccess",
+                    "id": "r_followeraction_abductsuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_abductfailure",
+                    "id": "r_followeraction_abductfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_abductlowedge",
+            "id": "r_followeraction_abductlowedge",
             "label": "Cult Business: Abduct a Stranger",
             "actionid": "talk",
             "startdescription": "My Believer will struggle to abduct a victim, but they may be lucky.",
@@ -2210,17 +2210,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_abductsuccess",
+                    "id": "r_followeraction_abductsuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_abductfailure",
+                    "id": "r_followeraction_abductfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_abductsuccess",
+            "id": "r_followeraction_abductsuccess",
             "label": "Attempting an Abduction",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2235,7 +2235,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_abductfailure",
+            "id": "r_followeraction_abductfailure",
             "label": "Attempting an Abduction",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2245,14 +2245,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_abductfailure_losefollower",
+                    "id": "r_followeraction_abductfailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_abductfailure_losefollower",
+            "id": "r_followeraction_abductfailure_losefollower",
             "label": "Attempting an Abduction",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2277,7 +2277,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_murderhighwinter",
+            "id": "r_followeraction_murderhighwinter",
             "label": "Cult Business: Murder a Stranger",
             "actionid": "talk",
             "startdescription": "This one nearly always returns with a death in their pocket.",
@@ -2289,17 +2289,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_murdersuccess",
+                    "id": "r_followeraction_murdersuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_murderfailure",
+                    "id": "r_followeraction_murderfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_murdermidwinter",
+            "id": "r_followeraction_murdermidwinter",
             "label": "Cult Business: Murder a Stranger",
             "actionid": "talk",
             "startdescription": "A skilled Disciple can probably bring back a fresh corpse.",
@@ -2310,17 +2310,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_murdersuccess",
+                    "id": "r_followeraction_murdersuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_murderfailure",
+                    "id": "r_followeraction_murderfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_murderlowwinter",
+            "id": "r_followeraction_murderlowwinter",
             "label": "Cult Business: Murder a Stranger",
             "actionid": "talk",
             "startdescription": "My Believer may very easily fail.",
@@ -2331,17 +2331,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_murdersuccess",
+                    "id": "r_followeraction_murdersuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_murderfailure",
+                    "id": "r_followeraction_murderfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_murdersuccess",
+            "id": "r_followeraction_murdersuccess",
             "label": "Attempting a Murder...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2356,7 +2356,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_murderfailure",
+            "id": "r_followeraction_murderfailure",
             "label": "Attempting a Murder...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2366,14 +2366,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_murderfailure_losefollower",
+                    "id": "r_followeraction_murderfailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_murderfailure_losefollower",
+            "id": "r_followeraction_murderfailure_losefollower",
             "label": "Attempting a Murder...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -2398,7 +2398,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_craftworkhighforge",
+            "id": "r_followeraction_craftworkhighforge",
             "label": "Cult Business: Craftsmanship",
             "actionid": "talk",
             "startdescription": "My Reshaper can earn funds in illegal laboratories and shadowy manufactories. Occasionally, something may go awry.",
@@ -2410,17 +2410,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_craftworksuccess",
+                    "id": "r_followeraction_craftworksuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_craftworkfailure",
+                    "id": "r_followeraction_craftworkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_craftworkmidforge",
+            "id": "r_followeraction_craftworkmidforge",
             "label": "Cult Business: Craftsmanship",
             "actionid": "talk",
             "startdescription": "My Disciple can probably earn funds in illegal laboratories and shadowy manufactories - but there is a risk of accidents.",
@@ -2431,17 +2431,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_craftworksuccess",
+                    "id": "r_followeraction_craftworksuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_craftworkfailure",
+                    "id": "r_followeraction_craftworkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_craftworklowforge",
+            "id": "r_followeraction_craftworklowforge",
             "label": "Cult Business: Craftsmanship",
             "actionid": "talk",
             "startdescription": "My Believer might be able to earn funds in illegal laboratories and shadowy manufactories... if they're lucky.",
@@ -2452,17 +2452,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_craftworksuccess",
+                    "id": "r_followeraction_craftworksuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_craftworkfailure",
+                    "id": "r_followeraction_craftworkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_craftworksuccess",
+            "id": "r_followeraction_craftworksuccess",
             "label": "Working under Contract...",
             "actionid": "talk",
             "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
@@ -2473,7 +2473,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_craftworkfailure",
+            "id": "r_followeraction_craftworkfailure",
             "label": "Working under Contract...",
             "actionid": "talk",
             "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
@@ -2481,14 +2481,14 @@
             "effects": {},
             "alt": [
                 {
-                    "id": "followeraction_craftworkfailure_losefollower",
+                    "id": "r_followeraction_craftworkfailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_craftworkfailure_losefollower",
+            "id": "r_followeraction_craftworkfailure_losefollower",
             "label": "Working under Contract...",
             "actionid": "talk",
             "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
@@ -2510,7 +2510,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_seducehighgrail",
+            "id": "r_followeraction_seducehighgrail",
             "label": "Cult Business: Seduce a Stranger",
             "actionid": "talk",
             "startdescription": "No-one refuses a Cyprian. Almost no-one.",
@@ -2522,17 +2522,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_seducesuccess",
+                    "id": "r_followeraction_seducesuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_seducefailure",
+                    "id": "r_followeraction_seducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_seducemidgrail",
+            "id": "r_followeraction_seducemidgrail",
             "label": "Cult Business: Seduce a Stranger",
             "actionid": "talk",
             "startdescription": "A sufficiently persuasive Disciple can probably lure a susceptible companion back to us.",
@@ -2543,17 +2543,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_seducesuccess",
+                    "id": "r_followeraction_seducesuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_seducefailure",
+                    "id": "r_followeraction_seducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_seducelowgrail",
+            "id": "r_followeraction_seducelowgrail",
             "label": "Cult Business: Seduce a Stranger",
             "actionid": "talk",
             "startdescription": "My Believer might be able to lure a victim back to us.",
@@ -2564,17 +2564,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_seducesuccess",
+                    "id": "r_followeraction_seducesuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_seducefailure",
+                    "id": "r_followeraction_seducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_seducesuccess",
+            "id": "r_followeraction_seducesuccess",
             "label": "Attempting a Seduction",
             "actionid": "talk",
             "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
@@ -2589,7 +2589,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_seducefailure",
+            "id": "r_followeraction_seducefailure",
             "label": "Attempting a Seduction",
             "actionid": "talk",
             "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
@@ -2599,14 +2599,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_seducefailure_losefollower",
+                    "id": "r_followeraction_seducefailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_seducefailure_losefollower",
+            "id": "r_followeraction_seducefailure_losefollower",
             "label": "Attempting a Seduction",
             "actionid": "talk",
             "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
@@ -2631,7 +2631,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_burglehighknock",
+            "id": "r_followeraction_burglehighknock",
             "label": "Cult Business: Burglary",
             "actionid": "talk",
             "startdescription": "My Key should be capable of defeating any lock in this city.",
@@ -2643,17 +2643,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_burglesuccess",
+                    "id": "r_followeraction_burglesuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_burglefailure",
+                    "id": "r_followeraction_burglefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_burglemidknock",
+            "id": "r_followeraction_burglemidknock",
             "label": "Cult Business: Burglary",
             "actionid": "talk",
             "startdescription": "My Disciple can probably use their talents to harvest treasures from the unsuspecting.",
@@ -2664,17 +2664,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_burglesuccess",
+                    "id": "r_followeraction_burglesuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_burglefailure",
+                    "id": "r_followeraction_burglefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_burglelowknock",
+            "id": "r_followeraction_burglelowknock",
             "label": "Cult Business: Burglary",
             "actionid": "talk",
             "startdescription": "My Believer might be able to harvest treasures from the unsuspecting... if they're lucky.",
@@ -2685,17 +2685,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_burglesuccess",
+                    "id": "r_followeraction_burglesuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_burglefailure",
+                    "id": "r_followeraction_burglefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_burglesuccess",
+            "id": "r_followeraction_burglesuccess",
             "label": "Breaking, Entering, Returning...",
             "actionid": "talk",
             "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
@@ -2710,7 +2710,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_burglefailure",
+            "id": "r_followeraction_burglefailure",
             "label": "Breaking, Entering, Returning...",
             "actionid": "talk",
             "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
@@ -2720,14 +2720,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_burglefailure_losefollower",
+                    "id": "r_followeraction_burglefailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_burglefailure_losefollower",
+            "id": "r_followeraction_burglefailure_losefollower",
             "label": "Breaking, Entering, Returning...",
             "actionid": "talk",
             "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
@@ -2752,7 +2752,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_charmhighheart",
+            "id": "r_followeraction_charmhighheart",
             "label": "Cult Business: Charm",
             "actionid": "talk",
             "startdescription": "Not everyone is sympathetic to our aims, but my Tarantellist is popular everywhere. If we have problems with our reputation, they can almost certainly smooth them over.",
@@ -2764,17 +2764,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_charmsuccess",
+                    "id": "r_followeraction_charmsuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_charmfailure",
+                    "id": "r_followeraction_charmfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_charmmidheart",
+            "id": "r_followeraction_charmmidheart",
             "label": "Cult Business: Charm",
             "actionid": "talk",
             "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Disciple can probably smooth them over.",
@@ -2785,17 +2785,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_charmsuccess",
+                    "id": "r_followeraction_charmsuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_charmfailure",
+                    "id": "r_followeraction_charmfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_charmlowheart",
+            "id": "r_followeraction_charmlowheart",
             "label": "Cult Business: Charm",
             "actionid": "talk",
             "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Believer might be able to smooth them over. ",
@@ -2806,22 +2806,22 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_charmsuccess",
+                    "id": "r_followeraction_charmsuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_charmfailure",
+                    "id": "r_followeraction_charmfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_charmsuccess",
+            "id": "r_followeraction_charmsuccess",
             "label": "Earnest Speeches, Affable Conversation",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Reputation",
+                    "id": "r_Reputation",
                     "label": "Reputation",
                     "required": {
                         "reputation": 1
@@ -2837,12 +2837,12 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_charmfailure",
+            "id": "r_followeraction_charmfailure",
             "label": "Earnest Speeches, Affable Conversation",
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Reputation",
+                    "id": "r_Reputation",
                     "label": "Reputation",
                     "required": {
                         "reputation": 1
@@ -2858,7 +2858,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_auguryhighlantern",
+            "id": "r_followeraction_auguryhighlantern",
             "label": "Cult Business: Augury",
             "actionid": "talk",
             "startdescription": "My Seer can determine times and places where power will be available for our uses. There is a small risk.",
@@ -2870,17 +2870,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_augurysuccess",
+                    "id": "r_followeraction_augurysuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_auguryfailure",
+                    "id": "r_followeraction_auguryfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_augurymidlantern",
+            "id": "r_followeraction_augurymidlantern",
             "label": "Cult Business: Augury",
             "actionid": "talk",
             "startdescription": "My Disciple can probably determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
@@ -2891,17 +2891,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_augurysuccess",
+                    "id": "r_followeraction_augurysuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_auguryfailure",
+                    "id": "r_followeraction_auguryfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_augurylowlantern",
+            "id": "r_followeraction_augurylowlantern",
             "label": "Cult Business: Augury",
             "actionid": "talk",
             "startdescription": "My Believer might be able to determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
@@ -2912,17 +2912,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_augurysuccess",
+                    "id": "r_followeraction_augurysuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_auguryfailure",
+                    "id": "r_followeraction_auguryfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_augurysuccess",
+            "id": "r_followeraction_augurysuccess",
             "label": "Beneath the World's Skin",
             "actionid": "talk",
             "startdescription": "Hours of scholarship and meditation...",
@@ -2936,7 +2936,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_auguryfailure",
+            "id": "r_followeraction_auguryfailure",
             "label": "Beneath the World's Skin",
             "actionid": "talk",
             "startdescription": "Hours of scholarship and meditation...",
@@ -2946,14 +2946,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_auguryfailure_losefollower",
+                    "id": "r_followeraction_auguryfailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_auguryfailure_losefollower",
+            "id": "r_followeraction_auguryfailure_losefollower",
             "label": "Beneath the World's Skin",
             "actionid": "talk",
             "startdescription": "Hours of scholarship and meditation...",
@@ -2978,7 +2978,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_hoodwinkhighmoth",
+            "id": "r_followeraction_hoodwinkhighmoth",
             "label": "Cult Business: Hoodwink",
             "actionid": "talk",
             "startdescription": "My Skintwister's cunning is enough to part fools from their treasure as easily as picking pears in an orchard. (Although even a pear orchard has the occasional hazard. Wasps, perhaps.)",
@@ -2990,17 +2990,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_hoodwinksuccess",
+                    "id": "r_followeraction_hoodwinksuccess",
                     "chance": 90
                 },
                 {
-                    "id": "followeraction_hoodwinkfailure",
+                    "id": "r_followeraction_hoodwinkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_hoodwinkmidmoth",
+            "id": "r_followeraction_hoodwinkmidmoth",
             "label": "Cult Business: Hoodwink",
             "actionid": "talk",
             "startdescription": "My Disciple can probably use their talents to part fools from their treasures.",
@@ -3011,17 +3011,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_hoodwinksuccess",
+                    "id": "r_followeraction_hoodwinksuccess",
                     "chance": 70
                 },
                 {
-                    "id": "followeraction_hoodwinkfailure",
+                    "id": "r_followeraction_hoodwinkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_hoodwinklowmoth",
+            "id": "r_followeraction_hoodwinklowmoth",
             "label": "Cult Business: Hoodwink",
             "actionid": "talk",
             "startdescription": "My Believer might be able to part fools from their treasures... if they're lucky.",
@@ -3032,17 +3032,17 @@
             },
             "linked": [
                 {
-                    "id": "followeraction_hoodwinksuccess",
+                    "id": "r_followeraction_hoodwinksuccess",
                     "chance": 30
                 },
                 {
-                    "id": "followeraction_hoodwinkfailure",
+                    "id": "r_followeraction_hoodwinkfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "followeraction_hoodwinksuccess",
+            "id": "r_followeraction_hoodwinksuccess",
             "label": "Deceit and Confusion",
             "actionid": "talk",
             "startdescription": "My follower is attempting a profitable deception.",
@@ -3057,7 +3057,7 @@
             "warmup": 30
         },
         {
-            "id": "followeraction_hoodwinkfailure",
+            "id": "r_followeraction_hoodwinkfailure",
             "label": "Deceit and Confusion",
             "actionid": "talk",
             "startdescription": "My follower is attempting a profitable deception.",
@@ -3067,14 +3067,14 @@
             },
             "alt": [
                 {
-                    "id": "followeraction_hoodwinkfailure_losefollower",
+                    "id": "r_followeraction_hoodwinkfailure_losefollower",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "followeraction_hoodwinkfailure_losefollower",
+            "id": "r_followeraction_hoodwinkfailure_losefollower",
             "label": "Deceit and Confusion",
             "actionid": "talk",
             "startdescription": "My follower is attempting a profitable deception.",

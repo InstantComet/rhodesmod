@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "speakpublicly",
+            "id": "r_speakpublicly",
             "label": "Speak of esoteric matters",
             "actionid": "talk",
             "requirements": {
@@ -20,17 +20,17 @@
             },
             "linked": [
                 {
-                    "id": "talkfindacquaintance",
+                    "id": "r_talkfindacquaintance",
                     "chance": 100
                 },
                 {
-                    "id": "talkfindpatron",
+                    "id": "r_talkfindpatron",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "talkfindacquaintance",
+            "id": "r_talkfindacquaintance",
             "label": "An Acquaintance?",
             "actionid": "talk",
             "requirements": {
@@ -38,7 +38,7 @@
             },
             "slots": [
                 {
-                    "id": "escalation",
+                    "id": "r_escalation",
                     "label": "Passion",
                     "description": "I must be fervent and convincing.",
                     "required": {
@@ -50,7 +50,7 @@
             "startdescription": "I've found someone who may be a kindred spirit - but I'll need to win them over. [Winning over an Acquaintance requires your Passion.]",
             "alt": [
                 {
-                    "id": "talkmeetacquaintance",
+                    "id": "r_talkmeetacquaintance",
                     "chance": 100
                 }
             ],
@@ -61,7 +61,7 @@
             "warmup": 60
         },
         {
-            "id": "talkfindpatron",
+            "id": "r_talkfindpatron",
             "label": "A Patron?",
             "actionid": "talk",
             "requirements": {
@@ -69,7 +69,7 @@
             },
             "slots": [
                 {
-                    "id": "escalation",
+                    "id": "r_escalation",
                     "label": "Reason",
                     "description": "I must be articulate and credible.",
                     "required": {
@@ -81,7 +81,7 @@
             "startdescription": "I've found someone who may have resources of use to me - but I'll need to impress them. [Impressing a Patron demands your Reason.]",
             "alt": [
                 {
-                    "id": "talkmeetpatron",
+                    "id": "r_talkmeetpatron",
                     "chance": 100
                 }
             ],
@@ -92,7 +92,7 @@
             "warmup": 60
         },
         {
-            "id": "talkmeetacquaintance",
+            "id": "r_talkmeetacquaintance",
             "label": "An Acquaintance",
             "actionid": "talk",
             "requirements": {
@@ -109,7 +109,7 @@
             "warmup": 5
         },
         {
-            "id": "talkmeetpatron",
+            "id": "r_talkmeetpatron",
             "label": "A Patron",
             "actionid": "talk",
             "requirements": {
@@ -126,7 +126,7 @@
             "warmup": 5
         },
         {
-            "id": "talktotroublemaker",
+            "id": "r_talktotroublemaker",
             "label": "Arrange a meeting on neutral ground.",
             "actionid": "talk",
             "requirements": {
@@ -136,34 +136,34 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "r_Subject",
                     "label": "Subject",
                     "description": "A topic of conversation."
                 }
             ],
             "alt": [
                 {
-                    "id": "A_follower_settrap_independent",
+                    "id": "r_A_follower_settrap_independent",
                     "chance": 100
                 },
                 {
-                    "id": "independentloreconversation",
+                    "id": "r_independentloreconversation",
                     "chance": 100
                 },
                 {
-                    "id": "independentdesireconversation",
+                    "id": "r_independentdesireconversation",
                     "chance": 100
                 },
                 {
-                    "id": "independentfitewithextraswole",
+                    "id": "r_independentfitewithextraswole",
                     "chance": 100
                 },
                 {
-                    "id": "independentfitewithswole",
+                    "id": "r_independentfitewithswole",
                     "chance": 100
                 },
                 {
-                    "id": "independentspeakpoison",
+                    "id": "r_independentspeakpoison",
                     "chance": 100
                 }
             ],
@@ -176,7 +176,7 @@
             "craftable": true
         },
         {
-            "id": "independentloreconversation",
+            "id": "r_independentloreconversation",
             "label": "Arrange a meeting on neutral ground.",
             "actionid": "talk",
             "requirements": {
@@ -189,7 +189,7 @@
             }
         },
         {
-            "id": "independentdesireconversation",
+            "id": "r_independentdesireconversation",
             "label": "Arrange a meeting on neutral ground.",
             "actionid": "talk",
             "requirements": {
@@ -202,7 +202,7 @@
             }
         },
         {
-            "id": "independentfitewithextraswole",
+            "id": "r_independentfitewithextraswole",
             "label": "A Surprise Attack on a Rival",
             "actionid": "talk",
             "requirements": {
@@ -212,7 +212,7 @@
             "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
             "alt": [
                 {
-                    "id": "independentfitewithswole_failure",
+                    "id": "r_independentfitewithswole_failure",
                     "chance": 70
                 }
             ],
@@ -225,7 +225,7 @@
             "craftable": false
         },
         {
-            "id": "independentfitewithswole",
+            "id": "r_independentfitewithswole",
             "label": "A Surprise Attack on a Rival",
             "actionid": "talk",
             "requirements": {
@@ -235,7 +235,7 @@
             "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
             "alt": [
                 {
-                    "id": "independentfitewithswole_failure",
+                    "id": "r_independentfitewithswole_failure",
                     "chance": 90
                 }
             ],
@@ -248,7 +248,7 @@
             "craftable": false
         },
         {
-            "id": "independentfitewithswole_failure",
+            "id": "r_independentfitewithswole_failure",
             "label": "A Surprise Attack has Failed!",
             "actionid": "talk",
             "startdescription": ".",
@@ -272,7 +272,7 @@
             ]
         },
         {
-            "id": "independentspeakpoison",
+            "id": "r_independentspeakpoison",
             "label": "Employ a Remarkable Poison against a Rival",
             "actionid": "talk",
             "requirements": {
@@ -296,7 +296,7 @@
             "craftable": false
         },
         {
-            "id": "talktohunter",
+            "id": "r_talktohunter",
             "label": "Arrange a meeting with an adversary",
             "actionid": "talk",
             "requirements": {
@@ -304,68 +304,68 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "r_Subject",
                     "label": "Subject",
                     "description": "A topic of conversation... or a minion who will destroy them."
                 }
             ],
             "alt": [
                 {
-                    "id": "hunterfitewithextraswole"
+                    "id": "r_hunterfitewithextraswole"
                 },
                 {
-                    "id": "hunterfitewithswole"
+                    "id": "r_hunterfitewithswole"
                 },
                 {
-                    "id": "hunterspeakpoison_glassfinger"
+                    "id": "r_hunterspeakpoison_glassfinger"
                 },
                 {
-                    "id": "hunterspeakpoison"
+                    "id": "r_hunterspeakpoison"
                 },
                 {
-                    "id": "hunterspeakwinterg"
+                    "id": "r_hunterspeakwinterg"
                 },
                 {
-                    "id": "hunterspeakwinterd"
+                    "id": "r_hunterspeakwinterd"
                 },
                 {
-                    "id": "hunterspeakwinter"
+                    "id": "r_hunterspeakwinter"
                 },
                 {
-                    "id": "hunterspeakdread"
+                    "id": "r_hunterspeakdread"
                 },
                 {
-                    "id": "hunterspeaklanterng"
+                    "id": "r_hunterspeaklanterng"
                 },
                 {
-                    "id": "hunterspeaklanternd"
+                    "id": "r_hunterspeaklanternd"
                 },
                 {
-                    "id": "hunterspeaklantern"
+                    "id": "r_hunterspeaklantern"
                 },
                 {
-                    "id": "hunterspeakfascination"
+                    "id": "r_hunterspeakfascination"
                 },
                 {
-                    "id": "hunterattackhighedge"
+                    "id": "r_hunterattackhighedge"
                 },
                 {
-                    "id": "hunterattackhighwinter"
+                    "id": "r_hunterattackhighwinter"
                 },
                 {
-                    "id": "hunterattackmidedge"
+                    "id": "r_hunterattackmidedge"
                 },
                 {
-                    "id": "hunterattackmidwinter"
+                    "id": "r_hunterattackmidwinter"
                 },
                 {
-                    "id": "hunterattacklowedge"
+                    "id": "r_hunterattacklowedge"
                 },
                 {
-                    "id": "hunterattacklowwinter"
+                    "id": "r_hunterattacklowwinter"
                 },
                 {
-                    "id": "hunterattacknoedge"
+                    "id": "r_hunterattacknoedge"
                 }
             ],
             "startdescription": "Perhaps we could parley. Or perhaps I could send something to ambush them.",
@@ -377,7 +377,7 @@
             "craftable": true
         },
         {
-            "id": "talktospirit",
+            "id": "r_talktospirit",
             "label": "Speak to something I have summoned",
             "actionid": "talk",
             "requirements": {
@@ -387,7 +387,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "r_Subject",
                     "label": "Subject",
                     "description": "A topic of conversation... or a target."
                 }
@@ -395,91 +395,91 @@
             "comments": "We have clues upstream for recruitment/promotion, and we don't want this to override them, hence the society limitation.",
             "alt": [
                 {
-                    "id": "discusspassionsacrifice"
+                    "id": "r_discusspassionsacrifice"
                 },
                 {
-                    "id": "discussreasonsacrifice"
+                    "id": "r_discussreasonsacrifice"
                 },
                 {
-                    "id": "discusssicknessprotectionspirit"
+                    "id": "r_discusssicknessprotectionspirit"
                 },
                 {
-                    "id": "discussfucinespirit"
+                    "id": "r_discussfucinespirit"
                 },
                 {
-                    "id": "discussphrygianspirit"
+                    "id": "r_discussphrygianspirit"
                 },
                 {
-                    "id": "discussmandaicspirit"
+                    "id": "r_discussmandaicspirit"
                 },
                 {
-                    "id": "hunterattackhighedge"
+                    "id": "r_hunterattackhighedge"
                 },
                 {
-                    "id": "hunterattackmidedge"
+                    "id": "r_hunterattackmidedge"
                 },
                 {
-                    "id": "hunterattacklowedge"
+                    "id": "r_hunterattacklowedge"
                 },
                 {
-                    "id": "hunterattacknoedge"
+                    "id": "r_hunterattacknoedge"
                 },
                 {
-                    "id": "evidencedestroymidmoth"
+                    "id": "r_evidencedestroymidmoth"
                 },
                 {
-                    "id": "evidencedestroylowmoth"
+                    "id": "r_evidencedestroylowmoth"
                 },
                 {
-                    "id": "evidencedestroynomoth"
+                    "id": "r_evidencedestroynomoth"
                 },
                 {
-                    "id": "annoyanceseducehighgrail"
+                    "id": "r_annoyanceseducehighgrail"
                 },
                 {
-                    "id": "annoyanceattackhighedge"
+                    "id": "r_annoyanceattackhighedge"
                 },
                 {
-                    "id": "annoyanceseducemidgrail"
+                    "id": "r_annoyanceseducemidgrail"
                 },
                 {
-                    "id": "annoyanceattackmidedge"
+                    "id": "r_annoyanceattackmidedge"
                 },
                 {
-                    "id": "annoyancederangemidmoth"
+                    "id": "r_annoyancederangemidmoth"
                 },
                 {
-                    "id": "annoyanceseducelowgrail"
+                    "id": "r_annoyanceseducelowgrail"
                 },
                 {
-                    "id": "annoyanceattacklowedge"
+                    "id": "r_annoyanceattacklowedge"
                 },
                 {
-                    "id": "annoyancederangelowmoth"
+                    "id": "r_annoyancederangelowmoth"
                 },
                 {
-                    "id": "annoyanceattacknoedge"
+                    "id": "r_annoyanceattacknoedge"
                 },
                 {
-                    "id": "apostlelantern.recruitkleidouchos.teresa"
+                    "id": "r_apostlelantern.recruitkleidouchos.teresa"
                 },
                 {
-                    "id": "apostlelantern.usepillar3"
+                    "id": "r_apostlelantern.usepillar3"
                 },
                 {
-                    "id": "teresadiscusslocksmithsdream1"
+                    "id": "r_teresadiscusslocksmithsdream1"
                 },
                 {
-                    "id": "teresadiscusslocksmithsdream2"
+                    "id": "r_teresadiscusslocksmithsdream2"
                 },
                 {
-                    "id": "teresadiscusslocksmithsdream3"
+                    "id": "r_teresadiscusslocksmithsdream3"
                 },
                 {
-                    "id": "teresadiscusslocksmithsdream4"
+                    "id": "r_teresadiscusslocksmithsdream4"
                 },
                 {
-                    "id": "teresadiscusslocksmithsdream5"
+                    "id": "r_teresadiscusslocksmithsdream5"
                 }
             ],
             "startdescription": "Not everything from the Mansus can speak, but everything can understand mortal speech, even once it has passed the White Door.",
@@ -488,7 +488,7 @@
             "craftable": true
         },
         {
-            "id": "discusspassionsacrifice",
+            "id": "r_discusspassionsacrifice",
             "actionid": "talk",
             "label": "Chilly Lessons",
             "startdescription": "If I listen closely enough to the stories told by winter sun, I may learn something, at the cost of my soul's withering. [This will teach the Ecdysiast's Parable, but will convert Passion to Decrepitude... although even that might open a narrow door.]",
@@ -505,7 +505,7 @@
             }
         },
         {
-            "id": "discussreasonsacrifice",
+            "id": "r_discussreasonsacrifice",
             "actionid": "talk",
             "label": "Wild Lessons",
             "startdescription": "If I give myself to the frenzy, I will learn a wild lesson. [This will teach the Consent of Wounds, but will convert Reason to Decrepitude... although even that might open a narrow door.]",
@@ -522,7 +522,7 @@
             }
         },
         {
-            "id": "discusssicknessprotectionspirit",
+            "id": "r_discusssicknessprotectionspirit",
             "label": "Request a Stay of Execution",
             "actionid": "talk",
             "requirements": {
@@ -538,7 +538,7 @@
             }
         },
         {
-            "id": "discussfucinespirit",
+            "id": "r_discussfucinespirit",
             "label": "The matter of learning Fucine",
             "actionid": "talk",
             "requirements": {
@@ -551,7 +551,7 @@
             "craftable": true
         },
         {
-            "id": "discussphrygianspirit",
+            "id": "r_discussphrygianspirit",
             "label": "The matter of learning Phrygian",
             "actionid": "talk",
             "requirements": {
@@ -564,7 +564,7 @@
             "craftable": true
         },
         {
-            "id": "discussmandaicspirit",
+            "id": "r_discussmandaicspirit",
             "label": "The matter of learning Deep Mandaic",
             "actionid": "talk",
             "requirements": {
@@ -577,7 +577,7 @@
             "craftable": true
         },
         {
-            "id": "teresadiscusslocksmithsdream1",
+            "id": "r_teresadiscusslocksmithsdream1",
             "label": "Discuss the Locksmith's Dream, Volume 1",
             "requirements": {
                 "spirit_lanterne_secret": 1,
@@ -599,7 +599,7 @@
             ]
         },
         {
-            "id": "teresadiscusslocksmithsdream2",
+            "id": "r_teresadiscusslocksmithsdream2",
             "label": "Discuss the Locksmith's Dream, Volume 2",
             "requirements": {
                 "spirit_lanterne_secret": 1,
@@ -621,7 +621,7 @@
             ]
         },
         {
-            "id": "teresadiscusslocksmithsdream3",
+            "id": "r_teresadiscusslocksmithsdream3",
             "label": "Discuss the Locksmith's Dream, Volume 3",
             "requirements": {
                 "spirit_lanterne_secret": 1,
@@ -643,7 +643,7 @@
             ]
         },
         {
-            "id": "teresadiscusslocksmithsdream4",
+            "id": "r_teresadiscusslocksmithsdream4",
             "label": "Discuss the Locksmith's Dream, Volume 4",
             "requirements": {
                 "spirit_lanterne_secret": 1,
@@ -665,7 +665,7 @@
             ]
         },
         {
-            "id": "teresadiscusslocksmithsdream5",
+            "id": "r_teresadiscusslocksmithsdream5",
             "label": "Discuss the Locksmith's Dream, Volume 5",
             "requirements": {
                 "spirit_lanterne_secret": 1,
@@ -687,7 +687,7 @@
             ]
         },
         {
-            "id": "begincultfoundation",
+            "id": "r_begincultfoundation",
             "label": "A New Beginning?",
             "actionid": "talk",
             "requirements": {
@@ -703,20 +703,20 @@
             "comments": "This is hijacked by links from the Apostle open-talk verbs, to prevent apostles founding a second cult. This is why all the content is in the followup recipe.",
             "linked": [
                 {
-                    "id": "begincultfoundation_createcult",
+                    "id": "r_begincultfoundation_createcult",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "begincultfoundation_createcult",
+            "id": "r_begincultfoundation_createcult",
             "label": "Found a Mystical Organisation",
             "extantreqs": {
                 "society": -1
             },
             "alt": [
                 {
-                    "id": "cultfoundation",
+                    "id": "r_cultfoundation",
                     "chance": 100,
                     "additional": true
                 }
@@ -730,7 +730,7 @@
             "warmup": 10
         },
         {
-            "id": "inspiremystique",
+            "id": "r_inspiremystique",
             "actionid": "talk",
             "label": "Attracting Attention",
             "effects": {
@@ -742,7 +742,7 @@
             "craftable": false
         },
         {
-            "id": "findacquaintanceopentalk",
+            "id": "r_findacquaintanceopentalk",
             "label": "An Acquaintance",
             "actionid": "talk",
             "startdescription": "I await an answer to a letter.",

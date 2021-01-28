@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "expeditionascensionmothb",
+            "id": "r_expeditionascensionmothb",
             "label": "Name of the Mother, Name of the Moon",
             "actionid": "explore",
             "requirements": {
@@ -15,7 +15,7 @@
             "description": "Integument, Surrendered: In a dry attic above the grey roofs of Kerisham, in view of the grey sea, in the dreams of the murderer child, Old Mother Anguish once met with Ahad her son. The murderer child's bones still lie there. Now my serpent-self couples with what remains so fiercely that its outer self comes free."
         },
         {
-            "id": "expeditionascensionmothc",
+            "id": "r_expeditionascensionmothc",
             "label": "The Name of the Black-Flax",
             "actionid": "explore",
             "requirements": {
@@ -29,7 +29,7 @@
             "description": "Steps, Surrendered: Kitling Ripe was born in the black flax at the river's edge. She will bring me the answer which is always no, and when my cat-self dances for her, she will eat the sound of my steps."
         },
         {
-            "id": "expeditionascensionmothd",
+            "id": "r_expeditionascensionmothd",
             "label": "The Lilyking's Name",
             "actionid": "explore",
             "requirements": {
@@ -43,7 +43,7 @@
             "description": "Hues, Surrendered: Up in the mountains waits Karpellus the Flowermaker's Name, crushing the scent from the flowers with the weight of his self, as he will crush the changes from my fox-self, like new wine from grapes."
         },
         {
-            "id": "expeditionascensionmothe",
+            "id": "r_expeditionascensionmothe",
             "label": "A Dance with Centipede",
             "actionid": "explore",
             "requirements": {
@@ -57,7 +57,7 @@
             "description": "Sight, Surrendered: Centipede coils round my eagle-self's foot when I land. Centipede's claws tangle in my feathers when I rise. Centipede's bite takes the sun from my eyes, and primes them for the final change which is to come."
         },
         {
-            "id": "expeditionascensionmothf",
+            "id": "r_expeditionascensionmothf",
             "label": "The Wolf's Name",
             "actionid": "explore",
             "requirements": {

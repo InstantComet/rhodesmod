@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "auclair_a",
+            "id": "r_auclair_a",
             "label": "Auclair, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -18,7 +18,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_b",
+            "id": "r_auclair_b",
             "label": "Auclair, a believer",
             "aspects": {
                 "mortal": 1,
@@ -37,7 +37,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_c",
+            "id": "r_auclair_c",
             "label": "Auclair, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -58,7 +58,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_d",
+            "id": "r_auclair_d",
             "label": "A gaunt woman, who is silent.",
             "aspects": {
                 "mortal": 1,
@@ -78,7 +78,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "cat_a",
+            "id": "r_cat_a",
             "label": "Cat Caro, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -95,7 +95,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_b",
+            "id": "r_cat_b",
             "label": "Cat Caro, a believer",
             "aspects": {
                 "mortal": 1,
@@ -114,7 +114,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_c",
+            "id": "r_cat_c",
             "label": "Cat Caro, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -135,7 +135,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_d",
+            "id": "r_cat_d",
             "label": "Cat Caro, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -155,7 +155,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "clifton_a",
+            "id": "r_clifton_a",
             "label": "'Pope' Clifton, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -171,7 +171,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_b",
+            "id": "r_clifton_b",
             "label": "'Pope' Clifton, a believer",
             "aspects": {
                 "mortal": 1,
@@ -190,7 +190,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_c",
+            "id": "r_clifton_c",
             "label": "'Pope' Clifton, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -211,7 +211,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_d",
+            "id": "r_clifton_d",
             "label": "Clifton, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -231,7 +231,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clovette_a",
+            "id": "r_clovette_a",
             "label": "Clovette, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -247,7 +247,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_b",
+            "id": "r_clovette_b",
             "label": "Clovette, a believer",
             "aspects": {
                 "mortal": 1,
@@ -266,7 +266,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_c",
+            "id": "r_clovette_c",
             "label": "Clovette, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -287,7 +287,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_d",
+            "id": "r_clovette_d",
             "label": "Clovette, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -307,7 +307,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "connie_c",
+            "id": "r_connie_c",
             "label": "Connie, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -329,7 +329,7 @@
             "icon": "connie_r"
         },
         {
-            "id": "connie_d",
+            "id": "r_connie_d",
             "label": "Connie, a Conqueress",
             "aspects": {
                 "mortal": 1,
@@ -350,7 +350,7 @@
             "icon": "connie_r"
         },
         {
-            "id": "dorothy_a",
+            "id": "r_dorothy_a",
             "label": "Dorothy, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -366,7 +366,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_b",
+            "id": "r_dorothy_b",
             "label": "Dorothy, a believer",
             "aspects": {
                 "mortal": 1,
@@ -385,7 +385,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_c",
+            "id": "r_dorothy_c",
             "label": "Dorothy, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -406,7 +406,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_d",
+            "id": "r_dorothy_d",
             "label": "Dorothy, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -426,7 +426,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "douglas_b",
+            "id": "r_douglas_b",
             "label": "Douglas, a believer",
             "aspects": {
                 "mortal": 1,
@@ -445,7 +445,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "douglas_c",
+            "id": "r_douglas_c",
             "label": "Douglas, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -466,7 +466,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "douglas_d",
+            "id": "r_douglas_d",
             "label": "Douglas, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -486,7 +486,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "elridge_a",
+            "id": "r_elridge_a",
             "label": "Elridge, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -502,7 +502,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_b",
+            "id": "r_elridge_b",
             "label": "Elridge, a believer",
             "aspects": {
                 "mortal": 1,
@@ -521,7 +521,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_c",
+            "id": "r_elridge_c",
             "label": "Elridge, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -542,7 +542,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_d",
+            "id": "r_elridge_d",
             "label": "Elridge, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -562,7 +562,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "enid_a",
+            "id": "r_enid_a",
             "label": "Enid, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -578,7 +578,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_b",
+            "id": "r_enid_b",
             "label": "Enid, a believer",
             "aspects": {
                 "mortal": 1,
@@ -597,7 +597,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_c",
+            "id": "r_enid_c",
             "label": "Enid, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -618,7 +618,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_d",
+            "id": "r_enid_d",
             "label": "Enid, a Key",
             "aspects": {
                 "mortal": 1,
@@ -638,7 +638,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "laidlaw_a",
+            "id": "r_laidlaw_a",
             "label": "Laidlaw, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -654,7 +654,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_b",
+            "id": "r_laidlaw_b",
             "label": "Laidlaw, a believer",
             "aspects": {
                 "mortal": 1,
@@ -673,7 +673,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_c",
+            "id": "r_laidlaw_c",
             "label": "Laidlaw, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -694,7 +694,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_d",
+            "id": "r_laidlaw_d",
             "label": "Laidlaw, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -714,7 +714,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "leo_a",
+            "id": "r_leo_a",
             "label": "Leo, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -730,7 +730,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_b",
+            "id": "r_leo_b",
             "label": "Leo, a believer",
             "aspects": {
                 "mortal": 1,
@@ -749,7 +749,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_c",
+            "id": "r_leo_c",
             "label": "Leo, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -770,7 +770,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_d",
+            "id": "r_leo_d",
             "label": "Leo, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -790,7 +790,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "natalia_c",
+            "id": "r_natalia_c",
             "label": "Natalia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -812,7 +812,7 @@
             "icon": "natalia_r"
         },
         {
-            "id": "natalia_d",
+            "id": "r_natalia_d",
             "label": "Natalia, a Sage",
             "aspects": {
                 "mortal": 1,
@@ -833,7 +833,7 @@
             "icon": "natalia_r"
         },
         {
-            "id": "neville_a",
+            "id": "r_neville_a",
             "label": "Neville, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -849,7 +849,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_b",
+            "id": "r_neville_b",
             "label": "Neville, a believer",
             "aspects": {
                 "mortal": 1,
@@ -868,7 +868,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_c",
+            "id": "r_neville_c",
             "label": "Neville, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -889,7 +889,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_d",
+            "id": "r_neville_d",
             "label": "Neville, a Key",
             "aspects": {
                 "mortal": 1,
@@ -909,7 +909,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "porter_a",
+            "id": "r_porter_a",
             "label": "Porter, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -925,7 +925,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_b",
+            "id": "r_porter_b",
             "label": "Porter, a believer",
             "aspects": {
                 "mortal": 1,
@@ -944,7 +944,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_c",
+            "id": "r_porter_c",
             "label": "Porter, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -965,7 +965,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_d",
+            "id": "r_porter_d",
             "label": "Porter, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -985,7 +985,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "renira_a",
+            "id": "r_renira_a",
             "label": "Renira, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1001,7 +1001,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_b",
+            "id": "r_renira_b",
             "label": "Renira, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1020,7 +1020,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_c",
+            "id": "r_renira_c",
             "label": "Renira, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1041,7 +1041,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_d",
+            "id": "r_renira_d",
             "label": "Renira, a Cyprian",
             "aspects": {
                 "mortal": 1,
@@ -1061,7 +1061,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "rose_a",
+            "id": "r_rose_a",
             "label": "Rose, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1077,7 +1077,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_b",
+            "id": "r_rose_b",
             "label": "Rose, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1096,7 +1096,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_c",
+            "id": "r_rose_c",
             "label": "Rose, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1117,7 +1117,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_d",
+            "id": "r_rose_d",
             "label": "Rose, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -1137,7 +1137,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "saliba_a",
+            "id": "r_saliba_a",
             "label": "Saliba, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1153,7 +1153,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_b",
+            "id": "r_saliba_b",
             "label": "Saliba, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1172,7 +1172,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_c",
+            "id": "r_saliba_c",
             "label": "Saliba, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1193,7 +1193,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_d",
+            "id": "r_saliba_d",
             "label": "Saliba, a Cyprian",
             "aspects": {
                 "mortal": 1,
@@ -1213,7 +1213,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "slee_a",
+            "id": "r_slee_a",
             "label": "Slee, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1229,7 +1229,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_b",
+            "id": "r_slee_b",
             "label": "Slee, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1248,7 +1248,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_c",
+            "id": "r_slee_c",
             "label": "Slee, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1269,7 +1269,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_d",
+            "id": "r_slee_d",
             "label": "Slee, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -1289,7 +1289,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "spencer_c",
+            "id": "r_spencer_c",
             "label": "Spencer, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1311,7 +1311,7 @@
             "icon": "spencer_r"
         },
         {
-            "id": "spencer_d",
+            "id": "r_spencer_d",
             "label": "Spencer, a Herald",
             "aspects": {
                 "mortal": 1,
@@ -1332,7 +1332,7 @@
             "icon": "spencer_r"
         },
         {
-            "id": "sylvia_a",
+            "id": "r_sylvia_a",
             "label": "Sylvia, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1348,7 +1348,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_b",
+            "id": "r_sylvia_b",
             "label": "Sylvia, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1367,7 +1367,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_c",
+            "id": "r_sylvia_c",
             "label": "Sylvia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1388,7 +1388,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_d",
+            "id": "r_sylvia_d",
             "label": "Sylvia, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -1408,7 +1408,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "tristan_a",
+            "id": "r_tristan_a",
             "label": "Tristan, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1424,7 +1424,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_b",
+            "id": "r_tristan_b",
             "label": "Tristan, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1443,7 +1443,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_c",
+            "id": "r_tristan_c",
             "label": "Tristan, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1464,7 +1464,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_d",
+            "id": "r_tristan_d",
             "label": "Tristan, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -1484,7 +1484,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "valciane_a",
+            "id": "r_valciane_a",
             "label": "Valciane, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1500,7 +1500,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_b",
+            "id": "r_valciane_b",
             "label": "Valciane, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1519,7 +1519,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_c",
+            "id": "r_valciane_c",
             "label": "Valciane, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1540,7 +1540,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_d",
+            "id": "r_valciane_d",
             "label": "Valciane, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -1560,7 +1560,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "victor_a",
+            "id": "r_victor_a",
             "label": "Victor, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1576,7 +1576,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_b",
+            "id": "r_victor_b",
             "label": "Victor, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1595,7 +1595,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_c",
+            "id": "r_victor_c",
             "label": "Victor, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1616,7 +1616,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_d",
+            "id": "r_victor_d",
             "label": "Victor, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -1636,7 +1636,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "violet_a",
+            "id": "r_violet_a",
             "label": "Violet, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1652,7 +1652,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_b",
+            "id": "r_violet_b",
             "label": "Violet, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1671,7 +1671,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_c",
+            "id": "r_violet_c",
             "label": "Violet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1692,7 +1692,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_d",
+            "id": "r_violet_d",
             "label": "A kindly-faced woman, who is silent.",
             "aspects": {
                 "mortal": 1,
@@ -1712,7 +1712,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "ysabet_a",
+            "id": "r_ysabet_a",
             "label": "Ysabet, an acquaintance",
             "aspects": {
                 "mortal": 1,
@@ -1728,7 +1728,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_b",
+            "id": "r_ysabet_b",
             "label": "Ysabet, a believer",
             "aspects": {
                 "mortal": 1,
@@ -1747,7 +1747,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_c",
+            "id": "r_ysabet_c",
             "label": "Ysabet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1768,7 +1768,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_d",
+            "id": "r_ysabet_d",
             "label": "Ysabet, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -1788,7 +1788,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "zachary_c",
+            "id": "r_zachary_c",
             "label": "Zachary, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1810,7 +1810,7 @@
             "icon": "zachary_r"
         },
         {
-            "id": "zachary_d",
+            "id": "r_zachary_d",
             "label": "Zachary, a Conclusion",
             "aspects": {
                 "mortal": 1,
@@ -1831,7 +1831,7 @@
             "icon": "zachary_r"
         },
         {
-            "id": "auclair_p",
+            "id": "r_auclair_p",
             "label": "Auclair, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1850,7 +1850,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "cat_p",
+            "id": "r_cat_p",
             "label": "Cat Caro, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1869,7 +1869,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "clifton_p",
+            "id": "r_clifton_p",
             "label": "'Pope' Clifton, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1888,7 +1888,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clovette_p",
+            "id": "r_clovette_p",
             "label": "Clovette, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1907,7 +1907,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "dorothy_p",
+            "id": "r_dorothy_p",
             "label": "Dorothy, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1926,7 +1926,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "douglas_p",
+            "id": "r_douglas_p",
             "label": "Douglas, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1947,7 +1947,7 @@
             "icon": "defaulthunterprisoner"
         },
         {
-            "id": "enid_p",
+            "id": "r_enid_p",
             "label": "Enid, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1967,7 +1967,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "elridge_p",
+            "id": "r_elridge_p",
             "label": "Elridge, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -1987,7 +1987,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "laidlaw_p",
+            "id": "r_laidlaw_p",
             "label": "Laidlaw, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2007,7 +2007,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "leo_p",
+            "id": "r_leo_p",
             "label": "Leo, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2026,7 +2026,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "neville_p",
+            "id": "r_neville_p",
             "label": "Neville, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2046,7 +2046,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "porter_p",
+            "id": "r_porter_p",
             "label": "Porter, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2066,7 +2066,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "renira_p",
+            "id": "r_renira_p",
             "label": "Renira, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2085,7 +2085,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "rose_p",
+            "id": "r_rose_p",
             "label": "Rose, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2105,7 +2105,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "slee_p",
+            "id": "r_slee_p",
             "label": "Slee, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2124,7 +2124,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "tristan_p",
+            "id": "r_tristan_p",
             "label": "Tristan, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2144,7 +2144,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "saliba_p",
+            "id": "r_saliba_p",
             "label": "Saliba, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2163,7 +2163,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "sylvia_p",
+            "id": "r_sylvia_p",
             "label": "Sylvia, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2183,7 +2183,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "valciane_p",
+            "id": "r_valciane_p",
             "label": "Valciane, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2203,7 +2203,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "victor_p",
+            "id": "r_victor_p",
             "label": "Victor, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2223,7 +2223,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "violet_p",
+            "id": "r_violet_p",
             "label": "Violet, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2243,7 +2243,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "ysabet_p",
+            "id": "r_ysabet_p",
             "label": "Ysabet, a prisoner",
             "aspects": {
                 "mortal": 1,
@@ -2263,7 +2263,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "generic_a",
+            "id": "r_generic_a",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2279,7 +2279,7 @@
             }
         },
         {
-            "id": "generic_a_edge",
+            "id": "r_generic_a_edge",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2294,7 +2294,7 @@
             }
         },
         {
-            "id": "generic_a_forge",
+            "id": "r_generic_a_forge",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2309,7 +2309,7 @@
             }
         },
         {
-            "id": "generic_a_grail",
+            "id": "r_generic_a_grail",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2324,7 +2324,7 @@
             }
         },
         {
-            "id": "generic_a_heart",
+            "id": "r_generic_a_heart",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2339,7 +2339,7 @@
             }
         },
         {
-            "id": "generic_a_knock",
+            "id": "r_generic_a_knock",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2354,7 +2354,7 @@
             }
         },
         {
-            "id": "generic_a_lantern",
+            "id": "r_generic_a_lantern",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2369,7 +2369,7 @@
             }
         },
         {
-            "id": "generic_a_moth",
+            "id": "r_generic_a_moth",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2385,7 +2385,7 @@
             }
         },
         {
-            "id": "generic_a_winter",
+            "id": "r_generic_a_winter",
             "label": "A Hanger-On",
             "aspects": {
                 "mortal": 1,
@@ -2400,7 +2400,7 @@
             }
         },
         {
-            "id": "generic_b",
+            "id": "r_generic_b",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2418,7 +2418,7 @@
             }
         },
         {
-            "id": "generic_b_edge",
+            "id": "r_generic_b_edge",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2435,7 +2435,7 @@
             }
         },
         {
-            "id": "generic_b_forge",
+            "id": "r_generic_b_forge",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2452,7 +2452,7 @@
             }
         },
         {
-            "id": "generic_b_grail",
+            "id": "r_generic_b_grail",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2469,7 +2469,7 @@
             }
         },
         {
-            "id": "generic_b_heart",
+            "id": "r_generic_b_heart",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2486,7 +2486,7 @@
             }
         },
         {
-            "id": "generic_b_knock",
+            "id": "r_generic_b_knock",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2503,7 +2503,7 @@
             }
         },
         {
-            "id": "generic_b_lantern",
+            "id": "r_generic_b_lantern",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2520,7 +2520,7 @@
             }
         },
         {
-            "id": "generic_b_moth",
+            "id": "r_generic_b_moth",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2537,7 +2537,7 @@
             }
         },
         {
-            "id": "generic_b_winter",
+            "id": "r_generic_b_winter",
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
@@ -2554,7 +2554,7 @@
             }
         },
         {
-            "id": "generic_c_edge",
+            "id": "r_generic_c_edge",
             "label": "A Sturdy Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2571,7 +2571,7 @@
             }
         },
         {
-            "id": "generic_c_forge",
+            "id": "r_generic_c_forge",
             "label": "A Practical Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2589,7 +2589,7 @@
             }
         },
         {
-            "id": "generic_c_grail",
+            "id": "r_generic_c_grail",
             "label": "An Avid Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2607,7 +2607,7 @@
             }
         },
         {
-            "id": "generic_c_heart",
+            "id": "r_generic_c_heart",
             "label": "A Lively Disciple ",
             "aspects": {
                 "mortal": 1,
@@ -2625,7 +2625,7 @@
             }
         },
         {
-            "id": "generic_c_knock",
+            "id": "r_generic_c_knock",
             "label": "A Dextrous Disciple ",
             "aspects": {
                 "mortal": 1,
@@ -2643,7 +2643,7 @@
             }
         },
         {
-            "id": "generic_c_lantern",
+            "id": "r_generic_c_lantern",
             "label": "A Percipient Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2661,7 +2661,7 @@
             }
         },
         {
-            "id": "generic_c_moth",
+            "id": "r_generic_c_moth",
             "label": "An Erratic Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2681,7 +2681,7 @@
             "decayTo": "lunatic"
         },
         {
-            "id": "generic_c_winter",
+            "id": "r_generic_c_winter",
             "label": "A Silent Disciple",
             "aspects": {
                 "mortal": 1,
@@ -2699,7 +2699,7 @@
             }
         },
         {
-            "id": "generic_p",
+            "id": "r_generic_p",
             "label": "A Follower Betrayed",
             "aspects": {
                 "mortal": 1,

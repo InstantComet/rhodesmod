@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "cultedge_1",
+            "id": "r_cultedge_1",
             "label": "Church of the Bright Edge",
             "aspects": {
                 "society": 1,
@@ -9,7 +9,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -23,7 +23,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -32,7 +32,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -47,7 +47,7 @@
             "unique": true
         },
         {
-            "id": "cultforge_1",
+            "id": "r_cultforge_1",
             "label": "Unflinching Order",
             "aspects": {
                 "society": 1,
@@ -55,7 +55,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -69,7 +69,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -78,7 +78,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -93,7 +93,7 @@
             "unique": true
         },
         {
-            "id": "cultgrail_1",
+            "id": "r_cultgrail_1",
             "label": "Order of the Bloody Cup",
             "aspects": {
                 "society": 1,
@@ -101,7 +101,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -115,7 +115,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -124,7 +124,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -139,7 +139,7 @@
             "unique": true
         },
         {
-            "id": "cultheart_1",
+            "id": "r_cultheart_1",
             "label": "Temple Unceasing",
             "aspects": {
                 "society": 1,
@@ -147,7 +147,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -161,7 +161,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -170,7 +170,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -185,7 +185,7 @@
             "unique": true
         },
         {
-            "id": "cultknock_1",
+            "id": "r_cultknock_1",
             "label": "Society of the Holy Wound",
             "aspects": {
                 "society": 1,
@@ -193,7 +193,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -207,7 +207,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -216,7 +216,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -231,7 +231,7 @@
             "unique": true
         },
         {
-            "id": "cultlantern_1",
+            "id": "r_cultlantern_1",
             "label": "Mirror of Glory",
             "aspects": {
                 "society": 1,
@@ -239,7 +239,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -253,7 +253,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -262,7 +262,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -277,7 +277,7 @@
             "unique": true
         },
         {
-            "id": "cultmoth_1",
+            "id": "r_cultmoth_1",
             "label": "Wildwood Club",
             "aspects": {
                 "society": 1,
@@ -285,7 +285,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -299,7 +299,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -308,7 +308,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -323,7 +323,7 @@
             "unique": true
         },
         {
-            "id": "cultsecrethistories_1",
+            "id": "r_cultsecrethistories_1",
             "label": "Society of St Hydra",
             "aspects": {
                 "society": 1,
@@ -338,7 +338,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -352,7 +352,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -361,7 +361,7 @@
                     "description": "For the higher mysteries, deeper oaths are needed."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -376,7 +376,7 @@
             "unique": true
         },
         {
-            "id": "cultwinter_1",
+            "id": "r_cultwinter_1",
             "label": "Children of Silence",
             "aspects": {
                 "society": 1,
@@ -384,7 +384,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -398,7 +398,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -407,7 +407,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {
@@ -422,7 +422,7 @@
             "unique": true
         },
         {
-            "id": "cultwinter_2",
+            "id": "r_cultwinter_2",
             "label": "Towers of the Dove",
             "aspects": {
                 "society": 1,
@@ -430,7 +430,7 @@
             },
             "slots": [
                 {
-                    "id": "Associate",
+                    "id": "r_Associate",
                     "label": "Associate",
                     "actionid": "talk",
                     "required": {
@@ -444,7 +444,7 @@
                     "description": "A new recruit, or a hardened disciple."
                 },
                 {
-                    "id": "Ceremony",
+                    "id": "r_Ceremony",
                     "label": "Ceremony",
                     "actionid": "talk",
                     "required": {
@@ -453,7 +453,7 @@
                     "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
                 },
                 {
-                    "id": "Trappings",
+                    "id": "r_Trappings",
                     "label": "Trappings",
                     "actionid": "talk",
                     "required": {

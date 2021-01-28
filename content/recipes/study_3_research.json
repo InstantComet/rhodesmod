@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studyknocklore",
+            "id": "r_studyknocklore",
             "label": "Study the Lore which Opens",
             "actionid": "study",
             "requirements": {
@@ -13,7 +13,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -23,7 +23,7 @@
             "craftable": true
         },
         {
-            "id": "studyupgradelore_edge",
+            "id": "r_studyupgradelore_edge",
             "label": "Study the Lore of the Knife",
             "actionid": "study",
             "requirements": {
@@ -38,7 +38,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -48,7 +48,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_edgetowinter",
+            "id": "r_studysubvertlore_edgetowinter",
             "label": "Subvert the Lore of the Knife",
             "actionid": "study",
             "requirements": {
@@ -61,7 +61,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -71,7 +71,7 @@
             "craftable": true
         },
         {
-            "id": "studyforgelore",
+            "id": "r_studyforgelore",
             "label": "Study the Lore which Burns",
             "actionid": "study",
             "requirements": {
@@ -86,7 +86,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -95,7 +95,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_forgetoedge",
+            "id": "r_studysubvertlore_forgetoedge",
             "label": "Subvert the Lore which Burns",
             "actionid": "study",
             "requirements": {
@@ -108,7 +108,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -117,7 +117,7 @@
             "craftable": true
         },
         {
-            "id": "studygraillore",
+            "id": "r_studygraillore",
             "label": "Study the Succulent Lore",
             "actionid": "study",
             "requirements": {
@@ -132,7 +132,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -141,7 +141,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_grailtomoth",
+            "id": "r_studysubvertlore_grailtomoth",
             "label": "Subvert the Succulent Lore",
             "actionid": "study",
             "requirements": {
@@ -154,7 +154,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -163,7 +163,7 @@
             "craftable": true
         },
         {
-            "id": "studyheartlore",
+            "id": "r_studyheartlore",
             "label": "Study the Lore Unceasing",
             "actionid": "study",
             "requirements": {
@@ -178,7 +178,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -187,7 +187,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_hearttograil",
+            "id": "r_studysubvertlore_hearttograil",
             "label": "Subvert the Lore Unceasing",
             "actionid": "study",
             "requirements": {
@@ -200,7 +200,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -209,7 +209,7 @@
             "craftable": true
         },
         {
-            "id": "studylanternlore",
+            "id": "r_studylanternlore",
             "label": "Study the Glorious Lore",
             "actionid": "study",
             "requirements": {
@@ -224,7 +224,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -233,7 +233,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_lanterntoforge",
+            "id": "r_studysubvertlore_lanterntoforge",
             "label": "Subvert the Glorious Lore",
             "actionid": "study",
             "requirements": {
@@ -246,7 +246,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -255,7 +255,7 @@
             "craftable": true
         },
         {
-            "id": "studymothlore",
+            "id": "r_studymothlore",
             "label": "Study the Lore of the Wood",
             "actionid": "study",
             "requirements": {
@@ -270,7 +270,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -279,7 +279,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertlore_mothtolantern",
+            "id": "r_studysubvertlore_mothtolantern",
             "label": "Subvert the Lore of the Wood",
             "actionid": "study",
             "requirements": {
@@ -292,7 +292,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -301,7 +301,7 @@
             "craftable": true
         },
         {
-            "id": "studysecrethistorieslore",
+            "id": "r_studysecrethistorieslore",
             "label": "Study the Histories",
             "actionid": "study",
             "requirements": {
@@ -313,7 +313,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -322,7 +322,7 @@
             "craftable": true
         },
         {
-            "id": "studywinterlore",
+            "id": "r_studywinterlore",
             "label": "Study the Ragged Lore",
             "actionid": "study",
             "requirements": {
@@ -336,7 +336,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -345,7 +345,7 @@
             "craftable": true
         },
         {
-            "id": "subvertwinterlore",
+            "id": "r_subvertwinterlore",
             "label": "Subvert the Ragged Lore",
             "actionid": "study",
             "requirements": {
@@ -358,7 +358,7 @@
             },
             "linked": [
                 {
-                    "id": "studyresearch.entrypoint",
+                    "id": "r_studyresearch.entrypoint",
                     "chance": 100
                 }
             ],
@@ -367,7 +367,7 @@
             "craftable": true
         },
         {
-            "id": "studyproject_upgrade_edge",
+            "id": "r_studyproject_upgrade_edge",
             "label": "The Lore of the Knife",
             "actionid": "study",
             "requirements": {
@@ -383,7 +383,7 @@
             "description": "I've increased my mastery of the Lore of the Knife, which we call by its aspect, Edge."
         },
         {
-            "id": "studyproject_upgrade_forge",
+            "id": "r_studyproject_upgrade_forge",
             "label": "The Lore that Burns",
             "actionid": "study",
             "requirements": {
@@ -399,7 +399,7 @@
             "description": "I've increased my mastery of the Lore that Burns, which we call by its aspect, Forge."
         },
         {
-            "id": "studyproject_upgrade_grail",
+            "id": "r_studyproject_upgrade_grail",
             "label": "The Succulent Lore",
             "actionid": "study",
             "requirements": {
@@ -415,7 +415,7 @@
             "description": "I've increased my mastery of the Succulent Lore, which we call by its aspect, Grail."
         },
         {
-            "id": "studyproject_upgrade_heart",
+            "id": "r_studyproject_upgrade_heart",
             "label": "The Lore Unceasing",
             "actionid": "study",
             "requirements": {
@@ -431,7 +431,7 @@
             "description": "I've increased my mastery of the Lore Unceasing, which we call by its aspect, Heart."
         },
         {
-            "id": "studyproject_upgrade_lantern",
+            "id": "r_studyproject_upgrade_lantern",
             "label": "The Glorious Lore",
             "actionid": "study",
             "requirements": {
@@ -447,7 +447,7 @@
             "description": "I've increased my mastery of the Glorious Lore, which we call by its aspect, Lantern."
         },
         {
-            "id": "studyproject_upgrade_moth",
+            "id": "r_studyproject_upgrade_moth",
             "label": "The Lore of the Wood",
             "actionid": "study",
             "requirements": {
@@ -463,7 +463,7 @@
             "description": "I've increased my mastery of the Lore of the Wood, which we call by its aspect, Moth."
         },
         {
-            "id": "studyproject_upgrade_secrethistories",
+            "id": "r_studyproject_upgrade_secrethistories",
             "label": "The Secret Histories",
             "actionid": "study",
             "requirements": {
@@ -479,7 +479,7 @@
             "description": "I've increased my knowledge of the secret histories behind the one we know."
         },
         {
-            "id": "studyproject_upgrade_winter",
+            "id": "r_studyproject_upgrade_winter",
             "label": "The Ragged Lore",
             "actionid": "study",
             "requirements": {
@@ -495,7 +495,7 @@
             "description": "I've increased my mastery of the Ragged Lore, which we call by its aspect, Winter."
         },
         {
-            "id": "studyproject_subvert_edgetowinter",
+            "id": "r_studyproject_subvert_edgetowinter",
             "label": "All Things End",
             "actionid": "study",
             "requirements": {
@@ -511,7 +511,7 @@
             "description": "Patience defeats strength. I've subverted my Edge lore to Winter."
         },
         {
-            "id": "studyproject_subvert_forgetoedge",
+            "id": "r_studyproject_subvert_forgetoedge",
             "label": "Force Conquers All",
             "actionid": "study",
             "requirements": {
@@ -527,7 +527,7 @@
             "description": "I've shattered what I believed before. Thus have I subverted my Forge lore to Edge."
         },
         {
-            "id": "studyproject_subvert_grailtomoth",
+            "id": "r_studyproject_subvert_grailtomoth",
             "label": "Hunger is Folly",
             "actionid": "study",
             "requirements": {
@@ -543,7 +543,7 @@
             "description": "Even the Red Grail falls prey to the buzzing in the brain. I've subverted my Grail lore to Moth."
         },
         {
-            "id": "studyproject_subvert_hearttograil",
+            "id": "r_studyproject_subvert_hearttograil",
             "label": "What Does Not Cease Must Eventually Yield",
             "actionid": "study",
             "requirements": {
@@ -559,7 +559,7 @@
             "description": "All that moves must succumb to hunger. I've subverted my Heart lore to Grail."
         },
         {
-            "id": "studyproject_subvert_lanterntoforge",
+            "id": "r_studyproject_subvert_lanterntoforge",
             "label": "Sunset at Noon",
             "actionid": "study",
             "requirements": {
@@ -575,7 +575,7 @@
             "description": "There are arts in Forge which may split even the sun. I've subverted my Lantern lore to Forge."
         },
         {
-            "id": "studyproject_subvert_mothtolantern",
+            "id": "r_studyproject_subvert_mothtolantern",
             "label": "The Light Above",
             "actionid": "study",
             "requirements": {
@@ -591,7 +591,7 @@
             "description": "The Glory is a question, and Moth always answers Yes. I've subverted my Moth lore to Lantern."
         },
         {
-            "id": "studyproject_subvert_wintertoheart",
+            "id": "r_studyproject_subvert_wintertoheart",
             "label": "The Life Beneath",
             "actionid": "study",
             "requirements": {
@@ -607,7 +607,7 @@
             "description": "Winter's coming must yield at last to spring. I've subverted my Winter lore to Heart."
         },
         {
-            "id": "studyproject_upgrade_subvert_knock",
+            "id": "r_studyproject_upgrade_subvert_knock",
             "label": "All Shall Be Opened",
             "actionid": "study",
             "requirements": {
@@ -623,13 +623,13 @@
             "description": "When we open a thing, then we learn its nature. I've deepened my understanding of the Lore that Opens, which we call by its aspect, Knock.",
             "linked": [
                 {
-                    "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
+                    "id": "r_studyproject_upgrade_subvert_knock_remove_spare_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
+            "id": "r_studyproject_upgrade_subvert_knock_remove_spare_knock",
             "label": "All Shall Be Opened",
             "comments": "This exists to remove a Knock lore, if we were combining Knock lores rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionid": "study",
@@ -642,7 +642,7 @@
             "description": "."
         },
         {
-            "id": "studyresearchconsolation",
+            "id": "r_studyresearchconsolation",
             "label": "The Lessons of Experience",
             "actionid": "study",
             "requirements": {},
@@ -659,7 +659,7 @@
             "craftable": false
         },
         {
-            "id": "studydowngradefragmentedgeb",
+            "id": "r_studydowngradefragmentedgeb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -681,7 +681,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentedgec",
+            "id": "r_studydowngradefragmentedgec",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -703,7 +703,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentedged",
+            "id": "r_studydowngradefragmentedged",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -725,7 +725,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentedgee",
+            "id": "r_studydowngradefragmentedgee",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -747,7 +747,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentedgef",
+            "id": "r_studydowngradefragmentedgef",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -769,7 +769,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentedgeg",
+            "id": "r_studydowngradefragmentedgeg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -791,7 +791,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforgeb",
+            "id": "r_studydowngradefragmentforgeb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -813,7 +813,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforgec",
+            "id": "r_studydowngradefragmentforgec",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -835,7 +835,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforged",
+            "id": "r_studydowngradefragmentforged",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -857,7 +857,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforgee",
+            "id": "r_studydowngradefragmentforgee",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -879,7 +879,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforgef",
+            "id": "r_studydowngradefragmentforgef",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -901,7 +901,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentforgeg",
+            "id": "r_studydowngradefragmentforgeg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -923,7 +923,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgrailb",
+            "id": "r_studydowngradefragmentgrailb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -945,7 +945,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgrailc",
+            "id": "r_studydowngradefragmentgrailc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -967,7 +967,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgraild",
+            "id": "r_studydowngradefragmentgraild",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -989,7 +989,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgraile",
+            "id": "r_studydowngradefragmentgraile",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1011,7 +1011,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgrailf",
+            "id": "r_studydowngradefragmentgrailf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1033,7 +1033,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentgrailg",
+            "id": "r_studydowngradefragmentgrailg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1055,7 +1055,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentheartb",
+            "id": "r_studydowngradefragmentheartb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1077,7 +1077,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentheartc",
+            "id": "r_studydowngradefragmentheartc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1099,7 +1099,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentheartd",
+            "id": "r_studydowngradefragmentheartd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1121,7 +1121,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmenthearte",
+            "id": "r_studydowngradefragmenthearte",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1143,7 +1143,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentheartf",
+            "id": "r_studydowngradefragmentheartf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1165,7 +1165,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentheartg",
+            "id": "r_studydowngradefragmentheartg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1187,7 +1187,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknockb",
+            "id": "r_studydowngradefragmentknockb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1208,7 +1208,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknockc",
+            "id": "r_studydowngradefragmentknockc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1229,7 +1229,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknockd",
+            "id": "r_studydowngradefragmentknockd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1250,7 +1250,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknocke",
+            "id": "r_studydowngradefragmentknocke",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1271,7 +1271,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknockf",
+            "id": "r_studydowngradefragmentknockf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1292,7 +1292,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentknockg",
+            "id": "r_studydowngradefragmentknockg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1313,7 +1313,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanternb",
+            "id": "r_studydowngradefragmentlanternb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1334,7 +1334,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanternc",
+            "id": "r_studydowngradefragmentlanternc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1355,7 +1355,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanternd",
+            "id": "r_studydowngradefragmentlanternd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1376,7 +1376,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanterne",
+            "id": "r_studydowngradefragmentlanterne",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1397,7 +1397,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanternf",
+            "id": "r_studydowngradefragmentlanternf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1418,7 +1418,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentlanterng",
+            "id": "r_studydowngradefragmentlanterng",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1439,7 +1439,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothb",
+            "id": "r_studydowngradefragmentmothb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1460,7 +1460,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothc",
+            "id": "r_studydowngradefragmentmothc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1481,7 +1481,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothd",
+            "id": "r_studydowngradefragmentmothd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1502,7 +1502,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothe",
+            "id": "r_studydowngradefragmentmothe",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1523,7 +1523,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothf",
+            "id": "r_studydowngradefragmentmothf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1544,7 +1544,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentmothg",
+            "id": "r_studydowngradefragmentmothg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1565,7 +1565,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriesb",
+            "id": "r_studydowngradefragmentsecrethistoriesb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1586,7 +1586,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriesc",
+            "id": "r_studydowngradefragmentsecrethistoriesc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1607,7 +1607,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriesd",
+            "id": "r_studydowngradefragmentsecrethistoriesd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1628,7 +1628,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriese",
+            "id": "r_studydowngradefragmentsecrethistoriese",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1649,7 +1649,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriesf",
+            "id": "r_studydowngradefragmentsecrethistoriesf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1670,7 +1670,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentsecrethistoriesg",
+            "id": "r_studydowngradefragmentsecrethistoriesg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1691,7 +1691,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwinterb",
+            "id": "r_studydowngradefragmentwinterb",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1712,7 +1712,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwinterc",
+            "id": "r_studydowngradefragmentwinterc",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1733,7 +1733,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwinterd",
+            "id": "r_studydowngradefragmentwinterd",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1754,7 +1754,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwintere",
+            "id": "r_studydowngradefragmentwintere",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1775,7 +1775,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwinterf",
+            "id": "r_studydowngradefragmentwinterf",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {
@@ -1796,7 +1796,7 @@
             "craftable": true
         },
         {
-            "id": "studydowngradefragmentwinterg",
+            "id": "r_studydowngradefragmentwinterg",
             "label": "Return to the Fundamentals",
             "actionid": "study",
             "requirements": {

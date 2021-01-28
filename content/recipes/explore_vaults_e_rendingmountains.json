@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultrendingmountains1_setup",
+            "id": "r_explore_vaultrendingmountains1_setup",
             "label": "Beginning an Expedition: Hunter's Pit",
             "actionid": "explore",
             "requirements": {
@@ -20,13 +20,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultrendingmountains2_setup",
+            "id": "r_explore_vaultrendingmountains2_setup",
             "label": "Beginning an Expedition: Snow's Keeper",
             "actionid": "explore",
             "requirements": {
@@ -45,13 +45,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultrendingmountains3_setup",
+            "id": "r_explore_vaultrendingmountains3_setup",
             "label": "Beginning an Expedition: the Eye of Ikirmawi",
             "actionid": "explore",
             "requirements": {
@@ -70,13 +70,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultrendingmountains4_setup",
+            "id": "r_explore_vaultrendingmountains4_setup",
             "label": "Beginning an Expedition: the Mausoleum of Wolves",
             "actionid": "explore",
             "requirements": {
@@ -95,13 +95,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultrendingmountainsdefault_setup",
+            "id": "r_explore_vaultrendingmountainsdefault_setup",
             "label": "Beginning an Expedition: Tombs of the Shadowless Kings",
             "actionid": "explore",
             "requirements": {
@@ -121,13 +121,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultrendingmountains1_success",
+            "id": "r_explorevaultrendingmountains1_success",
             "label": "The Memory of War",
             "actionid": "explore",
             "requirements": {
@@ -158,7 +158,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultrendingmountains2_success",
+            "id": "r_explorevaultrendingmountains2_success",
             "label": "The Altar's Garment",
             "actionid": "explore",
             "requirements": {
@@ -185,7 +185,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultrendingmountains3_success",
+            "id": "r_explorevaultrendingmountains3_success",
             "label": "The Progress of the Heavens",
             "actionid": "explore",
             "requirements": {
@@ -211,7 +211,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultrendingmountains4_success",
+            "id": "r_explorevaultrendingmountains4_success",
             "label": "The Coming of the Wolf",
             "actionid": "explore",
             "requirements": {
@@ -239,7 +239,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultrendingmountainsdefault_success",
+            "id": "r_explorevaultrendingmountainsdefault_success",
             "label": "What Remains",
             "actionid": "explore",
             "requirements": {
@@ -257,7 +257,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "expedition.corpse.find.vaultrendingmountainsdefault",
+                    "id": "r_expedition.corpse.find.vaultrendingmountainsdefault",
                     "additional": true
                 }
             ]

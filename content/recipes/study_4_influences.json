@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studyugradeknockinfluence",
+            "id": "r_studyugradeknockinfluence",
             "label": "Accelerate Fractures",
             "actionid": "study",
             "requirements": {
@@ -17,7 +17,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -27,7 +27,7 @@
             "craftable": true
         },
         {
-            "id": "studyupgradeinfluence_edge",
+            "id": "r_studyupgradeinfluence_edge",
             "label": "Find the Moment of Intensest Opposition",
             "actionid": "study",
             "requirements": {
@@ -46,14 +46,14 @@
             },
             "alt": [
                 {
-                    "id": "dreadinduction_ifdread",
+                    "id": "r_dreadinduction_ifdread",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -63,7 +63,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_edgetowinter",
+            "id": "r_studysubvertinfluence_edgetowinter",
             "label": "Subvert Edge Influence",
             "actionid": "study",
             "requirements": {
@@ -80,14 +80,14 @@
             },
             "alt": [
                 {
-                    "id": "dreadinduction_ifdread",
+                    "id": "r_dreadinduction_ifdread",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -97,7 +97,7 @@
             "craftable": true
         },
         {
-            "id": "studyforgeinfluence",
+            "id": "r_studyforgeinfluence",
             "label": "Build a Greater Heat",
             "actionid": "study",
             "requirements": {
@@ -116,7 +116,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -125,7 +125,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_forgetoedge",
+            "id": "r_studysubvertinfluence_forgetoedge",
             "label": "Subvert Forge Influence",
             "actionid": "study",
             "requirements": {
@@ -142,7 +142,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -151,7 +151,7 @@
             "craftable": true
         },
         {
-            "id": "studygrailinfluence",
+            "id": "r_studygrailinfluence",
             "label": "Unite Appetites",
             "actionid": "study",
             "requirements": {
@@ -170,7 +170,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -179,7 +179,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_grailtomoth",
+            "id": "r_studysubvertinfluence_grailtomoth",
             "label": "Subvert Grail Influence",
             "actionid": "study",
             "requirements": {
@@ -196,7 +196,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -205,7 +205,7 @@
             "craftable": true
         },
         {
-            "id": "studyheartinfluence",
+            "id": "r_studyheartinfluence",
             "label": "Interweave the Rhythms Unceasing",
             "actionid": "study",
             "requirements": {
@@ -224,7 +224,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -233,7 +233,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_hearttograil",
+            "id": "r_studysubvertinfluence_hearttograil",
             "label": "Subvert Heart Influence",
             "actionid": "study",
             "requirements": {
@@ -250,7 +250,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -259,7 +259,7 @@
             "craftable": true
         },
         {
-            "id": "studylanterninfluence",
+            "id": "r_studylanterninfluence",
             "label": "Align Luminosities",
             "actionid": "study",
             "requirements": {
@@ -278,7 +278,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -287,7 +287,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_lanterntoforge",
+            "id": "r_studysubvertinfluence_lanterntoforge",
             "label": "Subvert Lantern Influence",
             "actionid": "study",
             "requirements": {
@@ -304,7 +304,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -313,7 +313,7 @@
             "craftable": true
         },
         {
-            "id": "studymothinfluence",
+            "id": "r_studymothinfluence",
             "label": "Embrace the Possibilities of Peril",
             "actionid": "study",
             "requirements": {
@@ -329,7 +329,7 @@
             },
             "alt": [
                 {
-                    "id": "fascinationinduction_iffascination",
+                    "id": "r_fascinationinduction_iffascination",
                     "chance": 100,
                     "additional": true
                 }
@@ -339,7 +339,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -348,7 +348,7 @@
             "craftable": true
         },
         {
-            "id": "studysubvertinfluence_mothtolantern",
+            "id": "r_studysubvertinfluence_mothtolantern",
             "label": "Subvert Moth Influence",
             "actionid": "study",
             "requirements": {
@@ -362,7 +362,7 @@
             },
             "alt": [
                 {
-                    "id": "fascinationinduction_iffascination",
+                    "id": "r_fascinationinduction_iffascination",
                     "chance": 100,
                     "additional": true
                 }
@@ -372,7 +372,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -381,7 +381,7 @@
             "craftable": true
         },
         {
-            "id": "studywinterinfluence",
+            "id": "r_studywinterinfluence",
             "label": "Deepen the Silence",
             "actionid": "study",
             "requirements": {
@@ -399,7 +399,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -408,7 +408,7 @@
             "craftable": true
         },
         {
-            "id": "subvertwinterinfluence",
+            "id": "r_subvertwinterinfluence",
             "label": "Subvert Winter Influence",
             "actionid": "study",
             "requirements": {
@@ -425,7 +425,7 @@
             },
             "linked": [
                 {
-                    "id": "studyinfluence_effectproject",
+                    "id": "r_studyinfluence_effectproject",
                     "chance": 100
                 }
             ],
@@ -434,7 +434,7 @@
             "craftable": true
         },
         {
-            "id": "studyinfluence_effectproject",
+            "id": "r_studyinfluence_effectproject",
             "label": "The Moment of Consequence",
             "actionid": "study",
             "requirements": {
@@ -444,69 +444,69 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "studyproject_influence_upgrade_edge",
+                    "id": "r_studyproject_influence_upgrade_edge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_forge",
+                    "id": "r_studyproject_influence_upgrade_forge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_grail",
+                    "id": "r_studyproject_influence_upgrade_grail",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_heart",
+                    "id": "r_studyproject_influence_upgrade_heart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_lantern",
+                    "id": "r_studyproject_influence_upgrade_lantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_moth",
+                    "id": "r_studyproject_influence_upgrade_moth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_winter",
+                    "id": "r_studyproject_influence_upgrade_winter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_edgetowinter",
+                    "id": "r_studyproject_influence_subvert_edgetowinter",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_forgetoedge",
+                    "id": "r_studyproject_influence_subvert_forgetoedge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_grailtomoth",
+                    "id": "r_studyproject_influence_subvert_grailtomoth",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_hearttograil",
+                    "id": "r_studyproject_influence_subvert_hearttograil",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_lanterntoforge",
+                    "id": "r_studyproject_influence_subvert_lanterntoforge",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_mothtolantern",
+                    "id": "r_studyproject_influence_subvert_mothtolantern",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_subvert_wintertoheart",
+                    "id": "r_studyproject_influence_subvert_wintertoheart",
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_subvert_knock",
+                    "id": "r_studyproject_influence_upgrade_subvert_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyproject_influence_upgrade_edge",
+            "id": "r_studyproject_influence_upgrade_edge",
             "label": "An Intenser Opposition",
             "actionid": "study",
             "requirements": {
@@ -524,7 +524,7 @@
             "description": "I've intensified this Edge influence."
         },
         {
-            "id": "studyproject_influence_upgrade_forge",
+            "id": "r_studyproject_influence_upgrade_forge",
             "label": "A Greater Heat",
             "actionid": "study",
             "requirements": {
@@ -542,7 +542,7 @@
             "description": "I've intensified this Forge influence."
         },
         {
-            "id": "studyproject_influence_upgrade_grail",
+            "id": "r_studyproject_influence_upgrade_grail",
             "label": "A More Potent Appetite",
             "actionid": "study",
             "requirements": {
@@ -560,7 +560,7 @@
             "description": "I've intensified this Grail influence."
         },
         {
-            "id": "studyproject_influence_upgrade_heart",
+            "id": "r_studyproject_influence_upgrade_heart",
             "label": "The Rhythms Unceasing",
             "actionid": "study",
             "requirements": {
@@ -578,7 +578,7 @@
             "description": "I've intensified this Heart influence."
         },
         {
-            "id": "studyproject_influence_upgrade_lantern",
+            "id": "r_studyproject_influence_upgrade_lantern",
             "label": "Luminosities Aligned",
             "actionid": "study",
             "requirements": {
@@ -596,7 +596,7 @@
             "description": "I've intensified this Lantern influence."
         },
         {
-            "id": "studyproject_influence_upgrade_moth",
+            "id": "r_studyproject_influence_upgrade_moth",
             "label": "Closer, Closer",
             "actionid": "study",
             "requirements": {
@@ -614,7 +614,7 @@
             "description": "I've intensified this Moth influence."
         },
         {
-            "id": "studyproject_influence_upgrade_winter",
+            "id": "r_studyproject_influence_upgrade_winter",
             "label": "A Silent Place",
             "actionid": "study",
             "requirements": {
@@ -632,7 +632,7 @@
             "description": "I've intensified this Winter influence."
         },
         {
-            "id": "studyproject_influence_subvert_edgetowinter",
+            "id": "r_studyproject_influence_subvert_edgetowinter",
             "label": "All Things End",
             "actionid": "study",
             "requirements": {
@@ -650,7 +650,7 @@
             "description": "Patience defeats strength."
         },
         {
-            "id": "studyproject_influence_subvert_forgetoedge",
+            "id": "r_studyproject_influence_subvert_forgetoedge",
             "label": "Force Conquers All",
             "actionid": "study",
             "requirements": {
@@ -668,7 +668,7 @@
             "description": "I've shattered what was shaped."
         },
         {
-            "id": "studyproject_influence_subvert_grailtomoth",
+            "id": "r_studyproject_influence_subvert_grailtomoth",
             "label": "Hunger is Folly",
             "actionid": "study",
             "requirements": {
@@ -686,7 +686,7 @@
             "description": "Even the Red Grail falls prey to the buzzing in the brain."
         },
         {
-            "id": "studyproject_influence_subvert_hearttograil",
+            "id": "r_studyproject_influence_subvert_hearttograil",
             "label": "What Does Not Cease Must Eventually Yield",
             "actionid": "study",
             "requirements": {
@@ -704,7 +704,7 @@
             "description": "All that moves must succumb to hunger."
         },
         {
-            "id": "studyproject_influence_subvert_lanterntoforge",
+            "id": "r_studyproject_influence_subvert_lanterntoforge",
             "label": "Sunset at Noon",
             "actionid": "study",
             "requirements": {
@@ -722,7 +722,7 @@
             "description": "Light yields to Heat."
         },
         {
-            "id": "studyproject_influence_subvert_mothtolantern",
+            "id": "r_studyproject_influence_subvert_mothtolantern",
             "label": "The Light Above",
             "actionid": "study",
             "requirements": {
@@ -740,7 +740,7 @@
             "description": "The Glory is a question, and Moth always answers Yes."
         },
         {
-            "id": "studyproject_influence_subvert_wintertoheart",
+            "id": "r_studyproject_influence_subvert_wintertoheart",
             "label": "The Life Beneath",
             "actionid": "study",
             "requirements": {
@@ -758,7 +758,7 @@
             "description": "Winter's coming must yield at last to spring."
         },
         {
-            "id": "studyproject_influence_upgrade_subvert_knock",
+            "id": "r_studyproject_influence_upgrade_subvert_knock",
             "label": "The Skin of the World",
             "actionid": "study",
             "requirements": {
@@ -800,13 +800,13 @@
             "description": "Place pressure upon a weakness, and rend the skin of the world.",
             "linked": [
                 {
-                    "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+                    "id": "r_studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+            "id": "r_studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
             "label": "All Shall Be Opened",
             "comments": "This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionid": "study",

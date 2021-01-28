@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "gloverandgloverjuniorjob",
+            "id": "r_gloverandgloverjuniorjob",
             "label": "Junior Position at Glover & Glover",
             "aspects": {
                 "job": 1
@@ -15,7 +15,7 @@
             "decayTo": "gloverandgloverjuniorjob_demotion"
         },
         {
-            "id": "gloverandgloverjuniorjob_nodifficultbossa",
+            "id": "r_gloverandgloverjuniorjob_nodifficultbossa",
             "label": "Junior Position at Glover & Glover",
             "aspects": {
                 "job": 1
@@ -29,7 +29,7 @@
             "decayTo": "gloverandgloverjuniorjob_nodifficultbossa_demotion"
         },
         {
-            "id": "gloverandglover_difficultbossa_job",
+            "id": "r_gloverandglover_difficultbossa_job",
             "label": "A Position at Glover and Glover",
             "aspects": {
                 "annoyance": 1,
@@ -45,7 +45,7 @@
             "decayTo": "gloverandgloverjuniorjob_demotion"
         },
         {
-            "id": "gloverandglover_difficultbossa_gone_job",
+            "id": "r_gloverandglover_difficultbossa_gone_job",
             "label": "Position at Glover & Glover",
             "aspects": {
                 "job": 1
@@ -54,14 +54,14 @@
             "comments": "interim job that immediately changes to standard one."
         },
         {
-            "id": "gloverandgloverjob",
+            "id": "r_gloverandgloverjob",
             "label": "Position at Glover & Glover",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
-                    "id": "Diligence",
+                    "id": "r_Diligence",
                     "label": "Diligence",
                     "actionid": "work",
                     "required": {
@@ -79,14 +79,14 @@
             "decayTo": "gloverandgloverjuniorjob_nodifficultbossa_demotion"
         },
         {
-            "id": "gloverandgloverjob_youngerglovergone",
+            "id": "r_gloverandgloverjob_youngerglovergone",
             "label": "Position at Glover & Glover",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
-                    "id": "Diligence",
+                    "id": "r_Diligence",
                     "label": "Diligence",
                     "actionid": "work",
                     "required": {
@@ -104,7 +104,7 @@
             "decayTo": "gloverandgloverjob_youngerglovergone_demotion"
         },
         {
-            "id": "gloverandgloverseniorjob",
+            "id": "r_gloverandgloverseniorjob",
             "label": "Senior Position at Glover & Glover",
             "aspects": {
                 "annoyance": 1,
@@ -112,7 +112,7 @@
             },
             "slots": [
                 {
-                    "id": "Devotion",
+                    "id": "r_Devotion",
                     "label": "Devotion",
                     "required": {
                         "reason": 1
@@ -130,14 +130,14 @@
             "decayTo": "gloverandgloverjob_demotion"
         },
         {
-            "id": "gloverandgloverseniorjob_youngerglovergone",
+            "id": "r_gloverandgloverseniorjob_youngerglovergone",
             "label": "Senior Position at Glover & Glover",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
-                    "id": "Devotion",
+                    "id": "r_Devotion",
                     "label": "Devotion",
                     "required": {
                         "reason": 1
@@ -155,7 +155,7 @@
             "decayTo": "gloverandgloverjob_youngerglovergone_demotion"
         },
         {
-            "id": "gloverandglovertopjob",
+            "id": "r_gloverandglovertopjob",
             "aspects": {
                 "job": 1
             },
@@ -168,7 +168,7 @@
             }
         },
         {
-            "id": "gloverandglovertopjob_tainted",
+            "id": "r_gloverandglovertopjob_tainted",
             "aspects": {
                 "job": 1
             },
@@ -181,7 +181,7 @@
             }
         },
         {
-            "id": "gloverandgloverjuniorjob_demotion",
+            "id": "r_gloverandgloverjuniorjob_demotion",
             "aspects": {
                 "job": 1,
                 "demotion": 1
@@ -189,7 +189,7 @@
             "label": "A Difficulty at Work: Demotion to a Junior Position",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Persuasion",
                     "required": {
                         "passion": 1
@@ -203,7 +203,7 @@
             }
         },
         {
-            "id": "gloverandgloverjuniorjob_nodifficultbossa_demotion",
+            "id": "r_gloverandgloverjuniorjob_nodifficultbossa_demotion",
             "aspects": {
                 "job": 1,
                 "demotion": 1
@@ -211,7 +211,7 @@
             "label": "A Difficulty at Work: Demotion to a Junior Position",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Persuasion",
                     "required": {
                         "passion": 1
@@ -225,7 +225,7 @@
             }
         },
         {
-            "id": "gloverandgloverjob_demotion",
+            "id": "r_gloverandgloverjob_demotion",
             "aspects": {
                 "job": 1,
                 "demotion": 1
@@ -233,7 +233,7 @@
             "label": "A Difficulty at Work: Demotion",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Persuasion",
                     "required": {
                         "passion": 1
@@ -247,7 +247,7 @@
             }
         },
         {
-            "id": "gloverandgloverjob_youngerglovergone_demotion",
+            "id": "r_gloverandgloverjob_youngerglovergone_demotion",
             "aspects": {
                 "job": 1,
                 "demotion": 1
@@ -255,7 +255,7 @@
             "label": "A Difficulty at Work: Demotion",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Persuasion",
                     "required": {
                         "passion": 1
@@ -269,7 +269,7 @@
             }
         },
         {
-            "id": "gloverandglovertopjob_tainted_demotion",
+            "id": "r_gloverandglovertopjob_tainted_demotion",
             "aspects": {
                 "job": 1,
                 "demotion": 1
@@ -277,7 +277,7 @@
             "label": "A Difficulty at Work: A Risk of Demotion",
             "slots": [
                 {
-                    "id": "passion",
+                    "id": "r_passion",
                     "label": "Persuasion",
                     "required": {
                         "passion": 1
@@ -291,7 +291,7 @@
             }
         },
         {
-            "id": "institutephysicianjob",
+            "id": "r_institutephysicianjob",
             "aspects": {
                 "job": 1
             },
@@ -299,7 +299,7 @@
             "label": "A Position at the Institute"
         },
         {
-            "id": "investmentsjobc",
+            "id": "r_investmentsjobc",
             "aspects": {
                 "benign": 1
             },
@@ -311,7 +311,7 @@
             "noartneeded": true
         },
         {
-            "id": "investmentsjobb",
+            "id": "r_investmentsjobb",
             "label": "A Substantial Private Income",
             "description": "Enough of an income to live in comfort.",
             "aspects": {
@@ -323,7 +323,7 @@
             "noartneeded": true
         },
         {
-            "id": "investmentsjoba",
+            "id": "r_investmentsjoba",
             "aspects": {
                 "benign": 1
             },
@@ -335,7 +335,7 @@
             "noartneeded": true
         },
         {
-            "id": "ghouljob.first",
+            "id": "r_ghouljob.first",
             "aspects": {
                 "job": 1
             },
@@ -343,7 +343,7 @@
             "description": "Sometimes, when I am particularly effective, the front row faints.",
             "slots": [
                 {
-                    "id": "memory",
+                    "id": "r_memory",
                     "label": "Information",
                     "actionid": "work",
                     "required": {
@@ -356,7 +356,7 @@
             }
         },
         {
-            "id": "ghouljob",
+            "id": "r_ghouljob",
             "aspects": {
                 "job": 1
             },
@@ -364,7 +364,7 @@
             "description": "Sometimes I speak in voices that even I do not expect.",
             "slots": [
                 {
-                    "id": "memory",
+                    "id": "r_memory",
                     "label": "Information",
                     "actionid": "work",
                     "required": {
@@ -374,7 +374,7 @@
             ]
         },
         {
-            "id": "auctioneerjob",
+            "id": "r_auctioneerjob",
             "aspects": {
                 "job": 1
             },
@@ -383,13 +383,13 @@
             "noartneeded": true
         },
         {
-            "id": "priestjob",
+            "id": "r_priestjob",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
-                    "id": "ability",
+                    "id": "r_ability",
                     "label": "Ability",
                     "required": {
                         "passion": 1,
@@ -399,7 +399,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "doctrine",
+                    "id": "r_doctrine",
                     "label": "Doctrine",
                     "required": {
                         "lore": 1
@@ -407,7 +407,7 @@
                     "actionid": "work"
                 },
                 {
-                    "id": "fervour",
+                    "id": "r_fervour",
                     "label": "Fervour",
                     "required": {
                         "fervour": 1

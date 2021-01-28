@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "thugedgeminor",
+            "id": "r_thugedgeminor",
             "label": "A Hulking Fellow",
             "aspects": {
                 "mortal": 1,
@@ -19,7 +19,7 @@
             "lifetime": 120
         },
         {
-            "id": "thugmothminor",
+            "id": "r_thugmothminor",
             "label": "A Shifty Woman",
             "aspects": {
                 "mortal": 1,
@@ -37,7 +37,7 @@
             "lifetime": 120
         },
         {
-            "id": "thugedge",
+            "id": "r_thugedge",
             "label": "Professional Muscle",
             "aspects": {
                 "mortal": 1,
@@ -55,7 +55,7 @@
             "lifetime": 120
         },
         {
-            "id": "thugforgeedge",
+            "id": "r_thugforgeedge",
             "label": "A Bomb-Maker",
             "aspects": {
                 "mortal": 1,
@@ -74,7 +74,7 @@
             "lifetime": 120
         },
         {
-            "id": "thugknock",
+            "id": "r_thugknock",
             "label": "An Entry Consultant",
             "aspects": {
                 "mortal": 1,
@@ -92,7 +92,7 @@
             "lifetime": 120
         },
         {
-            "id": "thuglanternmoth",
+            "id": "r_thuglanternmoth",
             "label": "A Fortune-Teller",
             "aspects": {
                 "mortal": 1,
@@ -111,7 +111,7 @@
             "lifetime": 120
         },
         {
-            "id": "thugmoth",
+            "id": "r_thugmoth",
             "label": "An Experienced Swindler",
             "aspects": {
                 "mortal": 1,

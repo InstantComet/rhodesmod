@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "lunatic",
+            "id": "r_lunatic",
             "label": "A Poor Lunatic",
             "aspects": {
                 "mortal": 1,
@@ -17,7 +17,7 @@
             }
         },
         {
-            "id": "genericprisonerm",
+            "id": "r_genericprisonerm",
             "label": "A Hapless Prisoner",
             "aspects": {
                 "mortal": 1,
@@ -35,7 +35,7 @@
             }
         },
         {
-            "id": "genericprisonerf",
+            "id": "r_genericprisonerf",
             "label": "A Hapless Prisoner",
             "aspects": {
                 "mortal": 1,

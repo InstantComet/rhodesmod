@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explore_vaultshires1_setup",
+            "id": "r_explore_vaultshires1_setup",
             "label": "Beginning an Expedition: Gladwyn Lake",
             "actionid": "explore",
             "requirements": {
@@ -18,13 +18,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultshires2_setup",
+            "id": "r_explore_vaultshires2_setup",
             "label": "Beginning an Expedition: Lockwood Fen",
             "actionid": "explore",
             "requirements": {
@@ -42,13 +42,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultshires3_setup",
+            "id": "r_explore_vaultshires3_setup",
             "label": "Beginning an Expedition: Crowkiss Hill",
             "actionid": "explore",
             "requirements": {
@@ -65,13 +65,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultshires4_setup",
+            "id": "r_explore_vaultshires4_setup",
             "label": "Beginning an Expedition: Keglin's Scratch",
             "actionid": "explore",
             "requirements": {
@@ -89,13 +89,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultshires5_setup",
+            "id": "r_explore_vaultshires5_setup",
             "label": "Beginning an Expedition: the Gwaer Inn",
             "actionid": "explore",
             "requirements": {
@@ -113,13 +113,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explore_vaultshiresdefault_setup",
+            "id": "r_explore_vaultshiresdefault_setup",
             "label": "Beginning an Expedition: Kerisham",
             "actionid": "explore",
             "requirements": {
@@ -138,13 +138,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "explorevault_expeditionbegun",
+                    "id": "r_explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultshires1_success",
+            "id": "r_explorevaultshires1_success",
             "label": "The Chapel-Root",
             "actionid": "explore",
             "requirements": {
@@ -169,7 +169,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultshires2_success",
+            "id": "r_explorevaultshires2_success",
             "label": "The Ring-Yew's Shrine",
             "actionid": "explore",
             "requirements": {
@@ -195,7 +195,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultshires3_success",
+            "id": "r_explorevaultshires3_success",
             "label": "The Warrior's End",
             "actionid": "explore",
             "requirements": {
@@ -223,13 +223,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "expedition.corpse.find.vaultshires3",
+                    "id": "r_expedition.corpse.find.vaultshires3",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "explorevaultshires4_success",
+            "id": "r_explorevaultshires4_success",
             "label": "Once a Lady",
             "actionid": "explore",
             "requirements": {
@@ -254,13 +254,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "expedition.corpse.find.vaultshires4",
+                    "id": "r_expedition.corpse.find.vaultshires4",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "explorevaultshires5_success",
+            "id": "r_explorevaultshires5_success",
             "label": "The White Library",
             "actionid": "explore",
             "requirements": {
@@ -287,7 +287,7 @@
             "craftable": false
         },
         {
-            "id": "explorevaultshiresdefault_success",
+            "id": "r_explorevaultshiresdefault_success",
             "label": "The Last Room",
             "actionid": "explore",
             "requirements": {
@@ -305,15 +305,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explore.apostleforge.findflaw",
+                    "id": "r_explore.apostleforge.findflaw",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionheartb",
+                    "id": "r_expeditionascensionheartb",
                     "chance": 100
                 },
                 {
-                    "id": "expeditionascensionmothb",
+                    "id": "r_expeditionascensionmothb",
                     "chance": 100
                 }
             ]

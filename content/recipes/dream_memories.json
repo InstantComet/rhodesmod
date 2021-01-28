@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "dreampleasantmemory",
+            "id": "r_dreampleasantmemory",
             "label": "Dwell on a Pleasant Memory",
             "actionid": "dream",
             "requirements": {
@@ -18,7 +18,7 @@
             "warmup": 10
         },
         {
-            "id": "dreampassionatememory",
+            "id": "r_dreampassionatememory",
             "label": "Dwell on a Passionate Memory",
             "actionid": "dream",
             "requirements": {
@@ -36,7 +36,7 @@
             "warmup": 10
         },
         {
-            "id": "dreambittersweetmemory",
+            "id": "r_dreambittersweetmemory",
             "label": "Dwell on a Bittersweet Memory",
             "actionid": "dream",
             "requirements": {

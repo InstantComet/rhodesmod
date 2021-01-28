@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "heartinduction",
+            "id": "r_heartinduction",
             "label": "The Course of the Heart",
             "actionid": "heartinduction",
             "effects": {
@@ -13,7 +13,7 @@
             "craftable": false
         },
         {
-            "id": "lanterninduction",
+            "id": "r_lanterninduction",
             "label": "A Light in the Skull",
             "actionid": "lanterninduction",
             "effects": {
@@ -25,7 +25,7 @@
             "craftable": false
         },
         {
-            "id": "mothinduction",
+            "id": "r_mothinduction",
             "label": "Old Unhappy Far-off Things",
             "actionid": "mothinduction",
             "effects": {
@@ -37,7 +37,7 @@
             "craftable": false
         },
         {
-            "id": "mothglimmeringinduction",
+            "id": "r_mothglimmeringinduction",
             "label": "The Dark, the Light",
             "actionid": "mothinduction",
             "effects": {
@@ -49,7 +49,7 @@
             "craftable": false
         },
         {
-            "id": "grailinduction",
+            "id": "r_grailinduction",
             "label": "The Place Behind Desire",
             "actionid": "grailinduction",
             "effects": {
@@ -61,7 +61,7 @@
             "craftable": false
         },
         {
-            "id": "dreadinduction",
+            "id": "r_dreadinduction",
             "label": "Night Terrors",
             "actionid": "dreadinduction",
             "effects": {
@@ -73,7 +73,7 @@
             "craftable": false
         },
         {
-            "id": "dreadinduction_ifdread",
+            "id": "r_dreadinduction_ifdread",
             "label": "Night Terrors",
             "actionid": "dreadinduction",
             "requirements": {
@@ -89,7 +89,7 @@
             "craftable": false
         },
         {
-            "id": "fascinationinduction",
+            "id": "r_fascinationinduction",
             "label": "New Colours",
             "actionid": "fascinationinduction",
             "effects": {
@@ -101,7 +101,7 @@
             "craftable": false
         },
         {
-            "id": "fascinationinduction_iffascination",
+            "id": "r_fascinationinduction_iffascination",
             "label": "New Colours",
             "actionid": "fascinationinduction",
             "requirements": {
@@ -116,7 +116,7 @@
             "craftable": false
         },
         {
-            "id": "poison.notoriety.induction",
+            "id": "r_poison.notoriety.induction",
             "actionid": "poison.notoriety.induction",
             "label": "The Public Gaze",
             "startdescription": "I've used a follower who's too well-known. The Suppression Bureau may hear of it.",
@@ -126,7 +126,7 @@
             "warmup": 30
         },
         {
-            "id": "poison.passion.dread.induction",
+            "id": "r_poison.passion.dread.induction",
             "actionid": "poison.passion.dread.induction",
             "label": "The Creeping Colour",
             "startdescription": "My passions are poisoned. Each pang of emotion brings an answering pang of savage grey.",
@@ -136,7 +136,7 @@
             "warmup": 30
         },
         {
-            "id": "poison.reason.fascination.induction",
+            "id": "r_poison.reason.fascination.induction",
             "actionid": "poison.reason.fascination.induction",
             "label": "Relentless Light",
             "startdescription": "A candle, when burned, brings light. When my thoughts ignite, what then?",
@@ -146,7 +146,7 @@
             "warmup": 30
         },
         {
-            "id": "poison.health.dread.induction",
+            "id": "r_poison.health.dread.induction",
             "actionid": "poison.health.dread.induction",
             "label": "The Hospitality of Agony",
             "startdescription": "I have invited an old friend to lair in my muscles for one more day.",
@@ -156,14 +156,14 @@
             "warmup": 30
         },
         {
-            "id": "secret.induction",
+            "id": "r_secret.induction",
             "actionid": "unsuspicion",
             "label": "The Benefits of Privacy",
             "startdescription": "We've taken care to locate our headquarters somewhere out of the way...",
             "description": "...perhaps it will be harder for the Suppression Bureau to follow leads to our door. It may also be harder to sustain a reputation.",
             "slots": [
                 {
-                    "id": "reputation",
+                    "id": "r_reputation",
                     "label": "Reputation",
                     "required": {
                         "reputation": 1

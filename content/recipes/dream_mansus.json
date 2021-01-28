@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "dreamstartingpassion",
+            "id": "r_dreamstartingpassion",
             "label": "The Moonlit Road",
             "actionid": "dream",
             "requirements": {
@@ -9,7 +9,7 @@
             },
             "slots": [
                 {
-                    "id": "Lore",
+                    "id": "r_Lore",
                     "label": "Lore",
                     "description": "If I engage in an occult practice before I sleep, I might find the way to deeper dream.",
                     "required": {
@@ -22,25 +22,25 @@
             "description": "Rumpled fields, the wink of a river. A tingling chill.",
             "alt": [
                 {
-                    "id": "dreamreachwoodknock",
+                    "id": "r_dreamreachwoodknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachwoodlantern",
+                    "id": "r_dreamreachwoodlantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachwoodmoth",
+                    "id": "r_dreamreachwoodmoth",
                     "chance": 100
                 },
                 {
-                    "id": "dreamenterwood",
+                    "id": "r_dreamenterwood",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
@@ -52,7 +52,7 @@
             }
         },
         {
-            "id": "dreamreachwoodmoth",
+            "id": "r_dreamreachwoodmoth",
             "label": "The Thyrsine Way",
             "actionid": "dream",
             "requirements": {
@@ -71,7 +71,7 @@
             }
         },
         {
-            "id": "dreamreachwoodknock",
+            "id": "r_dreamreachwoodknock",
             "label": "The Serpent's Way",
             "actionid": "dream",
             "requirements": {
@@ -89,7 +89,7 @@
             }
         },
         {
-            "id": "dreamreachwoodlantern",
+            "id": "r_dreamreachwoodlantern",
             "label": "The Bleached Way",
             "actionid": "dream",
             "requirements": {
@@ -107,7 +107,7 @@
             }
         },
         {
-            "id": "dreamusewoodway",
+            "id": "r_dreamusewoodway",
             "label": "The Way to the Wood",
             "actionid": "dream",
             "requirements": {
@@ -115,7 +115,7 @@
             },
             "slots": [
                 {
-                    "id": "Path",
+                    "id": "r_Path",
                     "label": "Path",
                     "description": "Employ Passion to enter the Wood - or, with the right lore, find the way to the White Door, the door where the dead throng.",
                     "required": {
@@ -131,35 +131,35 @@
             },
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 },
                 {
-                    "id": "dreamenterwood",
+                    "id": "r_dreamenterwood",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachwhitelantern",
+                    "id": "r_dreamreachwhitelantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachwhiteknock",
+                    "id": "r_dreamreachwhiteknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachwhitewinter",
+                    "id": "r_dreamreachwhitewinter",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachwhitelantern",
+                    "id": "r_dreamnotquitereachwhitelantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachwhiteknock",
+                    "id": "r_dreamnotquitereachwhiteknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachwhitewinter",
+                    "id": "r_dreamnotquitereachwhitewinter",
                     "chance": 100
                 }
             ],
@@ -167,13 +167,13 @@
             "warmup": 60,
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreamenterwood",
+            "id": "r_dreamenterwood",
             "label": "Entering the Wood",
             "actionid": "dream",
             "craftable": false,
@@ -186,7 +186,7 @@
             "portaleffect": "Wood",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -196,7 +196,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachwhitelantern",
+            "id": "r_dreamnotquitereachwhitelantern",
             "label": "The Light in the Wood: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -207,13 +207,13 @@
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
@@ -223,7 +223,7 @@
             "warmup": 10
         },
         {
-            "id": "dreamreachwhitelantern",
+            "id": "r_dreamreachwhitelantern",
             "label": "Approaching The White Door",
             "actionid": "dream",
             "requirements": {
@@ -234,7 +234,7 @@
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door. The light of the House leaks round its edges.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -246,7 +246,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachwhiteknock",
+            "id": "r_dreamnotquitereachwhiteknock",
             "label": "The Light in the Wood: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -257,13 +257,13 @@
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
@@ -273,7 +273,7 @@
             }
         },
         {
-            "id": "dreamreachwhiteknock",
+            "id": "r_dreamreachwhiteknock",
             "label": "Approaching The White Door",
             "actionid": "dream",
             "requirements": {
@@ -284,7 +284,7 @@
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door: open, as was prescribed so long ago.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -296,7 +296,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachwhitewinter",
+            "id": "r_dreamnotquitereachwhitewinter",
             "label": "The Light in the Wood: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -307,13 +307,13 @@
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
@@ -323,7 +323,7 @@
             "warmup": 10
         },
         {
-            "id": "dreamreachwhitewinter",
+            "id": "r_dreamreachwhitewinter",
             "label": "Approaching The White Door",
             "actionid": "dream",
             "requirements": {
@@ -334,7 +334,7 @@
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door, aglow like the moon in Winter.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -346,7 +346,7 @@
             }
         },
         {
-            "id": "dreamusewhiteway",
+            "id": "r_dreamusewhiteway",
             "label": "The Way to the White Door",
             "actionid": "dream",
             "requirements": {
@@ -354,7 +354,7 @@
             },
             "slots": [
                 {
-                    "id": "Ascent",
+                    "id": "r_Ascent",
                     "label": "Ascent",
                     "description": "Invest Health to pass the White Door - or follow desire to the Stag Door, the door of the Know.",
                     "required": {
@@ -367,26 +367,26 @@
             "description": "The narrow path is crowded with slow shapes - the air shivers with their sighs. My blood is thicked with cold. I must turn back. Now I drift into other dreams.",
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "craftable": true,
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 },
                 {
-                    "id": "dreamenterwhite",
+                    "id": "r_dreamenterwhite",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachstagfirst",
+                    "id": "r_dreamreachstagfirst",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachstagsubsequent",
+                    "id": "r_dreamreachstagsubsequent",
                     "chance": 100
                 }
             ],
@@ -396,7 +396,7 @@
             }
         },
         {
-            "id": "dreamenterwhite",
+            "id": "r_dreamenterwhite",
             "label": "Entering the White Door",
             "actionid": "dream",
             "craftable": false,
@@ -409,7 +409,7 @@
             "portaleffect": "whitedoor",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -419,7 +419,7 @@
             }
         },
         {
-            "id": "dreamreachstagfirst",
+            "id": "r_dreamreachstagfirst",
             "label": "To the Stag Door",
             "actionid": "dream",
             "requirements": {
@@ -438,7 +438,7 @@
             "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests a vast and wounded golden Head. Its mouth would be large enough to swallow me, were its jaw not shattered. It is the Name, Ghirbi. It begins to intone its riddle. ",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -451,7 +451,7 @@
             }
         },
         {
-            "id": "dreamreachstagsubsequent",
+            "id": "r_dreamreachstagsubsequent",
             "label": "At the Stag Door, Again",
             "actionid": "dream",
             "requirements": {
@@ -462,7 +462,7 @@
             "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests the vast and wounded golden Head, Ghirbi. It has given me its riddle, which I must answer if I am to enter the Stag Door. [Dream on the Riddle to answer it, or Way: the Stag Door if you have already answered.]",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -472,7 +472,7 @@
             }
         },
         {
-            "id": "dream_answerstagriddle_router",
+            "id": "r_dream_answerstagriddle_router",
             "actionid": "dream",
             "label": "Ghirbi's Riddle",
             "requirements": {
@@ -480,7 +480,7 @@
             },
             "slots": [
                 {
-                    "id": "Answer",
+                    "id": "r_Answer",
                     "label": "Answer",
                     "required": {
                         "lore": 1
@@ -494,37 +494,37 @@
             },
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "alt": [
                 {
-                    "id": "dream_answerstagriddle_1",
+                    "id": "r_dream_answerstagriddle_1",
                     "chance": 100
                 },
                 {
-                    "id": "dream_answerstagriddle_1",
+                    "id": "r_dream_answerstagriddle_1",
                     "chance": 100
                 },
                 {
-                    "id": "dream_answerstagriddle_2",
+                    "id": "r_dream_answerstagriddle_2",
                     "chance": 100
                 },
                 {
-                    "id": "dream_answerstagriddle_3",
+                    "id": "r_dream_answerstagriddle_3",
                     "chance": 100
                 },
                 {
-                    "id": "dream_answerstagriddle_4",
+                    "id": "r_dream_answerstagriddle_4",
                     "chance": 100
                 },
                 {
-                    "id": "dream_answerstagriddle_5",
+                    "id": "r_dream_answerstagriddle_5",
                     "chance": 100
                 },
                 {
-                    "id": "dream_wronganswerstagriddle",
+                    "id": "r_dream_wronganswerstagriddle",
                     "chance": 100
                 }
             ],
@@ -533,7 +533,7 @@
             "craftable": true
         },
         {
-            "id": "dream_answerstagriddle_1",
+            "id": "r_dream_answerstagriddle_1",
             "label": "One Thread in a Labyrinth",
             "actionid": "dream",
             "requirements": {
@@ -549,13 +549,13 @@
             },
             "linked": [
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dream_answerstagriddle_2",
+            "id": "r_dream_answerstagriddle_2",
             "label": "An Implacable Answer",
             "actionid": "dream",
             "requirements": {
@@ -571,13 +571,13 @@
             },
             "linked": [
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dream_answerstagriddle_3",
+            "id": "r_dream_answerstagriddle_3",
             "actionid": "dream",
             "label": "A Desirable Answer",
             "requirements": {
@@ -593,13 +593,13 @@
             },
             "linked": [
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dream_answerstagriddle_4",
+            "id": "r_dream_answerstagriddle_4",
             "actionid": "dream",
             "label": "A Serpent's Answer",
             "requirements": {
@@ -615,13 +615,13 @@
             },
             "linked": [
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dream_answerstagriddle_5",
+            "id": "r_dream_answerstagriddle_5",
             "actionid": "dream",
             "label": "An Answer from History",
             "requirements": {
@@ -637,13 +637,13 @@
             },
             "linked": [
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dream_wronganswerstagriddle",
+            "id": "r_dream_wronganswerstagriddle",
             "actionid": "dream",
             "label": "This is Not the Answer",
             "requirements": {
@@ -653,13 +653,13 @@
             "description": "I am awake. My eyes are open, and the Stag Door remains closed. Now I drift into other dreams.",
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreamusestagway",
+            "id": "r_dreamusestagway",
             "label": "The Way to the Stag Door",
             "actionid": "dream",
             "requirements": {
@@ -667,7 +667,7 @@
             },
             "slots": [
                 {
-                    "id": "Ascent",
+                    "id": "r_Ascent",
                     "label": "Ascent",
                     "description": "Invest Reason to pass the Stag Door - or, with the right lore, find the way to the Spider's Door, the door where blood is spilled.",
                     "required": {
@@ -680,49 +680,49 @@
             "description": "Here in the high dry byways of the Bounds are the intricate fissures and snares of ten thousand years of time. My Reason is lacking. I will wake without sight of the Door. Now I drift into other dreams.",
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "craftable": true,
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 },
                 {
-                    "id": "dreamenterstag",
+                    "id": "r_dreamenterstag",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachspiderlantern",
+                    "id": "r_dreamreachspiderlantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachspiderknock",
+                    "id": "r_dreamreachspiderknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachspidergrail",
+                    "id": "r_dreamreachspidergrail",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachspiderlantern",
+                    "id": "r_dreamnotquitereachspiderlantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachspiderknock",
+                    "id": "r_dreamnotquitereachspiderknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachspidergrail",
+                    "id": "r_dreamnotquitereachspidergrail",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "dreamenterstag",
+            "id": "r_dreamenterstag",
             "label": "Entering the Stag Door",
             "actionid": "dream",
             "craftable": false,
@@ -737,7 +737,7 @@
             "description": ".",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -745,7 +745,7 @@
             "warmup": 30
         },
         {
-            "id": "dreamnotquitereachspiderlantern",
+            "id": "r_dreamnotquitereachspiderlantern",
             "label": "The Silken Sands: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -756,20 +756,20 @@
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "dreamreachspiderlantern",
+            "id": "r_dreamreachspiderlantern",
             "label": "Approaching The Spider's Door",
             "actionid": "dream",
             "requirements": {
@@ -780,7 +780,7 @@
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -789,7 +789,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachspiderknock",
+            "id": "r_dreamnotquitereachspiderknock",
             "label": "The Silken Sands: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -800,20 +800,20 @@
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "dreamreachspiderknock",
+            "id": "r_dreamreachspiderknock",
             "label": "Approaching The Spider's Door",
             "actionid": "dream",
             "requirements": {
@@ -824,7 +824,7 @@
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -833,7 +833,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachspidergrail",
+            "id": "r_dreamnotquitereachspidergrail",
             "label": "The Silken Sands: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -844,20 +844,20 @@
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "dreamreachspidergrail",
+            "id": "r_dreamreachspidergrail",
             "label": "Approaching The Spider's Door",
             "actionid": "dream",
             "requirements": {
@@ -868,7 +868,7 @@
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -877,7 +877,7 @@
             }
         },
         {
-            "id": "dreamusespiderway",
+            "id": "r_dreamusespiderway",
             "label": "The Way to the Spider's Door",
             "actionid": "dream",
             "requirements": {
@@ -885,7 +885,7 @@
             },
             "slots": [
                 {
-                    "id": "Ascent",
+                    "id": "r_Ascent",
                     "label": "Ascent",
                     "description": "Provide a blood sacrifice to satisfy the THIRST of the Spider's Door - or, with the right lore, find the way to the Peacock's Door, the door where light is spilt like blood.",
                     "required": {
@@ -898,7 +898,7 @@
             "description": "Here in the folds of dream is the door, glistening black like the abdomen of a scoliid wasp, ever marked with ever-shrinking spots of blood. I have not satisfied its THIRST, and it will not open. Now I drift into other dreams.",
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
@@ -908,42 +908,42 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 },
                 {
-                    "id": "dreamenterspider",
+                    "id": "r_dreamenterspider",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachpeacocklantern",
+                    "id": "r_dreamreachpeacocklantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachpeacockknock",
+                    "id": "r_dreamreachpeacockknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamreachpeacockedge",
+                    "id": "r_dreamreachpeacockedge",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachpeacocklantern",
+                    "id": "r_dreamnotquitereachpeacocklantern",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachpeacockknock",
+                    "id": "r_dreamnotquitereachpeacockknock",
                     "chance": 100
                 },
                 {
-                    "id": "dreamnotquitereachpeacockedge",
+                    "id": "r_dreamnotquitereachpeacockedge",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "dreamenterspider",
+            "id": "r_dreamenterspider",
             "label": "Entering the Spider's Door",
             "actionid": "dream",
             "craftable": false,
@@ -954,7 +954,7 @@
             "startdescription": "The Spider's Door is always THIRSTY. Always. The blood I have given leaks in threads and spills through the skin of the world, and the Door drinks it and a moment's satisfaction swells its opening until I can pass.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -966,7 +966,7 @@
             "warmup": 0
         },
         {
-            "id": "dreamnotquitereachpeacocklantern",
+            "id": "r_dreamnotquitereachpeacocklantern",
             "label": "Glassgarden: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -977,19 +977,19 @@
             "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreamreachpeacocklantern",
+            "id": "r_dreamreachpeacocklantern",
             "label": "Glassgarden: Approaching The Peacock's Door",
             "actionid": "dream",
             "requirements": {
@@ -1000,7 +1000,7 @@
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -1009,7 +1009,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachpeacockknock",
+            "id": "r_dreamnotquitereachpeacockknock",
             "label": "Glassgarden: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -1020,19 +1020,19 @@
             "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreamreachpeacockknock",
+            "id": "r_dreamreachpeacockknock",
             "label": "Glassgarden: Approaching The Peacock's Door",
             "actionid": "dream",
             "requirements": {
@@ -1043,7 +1043,7 @@
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -1052,7 +1052,7 @@
             }
         },
         {
-            "id": "dreamnotquitereachpeacockedge",
+            "id": "r_dreamnotquitereachpeacockedge",
             "label": "Glassgarden: Not Enough!",
             "actionid": "dream",
             "requirements": {
@@ -1063,20 +1063,20 @@
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light. Now I drift into other dreams.",
             "linked": [
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 100
                 }
             ],
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "dreamreachpeacockedge",
+            "id": "r_dreamreachpeacockedge",
             "label": "Glassgarden: Approaching The Peacock's Door",
             "actionid": "dream",
             "requirements": {
@@ -1087,7 +1087,7 @@
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -1096,7 +1096,7 @@
             }
         },
         {
-            "id": "dreamusepeacockway",
+            "id": "r_dreamusepeacockway",
             "label": "The Way to the Peacock's Door",
             "actionid": "dream",
             "requirements": {
@@ -1104,7 +1104,7 @@
             },
             "slots": [
                 {
-                    "id": "Ascent",
+                    "id": "r_Ascent",
                     "label": "Ascent",
                     "description": "The Peacock Door does not open, exactly.",
                     "required": {
@@ -1120,26 +1120,26 @@
             },
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 },
                 {
-                    "id": "apostlelantern.createpillar2",
+                    "id": "r_apostlelantern.createpillar2",
                     "chance": 100
                 },
                 {
-                    "id": "dreamenterpeacockmirror",
+                    "id": "r_dreamenterpeacockmirror",
                     "chance": 100
                 },
                 {
-                    "id": "dreamenterpeacockfrangiclave",
+                    "id": "r_dreamenterpeacockfrangiclave",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "dreamenterpeacockmirror",
+            "id": "r_dreamenterpeacockmirror",
             "label": "Passing the Peacock's Door",
             "actionid": "dream",
             "craftable": false,
@@ -1151,7 +1151,7 @@
             "description": ".",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -1162,7 +1162,7 @@
             "warmup": 0
         },
         {
-            "id": "dreamenterpeacockfrangiclave",
+            "id": "r_dreamenterpeacockfrangiclave",
             "label": "Passing the Peacock's Door",
             "actionid": "dream",
             "craftable": false,
@@ -1174,7 +1174,7 @@
             "description": ".",
             "alt": [
                 {
-                    "id": "poison.long.way.trap",
+                    "id": "r_poison.long.way.trap",
                     "additional": true
                 }
             ],
@@ -1182,7 +1182,7 @@
             "warmup": 0
         },
         {
-            "id": "poison.long.way.trap",
+            "id": "r_poison.long.way.trap",
             "actionid": "poison.long.way.trap",
             "label": "The Watch upon the Way",
             "startdescription": "The Long has set invisible cartographers at the gate, to observe me as I pass and map me like a half-known country.",
@@ -1195,7 +1195,7 @@
             "warmup": 10
         },
         {
-            "id": "dreamheartvictoryintro",
+            "id": "r_dreamheartvictoryintro",
             "label": "Drums in the Storm",
             "actionid": "dream",
             "requirements": {
@@ -1207,7 +1207,7 @@
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
-                    "id": "beloved",
+                    "id": "r_beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -1221,21 +1221,21 @@
             ],
             "linked": [
                 {
-                    "id": "dreamheartvictory_withrisen",
+                    "id": "r_dreamheartvictory_withrisen",
                     "chance": 100
                 },
                 {
                     "chance": 100,
-                    "id": "belovedfarewelldream"
+                    "id": "r_belovedfarewelldream"
                 },
                 {
-                    "id": "dreamheartvictory",
+                    "id": "r_dreamheartvictory",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreamheartvictory",
+            "id": "r_dreamheartvictory",
             "label": "The Kingskin Gate",
             "actionid": "dream",
             "requirements": {
@@ -1246,7 +1246,7 @@
             "warmup": 30
         },
         {
-            "id": "dreamheartvictory_withrisen",
+            "id": "r_dreamheartvictory_withrisen",
             "label": "The Kingskin Gate",
             "actionid": "dream",
             "requirements": {
@@ -1258,7 +1258,7 @@
             "warmup": 10
         },
         {
-            "id": "dreammothvictoryintro",
+            "id": "r_dreammothvictoryintro",
             "label": "Drums in the Storm",
             "actionid": "dream",
             "requirements": {
@@ -1270,7 +1270,7 @@
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
-                    "id": "beloved",
+                    "id": "r_beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -1284,21 +1284,21 @@
             ],
             "linked": [
                 {
-                    "id": "dreammothvictory_withrisen",
+                    "id": "r_dreammothvictory_withrisen",
                     "chance": 100
                 },
                 {
                     "chance": 100,
-                    "id": "belovedfarewelldream"
+                    "id": "r_belovedfarewelldream"
                 },
                 {
-                    "id": "dreammothvictory",
+                    "id": "r_dreammothvictory",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreammothvictory",
+            "id": "r_dreammothvictory",
             "label": "The Door in the Wood",
             "actionid": "dream",
             "requirements": {
@@ -1309,7 +1309,7 @@
             "warmup": 30
         },
         {
-            "id": "dreammothvictory_withrisen",
+            "id": "r_dreammothvictory_withrisen",
             "label": "The Door in the Wood",
             "actionid": "dream",
             "requirements": {
@@ -1321,7 +1321,7 @@
             "warmup": 10
         },
         {
-            "id": "dreammeniscatevictoryintro",
+            "id": "r_dreammeniscatevictoryintro",
             "label": "Without the Walls",
             "actionid": "dream",
             "requirements": {
@@ -1333,7 +1333,7 @@
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
-                    "id": "beloved",
+                    "id": "r_beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -1347,21 +1347,21 @@
             ],
             "linked": [
                 {
-                    "id": "dreammeniscatevictory_withrisen",
+                    "id": "r_dreammeniscatevictory_withrisen",
                     "chance": 100
                 },
                 {
                     "chance": 100,
-                    "id": "belovedfarewelldream"
+                    "id": "r_belovedfarewelldream"
                 },
                 {
-                    "id": "dreammeniscatevictory",
+                    "id": "r_dreammeniscatevictory",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "dreammeniscatevictory",
+            "id": "r_dreammeniscatevictory",
             "label": "Three",
             "actionid": "dream",
             "requirements": {
@@ -1372,7 +1372,7 @@
             "warmup": 30
         },
         {
-            "id": "dreammeniscatevictory_withrisen",
+            "id": "r_dreammeniscatevictory_withrisen",
             "label": "Three",
             "actionid": "dream",
             "requirements": {
@@ -1384,7 +1384,7 @@
             "warmup": 30
         },
         {
-            "id": "belovedfarewelldream",
+            "id": "r_belovedfarewelldream",
             "label": "The Threshold Choice",
             "actionid": "dream",
             "requirements": {
@@ -1393,7 +1393,7 @@
             "startdescription": "The final farewell. They will remain, and I will ascend.",
             "slots": [
                 {
-                    "id": "decision",
+                    "id": "r_decision",
                     "label": "Decision",
                     "description": "[Add Passion to turn aside from your ascent... and live as a mortal with your beloved. Do nothing to continue.]",
                     "required": {
@@ -1403,113 +1403,113 @@
             ],
             "alt": [
                 {
-                    "id": "auclairvictory",
+                    "id": "r_auclairvictory",
                     "chance": 100
                 },
                 {
-                    "id": "catvictory",
+                    "id": "r_catvictory",
                     "chance": 100
                 },
                 {
-                    "id": "clovettevictory",
+                    "id": "r_clovettevictory",
                     "chance": 100
                 },
                 {
-                    "id": "cliftonvictory",
+                    "id": "r_cliftonvictory",
                     "chance": 100
                 },
                 {
-                    "id": "dorothyvictory",
+                    "id": "r_dorothyvictory",
                     "chance": 100
                 },
                 {
-                    "id": "elridgevictory",
+                    "id": "r_elridgevictory",
                     "chance": 100
                 },
                 {
-                    "id": "enidvictory",
+                    "id": "r_enidvictory",
                     "chance": 100
                 },
                 {
-                    "id": "laidlawvictory",
+                    "id": "r_laidlawvictory",
                     "chance": 100
                 },
                 {
-                    "id": "leovictory",
+                    "id": "r_leovictory",
                     "chance": 100
                 },
                 {
-                    "id": "nevillevictory",
+                    "id": "r_nevillevictory",
                     "chance": 100
                 },
                 {
-                    "id": "portervictory",
+                    "id": "r_portervictory",
                     "chance": 100
                 },
                 {
-                    "id": "reniravictory",
+                    "id": "r_reniravictory",
                     "chance": 100
                 },
                 {
-                    "id": "rosevictory",
+                    "id": "r_rosevictory",
                     "chance": 100
                 },
                 {
-                    "id": "salibavictory",
+                    "id": "r_salibavictory",
                     "chance": 100
                 },
                 {
-                    "id": "sleevictory",
+                    "id": "r_sleevictory",
                     "chance": 100
                 },
                 {
-                    "id": "sylviavictory",
+                    "id": "r_sylviavictory",
                     "chance": 100
                 },
                 {
-                    "id": "tristanvictory",
+                    "id": "r_tristanvictory",
                     "chance": 100
                 },
                 {
-                    "id": "valcianevictory",
+                    "id": "r_valcianevictory",
                     "chance": 100
                 },
                 {
-                    "id": "victorvictory",
+                    "id": "r_victorvictory",
                     "chance": 100
                 },
                 {
-                    "id": "violetvictory",
+                    "id": "r_violetvictory",
                     "chance": 100
                 },
                 {
-                    "id": "ysabetvictory",
+                    "id": "r_ysabetvictory",
                     "chance": 100
                 },
                 {
-                    "id": "imnotinlovedream",
+                    "id": "r_imnotinlovedream",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "imnotinlovedream",
+            "id": "r_imnotinlovedream",
             "label": "Dedication",
             "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
             "actionid": "dream",
             "craftable": false,
             "linked": [
                 {
-                    "id": "dreammothvictory",
+                    "id": "r_dreammothvictory",
                     "chance": 100
                 },
                 {
-                    "id": "dreamheartvictory",
+                    "id": "r_dreamheartvictory",
                     "chance": 100
                 },
                 {
-                    "id": "dreammeniscatevictory",
+                    "id": "r_dreammeniscatevictory",
                     "chance": 100
                 }
             ]

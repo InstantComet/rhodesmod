@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "drawseason",
+            "id": "r_drawseason",
             "actionid": "time",
             "deckeffects": {
                 "seasonevents": 1
@@ -9,59 +9,59 @@
             "warmup": 0,
             "linked": [
                 {
-                    "id": "needs",
+                    "id": "r_needs",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "needs",
+            "id": "r_needs",
             "label": "Time Passes",
             "actionid": "time",
             "requirements": {},
             "alt": [
                 {
-                    "id": "forlornbloodsickness",
+                    "id": "r_forlornbloodsickness",
                     "chance": 70,
                     "additional": true
                 },
                 {
-                    "id": "sickness",
+                    "id": "r_sickness",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "pleasantday",
+                    "id": "r_pleasantday",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "suspicion",
+                    "id": "r_suspicion",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "ambition",
+                    "id": "r_ambition",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "despairrisklink",
+                    "id": "r_despairrisklink",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "visionsrisklink",
+                    "id": "r_visionsrisklink",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "starvation",
+                    "id": "r_starvation",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "rosenext",
+                    "id": "r_rosenext",
                     "chance": 100,
                     "additional": true
                 }
@@ -71,7 +71,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "Expenses",
+                    "id": "r_Expenses",
                     "label": "Expenses",
                     "required": {
                         "funds": 1
@@ -83,14 +83,14 @@
             ],
             "linked": [
                 {
-                    "id": "discardseason",
+                    "id": "r_discardseason",
                     "chance": 100
                 }
             ],
             "signalimportantloop": true
         },
         {
-            "id": "discardseason",
+            "id": "r_discardseason",
             "actionid": "time",
             "effects": {
                 "season": -1,
@@ -99,13 +99,13 @@
             "warmup": 0,
             "linked": [
                 {
-                    "id": "drawseason",
+                    "id": "r_drawseason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "presickness",
+            "id": "r_presickness",
             "label": "The Price of Joy",
             "actionid": "illhealth",
             "comments": "to lead into actual sickness from opium abuse, which requires Season Of",
@@ -115,13 +115,13 @@
             },
             "linked": [
                 {
-                    "id": "sickness"
+                    "id": "r_sickness"
                 }
             ],
             "warmup": 15
         },
         {
-            "id": "sickness",
+            "id": "r_sickness",
             "label": "Sickness",
             "actionid": "illhealth",
             "startdescription": "I've become unwell!",
@@ -135,7 +135,7 @@
             "comments": "We don't want to double up on normal and Grail-apostle sickness",
             "slots": [
                 {
-                    "id": "Affliction",
+                    "id": "r_Affliction",
                     "label": "Health",
                     "required": {
                         "health": 1,
@@ -155,11 +155,11 @@
             },
             "alt": [
                 {
-                    "id": "deathofthewoundedfollower",
+                    "id": "r_deathofthewoundedfollower",
                     "chance": 100
                 },
                 {
-                    "id": "signalupcomingsicknessdeath",
+                    "id": "r_signalupcomingsicknessdeath",
                     "chance": 100
                 }
             ],
@@ -169,7 +169,7 @@
             }
         },
         {
-            "id": "signalupcomingsicknessdeath",
+            "id": "r_signalupcomingsicknessdeath",
             "actionid": "sickness",
             "label": "Sickness",
             "requirements": {
@@ -181,18 +181,18 @@
             "signalEndingFlavour": "Melancholy",
             "linked": [
                 {
-                    "id": "sickness.nohealthavailable.tryforstayofexecution",
+                    "id": "r_sickness.nohealthavailable.tryforstayofexecution",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "sickness.nohealthavailable.tryforstayofexecution",
+            "id": "r_sickness.nohealthavailable.tryforstayofexecution",
             "actionid": "illhealth",
             "label": "Mortal Peril",
             "slots": [
                 {
-                    "id": "sicknessprotection",
+                    "id": "r_sicknessprotection",
                     "label": "Protection",
                     "required": {
                         "sicknessprotection": 1
@@ -210,7 +210,7 @@
             "ending": "deathofthebody",
             "alt": [
                 {
-                    "id": "protectedagainstsickness",
+                    "id": "r_protectedagainstsickness",
                     "actionid": "sickness",
                     "label": "Not This Time",
                     "requirements": {
@@ -223,7 +223,7 @@
                     }
                 },
                 {
-                    "id": "mareendingsickness",
+                    "id": "r_mareendingsickness",
                     "chance": 100,
                     "actionid": "sickness",
                     "label": "The Mare In Me",
@@ -240,7 +240,7 @@
             ]
         },
         {
-            "id": "forlornbloodsickness",
+            "id": "r_forlornbloodsickness",
             "label": "Sickness",
             "actionid": "illhealth",
             "extantreqs": {
@@ -248,7 +248,7 @@
             },
             "slots": [
                 {
-                    "id": "Affliction",
+                    "id": "r_Affliction",
                     "label": "Affliction",
                     "required": {
                         "health": 1,
@@ -263,11 +263,11 @@
             },
             "alt": [
                 {
-                    "id": "savorousbloodrespite",
+                    "id": "r_savorousbloodrespite",
                     "chance": 100
                 },
                 {
-                    "id": "forlornblooddeathofthebody",
+                    "id": "r_forlornblooddeathofthebody",
                     "chance": 100
                 }
             ],
@@ -276,7 +276,7 @@
             "warmup": 60
         },
         {
-            "id": "savorousbloodrespite",
+            "id": "r_savorousbloodrespite",
             "actionid": "illhealth",
             "label": "A Respite",
             "requirements": {
@@ -286,7 +286,7 @@
             "warmup": 10
         },
         {
-            "id": "deathofthewoundedfollower",
+            "id": "r_deathofthewoundedfollower",
             "actionid": "time",
             "label": "My Follower is dying!",
             "requirements": {
@@ -302,7 +302,7 @@
             }
         },
         {
-            "id": "rosenext",
+            "id": "r_rosenext",
             "label": "Trysts and Interludes",
             "actionid": "rose",
             "requirements": {
@@ -310,7 +310,7 @@
             },
             "slots": [
                 {
-                    "id": "Who?",
+                    "id": "r_Who?",
                     "label": "Who?",
                     "description": "Palm to palm and eye to eye.",
                     "required": {
@@ -326,22 +326,22 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "L_roseend",
+                    "id": "r_L_roseend",
                     "chance": 100
                 },
                 {
-                    "id": "L_checkjealousy",
+                    "id": "r_L_checkjealousy",
                     "chance": 30
                 },
                 {
-                    "id": "L_roserouter",
+                    "id": "r_L_roserouter",
                     "chance": 100
                 }
             ],
             "warmup": 5
         },
         {
-            "id": "pleasantday",
+            "id": "r_pleasantday",
             "label": "A Pleasant Day",
             "actionid": "pleasantday",
             "requirements": {
@@ -357,7 +357,7 @@
             "craftable": false
         },
         {
-            "id": "despairrisklink",
+            "id": "r_despairrisklink",
             "label": "despairrisklink",
             "actionid": "despair",
             "requirements": {
@@ -367,13 +367,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "despairrisk",
+                    "id": "r_despairrisk",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "visionsrisklink",
+            "id": "r_visionsrisklink",
             "label": "visionsrisklink",
             "actionid": "visions",
             "requirements": {
@@ -383,13 +383,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "visionsrisk",
+                    "id": "r_visionsrisk",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "starvation",
+            "id": "r_starvation",
             "label": "Starvation",
             "actionid": "illhealth",
             "requirements": {
@@ -401,7 +401,7 @@
             },
             "alt": [
                 {
-                    "id": "mareendingstarvation",
+                    "id": "r_mareendingstarvation",
                     "actionid": "illhealth",
                     "label": "The Mare In Me",
                     "startdescription": "SHE COMES",
@@ -415,7 +415,7 @@
                     "craftable": false
                 },
                 {
-                    "id": "deathofthebody",
+                    "id": "r_deathofthebody",
                     "chance": 100
                 }
             ],
@@ -424,7 +424,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "starvation",
+                    "id": "r_starvation",
                     "label": "Starvation",
                     "required": {
                         "health": 1

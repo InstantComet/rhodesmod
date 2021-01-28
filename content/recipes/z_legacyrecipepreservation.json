@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "translatevakh1int",
+            "id": "r_translatevakh1int",
             "comments": "here to prevent possible legacy save issues only - orig hint misnamed",
             "actionid": "z",
             "requirements": {
@@ -11,7 +11,7 @@
             "craftable": false
         },
         {
-            "id": "studyincreasehealthskillc",
+            "id": "r_studyincreasehealthskillc",
             "comments": "Backwards compatility only",
             "actionid": "study",
             "description": "My efforts have gone awry.",
@@ -21,7 +21,7 @@
             "craftable": false
         },
         {
-            "id": "studyincreasereasonskillc",
+            "id": "r_studyincreasereasonskillc",
             "comments": "Backwards compatility only",
             "actionid": "study",
             "description": "My efforts have gone awry.",
@@ -31,7 +31,7 @@
             "craftable": false
         },
         {
-            "id": "studyincreasepassionskillc",
+            "id": "r_studyincreasepassionskillc",
             "comments": "Backwards compatility only",
             "actionid": "study",
             "description": "My efforts have gone awry.",

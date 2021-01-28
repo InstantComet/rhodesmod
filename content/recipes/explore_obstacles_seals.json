@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explorevaultseal_hiddendoor_encounter",
+            "id": "r_explorevaultseal_hiddendoor_encounter",
             "actionid": "explore",
             "label": "A Hidden Door",
             "startdescription": "There must be a door here. But without Lantern or Knock, we can't uncover it.",
@@ -10,7 +10,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -21,27 +21,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultseal_hiddendoor_highlantern",
+                    "id": "r_explorevaultseal_hiddendoor_highlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_highknock",
+                    "id": "r_explorevaultseal_hiddendoor_highknock",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_midlantern",
+                    "id": "r_explorevaultseal_hiddendoor_midlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_midknock",
+                    "id": "r_explorevaultseal_hiddendoor_midknock",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_lowlantern",
+                    "id": "r_explorevaultseal_hiddendoor_lowlantern",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_lowknock",
+                    "id": "r_explorevaultseal_hiddendoor_lowknock",
                     "chance": 100
                 }
             ],
@@ -49,13 +49,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_highlantern",
+            "id": "r_explorevaultseal_hiddendoor_highlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 10
@@ -65,17 +65,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_midlantern",
+            "id": "r_explorevaultseal_hiddendoor_midlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 5
@@ -85,17 +85,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_lowlantern",
+            "id": "r_explorevaultseal_hiddendoor_lowlantern",
             "actionid": "explore",
             "requirements": {
                 "lantern": 1
@@ -105,17 +105,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_highknock",
+            "id": "r_explorevaultseal_hiddendoor_highknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 10
@@ -125,17 +125,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_midknock",
+            "id": "r_explorevaultseal_hiddendoor_midknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 5
@@ -145,17 +145,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_lowknock",
+            "id": "r_explorevaultseal_hiddendoor_lowknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 1
@@ -165,17 +165,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_hiddendoor_success",
+                    "id": "r_explorevaultseal_hiddendoor_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultseal_hiddendoor_failure",
+                    "id": "r_explorevaultseal_hiddendoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_hiddendoor_success",
+            "id": "r_explorevaultseal_hiddendoor_success",
             "actionid": "explore",
             "label": "A Way through the Hidden Door",
             "startdescription": "Faint lines in stone; a surface that yields to pressure. We've found it! The Hidden Door moves, with a grating shudder and a shower of dust.",
@@ -186,14 +186,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultseal_hiddendoor_failure",
+            "id": "r_explorevaultseal_hiddendoor_failure",
             "actionid": "explore",
             "label": "A Fruitless Search",
             "startdescription": "Where is it? We could use more Knock, or Lantern.",
@@ -201,14 +201,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultseal_wardeddoor_encounter",
+            "id": "r_explorevaultseal_wardeddoor_encounter",
             "actionid": "explore",
             "label": "A Warded Door",
             "startdescription": "This door has held fast for a long time. Unless we bring Forge or Knock, it will hold fast against us too.",
@@ -217,7 +217,7 @@
             },
             "slots": [
                 {
-                    "id": "Assistance",
+                    "id": "r_Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
@@ -228,27 +228,27 @@
             ],
             "alt": [
                 {
-                    "id": "explorevaultseal_wardeddoor_highforge",
+                    "id": "r_explorevaultseal_wardeddoor_highforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_highknock",
+                    "id": "r_explorevaultseal_wardeddoor_highknock",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_midforge",
+                    "id": "r_explorevaultseal_wardeddoor_midforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_midknock",
+                    "id": "r_explorevaultseal_wardeddoor_midknock",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_lowforge",
+                    "id": "r_explorevaultseal_wardeddoor_lowforge",
                     "chance": 100
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_lowknock",
+                    "id": "r_explorevaultseal_wardeddoor_lowknock",
                     "chance": 100
                 }
             ],
@@ -256,13 +256,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_highforge",
+            "id": "r_explorevaultseal_wardeddoor_highforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 10
@@ -272,17 +272,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_midforge",
+            "id": "r_explorevaultseal_wardeddoor_midforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 5
@@ -292,17 +292,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_lowforge",
+            "id": "r_explorevaultseal_wardeddoor_lowforge",
             "actionid": "explore",
             "requirements": {
                 "forge": 1
@@ -312,17 +312,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_highknock",
+            "id": "r_explorevaultseal_wardeddoor_highknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 10
@@ -332,17 +332,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 90
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_midknock",
+            "id": "r_explorevaultseal_wardeddoor_midknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 5
@@ -352,17 +352,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 70
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_lowknock",
+            "id": "r_explorevaultseal_wardeddoor_lowknock",
             "actionid": "explore",
             "requirements": {
                 "knock": 1
@@ -372,17 +372,17 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "explorevaultseal_wardeddoor_success",
+                    "id": "r_explorevaultseal_wardeddoor_success",
                     "chance": 30
                 },
                 {
-                    "id": "explorevaultseal_wardeddoor_failure",
+                    "id": "r_explorevaultseal_wardeddoor_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "explorevaultseal_wardeddoor_success",
+            "id": "r_explorevaultseal_wardeddoor_success",
             "actionid": "explore",
             "label": "The Death of a Door",
             "startdescription": "All doors must open, as all lives must end. This door has found its end here today.",
@@ -393,14 +393,14 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "explorevaultseal_wardeddoor_failure",
+            "id": "r_explorevaultseal_wardeddoor_failure",
             "actionid": "explore",
             "label": "The Purposes of Doors",
             "startdescription": "Doors have two purposes: to open, and to remain closed. Today, this door remains true to its second purpose.",
@@ -408,7 +408,7 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "explorevaulttick",
+                    "id": "r_explorevaulttick",
                     "chance": 100
                 }
             ],

@@ -1,7 +1,7 @@
 {
     "decks": [
         {
-            "id": "oneoffrewards",
+            "id": "r_oneoffrewards",
             "label": "A Useful Scrap",
             "description": "Something of note.",
             "spec": [
@@ -17,7 +17,7 @@
             "resetonexhaustion": true
         },
         {
-            "id": "commontomes",
+            "id": "r_commontomes",
             "label": "Works in Circulation",
             "description": "I might find books on sale to teach me something of the invisible arts.",
             "spec": [
@@ -55,7 +55,7 @@
             "defaultcard": "genericrubbishbook"
         },
         {
-            "id": "auctionedcommontomes",
+            "id": "r_auctionedcommontomes",
             "label": "Works from Collections",
             "description": "I might find a slightly choicer collection of books here.",
             "spec": [

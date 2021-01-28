@@ -1,7 +1,7 @@
  {"recipes": [
  
 		   {
-        "id": "testemptyresults",
+        "id": "r_testemptyresults",
         "label": "'In so far as one denies what is, one is possessed by what is not.' - Le Guin",
         "actionId": "testemptyresults",
         "effects": {},

@@ -1,11 +1,11 @@
 {
     "verbs": [
         {
-            "id": "work",
+            "id": "r_work",
             "label": "Work",
             "description": "Earn a living, or practice the invisible arts.",
             "slot": {
-                "id": "work",
+                "id": "r_work",
                 "label": "Work",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
@@ -21,11 +21,11 @@
             }
         },
         {
-            "id": "dream",
+            "id": "r_dream",
             "label": "Dream",
             "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
             "slot": {
-                "id": "dream",
+                "id": "r_dream",
                 "label": "Dream",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
@@ -38,11 +38,11 @@
             }
         },
         {
-            "id": "study",
+            "id": "r_study",
             "label": "Study",
             "description": "Unlock books and other treasures.",
             "slot": {
-                "id": "study",
+                "id": "r_study",
                 "label": "Study",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
@@ -57,11 +57,11 @@
             }
         },
         {
-            "id": "talk",
+            "id": "r_talk",
             "label": "Talk",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
-                "id": "talk",
+                "id": "r_talk",
                 "label": "Talk",
                 "description": "An ally, an enemy, or something in between.",
                 "required": {
@@ -78,11 +78,11 @@
             }
         },
         {
-            "id": "explore",
+            "id": "r_explore",
             "label": "Explore",
             "description": "Explore the city with Health or Followers; explore locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
             "slot": {
-                "id": "explore",
+                "id": "r_explore",
                 "label": "Explore",
                 "description": "A place; a person; a location; a secret.",
                 "required": {
@@ -98,11 +98,11 @@
             }
         },
         {
-            "id": "time",
+            "id": "r_time",
             "label": "Time",
             "description": "The sundial's shadow.",
             "slot": {
-                "id": "time",
+                "id": "r_time",
                 "label": "Time"
             }
         }

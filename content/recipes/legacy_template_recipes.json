@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "worktemplatejob",
+            "id": "r_worktemplatejob",
             "label": "Start template Job",
             "actionid": "work",
             "requirements": {
@@ -15,7 +15,7 @@
             },
             "alt": [
                 {
-                    "id": "templateopenstudy",
+                    "id": "r_templateopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -26,7 +26,7 @@
             "craftable": true
         },
         {
-            "id": "worktemplatejob_matured",
+            "id": "r_worktemplatejob_matured",
             "label": "",
             "actionid": "work",
             "requirements": {
@@ -34,7 +34,7 @@
             },
             "alt": [
                 {
-                    "id": "needs",
+                    "id": "r_needs",
                     "chance": 100,
                     "additional": true
                 }
@@ -48,7 +48,7 @@
             "craftable": true
         },
         {
-            "id": "worktemplatejob_epilogue",
+            "id": "r_worktemplatejob_epilogue",
             "label": "",
             "actionid": "work",
             "effects": {
@@ -59,7 +59,7 @@
             "craftable": false
         },
         {
-            "id": "templateopendream",
+            "id": "r_templateopendream",
             "label": "OPEN DREAM",
             "actionid": "dream",
             "startdescription": "",
@@ -71,21 +71,21 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "visionsrisk",
+                    "id": "r_visionsrisk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "templateopenstudy",
+            "id": "r_templateopenstudy",
             "label": "OPEN STUDY",
             "actionid": "study",
             "startdescription": "",
             "description": "",
             "alt": [
                 {
-                    "id": "templateopendream",
+                    "id": "r_templateopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -97,7 +97,7 @@
             "craftable": false
         },
         {
-            "id": "templateopenexplore",
+            "id": "r_templateopenexplore",
             "label": "OPEN EXPLORE",
             "actionid": "explore",
             "startdescription": "",
@@ -110,7 +110,7 @@
             "craftable": false
         },
         {
-            "id": "templateopentalk",
+            "id": "r_templateopentalk",
             "label": "",
             "actionid": "talk",
             "startdescription": "",
@@ -120,7 +120,7 @@
             "craftable": false
         },
         {
-            "id": "templatestudy_plotitem",
+            "id": "r_templatestudy_plotitem",
             "label": "",
             "actionid": "study",
             "requirements": {
@@ -128,7 +128,7 @@
             },
             "alt": [
                 {
-                    "id": "templateopendream",
+                    "id": "r_templateopendream",
                     "chance": 100,
                     "additional": true
                 }

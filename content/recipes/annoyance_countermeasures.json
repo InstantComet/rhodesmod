@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "annoyanceseducehighgrail",
+            "id": "r_annoyanceseducehighgrail",
             "label": "Send an Irresistible Minion to Ensnare and Disgrace an Annoyance",
             "actionid": "talk",
             "startdescription": "I want this irritation out of my way. They may even enjoy their downfall.",
@@ -13,17 +13,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceseducesuccess",
+                    "id": "r_annoyanceseducesuccess",
                     "chance": 70
                 },
                 {
-                    "id": "annoyanceseducefailure",
+                    "id": "r_annoyanceseducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceseducemidgrail",
+            "id": "r_annoyanceseducemidgrail",
             "label": "Send an Alluring Minion to Ensnare and Disgrace an Annoyance",
             "actionid": "talk",
             "startdescription": "Everyone has a weakness for one particular pleasure. I will send a minion who understands the many natures of pleasure. They will very likely succeed.",
@@ -35,17 +35,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceseducesuccess",
+                    "id": "r_annoyanceseducesuccess",
                     "chance": 70
                 },
                 {
-                    "id": "annoyanceseducefailure",
+                    "id": "r_annoyanceseducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceseducelowgrail",
+            "id": "r_annoyanceseducelowgrail",
             "label": "Send a Tempting Minion to Ensnare and Disgrace an Annoyance",
             "actionid": "talk",
             "startdescription": "Who knows if this will succeed? The Annoyance may not find my minion appealing at all.",
@@ -57,17 +57,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceseducesuccess",
+                    "id": "r_annoyanceseducesuccess",
                     "chance": 30
                 },
                 {
-                    "id": "annoyanceseducefailure",
+                    "id": "r_annoyanceseducefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceseducesuccess",
+            "id": "r_annoyanceseducesuccess",
             "label": "Offering Temptations to an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -78,7 +78,7 @@
             "warmup": 30
         },
         {
-            "id": "annoyanceseducefailure",
+            "id": "r_annoyanceseducefailure",
             "label": "Offering Temptations to an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -86,7 +86,7 @@
             "warmup": 30
         },
         {
-            "id": "annoyanceattackhighedge",
+            "id": "r_annoyanceattackhighedge",
             "label": "Send an Unstoppable Force to murder an Annoyance",
             "actionid": "talk",
             "startdescription": "I am out of patience with this nuisance. Unless they have some unusual protection, they're already dead. But their demise will attract attention.",
@@ -98,13 +98,13 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceattacksuccess",
+                    "id": "r_annoyanceattacksuccess",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceattackmidedge",
+            "id": "r_annoyanceattackmidedge",
             "label": "Send a Potent Minion to murder an Annoyance",
             "actionid": "talk",
             "startdescription": "I am out of patience with this nuisance. This should be an end to the matter. But they could possibly survive, and the attempt will draw attention. [Failure will kill your minion.]",
@@ -116,17 +116,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceattacksuccess",
+                    "id": "r_annoyanceattacksuccess",
                     "chance": 70
                 },
                 {
-                    "id": "annoyanceattackfailure",
+                    "id": "r_annoyanceattackfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceattacklowedge",
+            "id": "r_annoyanceattacklowedge",
             "label": "Send a Minion to murder an Annoyance",
             "actionid": "talk",
             "startdescription": "I want this Annoyance gone. But this approach is risky: my minion's strength is limited. The Annoyance might very easily survive, and the attempt will draw attention. [Failure will kill your minion.]",
@@ -138,17 +138,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceattacksuccess",
+                    "id": "r_annoyanceattacksuccess",
                     "chance": 30
                 },
                 {
-                    "id": "annoyanceattackfailure",
+                    "id": "r_annoyanceattackfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceattacknoedge",
+            "id": "r_annoyanceattacknoedge",
             "label": "Send Someone Unsuitable to Murder an Annoyance",
             "actionid": "talk",
             "startdescription": "My minion lacks the Edge aspect, and is woefully unsuited to attacking the Annoyance. There's a small chance they might succeed. [Failure will kill your minion.]",
@@ -159,17 +159,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyanceattacksuccess",
+                    "id": "r_annoyanceattacksuccess",
                     "chance": 10
                 },
                 {
-                    "id": "annoyanceattackfailure",
+                    "id": "r_annoyanceattackfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyanceattacksuccess",
+            "id": "r_annoyanceattacksuccess",
             "label": "Ending an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -183,14 +183,14 @@
             },
             "alt": [
                 {
-                    "id": "annoyancecapturesuccess",
+                    "id": "r_annoyancecapturesuccess",
                     "chance": 30
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "annoyancecapturesuccess",
+            "id": "r_annoyancecapturesuccess",
             "label": "Ending an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -205,7 +205,7 @@
             "warmup": 10
         },
         {
-            "id": "annoyanceattackfailure",
+            "id": "r_annoyanceattackfailure",
             "label": "Ending an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -217,7 +217,7 @@
             "warmup": 10
         },
         {
-            "id": "annoyancederangemidmoth",
+            "id": "r_annoyancederangemidmoth",
             "label": "Send a Devious Minion to Drive an Annoyance Insane",
             "actionid": "talk",
             "startdescription": "I want this irritation out of my way. This scheme will probably succeed, but if it fails, it will draw attention.",
@@ -229,17 +229,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyancederangesuccess",
+                    "id": "r_annoyancederangesuccess",
                     "chance": 70
                 },
                 {
-                    "id": "annoyancederangefailure",
+                    "id": "r_annoyancederangefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyancederangelowmoth",
+            "id": "r_annoyancederangelowmoth",
             "label": "Send a Devious Minion to Drive an Annoyance Insane",
             "actionid": "talk",
             "startdescription": "I want this Annoyance gone. But my minion's abilities are limited. This might very well fail, and if it does, it will draw attention.",
@@ -251,17 +251,17 @@
             },
             "linked": [
                 {
-                    "id": "annoyancederangesuccess",
+                    "id": "r_annoyancederangesuccess",
                     "chance": 30
                 },
                 {
-                    "id": "annoyancederangefailure",
+                    "id": "r_annoyancederangefailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "annoyancederangesuccess",
+            "id": "r_annoyancederangesuccess",
             "label": "Arranging Night Terrors for an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",
@@ -272,7 +272,7 @@
             "warmup": 30
         },
         {
-            "id": "annoyancederangefailure",
+            "id": "r_annoyancederangefailure",
             "label": "Arranging Night Terrors for an Annoyance...",
             "actionid": "talk",
             "startdescription": "I await word....",

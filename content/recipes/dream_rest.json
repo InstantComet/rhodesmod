@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "dream.poison.fascination.longlesson.trap",
+            "id": "r_dream.poison.fascination.longlesson.trap",
             "actionid": "dream",
             "label": "An Enemy Ever Vigilant",
             "startdescription": "Our enemy has learnt from my dreams.",
@@ -23,7 +23,7 @@
             "craftable": true
         },
         {
-            "id": "dreamhealth",
+            "id": "r_dreamhealth",
             "label": "An Early Night",
             "actionid": "dream",
             "requirements": {
@@ -34,19 +34,19 @@
             },
             "alt": [
                 {
-                    "id": "dreamhealthdread",
+                    "id": "r_dreamhealthdread",
                     "chance": 10
                 },
                 {
-                    "id": "dreamhealthfascination",
+                    "id": "r_dreamhealthfascination",
                     "chance": 10
                 },
                 {
-                    "id": "dreamhealthcontentment",
+                    "id": "r_dreamhealthcontentment",
                     "chance": 30
                 },
                 {
-                    "id": "dream_router",
+                    "id": "r_dream_router",
                     "chance": 30
                 }
             ],
@@ -56,7 +56,7 @@
             "craftable": true
         },
         {
-            "id": "dreamhealthcontentment",
+            "id": "r_dreamhealthcontentment",
             "label": "An Early Night",
             "actionid": "dream",
             "effects": {
@@ -66,7 +66,7 @@
             "craftable": false
         },
         {
-            "id": "dreamhealthdread",
+            "id": "r_dreamhealthdread",
             "label": "An Early Night",
             "actionid": "dream",
             "effects": {
@@ -76,7 +76,7 @@
             "craftable": false
         },
         {
-            "id": "dreamhealthfascination",
+            "id": "r_dreamhealthfascination",
             "label": "An Early Night",
             "actionid": "dream",
             "effects": {
@@ -86,7 +86,7 @@
             "craftable": false
         },
         {
-            "id": "recoverhunger",
+            "id": "r_recoverhunger",
             "label": "Restore my Strength",
             "actionid": "dream",
             "requirements": {
@@ -105,7 +105,7 @@
             "craftable": true
         },
         {
-            "id": "recoverfatigue",
+            "id": "r_recoverfatigue",
             "label": "Nap to recover from Fatigue",
             "actionid": "dream",
             "requirements": {
@@ -120,7 +120,7 @@
             "craftable": true
         },
         {
-            "id": "recover.apostlegrail.pillar2",
+            "id": "r_recover.apostlegrail.pillar2",
             "actionid": "dream",
             "label": "The Dream of the End",
             "startdescription": "I consume the little vial of blood, lie back, close my eyes. Tomorrow, I will be stronger.",
@@ -139,7 +139,7 @@
             "craftable": true
         },
         {
-            "id": "recoverillhealthfunds",
+            "id": "r_recoverillhealthfunds",
             "label": "Heal",
             "actionid": "dream",
             "requirements": {
@@ -158,7 +158,7 @@
             "craftable": true
         },
         {
-            "id": "recoverillhealthfundsvitality",
+            "id": "r_recoverillhealthfundsvitality",
             "label": "Heal",
             "actionid": "dream",
             "requirements": {
@@ -177,7 +177,7 @@
             "craftable": true
         },
         {
-            "id": "reducedread",
+            "id": "r_reducedread",
             "label": "Clear my Mind",
             "actionid": "dream",
             "requirements": {
@@ -195,7 +195,7 @@
             "craftable": true
         },
         {
-            "id": "reducefascination",
+            "id": "r_reducefascination",
             "label": "Composure",
             "actionid": "dream",
             "requirements": {
@@ -213,7 +213,7 @@
             "craftable": true
         },
         {
-            "id": "reducefascinationfleeting",
+            "id": "r_reducefascinationfleeting",
             "label": "Composure",
             "actionid": "dream",
             "requirements": {
@@ -230,7 +230,7 @@
             "craftable": true
         },
         {
-            "id": "dreamfunds",
+            "id": "r_dreamfunds",
             "label": "Purchase a Tincture of Opium",
             "actionid": "dream",
             "requirements": {
@@ -246,24 +246,24 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "grailinduction",
+                    "id": "r_grailinduction",
                     "chance": 30,
                     "additional": true
                 },
                 {
-                    "id": "despairrisk",
+                    "id": "r_despairrisk",
                     "chance": 10,
                     "additional": true
                 },
                 {
-                    "id": "presickness",
+                    "id": "r_presickness",
                     "chance": 10,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "dream.decrepitude",
+            "id": "r_dream.decrepitude",
             "actionid": "dream",
             "label": "Desperate Measures",
             "startdescription": "My soul haunts my failing flesh like a swamp-wisp. My heart slows, and one day it will cease. Perhaps if I were to consume some exotic substance it might restore the strength that is lost. But it seems unlikely.",
@@ -275,15 +275,15 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "dream.decrepitude.ingredientheartf"
+                    "id": "r_dream.decrepitude.ingredientheartf"
                 },
                 {
-                    "id": "dream.decrepitude.failure"
+                    "id": "r_dream.decrepitude.failure"
                 }
             ]
         },
         {
-            "id": "dream.decrepitude.ingredientheartf",
+            "id": "r_dream.decrepitude.ingredientheartf",
             "actionid": "dream",
             "label": "January's Quickening",
             "startdescription": "At the faint rust-tang of the blood, my heart leaps, painful as a stabbing sunrise.",
@@ -303,7 +303,7 @@
             "warmup": 30
         },
         {
-            "id": "dream.decrepitude.failure",
+            "id": "r_dream.decrepitude.failure",
             "actionid": "dream",
             "label": "Only The Strangest Taste",
             "startdescription": "My heart limps on. I have gained no benefit - except, I suppose, hard-won knowledge.",

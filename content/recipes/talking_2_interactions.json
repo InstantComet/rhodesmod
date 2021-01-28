@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "lockfollowerincupboard",
+            "id": "r_lockfollowerincupboard",
             "label": "Betray and Imprison a Follower",
             "actionid": "talk",
             "requirements": {
@@ -27,7 +27,7 @@
             "warmup": 10
         },
         {
-            "id": "sulochanachat",
+            "id": "r_sulochanachat",
             "label": "A Chat with Sulochana",
             "actionid": "talk",
             "requirements": {
@@ -35,7 +35,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "r_Subject",
                     "label": "Subject",
                     "description": "A topic of conversation"
                 }
@@ -44,40 +44,40 @@
             "description": "@#ascensionlessonhearta|'Not my speciality.' Sulochana smiles\n#ascensionlessonheartb|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonheartc|'Not my speciality.' Sulochana smiles.\n#ascensionlessonheartd|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonhearte|'Not my speciality.' Sulochana smiles.\n#ascensionlessonheartf|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonmotha|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothb|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothc|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothd|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#ascensionlessonmothe|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#ascensionlessonmothf|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#|Is she disappointed? It's difficult to tell, with Sulochana.@",
             "alt": [
                 {
-                    "id": "talk.apostleforge.sulochanaechidna"
+                    "id": "r_talk.apostleforge.sulochanaechidna"
                 },
                 {
-                    "id": "talk.apostlegrail.sulochanamarinette"
+                    "id": "r_talk.apostlegrail.sulochanamarinette"
                 },
                 {
-                    "id": "apostlelantern.attemptrecruitkleidouchos.sulochana"
+                    "id": "r_apostlelantern.attemptrecruitkleidouchos.sulochana"
                 },
                 {
-                    "id": "sulochanachat_health",
+                    "id": "r_sulochanachat_health",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_passion",
+                    "id": "r_sulochanachat_passion",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_cabaret",
+                    "id": "r_sulochanachat_cabaret",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_desireheart_track",
+                    "id": "r_sulochanachat_desireheart_track",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_desiremoth_track",
+                    "id": "r_sulochanachat_desiremoth_track",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_desire",
+                    "id": "r_sulochanachat_desire",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesrouter",
+                    "id": "r_sulochanachat_secrethistoriesrouter",
                     "chance": 100
                 }
             ],
@@ -85,7 +85,7 @@
             "craftable": true
         },
         {
-            "id": "sulochanachat_health",
+            "id": "r_sulochanachat_health",
             "actionid": "talk",
             "label": "On the Body's Strengths",
             "requirements": {
@@ -96,7 +96,7 @@
             "description": "'We were all of us young. Everyone. That's the only thing most of us have in common.'"
         },
         {
-            "id": "sulochanachat_passion",
+            "id": "r_sulochanachat_passion",
             "label": "On Passion",
             "actionid": "talk",
             "requirements": {
@@ -107,7 +107,7 @@
             "description": "'You have potential. You saw me see that. Potential isn't enough. Anything else?'"
         },
         {
-            "id": "sulochanachat_cabaret",
+            "id": "r_sulochanachat_cabaret",
             "label": "On the Ecdysis Club",
             "actionid": "talk",
             "requirements": {
@@ -118,7 +118,7 @@
             "description": "'There's a road you can walk that begins there, in my house. If you want to talk about it, meet me there.'"
         },
         {
-            "id": "sulochanachat_desireheart_track",
+            "id": "r_sulochanachat_desireheart_track",
             "label": "On the New Form",
             "actionid": "talk",
             "requirements": {
@@ -132,7 +132,7 @@
             "description": "'The road you want to walk is what we call the New Form. Not all that new, not any more. But it has merit, if you can stand the pain. Find me in my house, and we can talk about the partner you will need in the end. Here's the address.'"
         },
         {
-            "id": "sulochanachat_desiremoth_track",
+            "id": "r_sulochanachat_desiremoth_track",
             "actionid": "talk",
             "label": "On the Old Form",
             "requirements": {
@@ -146,7 +146,7 @@
             "description": "'The road you want to walk is what we call the Old Form. I walked it myself, and eventually it brought me here. You'll give up everything along the way. You'll need to shed your skin, and not only once... Find me in my house, and we can talk about the partner you will need in the end. Here's the address.'"
         },
         {
-            "id": "sulochanachat_desire_change",
+            "id": "r_sulochanachat_desire_change",
             "actionid": "talk",
             "label": "On Desire",
             "requirements": {
@@ -157,7 +157,7 @@
             "description": "'Find me in my house, and we can talk about the partner you will need in the end. Here's the address.'"
         },
         {
-            "id": "sulochanachat_desire",
+            "id": "r_sulochanachat_desire",
             "actionid": "talk",
             "label": "On Desire",
             "requirements": {
@@ -168,7 +168,7 @@
             "description": "'We have no common ground there. I chose a different road a very long time ago. But if that's a road you wish to walk... speak to me again, at the Ecdysis Club.'"
         },
         {
-            "id": "sulochanachat_secrethistoriesrouter",
+            "id": "r_sulochanachat_secrethistoriesrouter",
             "actionid": "talk",
             "label": "On Secret Places",
             "requirements": {
@@ -180,37 +180,37 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "sulochanachat_secrethistoriesg",
+                    "id": "r_sulochanachat_secrethistoriesg",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesf",
+                    "id": "r_sulochanachat_secrethistoriesf",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriese",
+                    "id": "r_sulochanachat_secrethistoriese",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesd",
+                    "id": "r_sulochanachat_secrethistoriesd",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesc",
+                    "id": "r_sulochanachat_secrethistoriesc",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesb",
+                    "id": "r_sulochanachat_secrethistoriesb",
                     "chance": 100
                 },
                 {
-                    "id": "sulochanachat_secrethistoriesa",
+                    "id": "r_sulochanachat_secrethistoriesa",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "sulochanachat_secrethistoriesg",
+            "id": "r_sulochanachat_secrethistoriesg",
             "actionid": "talk",
             "label": "On the Road to Ivory",
             "requirements": {
@@ -225,7 +225,7 @@
             }
         },
         {
-            "id": "sulochanachat_secrethistoriesf",
+            "id": "r_sulochanachat_secrethistoriesf",
             "actionid": "talk",
             "label": "On the Road to Pupil",
             "requirements": {
@@ -240,7 +240,7 @@
             }
         },
         {
-            "id": "sulochanachat_secrethistoriese",
+            "id": "r_sulochanachat_secrethistoriese",
             "actionid": "talk",
             "label": "Not there - ",
             "requirements": {
@@ -252,7 +252,7 @@
             "effects": {}
         },
         {
-            "id": "sulochanachat_secrethistoriesd",
+            "id": "r_sulochanachat_secrethistoriesd",
             "actionid": "talk",
             "label": "On the Road to Stigma",
             "requirements": {
@@ -267,7 +267,7 @@
             }
         },
         {
-            "id": "sulochanachat_secrethistoriesc",
+            "id": "r_sulochanachat_secrethistoriesc",
             "actionid": "talk",
             "label": "On the Road to Antumbra",
             "requirements": {
@@ -282,7 +282,7 @@
             }
         },
         {
-            "id": "sulochanachat_secrethistoriesb",
+            "id": "r_sulochanachat_secrethistoriesb",
             "actionid": "talk",
             "label": "On the Road to Pearl",
             "requirements": {
@@ -297,7 +297,7 @@
             }
         },
         {
-            "id": "sulochanachat_secrethistoriesa",
+            "id": "r_sulochanachat_secrethistoriesa",
             "actionid": "talk",
             "label": "On the Roads to Change",
             "requirements": {
@@ -308,7 +308,7 @@
             "description": "'We always change at the sea first. Kerisham is a good place, these days. Then further and further afield. But not in person. Never in person. In your other self. Feel free to come back to me with more lore, if you're not sure where to go. If you're looking for anything but Change... I can't help you.'"
         },
         {
-            "id": "poppyoffer",
+            "id": "r_poppyoffer",
             "label": "Speak to Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
@@ -316,7 +316,7 @@
             },
             "slots": [
                 {
-                    "id": "Consent",
+                    "id": "r_Consent",
                     "label": "Consent",
                     "description": "Add Passion to accept, or Reason to interrogate Poppy further.",
                     "required": {
@@ -327,11 +327,11 @@
             ],
             "alt": [
                 {
-                    "id": "poppyofferaccept",
+                    "id": "r_poppyofferaccept",
                     "chance": 100
                 },
                 {
-                    "id": "poppyofferquery",
+                    "id": "r_poppyofferquery",
                     "chance": 100
                 }
             ],
@@ -341,7 +341,7 @@
             "craftable": true
         },
         {
-            "id": "poppyofferaccept",
+            "id": "r_poppyofferaccept",
             "label": "Accept Poppy's Offer",
             "actionid": "talk",
             "requirements": {
@@ -356,14 +356,14 @@
             },
             "alt": [
                 {
-                    "id": "poppytimebomb",
+                    "id": "r_poppytimebomb",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "poppyofferquery",
+            "id": "r_poppyofferquery",
             "label": "Question Poppy closely",
             "actionid": "talk",
             "requirements": {
@@ -376,44 +376,44 @@
             }
         },
         {
-            "id": "poppytimebomb",
+            "id": "r_poppytimebomb",
             "label": "Poppy's Request",
             "actionid": "poppytime",
             "startdescription": "In the 'Season of Rags', Poppy will return...",
             "description": ".",
             "linked": [
                 {
-                    "id": "poppysafefornow",
+                    "id": "r_poppysafefornow",
                     "chance": 7
                 },
                 {
-                    "id": "poppywantssoul",
+                    "id": "r_poppywantssoul",
                     "chance": 100
                 }
             ],
             "warmup": 300
         },
         {
-            "id": "poppysafefornow",
+            "id": "r_poppysafefornow",
             "actionid": "poppytime",
             "label": "Silence from Poppy",
             "startdescription": "Poppy is seen around town, assisting at charitable events, smiling benignly.",
             "description": ".",
             "linked": [
                 {
-                    "id": "poppytimebomb",
+                    "id": "r_poppytimebomb",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "poppywantssoul",
+            "id": "r_poppywantssoul",
             "label": "A Friendly Visit from Poppy",
             "actionid": "poppytime",
             "slots": [
                 {
-                    "id": "Sacrifice",
+                    "id": "r_Sacrifice",
                     "label": "Sacrifice",
                     "required": {
                         "follower": 1
@@ -426,7 +426,7 @@
             ],
             "alt": [
                 {
-                    "id": "poppysatiated",
+                    "id": "r_poppysatiated",
                     "chance": 100
                 }
             ],
@@ -437,7 +437,7 @@
             "description": "."
         },
         {
-            "id": "poppysatiated",
+            "id": "r_poppysatiated",
             "actionid": "poppytime",
             "label": "A Suitable Conclusion",
             "requirements": {

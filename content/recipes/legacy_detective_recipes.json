@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "workdetectivejob_start",
+            "id": "r_workdetectivejob_start",
             "label": "At the Station",
             "actionid": "work",
             "requirements": {
@@ -18,12 +18,12 @@
             },
             "alt": [
                 {
-                    "id": "needs",
+                    "id": "r_needs",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "detectiveopendream",
+                    "id": "r_detectiveopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -34,13 +34,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "workdetectivejob_start_rebellion",
+                    "id": "r_workdetectivejob_start_rebellion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "detectiveopendream",
+            "id": "r_detectiveopendream",
             "label": "Dreaming...",
             "actionid": "dream",
             "startdescription": "The Suppression Bureau publishes memoranda on the dangers of dreams. Every week, there's another.",
@@ -52,7 +52,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_investigate_hint",
+            "id": "r_workdetectivejob_matured_investigate_hint",
             "label": "Pursuing an Investigation?",
             "actionid": "work",
             "requirements": {
@@ -64,7 +64,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_pursuepromotion",
+            "id": "r_workdetectivejob_matured_pursuepromotion",
             "label": "A Kind of Ascension",
             "actionid": "work",
             "requirements": {
@@ -79,7 +79,7 @@
             "craftable": true
         },
         {
-            "id": "workdetectivejob_matured_investigate",
+            "id": "r_workdetectivejob_matured_investigate",
             "label": "Pursuing an Investigation",
             "actionid": "work",
             "requirements": {
@@ -89,20 +89,20 @@
             },
             "alt": [
                 {
-                    "id": "detectiveopenstudy",
+                    "id": "r_detectiveopenstudy",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_threereason_success",
+                    "id": "r_workdetectivejob_matured_investigate_threereason_success",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_tworeason_success",
+                    "id": "r_workdetectivejob_matured_investigate_tworeason_success",
                     "chance": 70
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_onereason_success",
+                    "id": "r_workdetectivejob_matured_investigate_onereason_success",
                     "chance": 30
                 }
             ],
@@ -119,12 +119,12 @@
             "craftable": true
         },
         {
-            "id": "workdetectivejob_matured_investigate_threereason_success",
+            "id": "r_workdetectivejob_matured_investigate_threereason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
                 {
-                    "id": "detectiveopenstudy",
+                    "id": "r_detectiveopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -135,22 +135,22 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "r_workdetectivejob_matured_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "r_workdetectivejob_matured_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_tworeason_success",
+            "id": "r_workdetectivejob_matured_investigate_tworeason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
                 {
-                    "id": "detectiveopenstudy",
+                    "id": "r_detectiveopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -161,22 +161,22 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "r_workdetectivejob_matured_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "r_workdetectivejob_matured_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_onereason_success",
+            "id": "r_workdetectivejob_matured_investigate_onereason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
                 {
-                    "id": "detectiveopenstudy",
+                    "id": "r_detectiveopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -187,17 +187,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "r_workdetectivejob_matured_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "r_workdetectivejob_matured_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_successresults",
+            "id": "r_workdetectivejob_matured_investigate_successresults",
             "label": "Progress!",
             "actionid": "work",
             "effects": {
@@ -214,7 +214,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_attemptsolvecase",
+            "id": "r_workdetectivejob_matured_attemptsolvecase",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -222,7 +222,7 @@
             },
             "slots": [
                 {
-                    "id": "Culprit",
+                    "id": "r_Culprit",
                     "label": "Culprit",
                     "required": {
                         "independent": 1
@@ -234,11 +234,11 @@
             "description": "I've provided the Suppression Bureau with enough evidence to make an arrest... but there's no-one to arrest.",
             "alt": [
                 {
-                    "id": "workdetectivejob_matured_solvecase_withbackup",
+                    "id": "r_workdetectivejob_matured_solvecase_withbackup",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_solvecase",
+                    "id": "r_workdetectivejob_matured_solvecase",
                     "chance": 100
                 }
             ],
@@ -254,7 +254,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_solvecase_withbackup",
+            "id": "r_workdetectivejob_matured_solvecase_withbackup",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -280,7 +280,7 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_newrival",
+                    "id": "r_workdetectivejob_newrival",
                     "chance": 100,
                     "additional": true
                 }
@@ -288,7 +288,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_solvecase",
+            "id": "r_workdetectivejob_matured_solvecase",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -310,7 +310,7 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_newrival",
+                    "id": "r_workdetectivejob_newrival",
                     "chance": 100,
                     "additional": true
                 }
@@ -318,7 +318,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_newrival",
+            "id": "r_workdetectivejob_newrival",
             "label": "Another Miscreant?",
             "actionid": "newrival",
             "startdescription": "Will it ever end? Can we ever call the law, the city, the world 'safe'?",
@@ -329,13 +329,13 @@
             "warmup": 60,
             "linked": [
                 {
-                    "id": "workdetectivejob_newrival_recruit",
+                    "id": "r_workdetectivejob_newrival_recruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_newrival_recruit",
+            "id": "r_workdetectivejob_newrival_recruit",
             "label": "Another Miscreant?",
             "actionid": "newrival",
             "startdescription": ".",
@@ -345,13 +345,13 @@
             },
             "linked": [
                 {
-                    "id": "workdetectivejob_start_promote_lever_believer",
+                    "id": "r_workdetectivejob_start_promote_lever_believer",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_start_promote_lever_believer",
+            "id": "r_workdetectivejob_start_promote_lever_believer",
             "comments": "left unrenamed for backwards compatibility",
             "label": "Be Wary...",
             "actionid": "newrival",
@@ -361,17 +361,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_start_promote_lever_disciple",
+                    "id": "r_workdetectivejob_start_promote_lever_disciple",
                     "chance": 30
                 },
                 {
-                    "id": "workdetectivejob_start_rebellion",
+                    "id": "r_workdetectivejob_start_rebellion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_start_promote_lever_disciple",
+            "id": "r_workdetectivejob_start_promote_lever_disciple",
             "comments": "left unrenamed for backwards compatibility",
             "label": "Be Wary...",
             "actionid": "newrival",
@@ -387,14 +387,14 @@
             },
             "linked": [
                 {
-                    "id": "workdetectivejob_start_rebellion",
+                    "id": "r_workdetectivejob_start_rebellion",
                     "chance": 100
                 }
             ],
             "craftable": false
         },
         {
-            "id": "workdetectivejob_start_rebellion",
+            "id": "r_workdetectivejob_start_rebellion",
             "comments": "left unrenamed for backwards compatibility",
             "label": "Be Wary...",
             "actionid": "work",
@@ -404,7 +404,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_plead",
+            "id": "r_workdetectivejob_matured_plead",
             "label": "Plead for reinstatement!",
             "actionid": "work",
             "requirements": {
@@ -420,7 +420,7 @@
             "craftable": true
         },
         {
-            "id": "workdetectivejob_epilogue",
+            "id": "r_workdetectivejob_epilogue",
             "label": "",
             "actionid": "work",
             "effects": {
@@ -431,7 +431,7 @@
             "craftable": false
         },
         {
-            "id": "legacydetectiveplotitem_tempt",
+            "id": "r_legacydetectiveplotitem_tempt",
             "label": "The Scent of the Pages",
             "actionid": "craving",
             "requirements": {
@@ -439,18 +439,18 @@
             },
             "linked": [
                 {
-                    "id": "legacydetectiveplotitem_tempt_addslot",
+                    "id": "r_legacydetectiveplotitem_tempt_addslot",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "legacydetectiveplotitem_tempt_addslot",
+            "id": "r_legacydetectiveplotitem_tempt_addslot",
             "label": "The Scent of the Pages",
             "actionid": "craving",
             "slots": [
                 {
-                    "id": "resist",
+                    "id": "r_resist",
                     "label": "Resist",
                     "description": "It is difficult to resist re-reading the file. Add Reason to strengthen your resistance.",
                     "required": {
@@ -468,11 +468,11 @@
             },
             "alt": [
                 {
-                    "id": "legacydetectiveplotitem_tempt_resist",
+                    "id": "r_legacydetectiveplotitem_tempt_resist",
                     "chance": 100
                 },
                 {
-                    "id": "visionsrisk",
+                    "id": "r_visionsrisk",
                     "chance": 100,
                     "additional": true
                 }
@@ -481,7 +481,7 @@
             "craftable": false
         },
         {
-            "id": "legacydetectiveplotitem_tempt_resist",
+            "id": "r_legacydetectiveplotitem_tempt_resist",
             "label": "The Scent of the Pages",
             "requirements": {
                 "reason": 1
@@ -494,16 +494,16 @@
             "description": "The temptation has passed, for now."
         },
         {
-            "id": "detectiveopenstudy",
+            "id": "r_detectiveopenstudy",
             "label": "Studying...",
             "alt": [
                 {
-                    "id": "ascensionnotyet",
+                    "id": "r_ascensionnotyet",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "detectiveopenexplore",
+                    "id": "r_detectiveopenexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -518,7 +518,7 @@
             "craftable": false
         },
         {
-            "id": "detectiveopenexplore",
+            "id": "r_detectiveopenexplore",
             "label": "Exploring...",
             "actionid": "explore",
             "startdescription": "I have a map of the capital on the wall of my office, bristling with dark-headed pins, spidery with annotations.",
@@ -530,14 +530,14 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "detectiveopentalk",
+                    "id": "r_detectiveopentalk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "detectiveopentalk",
+            "id": "r_detectiveopentalk",
             "label": "Talking...",
             "actionid": "talk",
             "startdescription": "I might make a friendship, or end one.",
@@ -547,7 +547,7 @@
             "craftable": false
         },
         {
-            "id": "detectivestudy_plotitem",
+            "id": "r_detectivestudy_plotitem",
             "label": "I Should Not Open the File",
             "actionid": "study",
             "requirements": {
@@ -555,7 +555,7 @@
             },
             "alt": [
                 {
-                    "id": "detectiveopendream",
+                    "id": "r_detectiveopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -573,7 +573,7 @@
             "maxexecutions": 1
         },
         {
-            "id": "detectivestudy_plotitem_afterfirsttime",
+            "id": "r_detectivestudy_plotitem_afterfirsttime",
             "label": "I Should Not Open the File",
             "actionid": "study",
             "requirements": {
@@ -581,7 +581,7 @@
             },
             "alt": [
                 {
-                    "id": "detectiveopendream",
+                    "id": "r_detectiveopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -598,7 +598,7 @@
             "maxexecutions": 1
         },
         {
-            "id": "detectivework_plotitem",
+            "id": "r_detectivework_plotitem",
             "label": "Burn the File",
             "actionid": "work",
             "requirements": {
