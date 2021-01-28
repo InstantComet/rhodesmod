@@ -134,7 +134,8 @@
 			"id": "introvault",
 			"label": "藏宝地",
 			"description": "藏有一些珍贵之物。",
-			"isAspect": true
+			"isAspect": true,
+			"icon": "vault"
 		},
 		{
 			"id": "vault",
@@ -724,9 +725,10 @@
 		},
 		{
 			"id": "vaultrhodes",
-			"label": "In the Capital",
-			"description": "A secret place in the teeming capital city where I live.",
-			"isAspect": true
+			"label": "位于罗德岛",
+			"description": "我所居住的这个巨型移动平台中的一处隐秘场所。",
+			"isAspect": true,
+			"icon": "vaultcapital"
 		},
 		{
 			"id": "vaultshires",

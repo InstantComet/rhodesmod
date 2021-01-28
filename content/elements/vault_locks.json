@@ -46,7 +46,8 @@
             "aspects": {
                 "seal": 1
             },
-            "description": "依靠<b>灯</b>或<b>启</b>能找到<b>暗门</b>。"
+            "description": "依靠<b>灯</b>或<b>启</b>能找到<b>暗门</b>。",
+			"icon": "seal_hiddendoor"
         },
         {
             "id": "seal_hiddendoor",
