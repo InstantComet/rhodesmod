@@ -4,7 +4,7 @@
             "id": "r_operator_amiya",
             "label": "阿米娅",
             "aspects": {
-                "operator": 1,
+                "r_operator": 1,
                 "r_moth": 4,
                 "r_knock": 4,
                 "r_forge": 2
@@ -15,7 +15,7 @@
             "id": "r_operator_kaltist",
             "label": "凯尔希",
             "aspects": {
-                "operator": 1,
+                "r_operator": 1,
                 "r_grail": 4,
                 "r_lantern": 2
             },
@@ -25,7 +25,7 @@
             "id": "r_operator_debug_a",
             "label": "debug干员a",
             "aspects": {
-                "operator": 10,
+                "r_operator": 10,
                 "r_heart": 10,
                 "r_edge": 10,
                 "r_forge": 10,
@@ -41,7 +41,7 @@
             "id": "r_operator_2stars_a",
             "label": "二星干员a",
             "aspects": {
-                "operator": 1
+                "r_operator": 1
             },
             "description": "二星干员a的介绍"
         },
@@ -49,7 +49,7 @@
             "id": "r_operator_2stars_b",
             "label": "二星干员b",
             "aspects": {
-                "operator": 1
+                "r_operator": 1
             },
             "description": "二星干员b的介绍"
         }
