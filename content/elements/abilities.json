@@ -1,30 +1,42 @@
 {
     "elements": [
         {
-            "id": "fleeting",
+            "id": "fleeting_r",
             "label": "追忆",
-            "description": "记忆中的某个瞬间。[研究“追忆”能获得更多“理智”。如果不使用，将会在三分钟后消失。]",
+            "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。［研究“追忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。］",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
                 "influence": 1,
-                "memory": 1
+                "memory": 1,
+                "advancement": 1
             },
+            "slots": [
+                {
+                    "id": "morefleeting",
+                    "label": "更多追忆",
+                    "actionId": "study_r",
+                    "description": "如果拥有足够多的活力——或时而加上一些更异质的东西——我能增进自己的理智。",
+                    "required": {
+                        "fleeting_r": 1
+                    }
+                }
+            ],
             "lifetime": "180",
-            "icon":"fleeting"
+            "icon":"fleeting_r"
         },
         {
-            "id": "fleetingplus",
-            "label": "追忆：往日重现",
-            "description": "我已经准备好改变了。[与“指挥”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
+            "id": "fleetingplus_r",
+            "label": "追忆：汹涌而来",
+            "description": "无数往事汇聚了起来，就像潮水般淹没了我。我忍不住伸手去触碰。它们仿佛就在眼前。[与“智慧”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
                 "influence": 1,
                 "memory": 1
             },
-            "lifetime": "180",
-            "icon":"fleeting"
+            "lifetime": "300",
+            "icon":"fleeting_r"
         },
         {
             "id": "introsanity",
