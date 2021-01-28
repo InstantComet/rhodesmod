@@ -3,7 +3,7 @@
         {
             "id": "r_studyincreasehealthstarter",
             "label": "Exercise the Body",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "vitality": 2
             },
@@ -21,7 +21,7 @@
         {
             "id": "r_studyincreasevitalitytoplus",
             "label": "Exercise the Body",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "vitality": 2
             },
@@ -37,7 +37,7 @@
         {
             "id": "r_studyincreasevitalitywithinfluencehearttoplus",
             "label": "Exercise the Body",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "vitality": 1,
                 "influenceheart": 1,
@@ -55,7 +55,7 @@
         {
             "id": "r_studyincreasehealthskilla",
             "label": "Exercise the Body: Stronger...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealtha": 1,
                 "vitalityplus": 2
@@ -74,7 +74,7 @@
         {
             "id": "r_studyincreasehealthskillb",
             "label": "Exercise the Body:  Stronger Yet...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthb": 1,
                 "vitalityplus": 3
@@ -93,7 +93,7 @@
         {
             "id": "r_studyincreasehealthskill_to_d_edge",
             "label": "Exercise the Body: A Higher Strength",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
@@ -113,7 +113,7 @@
         {
             "id": "r_studyincreasehealthskill_to_d_forge",
             "label": "Exercise the Body: A Higher Strength",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
@@ -133,7 +133,7 @@
         {
             "id": "r_studyincreasehealthskill_to_d_grail",
             "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
@@ -153,7 +153,7 @@
         {
             "id": "r_studyincreasehealthskill_to_d_heart",
             "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
@@ -174,7 +174,7 @@
         {
             "id": "r_studyincreasehealthskill_to_d_moth",
             "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
@@ -194,7 +194,7 @@
         {
             "id": "r_studyincreasereasonstarter",
             "label": "Exercise the Mind",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "erudition": 2
             },
@@ -212,7 +212,7 @@
         {
             "id": "r_studyincreaseeruditiontoplus",
             "label": "Exercise the Mind",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "erudition": 2
             },
@@ -228,7 +228,7 @@
         {
             "id": "r_studyincreaseeruditionwithlanterninfluencetoplus",
             "label": "The Light of the Mind",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "erudition": 1,
                 "influencelantern": 1,
@@ -246,7 +246,7 @@
         {
             "id": "r_studyincreasereasonskilla",
             "label": "Exercise the Mind: Wiser...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasona": 1,
                 "eruditionplus": 2
@@ -265,7 +265,7 @@
         {
             "id": "r_studyincreasereasonskillb",
             "label": "Exercise the Mind:  Wisest...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonb": 1,
                 "eruditionplus": 3
@@ -284,7 +284,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_lantern",
             "label": "Exercise the Mind: A Brighter Illumination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -304,7 +304,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_winter",
             "label": "Exercise the Mind: A Deeper Concentration",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -324,7 +324,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_knock",
             "label": "Exercise the Mind: A Brighter Illumination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -344,7 +344,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_secrethistories",
             "label": "Exercise the Mind: A Deeper Concentration",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -364,7 +364,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_forge",
             "label": "Exercise the Mind: A Brighter Illumination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -384,7 +384,7 @@
         {
             "id": "r_studyincreasereasonskill_to_d_edge",
             "label": "Exercise the Mind: A Deeper Concentration",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillreasonc": 1,
                 "eruditionplus": 4,
@@ -404,7 +404,7 @@
         {
             "id": "r_studyincreasepassionstarter",
             "label": "Feed my Imagination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "glimmering": 2
             },
@@ -422,7 +422,7 @@
         {
             "id": "r_studyincreaseglimmeringtoplus",
             "label": "Feed my Imagination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "glimmering": 2
             },
@@ -438,7 +438,7 @@
         {
             "id": "r_studyincreaseglimmeringwithmothinfluencetoplus",
             "label": "Feed my Imagination",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "glimmering": 1,
                 "influencemoth": 1,
@@ -456,7 +456,7 @@
         {
             "id": "r_studyincreasepassionskilla",
             "label": "Feed my Imagination: Fiercer...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassiona": 1,
                 "glimmeringplus": 2
@@ -475,7 +475,7 @@
         {
             "id": "r_studyincreasepassionskillb",
             "label": "Feed my Imagination:  Fiercest...",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassionb": 1,
                 "glimmeringplus": 3
@@ -494,7 +494,7 @@
         {
             "id": "r_studyincreasepassionskill_to_d_moth",
             "label": "Exercise the Imagination: Unreason",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassionc": 1,
                 "glimmeringplus": 4,
@@ -514,7 +514,7 @@
         {
             "id": "r_studyincreasepassionskill_to_d_heart",
             "label": "Exercise the Imagination: Unreason",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassionc": 1,
                 "glimmeringplus": 4,
@@ -534,7 +534,7 @@
         {
             "id": "r_studyincreasepassionskill_to_d_knock",
             "label": "Exercise the Imagination: Folly",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassionc": 1,
                 "glimmeringplus": 4,
@@ -554,7 +554,7 @@
         {
             "id": "r_studyincreasepassionskill_to_d_grail",
             "label": "Exercise the Imagination: Folly",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "skillpassionc": 1,
                 "glimmeringplus": 4,
@@ -574,7 +574,7 @@
         {
             "id": "r_studyhealth",
             "label": "Fresh Air and Exercise",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "health": 1,
                 "lore": -1
@@ -591,7 +591,7 @@
         {
             "id": "r_studyreason",
             "label": "Read Whatever Is To Hand",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "reason": 1,
                 "lore": -1
@@ -608,7 +608,7 @@
         {
             "id": "r_studypassion",
             "label": "Read Sentimental Literature",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "passion": 1
             },

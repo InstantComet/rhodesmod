@@ -11,7 +11,7 @@
                 {
                     "id": "r_Approach",
                     "label": "Approach",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "required": {
                         "reason": 1,
                         "passion": 1

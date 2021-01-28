@@ -3,7 +3,7 @@
         {
             "id": "r_conjurationpower",
             "label": "The Key to My Heart",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
@@ -21,7 +21,7 @@
         {
             "id": "r_conjurationpowerclue",
             "label": "The Key to My Heart?",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "ritual": 1,
                 "ascensionpowera": 1
@@ -39,7 +39,7 @@
         {
             "id": "r_conjurationenlightenment",
             "label": "The Door in my Dreams",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
@@ -57,7 +57,7 @@
         {
             "id": "r_conjurationenlightenmentclue",
             "label": "The Door in my Dreams?",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmenta": 1

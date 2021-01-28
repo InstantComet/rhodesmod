@@ -3,7 +3,7 @@
         {
             "id": "r_scholar_language",
             "label": "",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "reason": 1
             },

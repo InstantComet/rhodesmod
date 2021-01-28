@@ -2,12 +2,12 @@
     "verbs": [
         {
             "id": "r_work",
-            "label": "Work",
+            "label": "r_work",
             "description": "Earn a living, or practice the invisible arts.",
-            "icon": "work",
+            "icon": "r_work",
             "slot": {
-                "id": "work",
-                "label": "Work",
+                "id": "r_work",
+                "label": "r_work",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
                     "r_ability": 1,
@@ -25,11 +25,11 @@
         },
         {
             "id": "r_dream",
-            "label": "Dream",
+            "label": "r_dream",
             "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
             "slot": {
-                "id": "dream",
-                "label": "Dream",
+                "id": "r_dream",
+                "label": "r_dream",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
                     "r_ability": 1,
@@ -49,11 +49,11 @@
         },
         {
             "id": "r_study",
-            "label": "Study",
+            "label": "r_study",
             "description": "Unlock books and other treasures.",
             "slot": {
                 "id": "r_study",
-                "label": "Study",
+                "label": "r_study",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
                     "r_text": 1,
@@ -71,11 +71,11 @@
         },
         {
             "id": "r_talk",
-            "label": "Talk",
+            "label": "r_talk",
             "description": "Interrogate, intimidate, beguile, instruct, recruit.",
             "slot": {
                 "id": "r_talk",
-                "label": "Talk",
+                "label": "r_talk",
                 "description": "An ally, an enemy, or something in between.",
                 "required": {
                     "mortal": 1,
@@ -92,11 +92,11 @@
         },
         {
             "id": "r_explore",
-            "label": "Explore",
+            "label": "r_explore",
             "description": "Explore the city with Health or Followers; explore r_locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
             "slot": {
                 "id": "r_explore",
-                "label": "Explore",
+                "label": "r_explore",
                 "description": "A place; a person; a r_location; a secret.",
                 "required": {
                     "r_operator": 1,

@@ -11,7 +11,7 @@
                 {
                     "id": "r_Cost",
                     "label": "花费",
-                    "actionId": "explore",
+                    "actionId": "r_explore",
                     "required": {
                         "r_ingredient": 1
                     },
@@ -30,7 +30,7 @@
                 {
                     "id": "r_Cost",
                     "label": "花费",
-                    "actionId": "explore",
+                    "actionId": "r_explore",
                     "required": {
                         "r_ingredient": 1
                     },

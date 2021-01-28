@@ -3,7 +3,7 @@
         {
             "id": "r_dreampleasantmemory",
             "label": "Dwell on a Pleasant Memory",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "memorypleasant": 1
             },
@@ -20,7 +20,7 @@
         {
             "id": "r_dreampassionatememory",
             "label": "Dwell on a Passionate Memory",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "memorypassionate": 1
             },
@@ -38,7 +38,7 @@
         {
             "id": "r_dreambittersweetmemory",
             "label": "Dwell on a Bittersweet Memory",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "memorybittersweet": 1
             },

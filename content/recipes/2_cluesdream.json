@@ -3,7 +3,7 @@
         {
             "id": "r_temptationremembrancehintdream",
             "label": "Temptations?",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "temptation.remembrance": 1
             },
@@ -14,7 +14,7 @@
         {
             "id": "r_vitalityhintdream",
             "label": "Vitality",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "vitality": 1
             },
@@ -26,7 +26,7 @@
         {
             "id": "r_eruditionhintdream",
             "label": "Erudition",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "erudition": 1
             },
@@ -38,7 +38,7 @@
         {
             "id": "r_glimmeringhintdream",
             "label": "Glimmering",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "glimmering": 1
             },
@@ -50,7 +50,7 @@
         {
             "id": "r_contentmenthintdream",
             "label": "Contentment",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "contentment": 1
             },
@@ -62,7 +62,7 @@
         {
             "id": "r_dedicationtoobsession_power_hint",
             "label": "The Next Step",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "ascensionpowerb": 1
             },
@@ -73,7 +73,7 @@
         {
             "id": "r_dedicationtoobsession_enlightenment_hint",
             "label": "The Next Step",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "ascensionenlightenmentb": 1
             },
@@ -84,7 +84,7 @@
         {
             "id": "r_tryreducefascination",
             "label": "Seek Composure?",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "fascination": 1
             },
@@ -95,7 +95,7 @@
         {
             "id": "r_tryrecoverreason",
             "label": "Clear my Mind?",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "dread": 1
             },
@@ -106,7 +106,7 @@
         {
             "id": "r_tryrecoverillhealth",
             "label": "Recover?",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "illhealth": 1
             },

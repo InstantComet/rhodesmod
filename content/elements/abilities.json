@@ -98,7 +98,7 @@
                 {
                     "id": "r_eatrhodesfood",
                     "label": "吃食物",
-                    "actionId": "dream",
+                    "actionId": "r_dream",
                     "description": "我可以吃点",
                     "required": {
                         "rhodesfood": 1
@@ -130,7 +130,7 @@
                 {
                     "id": "r_nourishment",
                     "label": "Nourishment",
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "description": "To recover, I must eat.",
                     "required": {
                         "funds": 1
@@ -173,7 +173,7 @@
                 {
                     "id": "r_morevitality",
                     "label": "More Vitality",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "description": "With enough Vitality - or sometimes something more exotic - I can increase my Health.",
                     "required": {
                         "vitality": 1,
@@ -241,7 +241,7 @@
                 {
                     "id": "r_medicines",
                     "label": "Medicines, or...",
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "description": "I could pay for a doctor's visit...",
                     "required": {
                         "funds": 1
@@ -254,7 +254,7 @@
                     "required": {
                         "vitality": 1
                     },
-                    "actionid": "dream"
+                    "actionid": "r_dream"
                 }
             ],
             "description": "I need rest and nourishment, if I am to recover. But the Mother of Ants looks kindly on wounds. [Dreaming with an Injury before the card fades will also allow you to recover Health.]",
@@ -329,7 +329,7 @@
                 {
                     "id": "r_medicine",
                     "label": "Medicines, or...",
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "description": "I could pay for a doctor's visit...",
                     "required": {
                         "funds": 1
@@ -338,7 +338,7 @@
                 {
                     "id": "r_vitality",
                     "label": "...Vitality",
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "description": "...but perhaps I just need a little rest.",
                     "required": {
                         "vitality": 1
@@ -390,7 +390,7 @@
                 {
                     "id": "r_moreerudition",
                     "label": "More Erudition",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "description": "With enough Erudition - or sometimes something more exotic -  I can increase my Reason.",
                     "required": {
                         "erudition": 1,
@@ -438,7 +438,7 @@
                 {
                     "id": "r_reminders",
                     "label": "Reminders",
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "required": {
                         "contentment": 1
                     },
@@ -452,7 +452,7 @@
                         "influenceedge": 1,
                         "influencewinter": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_knowledge",
@@ -465,7 +465,7 @@
                         "fragmentedgef": 1,
                         "fragmentedgeg": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "description": "I've seen too much. A nameless gnawing fear has its teeth in my hopes; an existential horror.",
@@ -518,7 +518,7 @@
                     "forbidden": {
                         "poison": 1
                     },
-                    "actionid": "dream"
+                    "actionid": "r_dream"
                 }
             ]
         },
@@ -529,7 +529,7 @@
                 {
                     "id": "r_moreglimmering",
                     "label": "More Glimmering",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "description": "With enough Glimmering - or sometimes something more exotic - I can increase my Passion.",
                     "required": {
                         "glimmering": 1,
@@ -580,7 +580,7 @@
                         "dread": 1,
                         "fleeting": 1
                     },
-                    "actionid": "dream",
+                    "actionid": "r_dream",
                     "description": "Grey reality will steady my soul."
                 },
                 {
@@ -591,7 +591,7 @@
                         "influencemoth": 1,
                         "influencelantern": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_knowledge",
@@ -604,7 +604,7 @@
                         "fragmentmothf": 1,
                         "fragmentmothg": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "description": "Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.",
@@ -626,7 +626,7 @@
                     "required": {
                         "textlatin": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "description": "A dead language: dead as diamonds. [Some books must be translated before they can be read.]",
@@ -645,7 +645,7 @@
                     "required": {
                         "textfucine": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "description": "A people lived east of the lost lake Fucino. Horace warned that theirs was the land of witches. This was their language, called by some 'the dry tongue' and by others 'the tongue of witches'.[Some books must be translated before they can be read.]",
@@ -664,7 +664,7 @@
                     "required": {
                         "textgreek": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "description": "No doubt you're conversant with every variety of Greek, from the beginning to Byzantium. But it's a good thing you have those reference works. [Some books must be translated before they can be read.]",
@@ -680,7 +680,7 @@
                     "required": {
                         "textphrygian": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {
@@ -699,7 +699,7 @@
                     "required": {
                         "textaramaic": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {
@@ -718,7 +718,7 @@
                     "required": {
                         "textmandaic": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {
@@ -737,7 +737,7 @@
                     "required": {
                         "textsanskrit": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {
@@ -756,7 +756,7 @@
                     "required": {
                         "textvak": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {

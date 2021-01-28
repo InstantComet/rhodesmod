@@ -11,7 +11,7 @@
             "slots": [
                 {
                     "id": "r_Health",
-                    "actionid": "work",
+                    "actionid": "r_work",
                     "description": "I must devote my energies to this.",
                     "required": {
                         "health": 1
@@ -19,7 +19,7 @@
                 },
                 {
                     "id": "r_V1",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -29,7 +29,7 @@
                 },
                 {
                     "id": "r_V2",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -56,7 +56,7 @@
             "slots": [
                 {
                     "id": "r_Health",
-                    "actionid": "work",
+                    "actionid": "r_work",
                     "description": "I must devote my energies to this.",
                     "required": {
                         "health": 1
@@ -64,7 +64,7 @@
                 },
                 {
                     "id": "r_V1",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -74,7 +74,7 @@
                 },
                 {
                     "id": "r_V2",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -84,7 +84,7 @@
                 },
                 {
                     "id": "r_V3",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -105,7 +105,7 @@
             "slots": [
                 {
                     "id": "r_Health",
-                    "actionid": "work",
+                    "actionid": "r_work",
                     "description": "I must devote my energies to this.",
                     "required": {
                         "health": 1
@@ -113,7 +113,7 @@
                 },
                 {
                     "id": "r_specialisation",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "Something More",
                     "required": {
                         "lore": 1
@@ -122,7 +122,7 @@
                 },
                 {
                     "id": "r_V1",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -132,7 +132,7 @@
                 },
                 {
                     "id": "r_V2",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -142,7 +142,7 @@
                 },
                 {
                     "id": "r_V3",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -152,7 +152,7 @@
                 },
                 {
                     "id": "r_V4",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "A Lesson Learnt",
                     "required": {
                         "vitalityplus": 1
@@ -174,7 +174,7 @@
             "slots": [
                 {
                     "id": "r_Health",
-                    "actionid": "work",
+                    "actionid": "r_work",
                     "description": "I must devote my energies to this.",
                     "required": {
                         "health": 1
@@ -193,7 +193,7 @@
             "slots": [
                 {
                     "id": "r_Health",
-                    "actionid": "work",
+                    "actionid": "r_work",
                     "description": "I must devote my energies to this.",
                     "required": {
                         "health": 1
@@ -218,7 +218,7 @@
                     },
                     "consumes": true,
                     "description": "Shall I stock my mind with more knowledge?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e2",
@@ -228,7 +228,7 @@
                     },
                     "consumes": true,
                     "description": "Shall I stock my mind with more knowledge?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "xtriggers": {
@@ -255,7 +255,7 @@
                     },
                     "consumes": true,
                     "description": "Could I learn even more?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e2",
@@ -265,7 +265,7 @@
                     },
                     "consumes": true,
                     "description": "Could I learn even more?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e3",
@@ -275,7 +275,7 @@
                     },
                     "consumes": true,
                     "description": "Could I learn even more?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ]
         },
@@ -290,7 +290,7 @@
             "slots": [
                 {
                     "id": "r_specialisation",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "Something More",
                     "required": {
                         "lore": 1
@@ -305,7 +305,7 @@
                     },
                     "consumes": true,
                     "description": "Can I sharpen my reason further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e2",
@@ -315,7 +315,7 @@
                     },
                     "consumes": true,
                     "description": "Can I sharpen my reason further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e3",
@@ -325,7 +325,7 @@
                     },
                     "consumes": true,
                     "description": "Can I sharpen my reason further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_e4",
@@ -335,7 +335,7 @@
                     },
                     "consumes": true,
                     "description": "Can I sharpen my reason further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ]
         },
@@ -376,7 +376,7 @@
                     },
                     "consumes": true,
                     "description": "Am I ready to feed my passions further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G2",
@@ -386,7 +386,7 @@
                     },
                     "consumes": true,
                     "description": "Am I ready to feed my passions further?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_painting1",
@@ -397,7 +397,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting2",
@@ -408,7 +408,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ],
             "xtriggers": {
@@ -435,7 +435,7 @@
                     },
                     "consumes": true,
                     "description": "What could I see, what could I be? [Use this with three Lessons Learnt to gain more Passion.]",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G2",
@@ -445,7 +445,7 @@
                     },
                     "consumes": true,
                     "description": "What could I see, what could I be?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G3",
@@ -455,7 +455,7 @@
                     },
                     "consumes": true,
                     "description": "What could I see, what could I be?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_painting1",
@@ -466,7 +466,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting2",
@@ -477,7 +477,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting3",
@@ -488,7 +488,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ]
         },
@@ -503,7 +503,7 @@
             "slots": [
                 {
                     "id": "r_specialisation",
-                    "actionid": "study",
+                    "actionid": "r_study",
                     "label": "Something More",
                     "required": {
                         "lore": 1
@@ -518,7 +518,7 @@
                     },
                     "consumes": true,
                     "description": "What furious visions remain? [Use this with Work to Paint, or with Study and four Lessons Learnt to gain more Passion.]",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G2",
@@ -528,7 +528,7 @@
                     },
                     "consumes": true,
                     "description": "What furious visions remain?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G3",
@@ -538,7 +538,7 @@
                     },
                     "consumes": true,
                     "description": "What furious visions remain?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_G4",
@@ -548,7 +548,7 @@
                     },
                     "consumes": true,
                     "description": "What furious visions remain?",
-                    "actionid": "study"
+                    "actionid": "r_study"
                 },
                 {
                     "id": "r_painting1",
@@ -559,7 +559,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting2",
@@ -570,7 +570,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting3",
@@ -581,7 +581,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting4",
@@ -592,7 +592,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ]
         },
@@ -614,7 +614,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting2",
@@ -625,7 +625,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting3",
@@ -636,7 +636,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting4",
@@ -647,7 +647,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ],
             "icon": "skillpassionc"
@@ -670,7 +670,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting2",
@@ -681,7 +681,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting3",
@@ -692,7 +692,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_painting4",
@@ -703,7 +703,7 @@
                         "notoriety": 1
                     },
                     "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ],
             "icon": "skillpassionc"

@@ -3,7 +3,7 @@
         {
             "id": "r_lockfollowerincupboard",
             "label": "Betray and Imprison a Follower",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "hq": 1,
                 "follower": 1
@@ -29,7 +29,7 @@
         {
             "id": "r_sulochanachat",
             "label": "A Chat with Sulochana",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "sulochana": 1
             },
@@ -86,7 +86,7 @@
         },
         {
             "id": "r_sulochanachat_health",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Body's Strengths",
             "requirements": {
                 "sulochana": 1,
@@ -98,7 +98,7 @@
         {
             "id": "r_sulochanachat_passion",
             "label": "On Passion",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "sulochana": 1,
                 "passion": 1
@@ -109,7 +109,7 @@
         {
             "id": "r_sulochanachat_cabaret",
             "label": "On the Ecdysis Club",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "sulochana": 1,
                 "locationcabaret": 1
@@ -120,7 +120,7 @@
         {
             "id": "r_sulochanachat_desireheart_track",
             "label": "On the New Form",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "sulochana": 1,
                 "desireheart_track": 1
@@ -133,7 +133,7 @@
         },
         {
             "id": "r_sulochanachat_desiremoth_track",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Old Form",
             "requirements": {
                 "sulochana": 1,
@@ -147,7 +147,7 @@
         },
         {
             "id": "r_sulochanachat_desire_change",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On Desire",
             "requirements": {
                 "sulochana": 1,
@@ -158,7 +158,7 @@
         },
         {
             "id": "r_sulochanachat_desire",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On Desire",
             "requirements": {
                 "sulochana": 1,
@@ -169,7 +169,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesrouter",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On Secret Places",
             "requirements": {
                 "sulochana": 1,
@@ -211,7 +211,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesg",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Road to Ivory",
             "requirements": {
                 "sulochana": 1,
@@ -226,7 +226,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesf",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Road to Pupil",
             "requirements": {
                 "sulochana": 1,
@@ -241,7 +241,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriese",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "Not there - ",
             "requirements": {
                 "sulochana": 1,
@@ -253,7 +253,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesd",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Road to Stigma",
             "requirements": {
                 "sulochana": 1,
@@ -268,7 +268,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesc",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Road to Antumbra",
             "requirements": {
                 "sulochana": 1,
@@ -283,7 +283,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesb",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Road to Pearl",
             "requirements": {
                 "sulochana": 1,
@@ -298,7 +298,7 @@
         },
         {
             "id": "r_sulochanachat_secrethistoriesa",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "label": "On the Roads to Change",
             "requirements": {
                 "sulochana": 1,
@@ -310,7 +310,7 @@
         {
             "id": "r_poppyoffer",
             "label": "Speak to Poppy Lascelles",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "poppyready": 1
             },
@@ -343,7 +343,7 @@
         {
             "id": "r_poppyofferaccept",
             "label": "Accept Poppy's Offer",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "passion": 1
             },
@@ -365,7 +365,7 @@
         {
             "id": "r_poppyofferquery",
             "label": "Question Poppy closely",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "requirements": {
                 "reason": 1
             },

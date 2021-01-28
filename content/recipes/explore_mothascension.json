@@ -3,7 +3,7 @@
         {
             "id": "r_expeditionascensionmothb",
             "label": "Name of the Mother, Name of the Moon",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "sendingmothb": 1
             },
@@ -17,7 +17,7 @@
         {
             "id": "r_expeditionascensionmothc",
             "label": "The Name of the Black-Flax",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "sendingmothc": 1
             },
@@ -31,7 +31,7 @@
         {
             "id": "r_expeditionascensionmothd",
             "label": "The Lilyking's Name",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "sendingmothd": 1
             },
@@ -45,7 +45,7 @@
         {
             "id": "r_expeditionascensionmothe",
             "label": "A Dance with Centipede",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "sendingmothe": 1
             },
@@ -59,7 +59,7 @@
         {
             "id": "r_expeditionascensionmothf",
             "label": "The Wolf's Name",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "sendingmothf": 1
             },

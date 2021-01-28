@@ -1,0 +1,30 @@
+{
+    "recipes": [
+        {
+            "id": "r_study_map_location_rhodes_a",
+            "label": "解读：罗德岛内部结构图(浅层)",
+            "actionId": "r_study",
+            "requirements": {
+                "r_map_location_rhodes_a": 1,
+                "r_sanity": 1
+            },
+            "effects": {
+                "r_map_location_rhodes_a": -1,
+                "r_sanity": -1,
+                "r_vaultrhodes1": 1,
+                "r_losesanity": 1
+            },
+            "startdescription": "尽管时间紧迫，但我不能操之过急。",
+            "description": "成功，我已找到前往控制中枢的路线。",
+            "warmup": 60,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "r_doctoropenexplore",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        }
+    ]
+}

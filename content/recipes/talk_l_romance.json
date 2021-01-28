@@ -3,7 +3,7 @@
         {
             "id": "r_L_talk_roseopportunity",
             "label": "A Liaison?",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "slots": [
                 {
                     "id": "r_ascension",

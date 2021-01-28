@@ -3,7 +3,7 @@
         {
             "id": "r_dreamstartingpassion",
             "label": "The Moonlit Road",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "passion": 1
             },
@@ -54,7 +54,7 @@
         {
             "id": "r_dreamreachwoodmoth",
             "label": "The Thyrsine Way",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "moth": 3
@@ -73,7 +73,7 @@
         {
             "id": "r_dreamreachwoodknock",
             "label": "The Serpent's Way",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 2
@@ -91,7 +91,7 @@
         {
             "id": "r_dreamreachwoodlantern",
             "label": "The Bleached Way",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 2
@@ -109,7 +109,7 @@
         {
             "id": "r_dreamusewoodway",
             "label": "The Way to the Wood",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waywood": 1
             },
@@ -175,7 +175,7 @@
         {
             "id": "r_dreamenterwood",
             "label": "Entering the Wood",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "waywood": 1,
@@ -198,7 +198,7 @@
         {
             "id": "r_dreamnotquitereachwhitelantern",
             "label": "The Light in the Wood: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
@@ -225,7 +225,7 @@
         {
             "id": "r_dreamreachwhitelantern",
             "label": "Approaching The White Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 4
@@ -248,7 +248,7 @@
         {
             "id": "r_dreamnotquitereachwhiteknock",
             "label": "The Light in the Wood: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
@@ -275,7 +275,7 @@
         {
             "id": "r_dreamreachwhiteknock",
             "label": "Approaching The White Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 4
@@ -298,7 +298,7 @@
         {
             "id": "r_dreamnotquitereachwhitewinter",
             "label": "The Light in the Wood: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "winter": 1
@@ -325,7 +325,7 @@
         {
             "id": "r_dreamreachwhitewinter",
             "label": "Approaching The White Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "winter": 4
@@ -348,7 +348,7 @@
         {
             "id": "r_dreamusewhiteway",
             "label": "The Way to the White Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waywhite": 1
             },
@@ -398,7 +398,7 @@
         {
             "id": "r_dreamenterwhite",
             "label": "Entering the White Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "waywhite": 1,
@@ -421,7 +421,7 @@
         {
             "id": "r_dreamreachstagfirst",
             "label": "To the Stag Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waywhite": 1,
                 "desire": 1
@@ -453,7 +453,7 @@
         {
             "id": "r_dreamreachstagsubsequent",
             "label": "At the Stag Door, Again",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waywhite": 1,
                 "desire": 1
@@ -473,7 +473,7 @@
         },
         {
             "id": "r_dream_answerstagriddle_router",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "label": "Ghirbi's Riddle",
             "requirements": {
                 "riddle": 1
@@ -535,7 +535,7 @@
         {
             "id": "r_dream_answerstagriddle_1",
             "label": "One Thread in a Labyrinth",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waystagbefore_1": 1,
                 "fragmentmothc": 1
@@ -557,7 +557,7 @@
         {
             "id": "r_dream_answerstagriddle_2",
             "label": "An Implacable Answer",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waystagbefore_2": 1,
                 "fragmentlanternc": 1
@@ -578,7 +578,7 @@
         },
         {
             "id": "r_dream_answerstagriddle_3",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "label": "A Desirable Answer",
             "requirements": {
                 "waystagbefore_3": 1,
@@ -600,7 +600,7 @@
         },
         {
             "id": "r_dream_answerstagriddle_4",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "label": "A Serpent's Answer",
             "requirements": {
                 "waystagbefore_4": 1,
@@ -622,7 +622,7 @@
         },
         {
             "id": "r_dream_answerstagriddle_5",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "label": "An Answer from History",
             "requirements": {
                 "waystagbefore_5": 1,
@@ -644,7 +644,7 @@
         },
         {
             "id": "r_dream_wronganswerstagriddle",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "label": "This is Not the Answer",
             "requirements": {
                 "lore": 1
@@ -661,7 +661,7 @@
         {
             "id": "r_dreamusestagway",
             "label": "The Way to the Stag Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waystag_after": 1
             },
@@ -724,7 +724,7 @@
         {
             "id": "r_dreamenterstag",
             "label": "Entering the Stag Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "waystag_after": 1,
@@ -747,7 +747,7 @@
         {
             "id": "r_dreamnotquitereachspiderlantern",
             "label": "The Silken Sands: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
@@ -771,7 +771,7 @@
         {
             "id": "r_dreamreachspiderlantern",
             "label": "Approaching The Spider's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 8
@@ -791,7 +791,7 @@
         {
             "id": "r_dreamnotquitereachspiderknock",
             "label": "The Silken Sands: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
@@ -815,7 +815,7 @@
         {
             "id": "r_dreamreachspiderknock",
             "label": "Approaching The Spider's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 8
@@ -835,7 +835,7 @@
         {
             "id": "r_dreamnotquitereachspidergrail",
             "label": "The Silken Sands: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "grail": 1
@@ -859,7 +859,7 @@
         {
             "id": "r_dreamreachspidergrail",
             "label": "Approaching The Spider's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "grail": 8
@@ -879,7 +879,7 @@
         {
             "id": "r_dreamusespiderway",
             "label": "The Way to the Spider's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "wayspider": 1
             },
@@ -945,7 +945,7 @@
         {
             "id": "r_dreamenterspider",
             "label": "Entering the Spider's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "wayspider": 1,
@@ -968,7 +968,7 @@
         {
             "id": "r_dreamnotquitereachpeacocklantern",
             "label": "Glassgarden: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
@@ -991,7 +991,7 @@
         {
             "id": "r_dreamreachpeacocklantern",
             "label": "Glassgarden: Approaching The Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 10
@@ -1011,7 +1011,7 @@
         {
             "id": "r_dreamnotquitereachpeacockknock",
             "label": "Glassgarden: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
@@ -1034,7 +1034,7 @@
         {
             "id": "r_dreamreachpeacockknock",
             "label": "Glassgarden: Approaching The Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "knock": 10
@@ -1054,7 +1054,7 @@
         {
             "id": "r_dreamnotquitereachpeacockedge",
             "label": "Glassgarden: Not Enough!",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "edge": 1
@@ -1078,7 +1078,7 @@
         {
             "id": "r_dreamreachpeacockedge",
             "label": "Glassgarden: Approaching The Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "lore": 1,
                 "edge": 10
@@ -1098,7 +1098,7 @@
         {
             "id": "r_dreamusepeacockway",
             "label": "The Way to the Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "waypeacock": 1
             },
@@ -1141,7 +1141,7 @@
         {
             "id": "r_dreamenterpeacockmirror",
             "label": "Passing the Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
@@ -1164,7 +1164,7 @@
         {
             "id": "r_dreamenterpeacockfrangiclave",
             "label": "Passing the Peacock's Door",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
@@ -1197,7 +1197,7 @@
         {
             "id": "r_dreamheartvictoryintro",
             "label": "Drums in the Storm",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingheartg": 1
             },
@@ -1237,7 +1237,7 @@
         {
             "id": "r_dreamheartvictory",
             "label": "The Kingskin Gate",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingheartg": 1
             },
@@ -1248,7 +1248,7 @@
         {
             "id": "r_dreamheartvictory_withrisen",
             "label": "The Kingskin Gate",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingheartg": 1,
                 "summoned": 1
@@ -1260,7 +1260,7 @@
         {
             "id": "r_dreammothvictoryintro",
             "label": "Drums in the Storm",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothg": 1
             },
@@ -1300,7 +1300,7 @@
         {
             "id": "r_dreammothvictory",
             "label": "The Door in the Wood",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothg": 1
             },
@@ -1311,7 +1311,7 @@
         {
             "id": "r_dreammothvictory_withrisen",
             "label": "The Door in the Wood",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothg": 1,
                 "summoned": 1
@@ -1323,7 +1323,7 @@
         {
             "id": "r_dreammeniscatevictoryintro",
             "label": "Without the Walls",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
@@ -1363,7 +1363,7 @@
         {
             "id": "r_dreammeniscatevictory",
             "label": "Three",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
@@ -1374,7 +1374,7 @@
         {
             "id": "r_dreammeniscatevictory_withrisen",
             "label": "Three",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "sendingmothheartg": 1,
                 "summoned": 1
@@ -1386,7 +1386,7 @@
         {
             "id": "r_belovedfarewelldream",
             "label": "The Threshold Choice",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "requirements": {
                 "romanticinterest": 1
             },
@@ -1497,7 +1497,7 @@
             "id": "r_imnotinlovedream",
             "label": "Dedication",
             "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "craftable": false,
             "linked": [
                 {

@@ -3,7 +3,7 @@
         {
             "id": "r_worktemplatejob",
             "label": "Start template Job",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "legacytemplatejob": 1
             },
@@ -28,7 +28,7 @@
         {
             "id": "r_worktemplatejob_matured",
             "label": "",
-            "actionid": "work",
+            "actionid": "r_work",
             "requirements": {
                 "legacytemplatejob_matured": 1
             },
@@ -50,7 +50,7 @@
         {
             "id": "r_worktemplatejob_epilogue",
             "label": "",
-            "actionid": "work",
+            "actionid": "r_work",
             "effects": {
                 "legacytemplatejob_matured": -1
             },
@@ -61,7 +61,7 @@
         {
             "id": "r_templateopendream",
             "label": "OPEN DREAM",
-            "actionid": "dream",
+            "actionid": "r_dream",
             "startdescription": "",
             "description": "",
             "effects": {
@@ -80,7 +80,7 @@
         {
             "id": "r_templateopenstudy",
             "label": "OPEN STUDY",
-            "actionid": "study",
+            "actionid": "r_study",
             "startdescription": "",
             "description": "",
             "alt": [
@@ -99,7 +99,7 @@
         {
             "id": "r_templateopenexplore",
             "label": "OPEN EXPLORE",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "startdescription": "",
             "description": "",
             "warmup": 10,
@@ -112,7 +112,7 @@
         {
             "id": "r_templateopentalk",
             "label": "",
-            "actionid": "talk",
+            "actionid": "r_talk",
             "startdescription": "",
             "description": "",
             "effects": {},
@@ -122,7 +122,7 @@
         {
             "id": "r_templatestudy_plotitem",
             "label": "",
-            "actionid": "study",
+            "actionid": "r_study",
             "requirements": {
                 "legacytemplate_plotitem": 1
             },

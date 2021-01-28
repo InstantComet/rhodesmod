@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "r_explorevaultcurse_dread_encounter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Dry Soul Curse",
             "startdescription": "The treasures ahead lie under a Dry Soul Curse. Without Lantern or Heart, it may follow us back home and dessicate the spirit.",
             "requirements": {
@@ -56,7 +56,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_highheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 10
             },
@@ -76,7 +76,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_midheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 5
             },
@@ -96,7 +96,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_lowheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 1
             },
@@ -116,7 +116,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_highlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 10
             },
@@ -136,7 +136,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_midlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 5
             },
@@ -156,7 +156,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_lowlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 1
             },
@@ -176,7 +176,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_success",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
             "description": ".",
@@ -194,7 +194,7 @@
         },
         {
             "id": "r_explorevaultcurse_dread_failure",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
             "description": ".",
@@ -219,7 +219,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_encounter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Fifth Eye Curse",
             "startdescription": "The treasures ahead lie under a Fifth Eye Curse. Without Winter or Heart, it may follow us back home and tear open the eye of the soul.",
             "requirements": {
@@ -273,7 +273,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_highheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 10
             },
@@ -293,7 +293,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_midheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 5
             },
@@ -313,7 +313,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_lowheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 1
             },
@@ -333,7 +333,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_highwinter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "winter": 10
             },
@@ -353,7 +353,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_midwinter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "winter": 5
             },
@@ -373,7 +373,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_lowwinter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "winter": 1
             },
@@ -393,7 +393,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_success",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
             "description": ".",
@@ -411,7 +411,7 @@
         },
         {
             "id": "r_explorevaultcurse_visions_failure",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
             "description": ".",
@@ -436,7 +436,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_encounter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Creeping Breath",
             "startdescription": "The treasures ahead lie under a Creeping Breath Curse. Without Grail or Heart, it may follow us back home, and settle like spores into our lungs.",
             "requirements": {
@@ -490,7 +490,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_highheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 10
             },
@@ -510,7 +510,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_midheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 5
             },
@@ -530,7 +530,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_lowheart",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "heart": 1
             },
@@ -550,7 +550,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_highgrail",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "grail": 10
             },
@@ -570,7 +570,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_midgrail",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "grail": 5
             },
@@ -590,7 +590,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_lowgrail",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "grail": 1
             },
@@ -610,7 +610,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_success",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
             "description": ".",
@@ -628,7 +628,7 @@
         },
         {
             "id": "r_explorevaultcurse_affliction_failure",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
             "description": ".",
@@ -653,7 +653,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_encounter",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "Curse-from-Nowhere",
             "startdescription": "Here is a place where the world's skin yellowed with fever. Lantern or Moth might protect us. Nothing else will. ",
             "requirements": {
@@ -707,7 +707,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_highmoth",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "moth": 10
             },
@@ -727,7 +727,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_midmoth",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "moth": 5
             },
@@ -747,7 +747,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_lowmoth",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "moth": 1
             },
@@ -767,7 +767,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_highlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 10
             },
@@ -787,7 +787,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_midlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 5
             },
@@ -807,7 +807,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_lowlantern",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "lantern": 1
             },
@@ -827,7 +827,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_success",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Shrivels",
             "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
             "description": ".",
@@ -845,7 +845,7 @@
         },
         {
             "id": "r_explorevaultcurse_nowhere_failure",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "label": "The Curse Clings",
             "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the Curse will tighten around us.",
             "description": ".",

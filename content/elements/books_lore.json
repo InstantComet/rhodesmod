@@ -525,7 +525,7 @@
                     "required": {
                         "funds": 1
                     },
-                    "actionid": "study"
+                    "actionid": "r_study"
                 }
             ],
             "aspects": {

@@ -3,7 +3,7 @@
         {
             "id": "r_explore_vaulteveningisles1_setup",
             "label": "An Expedition to Raven Isle",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "funds": 1,
                 "follower": 1,
@@ -28,7 +28,7 @@
         {
             "id": "r_explore_vaulteveningisles2_setup",
             "label": "An Expedition to Fort Geryk",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "funds": 1,
                 "follower": 1,
@@ -53,7 +53,7 @@
         {
             "id": "r_explore_vaulteveningisles3_setup",
             "label": "An Expedition to the Wreck of the Christabel",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "funds": 1,
                 "follower": 1,
@@ -78,7 +78,7 @@
         {
             "id": "r_explore_vaulteveningisles4_setup",
             "label": "An Expedition to St Tentreto of the Deep Door",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "funds": 1,
                 "follower": 1,
@@ -103,7 +103,7 @@
         {
             "id": "r_explore_vaulteveningislesdefault_setup",
             "label": "An Expedition to Port Noon",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "funds": 1,
                 "follower": 1,
@@ -129,7 +129,7 @@
         {
             "id": "r_explorevaulteveningisles1_success",
             "label": "Raven Feathers",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "vaulteveningisles1": 1
             },
@@ -155,7 +155,7 @@
         {
             "id": "r_explorevaulteveningisles2_success",
             "label": "The Governor's Last Move",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "vaulteveningisles2": 1
             },
@@ -181,7 +181,7 @@
         {
             "id": "r_explorevaulteveningisles3_success",
             "label": "A Closed Eye",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "vaulteveningisles3": 1
             },
@@ -207,7 +207,7 @@
         {
             "id": "r_explorevaulteveningisles4_success",
             "label": "The First Tremors",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "vaulteveningisles4": 1
             },
@@ -233,7 +233,7 @@
         {
             "id": "r_explorevaulteveningislesdefault_success",
             "label": "All the Way from Gallaecia",
-            "actionid": "explore",
+            "actionid": "r_explore",
             "requirements": {
                 "vaulteveningislesdefault": 1
             },

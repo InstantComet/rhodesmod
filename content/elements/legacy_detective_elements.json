@@ -26,7 +26,7 @@
                         "suspicious": 1
                     },
                     "description": "Until I have evidence, I must start by observing my quarry directly.",
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_meticulous",
@@ -35,7 +35,7 @@
                     "required": {
                         "reason": 1
                     },
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_vigilant",
@@ -44,7 +44,7 @@
                     "required": {
                         "reason": 1
                     },
-                    "actionid": "work"
+                    "actionid": "r_work"
                 },
                 {
                     "id": "r_singleminded",
@@ -53,7 +53,7 @@
                     "required": {
                         "reason": 1
                     },
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ],
             "xtriggers": {
@@ -74,7 +74,7 @@
                     "required": {
                         "passion": 1
                     },
-                    "actionid": "work"
+                    "actionid": "r_work"
                 }
             ],
             "aspects": {
