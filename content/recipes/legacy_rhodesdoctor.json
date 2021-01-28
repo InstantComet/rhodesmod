@@ -50,9 +50,9 @@
                 }
             ],
             "effects": {
-                "operator_amiya": 1,
-                "operator_kaltist": 1,
-                "location_intro": 1
+                "r_operator_amiya": 1,
+                "r_operator_kaltist": 1,
+                "r_location_intro": 1
             },
             "warmup": 30,
             "craftable": false

@@ -6,7 +6,7 @@
             "startdescription": "失去记忆。",
             "description": "我从石棺中醒来。",
             "effects": {
-                "introsanity": 1
+                "r_introsanity": 1
             },
             "image": "r_doctor",
             "fromending": "default",
