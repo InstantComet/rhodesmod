@@ -4,8 +4,9 @@
             "id": "r_work",
             "label": "Work",
             "description": "Earn a living, or practice the invisible arts.",
+            "icon": "work",
             "slot": {
-                "id": "r_work",
+                "id": "work",
                 "label": "Work",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
@@ -27,7 +28,7 @@
             "label": "Dream",
             "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
             "slot": {
-                "id": "r_dream",
+                "id": "dream",
                 "label": "Dream",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
@@ -98,8 +99,8 @@
                 "label": "Explore",
                 "description": "A place; a person; a r_location; a secret.",
                 "required": {
-                    "operator": 1,
-                    "secrethistories": 1,
+                    "r_operator": 1,
+                    "r_secrethistories": 1,
                     "r_location": 1,
                     "r_terra_location": 1,
                     "health": 1,

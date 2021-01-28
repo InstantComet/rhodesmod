@@ -36,14 +36,7 @@
             },
             "animFrames": 1,
             "description": "你的全部。",
-            "icon": "sanity",
-            "xtriggers": {
-                "job": [
-                    {
-                        "id": "r_losesanity"
-                    }
-                ]
-            }
+            "icon": "sanity"
         },
         {
             "id": "r_lmfunds",
