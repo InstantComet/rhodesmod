@@ -9,14 +9,16 @@
                 "label": "Work",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
-                    "ability": 1,
+                    "r_ability": 1,
                     "r_job": 1,
+                    "r_ritual": 1,
+                    "r_desire": 1,
+                    "r_benefactor": 1,
+                    "ability": 1,
+                    "job": 1,
                     "ritual": 1,
                     "desire": 1,
                     "benefactor": 1
-                },
-                "forbidden": {
-                    "reasonskill": 1
                 }
             }
         },
@@ -29,11 +31,18 @@
                 "label": "Dream",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
-                    "ability": 1,
-                    "desire": 1,
+                    "r_ability": 1,
+                    "r_desire": 1,
                     "illhealth": 1,
                     "way": 1,
-                    "funds": 1
+                    "lmfunds": 1,
+                    "text": 1,
+                    "lore": 1,
+                    "ability": 1,
+                    "influence": 1,
+                    "tutor": 1,
+                    "language": 1,
+                    "legacyplotitem": 1
                 }
             }
         },
@@ -46,8 +55,11 @@
                 "label": "Study",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
-                    "text": 1,
+                    "r_text": 1,
                     "lore": 1,
+                    "r_ability": 1,
+                    "r_map": 1,
+                    "text": 1,
                     "ability": 1,
                     "influence": 1,
                     "tutor": 1,
@@ -68,7 +80,7 @@
                     "mortal": 1,
                     "summoned": 1,
                     "patron": 1,
-                    "society": 1,
+                    "r_society": 1,
                     "hq": 1,
                     "lore": 1
                 },
@@ -80,17 +92,19 @@
         {
             "id": "r_explore",
             "label": "Explore",
-            "description": "Explore the city with Health or Followers; explore locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
+            "description": "Explore the city with Health or Followers; explore r_locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
             "slot": {
                 "id": "r_explore",
                 "label": "Explore",
-                "description": "A place; a person; a location; a secret.",
+                "description": "A place; a person; a r_location; a secret.",
                 "required": {
+                    "operator": 1,
+                    "secrethistories": 1,
+                    "r_location": 1,
+                    "r_terra_location": 1,
                     "health": 1,
                     "follower": 1,
-                    "secrethistories": 1,
-                    "location": 1,
-                    "ghoul.hunger": 1
+                    "location": 1
                 },
                 "forbidden": {
                     "hireling": 1
@@ -106,7 +120,7 @@
                 "label": "Time"
             }
         },
-        {
+		{
             "id": "r_headhunt",
             "label": "干员寻访",
 			"icon": "headhunt",
