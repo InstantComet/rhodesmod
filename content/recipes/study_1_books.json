@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_studydehoris1",
+            "id": "studydehoris1",
             "label": "Read De Horis, vol 1",
             "actionid": "study_r",
             "requirements": {
@@ -18,7 +18,7 @@
             "craftable": true
         },
         {
-            "id": "r_studydehoris2",
+            "id": "studydehoris2",
             "label": "Read De Horis, vol 2",
             "actionid": "study_r",
             "requirements": {
@@ -35,7 +35,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytravellingatnight1",
+            "id": "studytravellingatnight1",
             "label": "Read this volume of Travelling at Night",
             "actionid": "study_r",
             "requirements": {
@@ -52,7 +52,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytravellingatnight2",
+            "id": "studytravellingatnight2",
             "label": "Read this volume of Travelling at Night",
             "actionid": "study_r",
             "requirements": {
@@ -69,7 +69,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytravellingatnight3",
+            "id": "studytravellingatnight3",
             "label": "Read this volume of Travelling at Night",
             "actionid": "study_r",
             "requirements": {
@@ -86,7 +86,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysixlettersonnecessity",
+            "id": "studysixlettersonnecessity",
             "label": "Read the Six Letters on Necessity",
             "actionid": "study_r",
             "requirements": {
@@ -103,7 +103,7 @@
             "craftable": true
         },
         {
-            "id": "r_studylocksmithsdream1",
+            "id": "studylocksmithsdream1",
             "label": "Read this volume of the Locksmith's Dream",
             "actionid": "study_r",
             "requirements": {
@@ -120,7 +120,7 @@
             "craftable": true
         },
         {
-            "id": "r_studylocksmithsdream2",
+            "id": "studylocksmithsdream2",
             "label": "Read this volume of the Locksmith's Dream",
             "actionid": "study_r",
             "requirements": {
@@ -137,7 +137,7 @@
             "craftable": true
         },
         {
-            "id": "r_studylocksmithsdream3",
+            "id": "studylocksmithsdream3",
             "label": "Read this volume of the Locksmith's Dream",
             "actionid": "study_r",
             "requirements": {
@@ -154,7 +154,7 @@
             "craftable": true
         },
         {
-            "id": "r_studylocksmithsdream4",
+            "id": "studylocksmithsdream4",
             "label": "Read this volume of the Locksmith's Dream",
             "actionid": "study_r",
             "requirements": {
@@ -172,7 +172,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyorchidtransfigurations1",
+            "id": "studyorchidtransfigurations1",
             "label": "Read this volume of the Orchid Transfigurations",
             "actionid": "study_r",
             "requirements": {
@@ -189,7 +189,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyorchidtransfigurations2",
+            "id": "studyorchidtransfigurations2",
             "label": "Read this volume of the Orchid Transfigurations",
             "actionid": "study_r",
             "requirements": {
@@ -205,7 +205,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyorchidtransfigurations3",
+            "id": "studyorchidtransfigurations3",
             "label": "Read this volume of the Orchid Transfigurations",
             "actionid": "study_r",
             "requirements": {
@@ -221,7 +221,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyhumoursofagentleman",
+            "id": "studyhumoursofagentleman",
             "label": "Peruse Savage's 'Humours of a Gentleman'",
             "actionid": "study_r",
             "requirements": {
@@ -237,7 +237,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyvictoryofcrowns",
+            "id": "studyvictoryofcrowns",
             "label": "Study the 'Victory of Crowns', by 'Arun'",
             "actionid": "study_r",
             "requirements": {
@@ -253,7 +253,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyintroductiontohistories",
+            "id": "studyintroductiontohistories",
             "label": "Study Hersault's 'Introduction to Histories'",
             "actionid": "study_r",
             "requirements": {
@@ -269,7 +269,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytreatiseonunderplaces",
+            "id": "studytreatiseonunderplaces",
             "label": "Study Hersault's Treatise on Underplaces",
             "actionid": "study_r",
             "requirements": {
@@ -285,7 +285,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyonthewhite",
+            "id": "studyonthewhite",
             "label": "Study 'On the White'",
             "actionid": "study_r",
             "requirements": {
@@ -301,7 +301,7 @@
             "craftable": true
         },
         {
-            "id": "r_studywaroftheroadscensored",
+            "id": "studywaroftheroadscensored",
             "label": "Study a censored edition of 'The War of the Roads, 1450-1580'",
             "actionid": "study_r",
             "requirements": {
@@ -317,7 +317,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyqueensoftherivers",
+            "id": "studyqueensoftherivers",
             "label": "Study 'The Queens of the Rivers'",
             "actionid": "study_r",
             "requirements": {
@@ -333,7 +333,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyapolloandmarsyas",
+            "id": "studyapolloandmarsyas",
             "label": "Study 'Apollo and Marsyas'",
             "actionid": "study_r",
             "requirements": {
@@ -349,7 +349,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyskeletonsongs",
+            "id": "studyskeletonsongs",
             "label": "Study the Skeleton Songs",
             "actionid": "study_r",
             "requirements": {
@@ -365,7 +365,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyburningofunburntgod",
+            "id": "studyburningofunburntgod",
             "label": "Study Tasmane's 'The Burning of the Unburnt God'",
             "actionid": "study_r",
             "requirements": {
@@ -382,7 +382,7 @@
             "craftable": true
         },
         {
-            "id": "r_studydebellismurorum",
+            "id": "studydebellismurorum",
             "label": "Study 'De Bellis Murorum', by 'Solipsistos'",
             "actionid": "study_r",
             "requirements": {
@@ -398,7 +398,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyonwhatiscontainedbysilver",
+            "id": "studyonwhatiscontainedbysilver",
             "label": "Read Poemander's 'On What is Contained by Silver'",
             "actionid": "study_r",
             "requirements": {
@@ -415,7 +415,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytruecompleteasclepian",
+            "id": "studytruecompleteasclepian",
             "label": "Read Grese's 'A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House'",
             "actionid": "study_r",
             "requirements": {
@@ -432,7 +432,7 @@
             "craftable": true
         },
         {
-            "id": "r_studywainscothistories",
+            "id": "studywainscothistories",
             "label": "Read Gore's 'Wainscot Histories'",
             "actionid": "study_r",
             "requirements": {
@@ -448,7 +448,7 @@
             "craftable": true
         },
         {
-            "id": "r_studygeminiad",
+            "id": "studygeminiad",
             "label": "Read the Geminiad",
             "actionid": "study_r",
             "requirements": {
@@ -468,7 +468,7 @@
             "craftable": true
         },
         {
-            "id": "r_studychioneatabydos",
+            "id": "studychioneatabydos",
             "label": "Read 'Chione at Abydos'",
             "actionid": "study_r",
             "requirements": {
@@ -484,7 +484,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyirreproachabletraditionssocietynobleendeavour",
+            "id": "studyirreproachabletraditionssocietynobleendeavour",
             "label": "Read 'The Irreproachable Traditions of the Society of the Noble Endeavour'",
             "actionid": "study_r",
             "requirements": {
@@ -500,7 +500,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyroseofnuriel",
+            "id": "studyroseofnuriel",
             "label": "Read 'The Rose of Nuriel'",
             "actionid": "study_r",
             "requirements": {
@@ -517,7 +517,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyroseofhypatia",
+            "id": "studyroseofhypatia",
             "label": "Read 'The Rose of Hypatia'",
             "actionid": "study_r",
             "requirements": {
@@ -534,7 +534,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyroseofwaznei",
+            "id": "studyroseofwaznei",
             "label": "Read 'The Rose of Waznei'",
             "actionid": "study_r",
             "requirements": {
@@ -551,7 +551,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysunsetpassages",
+            "id": "studysunsetpassages",
             "label": "Read 'Sunset Passages'",
             "actionid": "study_r",
             "requirements": {
@@ -567,7 +567,7 @@
             "craftable": true
         },
         {
-            "id": "r_studygospelzacchaeus",
+            "id": "studygospelzacchaeus",
             "label": "Read 'The Gospel of Zacchaeus'",
             "actionid": "study_r",
             "requirements": {
@@ -584,7 +584,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymatthiasamethystloss",
+            "id": "studymatthiasamethystloss",
             "label": "Read 'On Matthias and the Amethyst Imago: Loss'",
             "actionid": "study_r",
             "requirements": {
@@ -601,7 +601,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymatthiasamethysttransformation",
+            "id": "studymatthiasamethysttransformation",
             "label": "Read 'On Matthias and the Amethyst Imago: Transformation'",
             "actionid": "study_r",
             "requirements": {
@@ -617,7 +617,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymatthiasamethystpursuit",
+            "id": "studymatthiasamethystpursuit",
             "label": "Read 'On Matthias and the Amethyst Imago: Pursuit'",
             "actionid": "study_r",
             "requirements": {
@@ -633,7 +633,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyfranklinbancroftdiaries",
+            "id": "studyfranklinbancroftdiaries",
             "label": "Read 'Lord Franklin Bancroft: Diaries, 1750-1790'",
             "actionid": "study_r",
             "requirements": {
@@ -649,7 +649,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyindignitiesobliviate",
+            "id": "studyindignitiesobliviate",
             "label": "Read 'Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates'",
             "actionid": "study_r",
             "requirements": {
@@ -666,7 +666,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyfurioustantra",
+            "id": "studyfurioustantra",
             "label": "Read 'The Furious Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -683,7 +683,7 @@
             "craftable": true
         },
         {
-            "id": "r_studydevouredtantra",
+            "id": "studydevouredtantra",
             "label": "Read 'The Devoured Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -699,7 +699,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyceaselesstantra",
+            "id": "studyceaselesstantra",
             "label": "Read 'The Ceaseless Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -715,7 +715,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyknownunknowntantra",
+            "id": "studyknownunknowntantra",
             "label": "Read 'The Known-Unknown Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -731,7 +731,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyencirclingtantra",
+            "id": "studyencirclingtantra",
             "label": "Read 'The Encircling Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -747,7 +747,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyshavenlocktantra",
+            "id": "studyshavenlocktantra",
             "label": "Read 'The Shaven Lock Tantra'/ 'The One Who Has Shaven His Hair'",
             "actionid": "study_r",
             "requirements": {
@@ -763,7 +763,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytantraworms",
+            "id": "studytantraworms",
             "label": "Read 'The Tantra of Worms'",
             "actionid": "study_r",
             "requirements": {
@@ -779,7 +779,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookofcentipede",
+            "id": "studybookofcentipede",
             "label": "Read 'The Book of the Centipede'",
             "actionid": "study_r",
             "requirements": {
@@ -795,7 +795,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyaccountkanishkspidersdoor",
+            "id": "studyaccountkanishkspidersdoor",
             "label": "Read 'The Account of Kanishk at the Spider's Door'",
             "actionid": "study_r",
             "requirements": {
@@ -811,19 +811,19 @@
             "craftable": true
         },
         {
-            "id": "r_studystumm",
+            "id": "studystumm",
             "label": "Watch 'STUMM'",
             "actionid": "study_r",
             "requirements": {
                 "stumm": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "stumm": -1,
                 "fragmentwinterc": 1,
                 "dread": 1,
                 "ritefollowerconsumeinfluence": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "startdescription": "The film rattles through the projector, glows silently on the wall. It is the story of a foolish student of forbidden sciences, who recruits a dancer to entice the Dead back into the world through a flaw in its skin. It's a fiction, but here on a title card is laid out the Operation of the Declining Sun...",
@@ -831,7 +831,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyvinzantinscriptions",
+            "id": "studyvinzantinscriptions",
             "label": "Read 'The Vinzant Inscriptions'",
             "actionid": "study_r",
             "requirements": {
@@ -847,7 +847,7 @@
             "craftable": true
         },
         {
-            "id": "r_studylarquebinecodex",
+            "id": "studylarquebinecodex",
             "label": "Read 'The Larquebine Codex'",
             "actionid": "study_r",
             "requirements": {
@@ -863,7 +863,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyagainstsisterhoodknot",
+            "id": "studyagainstsisterhoodknot",
             "label": "Read 'Against the Sisterhood of the Knot and the Foulness of their Depraved Customs'",
             "actionid": "study_r",
             "requirements": {
@@ -879,7 +879,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymorphycodex",
+            "id": "studymorphycodex",
             "label": "Read 'The Morphy Codex'",
             "actionid": "study_r",
             "requirements": {
@@ -895,7 +895,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyleoninetantra",
+            "id": "studyleoninetantra",
             "label": "Read 'The Leonine Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -911,7 +911,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincandescenttantra",
+            "id": "studyincandescenttantra",
             "label": "Read 'The Incandescent Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -927,7 +927,7 @@
             "craftable": true
         },
         {
-            "id": "r_studythirstingtantra",
+            "id": "studythirstingtantra",
             "label": "Read 'The Thirsting Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -944,7 +944,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyflayedtantra",
+            "id": "studyflayedtantra",
             "label": "Read 'The Flayed Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -960,7 +960,7 @@
             "craftable": true
         },
         {
-            "id": "r_studywatchfultantra",
+            "id": "studywatchfultantra",
             "label": "Read 'The Watchful Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -977,7 +977,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytwinserpenttantra",
+            "id": "studytwinserpenttantra",
             "label": "Read 'The Twin-Serpent Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -994,7 +994,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyfirecircletantra",
+            "id": "studyfirecircletantra",
             "label": "Read 'The Fire-Circle Tantra'",
             "actionid": "study_r",
             "requirements": {
@@ -1010,7 +1010,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyasthesunhiscourse",
+            "id": "studyasthesunhiscourse",
             "label": "Read 'As The Sun His Course'",
             "actionid": "study_r",
             "requirements": {
@@ -1027,7 +1027,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyconcursumdiaries",
+            "id": "studyconcursumdiaries",
             "label": "Read 'The Concursum Diaries'",
             "actionid": "study_r",
             "requirements": {
@@ -1043,7 +1043,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyironbook",
+            "id": "studyironbook",
             "label": "Read 'The Iron Book'",
             "actionid": "study_r",
             "requirements": {
@@ -1059,7 +1059,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysilverbook",
+            "id": "studysilverbook",
             "label": "Read 'The Silver Book'",
             "actionid": "study_r",
             "requirements": {
@@ -1075,7 +1075,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyivorybook",
+            "id": "studyivorybook",
             "label": "Read 'The Ivory Book'",
             "actionid": "study_r",
             "requirements": {
@@ -1092,7 +1092,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyworlddoesnotweep",
+            "id": "studyworlddoesnotweep",
             "label": "Read 'The World Does Not Weep'",
             "actionid": "study_r",
             "requirements": {
@@ -1109,7 +1109,7 @@
             "craftable": true
         },
         {
-            "id": "r_studydeedsofthescarredcaptain",
+            "id": "studydeedsofthescarredcaptain",
             "label": "Read 'The Deeds of the Scarred Captain'",
             "actionid": "study_r",
             "requirements": {
@@ -1125,7 +1125,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookofdissolution",
+            "id": "studybookofdissolution",
             "label": "Read 'The Book of Dissolution'",
             "actionid": "study_r",
             "requirements": {
@@ -1142,7 +1142,7 @@
             "craftable": true
         },
         {
-            "id": "r_studycatalogueofunchartedpleasures",
+            "id": "studycatalogueofunchartedpleasures",
             "label": "Read 'A Catalogue of Uncharted Pleasures'",
             "actionid": "study_r",
             "requirements": {
@@ -1158,7 +1158,7 @@
             "craftable": true
         },
         {
-            "id": "r_studythosewhodonotsleep",
+            "id": "studythosewhodonotsleep",
             "label": "Read 'Those Who Do Not Sleep'",
             "actionid": "study_r",
             "requirements": {
@@ -1175,7 +1175,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytheskythesoul",
+            "id": "studytheskythesoul",
             "label": "Read 'The Sky, the Soul'",
             "actionid": "study_r",
             "requirements": {
@@ -1192,7 +1192,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyonthematterandthedeedsofserpents",
+            "id": "studyonthematterandthedeedsofserpents",
             "label": "Read 'On the Matter and the Deeds of Serpents'",
             "actionid": "study_r",
             "requirements": {
@@ -1209,7 +1209,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyserenityofblackwood",
+            "id": "studyserenityofblackwood",
             "label": "Read 'The Serenity of the Black Wood'",
             "actionid": "study_r",
             "requirements": {
@@ -1226,7 +1226,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookofthrones",
+            "id": "studybookofthrones",
             "label": "Read 'The Book of Thrones'",
             "actionid": "study_r",
             "requirements": {
@@ -1243,7 +1243,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysecondglory",
+            "id": "studysecondglory",
             "label": "Read 'A Second Glory'",
             "actionid": "study_r",
             "requirements": {
@@ -1261,7 +1261,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookoftrueblood",
+            "id": "studybookoftrueblood",
             "label": "Read 'Book of True Blood'",
             "actionid": "study_r",
             "requirements": {
@@ -1278,7 +1278,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyburningwoman",
+            "id": "studyburningwoman",
             "label": "Read 'The Burning Woman'",
             "actionid": "study_r",
             "requirements": {
@@ -1295,7 +1295,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytwentysixenticementsseventorments",
+            "id": "studytwentysixenticementsseventorments",
             "label": "Read 'Twenty-Six Enticements, Seven Torments'",
             "actionid": "study_r",
             "requirements": {
@@ -1312,7 +1312,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyhistoryofshadowlesskings",
+            "id": "studyhistoryofshadowlesskings",
             "label": "Read 'A True and Accurate History of the Shadowless Kings'",
             "actionid": "study_r",
             "requirements": {
@@ -1329,7 +1329,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyhighmysterieschurchsolar",
+            "id": "studyhighmysterieschurchsolar",
             "label": "Read 'The High Mysteries of the Innermost Chamber of our Church Solar'",
             "actionid": "study_r",
             "requirements": {
@@ -1346,7 +1346,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymedusaslament",
+            "id": "studymedusaslament",
             "label": "Read 'Medusa's Lament'",
             "actionid": "study_r",
             "requirements": {
@@ -1363,7 +1363,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookofmasks",
+            "id": "studybookofmasks",
             "label": "Read 'The Book of Masks'",
             "actionid": "study_r",
             "requirements": {
@@ -1379,7 +1379,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyinthemountainsasupontheplain",
+            "id": "studyinthemountainsasupontheplain",
             "label": "Read 'In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed'",
             "actionid": "study_r",
             "requirements": {
@@ -1396,7 +1396,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymemoryofgods",
+            "id": "studymemoryofgods",
             "label": "Read 'In Memory of Gods'",
             "actionid": "study_r",
             "requirements": {
@@ -1413,7 +1413,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysevenfoldslayingsevencoiled",
+            "id": "studysevenfoldslayingsevencoiled",
             "label": "Read 'The Sevenfold Slaying of the Seven-Coiled'",
             "actionid": "study_r",
             "requirements": {
@@ -1430,7 +1430,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybighuff",
+            "id": "studybighuff",
             "label": "Read 'My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me'",
             "actionid": "study_r",
             "requirements": {
@@ -1446,7 +1446,7 @@
             "craftable": true
         },
         {
-            "id": "r_studydreamconspiracyskies",
+            "id": "studydreamconspiracyskies",
             "label": "Read 'The Dream of the Conspiracy of the Lower Skies'",
             "actionid": "study_r",
             "requirements": {
@@ -1463,7 +1463,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookwhitecat",
+            "id": "studybookwhitecat",
             "label": "Read 'The Book of the White Cat'",
             "actionid": "study_r",
             "requirements": {
@@ -1479,7 +1479,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyfocusamber",
+            "id": "studyfocusamber",
             "label": "Read 'The Focus of Amber'",
             "actionid": "study_r",
             "requirements": {
@@ -1496,7 +1496,7 @@
             "craftable": true
         },
         {
-            "id": "r_studysongscarapacecross",
+            "id": "studysongscarapacecross",
             "label": "Read 'The Songs of the Carapace Cross'",
             "actionid": "study_r",
             "requirements": {
@@ -1513,7 +1513,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyoriginsofhours",
+            "id": "studyoriginsofhours",
             "label": "Read 'The Origins of Hours'",
             "actionid": "study_r",
             "requirements": {
@@ -1530,7 +1530,7 @@
             "craftable": true
         },
         {
-            "id": "r_studywherehasshegone",
+            "id": "studywherehasshegone",
             "label": "Read 'Where Has She Gone?'",
             "actionid": "study_r",
             "requirements": {
@@ -1546,7 +1546,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybookextinguishedheart",
+            "id": "studybookextinguishedheart",
             "label": "Read 'The Book of the Extinguished Heart'",
             "actionid": "study_r",
             "requirements": {
@@ -1564,7 +1564,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyhowendwillbegin",
+            "id": "studyhowendwillbegin",
             "label": "Read 'How the End will Begin'",
             "actionid": "study_r",
             "requirements": {
@@ -1581,7 +1581,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymanneralchemistspared",
+            "id": "studymanneralchemistspared",
             "label": "Read 'The Manner in which the Alchemist was Spared'",
             "actionid": "study_r",
             "requirements": {
@@ -1598,7 +1598,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyfivecreations",
+            "id": "studyfivecreations",
             "label": "Read 'Five Creations'",
             "actionid": "study_r",
             "requirements": {
@@ -1615,7 +1615,7 @@
             "craftable": true
         },
         {
-            "id": "r_studycommandspreservationallexists",
+            "id": "studycommandspreservationallexists",
             "label": "Read 'Commandments For the Preservation of All That Exists'",
             "actionid": "study_r",
             "requirements": {
@@ -1631,7 +1631,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytimedivision",
+            "id": "studytimedivision",
             "label": "Read 'The Time of Division'",
             "actionid": "study_r",
             "requirements": {
@@ -1650,7 +1650,7 @@
             "craftable": true
         },
         {
-            "id": "r_studymanualdeparture",
+            "id": "studymanualdeparture",
             "label": "Read 'A Manual for Departure'",
             "actionid": "study_r",
             "requirements": {
@@ -1667,7 +1667,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybirdsong",
+            "id": "studybirdsong",
             "label": "Read 'Birdsong'",
             "actionid": "study_r",
             "requirements": {
@@ -1685,7 +1685,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyvoyagesfo",
+            "id": "studyvoyagesfo",
             "label": "Read 'The Voyages of Ferninshun of Oreol'",
             "actionid": "study_r",
             "requirements": {
@@ -1701,7 +1701,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyscarsky",
+            "id": "studyscarsky",
             "label": "Read 'The Scar in the Sky'",
             "actionid": "study_r",
             "requirements": {
@@ -1719,7 +1719,7 @@
             "craftable": true
         },
         {
-            "id": "r_studykitlingripe",
+            "id": "studykitlingripe",
             "label": "Read 'Kitling Ripe and the Moldywarp's Grave (and Other Stories)'",
             "actionid": "study_r",
             "requirements": {
@@ -1736,7 +1736,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyraptintheking",
+            "id": "studyraptintheking",
             "label": "Read 'Rapt in the King'",
             "actionid": "study_r",
             "requirements": {
@@ -1753,7 +1753,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyvienneseconundra",
+            "id": "studyvienneseconundra",
             "label": "Read 'The Viennese Conundra'",
             "actionid": "study_r",
             "requirements": {
@@ -1770,7 +1770,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbooklatin",
+            "id": "studytextbooklatin",
             "label": "Improve my Latin",
             "actionid": "study_r",
             "requirements": {
@@ -1786,7 +1786,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookgreek",
+            "id": "studytextbookgreek",
             "label": "Improve my Greek",
             "actionid": "study_r",
             "requirements": {
@@ -1802,7 +1802,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookaramaic",
+            "id": "studytextbookaramaic",
             "label": "Improve my Aramaic",
             "actionid": "study_r",
             "requirements": {
@@ -1818,7 +1818,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbooksanskrit",
+            "id": "studytextbooksanskrit",
             "label": "Improve my Sanskrit",
             "actionid": "study_r",
             "requirements": {
@@ -1834,7 +1834,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookfucine",
+            "id": "studytextbookfucine",
             "label": "Develop an understanding of the long-dead Fucine language",
             "actionid": "study_r",
             "requirements": {
@@ -1850,7 +1850,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookphrygian",
+            "id": "studytextbookphrygian",
             "label": "Learn basic Phrygian",
             "actionid": "study_r",
             "requirements": {
@@ -1866,7 +1866,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookmandaic",
+            "id": "studytextbookmandaic",
             "label": "Learn something of the Deep Mandaic",
             "actionid": "study_r",
             "requirements": {
@@ -1882,7 +1882,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookvak",
+            "id": "studytextbookvak",
             "label": "Acquire some knowledge of Vak",
             "actionid": "study_r",
             "requirements": {
@@ -1898,7 +1898,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookreason",
+            "id": "studytextbookreason",
             "label": "Improve my Reason",
             "actionid": "study_r",
             "requirements": {
@@ -1914,7 +1914,7 @@
             "craftable": true
         },
         {
-            "id": "r_studytextbookpassion",
+            "id": "studytextbookpassion",
             "label": "Read Poetry",
             "actionid": "study_r",
             "requirements": {

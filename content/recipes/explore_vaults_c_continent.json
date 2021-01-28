@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_explore_vaultcontinent1_setup",
+            "id": "explore_vaultcontinent1_setup",
             "label": "Beginning an Expedition: Chateau Raveline",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent1": 1
             },
             "effects": {
@@ -19,18 +19,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinent2_setup",
+            "id": "explore_vaultcontinent2_setup",
             "label": "Beginning an Expedition: Fermier Abbey",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent2": 1
             },
             "effects": {
@@ -43,18 +43,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinent3_setup",
+            "id": "explore_vaultcontinent3_setup",
             "label": "Beginning an Expedition: Orthos Wood",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent3": 1
             },
             "effects": {
@@ -67,18 +67,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinent4_setup",
+            "id": "explore_vaultcontinent4_setup",
             "label": "Beginning an Expedition: the Vanderschaaf Collection",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent4": 1
             },
             "effects": {
@@ -91,18 +91,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinent5_setup",
+            "id": "explore_vaultcontinent5_setup",
             "label": "Beginning an Expedition: Forman House",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent5": 1
             },
             "effects": {
@@ -115,18 +115,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinent6_setup",
+            "id": "explore_vaultcontinent6_setup",
             "label": "Beginning an Expedition: the Key-Hunter's Garret",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinent6": 1
             },
             "effects": {
@@ -139,18 +139,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcontinentdefault_setup",
+            "id": "explore_vaultcontinentdefault_setup",
             "label": "Beginning an Expedition: the Unnumbered Stones",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultcontinentdefault": 1
             },
             "effects": {
@@ -164,13 +164,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultcontinent1_success",
+            "id": "explorevaultcontinent1_success",
             "label": "Childhood's End",
             "actionid": "explore_r",
             "requirements": {
@@ -197,7 +197,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinent2_success",
+            "id": "explorevaultcontinent2_success",
             "label": "Beneath the Boughs",
             "actionid": "explore_r",
             "requirements": {
@@ -225,7 +225,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinent3_success",
+            "id": "explorevaultcontinent3_success",
             "label": "The Memory of Crows",
             "actionid": "explore_r",
             "requirements": {
@@ -251,7 +251,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinent4_success",
+            "id": "explorevaultcontinent4_success",
             "label": "In the Painted Chamber",
             "actionid": "explore_r",
             "requirements": {
@@ -280,7 +280,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinent5_success",
+            "id": "explorevaultcontinent5_success",
             "label": "The Casts",
             "actionid": "explore_r",
             "requirements": {
@@ -306,7 +306,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinent6_success",
+            "id": "explorevaultcontinent6_success",
             "label": "Ashes Above",
             "actionid": "explore_r",
             "requirements": {
@@ -332,7 +332,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcontinentdefault_success",
+            "id": "explorevaultcontinentdefault_success",
             "label": "Beneath the Stone",
             "actionid": "explore_r",
             "requirements": {
@@ -350,11 +350,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_expeditionascensionheartc",
+                    "id": "expeditionascensionheartc",
                     "chance": 100
                 },
                 {
-                    "id": "r_expeditionascensionmothc",
+                    "id": "expeditionascensionmothc",
                     "chance": 100
                 }
             ]

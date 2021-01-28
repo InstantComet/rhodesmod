@@ -1,25 +1,25 @@
 {
     "elements": [
         {
-            "id": "r_location_intro",
+            "id": "location_intro",
             "label": "废城",
             "description": "废弃的移动城市区划，我沉睡的地方。",
             "aspects": {
-                "r_terra_location": 1
+                "terra_location": 1
             },
             "slots": [
                 {
-                    "id": "r_destination",
+                    "id": "destination",
                     "label": "目的地是哪里",
                     "required": {
-                        "r_map": 1
+                        "map": 1
                     }
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
@@ -27,25 +27,25 @@
             "unique": true
         },
         {
-            "id": "r_location_defaults",
+            "id": "location_defaults",
             "label": "荒原中央",
             "description": "什么都没有的地方，旅途开始的地方。",
             "aspects": {
-                "r_terra_location": 1
+                "terra_location": 1
             },
             "slots": [
                 {
-                    "id": "r_destination",
+                    "id": "destination",
                     "label": "目的地是哪里",
                     "required": {
-                        "r_map": 1
+                        "map": 1
                     }
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
@@ -53,26 +53,26 @@
             "unique": true
         },
         {
-            "id": "r_location_rim",
+            "id": "location_rim",
             "label": "雷姆必拓",
             "description": "雷姆必拓介绍占位符。",
             "aspects": {
-                "r_terra_location": 1
+                "terra_location": 1
             },
             "slots": [
                 {
-                    "id": "r_r_destination",
+                    "id": "destination",
                     "label": "目的地是哪里",
                     "required": {
                         "map_location_rim": "-1",
-                        "r_map": 1
+                        "map": 1
                     }
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
@@ -80,11 +80,11 @@
             "unique": true
         },
         {
-            "id": "r_location_columbia",
+            "id": "location_columbia",
             "label": "哥伦比亚",
             "description": "哥伦比亚介绍占位符。",
             "aspects": {
-                "r_terra_location": 1
+                "terra_location": 1
             },
             "unique": true
         }

@@ -1,10 +1,10 @@
 {
     "elements": [
         {
-            "id": "r_spirit_wintera_edge",
+            "id": "spirit_wintera_edge",
             "label": "Shattered Risen",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "winter": 4,
                 "edge": 4,
@@ -19,10 +19,10 @@
             "lifetime": 120
         },
         {
-            "id": "r_spirit_wintera_moth",
+            "id": "spirit_wintera_moth",
             "label": "Burgeoning Risen",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "winter": 4,
                 "moth": 4,
@@ -38,10 +38,10 @@
             "lifetime": 120
         },
         {
-            "id": "r_spirit_winterb_heart",
+            "id": "spirit_winterb_heart",
             "label": "Voiceless Dead",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "winter": 6,
                 "moth": 6,
@@ -56,7 +56,7 @@
             "decayTo": "influencewinter"
         },
         {
-            "id": "r_pre.spirit_winterb_heart",
+            "id": "pre.spirit_winterb_heart",
             "label": "Voiceless Dead",
             "aspects": {
                 "winter": 6,
@@ -75,10 +75,10 @@
             "icon": "spirit_winterb_heart"
         },
         {
-            "id": "r_spirit_forgec_winter",
+            "id": "spirit_forgec_winter",
             "label": "Caligine",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "forge": 8,
                 "moth": 8,
@@ -92,7 +92,7 @@
             "decayTo": "influenceforge"
         },
         {
-            "id": "r_pre.spirit_forgec_winter",
+            "id": "pre.spirit_forgec_winter",
             "label": "Caligine",
             "aspects": {
                 "forge": 8,
@@ -111,10 +111,10 @@
             "icon": "spirit_forgec_winter"
         },
         {
-            "id": "r_spirit_grailc_moth",
+            "id": "spirit_grailc_moth",
             "label": "Raw Prophet",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "grail": 8,
                 "moth": 8,
@@ -130,7 +130,7 @@
             "decayTo": "influencegrail"
         },
         {
-            "id": "r_pre.spirit_grailc_moth",
+            "id": "pre.spirit_grailc_moth",
             "label": "Raw Prophet",
             "aspects": {
                 "grail": 8,
@@ -149,10 +149,10 @@
             "icon": "spirit_grailc_moth"
         },
         {
-            "id": "r_spirit_lanternc_edge",
+            "id": "spirit_lanternc_edge",
             "label": "Hint",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "lantern": 8,
                 "edge": 8,
@@ -166,7 +166,7 @@
             "decayTo": "influencelantern"
         },
         {
-            "id": "r_pre.spirit_lanternc_edge",
+            "id": "pre.spirit_lanternc_edge",
             "label": "Hint",
             "aspects": {
                 "lantern": 8,
@@ -185,10 +185,10 @@
             "icon": "spirit_lanternc_edge"
         },
         {
-            "id": "r_spirit_heartc_edge",
+            "id": "spirit_heartc_edge",
             "label": "Percussigant",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "heart": 8,
                 "edge": 8,
@@ -204,7 +204,7 @@
             "decayTo": "influenceheart"
         },
         {
-            "id": "r_pre.spirit_heartc_edge",
+            "id": "pre.spirit_heartc_edge",
             "label": "Percussigant",
             "aspects": {
                 "heart": 8,
@@ -223,10 +223,10 @@
             "icon": "spirit_heartc_edge"
         },
         {
-            "id": "r_spirit_winterd_edge",
+            "id": "spirit_winterd_edge",
             "label": "Maid-in-the-Mirror",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "winter": 10,
                 "edge": 10,
@@ -241,7 +241,7 @@
             "decayTo": "influencewinter"
         },
         {
-            "id": "r_pre.spirit_winterd_edge",
+            "id": "pre.spirit_winterd_edge",
             "label": "Maid-in-the-Mirror",
             "aspects": {
                 "winter": 10,
@@ -260,10 +260,10 @@
             "icon": "spirit_winterd_edge"
         },
         {
-            "id": "r_spirit_forgee_edge",
+            "id": "spirit_forgee_edge",
             "label": "King Crucible",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "forge": 12,
                 "edge": 12,
@@ -281,7 +281,7 @@
             "uniquenessgroup": "uqspirit_forgee_edge"
         },
         {
-            "id": "r_pre.spirit_forgee_edge",
+            "id": "pre.spirit_forgee_edge",
             "label": "King Crucible",
             "aspects": {
                 "forge": 12,
@@ -302,10 +302,10 @@
             "icon": "spirit_forgee_edge"
         },
         {
-            "id": "r_spirit_graile_edge",
+            "id": "spirit_graile_edge",
             "label": "Ezeem, the Second Thirstly",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "grail": 12,
                 "edge": 12,
@@ -325,7 +325,7 @@
             "uniquenessgroup": "uqspirit_graile_edge"
         },
         {
-            "id": "r_pre.spirit_graile_edge",
+            "id": "pre.spirit_graile_edge",
             "label": "Ezeem, the Second Thirstly",
             "aspects": {
                 "grail": 12,
@@ -346,10 +346,10 @@
             "icon": "spirit_graile_edge"
         },
         {
-            "id": "r_spirit_lanterne_secret",
+            "id": "spirit_lanterne_secret",
             "label": "Teresa",
             "aspects": {
-                "r_operator": 1,
+                "operator": 1,
                 "summoned": 1,
                 "lantern": 12,
                 "secrethistories": 12,
@@ -368,7 +368,7 @@
             "uniquenessgroup": "uqspirit_lanterne_secret"
         },
         {
-            "id": "r_pre.spirit_lanterne_secret",
+            "id": "pre.spirit_lanterne_secret",
             "label": "Teresa",
             "aspects": {
                 "lantern": 12,
@@ -389,7 +389,7 @@
             "icon": "spirit_lanterne_secret"
         },
         {
-            "id": "r_spirit_forgee_edge.defunct",
+            "id": "spirit_forgee_edge.defunct",
             "label": "King Crucible Burns Low",
             "description": "King Crucible's fires have sunk to a lesser heat, for now. Blackened traces remain, like the bones of coal.",
             "lifetime": 180,
@@ -402,13 +402,13 @@
             }
         },
         {
-            "id": "r_spirit_forgee_edge.consumed",
+            "id": "spirit_forgee_edge.consumed",
             "label": "An Ashen Taste",
             "description": "I have consumed the traces that Crucible left in the world. At the very least he will be offended. He might be enraged. I should not summon him again.",
             "unique": true
         },
         {
-            "id": "r_spirit_graile_edge.defunct",
+            "id": "spirit_graile_edge.defunct",
             "label": "Ezeem is Sulking",
             "description": "Ezeem will be fine, eventually.",
             "lifetime": 180,
@@ -416,7 +416,7 @@
             "unique": true
         },
         {
-            "id": "r_spirit_lanterne_secret.defunct",
+            "id": "spirit_lanterne_secret.defunct",
             "label": "Teresa is Resting",
             "description": "The Baldomerian has retreated to the Sage-Knight's Lodge to rest.",
             "lifetime": 180,

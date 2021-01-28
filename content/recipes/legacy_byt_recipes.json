@@ -2,20 +2,20 @@
 {
     "recipes": [
         {
-            "id": "r_workbytjobstart",
+            "id": "workbytjobstart",
             "label": "A Golden Day of Occasional Work",
             "actionid": "work_r",
             "requirements": {
                 "legacybytjob": 1
             },
             "effects": {
-                "r_lmfunds": 3,
+                "lmfunds": 3,
                 "legacybytjob": -1,
                 "legacybytjobmatured": 1
             },
             "alt": [
                 {
-                    "id": "r_bytopenexplore",
+                    "id": "bytopenexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -26,18 +26,18 @@
             "craftable": true
         },
         {
-            "id": "r_workbytjob",
+            "id": "workbytjob",
             "label": "A Golden Day of Occasional Work",
             "actionid": "work_r",
             "requirements": {
                 "legacybytjobmatured": 1
             },
             "effects": {
-                "r_lmfunds": 3
+                "lmfunds": 3
             },
             "alt": [
                 {
-                    "id": "r_workbytjobend",
+                    "id": "workbytjobend",
                     "chance": 30
                 }
             ],
@@ -47,37 +47,37 @@
             "craftable": true
         },
         {
-            "id": "r_workbytjobend",
+            "id": "workbytjobend",
             "label": "A Cloud on the Horizon",
             "actionid": "work_r",
             "startdescription": "Papa has summoned me! I must race to his bedside. All the family affairs are suspended, for now - ",
             "craftable": false,
             "effects": {
                 "legacybytjobmatured": -1,
-                "r_lmfunds": 2
+                "lmfunds": 2
             },
             "alt": [
                 {
-                    "id": "r_workbytjobepilogue",
+                    "id": "workbytjobepilogue",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_workbytjobepilogue",
+            "id": "workbytjobepilogue",
             "label": "Ghastly News",
             "actionid": "legacyeventbad",
             "alt": [
                 {
-                    "id": "r_bytopenstudy",
+                    "id": "bytopenstudy",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "effects": {
                 "health": 2,
-                "r_lmfunds": 20
+                "lmfunds": 20
             },
             "startdescription": "Papa is dead! No-one will tell me exactly how. But the estate is in a state. My allowance is tied up in probate and so forth. One can only hope it's resolved before the bills come due. ",
             "description": "The business of the will has been settled... but Papa's business affairs have been eaten up with debts like woodworm. No-one seems to know exactly what he spent the money on. But the solicitor is sending me some papers, apparently.",
@@ -85,7 +85,7 @@
             "craftable": false
         },
         {
-            "id": "r_bytopenexplore",
+            "id": "bytopenexplore",
             "label": "A World of Possibilities!",
             "actionid": "explore_r",
             "startdescription": "Some ripping sorts are introducing me to some ripping sorts of places.",
@@ -98,13 +98,13 @@
             "craftable": false
         },
         {
-            "id": "r_bytopenstudy",
+            "id": "bytopenstudy",
             "label": "Puzzling Papers",
             "actionid": "study_r",
             "startdescription": "I am to receive papers found among Papa's belongings, which might perhaps shed some sort of light on where exactly the hell all the money has gone.",
             "alt": [
                 {
-                    "id": "r_bytopendream",
+                    "id": "bytopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -118,7 +118,7 @@
             "craftable": false
         },
         {
-            "id": "r_bytstudydiary",
+            "id": "bytstudydiary",
             "label": "Studying a Troubling Diary",
             "actionid": "study_r",
             "requirements": {
@@ -126,7 +126,7 @@
             },
             "alt": [
                 {
-                    "id": "r_bytopentalk",
+                    "id": "bytopentalk",
                     "chance": 100,
                     "additional": true
                 }
@@ -142,12 +142,12 @@
             "craftable": true
         },
         {
-            "id": "r_bytopendream",
+            "id": "bytopendream",
             "label": "The House without Walls",
             "actionid": "dream_r",
             "alt": [
                 {
-                    "id": "r_despairrisk",
+                    "id": "despairrisk",
                     "chance": 100,
                     "additional": true
                 }
@@ -162,7 +162,7 @@
             "craftable": false
         },
         {
-            "id": "r_bytopentalk",
+            "id": "bytopentalk",
             "label": "Summoning a Stranger",
             "actionid": "talk_r",
             "startdescription": "I've contacted the individual named in this troubling document. I have little reason to believe they will be able to enlighten me on the nature of what went before. But perhaps they can help with what is to come.",

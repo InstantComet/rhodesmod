@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_influenceedge",
+            "id": "influenceedge",
             "label": "A Thrilling Air",
             "aspects": {
                 "edge": 2,
@@ -9,7 +9,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
                     "required": {
@@ -20,7 +20,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -40,7 +40,7 @@
             }
         },
         {
-            "id": "r_influenceedgec",
+            "id": "influenceedgec",
             "label": "A Rousing Air",
             "aspects": {
                 "edge": 6,
@@ -48,7 +48,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
                     "required": {
@@ -58,7 +58,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -79,7 +79,7 @@
             "decayTo": "influenceedge"
         },
         {
-            "id": "r_influenceedgee",
+            "id": "influenceedgee",
             "label": "A Furious Air",
             "aspects": {
                 "edge": 10,
@@ -87,7 +87,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
                     "required": {
@@ -97,7 +97,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -118,7 +118,7 @@
             "decayTo": "influenceedgec"
         },
         {
-            "id": "r_influenceedgeg",
+            "id": "influenceedgeg",
             "label": "A Resolution",
             "aspects": {
                 "edge": 15,
@@ -129,7 +129,7 @@
             "decayTo": "influenceedgee"
         },
         {
-            "id": "r_influenceforge",
+            "id": "influenceforge",
             "label": "A Rising Heat",
             "aspects": {
                 "forge": 2,
@@ -137,7 +137,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
                     "required": {
@@ -147,7 +147,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -167,7 +167,7 @@
             }
         },
         {
-            "id": "r_influenceforgec",
+            "id": "influenceforgec",
             "label": "A Trembling Heat",
             "aspects": {
                 "forge": 6,
@@ -175,7 +175,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
                     "required": {
@@ -185,7 +185,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -206,7 +206,7 @@
             "decayTo": "influenceforge"
         },
         {
-            "id": "r_influenceforgee",
+            "id": "influenceforgee",
             "label": "An Exalting Heat",
             "aspects": {
                 "forge": 10,
@@ -214,7 +214,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
                     "required": {
@@ -224,7 +224,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -245,7 +245,7 @@
             "decayTo": "influenceforgec"
         },
         {
-            "id": "r_influenceforgeg",
+            "id": "influenceforgeg",
             "label": "An Incandescence",
             "aspects": {
                 "forge": 15,
@@ -256,7 +256,7 @@
             "decayTo": "influenceforgee"
         },
         {
-            "id": "r_influencegrail",
+            "id": "influencegrail",
             "label": "An Awareness of Appetite",
             "aspects": {
                 "grail": 2,
@@ -264,7 +264,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
                     "required": {
@@ -276,7 +276,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -296,7 +296,7 @@
             }
         },
         {
-            "id": "r_influencegrailc",
+            "id": "influencegrailc",
             "label": "An Urgency of Appetite",
             "aspects": {
                 "grail": 6,
@@ -304,7 +304,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
                     "required": {
@@ -314,7 +314,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -335,7 +335,7 @@
             "decayTo": "influencegrail"
         },
         {
-            "id": "r_influencegraile",
+            "id": "influencegraile",
             "label": "An Imperative of Appetite",
             "aspects": {
                 "grail": 10,
@@ -343,7 +343,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
                     "required": {
@@ -353,7 +353,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -374,7 +374,7 @@
             "decayTo": "influencegrailc"
         },
         {
-            "id": "r_influencegrailg",
+            "id": "influencegrailg",
             "label": "An Incarnadescence",
             "aspects": {
                 "grail": 15,
@@ -385,7 +385,7 @@
             "decayTo": "influencegraile"
         },
         {
-            "id": "r_influenceheart",
+            "id": "influenceheart",
             "label": "Trembling Airs",
             "aspects": {
                 "heart": 2,
@@ -393,7 +393,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
                     "required": {
@@ -406,7 +406,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -427,7 +427,7 @@
             "decayTo": "vitality"
         },
         {
-            "id": "r_influenceheartc",
+            "id": "influenceheartc",
             "label": "Pulsing Airs",
             "aspects": {
                 "heart": 6,
@@ -435,7 +435,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Grail influence to subvert it, instead.",
                     "required": {
@@ -445,7 +445,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -466,7 +466,7 @@
             "decayTo": "influenceheart"
         },
         {
-            "id": "r_influencehearte",
+            "id": "influencehearte",
             "label": "Pounding Airs",
             "aspects": {
                 "heart": 10,
@@ -474,7 +474,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
                     "required": {
@@ -484,7 +484,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -505,7 +505,7 @@
             "decayTo": "influenceheartc"
         },
         {
-            "id": "r_influenceheartg",
+            "id": "influenceheartg",
             "label": "An Imminence",
             "aspects": {
                 "heart": 15,
@@ -516,14 +516,14 @@
             "decayTo": "influencehearte"
         },
         {
-            "id": "r_sicknessprotection",
+            "id": "sicknessprotection",
             "label": "A Stay of Execution",
             "description": "All flesh fails. But I've been promised that my flesh will fail a little later. [This is a final insurance against sickness, if no Health remains to you.]",
             "lifetime": 600,
             "decayTo": "influenceheart"
         },
         {
-            "id": "r_influenceknock",
+            "id": "influenceknock",
             "label": "Subtle Flaw",
             "aspects": {
                 "knock": 2,
@@ -531,7 +531,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "With enough pressure, the skin of the world will tear. Add any influence to subvert it to a higher level Knock influence.",
                     "actionid": "study_r",
@@ -553,7 +553,7 @@
                     }
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -573,7 +573,7 @@
             }
         },
         {
-            "id": "r_influenceknockc",
+            "id": "influenceknockc",
             "label": "Subtle Fracture",
             "aspects": {
                 "knock": 6,
@@ -581,7 +581,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
                     "actionid": "study_r",
@@ -597,7 +597,7 @@
                     }
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -618,7 +618,7 @@
             "decayTo": "influenceknock"
         },
         {
-            "id": "r_influenceknocke",
+            "id": "influenceknocke",
             "label": "Subtle Rupture",
             "aspects": {
                 "knock": 10,
@@ -626,7 +626,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
                     "actionid": "study_r",
@@ -642,7 +642,7 @@
                     }
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -663,7 +663,7 @@
             "decayTo": "influenceknockc"
         },
         {
-            "id": "r_influenceknockg",
+            "id": "influenceknockg",
             "label": "Wrong Door",
             "aspects": {
                 "knock": 15,
@@ -674,7 +674,7 @@
             "decayTo": "influenceknocke"
         },
         {
-            "id": "r_influencelantern",
+            "id": "influencelantern",
             "label": "A Consciousness of Radiance",
             "aspects": {
                 "lantern": 2,
@@ -682,7 +682,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
                     "required": {
@@ -697,7 +697,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -718,7 +718,7 @@
             "decayTo": "fascination"
         },
         {
-            "id": "r_influencelanternc",
+            "id": "influencelanternc",
             "label": "An Intensity of Radiance",
             "aspects": {
                 "lantern": 6,
@@ -726,7 +726,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
                     "required": {
@@ -736,7 +736,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -757,7 +757,7 @@
             "decayTo": "influencelantern"
         },
         {
-            "id": "r_influencelanterne",
+            "id": "influencelanterne",
             "label": "A Blaze of Radiance",
             "aspects": {
                 "lantern": 10,
@@ -765,7 +765,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
                     "required": {
@@ -775,7 +775,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -796,7 +796,7 @@
             "decayTo": "influencelanternc"
         },
         {
-            "id": "r_influencelanterng",
+            "id": "influencelanterng",
             "label": "A Splendour",
             "aspects": {
                 "lantern": 15,
@@ -807,7 +807,7 @@
             "decayTo": "influencelanterne"
         },
         {
-            "id": "r_influencemoth",
+            "id": "influencemoth",
             "label": "A Buzzing in the Brain",
             "aspects": {
                 "moth": 2,
@@ -815,7 +815,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
                     "required": {
@@ -831,7 +831,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -852,7 +852,7 @@
             "decayTo": "restlessness"
         },
         {
-            "id": "r_influencemothc",
+            "id": "influencemothc",
             "label": "A Rattling in the Soul",
             "aspects": {
                 "moth": 6,
@@ -860,7 +860,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
                     "required": {
@@ -870,7 +870,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -891,7 +891,7 @@
             "decayTo": "influencemoth"
         },
         {
-            "id": "r_influencemothe",
+            "id": "influencemothe",
             "label": "A Howling in the Heart",
             "aspects": {
                 "moth": 10,
@@ -899,7 +899,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
                     "required": {
@@ -909,7 +909,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -930,7 +930,7 @@
             "decayTo": "influencemothc"
         },
         {
-            "id": "r_influencemothg",
+            "id": "influencemothg",
             "label": "That Old Yearning",
             "aspects": {
                 "moth": 15,
@@ -941,7 +941,7 @@
             "decayTo": "influencemothe"
         },
         {
-            "id": "r_influencewinter",
+            "id": "influencewinter",
             "label": "A Chilly Atmosphere",
             "aspects": {
                 "winter": 2,
@@ -949,7 +949,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
                     "required": {
@@ -961,7 +961,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -982,7 +982,7 @@
             "decayTo": "dread"
         },
         {
-            "id": "r_influencewinterc",
+            "id": "influencewinterc",
             "label": "An Icy Atmosphere",
             "aspects": {
                 "winter": 6,
@@ -990,7 +990,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
                     "required": {
@@ -1000,7 +1000,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -1021,7 +1021,7 @@
             "decayTo": "influencewinter"
         },
         {
-            "id": "r_influencewintere",
+            "id": "influencewintere",
             "label": "A Bitter Atmosphere",
             "aspects": {
                 "winter": 10,
@@ -1029,7 +1029,7 @@
             },
             "slots": [
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
                     "required": {
@@ -1039,7 +1039,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -1060,7 +1060,7 @@
             "decayTo": "influencewinterc"
         },
         {
-            "id": "r_influencewinterg",
+            "id": "influencewinterg",
             "label": "Perfect Frost",
             "aspects": {
                 "winter": 15,

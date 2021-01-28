@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_mystique",
+            "id": "mystique",
             "label": "Mystique",
             "aspects": {
                 "reputation": 1
@@ -10,7 +10,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_notoriety",
+            "id": "notoriety",
             "label": "Notoriety",
             "aspects": {
                 "reputation": 2
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "r_evidence",
+            "id": "evidence",
             "aspects": {
                 "evidencelevel": 1
             },
@@ -35,7 +35,7 @@
             "lifetime": 600
         },
         {
-            "id": "r_evidenceb",
+            "id": "evidenceb",
             "aspects": {
                 "evidencelevel": 2
             },

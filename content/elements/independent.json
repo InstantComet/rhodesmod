@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_generic_r",
+            "id": "generic_r",
             "label": "A Troublemaker",
             "aspects": {
                 "mortal": 1,
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "r_auclair_r",
+            "id": "auclair_r",
             "icon": "auclair_r",
             "label": "Auclair, a troublemaker",
             "aspects": {
@@ -38,7 +38,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "r_cat_r",
+            "id": "cat_r",
             "icon": "cat_r",
             "label": "Cat Caro, a troublemaker",
             "aspects": {
@@ -57,7 +57,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "r_clifton_r",
+            "id": "clifton_r",
             "icon": "clifton_r",
             "label": "'Pope' Clifton, a troublemaker",
             "aspects": {
@@ -76,7 +76,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "r_clovette_r",
+            "id": "clovette_r",
             "icon": "clovette_r",
             "label": "Clovette, a troublemaker",
             "aspects": {
@@ -95,7 +95,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "r_dorothy_r",
+            "id": "dorothy_r",
             "icon": "dorothy_r",
             "label": "Dorothy, a troublemaker",
             "aspects": {
@@ -114,7 +114,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "r_douglas_r",
+            "id": "douglas_r",
             "icon": "defaulthunter",
             "label": "Douglas, a troublemaker",
             "aspects": {
@@ -133,7 +133,7 @@
             "uniquenessgroup": "uqdouglas"
         },
         {
-            "id": "r_elridge_r",
+            "id": "elridge_r",
             "icon": "elridge_r",
             "label": "Elridge, a troublemaker",
             "aspects": {
@@ -151,7 +151,7 @@
             }
         },
         {
-            "id": "r_enid_r",
+            "id": "enid_r",
             "icon": "enid_r",
             "label": "Enid, a troublemaker",
             "aspects": {
@@ -170,7 +170,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "r_laidlaw_r",
+            "id": "laidlaw_r",
             "icon": "laidlaw_r",
             "label": "Laidlaw, a troublemaker",
             "aspects": {
@@ -189,7 +189,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "r_leo_r",
+            "id": "leo_r",
             "icon": "leo_r",
             "label": "Leo, a troublemaker",
             "aspects": {
@@ -208,7 +208,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "r_neville_r",
+            "id": "neville_r",
             "icon": "neville_r",
             "label": "Neville, a troublemaker",
             "aspects": {
@@ -227,7 +227,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "r_porter_r",
+            "id": "porter_r",
             "icon": "porter_r",
             "label": "Porter, a troublemaker",
             "aspects": {
@@ -246,7 +246,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "r_renira_r",
+            "id": "renira_r",
             "icon": "renira_r",
             "label": "Renira, a troublemaker",
             "aspects": {
@@ -265,7 +265,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "r_rose_r",
+            "id": "rose_r",
             "icon": "rose_r",
             "label": "Rose, a troublemaker",
             "aspects": {
@@ -284,7 +284,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "r_saliba_r",
+            "id": "saliba_r",
             "icon": "saliba_r",
             "label": "Saliba, a troublemaker",
             "aspects": {
@@ -303,7 +303,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "r_slee_r",
+            "id": "slee_r",
             "icon": "slee_r",
             "label": "Slee, a troublemaker",
             "aspects": {
@@ -322,7 +322,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "r_sylvia_r",
+            "id": "sylvia_r",
             "icon": "sylvia_r",
             "label": "Sylvia, a troublemaker",
             "aspects": {
@@ -341,7 +341,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "r_tristan_r",
+            "id": "tristan_r",
             "icon": "tristan_r",
             "label": "Tristan, a troublemaker",
             "aspects": {
@@ -360,7 +360,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "r_valciane_r",
+            "id": "valciane_r",
             "icon": "valciane_r",
             "label": "Valciane, a troublemaker",
             "aspects": {
@@ -379,7 +379,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "r_victor_r",
+            "id": "victor_r",
             "icon": "victor_r",
             "label": "Victor, a troublemaker",
             "aspects": {
@@ -398,7 +398,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "r_violet_r",
+            "id": "violet_r",
             "icon": "violet_r",
             "label": "Violet, a troublemaker",
             "aspects": {
@@ -417,7 +417,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "r_ysabet_r",
+            "id": "ysabet_r",
             "icon": "ysabet_r",
             "label": "Ysabet, a troublemaker",
             "aspects": {
@@ -436,7 +436,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "r_generic_r_c",
+            "id": "generic_r_c",
             "label": "A Rival",
             "aspects": {
                 "mortal": 1,
@@ -455,7 +455,7 @@
             }
         },
         {
-            "id": "r_auclair_r_c",
+            "id": "auclair_r_c",
             "icon": "auclair_r",
             "label": "Auclair, a rival",
             "aspects": {
@@ -475,7 +475,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "r_cat_r_c",
+            "id": "cat_r_c",
             "icon": "cat_r",
             "label": "Cat Caro, a rival",
             "aspects": {
@@ -495,7 +495,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "r_clifton_r_c",
+            "id": "clifton_r_c",
             "icon": "clifton_r",
             "label": "'Pope' Clifton, a rival",
             "aspects": {
@@ -515,7 +515,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "r_clovette_r_c",
+            "id": "clovette_r_c",
             "icon": "clovette_r",
             "label": "Clovette, a rival",
             "aspects": {
@@ -535,7 +535,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "r_connie_r_c",
+            "id": "connie_r_c",
             "icon": "connie_r",
             "label": "Connie, a renegade",
             "aspects": {
@@ -555,7 +555,7 @@
             "uniquenessgroup": "uqconnie"
         },
         {
-            "id": "r_dorothy_r_c",
+            "id": "dorothy_r_c",
             "icon": "dorothy_r",
             "label": "Dorothy, a rival",
             "aspects": {
@@ -575,7 +575,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "r_douglas_r_c",
+            "id": "douglas_r_c",
             "icon": "douglas_r",
             "label": "Douglas, a rival",
             "aspects": {
@@ -595,7 +595,7 @@
             "uniquenessgroup": "uqdouglas"
         },
         {
-            "id": "r_elridge_r_c",
+            "id": "elridge_r_c",
             "icon": "elridge_r",
             "label": "Elridge, a rival",
             "aspects": {
@@ -614,7 +614,7 @@
             }
         },
         {
-            "id": "r_enid_r_c",
+            "id": "enid_r_c",
             "icon": "enid_r",
             "label": "Enid, a rival",
             "aspects": {
@@ -634,7 +634,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "r_laidlaw_r_c",
+            "id": "laidlaw_r_c",
             "icon": "laidlaw_r",
             "label": "Laidlaw, a rival",
             "aspects": {
@@ -654,7 +654,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "r_leo_r_c",
+            "id": "leo_r_c",
             "icon": "leo_r",
             "label": "Leo, a rival",
             "aspects": {
@@ -674,7 +674,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "r_natalia_r_c",
+            "id": "natalia_r_c",
             "icon": "natalia_r",
             "label": "Natalia, a renegade",
             "aspects": {
@@ -694,7 +694,7 @@
             "uniquenessgroup": "uqnatalia"
         },
         {
-            "id": "r_neville_r_c",
+            "id": "neville_r_c",
             "icon": "neville_r",
             "label": "Neville, a rival",
             "aspects": {
@@ -714,7 +714,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "r_porter_r_c",
+            "id": "porter_r_c",
             "icon": "porter_r",
             "label": "Porter, a rival",
             "aspects": {
@@ -734,7 +734,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "r_renira_r_c",
+            "id": "renira_r_c",
             "icon": "renira_r",
             "label": "Renira, a rival",
             "aspects": {
@@ -754,7 +754,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "r_rose_r_c",
+            "id": "rose_r_c",
             "icon": "rose_r",
             "label": "Rose, a rival",
             "aspects": {
@@ -774,7 +774,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "r_saliba_r_c",
+            "id": "saliba_r_c",
             "icon": "saliba_r",
             "label": "Saliba, a rival",
             "aspects": {
@@ -794,7 +794,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "r_slee_r_c",
+            "id": "slee_r_c",
             "icon": "slee_r",
             "label": "Slee, a rival",
             "aspects": {
@@ -814,7 +814,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "r_spencer_r_c",
+            "id": "spencer_r_c",
             "icon": "spencer_r",
             "label": "Spencer, a renegade",
             "aspects": {
@@ -834,7 +834,7 @@
             "uniquenessgroup": "uqspencer"
         },
         {
-            "id": "r_sylvia_r_c",
+            "id": "sylvia_r_c",
             "icon": "sylvia_r",
             "label": "Sylvia, a rival",
             "aspects": {
@@ -854,7 +854,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "r_tristan_r_c",
+            "id": "tristan_r_c",
             "icon": "tristan_r",
             "label": "Tristan, a rival",
             "aspects": {
@@ -874,7 +874,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "r_valciane_r_c",
+            "id": "valciane_r_c",
             "icon": "valciane_r",
             "label": "Valciane, a rival",
             "aspects": {
@@ -894,7 +894,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "r_victor_r_c",
+            "id": "victor_r_c",
             "icon": "victor_r",
             "label": "Victor, a rival",
             "aspects": {
@@ -914,7 +914,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "r_violet_r_c",
+            "id": "violet_r_c",
             "icon": "violet_r",
             "label": "Violet, a rival",
             "aspects": {
@@ -934,7 +934,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "r_ysabet_r_c",
+            "id": "ysabet_r_c",
             "icon": "ysabet_r",
             "label": "Ysabet, a rival",
             "aspects": {
@@ -954,7 +954,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "r_zachary_r_c",
+            "id": "zachary_r_c",
             "icon": "zachary_r",
             "label": "Zachary, a renegade",
             "aspects": {
@@ -974,7 +974,7 @@
             "uniquenessgroup": "uqzachary"
         },
         {
-            "id": "r_generic_r_d",
+            "id": "generic_r_d",
             "label": "A Long in the making",
             "aspects": {
                 "mortal": 1,
@@ -992,7 +992,7 @@
             }
         },
         {
-            "id": "r_auclair_r_d",
+            "id": "auclair_r_d",
             "icon": "auclair_r",
             "label": "Auclair, a Long in the making",
             "aspects": {
@@ -1011,7 +1011,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "r_cat_r_d",
+            "id": "cat_r_d",
             "icon": "cat_r",
             "label": "Cat Caro, a Long in the making",
             "aspects": {
@@ -1030,7 +1030,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "r_clifton_r_d",
+            "id": "clifton_r_d",
             "icon": "clifton_r",
             "label": "'Pope' Clifton, a Long in the making",
             "aspects": {
@@ -1049,7 +1049,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "r_clovette_r_d",
+            "id": "clovette_r_d",
             "icon": "clovette_r",
             "label": "Clovette, a Long in the making",
             "aspects": {
@@ -1068,7 +1068,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "r_connie_r_d",
+            "id": "connie_r_d",
             "icon": "connie_r",
             "label": "Connie, a Long in the making",
             "aspects": {
@@ -1087,7 +1087,7 @@
             "uniquenessgroup": "uqconnie"
         },
         {
-            "id": "r_dorothy_r_d",
+            "id": "dorothy_r_d",
             "icon": "dorothy_r",
             "label": "Dorothy, a Long in the making",
             "aspects": {
@@ -1106,7 +1106,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "r_douglas_r_d",
+            "id": "douglas_r_d",
             "icon": "douglas_r",
             "label": "Douglas, a Long in the Making",
             "aspects": {
@@ -1125,7 +1125,7 @@
             "uniquenessgroup": "uqdouglas"
         },
         {
-            "id": "r_elridge_r_d",
+            "id": "elridge_r_d",
             "icon": "elridge_r",
             "label": "Elridge, a Long in the making",
             "aspects": {
@@ -1143,7 +1143,7 @@
             }
         },
         {
-            "id": "r_enid_r_d",
+            "id": "enid_r_d",
             "icon": "enid_r",
             "label": "Enid, a Long in the making",
             "aspects": {
@@ -1162,7 +1162,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "r_laidlaw_r_d",
+            "id": "laidlaw_r_d",
             "icon": "laidlaw_r",
             "label": "Laidlaw, a Long in the making",
             "aspects": {
@@ -1181,7 +1181,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "r_leo_r_d",
+            "id": "leo_r_d",
             "icon": "leo_r",
             "label": "Leo, a Long in the making",
             "aspects": {
@@ -1200,7 +1200,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "r_natalia_r_d",
+            "id": "natalia_r_d",
             "icon": "natalia_r",
             "label": "Natalia, a Long in the making",
             "aspects": {
@@ -1219,7 +1219,7 @@
             "uniquenessgroup": "uqnatalia"
         },
         {
-            "id": "r_neville_r_d",
+            "id": "neville_r_d",
             "icon": "neville_r",
             "label": "Neville, a Long in the making",
             "aspects": {
@@ -1238,7 +1238,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "r_porter_r_d",
+            "id": "porter_r_d",
             "icon": "porter_r",
             "label": "Porter, a Long in the making",
             "aspects": {
@@ -1257,7 +1257,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "r_renira_r_d",
+            "id": "renira_r_d",
             "icon": "renira_r",
             "label": "Renira, a Long in the making",
             "aspects": {
@@ -1276,7 +1276,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "r_rose_r_d",
+            "id": "rose_r_d",
             "icon": "rose_r",
             "label": "Rose, a Long in the making",
             "aspects": {
@@ -1295,7 +1295,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "r_saliba_r_d",
+            "id": "saliba_r_d",
             "icon": "saliba_r",
             "label": "Saliba, a Long in the making",
             "aspects": {
@@ -1314,7 +1314,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "r_slee_r_d",
+            "id": "slee_r_d",
             "icon": "slee_r",
             "label": "Slee, a Long in the making",
             "aspects": {
@@ -1333,7 +1333,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "r_spencer_r_d",
+            "id": "spencer_r_d",
             "icon": "spencer_r",
             "label": "Spencer, a Long in the making",
             "aspects": {
@@ -1352,7 +1352,7 @@
             "uniquenessgroup": "uqspencer"
         },
         {
-            "id": "r_sylvia_r_d",
+            "id": "sylvia_r_d",
             "icon": "sylvia_r",
             "label": "Sylvia, a Long in the making",
             "aspects": {
@@ -1371,7 +1371,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "r_tristan_r_d",
+            "id": "tristan_r_d",
             "icon": "tristan_r",
             "label": "Tristan, a Long in the making",
             "aspects": {
@@ -1390,7 +1390,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "r_valciane_r_d",
+            "id": "valciane_r_d",
             "icon": "valciane_r",
             "label": "Valciane, a Long in the making",
             "aspects": {
@@ -1409,7 +1409,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "r_victor_r_d",
+            "id": "victor_r_d",
             "icon": "victor_r",
             "label": "Victor, a Long in the making",
             "aspects": {
@@ -1428,7 +1428,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "r_violet_r_d",
+            "id": "violet_r_d",
             "icon": "violet_r",
             "label": "Violet, a Long in the making",
             "aspects": {
@@ -1447,7 +1447,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "r_ysabet_r_d",
+            "id": "ysabet_r_d",
             "icon": "ysabet_r",
             "label": "Ysabet, a Long in the making",
             "aspects": {
@@ -1466,7 +1466,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "r_zachary_r_d",
+            "id": "zachary_r_d",
             "icon": "zachary_r",
             "label": "Zachary, a Long in the making",
             "aspects": {

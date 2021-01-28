@@ -1,14 +1,14 @@
 {
     "recipes": [
         {
-            "id": "r_legacyphysicianwork",
+            "id": "legacyphysicianwork",
             "label": "Work at the Institute",
             "actionid": "work_r",
             "requirements": {
                 "legacyphysicianjob": 1
             },
             "effects": {
-                "r_lmfunds": 2,
+                "lmfunds": 2,
                 "legacyphysicianjob": -1,
                 "institutephysicianjob": 1,
                 "health": 1,
@@ -16,7 +16,7 @@
             },
             "alt": [
                 {
-                    "id": "r_legacyphysicianopenstudy",
+                    "id": "legacyphysicianopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -27,7 +27,7 @@
             "craftable": true
         },
         {
-            "id": "r_legacyphysicianopenstudy",
+            "id": "legacyphysicianopenstudy",
             "actionid": "study_r",
             "label": "Notes in the Case of #PREVIOUSCHARACTERNAME#",
             "startdescription": "My notes spill from the desk drawer where I had thrust them.",
@@ -37,7 +37,7 @@
             },
             "alt": [
                 {
-                    "id": "r_needs",
+                    "id": "needs",
                     "chance": 100,
                     "additional": true
                 }
@@ -45,7 +45,7 @@
             "warmup": 10
         },
         {
-            "id": "r_legacyphysicianstudynotes",
+            "id": "legacyphysicianstudynotes",
             "actionid": "study_r",
             "requirements": {
                 "legacyphysiciannotes": 1
@@ -59,7 +59,7 @@
             },
             "alt": [
                 {
-                    "id": "r_legacyphysicianopendream",
+                    "id": "legacyphysicianopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -69,7 +69,7 @@
             "craftable": true
         },
         {
-            "id": "r_legacyphysicianopendream",
+            "id": "legacyphysicianopendream",
             "actionid": "dream_r",
             "label": "The Invisible Light",
             "startdescription": "In sleep, I am a crooked tree. Moths crawl my bark. Dawn begins, although the light is invisible. At its touch, I straighten, to reach for the sun.",
@@ -79,7 +79,7 @@
             },
             "alt": [
                 {
-                    "id": "r_legacyphysicianhook",
+                    "id": "legacyphysicianhook",
                     "chance": 100,
                     "additional": true
                 }
@@ -87,20 +87,20 @@
             "warmup": 30
         },
         {
-            "id": "r_legacyphysicianhook",
+            "id": "legacyphysicianhook",
             "actionid": "hookplot",
             "label": "Belief?",
             "startdescription": "I could give in to the dreams. But they <i>will</i> devour my Reason.",
             "description": ".",
             "alt": [
                 {
-                    "id": "r_legacyphysicianhookfulfilment",
+                    "id": "legacyphysicianhookfulfilment",
                     "chance": 100
                 }
             ],
             "slots": [
                 {
-                    "id": "r_Temptation",
+                    "id": "Temptation",
                     "label": "Temptation",
                     "required": {
                         "reason": 1
@@ -110,14 +110,14 @@
             ],
             "linked": [
                 {
-                    "id": "r_legacyphysicianhook",
+                    "id": "legacyphysicianhook",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_legacyphysicianhookfulfilment",
+            "id": "legacyphysicianhookfulfilment",
             "actionid": "hookplot",
             "label": "The Watchman's Eye",
             "requirements": {
@@ -133,14 +133,14 @@
             },
             "alt": [
                 {
-                    "id": "r_legacyphysicianopentalk",
+                    "id": "legacyphysicianopentalk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_legacyphysicianopentalk",
+            "id": "legacyphysicianopentalk",
             "label": "Kindred Spirits",
             "actionid": "talk_r",
             "startdescription": "One of the patients at the Institute also has a bandaged eye. A self-inflicted wound, they say. Perhaps we'll speak soon.",

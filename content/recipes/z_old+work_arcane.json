@@ -1,13 +1,13 @@
 {
     "recipes": [
         {
-            "id": "r_conjurationpower",
+            "id": "conjurationpower",
             "label": "The Key to My Heart",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
-                "r_operator": 1,
+                "operator": 1,
                 "ascensionpowera": 1
             },
             "effects": {},
@@ -19,7 +19,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_conjurationpowerclue",
+            "id": "conjurationpowerclue",
             "label": "The Key to My Heart?",
             "actionid": "work_r",
             "requirements": {
@@ -37,13 +37,13 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_conjurationenlightenment",
+            "id": "conjurationenlightenment",
             "label": "The Door in my Dreams",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
-                "r_lmfunds": 1,
+                "lmfunds": 1,
                 "ascensionenlightenmenta": 1
             },
             "effects": {},
@@ -55,7 +55,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_conjurationenlightenmentclue",
+            "id": "conjurationenlightenmentclue",
             "label": "The Door in my Dreams?",
             "actionid": "work_r",
             "requirements": {
@@ -70,13 +70,13 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_ascensionpowerapromotion",
+            "id": "ascensionpowerapromotion",
             "label": "THE RED GRAIL COMES",
             "actionid": "grailminorpromotion",
             "requirements": {},
             "slots": [
                 {
-                    "id": "r_Dedication",
+                    "id": "Dedication",
                     "label": "Dedication",
                     "required": {
                         "passion": 1
@@ -91,7 +91,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_ascensionenlightenmentapromotion",
+            "id": "ascensionenlightenmentapromotion",
             "label": "I HEAR THE WATCHMAN'S FOOTSTEPS",
             "actionid": "watchmanminorpromotion",
             "requirements": {},
@@ -100,7 +100,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Dedication",
+                    "id": "Dedication",
                     "label": "Dedication",
                     "required": {
                         "reason": 1

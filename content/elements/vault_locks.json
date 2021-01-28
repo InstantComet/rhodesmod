@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_peril_treacherousground",
+            "id": "peril_treacherousground",
             "label": "Treacherous Ground",
             "aspects": {
                 "peril": 1
@@ -9,7 +9,7 @@
             "description": "Pits and quags and sudden tumbles. The earth here cannot be trusted. We will need strong hands or clear sight - Forge, or Lantern."
         },
         {
-            "id": "r_peril_forest",
+            "id": "peril_forest",
             "label": "Peril-Prowled Forest",
             "aspects": {
                 "peril": 1
@@ -17,7 +17,7 @@
             "description": "Long ago, the primal trees marched from sea to sea. Some traces of their reign still survive - like this dense and choking territory of root and thorn. The practicalities of Forge, or the mysteries of Moth, may see us through."
         },
         {
-            "id": "r_peril_mountains",
+            "id": "peril_mountains",
             "label": "The High Passes",
             "aspects": {
                 "peril": 1
@@ -25,7 +25,7 @@
             "description": "Bleak and grey-green slopes lift the eye to distant snow-edged sky-straining peaks... it'll be the devil of a job to find anything in there. Forge will sustain us, Winter will shield us."
         },
         {
-            "id": "r_peril_desert",
+            "id": "peril_desert",
             "label": "Desolation",
             "aspects": {
                 "peril": 1
@@ -33,7 +33,7 @@
             "description": "An immense and tawny furnace barely contained by its horizons. At night, a chilly wilderness of stars. We must go carefully, with Forge to shape our way or Grail to secure us against thirst."
         },
         {
-            "id": "r_peril_sea",
+            "id": "peril_sea",
             "label": "A Western Sea",
             "aspects": {
                 "peril": 1
@@ -41,7 +41,7 @@
             "description": "Most of these islands are well-known to the Histories, but our destination lies in wild uncharted reaches. We'll need Heart or Forge to survive."
         },
         {
-            "id": "r_seal_hiddendoor",
+            "id": "seal_hiddendoor",
             "label": "A Hidden Door",
             "aspects": {
                 "seal": 1
@@ -49,7 +49,7 @@
             "description": "Hidden Doors can be found with Lantern or Knock."
         },
         {
-            "id": "r_seal_wardeddoor",
+            "id": "seal_wardeddoor",
             "label": "A Warded Door",
             "aspects": {
                 "seal": 1
@@ -57,7 +57,7 @@
             "description": "An engineer, or an adept, has ensured this door will not open easily. Forge or Knock will defeat it."
         },
         {
-            "id": "r_guardian_serpent",
+            "id": "guardian_serpent",
             "label": "Younger Sister",
             "aspects": {
                 "guardian": 1
@@ -65,7 +65,7 @@
             "description": "The Mother of Ants was born among serpents. She has so very many younger sisters. It can be defeated in battle; or it will respond to the Mother's power."
         },
         {
-            "id": "r_guardian_watchers",
+            "id": "guardian_watchers",
             "label": "Watchers",
             "aspects": {
                 "guardian": 1
@@ -73,7 +73,7 @@
             "description": "Mortals. Perhaps even ordinary mortals. But quite a number of them. They can be fought, seduced, or deceived."
         },
         {
-            "id": "r_guardian_monks",
+            "id": "guardian_monks",
             "label": "Monks",
             "aspects": {
                 "guardian": 1
@@ -81,7 +81,7 @@
             "description": "Contemplatives blessed or condemned to service here. They're bound by their curious vows. We can murder them, or deceive them, but they will not be seduced."
         },
         {
-            "id": "r_guardian_dead",
+            "id": "guardian_dead",
             "label": "The Fretful Dead",
             "aspects": {
                 "guardian": 1
@@ -89,14 +89,14 @@
             "description": "Not all the Dead rest easy. These ones dislike our intrusion. We can prevail against them with Edge; or they may obey one who comes in the name of Winter."
         },
         {
-            "id": "r_guardian_serpent_pre",
+            "id": "guardian_serpent_pre",
             "label": "Younger Sister",
             "description": "The Mother of Ants was born among serpents. She has so very many younger sisters. It can be defeated in battle; or it will respond to the Mother's power.",
             "isAspect": true,
             "icon": "guardian"
         },
         {
-            "id": "r_guardian_watchers_pre",
+            "id": "guardian_watchers_pre",
             "label": "Watchers",
             "aspects": {
                 "guardian": 1
@@ -106,7 +106,7 @@
             "icon": "guardian"
         },
         {
-            "id": "r_guardian_monks_pre",
+            "id": "guardian_monks_pre",
             "label": "Monks",
             "aspects": {
                 "guardian": 1
@@ -116,7 +116,7 @@
             "icon": "guardian"
         },
         {
-            "id": "r_guardian_dead_pre",
+            "id": "guardian_dead_pre",
             "label": "The Fretful Dead",
             "aspects": {
                 "guardian": 1
@@ -126,7 +126,7 @@
             "icon": "guardian"
         },
         {
-            "id": "r_guardian_soucouyants",
+            "id": "guardian_soucouyants",
             "label": "Soucouyants",
             "aspects": {
                 "guardian": 1
@@ -134,7 +134,7 @@
             "description": "One might mistake them for old women, until they discard their skins. The place is aswarm with them. They are strong as strangling roots, and at least half-Long, but they can be deceived, and they are very wary of light."
         },
         {
-            "id": "r_guardian_long",
+            "id": "guardian_long",
             "label": "Long",
             "aspects": {
                 "guardian": 1
@@ -142,7 +142,7 @@
             "description": "It is very hard to kill anyone who's passed the Tricuspid Door. And here are quite a lot of anyones. But perhaps we can deceive one, or prey upon someone's appetites."
         },
         {
-            "id": "r_curse_dread",
+            "id": "curse_dread",
             "label": "Dry Soul Curse",
             "aspects": {
                 "curse": 1
@@ -150,7 +150,7 @@
             "description": "We need Heart or Lantern to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
         },
         {
-            "id": "r_curse_visions",
+            "id": "curse_visions",
             "label": "The Fifth Eye Curse",
             "aspects": {
                 "curse": 1
@@ -158,7 +158,7 @@
             "description": "We need Heart or Winter to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
         },
         {
-            "id": "r_curse_affliction",
+            "id": "curse_affliction",
             "label": "The Creeping Breath Curse",
             "aspects": {
                 "curse": 1
@@ -166,7 +166,7 @@
             "description": "We need Heart or Grail to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
         },
         {
-            "id": "r_curse_nowhere",
+            "id": "curse_nowhere",
             "label": "The Worms in the World",
             "aspects": {
                 "curse": 1

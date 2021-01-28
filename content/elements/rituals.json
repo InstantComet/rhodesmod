@@ -1,14 +1,14 @@
 {
     "elements": [
         {
-            "id": "r_ritetoolconsumeingredient",
+            "id": "ritetoolconsumeingredient",
             "label": "Rite of the Sea's Feasting",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -17,7 +17,7 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Instrument",
+                    "id": "Instrument",
                     "label": "Instrument",
                     "actionid": "work_r",
                     "required": {
@@ -26,7 +26,7 @@
                     "description": "What is our instrument?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -36,7 +36,7 @@
                     "description": "What will we give up?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -49,14 +49,14 @@
             "unique": true
         },
         {
-            "id": "r_ritetoolconsumeinfluence",
+            "id": "ritetoolconsumeinfluence",
             "label": "Rite of the Map's Edge",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -65,7 +65,7 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -75,7 +75,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Instrument",
+                    "id": "Instrument",
                     "label": "Instrument",
                     "actionid": "work_r",
                     "required": {
@@ -84,7 +84,7 @@
                     "description": "What is our instrument?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -97,7 +97,7 @@
             "unique": true
         },
         {
-            "id": "r_ritetoolconsumefollower",
+            "id": "ritetoolconsumefollower",
             "label": "Rite of the Crucible Soul",
             "comments": "endgame rite",
             "aspects": {
@@ -105,7 +105,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -114,18 +114,18 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Victim",
+                    "id": "Victim",
                     "label": "Victim",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "consumes": true,
                     "description": "There must always be willing blood."
                 },
                 {
-                    "id": "r_Instrument",
+                    "id": "Instrument",
                     "label": "Instrument",
                     "actionid": "work_r",
                     "required": {
@@ -134,7 +134,7 @@
                     "description": "On what will blood be shed?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -147,7 +147,7 @@
             "unique": true
         },
         {
-            "id": "r_ritetoolfollowerconsumelore",
+            "id": "ritetoolfollowerconsumelore",
             "label": "Rite of the Watchman's Sorrow",
             "comments": "endgame rite",
             "aspects": {
@@ -155,7 +155,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Sacrifice",
+                    "id": "Sacrifice",
                     "label": "Sacrifice",
                     "actionid": "work_r",
                     "required": {
@@ -165,17 +165,17 @@
                     "description": "What will we forget?"
                 },
                 {
-                    "id": "r_Assistant",
+                    "id": "Assistant",
                     "label": "Assistant",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
                 },
                 {
-                    "id": "r_Instrument",
+                    "id": "Instrument",
                     "label": "Instrument",
                     "actionid": "work_r",
                     "required": {
@@ -184,7 +184,7 @@
                     "description": "What is our instrument?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -197,14 +197,14 @@
             "unique": true
         },
         {
-            "id": "r_ritefollowerconsumetool",
+            "id": "ritefollowerconsumetool",
             "label": "Rite of the Rebel Striving",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -213,17 +213,17 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Assistant",
+                    "id": "Assistant",
                     "label": "Assistant",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -233,7 +233,7 @@
                     "description": "What will we give up?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -246,14 +246,14 @@
             "unique": true
         },
         {
-            "id": "r_ritefollowerconsumeingredient",
+            "id": "ritefollowerconsumeingredient",
             "label": "Rite of the Mother's Mercy",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -262,17 +262,17 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Assistant",
+                    "id": "Assistant",
                     "label": "Assistant",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -282,7 +282,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -295,14 +295,14 @@
             "unique": true
         },
         {
-            "id": "r_riteinfluenceconsumeingredient",
+            "id": "riteinfluenceconsumeingredient",
             "label": "The Rite of the Crow's Quenching",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -311,7 +311,7 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Influence",
+                    "id": "Influence",
                     "label": "Influence",
                     "actionid": "work_r",
                     "required": {
@@ -320,7 +320,7 @@
                     "description": "What power is present?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -330,7 +330,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -343,14 +343,14 @@
             "unique": true
         },
         {
-            "id": "r_ritefollowerconsumeinfluence",
+            "id": "ritefollowerconsumeinfluence",
             "label": "Sunset Rite",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -359,17 +359,17 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Assistant",
+                    "id": "Assistant",
                     "label": "Assistant",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
@@ -379,7 +379,7 @@
                     "description": "What influence will be consumed?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -392,14 +392,14 @@
             "unique": true
         },
         {
-            "id": "r_riteinfluenceconsumefollower",
+            "id": "riteinfluenceconsumefollower",
             "label": "Rite of the Beast's Division",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Invocation",
+                    "id": "Invocation",
                     "label": "Invocation",
                     "actionid": "work_r",
                     "required": {
@@ -408,18 +408,18 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "r_Victim",
+                    "id": "Victim",
                     "label": "Victim",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will be divided?",
                     "consumes": true
                 },
                 {
-                    "id": "r_Influence",
+                    "id": "Influence",
                     "label": "Influence",
                     "actionid": "work_r",
                     "required": {
@@ -428,7 +428,7 @@
                     "description": "What power is present?"
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {
@@ -441,14 +441,14 @@
             "unique": true
         },
         {
-            "id": "r_riteconsumetoolingredientfollowerinfluence",
+            "id": "riteconsumetoolingredientfollowerinfluence",
             "label": "Rite Intercalate",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
-                    "id": "r_Sacrifice",
+                    "id": "Sacrifice",
                     "label": "Sacrifice",
                     "actionid": "work_r",
                     "required": {
@@ -458,11 +458,11 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Offering",
+                    "id": "Offering",
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
-                        "r_operator": 1,
+                        "operator": 1,
                         "prisoner": 1,
                         "summoned": 1
                     },
@@ -470,7 +470,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Surrender",
+                    "id": "Surrender",
                     "label": "Surrender",
                     "actionid": "work_r",
                     "required": {
@@ -480,7 +480,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Dissolution",
+                    "id": "Dissolution",
                     "label": "Dissolution",
                     "actionid": "work_r",
                     "required": {
@@ -490,7 +490,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Grief",
+                    "id": "Grief",
                     "label": "Grief",
                     "actionid": "work_r",
                     "required": {
@@ -500,7 +500,7 @@
                     "consumes": true
                 },
                 {
-                    "id": "r_Desire",
+                    "id": "Desire",
                     "label": "Desire",
                     "actionid": "work_r",
                     "required": {

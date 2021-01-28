@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_paintbasic",
+            "id": "paintbasic",
             "label": "Paint",
             "actionid": "work_r",
             "requirements": {
                 "ritual": -1,
-                "r_job": -1,
+                "job": -1,
                 "passion": 1,
                 "passionskill": -1
             },
@@ -14,7 +14,7 @@
             "description": "I've finished a painting, to the excitement of absolutely no-one: no-one but me. [Sometimes, painting will gain you Glimmerings. <b>Study</b> them to unlock more advanced painting options.]",
             "slots": [
                 {
-                    "id": "r_Yearning",
+                    "id": "Yearning",
                     "label": "Yearning",
                     "required": {
                         "restlessness": 1
@@ -25,7 +25,7 @@
             ],
             "alt": [
                 {
-                    "id": "r_paintbasicsuccess",
+                    "id": "paintbasicsuccess",
                     "chance": 30
                 }
             ],
@@ -39,7 +39,7 @@
             "warmup": 60
         },
         {
-            "id": "r_paintbasicsuccess",
+            "id": "paintbasicsuccess",
             "label": "I've sold a painting!",
             "actionid": "work_r",
             "description": "I've found a customer! She'll probably hang it in her spare bedroom and never look at it again. But her money is good. [Sometimes, painting will gain you Glimmerings. <b>Study</b> them to unlock more advanced painting options.]",
@@ -50,26 +50,26 @@
                 "fatiguing": 1
             },
             "effects": {
-                "r_lmfunds": 2
+                "lmfunds": 2
             }
         },
         {
-            "id": "r_paintwithskill",
+            "id": "paintwithskill",
             "label": "Paint",
             "actionid": "work_r",
             "requirements": {
                 "passionskill": 1,
                 "ritual": -1,
-                "r_job": -1
+                "job": -1
             },
             "slots": [
                 {
-                    "id": "r_Inspiration",
+                    "id": "Inspiration",
                     "label": "Inspiration",
                     "required": {
                         "lore": 1,
                         "influence": 1,
-                        "r_operator": 1,
+                        "operator": 1,
                         "acquaintance": 1,
                         "memory": 1
                     },
@@ -81,43 +81,43 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "r_painthasgrandmemory.nocanvas",
+                    "id": "painthasgrandmemory.nocanvas",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthasgrandmemory",
+                    "id": "painthasgrandmemory",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthaslore",
+                    "id": "painthaslore",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthasinfluence",
+                    "id": "painthasinfluence",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthasmemory",
+                    "id": "painthasmemory",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthassummoned",
+                    "id": "painthassummoned",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthasfollower",
+                    "id": "painthasfollower",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "r_paintaddpigment",
+                    "id": "paintaddpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painthasgrandmemory.nocanvas",
+            "id": "painthasgrandmemory.nocanvas",
             "actionid": "work_r",
             "label": "Forgotten Colours",
             "startdescription": "I remember colours that are gone from the world. I dare not reproduce them faithfully - even if I could. But I could pay tribute to them... if I had a canvas worthy of the task.",
@@ -131,19 +131,19 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "r_paint.prepareforcanvas.pale"
+                    "id": "paint.prepareforcanvas.pale"
                 }
             ]
         },
         {
-            "id": "r_paint.prepareforcanvas.pale",
+            "id": "paint.prepareforcanvas.pale",
             "actionid": "work_r",
             "label": "Prepare the canvas for the Palest Painting",
             "startdescription": "One is the artist, or one is the canvas. Today, I am the artist. [This will take a while, and will occupy the Work verb while you are preparing the canvas.]",
             "description": "The world can wait a little longer for the Palest Painting. It has already waited so long.",
             "slots": [
                 {
-                    "id": "r_corpse",
+                    "id": "corpse",
                     "label": "Materials",
                     "description": "The process will be long and complex, but when I am done, the odour will be almost imperceptible.",
                     "required": {
@@ -153,13 +153,13 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.createcanvas.pale"
+                    "id": "paint.createcanvas.pale"
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_paint.createcanvas.pale",
+            "id": "paint.createcanvas.pale",
             "actionid": "work_r",
             "label": "A Pale Canvas",
             "requirements": {
@@ -175,7 +175,7 @@
             "warmup": 120
         },
         {
-            "id": "r_painthasgrandmemory",
+            "id": "painthasgrandmemory",
             "actionid": "work_r",
             "label": "A Forgotten Colour",
             "startdescription": "@#memory.furious|On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur...\n#memory.luxurious|In a night-blue Mansus-haze swims a coral palace-crown which yields now and then to the moon...\n#memory.liminal|A purple evening sky shot with red gold...\n#memory.horizon|A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon... \n#memory.splendid|Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon...\n#memory.endless|It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass... \n#memory.wildering|The Wood before its darkening, its fruits poison-green, its carnelian roots... \n#memory.golden|Each of its facets shows a single point of light. It might be the glint of firelight... \n#memory.honeyed|Our wings unfurled and shining, our scales lambent as obsidian...\n@",
@@ -186,19 +186,19 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.continue"
+                    "id": "paint.palestpainting.continue"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.continue",
+            "id": "paint.palestpainting.continue",
             "actionid": "work_r",
             "label": "Continue the Palest Painting",
             "startdescription": "I have stalked the image like a hunter, never looking it in the eye. No pigment I have can express these lost colours, and so I must understate them.",
             "description": "The world can wait a little longer for the Palest Painting. It has already waited so long.",
             "slots": [
                 {
-                    "id": "r_canvas.pale",
+                    "id": "canvas.pale",
                     "label": "Canvas",
                     "greedy": true,
                     "description": "Slowly, softly.",
@@ -209,37 +209,37 @@
             ],
             "alt": [
                 {
-                    "id": "r_paint.palestpainting.furious"
+                    "id": "paint.palestpainting.furious"
                 },
                 {
-                    "id": "r_paint.palestpainting.luxurious"
+                    "id": "paint.palestpainting.luxurious"
                 },
                 {
-                    "id": "r_paint.palestpainting.liminal"
+                    "id": "paint.palestpainting.liminal"
                 },
                 {
-                    "id": "r_paint.palestpainting.horizon"
+                    "id": "paint.palestpainting.horizon"
                 },
                 {
-                    "id": "r_paint.palestpainting.splendid"
+                    "id": "paint.palestpainting.splendid"
                 },
                 {
-                    "id": "r_paint.palestpainting.endless"
+                    "id": "paint.palestpainting.endless"
                 },
                 {
-                    "id": "r_paint.palestpainting.wildering"
+                    "id": "paint.palestpainting.wildering"
                 },
                 {
-                    "id": "r_paint.palestpainting.golden"
+                    "id": "paint.palestpainting.golden"
                 },
                 {
-                    "id": "r_paint.palestpainting.honeyed"
+                    "id": "paint.palestpainting.honeyed"
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_paint.palestpainting.furious",
+            "id": "paint.palestpainting.furious",
             "actionid": "work_r",
             "label": "The Colours Seven-Coiled",
             "startdescription": "On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur. Fanged tentacle-necks wrestle like kittens. It tears cheerfully at its own flesh, and the blood that flows is golden. It flops over in a cataclysm of wattled flesh, crushing a knot of attendants, and the others scream and cheer.",
@@ -261,12 +261,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.luxurious",
+            "id": "paint.palestpainting.luxurious",
             "actionid": "work_r",
             "label": "The Colours Tidal",
             "startdescription": "In a night-blue Mansus-haze swims a coral palace-crown which yields now and then to the moon. At its fore-edge it absorbs the lesser Names, coating them with its minerals and juices, and at its rear edge it expels them, polished like jewels - but not all of them. The others go to feed its thorny Tide-heart.",
@@ -288,12 +288,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.liminal",
+            "id": "paint.palestpainting.liminal",
             "actionid": "work_r",
             "label": "The Colours of the Double Threshold",
             "startdescription": "When I remember the Horned Axe, I recall the scent of hawthorn. I recall a purple evening sky shot with red gold. I recall that her edges dripped where she had lately been at work.",
@@ -315,12 +315,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.horizon",
+            "id": "paint.palestpainting.horizon",
             "actionid": "work_r",
             "label": "The Colours of the Horizon",
             "startdescription": "A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon. We hold our breath and watch it brighten, until each colour divides from the next like a new-minted alphabet. The Egg Unhatching.",
@@ -342,12 +342,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.splendid",
+            "id": "paint.palestpainting.splendid",
             "actionid": "work_r",
             "label": "The Colours that Were",
             "startdescription": "Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon. We each of us open our hearts to the golden needle of the sky. All colours magnified beneath the Sun-in-Splendour.",
@@ -369,12 +369,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.endless",
+            "id": "paint.palestpainting.endless",
             "actionid": "work_r",
             "label": "The Colours that Turn",
             "startdescription": "With each turn its cilia pulse and wriggle and its body flushes translucent to crimson. It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass. It does not cease and all its involutions are infinite. The Wheel.",
@@ -396,12 +396,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.wildering",
+            "id": "paint.palestpainting.wildering",
             "actionid": "work_r",
             "label": "The Colours That Are Not Black",
             "startdescription": "The Wood before its darkening, its fruits poison-green, its carnelian roots. The Moth's eyes are merry with hunger. He is hunting.",
@@ -423,12 +423,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.golden",
+            "id": "paint.palestpainting.golden",
             "actionid": "work_r",
             "label": "The Colours of the Old Fire",
             "startdescription": "This is only a stone, though it is smoothed and sharpened to a midnight point, but look closer. Each of its facets shows a single point of light. It might be the glint of firelight. It might be each a different Star.",
@@ -450,12 +450,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.honeyed",
+            "id": "paint.palestpainting.honeyed",
             "actionid": "work_r",
             "label": "The Colours that Will Be",
             "startdescription": "Our wings unfurled and shining, our scales lambent as obsidian, our eyes faceted like jewels, our claws unimpeachable dark.",
@@ -477,12 +477,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_paint.palestpainting.complete"
+                    "id": "paint.palestpainting.complete"
                 }
             ]
         },
         {
-            "id": "r_paint.palestpainting.complete",
+            "id": "paint.palestpainting.complete",
             "actionid": "work_r",
             "label": "Nine Colours Hinted",
             "startdescription": "It is almost done. Doves crowd the roof-ridge above me. The dusk waits breathless.",
@@ -510,7 +510,7 @@
             "warmup": 30
         },
         {
-            "id": "r_painthaslore",
+            "id": "painthaslore",
             "actionid": "work_r",
             "label": "Esoteric Art",
             "startdescription": "Those who know will understand. [As will the Suppression Bureau.]",
@@ -524,13 +524,13 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintaddpigment",
+                    "id": "paintaddpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painthasinfluence",
+            "id": "painthasinfluence",
             "actionid": "work_r",
             "label": "A Mood Piece",
             "startdescription": "This should have an impact.",
@@ -543,13 +543,13 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintaddpigment",
+                    "id": "paintaddpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painthasmemory",
+            "id": "painthasmemory",
             "actionid": "work_r",
             "label": "A Life Retold",
             "startdescription": "These memories would have been lost to the earth below us, and now they will live on. ",
@@ -563,35 +563,35 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "r_paint.memory.menacing.once",
+                    "id": "paint.memory.menacing.once",
                     "chance": 30
                 },
                 {
-                    "id": "r_paint.memory.shameful.once",
+                    "id": "paint.memory.shameful.once",
                     "chance": 30
                 },
                 {
-                    "id": "r_paint.memory.unexpected.once",
+                    "id": "paint.memory.unexpected.once",
                     "chance": 30
                 },
                 {
-                    "id": "r_paint.memory.joyful.once",
+                    "id": "paint.memory.joyful.once",
                     "chance": 30
                 },
                 {
-                    "id": "r_paint.memory.profitable.once",
+                    "id": "paint.memory.profitable.once",
                     "chance": 30
                 },
                 {
-                    "id": "r_paint.memory.generic"
+                    "id": "paint.memory.generic"
                 },
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.menacing.once",
+            "id": "paint.memory.menacing.once",
             "actionid": "work_r",
             "label": "Secrets in the Soul",
             "startdescription": "I have glimpsed the death of Seven Coils. [The Suppression Bureau may take notice.]",
@@ -608,12 +608,12 @@
             "maxexecutions": 1,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.shameful.once",
+            "id": "paint.memory.shameful.once",
             "actionid": "work_r",
             "label": "Secrets in the Soul",
             "startdescription": "I have glimpsed the shape of the Great Mother. [The Suppression Bureau may take notice.]",
@@ -630,12 +630,12 @@
             "maxexecutions": 1,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.unexpected.once",
+            "id": "paint.memory.unexpected.once",
             "actionid": "work_r",
             "label": "Secrets in the Soul",
             "startdescription": "I have glimpsed the Horned-Axe's sacrifice. [The Suppression Bureau may take notice.]",
@@ -652,12 +652,12 @@
             "maxexecutions": 1,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.joyful.once",
+            "id": "paint.memory.joyful.once",
             "actionid": "work_r",
             "label": "Secrets in the Soul",
             "startdescription": "I have glimpsed the turning of the Wheel, although adepts have learnt that turning ceased long ago. [The Suppression Bureau may take notice.]",
@@ -674,12 +674,12 @@
             "maxexecutions": 1,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.profitable.once",
+            "id": "paint.memory.profitable.once",
             "actionid": "work_r",
             "label": "Secrets in the Soul",
             "startdescription": "I have glimpsed how fire has changed, even in the days after fire had facets. [The Suppression Bureau may take notice.]",
@@ -696,12 +696,12 @@
             "maxexecutions": 1,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_paint.memory.generic",
+            "id": "paint.memory.generic",
             "actionid": "work_r",
             "label": "Scenes from a Life",
             "startdescription": "I do not think that this was my own life, but perhaps after all it was. One day I will not be able to tell at all.",
@@ -715,12 +715,12 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "r_paintaddpigment"
+                    "id": "paintaddpigment"
                 }
             ]
         },
         {
-            "id": "r_painthasfollower",
+            "id": "painthasfollower",
             "actionid": "work_r",
             "label": "A Portrait",
             "startdescription": "Something to remember them by, perhaps.",
@@ -733,13 +733,13 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintaddpigment",
+                    "id": "paintaddpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painthassummoned",
+            "id": "painthassummoned",
             "actionid": "work_r",
             "label": "An Unusual Portrait",
             "startdescription": "I'll paint them into our world, and perhaps they'll stay a little longer.  [The Suppression Bureau will likely take an interest.]",
@@ -753,58 +753,58 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintaddpigment",
+                    "id": "paintaddpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintaddpigment",
+            "id": "paintaddpigment",
             "actionid": "work_r",
             "label": "The Colours of Night",
             "warmup": 20,
             "startdescription": "I could spend money on better paints. Or, perhaps, I could find more exotic pigments...",
             "slots": [
                 {
-                    "id": "r_Paints",
+                    "id": "Paints",
                     "label": "Paints",
                     "required": {
                         "pigment": 1,
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
             "alt": [
                 {
-                    "id": "r_paintluck",
+                    "id": "paintluck",
                     "chance": 30
                 }
             ],
             "linked": [
                 {
-                    "id": "r_paintfourpassion",
+                    "id": "paintfourpassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintthreepassion",
+                    "id": "paintthreepassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_painttwopassion",
+                    "id": "painttwopassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintonepassion",
+                    "id": "paintonepassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintnopassion",
+                    "id": "paintnopassion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintluck",
+            "id": "paintluck",
             "actionid": "work_r",
             "warmup": 1,
             "label": "A Good Day",
@@ -815,33 +815,33 @@
             "comments": "Passionless painting never does better than usual.",
             "linked": [
                 {
-                    "id": "r_paintluck",
+                    "id": "paintluck",
                     "chance": 30
                 },
                 {
-                    "id": "r_paintfourpassion",
+                    "id": "paintfourpassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintthreepassion",
+                    "id": "paintthreepassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_painttwopassion",
+                    "id": "painttwopassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintonepassion",
+                    "id": "paintonepassion",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintfourpassion",
+            "id": "paintfourpassion",
             "label": "Utter Focus",
             "startdescription": "All that I am, is here.",
             "actionid": "work_r",
@@ -857,13 +857,13 @@
             },
             "linked": [
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintthreepassion",
+            "id": "paintthreepassion",
             "actionid": "work_r",
             "label": "All Conviction",
             "startdescription": "The world goes away.",
@@ -879,13 +879,13 @@
             },
             "linked": [
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painttwopassion",
+            "id": "painttwopassion",
             "actionid": "work_r",
             "label": "Passionate Intensity",
             "startdescription": "I see the mistakes, but I can also see the end.",
@@ -901,13 +901,13 @@
             },
             "linked": [
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintonepassion",
+            "id": "paintonepassion",
             "actionid": "work_r",
             "label": "A Day's Work",
             "startdescription": "I have not shirked.",
@@ -923,13 +923,13 @@
             },
             "linked": [
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintnopassion",
+            "id": "paintnopassion",
             "actionid": "work_r",
             "label": "A Rote Effort",
             "startdescription": "Honestly, I'm only going through the motions. The quality of my work will no doubt suffer.",
@@ -945,51 +945,51 @@
             },
             "linked": [
                 {
-                    "id": "r_paintcheckpigment",
+                    "id": "paintcheckpigment",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintcheckpigment",
+            "id": "paintcheckpigment",
             "actionid": "work_r",
             "alt": [
                 {
-                    "id": "r_painthasfunds",
+                    "id": "painthasfunds",
                     "chance": 100
                 },
                 {
-                    "id": "r_painthaspigment",
+                    "id": "painthaspigment",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_painthasfunds",
+            "id": "painthasfunds",
             "actionid": "work_r",
             "requirements": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "insight": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "label": "Quality materials...",
             "startdescription": "...for quality work?",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ],
             "warmup": 5
         },
         {
-            "id": "r_painthaspigment",
+            "id": "painthaspigment",
             "actionid": "work_r",
             "requirements": {
                 "pigment": 1
@@ -1003,45 +1003,45 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_matchedge",
+                    "id": "matchedge",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchforge",
+                    "id": "matchforge",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchgrail",
+                    "id": "matchgrail",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchheart",
+                    "id": "matchheart",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchknock",
+                    "id": "matchknock",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchlantern",
+                    "id": "matchlantern",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchmoth",
+                    "id": "matchmoth",
                     "chance": 100
                 },
                 {
-                    "id": "r_matchwinter",
+                    "id": "matchwinter",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchedge",
+            "id": "matchedge",
             "requirements": {
                 "ingredientedgeb": 1,
                 "edge": 5
@@ -1056,17 +1056,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasteredge_unique",
+                    "id": "paintmasteredge_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchforge",
+            "id": "matchforge",
             "requirements": {
                 "ingredientforgeb": 1,
                 "forge": 5
@@ -1081,17 +1081,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasterforge_unique",
+                    "id": "paintmasterforge_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchgrail",
+            "id": "matchgrail",
             "requirements": {
                 "ingredientgrailb": 1,
                 "grail": 5
@@ -1108,17 +1108,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmastergrail_unique",
+                    "id": "paintmastergrail_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchheart",
+            "id": "matchheart",
             "requirements": {
                 "ingredientheartb": 1,
                 "heart": 5
@@ -1133,17 +1133,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasterheart_unique",
+                    "id": "paintmasterheart_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchknock",
+            "id": "matchknock",
             "requirements": {
                 "ingredientknockb": 1,
                 "knock": 5
@@ -1158,17 +1158,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasterknock_unique",
+                    "id": "paintmasterknock_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchlantern",
+            "id": "matchlantern",
             "requirements": {
                 "ingredientlanternb": 1,
                 "lantern": 5
@@ -1183,17 +1183,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasterlantern_unique",
+                    "id": "paintmasterlantern_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchmoth",
+            "id": "matchmoth",
             "requirements": {
                 "ingredientmothb": 1,
                 "moth": 5
@@ -1209,17 +1209,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmastermoth_unique",
+                    "id": "paintmastermoth_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_matchwinter",
+            "id": "matchwinter",
             "requirements": {
                 "ingredientwinterb": 1,
                 "winter": 5
@@ -1235,17 +1235,17 @@
             "warmup": 5,
             "linked": [
                 {
-                    "id": "r_paintmasterwinter_unique",
+                    "id": "paintmasterwinter_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasteredge_unique",
+            "id": "paintmasteredge_unique",
             "requirements": {
                 "insight": 7,
                 "edge": 9
@@ -1257,13 +1257,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasterforge_unique",
+            "id": "paintmasterforge_unique",
             "requirements": {
                 "insight": 7,
                 "forge": 9
@@ -1275,13 +1275,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmastergrail_unique",
+            "id": "paintmastergrail_unique",
             "requirements": {
                 "insight": 7,
                 "grail": 9
@@ -1293,13 +1293,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasterheart_unique",
+            "id": "paintmasterheart_unique",
             "requirements": {
                 "insight": 7,
                 "heart": 9
@@ -1311,13 +1311,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasterknock_unique",
+            "id": "paintmasterknock_unique",
             "requirements": {
                 "insight": 7,
                 "knock": 9
@@ -1329,13 +1329,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasterlantern_unique",
+            "id": "paintmasterlantern_unique",
             "requirements": {
                 "insight": 7,
                 "lantern": 9
@@ -1347,13 +1347,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmastermoth_unique",
+            "id": "paintmastermoth_unique",
             "requirements": {
                 "insight": 7,
                 "moth": 9
@@ -1365,13 +1365,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintmasterwinter_unique",
+            "id": "paintmasterwinter_unique",
             "requirements": {
                 "insight": 7,
                 "winter": 9
@@ -1383,13 +1383,13 @@
             "actionid": "work_r",
             "linked": [
                 {
-                    "id": "r_paintresults",
+                    "id": "paintresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintresults",
+            "id": "paintresults",
             "label": "Finished!",
             "startdescription": " ",
             "actionid": "work_r",
@@ -1400,37 +1400,37 @@
             },
             "linked": [
                 {
-                    "id": "r_paintingqualitymaster_unique",
+                    "id": "paintingqualitymaster_unique",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualityglorious",
+                    "id": "paintingqualityglorious",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualitymagnificent",
+                    "id": "paintingqualitymagnificent",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualityexceptional",
+                    "id": "paintingqualityexceptional",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualitygood",
+                    "id": "paintingqualitygood",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualitycompetent",
+                    "id": "paintingqualitycompetent",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingqualityfailure",
+                    "id": "paintingqualityfailure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintingqualitymaster_unique",
+            "id": "paintingqualitymaster_unique",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Something Unique",
@@ -1445,7 +1445,7 @@
             }
         },
         {
-            "id": "r_paintingqualityglorious",
+            "id": "paintingqualityglorious",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Glorious Work",
@@ -1466,7 +1466,7 @@
             ],
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ],
@@ -1476,7 +1476,7 @@
             }
         },
         {
-            "id": "r_paintingqualitymagnificent",
+            "id": "paintingqualitymagnificent",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Magnificent Work",
@@ -1497,7 +1497,7 @@
             ],
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ],
@@ -1507,7 +1507,7 @@
             }
         },
         {
-            "id": "r_paintingqualityexceptional",
+            "id": "paintingqualityexceptional",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Exceptional Work",
@@ -1528,7 +1528,7 @@
             ],
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ],
@@ -1537,7 +1537,7 @@
             }
         },
         {
-            "id": "r_paintingqualitygood",
+            "id": "paintingqualitygood",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Good Work",
@@ -1550,7 +1550,7 @@
             },
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ],
@@ -1559,7 +1559,7 @@
             }
         },
         {
-            "id": "r_paintingqualitycompetent",
+            "id": "paintingqualitycompetent",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Competent Work",
@@ -1572,7 +1572,7 @@
             },
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ],
@@ -1581,7 +1581,7 @@
             }
         },
         {
-            "id": "r_paintingqualityfailure",
+            "id": "paintingqualityfailure",
             "actionid": "work_r",
             "warmup": 5,
             "label": "Worthless!",
@@ -1594,50 +1594,50 @@
             },
             "linked": [
                 {
-                    "id": "r_paintingreputationcheck",
+                    "id": "paintingreputationcheck",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintingreputationcheck",
+            "id": "paintingreputationcheck",
             "actionid": "work_r",
             "effects": {
                 "insight": -1
             },
             "linked": [
                 {
-                    "id": "r_paintingreputation_celebrated",
+                    "id": "paintingreputation_celebrated",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_famed",
+                    "id": "paintingreputation_famed",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_notable",
+                    "id": "paintingreputation_notable",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_significant",
+                    "id": "paintingreputation_significant",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_known",
+                    "id": "paintingreputation_known",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_noticed",
+                    "id": "paintingreputation_noticed",
                     "chance": 100
                 },
                 {
-                    "id": "r_paintingreputation_unknown",
+                    "id": "paintingreputation_unknown",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_paintingreputation_celebrated",
+            "id": "paintingreputation_celebrated",
             "label": "The Artist's Reward?",
             "description": "My recent work is celebrated! My name is known, and my work has done well.",
             "actionid": "work_r",
@@ -1650,12 +1650,12 @@
             },
             "linked": [
                 {
-                    "id": "r_painting.reputation.overexposure"
+                    "id": "painting.reputation.overexposure"
                 }
             ]
         },
         {
-            "id": "r_paintingreputation_famed",
+            "id": "paintingreputation_famed",
             "label": "The Artist's Reward?",
             "description": "My recent work has accrued modest fame! My paintings have reviewed well.",
             "actionid": "work_r",
@@ -1668,12 +1668,12 @@
             },
             "linked": [
                 {
-                    "id": "r_painting.reputation.overexposure"
+                    "id": "painting.reputation.overexposure"
                 }
             ]
         },
         {
-            "id": "r_paintingreputation_notable",
+            "id": "paintingreputation_notable",
             "label": "The Artist's Reward?",
             "description": "My recent work is considered notable! I've exhibited the latest paintings publicly. Surely someone will buy something.",
             "actionid": "work_r",
@@ -1686,12 +1686,12 @@
             },
             "linked": [
                 {
-                    "id": "r_painting.reputation.overexposure"
+                    "id": "painting.reputation.overexposure"
                 }
             ]
         },
         {
-            "id": "r_paintingreputation_significant",
+            "id": "paintingreputation_significant",
             "label": "The Artist's Reward?",
             "description": "My recent work is considered significant! I may yet earn a living from this, but nothing is certain.",
             "actionid": "work_r",
@@ -1704,12 +1704,12 @@
             },
             "linked": [
                 {
-                    "id": "r_painting.reputation.overexposure"
+                    "id": "painting.reputation.overexposure"
                 }
             ]
         },
         {
-            "id": "r_paintingreputation_known",
+            "id": "paintingreputation_known",
             "label": "The Artist's Reward?",
             "description": "My recent work has drawn some attention. Something should sell.",
             "actionid": "work_r",
@@ -1722,7 +1722,7 @@
             }
         },
         {
-            "id": "r_paintingreputation_noticed",
+            "id": "paintingreputation_noticed",
             "comments": "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
             "label": "The Artist's Reward?",
             "description": "My recent work has attracted a couple of callers. With luck, something will sell.",
@@ -1735,7 +1735,7 @@
             }
         },
         {
-            "id": "r_paintingreputation_unknown",
+            "id": "paintingreputation_unknown",
             "comments": "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
             "label": "The Artist's Reward?",
             "description": "My recent work has gone unnoticed. Nothing has sold. Perhaps the work is its own reward. I hope so.",
@@ -1745,7 +1745,7 @@
             }
         },
         {
-            "id": "r_painting.reputation.overexposure",
+            "id": "painting.reputation.overexposure",
             "label": "The Artist's Reward?",
             "actionid": "work_r",
             "requirements": {
@@ -1764,12 +1764,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_painting.reputation.overexposure"
+                    "id": "painting.reputation.overexposure"
                 }
             ]
         },
         {
-            "id": "r_paintmansus",
+            "id": "paintmansus",
             "label": "Depicting the Mansus",
             "actionid": "work_r",
             "requirements": {

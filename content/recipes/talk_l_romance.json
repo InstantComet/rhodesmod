@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_L_talk_roseopportunity",
+            "id": "L_talk_roseopportunity",
             "label": "A Liaison?",
             "actionid": "talk_r",
             "slots": [
                 {
-                    "id": "r_ascension",
+                    "id": "ascension",
                     "label": "Kindred Spirits?",
                     "required": {
                         "desire": 1
@@ -15,19 +15,19 @@
             ],
             "alt": [
                 {
-                    "id": "r_A_startrose_power_initiate",
+                    "id": "A_startrose_power_initiate",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_startrose_sensation_initiate",
+                    "id": "A_startrose_sensation_initiate",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_startrose_change_initiate",
+                    "id": "A_startrose_change_initiate",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_startrose_enlightenment_initiate",
+                    "id": "A_startrose_enlightenment_initiate",
                     "chance": 100
                 }
             ],
@@ -37,7 +37,7 @@
             "warmup": 30
         },
         {
-            "id": "r_A_startrose_power_initiate",
+            "id": "A_startrose_power_initiate",
             "actionid": "rose",
             "label": "To Rise Together",
             "requirements": {
@@ -63,7 +63,7 @@
             "craftable": false
         },
         {
-            "id": "r_A_startrose_sensation_initiate",
+            "id": "A_startrose_sensation_initiate",
             "actionid": "rose",
             "label": "Fellow Explorers",
             "requirements": {
@@ -89,7 +89,7 @@
             "craftable": false
         },
         {
-            "id": "r_A_startrose_enlightenment_initiate",
+            "id": "A_startrose_enlightenment_initiate",
             "actionid": "rose",
             "label": "Shared Light",
             "requirements": {
@@ -115,7 +115,7 @@
             "craftable": false
         },
         {
-            "id": "r_A_startrose_change_initiate",
+            "id": "A_startrose_change_initiate",
             "actionid": "rose",
             "label": "Those Who Will Be Different",
             "requirements": {
@@ -147,7 +147,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_checkjealousy",
+            "id": "L_checkjealousy",
             "label": "Another?",
             "actionid": "rose",
             "requirements": {
@@ -158,7 +158,7 @@
             "comments": "re requirements: can't be another if there isn't even one. Also people don't *currently* get jealous of the dead. They're either non-viable, or kept somewhere extremely private",
             "slots": [
                 {
-                    "id": "r_Who?",
+                    "id": "Who?",
                     "label": "Who?",
                     "description": "Palm to palm and eye to eye.",
                     "required": {
@@ -175,18 +175,18 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "r_L_activatejealousy",
+                    "id": "L_activatejealousy",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_roserouter",
+                    "id": "L_roserouter",
                     "chance": 100
                 }
             ],
             "warmup": 5
         },
         {
-            "id": "r_L_activatejealousy",
+            "id": "L_activatejealousy",
             "label": "O Rose Thou Art Sick",
             "actionid": "rose",
             "requirements": {
@@ -201,7 +201,7 @@
             },
             "alt": [
                 {
-                    "id": "r_A_roseend_expulsion",
+                    "id": "A_roseend_expulsion",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -222,7 +222,7 @@
             ]
         },
         {
-            "id": "r_A_roseend_expulsion",
+            "id": "A_roseend_expulsion",
             "actionid": "roseextra",
             "comments": "allows us to have only one of a jealous lover break up with the player",
             "label": "Consequences!",
@@ -230,7 +230,7 @@
             "description": "Neither of us will remember this moment kindly.",
             "slots": [
                 {
-                    "id": "r_glummer",
+                    "id": "glummer",
                     "label": "What Remains",
                     "required": {
                         "contentment": 1
@@ -253,42 +253,42 @@
             "craftable": false
         },
         {
-            "id": "r_L_roserouter",
+            "id": "L_roserouter",
             "actionid": "rose",
             "linked": [
                 {
-                    "id": "r_L_continuerose_corpse",
+                    "id": "L_continuerose_corpse",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_risen",
+                    "id": "L_continuerose_risen",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_power",
+                    "id": "L_continuerose_power",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_sensation",
+                    "id": "L_continuerose_sensation",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_change",
+                    "id": "L_continuerose_change",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_enlightenment",
+                    "id": "L_continuerose_enlightenment",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_continuerose_noone",
+                    "id": "L_continuerose_noone",
                     "chance": 100
                 }
             ],
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_corpse",
+            "id": "L_continuerose_corpse",
             "actionid": "rose",
             "label": "Desolate And Sick of an Old Passion",
             "requirements": {
@@ -304,7 +304,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_risen",
+            "id": "L_continuerose_risen",
             "actionid": "rose",
             "label": "Never Let Me Go",
             "requirements": {
@@ -313,7 +313,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Blood?",
+                    "id": "Blood?",
                     "label": "Blood?",
                     "description": "The body's strengths",
                     "required": {
@@ -325,7 +325,7 @@
             "description": "No. They were alive, and now they are dead, and with enough time, that will be all they are.",
             "alt": [
                 {
-                    "id": "r_A_continuerose_risen_success",
+                    "id": "A_continuerose_risen_success",
                     "chance": 100
                 }
             ],
@@ -341,13 +341,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_L_roseend_risen",
+                    "id": "L_roseend_risen",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_A_continuerose_risen_success",
+            "id": "A_continuerose_risen_success",
             "actionid": "rose",
             "label": "Never Let Me Go",
             "requirements": {
@@ -367,7 +367,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_power",
+            "id": "L_continuerose_power",
             "actionid": "rose",
             "label": "A Liaison: the Uses of Strength",
             "requirements": {
@@ -376,13 +376,13 @@
             },
             "slots": [
                 {
-                    "id": "r_What?",
+                    "id": "What?",
                     "label": "Health",
                     "description": "The body's strengths",
                     "required": {
                         "health": 1,
                         "dread": 1,
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -390,15 +390,15 @@
             "description": "Just now... I can't spare the energy.",
             "alt": [
                 {
-                    "id": "r_A_rose_binoff_dread",
+                    "id": "A_rose_binoff_dread",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_rose_binoff_funds",
+                    "id": "A_rose_binoff_funds",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_continuerose_power_success",
+                    "id": "A_continuerose_power_success",
                     "chance": 100
                 }
             ],
@@ -414,13 +414,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_L_roseend",
+                    "id": "L_roseend",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_A_continuerose_power_success",
+            "id": "A_continuerose_power_success",
             "actionid": "rose",
             "label": "A Liaison: the Uses of Strength",
             "requirements": {
@@ -440,7 +440,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_sensation",
+            "id": "L_continuerose_sensation",
             "actionid": "rose",
             "label": "A Liaison: the Imperatives of Delight",
             "requirements": {
@@ -449,13 +449,13 @@
             },
             "slots": [
                 {
-                    "id": "r_What?",
+                    "id": "What?",
                     "label": "Passion",
                     "description": "The deepest imperative.",
                     "required": {
                         "passion": 1,
                         "dread": 1,
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -463,15 +463,15 @@
             "description": "Just now... I can't spare the time.",
             "alt": [
                 {
-                    "id": "r_A_rose_binoff_dread",
+                    "id": "A_rose_binoff_dread",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_rose_binoff_funds",
+                    "id": "A_rose_binoff_funds",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_continuerose_sensation_success",
+                    "id": "A_continuerose_sensation_success",
                     "chance": 100
                 }
             ],
@@ -487,13 +487,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_L_roseend",
+                    "id": "L_roseend",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_A_continuerose_sensation_success",
+            "id": "A_continuerose_sensation_success",
             "actionid": "rose",
             "label": "A Liaison: the Imperatives of Delight",
             "requirements": {
@@ -513,7 +513,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_enlightenment",
+            "id": "L_continuerose_enlightenment",
             "actionid": "rose",
             "label": "A Liaison: the Raptures of Understanding",
             "requirements": {
@@ -522,13 +522,13 @@
             },
             "slots": [
                 {
-                    "id": "r_What?",
+                    "id": "What?",
                     "label": "Reason",
                     "description": "The spirit's true light.",
                     "required": {
                         "reason": 1,
                         "dread": 1,
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -536,15 +536,15 @@
             "description": "Just now... I can't spare the attention.",
             "alt": [
                 {
-                    "id": "r_A_rose_binoff_dread",
+                    "id": "A_rose_binoff_dread",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_rose_binoff_funds",
+                    "id": "A_rose_binoff_funds",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_continuerose_enlightenment_success",
+                    "id": "A_continuerose_enlightenment_success",
                     "chance": 100
                 }
             ],
@@ -560,13 +560,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_L_roseend",
+                    "id": "L_roseend",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_A_continuerose_enlightenment_success",
+            "id": "A_continuerose_enlightenment_success",
             "actionid": "rose",
             "label": "A Liaison: the Raptures of Understanding",
             "requirements": {
@@ -586,7 +586,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_change",
+            "id": "L_continuerose_change",
             "actionid": "rose",
             "label": "A Liaison: When We Were...",
             "requirements": {
@@ -595,12 +595,12 @@
             },
             "slots": [
                 {
-                    "id": "r_What?",
+                    "id": "What?",
                     "description": "An urgency.",
                     "required": {
                         "passion": 1,
                         "dread": 1,
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -608,15 +608,15 @@
             "description": "Just now... I just can't.",
             "alt": [
                 {
-                    "id": "r_A_rose_binoff_dread",
+                    "id": "A_rose_binoff_dread",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_rose_binoff_funds",
+                    "id": "A_rose_binoff_funds",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_continuerose_change_success",
+                    "id": "A_continuerose_change_success",
                     "chance": 100
                 }
             ],
@@ -632,13 +632,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_L_roseend",
+                    "id": "L_roseend",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_A_continuerose_change_success",
+            "id": "A_continuerose_change_success",
             "actionid": "rose",
             "label": "A Liaison: When We Were...",
             "requirements": {
@@ -658,7 +658,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_continuerose_noone",
+            "id": "L_continuerose_noone",
             "label": "Solitude",
             "actionid": "rose",
             "requirements": {},
@@ -670,7 +670,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_roseend",
+            "id": "L_roseend",
             "actionid": "rose",
             "requirements": {
                 "resentment": 3
@@ -680,7 +680,7 @@
             "description": "Neither of us will remember this moment kindly.",
             "slots": [
                 {
-                    "id": "r_glummer",
+                    "id": "glummer",
                     "label": "What Remains",
                     "required": {
                         "contentment": 1
@@ -703,7 +703,7 @@
             "craftable": false
         },
         {
-            "id": "r_L_roseend_risen",
+            "id": "L_roseend_risen",
             "actionid": "rose",
             "requirements": {
                 "resentment": 3,
@@ -714,7 +714,7 @@
             "description": "These are the last moments of an ending long begun. [Even the dead will not forgive neglect.]",
             "slots": [
                 {
-                    "id": "r_glummer",
+                    "id": "glummer",
                     "label": "What Remains",
                     "required": {
                         "contentment": 1
@@ -737,7 +737,7 @@
             "craftable": false
         },
         {
-            "id": "r_A_rose_binoff_dread",
+            "id": "A_rose_binoff_dread",
             "actionid": "rose",
             "requirements": {
                 "dread": 1
@@ -763,16 +763,16 @@
             ]
         },
         {
-            "id": "r_A_rose_binoff_funds",
+            "id": "A_rose_binoff_funds",
             "actionid": "rose",
             "requirements": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "label": "End the affair, insultingly",
             "startdescription": "'There now. Buy yourself something nice.'",
             "description": "The door slams behind my former lover.",
             "effects": {
-                "r_lmfunds": -1,
+                "lmfunds": -1,
                 "dread": 1
             },
             "mutations": [

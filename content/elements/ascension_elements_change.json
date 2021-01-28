@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_ascensionchangea",
+            "id": "ascensionchangea",
             "label": "Temptation: Change",
             "aspects": {
                 "desire": 1,
@@ -14,7 +14,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchangeb",
+            "id": "ascensionchangeb",
             "label": "Change: Leaf",
             "aspects": {
                 "desire": 1,
@@ -27,7 +27,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchangec",
+            "id": "ascensionchangec",
             "label": "Change: Pearl",
             "aspects": {
                 "desire": 1,
@@ -40,7 +40,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchanged",
+            "id": "ascensionchanged",
             "label": "Change: Antumbra",
             "aspects": {
                 "desire": 1,
@@ -53,7 +53,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchangee",
+            "id": "ascensionchangee",
             "label": "Change: Stigma",
             "aspects": {
                 "desire": 1,
@@ -66,7 +66,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchangef",
+            "id": "ascensionchangef",
             "label": "Change: Pupil",
             "aspects": {
                 "desire": 1,
@@ -79,7 +79,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionchangeg",
+            "id": "ascensionchangeg",
             "label": "Change: Ivory",
             "aspects": {
                 "desire": 1,
@@ -92,7 +92,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_sendingheartb",
+            "id": "sendingheartb",
             "label": "Guise: Viper",
             "aspects": {
                 "sending": 1,
@@ -102,7 +102,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingheartc",
+            "id": "sendingheartc",
             "label": "Guise: Cat",
             "aspects": {
                 "sending": 1,
@@ -112,7 +112,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingheartd",
+            "id": "sendingheartd",
             "label": "Guise: Fox",
             "aspects": {
                 "sending": 1,
@@ -122,7 +122,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendinghearte",
+            "id": "sendinghearte",
             "label": "Guise: Eagle",
             "aspects": {
                 "sending": 1,
@@ -132,7 +132,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingheartf",
+            "id": "sendingheartf",
             "label": "Guise: Dove",
             "aspects": {
                 "sending": 1,
@@ -142,7 +142,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingheartg",
+            "id": "sendingheartg",
             "label": "Guise: Boar",
             "aspects": {
                 "sending": 1,
@@ -152,7 +152,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothb",
+            "id": "sendingmothb",
             "label": "Instar: Silent",
             "aspects": {
                 "sending": 1,
@@ -162,7 +162,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothc",
+            "id": "sendingmothc",
             "label": "Instar: Creeping",
             "aspects": {
                 "sending": 1,
@@ -172,7 +172,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothd",
+            "id": "sendingmothd",
             "label": "Instar: Russet",
             "aspects": {
                 "sending": 1,
@@ -182,7 +182,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothe",
+            "id": "sendingmothe",
             "label": "Instar: Far-Travelling",
             "aspects": {
                 "sending": 1,
@@ -192,7 +192,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothf",
+            "id": "sendingmothf",
             "label": "Instar: Avid",
             "aspects": {
                 "sending": 1,
@@ -202,7 +202,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothg",
+            "id": "sendingmothg",
             "label": "Imago",
             "aspects": {
                 "sending": 1,
@@ -212,7 +212,7 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_sendingmothheartg",
+            "id": "sendingmothheartg",
             "label": "Guise: Imago",
             "aspects": {
                 "sending": 1,
@@ -223,84 +223,84 @@
             "uniquenessgroup": "uqsending"
         },
         {
-            "id": "r_ascensionlessonhearta",
+            "id": "ascensionlessonhearta",
             "label": "Garments, Surrendered",
             "aspects": {},
             "description": "The Malachite has taught me that the naked self is not the true self, but it is less of a lie. [In the Season of Ambitions, this can upgrade your Change desire.]",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonheartb",
+            "id": "ascensionlessonheartb",
             "label": "Integument, Surrendered",
             "aspects": {},
             "description": "The Twins and the Serpent war, and in that war I have learnt how pain can be a gate.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonheartc",
+            "id": "ascensionlessonheartc",
             "label": "Steps, Surrendered",
             "aspects": {},
             "description": "The Velvet has taught me that what is revealed must first be hidden, for its revelation to be of any consequence. I have given up my footsteps.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonheartd",
+            "id": "ascensionlessonheartd",
             "label": "Hues, Surrendered",
             "aspects": {},
             "description": "The Flowermaker has given me what all desire, and taken my colours from me.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonhearte",
+            "id": "ascensionlessonhearte",
             "label": "Sight, Surrendered",
             "aspects": {},
             "description": "I have given my eyes to the Vagabond, and through them I shall see what she would see: the road to the red change.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonheartf",
+            "id": "ascensionlessonheartf",
             "label": "Bones, Surrendered",
             "aspects": {},
             "description": "The Elegiast has taught me to remember, in the last part of me to change. I'll carry that lesson past the Kingskin Gate.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmotha",
+            "id": "ascensionlessonmotha",
             "label": "Garments, Surrendered",
             "aspects": {},
             "description": "The Ring-Yew commanded I bare my flesh, and I obeyed. I will not always obey the Ring-Yew. [In the Season of Ambitions, this can upgrade your Change desire.]",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmothb",
+            "id": "ascensionlessonmothb",
             "label": "Integument, Surrendered",
             "aspects": {},
             "description": "The Mother pierces, the Witch demands, the Sister dissolves. And so\n my skin\n is thin\n as rain",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmothc",
+            "id": "ascensionlessonmothc",
             "label": "Steps, Surrendered",
             "aspects": {},
             "description": "I walked in the black-flax at the river's edge, and it tasted my feet with its hundred tongues until I could withstand the touch of it no longer, and then I was only shadow.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmothd",
+            "id": "ascensionlessonmothd",
             "label": "Hues, Surrendered",
             "aspects": {},
             "description": "I came to the flowers the flower-maker made and that is what I became. He keeps my colours for me now.",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmothe",
+            "id": "ascensionlessonmothe",
             "label": "Sight, Surrendered",
             "aspects": {},
             "description": "The Centipede told me her jokes and in exchange I will let her carve me eyes of gold, until the ommatidia occur. ",
             "unique": true
         },
         {
-            "id": "r_ascensionlessonmothf",
+            "id": "ascensionlessonmothf",
             "label": "Bones, Surrendered",
             "aspects": {},
             "description": "The Sun was divided, and the Wolf will not let me forget the salt savour of its bones - not until the Mansus cracks. Now the Wolf requires that I carry that savour through the Door in the Wood.",

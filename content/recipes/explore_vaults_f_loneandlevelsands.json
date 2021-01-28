@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_explore_vaultloneandlevelsands1_setup",
+            "id": "explore_vaultloneandlevelsands1_setup",
             "label": "Beginning an Expedition: the Star-Shattered Fane",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultloneandlevelsands1": 1
             },
             "effects": {
@@ -20,18 +20,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultloneandlevelsands2_setup",
+            "id": "explore_vaultloneandlevelsands2_setup",
             "label": "Beginning an Expedition: Lagun's Tomb",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultloneandlevelsands2": 1
             },
             "effects": {
@@ -45,18 +45,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultloneandlevelsands3_setup",
+            "id": "explore_vaultloneandlevelsands3_setup",
             "label": "Beginning an Expedition: Messana",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultloneandlevelsands3": 1
             },
             "effects": {
@@ -70,18 +70,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultloneandlevelsands4_setup",
+            "id": "explore_vaultloneandlevelsands4_setup",
             "label": "Beginning an Expedition: the Temple of Seven Coils",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultloneandlevelsands4": 1
             },
             "effects": {
@@ -95,18 +95,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultloneandlevelsandsdefault_setup",
+            "id": "explore_vaultloneandlevelsandsdefault_setup",
             "label": "Beginning an Expedition: Miah",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultloneandlevelsandsdefault": 1
             },
             "effects": {
@@ -121,13 +121,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultloneandlevelsands1_success",
+            "id": "explorevaultloneandlevelsands1_success",
             "label": "The Opening Stone",
             "actionid": "explore_r",
             "requirements": {
@@ -153,7 +153,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultloneandlevelsands2_success",
+            "id": "explorevaultloneandlevelsands2_success",
             "label": "Lagun's End",
             "actionid": "explore_r",
             "requirements": {
@@ -180,13 +180,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_expedition.corpse.find.vaultloneandlevelsands2",
+                    "id": "expedition.corpse.find.vaultloneandlevelsands2",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_explorevaultloneandlevelsands3_success",
+            "id": "explorevaultloneandlevelsands3_success",
             "label": "A Long Feast",
             "actionid": "explore_r",
             "requirements": {
@@ -211,7 +211,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultloneandlevelsands4_success",
+            "id": "explorevaultloneandlevelsands4_success",
             "label": "The Coils of God",
             "actionid": "explore_r",
             "requirements": {
@@ -238,7 +238,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultloneandlevelsandsdefault_success",
+            "id": "explorevaultloneandlevelsandsdefault_success",
             "label": "The City No More",
             "actionid": "explore_r",
             "requirements": {
@@ -256,11 +256,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_expeditionascensionmothe",
+                    "id": "expeditionascensionmothe",
                     "chance": 100
                 },
                 {
-                    "id": "r_expeditionascensionhearte",
+                    "id": "expeditionascensionhearte",
                     "chance": 100
                 }
             ]

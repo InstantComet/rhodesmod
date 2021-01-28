@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_work.poison.fascination.longlesson.trap",
+            "id": "work.poison.fascination.longlesson.trap",
             "actionid": "work_r",
             "label": "An Enemy Ever Vigilant",
             "startdescription": "Our enemy watches our operations from a high window of the Mansus. They have learnt more of us.",
@@ -24,7 +24,7 @@
         },
         {
             "label": "Reason's Glory [Grand]",
-            "id": "r_arcane_lantern_edge_grand",
+            "id": "arcane_lantern_edge_grand",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -38,7 +38,7 @@
             "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
             "slots": [
                 {
-                    "id": "r_passion",
+                    "id": "passion",
                     "label": "Give up my Passion",
                     "required": {
                         "passion": 1
@@ -49,7 +49,7 @@
             "alt": [
                 {
                     "chance": 10,
-                    "id": "r_arcane_lantern_edge_failure"
+                    "id": "arcane_lantern_edge_failure"
                 }
             ],
             "aspects": {
@@ -61,7 +61,7 @@
         },
         {
             "label": "Reason's Glory [Major]",
-            "id": "r_arcane_lantern_edge_major",
+            "id": "arcane_lantern_edge_major",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -75,7 +75,7 @@
             "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
             "slots": [
                 {
-                    "id": "r_passion",
+                    "id": "passion",
                     "label": "Give up my Passion",
                     "required": {
                         "passion": 1
@@ -86,7 +86,7 @@
             "alt": [
                 {
                     "chance": 30,
-                    "id": "r_arcane_lantern_edge_failure"
+                    "id": "arcane_lantern_edge_failure"
                 }
             ],
             "aspects": {
@@ -98,7 +98,7 @@
         },
         {
             "label": "Reason's Glory [Minor]",
-            "id": "r_arcane_lantern_edge_minor",
+            "id": "arcane_lantern_edge_minor",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -112,7 +112,7 @@
             "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
             "slots": [
                 {
-                    "id": "r_passion",
+                    "id": "passion",
                     "label": "Give up my Passion",
                     "required": {
                         "passion": 1
@@ -123,7 +123,7 @@
             "alt": [
                 {
                     "chance": 70,
-                    "id": "r_arcane_lantern_edge_failure"
+                    "id": "arcane_lantern_edge_failure"
                 }
             ],
             "aspects": {
@@ -134,7 +134,7 @@
             "craftable": true
         },
         {
-            "id": "r_arcane_lantern_edge_failure",
+            "id": "arcane_lantern_edge_failure",
             "label": "Reason's Glory [Failure!]",
             "actionid": "work_r",
             "description": "This magic has gone awry. An invisible light has ensnared me.",
@@ -144,7 +144,7 @@
         },
         {
             "label": "Passion's Gyre [Grand]",
-            "id": "r_arcane_moth_edge_grand",
+            "id": "arcane_moth_edge_grand",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -158,7 +158,7 @@
             "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
             "slots": [
                 {
-                    "id": "r_reason",
+                    "id": "reason",
                     "label": "Give up my Reason",
                     "required": {
                         "reason": 1
@@ -169,7 +169,7 @@
             "alt": [
                 {
                     "chance": 10,
-                    "id": "r_arcane_moth_edge_failure"
+                    "id": "arcane_moth_edge_failure"
                 }
             ],
             "aspects": {
@@ -180,14 +180,14 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_arcane_moth_edge_runaway_link",
+                    "id": "arcane_moth_edge_runaway_link",
                     "chance": 30
                 }
             ]
         },
         {
             "label": "Passion's Gyre [Major]",
-            "id": "r_arcane_moth_edge_major",
+            "id": "arcane_moth_edge_major",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -201,7 +201,7 @@
             "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
             "slots": [
                 {
-                    "id": "r_reason",
+                    "id": "reason",
                     "label": "Give up my reason",
                     "required": {
                         "reason": 1
@@ -212,7 +212,7 @@
             "alt": [
                 {
                     "chance": 30,
-                    "id": "r_arcane_moth_edge_failure"
+                    "id": "arcane_moth_edge_failure"
                 }
             ],
             "aspects": {
@@ -223,14 +223,14 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_arcane_moth_edge_runaway_link",
+                    "id": "arcane_moth_edge_runaway_link",
                     "chance": 30
                 }
             ]
         },
         {
             "label": "Passion's Gyre [Minor]",
-            "id": "r_arcane_moth_edge_minor",
+            "id": "arcane_moth_edge_minor",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -244,7 +244,7 @@
             "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
             "slots": [
                 {
-                    "id": "r_reason",
+                    "id": "reason",
                     "label": "Give up my reason",
                     "required": {
                         "reason": 1
@@ -255,7 +255,7 @@
             "alt": [
                 {
                     "chance": 70,
-                    "id": "r_arcane_moth_edge_failure"
+                    "id": "arcane_moth_edge_failure"
                 }
             ],
             "aspects": {
@@ -266,13 +266,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_arcane_moth_edge_runaway_link",
+                    "id": "arcane_moth_edge_runaway_link",
                     "chance": 30
                 }
             ]
         },
         {
-            "id": "r_arcane_moth_edge_failure",
+            "id": "arcane_moth_edge_failure",
             "label": "Passion's Gyre [Failure!]",
             "actionid": "work_r",
             "description": "This magic has gone askew. Dread has drowned my delight.",
@@ -281,19 +281,19 @@
             }
         },
         {
-            "id": "r_arcane_moth_edge_runaway_link",
+            "id": "arcane_moth_edge_runaway_link",
             "label": "Passion's Gyre [UNCEASING!]",
             "actionid": "work_r",
             "warmup": 2,
             "linked": [
                 {
-                    "id": "r_arcane_moth_edge_runaway",
+                    "id": "arcane_moth_edge_runaway",
                     "chance": 30
                 }
             ]
         },
         {
-            "id": "r_arcane_moth_edge_runaway",
+            "id": "arcane_moth_edge_runaway",
             "label": "Passion's Gyre [UNCEASING!]",
             "actionid": "work_r",
             "requirements": {
@@ -307,7 +307,7 @@
             "description": "At last the Gyre has drawn to its close, but It is difficult to think straight. I have changed. [Reason has been transformed to Passion.]",
             "slots": [
                 {
-                    "id": "r_reason",
+                    "id": "reason",
                     "label": "Give up my Reason",
                     "required": {
                         "reason": 1
@@ -318,7 +318,7 @@
             "alt": [
                 {
                     "chance": 10,
-                    "id": "r_arcane_moth_edge_failure"
+                    "id": "arcane_moth_edge_failure"
                 }
             ],
             "aspects": {
@@ -332,14 +332,14 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_arcane_moth_edge_runaway",
+                    "id": "arcane_moth_edge_runaway",
                     "chance": 30
                 }
             ]
         },
         {
             "label": "Forge's Redemption [Grand]",
-            "id": "r_arcane_forge_grail_grand",
+            "id": "arcane_forge_grail_grand",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -356,7 +356,7 @@
             "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
             "slots": [
                 {
-                    "id": "r_decrepitude",
+                    "id": "decrepitude",
                     "label": "Decrepitude",
                     "required": {
                         "decrepitude": 1
@@ -367,7 +367,7 @@
             "alt": [
                 {
                     "chance": 10,
-                    "id": "r_arcane_forge_grail_failure"
+                    "id": "arcane_forge_grail_failure"
                 }
             ],
             "aspects": {
@@ -379,7 +379,7 @@
         },
         {
             "label": "Forge's Redemption [Major]",
-            "id": "r_arcane_forge_grail_major",
+            "id": "arcane_forge_grail_major",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -396,7 +396,7 @@
             "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
             "slots": [
                 {
-                    "id": "r_decrepitude",
+                    "id": "decrepitude",
                     "label": "Decrepitude",
                     "required": {
                         "decrepitude": 1
@@ -407,7 +407,7 @@
             "alt": [
                 {
                     "chance": 30,
-                    "id": "r_arcane_forge_grail_failure"
+                    "id": "arcane_forge_grail_failure"
                 }
             ],
             "aspects": {
@@ -419,7 +419,7 @@
         },
         {
             "label": "Forge's Redemption [Minor]",
-            "id": "r_arcane_forge_grail_minor",
+            "id": "arcane_forge_grail_minor",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -436,7 +436,7 @@
             "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
             "slots": [
                 {
-                    "id": "r_decrepitude",
+                    "id": "decrepitude",
                     "label": "Decrepitude",
                     "required": {
                         "decrepitude": 1
@@ -447,7 +447,7 @@
             "alt": [
                 {
                     "chance": 70,
-                    "id": "r_arcane_forge_grail_failure"
+                    "id": "arcane_forge_grail_failure"
                 }
             ],
             "aspects": {
@@ -457,7 +457,7 @@
             "craftable": true
         },
         {
-            "id": "r_arcane_forge_grail_failure",
+            "id": "arcane_forge_grail_failure",
             "label": "Forge's Redemption [Failure!]",
             "actionid": "work_r",
             "description": "The Forge of Days has failed me, or I have failed it. This magic has brought me only nightmares, and peril.",
@@ -468,7 +468,7 @@
         },
         {
             "label": "The End is Beautiful [Grand]",
-            "id": "r_arcane_winter_lantern_grand",
+            "id": "arcane_winter_lantern_grand",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -481,7 +481,7 @@
             "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
             "slots": [
                 {
-                    "id": "r_conclusion",
+                    "id": "conclusion",
                     "label": "A Conclusion",
                     "required": {
                         "mortal": 1,
@@ -493,7 +493,7 @@
             "alt": [
                 {
                     "chance": 10,
-                    "id": "r_arcane_winter_lantern_failure"
+                    "id": "arcane_winter_lantern_failure"
                 }
             ],
             "aspects": {
@@ -511,7 +511,7 @@
         },
         {
             "label": "The End is Beautiful [Major]",
-            "id": "r_arcane_winter_lantern_major",
+            "id": "arcane_winter_lantern_major",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -524,7 +524,7 @@
             "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
             "slots": [
                 {
-                    "id": "r_conclusion",
+                    "id": "conclusion",
                     "label": "A Conclusion",
                     "required": {
                         "mortal": 1,
@@ -536,7 +536,7 @@
             "alt": [
                 {
                     "chance": 30,
-                    "id": "r_arcane_winter_lantern_failure"
+                    "id": "arcane_winter_lantern_failure"
                 }
             ],
             "aspects": {
@@ -554,7 +554,7 @@
         },
         {
             "label": "The End is Beautiful [Minor]",
-            "id": "r_arcane_winter_lantern_minor",
+            "id": "arcane_winter_lantern_minor",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
@@ -567,7 +567,7 @@
             "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
             "slots": [
                 {
-                    "id": "r_conclusion",
+                    "id": "conclusion",
                     "label": "A Conclusion",
                     "required": {
                         "mortal": 1,
@@ -579,7 +579,7 @@
             "alt": [
                 {
                     "chance": 30,
-                    "id": "r_arcane_winter_lantern_failure"
+                    "id": "arcane_winter_lantern_failure"
                 }
             ],
             "aspects": {
@@ -596,7 +596,7 @@
             "craftable": true
         },
         {
-            "id": "r_arcane_winter_lantern_failure",
+            "id": "arcane_winter_lantern_failure",
             "label": "The End is Beautiful [Failure!]",
             "actionid": "work_r",
             "description": "The Sun-in-Rags will not answer my call. This magic has brought me only the foreknowledge of winter.",

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_recruitindependentedge",
+            "id": "recruitindependentedge",
             "label": "Recruit a Troublemaker, by invoking a great power of Edge",
             "actionid": "talk_r",
             "requirements": {
@@ -27,7 +27,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentforge",
+            "id": "recruitindependentforge",
             "label": "Recruit a Troublemaker, by invoking a great power of Forge",
             "actionid": "talk_r",
             "requirements": {
@@ -53,7 +53,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentgrail",
+            "id": "recruitindependentgrail",
             "label": "Recruit a Troublemaker, by invoking a great power of Grail",
             "actionid": "talk_r",
             "requirements": {
@@ -79,7 +79,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentheart",
+            "id": "recruitindependentheart",
             "label": "Recruit a Troublemaker, by invoking a great power of Heart",
             "actionid": "talk_r",
             "requirements": {
@@ -105,7 +105,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentknock",
+            "id": "recruitindependentknock",
             "label": "Recruit a Troublemaker, by invoking a great power of Knock",
             "actionid": "talk_r",
             "requirements": {
@@ -131,7 +131,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentlantern",
+            "id": "recruitindependentlantern",
             "label": "Recruit a Troublemaker, by invoking a great power of Lantern",
             "actionid": "talk_r",
             "requirements": {
@@ -157,7 +157,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentmoth",
+            "id": "recruitindependentmoth",
             "label": "Recruit a Troublemaker, by invoking a great power of Moth",
             "actionid": "talk_r",
             "requirements": {
@@ -183,7 +183,7 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitindependentwinter",
+            "id": "recruitindependentwinter",
             "label": "Recruit a Troublemaker, by invoking a great power of Winter",
             "actionid": "talk_r",
             "requirements": {
@@ -209,13 +209,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintanceedge",
+            "id": "recruitacquaintanceedge",
             "label": "Recruit an Acquaintance, by invoking Edge",
             "actionid": "talk_r",
             "requirements": {
                 "venerationedge": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "edge": 1
             },
@@ -233,13 +233,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintanceforge",
+            "id": "recruitacquaintanceforge",
             "label": "Recruit an Acquaintance, by invoking Forge",
             "actionid": "talk_r",
             "requirements": {
                 "venerationforge": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "forge": 1
             },
@@ -257,13 +257,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintancegrail",
+            "id": "recruitacquaintancegrail",
             "label": "Recruit an Acquaintance, by invoking Grail",
             "actionid": "talk_r",
             "requirements": {
                 "venerationgrail": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "grail": 1
             },
@@ -281,13 +281,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintanceheart",
+            "id": "recruitacquaintanceheart",
             "label": "Recruit an Acquaintance, by invoking Heart",
             "actionid": "talk_r",
             "requirements": {
                 "venerationheart": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "heart": 1
             },
@@ -305,13 +305,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintanceknock",
+            "id": "recruitacquaintanceknock",
             "label": "Recruit an Acquaintance, by invoking Knock",
             "actionid": "talk_r",
             "requirements": {
                 "venerationknock": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "knock": 1
             },
@@ -329,13 +329,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintancelantern",
+            "id": "recruitacquaintancelantern",
             "label": "Recruit an Acquaintance, by invoking Lantern",
             "actionid": "talk_r",
             "requirements": {
                 "venerationlantern": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "lantern": 1
             },
@@ -353,13 +353,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintancemoth",
+            "id": "recruitacquaintancemoth",
             "label": "Recruit an Acquaintance, by invoking Moth",
             "actionid": "talk_r",
             "requirements": {
                 "venerationmoth": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "moth": 1
             },
@@ -377,13 +377,13 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_recruitacquaintancewinter",
+            "id": "recruitacquaintancewinter",
             "label": "Recruit an Acquaintance, by invoking Winter",
             "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
                 "acquaintance": 1,
-                "r_operator": -1,
+                "operator": -1,
                 "mortal": 1,
                 "winter": 1
             },
@@ -401,12 +401,12 @@
             "burnimage": "freemasons"
         },
         {
-            "id": "r_promotetodiscipleedge",
+            "id": "promotetodiscipleedge",
             "label": "Promote a Believer by invoking Edge",
             "actionid": "talk_r",
             "requirements": {
                 "venerationedge": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -425,12 +425,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodiscipleforge",
+            "id": "promotetodiscipleforge",
             "label": "Promote a Believer by invoking Forge",
             "actionid": "talk_r",
             "requirements": {
                 "venerationforge": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -449,12 +449,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodisciplegrail",
+            "id": "promotetodisciplegrail",
             "label": "Promote a Believer by invoking Grail",
             "actionid": "talk_r",
             "requirements": {
                 "venerationgrail": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -473,12 +473,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodiscipleheart",
+            "id": "promotetodiscipleheart",
             "label": "Promote a Believer by invoking Heart",
             "actionid": "talk_r",
             "requirements": {
                 "venerationheart": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -497,12 +497,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodiscipleknock",
+            "id": "promotetodiscipleknock",
             "label": "Promote a Believer by invoking Knock",
             "actionid": "talk_r",
             "requirements": {
                 "venerationknock": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -521,12 +521,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodisciplelantern",
+            "id": "promotetodisciplelantern",
             "label": "Promote a Believer by invoking Lantern",
             "actionid": "talk_r",
             "requirements": {
                 "venerationlantern": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -545,12 +545,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodisciplemoth",
+            "id": "promotetodisciplemoth",
             "label": "Promote a Believer by invoking Moth",
             "actionid": "talk_r",
             "requirements": {
                 "venerationmoth": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -569,12 +569,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodisciplewinter",
+            "id": "promotetodisciplewinter",
             "label": "Promote a Believer by invoking Winter",
             "actionid": "talk_r",
             "requirements": {
                 "venerationwinter": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -593,12 +593,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_edge",
+            "id": "promoteto_d_edge",
             "label": "Attempt to Exalt a Disciple to an Assassin",
             "actionid": "talk_r",
             "requirements": {
                 "cultedge_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "edge": 21,
                 "exalted": -1,
                 "potential": 1
@@ -616,12 +616,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_forge",
+            "id": "promoteto_d_forge",
             "label": "Attempt to Exalt a Disciple to a Reshaper",
             "actionid": "talk_r",
             "requirements": {
                 "cultforge_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "forge": 21,
                 "exalted": -1,
                 "potential": 1
@@ -639,12 +639,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_grail",
+            "id": "promoteto_d_grail",
             "label": "Attempt to Exalt a Disciple to a Cyprian",
             "actionid": "talk_r",
             "requirements": {
                 "cultgrail_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "grail": 21,
                 "exalted": -1,
                 "potential": 1
@@ -662,12 +662,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_heart",
+            "id": "promoteto_d_heart",
             "label": "Attempt to Exalt a Disciple to a Tarantellist",
             "actionid": "talk_r",
             "requirements": {
                 "cultheart_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "heart": 21,
                 "exalted": -1,
                 "potential": 1
@@ -685,12 +685,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_knock",
+            "id": "promoteto_d_knock",
             "label": "Attempt to Exalt a Disciple to a Key",
             "actionid": "talk_r",
             "requirements": {
                 "cultknock_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "knock": 21,
                 "exalted": -1,
                 "potential": 1
@@ -708,12 +708,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_lantern",
+            "id": "promoteto_d_lantern",
             "label": "Attempt to Exalt a Disciple to a Seer",
             "actionid": "talk_r",
             "requirements": {
                 "cultlantern_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "lantern": 21,
                 "exalted": -1,
                 "potential": 1
@@ -731,12 +731,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_moth",
+            "id": "promoteto_d_moth",
             "label": "Attempt to Exalt a Disciple to a Skintwister",
             "actionid": "talk_r",
             "requirements": {
                 "cultmoth_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "moth": 21,
                 "exalted": -1,
                 "potential": 1
@@ -754,7 +754,7 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_winter",
+            "id": "promoteto_d_winter",
             "label": "Attempt to Exalt a Disciple",
             "actionid": "talk_r",
             "requirements": {
@@ -766,7 +766,7 @@
                 "venerationlantern": -1,
                 "venerationknock": -1,
                 "venerationmoth": -1,
-                "r_operator": 1,
+                "operator": 1,
                 "winter": 21,
                 "exalted": -1,
                 "potential": 1
@@ -784,64 +784,64 @@
             "craftable": true
         },
         {
-            "id": "r_recruitacquaintanceclue",
+            "id": "recruitacquaintanceclue",
             "label": "Recruit an Acquaintance,?",
             "actionid": "talk_r",
             "requirements": {
                 "society": 1,
                 "mortal": 1,
-                "r_operator": -1
+                "operator": -1
             },
             "startdescription": "This one might be ready to achieve the next level, if I can supply something more.",
             "craftable": false,
             "hintonly": true
         },
         {
-            "id": "r_cultfoundation",
+            "id": "cultfoundation",
             "label": "Choose Founding Principles",
             "alt": [
                 {
-                    "id": "r_cultfoundationedge",
+                    "id": "cultfoundationedge",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationforge",
+                    "id": "cultfoundationforge",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationgrail",
+                    "id": "cultfoundationgrail",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationheart",
+                    "id": "cultfoundationheart",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationknock",
+                    "id": "cultfoundationknock",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationlantern",
+                    "id": "cultfoundationlantern",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationmoth",
+                    "id": "cultfoundationmoth",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationsecrethistories",
+                    "id": "cultfoundationsecrethistories",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationwinter",
+                    "id": "cultfoundationwinter",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationwinter.prealzabo",
+                    "id": "cultfoundationwinter.prealzabo",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundationwinter.alzabo",
+                    "id": "cultfoundationwinter.alzabo",
                     "chance": 100
                 }
             ],
@@ -850,7 +850,7 @@
             "effects": {},
             "slots": [
                 {
-                    "id": "r_Doctrine",
+                    "id": "Doctrine",
                     "label": "Doctrine",
                     "required": {
                         "lore": 1
@@ -864,13 +864,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_cultfoundation",
+                    "id": "cultfoundation",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationedge",
+            "id": "cultfoundationedge",
             "label": "Establish the Church of the Bright Edge",
             "actionid": "establishcult",
             "requirements": {
@@ -882,13 +882,13 @@
             "startdescription": "An occult society dedicated to the Hours of struggle and conquest.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_health",
+                    "id": "cultfoundation_health",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationforge",
+            "id": "cultfoundationforge",
             "label": "Establish the Unflinching Order",
             "actionid": "establishcult",
             "requirements": {
@@ -900,13 +900,13 @@
             "startdescription": "An occult society dedicated to the fire that changes and remakes.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_health",
+                    "id": "cultfoundation_health",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationgrail",
+            "id": "cultfoundationgrail",
             "label": "Establish the Order of the Bloody Cup",
             "actionid": "establishcult",
             "requirements": {
@@ -918,13 +918,13 @@
             "startdescription": "An occult society dedicated to the mysteries of birth, blood and appetite.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_passion",
+                    "id": "cultfoundation_passion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationheart",
+            "id": "cultfoundationheart",
             "label": "Establish the Temple Unceasing",
             "actionid": "establishcult",
             "requirements": {
@@ -936,13 +936,13 @@
             "startdescription": "An occult society dedicated to the drumbeat which can never end.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_passion",
+                    "id": "cultfoundation_passion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationknock",
+            "id": "cultfoundationknock",
             "label": "Establish the Society of the Holy Wound",
             "actionid": "establishcult",
             "requirements": {
@@ -954,13 +954,13 @@
             "startdescription": "An occult society dedicated to the Hours which open doors.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_health",
+                    "id": "cultfoundation_health",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationlantern",
+            "id": "cultfoundationlantern",
             "label": "Establish the Mirror of Glory ",
             "actionid": "establishcult",
             "requirements": {
@@ -972,13 +972,13 @@
             "startdescription": "An occult society dedicated to the understanding of the Light that leaks from a fiercer place.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationmoth",
+            "id": "cultfoundationmoth",
             "label": "Establish the Wildwood Club",
             "actionid": "establishcult",
             "requirements": {
@@ -990,13 +990,13 @@
             "startdescription": "An occult society dedicated to chaos, and the unexpected Hours.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_passion",
+                    "id": "cultfoundation_passion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationsecrethistories",
+            "id": "cultfoundationsecrethistories",
             "label": "Establish the Society of St Hydra",
             "actionid": "establishcult",
             "requirements": {
@@ -1008,13 +1008,13 @@
             "startdescription": "An occult society dedicated to the study of the five Histories and their thousand demi-real branches.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationwinter",
+            "id": "cultfoundationwinter",
             "label": "Establish the Children of Silence ",
             "actionid": "establishcult",
             "requirements": {
@@ -1026,13 +1026,13 @@
             "startdescription": "An occult society dedicated to the silence that comes and the cold that ends.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationwinter.prealzabo",
+            "id": "cultfoundationwinter.prealzabo",
             "label": "Establish the Towers of the Dove",
             "actionid": "establishcult",
             "requirements": {
@@ -1044,13 +1044,13 @@
             "startdescription": "An occult society dedicated to all that has been lost, and what may yet return.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundationwinter.alzabo",
+            "id": "cultfoundationwinter.alzabo",
             "label": "Establish the Towers of the Dove",
             "actionid": "establishcult",
             "requirements": {
@@ -1062,13 +1062,13 @@
             "startdescription": "An occult society dedicated to all that has been lost, and what may yet return.",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_health",
+            "id": "cultfoundation_health",
             "label": "A Sacrifice of Pain",
             "actionid": "establishcult",
             "requirements": {
@@ -1076,7 +1076,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Health",
+                    "id": "Health",
                     "label": "My Health",
                     "required": {
                         "health": 1
@@ -1092,21 +1092,21 @@
             "description": "",
             "linked": [
                 {
-                    "id": "r_cultfoundation_fatigue",
+                    "id": "cultfoundation_fatigue",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundation_health",
+                    "id": "cultfoundation_health",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_fatigue",
+            "id": "cultfoundation_fatigue",
             "label": "A Sacrifice of Pain",
             "requirements": {
                 "fatigue": 1
@@ -1118,13 +1118,13 @@
             "comments": "most explicit way to resolve the damagehealth/injury/ingredient/fatigue society/cult inconsistency",
             "linked": [
                 {
-                    "id": "r_cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_reason",
+            "id": "cultfoundation_reason",
             "label": "A Terrible Clarity",
             "actionid": "establishcult",
             "requirements": {
@@ -1132,7 +1132,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Reason",
+                    "id": "Reason",
                     "label": "My Reason",
                     "required": {
                         "reason": 1
@@ -1148,17 +1148,17 @@
             "description": "",
             "linked": [
                 {
-                    "id": "r_cultfoundation_reason",
+                    "id": "cultfoundation_reason",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_passion",
+            "id": "cultfoundation_passion",
             "label": "A Pledge of Devotion",
             "actionid": "establishcult",
             "requirements": {
@@ -1166,7 +1166,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Passion",
+                    "id": "Passion",
                     "label": "My Passion",
                     "required": {
                         "passion": 1
@@ -1182,25 +1182,25 @@
             "description": "",
             "linked": [
                 {
-                    "id": "r_cultfoundation_passion",
+                    "id": "cultfoundation_passion",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_firstrecruit",
+            "id": "cultfoundation_firstrecruit",
             "label": "My First Recruit",
             "actionid": "establishcult",
             "requirements": {
-                "r_operator": -1
+                "operator": -1
             },
             "slots": [
                 {
-                    "id": "r_Recruit",
+                    "id": "Recruit",
                     "label": "My First Recruit",
                     "required": {
                         "acquaintance": 1
@@ -1222,17 +1222,17 @@
             },
             "linked": [
                 {
-                    "id": "r_cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit",
                     "chance": 100
                 },
                 {
-                    "id": "r_cultfoundation_complete",
+                    "id": "cultfoundation_complete",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_cultfoundation_complete",
+            "id": "cultfoundation_complete",
             "label": "OUR RISE BEGINS.",
             "actionid": "establishcult",
             "effects": {

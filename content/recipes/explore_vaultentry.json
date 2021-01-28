@@ -1,38 +1,38 @@
 {
     "recipes": [
         {
-            "id": "r_explorevault_expeditionbegun",
+            "id": "explorevault_expeditionbegun",
             "label": "The Expedition Sets Off",
             "actionid": "explore_r",
             "requirements": {
-                "r_vault": 1,
-                "r_operator": 1,
-                "r_lmfunds": 1
+                "vault": 1,
+                "operator": 1,
+                "lmfunds": 1
             },
             "startdescription": "I have given my agents the opportunity to serve. Let us hope it ends well for us all.",
             "description": ".",
             "linked": [
                 {
-                    "id": "r_explorevault.add.watchers"
+                    "id": "explorevault.add.watchers"
                 },
                 {
-                    "id": "r_explorevault.add.monks"
+                    "id": "explorevault.add.monks"
                 },
                 {
-                    "id": "r_explorevault.add.dead"
+                    "id": "explorevault.add.dead"
                 },
                 {
-                    "id": "r_explorevault.add.serpent"
+                    "id": "explorevault.add.serpent"
                 },
                 {
-                    "id": "r_explorevaulttick",
+                    "id": "explorevaulttick",
                     "chance": 100
                 }
             ],
             "craftable": false
         },
         {
-            "id": "r_explorevault.add.watchers",
+            "id": "explorevault.add.watchers",
             "actionid": "explore_r",
             "requirements": {
                 "guardian_watchers_pre": 1,
@@ -43,12 +43,12 @@
             },
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun"
+                    "id": "explorevault_expeditionbegun"
                 }
             ]
         },
         {
-            "id": "r_explorevault.add.monks",
+            "id": "explorevault.add.monks",
             "actionid": "explore_r",
             "requirements": {
                 "guardian_monks_pre": 1,
@@ -59,12 +59,12 @@
             },
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun"
+                    "id": "explorevault_expeditionbegun"
                 }
             ]
         },
         {
-            "id": "r_explorevault.add.dead",
+            "id": "explorevault.add.dead",
             "actionid": "explore_r",
             "requirements": {
                 "guardian_dead_pre": 1,
@@ -75,12 +75,12 @@
             },
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun"
+                    "id": "explorevault_expeditionbegun"
                 }
             ]
         },
         {
-            "id": "r_explorevault.add.serpent",
+            "id": "explorevault.add.serpent",
             "actionid": "explore_r",
             "requirements": {
                 "guardian_serpent_pre": 1,
@@ -91,23 +91,23 @@
             },
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun"
+                    "id": "explorevault_expeditionbegun"
                 }
             ]
         },
         {
-            "id": "r_explorevaulttick",
+            "id": "explorevaulttick",
             "comments": "Can't reach success until all the alternatives are unavailable. That means no obstacles, >0 followers and >0 funds.",
             "label": "The Expedition Continues",
             "actionid": "explore_r",
             "slots": [
                 {
-                    "id": "r_Assistance",
+                    "id": "Assistance",
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will defeat obstacles.",
                     "required": {
-                        "r_operator": 1,
-                        "r_lmfunds": 1
+                        "operator": 1,
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -116,101 +116,101 @@
             "warmup": 30,
             "alt": [
                 {
-                    "id": "r_explorevaultsuccesslink",
+                    "id": "explorevaultsuccesslink",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultfailure_nofunds",
+                    "id": "explorevaultfailure_nofunds",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultfailure_nofollowers",
+                    "id": "explorevaultfailure_nofollowers",
                     "chance": 100
                 }
             ],
             "effects": {
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "linked": [
                 {
-                    "id": "r_explorevaultperil_treacherousground_encounter",
+                    "id": "explorevaultperil_treacherousground_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultperil_forest_encounter",
+                    "id": "explorevaultperil_forest_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultperil_mountains_encounter",
+                    "id": "explorevaultperil_mountains_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultperil_desert_encounter",
+                    "id": "explorevaultperil_desert_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultperil_sea_encounter",
+                    "id": "explorevaultperil_sea_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_watchers_encounter",
+                    "id": "explorevaultguardian_watchers_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_monks_encounter",
+                    "id": "explorevaultguardian_monks_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_serpent_encounter",
+                    "id": "explorevaultguardian_serpent_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_dead_encounter",
+                    "id": "explorevaultguardian_dead_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_soucouyants_encounter",
+                    "id": "explorevaultguardian_soucouyants_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultguardian_long_encounter",
+                    "id": "explorevaultguardian_long_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultseal_hiddendoor_encounter",
+                    "id": "explorevaultseal_hiddendoor_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultseal_wardeddoor_encounter",
+                    "id": "explorevaultseal_wardeddoor_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcurse_dread_encounter",
+                    "id": "explorevaultcurse_dread_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcurse_visions_encounter",
+                    "id": "explorevaultcurse_visions_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcurse_affliction_encounter",
+                    "id": "explorevaultcurse_affliction_encounter",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcurse_nowhere_encounter",
+                    "id": "explorevaultcurse_nowhere_encounter",
                     "chance": 100
                 }
             ],
             "craftable": false
         },
         {
-            "id": "r_explorevaultfailure_nofunds",
+            "id": "explorevaultfailure_nofunds",
             "actionid": "explore_r",
             "label": "Logistical Difficulties",
             "startdescription": "Supplies are low. Unless I send more funds, we will have to abandon the expedition.",
             "description": "We can try again, when the dust has settled.",
             "requirements": {
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "effects": {
                 "dread": 1,
@@ -223,13 +223,13 @@
             "warmup": 10
         },
         {
-            "id": "r_explorevaultfailure_nofollowers",
+            "id": "explorevaultfailure_nofollowers",
             "actionid": "explore_r",
             "label": "No Traveller Returns",
             "startdescription": "No expedition members remain. I must send help, or this expedition will be over.",
             "description": "No-one returns. I can attempt the expedition again. I can even reuse the supplies.",
             "requirements": {
-                "r_operator": -1
+                "operator": -1
             },
             "effects": {
                 "dread": 1,
@@ -242,7 +242,7 @@
             "warmup": 10
         },
         {
-            "id": "r_explorevaultsuccesslink",
+            "id": "explorevaultsuccesslink",
             "label": "Treasures Lie Before Us",
             "requirements": {
                 "peril": -1,
@@ -254,13 +254,13 @@
             "comments": "Separate recipe link to remove the confusing slot from Success, next.",
             "linked": [
                 {
-                    "id": "r_explorevaultsuccess",
+                    "id": "explorevaultsuccess",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultsuccess",
+            "id": "explorevaultsuccess",
             "label": "Treasures Lie Before Us",
             "actionid": "explore_r",
             "startdescription": "Success! I'll know more soon...",
@@ -270,184 +270,184 @@
             },
             "linked": [
                 {
-                    "id": "r_explorevaultcapital1_success",
+                    "id": "explorevaultcapital1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapital1_success",
+                    "id": "explorevaultcapital1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapital2_success",
+                    "id": "explorevaultcapital2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapital3_success",
+                    "id": "explorevaultcapital3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapital4_success",
+                    "id": "explorevaultcapital4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapital5_success",
+                    "id": "explorevaultcapital5_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcapitaldefault_success",
+                    "id": "explorevaultcapitaldefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshires1_success",
+                    "id": "explorevaultshires1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshires2_success",
+                    "id": "explorevaultshires2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshires3_success",
+                    "id": "explorevaultshires3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshires4_success",
+                    "id": "explorevaultshires4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshires5_success",
+                    "id": "explorevaultshires5_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultshiresdefault_success",
+                    "id": "explorevaultshiresdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent1_success",
+                    "id": "explorevaultcontinent1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent2_success",
+                    "id": "explorevaultcontinent2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent3_success",
+                    "id": "explorevaultcontinent3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent4_success",
+                    "id": "explorevaultcontinent4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent5_success",
+                    "id": "explorevaultcontinent5_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinent6_success",
+                    "id": "explorevaultcontinent6_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultcontinentdefault_success",
+                    "id": "explorevaultcontinentdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforest1_success",
+                    "id": "explorevaultlandbeyondforest1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforest2_success",
+                    "id": "explorevaultlandbeyondforest2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforest3_success",
+                    "id": "explorevaultlandbeyondforest3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforest4_success",
+                    "id": "explorevaultlandbeyondforest4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforest5_success",
+                    "id": "explorevaultlandbeyondforest5_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultlandbeyondforestdefault_success",
+                    "id": "explorevaultlandbeyondforestdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultrendingmountains1_success",
+                    "id": "explorevaultrendingmountains1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultrendingmountains2_success",
+                    "id": "explorevaultrendingmountains2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultrendingmountains3_success",
+                    "id": "explorevaultrendingmountains3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultrendingmountains4_success",
+                    "id": "explorevaultrendingmountains4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultrendingmountainsdefault_success",
+                    "id": "explorevaultrendingmountainsdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultloneandlevelsands1_success",
+                    "id": "explorevaultloneandlevelsands1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultloneandlevelsands2_success",
+                    "id": "explorevaultloneandlevelsands2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultloneandlevelsands3_success",
+                    "id": "explorevaultloneandlevelsands3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultloneandlevelsands4_success",
+                    "id": "explorevaultloneandlevelsands4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultloneandlevelsandsdefault_success",
+                    "id": "explorevaultloneandlevelsandsdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaulteveningisles1_success",
+                    "id": "explorevaulteveningisles1_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaulteveningisles2_success",
+                    "id": "explorevaulteveningisles2_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaulteveningisles3_success",
+                    "id": "explorevaulteveningisles3_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaulteveningisles4_success",
+                    "id": "explorevaulteveningisles4_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaulteveningislesdefault_success",
+                    "id": "explorevaulteveningislesdefault_success",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorevaultfloating1_success",
+                    "id": "explorevaultfloating1_success",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevault_casualty",
+            "id": "explorevault_casualty",
             "actionid": "explorevault_casualty",
             "label": "An expedition member has fallen!",
             "startdescription": "Our numbers dwindle.",
             "description": "Their wounds are grievous. [Heal a fallen Follower with Talk.]",
             "alt": [
                 {
-                    "id": "r_explorevault_casualty_summoning",
+                    "id": "explorevault_casualty_summoning",
                     "chance": 100
                 }
             ],
@@ -461,7 +461,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "r_operator",
+                    "mutate": "operator",
                     "level": -1,
                     "additive": false
                 }
@@ -469,7 +469,7 @@
             "warmup": 5
         },
         {
-            "id": "r_explorevault_casualty_summoning",
+            "id": "explorevault_casualty_summoning",
             "actionid": "explorevault_casualty",
             "requirements": {
                 "summoned": 1

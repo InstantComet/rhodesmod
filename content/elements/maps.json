@@ -1,55 +1,55 @@
 {
     "elements": [
         {
-            "id": "r_map_location_rhodes_a",
+            "id": "map_location_rhodes_a",
             "label": "罗德岛内部结构图(浅层)",
             "description": "应该有前往控制中枢的路线。",
             "aspects": {
-                "r_map": 1
+                "map": 1
             },
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "需要……",
                     "required": {
-                        "r_sanity": 1
+                        "sanity": 1
                     }
                 }
             ]
         },
         {
-            "id": "r_map_location_rim",
+            "id": "map_location_rim",
             "label": "雷姆必拓的位置",
             "description": "雷姆必拓移动城市的位置，几分钟之前更新。",
             "aspects": {
-                "r_map": 1
+                "map": 1
             },
             "lifetime": 180,
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
             ]
         },
         {
-            "id": "r_map_location_columbia",
+            "id": "map_location_columbia",
             "label": "哥伦比亚的位置",
             "description": "哥伦比亚移动城市的位置，几分钟之前更新。",
             "lifetime": 180,
             "aspects": {
-                "r_map": 1
+                "map": 1
             },
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }

@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_investigator1",
+            "id": "investigator1",
             "label": "Inspector Wakefield",
             "aspects": {
                 "hunter": 1,
@@ -20,7 +20,7 @@
             }
         },
         {
-            "id": "r_investigator2",
+            "id": "investigator2",
             "label": "Spencer Hobson",
             "aspects": {
                 "hunter": 1,
@@ -39,7 +39,7 @@
             }
         },
         {
-            "id": "r_investigator3",
+            "id": "investigator3",
             "label": "Connie Lee",
             "aspects": {
                 "hunter": 1,
@@ -58,7 +58,7 @@
             }
         },
         {
-            "id": "r_investigator4",
+            "id": "investigator4",
             "label": "Doctor Natalia Dragon",
             "aspects": {
                 "hunter": 1,
@@ -77,7 +77,7 @@
             }
         },
         {
-            "id": "r_defaulthunter",
+            "id": "defaulthunter",
             "label": "Weary Detective",
             "aspects": {
                 "hunter": 1,
@@ -93,7 +93,7 @@
             }
         },
         {
-            "id": "r_investigator1prisoner",
+            "id": "investigator1prisoner",
             "label": "Inspector Wakefield: Captured!",
             "aspects": {
                 "mortal": 1,
@@ -114,7 +114,7 @@
             "decayTo": "corpse"
         },
         {
-            "id": "r_investigator2prisoner",
+            "id": "investigator2prisoner",
             "label": "Spencer Hobson: Captured!",
             "aspects": {
                 "prisoner": 1,
@@ -135,7 +135,7 @@
             "decayTo": "corpse"
         },
         {
-            "id": "r_investigator3prisoner",
+            "id": "investigator3prisoner",
             "label": "Connie Lee: Captured!",
             "aspects": {
                 "prisoner": 1,
@@ -156,7 +156,7 @@
             "decayTo": "corpse"
         },
         {
-            "id": "r_investigator4prisoner",
+            "id": "investigator4prisoner",
             "label": "Doctor Natalia Dragon: Captured!",
             "aspects": {
                 "prisoner": 1,
@@ -176,7 +176,7 @@
             "decayTo": "corpse"
         },
         {
-            "id": "r_defaulthunterprisoner",
+            "id": "defaulthunterprisoner",
             "label": "Weary Detective Captured!",
             "aspects": {
                 "mortal": 1,

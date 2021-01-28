@@ -10,11 +10,11 @@
                 "label": "work_r",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
-                    "r_ability": 1,
-                    "r_job": 1,
-                    "r_ritual": 1,
-                    "r_desire": 1,
-                    "r_benefactor": 1,
+                    "ability": 1,
+                    "job": 1,
+                    "ritual": 1,
+                    "desire": 1,
+                    "benefactor": 1,
                     "ability": 1,
                     "job": 1,
                     "ritual": 1,
@@ -32,8 +32,8 @@
                 "label": "dream_r",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
-                    "r_ability": 1,
-                    "r_desire": 1,
+                    "ability": 1,
+                    "desire": 1,
                     "illhealth": 1,
                     "way": 1,
                     "lmfunds": 1,
@@ -56,10 +56,10 @@
                 "label": "study_r",
                 "description": "The invisible arts could occupy ten lifetimes of study.",
                 "required": {
-                    "r_text": 1,
+                    "text": 1,
                     "lore": 1,
-                    "r_ability": 1,
-                    "r_map": 1,
+                    "ability": 1,
+                    "map": 1,
                     "text": 1,
                     "ability": 1,
                     "influence": 1,
@@ -81,7 +81,7 @@
                     "mortal": 1,
                     "summoned": 1,
                     "patron": 1,
-                    "r_society": 1,
+                    "society": 1,
                     "hq": 1,
                     "lore": 1
                 },
@@ -99,10 +99,10 @@
                 "label": "explore_r",
                 "description": "A place; a person; a r_location; a secret.",
                 "required": {
-                    "r_operator": 1,
-                    "r_secrethistories": 1,
-                    "r_location": 1,
-                    "r_terra_location": 1,
+                    "operator": 1,
+                    "secrethistories": 1,
+                    "location": 1,
+                    "terra_location": 1,
                     "health": 1
                 },
                 "forbidden": {
@@ -125,11 +125,11 @@
 			"icon": "headhunt",
             "description": "罗德岛需要更多的人手，我也一样。",
             "slot": {
-                "id": "r_hrtogo",
+                "id": "hrtogo",
                 "label": "在哪里",
                 "description": "途径的区域，附近的移动城市，我们在整片大地上寻找志同道合之人。",
                 "required": {
-                    "r_location": 1
+                    "location": 1
                 },
                 "forbidden": {}                
             }

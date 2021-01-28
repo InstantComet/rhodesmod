@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_ambition.apostlegrail.emitfuel",
+            "id": "ambition.apostlegrail.emitfuel",
             "actionid": "work_r",
             "label": "Guidance from our Delight",
             "requirements": {
@@ -13,7 +13,7 @@
             }
         },
         {
-            "id": "r_work.apostlegrail.majorvictory.postbetrayal",
+            "id": "work.apostlegrail.majorvictory.postbetrayal",
             "actionid": "work_r",
             "label": "Nevertheless, the Vitulation",
             "extantreqs": {
@@ -36,7 +36,7 @@
             "ending": "majorgrailvictory"
         },
         {
-            "id": "r_work.apostlegrail.majorvictory",
+            "id": "work.apostlegrail.majorvictory",
             "actionid": "work_r",
             "label": "The Last Elements of the Vitulation",
             "extantreqs": {
@@ -59,7 +59,7 @@
             "ending": "majorgrailvictory"
         },
         {
-            "id": "r_explore.apostlegrail.purchase.apostlegrail.pillar3",
+            "id": "explore.apostlegrail.purchase.apostlegrail.pillar3",
             "actionid": "explore_r",
             "label": "Bid for Rare Spices",
             "startdescription": "Our Delight's blood is a payment towards certain special goods for particular connoisseurs. Everything must be just right for the Vitulation.",
@@ -75,12 +75,12 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_auctionbuy"
+                    "id": "auctionbuy"
                 }
             ]
         },
         {
-            "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
+            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
             "actionid": "work_r",
             "label": "The Seven Graces are Prepared",
             "startdescription": "The Seven Graces and the Three Savours: the Salt, the Sweet, the Sweetest. We who are the choicest of the Host shall so annoint ourselves.",
@@ -95,7 +95,7 @@
             "comments": "NB this is both craftable *and* linked, and precedes the main cooking recipe, in case the player tries to keep working on the Graces once it's done."
         },
         {
-            "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3",
+            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3",
             "actionid": "work_r",
             "label": "Prepare the Seven Graces",
             "startdescription": "The scents and savours must be precisely as the Recipe dictates. Only so can I, and my colleagues, be sufficiently appetising - appetising enough to arouse a pitch of appetite not seen in the waking world.",
@@ -106,7 +106,7 @@
             "description": "I couldn't find a scent or savour I needed to add.",
             "slots": [
                 {
-                    "id": "r_enhancement",
+                    "id": "enhancement",
                     "label": "Enhancement",
                     "description": "Very special additives to ensure the Vitulation goes just right.",
                     "required": {
@@ -118,23 +118,23 @@
             ],
             "alt": [
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
                 },
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail"
                 },
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart"
                 },
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth"
                 }
             ],
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
+            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
             "actionid": "work_r",
             "label": "The Flowermaker's Gift",
             "startdescription": "If we die, yet shall we live on in those who slew us.",
@@ -154,12 +154,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
                 }
             ]
         },
         {
-            "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
+            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
             "actionid": "work_r",
             "label": "Janus' Savour",
             "startdescription": "Janus is the god that rose not, but reigns. Janus is the saint that died not, but is dead. Janus is the door between what cannot be, and what must be.",
@@ -179,12 +179,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
                 }
             ]
         },
         {
-            "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
+            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
             "actionid": "work_r",
             "label": "The Black-Flax's Savour",
             "startdescription": "It is necessary that we forget what we were.",
@@ -204,12 +204,12 @@
             ],
             "linked": [
                 {
-                    "id": "r_work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
                 }
             ]
         },
         {
-            "id": "r_talk.apostlegrail.createpillar4",
+            "id": "talk.apostlegrail.createpillar4",
             "actionid": "talk_r",
             "label": "Begin Preparations for the Vitulation",
             "startdescription": "There will be a great celebration when our Delight proves their appetite.",
@@ -224,7 +224,7 @@
             "warmup": 60
         },
         {
-            "id": "r_talk.apostlegrail.upgradepillar4.attempt",
+            "id": "talk.apostlegrail.upgradepillar4.attempt",
             "actionid": "talk_r",
             "label": "Invite our Final Guest",
             "startdescription": "Without the Key-Holder, all this preparation will be in vain.",
@@ -234,7 +234,7 @@
             },
             "slots": [
                 {
-                    "id": "r_finalguest",
+                    "id": "finalguest",
                     "label": "The Key-Holder",
                     "required": {
                         "marinette": 1
@@ -243,17 +243,17 @@
             ],
             "alt": [
                 {
-                    "id": "r_talk.apostlegrail.upgradepillar4.marinetteready"
+                    "id": "talk.apostlegrail.upgradepillar4.marinetteready"
                 },
                 {
-                    "id": "r_talk.apostlegrail.upgradepillar4.marinettenotready"
+                    "id": "talk.apostlegrail.upgradepillar4.marinettenotready"
                 }
             ],
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_talk.apostlegrail.upgradepillar4.inprogress.attempt",
+            "id": "talk.apostlegrail.upgradepillar4.inprogress.attempt",
             "actionid": "talk_r",
             "label": "Augment the Host",
             "startdescription": "We seek more attendees. Our allies: greed; curiosity; prurience; unalloyed idleness.",
@@ -263,7 +263,7 @@
             },
             "slots": [
                 {
-                    "id": "r_more",
+                    "id": "more",
                     "label": "More",
                     "required": {
                         "mystique": 1
@@ -272,14 +272,14 @@
             ],
             "alt": [
                 {
-                    "id": "r_talk.apostlegrail.upgradepillar4.succeed"
+                    "id": "talk.apostlegrail.upgradepillar4.succeed"
                 }
             ],
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_talk.apostlegrail.upgradepillar4.marinetteready",
+            "id": "talk.apostlegrail.upgradepillar4.marinetteready",
             "actionid": "talk_r",
             "label": "The Key-Holder",
             "startdescription": "'<sprite name=winter>.'",
@@ -296,7 +296,7 @@
             "craftable": false
         },
         {
-            "id": "r_talk.apostlegrail.upgradepillar4.marinettenotready",
+            "id": "talk.apostlegrail.upgradepillar4.marinettenotready",
             "actionid": "talk_r",
             "label": "Not Yet Enough",
             "startdescription": "'...<sprite name=grail>.' [Marinette is not yet sated.]",
@@ -306,7 +306,7 @@
             "craftable": false
         },
         {
-            "id": "r_talk.apostlegrail.upgradepillar4.succeed",
+            "id": "talk.apostlegrail.upgradepillar4.succeed",
             "actionid": "talk_r",
             "label": "The Host Grows",
             "startdescription": "More names for the list which is equal parts sacred and secret; more faces for the great night.",
@@ -323,7 +323,7 @@
             "craftable": false
         },
         {
-            "id": "r_talk.apostlegrail.sulochanamarinette",
+            "id": "talk.apostlegrail.sulochanamarinette",
             "actionid": "talk_r",
             "label": "An Introduction to Our Lady of Wires",
             "startdescription": "'You're really going to do it?' Sulochana meditatively rocks the sole of one booted foot over the wreck of her cigarette. 'Then I'm leaving, now. Don't worry. I'll send your message to the necessary sister. I'm sure she'll come... if there's blood enough.'",
@@ -338,7 +338,7 @@
             "craftable": false
         },
         {
-            "id": "r_talk.apostlegrail.marinette.ready.hint",
+            "id": "talk.apostlegrail.marinette.ready.hint",
             "actionid": "talk_r",
             "label": "Marinette is Sated",
             "startdescription": "'<sprite name=heart>'. [You can now add Marinette to your Guests.]",
@@ -350,7 +350,7 @@
             "hintonly": true
         },
         {
-            "id": "r_talk.apostlegrail.marinette",
+            "id": "talk.apostlegrail.marinette",
             "actionid": "talk_r",
             "label": "Petitioning Marinette of the Wires",
             "startdescription": "'<sprite name=grail>?'",
@@ -361,10 +361,10 @@
             },
             "slots": [
                 {
-                    "id": "r_sacrifice",
+                    "id": "sacrifice",
                     "label": "Blood",
                     "required": {
-                        "r_operator": 1
+                        "operator": 1
                     },
                     "forbidden": {
                         "summoned": -1
@@ -375,15 +375,15 @@
             "craftable": true,
             "alt": [
                 {
-                    "id": "r_talk.apostlegrail.marinettenext.hireling"
+                    "id": "talk.apostlegrail.marinettenext.hireling"
                 },
                 {
-                    "id": "r_talk.apostlegrail.marinettenext.follower"
+                    "id": "talk.apostlegrail.marinettenext.follower"
                 }
             ]
         },
         {
-            "id": "r_talk.apostlegrail.marinettenext.hireling",
+            "id": "talk.apostlegrail.marinettenext.hireling",
             "actionid": "talk_r",
             "label": "Blood",
             "startdescription": "Marinette always leaves the skin. Sometimes she leaves the bones. She'll consume the hired help eagerly enough, but the hired help generally objects, and then there is generally a fuss.",
@@ -406,7 +406,7 @@
             "craftable": false
         },
         {
-            "id": "r_talk.apostlegrail.marinettenext.follower",
+            "id": "talk.apostlegrail.marinettenext.follower",
             "actionid": "talk_r",
             "label": "Blood",
             "startdescription": "Marinette always leaves the skin. Sometimes she leaves the bones. If we tell our loyal followers to close their eyes, it's over very quickly.",
@@ -420,10 +420,10 @@
             ],
             "requirements": {
                 "marinette": 1,
-                "r_operator": 1
+                "operator": 1
             },
             "effects": {
-                "r_operator": -1
+                "operator": -1
             },
             "craftable": false
         }

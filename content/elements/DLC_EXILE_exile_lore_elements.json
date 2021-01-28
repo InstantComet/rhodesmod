@@ -1,25 +1,25 @@
 {
     "elements": [
         {
-            "id": "r_uqedgelore.exile",
+            "id": "uqedgelore.exile",
             "label": "Exile: Edge Lore",
             "isAspect": true,
             "isHidden": true
         },
         {
-            "id": "r_uqedgelore.colonel",
+            "id": "uqedgelore.colonel",
             "label": "Colonel: Edge Lore",
             "isAspect": true,
             "isHidden": true
         },
         {
-            "id": "r_uqedgelore.lionsmith",
+            "id": "uqedgelore.lionsmith",
             "label": "Lionsmith: Edge Lore",
             "isAspect": true,
             "isHidden": true
         },
         {
-            "id": "r_fragmentedge.exile",
+            "id": "fragmentedge.exile",
             "label": "A Knife's Secret",
             "aspects": {
                 "edge": 2,
@@ -33,13 +33,13 @@
                 "epiphany.lionsmith": "fragmentedgeb.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -48,7 +48,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgeb.exile",
+            "id": "fragmentedgeb.exile",
             "label": "Biedde's Lesson",
             "aspects": {
                 "edge": 4,
@@ -63,13 +63,13 @@
                 "epiphany.lionsmith": "fragmentedgec.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -78,7 +78,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgec.exile",
+            "id": "fragmentedgec.exile",
             "label": "An Operation of the Strix",
             "aspects": {
                 "edge": 6,
@@ -93,13 +93,13 @@
                 "epiphany.lionsmith": "fragmentedged.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -108,7 +108,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedged.exile",
+            "id": "fragmentedged.exile",
             "label": "The Names of the Wolf",
             "aspects": {
                 "edge": 8,
@@ -123,13 +123,13 @@
                 "epiphany.lionsmith": "fragmentedgee.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -138,7 +138,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgee.exile",
+            "id": "fragmentedgee.exile",
             "label": "The Cinnabar Forms",
             "aspects": {
                 "edge": 10,
@@ -153,13 +153,13 @@
                 "epiphany.lionsmith": "fragmentedgef.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -168,7 +168,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgef.exile",
+            "id": "fragmentedgef.exile",
             "label": "The Alignments of Murder",
             "aspects": {
                 "edge": 12,
@@ -183,13 +183,13 @@
                 "epiphany.lionsmith": "fragmentedgeg.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -198,7 +198,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgeg.exile",
+            "id": "fragmentedgeg.exile",
             "label": "The Mysteries of Force",
             "aspects": {
                 "edge": 14,
@@ -212,19 +212,19 @@
                 "depiphany": "fragmentedgef.exile",
                 "epiphany": [
                     {
-                        "id": "r_vitality",
+                        "id": "vitality",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -233,7 +233,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedge.exile.exhausted",
+            "id": "fragmentedge.exile.exhausted",
             "label": "A Knife's Secret (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -246,7 +246,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgeb.exile.exhausted",
+            "id": "fragmentedgeb.exile.exhausted",
             "label": "Biedde's Lesson (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
             "aspects": {
@@ -259,7 +259,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgec.exile.exhausted",
+            "id": "fragmentedgec.exile.exhausted",
             "label": "An Operation of the Strix (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -272,7 +272,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedged.exile.exhausted",
+            "id": "fragmentedged.exile.exhausted",
             "label": "The Names of the Wolf (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -285,7 +285,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgee.exile.exhausted",
+            "id": "fragmentedgee.exile.exhausted",
             "label": "The Cinnabar Forms (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -298,7 +298,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgef.exile.exhausted",
+            "id": "fragmentedgef.exile.exhausted",
             "label": "The Alignments of Murder (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -311,7 +311,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgeg.exile.exhausted",
+            "id": "fragmentedgeg.exile.exhausted",
             "label": "The Mysteries of Force (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -324,7 +324,7 @@
             "uniquenessgroup": "uqedgelore.exile"
         },
         {
-            "id": "r_fragmentedgeb.colonel",
+            "id": "fragmentedgeb.colonel",
             "label": "The Chiliarch's Lesson",
             "aspects": {
                 "edge": 4,
@@ -339,13 +339,13 @@
                 "fatiguing": "fragmentedgeb.colonel.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -353,7 +353,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgec.colonel",
+            "id": "fragmentedgec.colonel",
             "label": "An Operation of the Histid",
             "aspects": {
                 "edge": 6,
@@ -369,13 +369,13 @@
                 "fatiguing": "fragmentedgec.colonel.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -383,7 +383,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedged.colonel",
+            "id": "fragmentedged.colonel",
             "label": "The Colonel's Names",
             "aspects": {
                 "edge": 8,
@@ -399,13 +399,13 @@
                 "fatiguing": "fragmentedged.colonel.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -413,7 +413,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgee.colonel",
+            "id": "fragmentedgee.colonel",
             "label": "The Iron Forms",
             "aspects": {
                 "edge": 10,
@@ -429,13 +429,13 @@
                 "fatiguing": "fragmentedgee.colonel.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -443,7 +443,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgef.colonel",
+            "id": "fragmentedgef.colonel",
             "label": "Moduli of the Langet",
             "aspects": {
                 "edge": 12,
@@ -459,13 +459,13 @@
                 "fatiguing": "fragmentedgef.colonel.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -473,7 +473,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgeg.colonel",
+            "id": "fragmentedgeg.colonel",
             "label": "The Scarred Mysteries",
             "aspects": {
                 "edge": 14,
@@ -485,13 +485,13 @@
             "xtriggers": {
                 "epiphany": [
                     {
-                        "id": "r_weapon.f.colonel",
+                        "id": "weapon.f.colonel",
                         "morpheffect": "spawn"
                     }
                 ],
                 "epiphany.colonel": [
                     {
-                        "id": "r_weapon.f.colonel",
+                        "id": "weapon.f.colonel",
                         "morpheffect": "spawn"
                     }
                 ],
@@ -499,13 +499,13 @@
                 "depiphany": "fragmentedgef.colonel",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -513,7 +513,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgeb.colonel.exhausted",
+            "id": "fragmentedgeb.colonel.exhausted",
             "label": "Chiliarch's Lesson (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -526,7 +526,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgec.colonel.exhausted",
+            "id": "fragmentedgec.colonel.exhausted",
             "label": "An Operation of the Histid (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -539,7 +539,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedged.colonel.exhausted",
+            "id": "fragmentedged.colonel.exhausted",
             "label": "The Colonel's Names (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -552,7 +552,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgee.colonel.exhausted",
+            "id": "fragmentedgee.colonel.exhausted",
             "label": "The Iron Forms (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -565,7 +565,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgef.colonel.exhausted",
+            "id": "fragmentedgef.colonel.exhausted",
             "label": "Moduli of the Langet (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -578,7 +578,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgeg.colonel.exhausted",
+            "id": "fragmentedgeg.colonel.exhausted",
             "label": "The Scarred Mysteries (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -591,7 +591,7 @@
             "uniquenessgroup": "uqedgelore.colonel"
         },
         {
-            "id": "r_fragmentedgeb.lionsmith",
+            "id": "fragmentedgeb.lionsmith",
             "label": "The Shahpur's Lesson",
             "aspects": {
                 "edge": 4,
@@ -606,13 +606,13 @@
                 "fatiguing": "fragmentedgeb.lionsmith.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -620,7 +620,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgec.lionsmith",
+            "id": "fragmentedgec.lionsmith",
             "label": "An Operation of the Labhite",
             "aspects": {
                 "edge": 6,
@@ -636,13 +636,13 @@
                 "fatiguing": "fragmentedgec.lionsmith.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -650,7 +650,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedged.lionsmith",
+            "id": "fragmentedged.lionsmith",
             "label": "The Lionsmith's Names",
             "aspects": {
                 "edge": 8,
@@ -666,13 +666,13 @@
                 "fatiguing": "fragmentedged.lionsmith.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -680,7 +680,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgee.lionsmith",
+            "id": "fragmentedgee.lionsmith",
             "label": "The Brass Forms",
             "aspects": {
                 "edge": 10,
@@ -696,13 +696,13 @@
                 "fatiguing": "fragmentedgee.lionsmith.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -710,7 +710,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgef.lionsmith",
+            "id": "fragmentedgef.lionsmith",
             "label": "Consummations of the Helve",
             "aspects": {
                 "edge": 12,
@@ -726,13 +726,13 @@
                 "fatiguing": "fragmentedgef.lionsmith.exhausted",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -740,7 +740,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgeg.lionsmith",
+            "id": "fragmentedgeg.lionsmith",
             "label": "The Shattered Mysteries",
             "aspects": {
                 "edge": 14,
@@ -752,13 +752,13 @@
             "xtriggers": {
                 "epiphany": [
                     {
-                        "id": "r_weapon.f.lionsmith",
+                        "id": "weapon.f.lionsmith",
                         "morpheffect": "spawn"
                     }
                 ],
                 "epiphany.lionsmith": [
                     {
-                        "id": "r_weapon.f.lionsmith",
+                        "id": "weapon.f.lionsmith",
                         "morpheffect": "spawn"
                     }
                 ],
@@ -766,13 +766,13 @@
                 "depiphany": "fragmentedgef.lionsmith",
                 "striking.foe": [
                     {
-                        "id": "r_wound.foe",
+                        "id": "wound.foe",
                         "morpheffect": "spawn"
                     }
                 ],
                 "striking.underling": [
                     {
-                        "id": "r_wound.underling",
+                        "id": "wound.underling",
                         "morpheffect": "spawn"
                     }
                 ]
@@ -780,7 +780,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgeb.lionsmith.exhausted",
+            "id": "fragmentedgeb.lionsmith.exhausted",
             "label": "The Shahpur's Lesson (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -793,7 +793,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgec.lionsmith.exhausted",
+            "id": "fragmentedgec.lionsmith.exhausted",
             "label": "An Operation of the Labhite (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -806,7 +806,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedged.lionsmith.exhausted",
+            "id": "fragmentedged.lionsmith.exhausted",
             "label": "The Lionsmith's Names (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -819,7 +819,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgee.lionsmith.exhausted",
+            "id": "fragmentedgee.lionsmith.exhausted",
             "label": "The Brass Forms (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -832,7 +832,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgef.lionsmith.exhausted",
+            "id": "fragmentedgef.lionsmith.exhausted",
             "label": "Consummations of the Helve (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {
@@ -845,7 +845,7 @@
             "uniquenessgroup": "uqedgelore.lionsmith"
         },
         {
-            "id": "r_fragmentedgeg.lionsmith.exhausted",
+            "id": "fragmentedgeg.lionsmith.exhausted",
             "label": "The Shattered Mysteries (Exhausted)",
             "description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to reccover more quickly with each upgrade.]",
             "aspects": {

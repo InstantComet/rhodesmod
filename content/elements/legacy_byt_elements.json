@@ -1,26 +1,26 @@
 {
     "elements": [
         {
-            "id": "r_legacybytjob",
+            "id": "legacybytjob",
             "description": "One dabbles with writing and one dabbles with painting but one lives, above all, in the certainty of one's allowance.",
             "label": "This and That",
             "aspects": {
                 "benign": 1,
-                "r_job": 1
+                "job": 1
             }
         },
         {
-            "id": "r_legacybytjobmatured",
+            "id": "legacybytjobmatured",
             "description": "One dabbles with writing and one dabbles with painting but one lives, above all, in the near-certainty of one's allowance.",
             "label": "This and That",
             "aspects": {
                 "benign": 1,
-                "r_job": 1
+                "job": 1
             },
             "comments": "Exists to allow a switch to a longer cycle immediately after first use."
         },
         {
-            "id": "r_legacydiarylastcharacter",
+            "id": "legacydiarylastcharacter",
             "aspects": {
                 "legacyplotitem": 1
             },

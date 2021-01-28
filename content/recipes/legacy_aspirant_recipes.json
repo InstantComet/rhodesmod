@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_workintrojob",
+            "id": "workintrojob",
             "label": "Another Shift at the Hospital",
             "actionid": "work_r",
             "requirements": {
@@ -10,11 +10,11 @@
             "effects": {
                 "introjob": -1,
                 "health": 1,
-                "r_lmfunds": 2
+                "lmfunds": 2
             },
             "alt": [
                 {
-                    "id": "r_introdream",
+                    "id": "introdream",
                     "chance": 100,
                     "additional": true
                 }
@@ -25,7 +25,7 @@
             "craftable": true
         },
         {
-            "id": "r_introdream",
+            "id": "introdream",
             "label": "Recall my Dreams",
             "actionid": "dream_r",
             "requirements": {},
@@ -35,7 +35,7 @@
             },
             "alt": [
                 {
-                    "id": "r_bequestcountdown",
+                    "id": "bequestcountdown",
                     "chance": 100,
                     "additional": true
                 }
@@ -47,7 +47,7 @@
             "comments": "This is triggered from the intro work recipe only."
         },
         {
-            "id": "r_bequestcountdown",
+            "id": "bequestcountdown",
             "label": "A Change in the Air",
             "actionid": "study_r",
             "requirements": {},
@@ -57,19 +57,19 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_bequestarrives",
+                    "id": "bequestarrives",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_bequestarrives",
+            "id": "bequestarrives",
             "label": "A Bequest Arrives",
             "actionid": "study_r",
             "requirements": {},
             "effects": {
                 "reason": 1,
-                "r_lmfunds": 9,
+                "lmfunds": 9,
                 "bequestintro": 1
             },
             "startdescription": "A letter from a solicitor. The old man at the hospital - the one I dream of - has named me in his will. I'll hear more soon.",
@@ -80,7 +80,7 @@
             "comments": "This makes the Study action available, and is triggered from intro only."
         },
         {
-            "id": "r_studybequestreason",
+            "id": "studybequestreason",
             "label": "Examine the Bequest, employing Reason",
             "actionid": "study_r",
             "requirements": {
@@ -100,7 +100,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybequestpassion",
+            "id": "studybequestpassion",
             "label": "Examine my Bequest, employing Passion",
             "actionid": "study_r",
             "requirements": {
@@ -120,7 +120,7 @@
             "craftable": true
         },
         {
-            "id": "r_studycontactintro",
+            "id": "studycontactintro",
             "label": "Find a potential collaborator",
             "actionid": "study_r",
             "requirements": {
@@ -132,7 +132,7 @@
             },
             "alt": [
                 {
-                    "id": "r_findacquaintanceopentalk",
+                    "id": "findacquaintanceopentalk",
                     "chance": 100,
                     "additional": true
                 }

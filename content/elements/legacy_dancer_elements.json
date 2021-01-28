@@ -1,11 +1,11 @@
 {
     "elements": [
         {
-            "id": "r_legacydancerjob",
+            "id": "legacydancerjob",
             "label": "A Contract at the Gaiety",
             "description": "I have a position in the chorus at the Gaiety. It's mine until my luck or my looks run out... or until I find something better.",
             "aspects": {
-                "r_job": 1,
+                "job": 1,
                 "dance": 1,
                 "potentialbenefactorm": 1,
                 "potentialbenefactorf": 1,
@@ -14,11 +14,11 @@
             "lifetime": 120,
             "decayTo": "legacydancerjob_suspended",
             "xtriggers": {
-                "r_job": "legacydancerjob"
+                "job": "legacydancerjob"
             },
             "slots": [
                 {
-                    "id": "r_health",
+                    "id": "health",
                     "label": "Health",
                     "actionid": "work_r",
                     "required": {
@@ -28,11 +28,11 @@
             ]
         },
         {
-            "id": "r_legacydancerjob_suspended",
+            "id": "legacydancerjob_suspended",
             "label": "A Contract at the Gaiety: Suspended",
             "description": "I've missed too many performances. If I plead convincingly enough, I might get my job back.",
             "aspects": {
-                "r_job": 1
+                "job": 1
             },
             "lifetime": 300,
             "xtriggers": {
@@ -40,7 +40,7 @@
             },
             "slots": [
                 {
-                    "id": "r_passion",
+                    "id": "passion",
                     "label": "Passion",
                     "actionid": "work_r",
                     "required": {
@@ -50,12 +50,12 @@
             ]
         },
         {
-            "id": "r_dancerlegacy_plotitem_a",
+            "id": "dancerlegacy_plotitem_a",
             "label": "A Crumpled Poem",
             "description": "It's addressed to another dancer and signed by someone named #LAST_FOLLOWER#. The writer describes how they met the dancer in a dream, in a dark wood. Their dream featured drum-beats, wing-beats, the skin of shadows, the blood of the moon. No wonder the poem was discarded. But already I can see that there are layers of meaning to unpeel.",
             "slots": [
                 {
-                    "id": "r_Approach",
+                    "id": "Approach",
                     "label": "Approach",
                     "actionid": "study_r",
                     "description": "The heart's throb, or the violin's cry?",
@@ -70,12 +70,12 @@
             }
         },
         {
-            "id": "r_dancerjobecdysisa",
+            "id": "dancerjobecdysisa",
             "label": "A Contract at the Ecdysis Club",
             "description": "I perform at the Ecdysis Club, on the nights when it's open.",
             "slots": [
                 {
-                    "id": "r_location",
+                    "id": "location",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",
@@ -84,7 +84,7 @@
                     }
                 },
                 {
-                    "id": "r_purpose",
+                    "id": "purpose",
                     "label": "Purpose",
                     "actionid": "work_r",
                     "required": {
@@ -94,7 +94,7 @@
                     "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
-                    "id": "r_abilityfirst",
+                    "id": "abilityfirst",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -105,7 +105,7 @@
                     }
                 },
                 {
-                    "id": "r_influence",
+                    "id": "influence",
                     "label": "Influence",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
@@ -116,18 +116,18 @@
                 }
             ],
             "aspects": {
-                "r_job": 1,
+                "job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }
         },
         {
-            "id": "r_dancerjobecdysisb",
+            "id": "dancerjobecdysisb",
             "label": "A Superior Contract at the Ecdysis Club",
             "description": "I perform the more exacting dances at the Ecdysis Club.",
             "slots": [
                 {
-                    "id": "r_location",
+                    "id": "location",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",
@@ -136,7 +136,7 @@
                     }
                 },
                 {
-                    "id": "r_purpose",
+                    "id": "purpose",
                     "label": "Purpose",
                     "actionid": "work_r",
                     "required": {
@@ -146,7 +146,7 @@
                     "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
-                    "id": "r_abilityfirst",
+                    "id": "abilityfirst",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -157,7 +157,7 @@
                     }
                 },
                 {
-                    "id": "r_abilitysecond",
+                    "id": "abilitysecond",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -168,7 +168,7 @@
                     }
                 },
                 {
-                    "id": "r_influence",
+                    "id": "influence",
                     "label": "Influence",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
@@ -179,18 +179,18 @@
                 }
             ],
             "aspects": {
-                "r_job": 1,
+                "job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }
         },
         {
-            "id": "r_dancerjobecdysisc",
+            "id": "dancerjobecdysisc",
             "label": "A Particular Arrangement with the Ecdysis Club",
             "description": "I am occasionally paid a generous consideration to perform very specific dances for very particular connoisseurs.",
             "slots": [
                 {
-                    "id": "r_location",
+                    "id": "location",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",
@@ -199,7 +199,7 @@
                     }
                 },
                 {
-                    "id": "r_purpose",
+                    "id": "purpose",
                     "label": "Purpose",
                     "actionid": "work_r",
                     "required": {
@@ -209,7 +209,7 @@
                     "description": "Use my Desire to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
-                    "id": "r_abilityfirst",
+                    "id": "abilityfirst",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -220,7 +220,7 @@
                     }
                 },
                 {
-                    "id": "r_abilitysecond",
+                    "id": "abilitysecond",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -231,7 +231,7 @@
                     }
                 },
                 {
-                    "id": "r_abilitythird",
+                    "id": "abilitythird",
                     "label": "Ability, or Scar",
                     "description": "What of myself shall I commit?",
                     "actionid": "work_r",
@@ -242,7 +242,7 @@
                     }
                 },
                 {
-                    "id": "r_influence",
+                    "id": "influence",
                     "label": "Influence",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
@@ -253,7 +253,7 @@
                 }
             ],
             "aspects": {
-                "r_job": 1,
+                "job": 1,
                 "dance": 1,
                 "ecdysijob": 1
             }

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_legacydancer_openstudy",
+            "id": "legacydancer_openstudy",
             "label": "A Discarded Mystery",
             "actionid": "study_r",
             "startdescription": "Hundreds of dancers have passed through this changing room. Now and then one finds their traces like dropped petals: a lost glove, a faded photograph, an admirer's note...",
@@ -13,7 +13,7 @@
             "comments": "Opened from initial work"
         },
         {
-            "id": "r_legacydancer_study_plotitema_heart",
+            "id": "legacydancer_study_plotitema_heart",
             "actionid": "study_r",
             "label": "Consider the Crumpled Poem as a Physical Challenge",
             "requirements": {
@@ -28,7 +28,7 @@
             "description": "The directions are coming clear. There are steps, certainly - steps I begin to feel - and the steps end somewhere - somewhere beneath waking life. Somewhere I'm different. I rotate my shoulders: why does it feel as if my skin does not quite fit?",
             "alt": [
                 {
-                    "id": "r_legacydancer_opendream_heart",
+                    "id": "legacydancer_opendream_heart",
                     "chance": 100,
                     "additional": true
                 }
@@ -37,7 +37,7 @@
             "craftable": true
         },
         {
-            "id": "r_legacydancer_study_plotitema_moth",
+            "id": "legacydancer_study_plotitema_moth",
             "actionid": "study_r",
             "label": "Consider the Crumpled Poem as a Dream-Challenge",
             "requirements": {
@@ -52,7 +52,7 @@
             },
             "alt": [
                 {
-                    "id": "r_legacydancer_opendream_moth",
+                    "id": "legacydancer_opendream_moth",
                     "chance": 100,
                     "additional": true
                 }
@@ -61,7 +61,7 @@
             "craftable": true
         },
         {
-            "id": "r_legacydancer_opendream_heart",
+            "id": "legacydancer_opendream_heart",
             "actionid": "dream_r",
             "label": "A Dream of Another Self",
             "startdescription": "In my dreams, it's coming clear. This is a dance one cannot perform alone, nor with a partner. This is a dance one dances with a doll.",
@@ -73,21 +73,21 @@
             "comments": "opened from studying about first plot object with health",
             "alt": [
                 {
-                    "id": "r_legacydancer_openexplore_heart",
+                    "id": "legacydancer_openexplore_heart",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "r_L_desire_addhearttrack",
+                    "id": "L_desire_addhearttrack",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_L_desire_addhearttrack",
+            "id": "L_desire_addhearttrack",
             "actionid": "dream_r",
             "label": "A Dream of Another Self",
             "mutations": [
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "id": "r_legacydancer_opendream_moth",
+            "id": "legacydancer_opendream_moth",
             "label": "A Dream of an Older Self",
             "actionid": "dream_r",
             "startdescription": "Tonight I'll cut a lock of my hair before I sleep. I read that in the poem. Snip; snip.",
@@ -112,21 +112,21 @@
             "comments": "opened from studying about first plot object with passion",
             "alt": [
                 {
-                    "id": "r_legacydancer_openexplore_moth",
+                    "id": "legacydancer_openexplore_moth",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "r_L_desire_addmothtrack",
+                    "id": "L_desire_addmothtrack",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_L_desire_addmothtrack",
+            "id": "L_desire_addmothtrack",
             "actionid": "dream_r",
             "label": "A Dream of an Older Self",
             "mutations": [
@@ -139,7 +139,7 @@
             ]
         },
         {
-            "id": "r_legacydancer_openexplore_heart",
+            "id": "legacydancer_openexplore_heart",
             "actionid": "explore_r",
             "label": "A New Partner",
             "startdescription": "Sometimes in the afternoon I prowl the street-markets. I danced the dance of the poem, and I ruined my rag doll. There must be a better doll out there, so I can stamp those steps again.",
@@ -152,7 +152,7 @@
             "comments": "opened from dreaming"
         },
         {
-            "id": "r_legacydancer_openexplore_moth",
+            "id": "legacydancer_openexplore_moth",
             "actionid": "explore_r",
             "label": "An Old Partner",
             "startdescription": "When the moon is out I slip over the fence into the locked park, looking under branches in the hollow places. I don't know why, yet.",
@@ -165,7 +165,7 @@
             "comments": "opened from dreaming"
         },
         {
-            "id": "r_legacydancer_opentalk",
+            "id": "legacydancer_opentalk",
             "actionid": "talk_r",
             "label": "What We Say And When We Say It",
             "comments": "opened from first audience interaction",
@@ -176,7 +176,7 @@
             "warmup": 60
         },
         {
-            "id": "r_worklegacydancerjob_pleadforreinstatement",
+            "id": "worklegacydancerjob_pleadforreinstatement",
             "label": "Plead for Reinstatement at the Gaiety Theatre",
             "actionid": "work_r",
             "requirements": {
@@ -192,7 +192,7 @@
             "craftable": true
         },
         {
-            "id": "r_worklegacydancerjob",
+            "id": "worklegacydancerjob",
             "label": "Perform at the Gaiety Theatre",
             "actionid": "work_r",
             "requirements": {
@@ -201,27 +201,27 @@
             },
             "alt": [
                 {
-                    "id": "r_legacydancer_openstudy",
+                    "id": "legacydancer_openstudy",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "r_worklegacydancerjob_more",
+                    "id": "worklegacydancerjob_more",
                     "chance": 70
                 }
             ],
             "startdescription": "The stage awaits, hot and clean and bare and bright. If I move the moves and step the steps and do what is required, they'll pay me.",
             "description": ".",
             "effects": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "warmup": 45,
             "craftable": true
         },
         {
-            "id": "r_worklegacydancerjob_more",
+            "id": "worklegacydancerjob_more",
             "actionid": "work_r",
             "label": "An Opportunity at the Gaiety Theatre",
             "startdescription": "Tonight I sense opportunity. Tonight I could attract attention, if I cease to hold back, if I commit myself more fully.",
@@ -229,7 +229,7 @@
             "comments": "the better outcomes require heart or moth 2: enough for abilities or for restlessness, too much for fatigue",
             "slots": [
                 {
-                    "id": "r_more",
+                    "id": "more",
                     "label": "Extra Effort",
                     "required": {
                         "ability": 1,
@@ -239,30 +239,30 @@
             ],
             "alt": [
                 {
-                    "id": "r_A_worklegacydancerjob_more_benefactorm",
+                    "id": "A_worklegacydancerjob_more_benefactorm",
                     "chance": 50
                 },
                 {
-                    "id": "r_A_worklegacydancerjob_more_benefactorf",
+                    "id": "A_worklegacydancerjob_more_benefactorf",
                     "chance": 70
                 },
                 {
-                    "id": "r_A_worklegacydancerjob_more_ecdysiast",
+                    "id": "A_worklegacydancerjob_more_ecdysiast",
                     "chance": 70
                 },
                 {
-                    "id": "r_A_worklegacydancerjob_more_heart",
+                    "id": "A_worklegacydancerjob_more_heart",
                     "chance": 100
                 },
                 {
-                    "id": "r_A_worklegacydancerjob_more_moth",
+                    "id": "A_worklegacydancerjob_more_moth",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_A_worklegacydancerjob_more_benefactorm",
+            "id": "A_worklegacydancerjob_more_benefactorm",
             "actionid": "work_r",
             "requirements": {
                 "potentialbenefactorm": 1,
@@ -273,26 +273,26 @@
             "description": "A gentleman has prevailed on the stage manager to arrange an introduction to me backstage. He is courteous; he says all the right things about my work; he has brought a gift. He hopes that we can be friends.",
             "effects": {
                 "benefactorm": 1,
-                "r_lmfunds": 2,
+                "lmfunds": 2,
                 "influence": -1
             },
             "mutations": [
                 {
-                    "filter": "r_job",
+                    "filter": "job",
                     "mutate": "potentialbenefactorm",
                     "level": -1
                 }
             ],
             "alt": [
                 {
-                    "id": "r_legacydancer_opentalk",
+                    "id": "legacydancer_opentalk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_A_worklegacydancerjob_more_benefactorf",
+            "id": "A_worklegacydancerjob_more_benefactorf",
             "actionid": "work_r",
             "requirements": {
                 "potentialbenefactorf": 1,
@@ -303,26 +303,26 @@
             "description": "A lady has arranged for us to be introduced in the glittering cafe across the street. She is very complimentary; she listens attentively to everything I say; she has brought a gift. She hopes that we can be friends.",
             "effects": {
                 "benefactorf": 1,
-                "r_lmfunds": 2,
+                "lmfunds": 2,
                 "influence": -1
             },
             "mutations": [
                 {
-                    "filter": "r_job",
+                    "filter": "job",
                     "mutate": "potentialbenefactorf",
                     "level": -1
                 }
             ],
             "alt": [
                 {
-                    "id": "r_legacydancer_opentalk",
+                    "id": "legacydancer_opentalk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_A_worklegacydancerjob_more_ecdysiast",
+            "id": "A_worklegacydancerjob_more_ecdysiast",
             "actionid": "work_r",
             "requirements": {
                 "potentialecdysiast": 1,
@@ -333,26 +333,26 @@
             "description": "A hand-delivered letter, addressed to me. It smells strongly of cigarette smoke and cloves. It reads: 'If you need to talk to someone about your dreams, find me here. Don't call until you're ready.' There is a telephone number and a name: Sulochana.",
             "effects": {
                 "sulochana": 1,
-                "r_lmfunds": 1,
+                "lmfunds": 1,
                 "influence": -1
             },
             "mutations": [
                 {
-                    "filter": "r_job",
+                    "filter": "job",
                     "mutate": "potentialecdysiast",
                     "level": -1
                 }
             ],
             "alt": [
                 {
-                    "id": "r_legacydancer_opentalk",
+                    "id": "legacydancer_opentalk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_A_worklegacydancerjob_more_heart",
+            "id": "A_worklegacydancerjob_more_heart",
             "actionid": "work_r",
             "requirements": {
                 "heart": 2
@@ -361,12 +361,12 @@
             "startdescription": "Tonight, they'll notice that.",
             "description": "I felt all their eyes upon me. Afterwards, I received a gift from an admirer - too gaudy for my tastes, but I can sell it in the second-hand market.",
             "effects": {
-                "r_lmfunds": 1,
+                "lmfunds": 1,
                 "influence": -1
             }
         },
         {
-            "id": "r_A_worklegacydancerjob_more_moth",
+            "id": "A_worklegacydancerjob_more_moth",
             "actionid": "work_r",
             "requirements": {
                 "moth": 2
@@ -375,60 +375,60 @@
             "startdescription": "Tonight, they'll notice that.",
             "description": "I felt all their eyes upon me. Afterwards, I received a gift from an admirer - a little too personal for me to feel comfortable, but I can sell it in the second-hand market.",
             "effects": {
-                "r_lmfunds": 1,
+                "lmfunds": 1,
                 "influence": -1
             }
         },
         {
-            "id": "r_workdancerjobbenefactor",
+            "id": "workdancerjobbenefactor",
             "label": "Perform for a Benefactor",
             "actionid": "work_r",
             "requirements": {
                 "benefactor": 1,
                 "health": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "aspects": {
                 "employment": 1
             },
             "linked": [
                 {
-                    "id": "r_L_workdancerjobbenefactor_discardsme",
+                    "id": "L_workdancerjobbenefactor_discardsme",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_proposes_always",
+                    "id": "L_workdancerjobbenefactor_proposes_always",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_proposes_sometimes",
+                    "id": "L_workdancerjobbenefactor_proposes_sometimes",
                     "chance": 30
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_more_health",
+                    "id": "L_workdancerjobbenefactor_more_health",
                     "chance": 30
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_more_passion",
+                    "id": "L_workdancerjobbenefactor_more_passion",
                     "chance": 30
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_more_funds",
+                    "id": "L_workdancerjobbenefactor_more_funds",
                     "chance": 30
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_more_reason",
+                    "id": "L_workdancerjobbenefactor_more_reason",
                     "chance": 30
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_satisfactory_norequirement",
+                    "id": "L_workdancerjobbenefactor_satisfactory_norequirement",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_bored",
+                    "id": "L_workdancerjobbenefactor_bored",
                     "chance": 100
                 }
             ],
@@ -438,14 +438,14 @@
             "craftable": true
         },
         {
-            "id": "r_L_workdancerjobbenefactor_more_health",
+            "id": "L_workdancerjobbenefactor_more_health",
             "actionid": "work_r",
             "label": "My Benefactor: Energy",
             "startdescription": "Tonight, my Benefactor is full of energy. I should be, too!",
             "description": ".",
             "slots": [
                 {
-                    "id": "r_energy",
+                    "id": "energy",
                     "label": "Energy",
                     "required": {
                         "health": 1
@@ -454,25 +454,25 @@
             ],
             "linked": [
                 {
-                    "id": "r_L_workdancerjobbenefactor_satisfactory_health",
+                    "id": "L_workdancerjobbenefactor_satisfactory_health",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_bored",
+                    "id": "L_workdancerjobbenefactor_bored",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_L_workdancerjobbenefactor_more_passion",
+            "id": "L_workdancerjobbenefactor_more_passion",
             "actionid": "work_r",
             "label": "My Benefactor: Inventiveness",
             "startdescription": "Tonight, my Benefactor would be pleased by inventiveness; enthusiasm; brio. Passion.",
             "description": ".",
             "slots": [
                 {
-                    "id": "r_vivacity",
+                    "id": "vivacity",
                     "label": "Vivacity",
                     "required": {
                         "passion": 1
@@ -481,51 +481,51 @@
             ],
             "linked": [
                 {
-                    "id": "r_L_workdancerjobbenefactor_satisfactory_passion",
+                    "id": "L_workdancerjobbenefactor_satisfactory_passion",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_bored",
+                    "id": "L_workdancerjobbenefactor_bored",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_L_workdancerjobbenefactor_more_funds",
+            "id": "L_workdancerjobbenefactor_more_funds",
             "actionid": "work_r",
             "label": "My Benefactor: Fresh Colours",
             "startdescription": "Tonight, my Benefactor will prefer to see me in something new. I should buy something, quickly...",
             "description": ".",
             "slots": [
                 {
-                    "id": "r_funds",
-                    "label": "r_lmfunds",
+                    "id": "funds",
+                    "label": "lmfunds",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
             "linked": [
                 {
-                    "id": "r_L_workdancerjobbenefactor_satisfactory_funds",
+                    "id": "L_workdancerjobbenefactor_satisfactory_funds",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_bored",
+                    "id": "L_workdancerjobbenefactor_bored",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_L_workdancerjobbenefactor_more_reason",
+            "id": "L_workdancerjobbenefactor_more_reason",
             "actionid": "work_r",
             "label": "My Benefactor: the Life of the Mind",
             "startdescription": "Tonight, my Benefactor's mood is conversational.",
             "slots": [
                 {
-                    "id": "r_L_conversation",
+                    "id": "L_conversation",
                     "label": "Conversation",
                     "required": {
                         "reason": 1
@@ -534,18 +534,18 @@
             ],
             "linked": [
                 {
-                    "id": "r_L_workdancerjobbenefactor_satisfactory_reason",
+                    "id": "L_workdancerjobbenefactor_satisfactory_reason",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_workdancerjobbenefactor_bored",
+                    "id": "L_workdancerjobbenefactor_bored",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_L_workdancerjobbenefactor_satisfactory_health",
+            "id": "L_workdancerjobbenefactor_satisfactory_health",
             "actionid": "work_r",
             "requirements": {
                 "health": 1
@@ -561,11 +561,11 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 5
+                "lmfunds": 5
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_satisfactory_passion",
+            "id": "L_workdancerjobbenefactor_satisfactory_passion",
             "actionid": "work_r",
             "requirements": {
                 "passion": 1
@@ -581,14 +581,14 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 5
+                "lmfunds": 5
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_satisfactory_funds",
+            "id": "L_workdancerjobbenefactor_satisfactory_funds",
             "actionid": "work_r",
             "requirements": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "label": "My Benefactor Watches Me Fondly",
             "description": "I've chosen my attire well for the performance. My benefactor showers me with compliments, and gifts.",
@@ -601,12 +601,12 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 4
+                "lmfunds": 4
             },
             "comments": "only 4 funds; 1 used up"
         },
         {
-            "id": "r_L_workdancerjobbenefactor_satisfactory_reason",
+            "id": "L_workdancerjobbenefactor_satisfactory_reason",
             "actionid": "work_r",
             "requirements": {
                 "reason": 1
@@ -622,11 +622,11 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 5
+                "lmfunds": 5
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_satisfactory_norequirement",
+            "id": "L_workdancerjobbenefactor_satisfactory_norequirement",
             "actionid": "work_r",
             "label": "My Benefactor Finds Me Engaging",
             "startdescription": ".",
@@ -640,11 +640,11 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 5
+                "lmfunds": 5
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_bored",
+            "id": "L_workdancerjobbenefactor_bored",
             "actionid": "work_r",
             "label": "My Benefactor is Restless",
             "description": "For whatever reason, despite my best efforts, my Benefactor does not seem interested in me tonight. They do make an effort to bid me a courteous goodbye, but their customary gift seems like an afterthought.",
@@ -657,14 +657,14 @@
                 }
             ],
             "effects": {
-                "r_lmfunds": 2
+                "lmfunds": 2
             },
             "aspects": {
                 "employment": 1
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_discardsme",
+            "id": "L_workdancerjobbenefactor_discardsme",
             "actionid": "work_r",
             "requirements": {
                 "boredom": 7
@@ -676,11 +676,11 @@
                 "rejection": 1
             },
             "effects": {
-                "r_lmfunds": 2
+                "lmfunds": 2
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_proposes_always",
+            "id": "L_workdancerjobbenefactor_proposes_always",
             "actionid": "work_r",
             "requirements": {
                 "besotment": 10,
@@ -690,7 +690,7 @@
             "startdescription": "They have an air of suppressed excitement tonight.",
             "description": ".",
             "effects": {
-                "r_lmfunds": 5,
+                "lmfunds": 5,
                 "contentment": 1
             },
             "aspects": {
@@ -698,7 +698,7 @@
             }
         },
         {
-            "id": "r_L_workdancerjobbenefactor_proposes_sometimes",
+            "id": "L_workdancerjobbenefactor_proposes_sometimes",
             "actionid": "work_r",
             "requirements": {
                 "besotment": 7,
@@ -708,7 +708,7 @@
             "startdescription": "They have an air of suppressed excitement tonight.",
             "description": ".",
             "effects": {
-                "r_lmfunds": 5,
+                "lmfunds": 5,
                 "contentment": 1
             },
             "aspects": {
@@ -717,14 +717,14 @@
             "comments": "Identical to proposes_always, but with a lower threshold"
         },
         {
-            "id": "r_talk_benefactormarry",
+            "id": "talk_benefactormarry",
             "actionid": "talk_r",
             "requirements": {
                 "benefactor_proposal": 1
             },
             "slots": [
                 {
-                    "id": "r_Yes",
+                    "id": "Yes",
                     "label": "Yes",
                     "required": {
                         "passion": 1
@@ -736,7 +736,7 @@
             "description": "My Benefactor still waits, face clouded.",
             "alt": [
                 {
-                    "id": "r_talk_benefactormarrycomplete",
+                    "id": "talk_benefactormarrycomplete",
                     "chance": 100
                 }
             ],
@@ -744,7 +744,7 @@
             "craftable": true
         },
         {
-            "id": "r_talk_benefactormarrycomplete",
+            "id": "talk_benefactormarrycomplete",
             "actionid": "talk_r",
             "label": "'Yes!'",
             "requirements": {

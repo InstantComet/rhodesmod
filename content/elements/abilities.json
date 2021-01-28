@@ -1,76 +1,76 @@
 {
     "elements": [
         {
-            "id": "r_fleeting",
+            "id": "fleeting",
             "label": "追忆",
             "description": "记忆中的某个瞬间。[研究“追忆”能获得更多“理智”。如果不使用，将会在三分钟后消失。]",
             "aspects": {
-                "r_secrethistories": 2,
-                "r_moth": 2,
-                "r_influence": 1,
-                "r_memory": 1
+                "secrethistories": 2,
+                "moth": 2,
+                "influence": 1,
+                "memory": 1
             },
             "lifetime": "180",
-            "icon":"r_fleeting"
+            "icon":"fleeting"
         },
         {
-            "id": "r_fleetingplus",
+            "id": "fleetingplus",
             "label": "追忆：往日重现",
             "description": "我已经准备好改变了。[与“指挥”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
             "aspects": {
-                "r_secrethistories": 2,
-                "r_moth": 2,
-                "r_influence": 1,
-                "r_memory": 1
+                "secrethistories": 2,
+                "moth": 2,
+                "influence": 1,
+                "memory": 1
             },
             "lifetime": "180",
-            "icon":"r_fleeting"
+            "icon":"fleeting"
         },
         {
-            "id": "r_introsanity",
+            "id": "introsanity",
             "label": "理智",
             "aspects": {
-                "r_lantern": 2,
-                "r_ingredient": 1,
-                "r_ability": 1
+                "lantern": 2,
+                "ingredient": 1,
+                "ability": 1
             },
             "animFrames": 1,
             "description": "你的全部。",
             "icon": "sanity"
         },
         {
-            "id": "r_lmfunds",
+            "id": "lmfunds",
             "label": "龙门币",
             "aspects": {
-                "r_ingredient": 1
+                "ingredient": 1
             },
             "description": "由龙门发行的货币，用途广泛。——字条上这么写着。"
         },
         {
-            "id": "r_originium",
+            "id": "originium",
             "label": "至纯源石",
             "aspects": {
-                "r_ingredient": 1,
-                "r_gift": 1
+                "ingredient": 1,
+                "gift": 1
             },
             "description": "危险而又必不可少的物质。"
         },
         {
-            "id": "r_closuretoken",
+            "id": "closuretoken",
             "label": "可露希尔的兑换券",
             "aspects": {
-                "r_ingredient": 1,
-                "r_gift": 1
+                "ingredient": 1,
+                "gift": 1
             },
             "description": "……"
         },
         {
-            "id": "r_sanity",
+            "id": "sanity",
             "label": "理智",
             "aspects": {
-                "r_lantern": 2,
-                "r_ingredient": 1,
-                "r_ability": 1
+                "lantern": 2,
+                "ingredient": 1,
+                "ability": 1
             },
             "animFrames": 1,
             "description": "你的全部。",
@@ -78,25 +78,25 @@
             "xtriggers": {
                 "job": [
                     {
-                        "id": "r_losesanity"
+                        "id": "losesanity"
                     }
                 ]
             }
         },
         {
-            "id": "r_losesanity",
+            "id": "losesanity",
             "label": "理智[丧失]",
             "description": "我失去了一部分的理智。[此卡不可使用，将于六十秒后复原。]",
             "aspects": {
-                "r_illsanity": 1
+                "illsanity": 1
             },
             "lifetime": 60,
-            "decayTo": "r_sanity",
+            "decayTo": "sanity",
             "icon": "sanity",
             "xtriggers": {},
             "slots": [
                 {
-                    "id": "r_eatrhodesfood",
+                    "id": "eatrhodesfood",
                     "label": "吃食物",
                     "actionId": "dream_r",
                     "description": "我可以吃点",
@@ -108,18 +108,18 @@
             "resaturate": true
         },
         {
-            "id": "r_contentment",
+            "id": "contentment",
             "label": "安逸",
             "aspects": {
-                "r_lantern": 2,
-                "r_heart": 2,
-                "r_influence": 1
+                "lantern": 2,
+                "heart": 2,
+                "influence": 1
             },
             "description": "我很开心，大概吧。[安逸可以通过入梦迅速回复理智。]",
             "lifetime": 60
         },
         {
-            "id": "r_hunger",
+            "id": "hunger",
             "label": "Hunger",
             "aspects": {
                 "illhealth": 1,
@@ -128,12 +128,12 @@
             },
             "slots": [
                 {
-                    "id": "r_nourishment",
+                    "id": "nourishment",
                     "label": "Nourishment",
                     "actionid": "dream_r",
                     "description": "To recover, I must eat.",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -146,7 +146,7 @@
             "decayTo": "decrepitude"
         },
         {
-            "id": "r_health",
+            "id": "health",
             "label": "Health",
             "aspects": {
                 "heart": 2,
@@ -159,7 +159,7 @@
                 "destroyhealth": "decrepitude",
                 "fatiguing": "fatigue",
                 "employment": "fatigue",
-                "r_job": "fatigue",
+                "job": "fatigue",
                 "ritual": "fatigue",
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
@@ -167,11 +167,11 @@
             "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]"
         },
         {
-            "id": "r_vitality",
+            "id": "vitality",
             "label": "Vitality",
             "slots": [
                 {
-                    "id": "r_morevitality",
+                    "id": "morevitality",
                     "label": "More Vitality",
                     "actionid": "study_r",
                     "description": "With enough Vitality - or sometimes something more exotic - I can increase my Health.",
@@ -193,7 +193,7 @@
             "lifetime": 180
         },
         {
-            "id": "r_vitalityplus",
+            "id": "vitalityplus",
             "label": "Vitality: a Lesson Learnt ",
             "aspects": {
                 "advancement": 1,
@@ -208,7 +208,7 @@
             "decayTo": "vitality"
         },
         {
-            "id": "r_restlessness",
+            "id": "restlessness",
             "label": "Restlessness",
             "aspects": {
                 "influence": 1,
@@ -224,13 +224,13 @@
             "decayTo": "dread"
         },
         {
-            "id": "r_bloodshed",
+            "id": "bloodshed",
             "label": "Bloodshed",
             "description": "Blood has been spilt.",
             "lifetime": 1
         },
         {
-            "id": "r_injury",
+            "id": "injury",
             "label": "An Injury",
             "aspects": {
                 "illhealth": 1,
@@ -239,16 +239,16 @@
             },
             "slots": [
                 {
-                    "id": "r_medicines",
+                    "id": "medicines",
                     "label": "Medicines, or...",
                     "actionid": "dream_r",
                     "description": "I could pay for a doctor's visit...",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 },
                 {
-                    "id": "r_vitality",
+                    "id": "vitality",
                     "label": "...Vitality",
                     "description": "...but perhaps I just need a little rest.",
                     "required": {
@@ -266,7 +266,7 @@
             "decayTo": "decrepitude"
         },
         {
-            "id": "r_disillusionment",
+            "id": "disillusionment",
             "label": "Passion (Disillusioned)",
             "description": "I have gone against my own principles, or my own preferences. [This card can't be used, but it will recover after sixty seconds.]",
             "lifetime": 60,
@@ -280,7 +280,7 @@
             "resaturate": true
         },
         {
-            "id": "r_passionexhausted",
+            "id": "passionexhausted",
             "label": "Passion (Exhausted)",
             "description": "My passions burn low. [This card can't be used, but it will recover after sixty seconds.]",
             "lifetime": 60,
@@ -294,7 +294,7 @@
             "resaturate": true
         },
         {
-            "id": "r_fatigue",
+            "id": "fatigue",
             "label": "Health (Fatigued)",
             "aspects": {
                 "illhealth": 1,
@@ -314,7 +314,7 @@
             "resaturate": true
         },
         {
-            "id": "r_affliction",
+            "id": "affliction",
             "label": "An Affliction",
             "aspects": {
                 "illhealth": 1,
@@ -327,16 +327,16 @@
             },
             "slots": [
                 {
-                    "id": "r_medicine",
+                    "id": "medicine",
                     "label": "Medicines, or...",
                     "actionid": "dream_r",
                     "description": "I could pay for a doctor's visit...",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 },
                 {
-                    "id": "r_vitality",
+                    "id": "vitality",
                     "label": "...Vitality",
                     "actionid": "dream_r",
                     "description": "...but perhaps I just need a little rest.",
@@ -350,7 +350,7 @@
             "decayTo": "decrepitude"
         },
         {
-            "id": "r_reason",
+            "id": "reason",
             "label": "Reason",
             "aspects": {
                 "lantern": 2,
@@ -362,7 +362,7 @@
                 "damagereason": "dread",
                 "fatiguing": "concentration",
                 "employment": "concentration",
-                "r_job": "concentration",
+                "job": "concentration",
                 "topassion": "passion",
                 "ritual": "concentration",
                 "society": "concentration",
@@ -370,7 +370,7 @@
             }
         },
         {
-            "id": "r_concentration",
+            "id": "concentration",
             "label": "Reason [Dimmed]",
             "description": "My mind is weary. [This card can't be used, but it will recover after \n\nsixty seconds.]",
             "lifetime": 60,
@@ -384,11 +384,11 @@
             "resaturate": true
         },
         {
-            "id": "r_erudition",
+            "id": "erudition",
             "label": "Erudition",
             "slots": [
                 {
-                    "id": "r_moreerudition",
+                    "id": "moreerudition",
                     "label": "More Erudition",
                     "actionid": "study_r",
                     "description": "With enough Erudition - or sometimes something more exotic -  I can increase my Reason.",
@@ -410,7 +410,7 @@
             }
         },
         {
-            "id": "r_eruditionplus",
+            "id": "eruditionplus",
             "label": "Erudition: a Lesson Learnt",
             "aspects": {
                 "advancement": 1,
@@ -425,7 +425,7 @@
             "decayTo": "erudition"
         },
         {
-            "id": "r_dread",
+            "id": "dread",
             "label": "Dread",
             "aspects": {
                 "edge": 2,
@@ -436,7 +436,7 @@
             },
             "slots": [
                 {
-                    "id": "r_reminders",
+                    "id": "reminders",
                     "label": "Reminders",
                     "actionid": "dream_r",
                     "required": {
@@ -445,7 +445,7 @@
                     "description": "I need a little peace, or a moment of happiness. [Too much Dread will destroy you. Contentment can cure it.]"
                 },
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Perhaps I can use my Dread to strengthen a dangerous influence.",
                     "required": {
@@ -455,7 +455,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -476,7 +476,7 @@
             }
         },
         {
-            "id": "r_passion",
+            "id": "passion",
             "label": "Passion",
             "aspects": {
                 "moth": 2,
@@ -489,14 +489,14 @@
                 "plead": "disillusionment",
                 "fatiguing": "passionexhausted",
                 "employment": "passionexhausted",
-                "r_job": "passionexhausted",
+                "job": "passionexhausted",
                 "toreason": "reason",
                 "ritual": "passionexhausted",
                 "society": "passionexhausted"
             }
         },
         {
-            "id": "r_decrepitude",
+            "id": "decrepitude",
             "label": "Decrepitude",
             "description": "Some wounds never quite heal. [Untreated Injuries and Hunger become Decrepitude, which does not return to Health. Decrepitude remains until you die.]",
             "aspects": {
@@ -510,7 +510,7 @@
             },
             "slots": [
                 {
-                    "id": "r_consume",
+                    "id": "consume",
                     "label": "Consume",
                     "required": {
                         "ingredient": 1
@@ -523,11 +523,11 @@
             ]
         },
         {
-            "id": "r_glimmering",
+            "id": "glimmering",
             "label": "Glimmering",
             "slots": [
                 {
-                    "id": "r_moreglimmering",
+                    "id": "moreglimmering",
                     "label": "More Glimmering",
                     "actionid": "study_r",
                     "description": "With enough Glimmering - or sometimes something more exotic - I can increase my Passion.",
@@ -549,7 +549,7 @@
             }
         },
         {
-            "id": "r_glimmeringplus",
+            "id": "glimmeringplus",
             "label": "Glimmering: a Lesson Learnt",
             "aspects": {
                 "advancement": 1,
@@ -564,7 +564,7 @@
             "decayTo": "glimmering"
         },
         {
-            "id": "r_fascination",
+            "id": "fascination",
             "label": "Fascination",
             "aspects": {
                 "moth": 2,
@@ -574,7 +574,7 @@
             },
             "slots": [
                 {
-                    "id": "r_reminders",
+                    "id": "reminders",
                     "label": "Reminders",
                     "required": {
                         "dread": 1,
@@ -584,7 +584,7 @@
                     "description": "Grey reality will steady my soul."
                 },
                 {
-                    "id": "r_with",
+                    "id": "with",
                     "label": "With",
                     "description": "Perhaps I can use my Fascination to strengthen a tempting influence.",
                     "required": {
@@ -594,7 +594,7 @@
                     "actionid": "study_r"
                 },
                 {
-                    "id": "r_knowledge",
+                    "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
                     "required": {
@@ -614,14 +614,14 @@
             }
         },
         {
-            "id": "r_scholarlatin",
+            "id": "scholarlatin",
             "label": "Scholar: Latin",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textlatin": 1
@@ -633,14 +633,14 @@
             "unique": true
         },
         {
-            "id": "r_scholarfucine",
+            "id": "scholarfucine",
             "label": "Scholar: Fucine",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textfucine": 1
@@ -652,14 +652,14 @@
             "unique": true
         },
         {
-            "id": "r_scholargreek",
+            "id": "scholargreek",
             "label": "Scholar: Greek",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textgreek": 1
@@ -671,11 +671,11 @@
             "unique": true
         },
         {
-            "id": "r_scholarphrygian",
+            "id": "scholarphrygian",
             "label": "Scholar: Phrygian",
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textphrygian": 1
@@ -690,11 +690,11 @@
             "unique": true
         },
         {
-            "id": "r_scholararamaic",
+            "id": "scholararamaic",
             "label": "Scholar: Aramaic",
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textaramaic": 1
@@ -709,11 +709,11 @@
             "unique": true
         },
         {
-            "id": "r_scholarmandaic",
+            "id": "scholarmandaic",
             "label": "Scholar: Deep Mandaic",
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textmandaic": 1
@@ -728,11 +728,11 @@
             "unique": true
         },
         {
-            "id": "r_scholarsanskrit",
+            "id": "scholarsanskrit",
             "label": "Scholar: Sanskrit",
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textsanskrit": 1
@@ -747,11 +747,11 @@
             "unique": true
         },
         {
-            "id": "r_scholarvak",
+            "id": "scholarvak",
             "label": "Scholar: Vak",
             "slots": [
                 {
-                    "id": "r_Text",
+                    "id": "Text",
                     "label": "Untranslated Text",
                     "required": {
                         "textvak": 1
@@ -766,7 +766,7 @@
             "unique": true
         },
         {
-            "id": "r_scar_edge",
+            "id": "scar_edge",
             "label": "Scar: Brutal Experience",
             "description": "FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [You've made a permanent sacrifice for power.]",
             "aspects": {
@@ -776,7 +776,7 @@
             }
         },
         {
-            "id": "r_scar_knock",
+            "id": "scar_knock",
             "label": "Scar: Half-Healed Fistula",
             "description": "Not all doors are wounds; but all wounds are doors. [You've made a permanent sacrifice for power.]",
             "aspects": {
@@ -786,7 +786,7 @@
             }
         },
         {
-            "id": "r_scar_winter",
+            "id": "scar_winter",
             "label": "Scar: Old Wound",
             "description": "Step closer to the sunset, and see the first stars of night. [You've made a permanent sacrifice for power.]",
             "aspects": {
@@ -796,7 +796,7 @@
             }
         },
         {
-            "id": "r_scar_heart",
+            "id": "scar_heart",
             "label": "Scar: A Wandering Heart",
             "description": "I have so much life in me. It is difficult not to move. When I sit, my joints burn. I know that if I stop, I might stop for always. [You've made a permanent sacrifice for power. Be careful: unlike Health, this card will not satisfy Sickness or Starvation.]",
             "aspects": {
@@ -805,13 +805,13 @@
                 "scar": 1
             },
             "xtriggers": {
-                "r_job": "scar_heart_fatigued",
+                "job": "scar_heart_fatigued",
                 "employment": "scar_heart_fatigued",
                 "ritual": "scar_heart_fatigued"
             }
         },
         {
-            "id": "r_scar_heart_fatigued",
+            "id": "scar_heart_fatigued",
             "label": "Scar: A Wandering Heart (Strained)",
             "description": "My arteries sing, my veins burn. I cannot push myself any further. [Wait.]",
             "decayTo": "scar_heart",
@@ -819,7 +819,7 @@
             "resaturate": true
         },
         {
-            "id": "r_scar_moth",
+            "id": "scar_moth",
             "label": "Scar: A Flexible Aspect",
             "description": "I've worn so many guises. With each new guise it is harder to recall my original face. Even the cartilage softens when my tempers are high. [You've made a permanent sacrifice for power.]",
             "aspects": {
@@ -828,13 +828,13 @@
                 "scar": 1
             },
             "xtriggers": {
-                "r_job": "scar_moth_fatigued",
+                "job": "scar_moth_fatigued",
                 "employment": "scar_moth_fatigued",
                 "ritual": "scar_moth_fatigued"
             }
         },
         {
-            "id": "r_scar_moth_fatigued",
+            "id": "scar_moth_fatigued",
             "label": "Scar: A Flexible Aspect (Strained)",
             "description": "With each new expression my features ripple like water. If I am not careful I shall entirely dissolve. [Wait.]",
             "decayTo": "scar_moth",
@@ -842,7 +842,7 @@
             "resaturate": true
         },
         {
-            "id": "r_scar_lantern",
+            "id": "scar_lantern",
             "label": "Scar: A Translucency",
             "description": "Sometimes now I am beautiful beneath my skin. When I bend to the right angle - when my garments falls aside - when the eye is keen - my shape is a perfect revelation. [You've made a permanent sacrifice for power.]",
             "aspects": {

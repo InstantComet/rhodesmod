@@ -1,14 +1,14 @@
 {
   "recipes": [
     {
-      "id": "r_dbarsacrossthesun",
+      "id": "dbarsacrossthesun",
       "label": "Not 2",
       "actionId": "escape",
       "startdescription": "garbanzo",
       "warmup": 2,
       "linked": [
         {
-          "id": "r_dbarsacrossthesunnier",
+          "id": "dbarsacrossthesunnier",
           "label": "Not 3",
           "startdescription": "cicero",
           "warmup":10

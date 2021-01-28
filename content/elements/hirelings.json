@@ -1,12 +1,12 @@
 {
     "elements": [
         {
-            "id": "r_thugedgeminor",
+            "id": "thugedgeminor",
             "label": "A Hulking Fellow",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "edge": 3
             },
             "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -19,12 +19,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thugmothminor",
+            "id": "thugmothminor",
             "label": "A Shifty Woman",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "moth": 3
             },
             "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -37,12 +37,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thugedge",
+            "id": "thugedge",
             "label": "Professional Muscle",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "edge": 5
             },
             "description": "'I'll break them in half.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -55,12 +55,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thugforgeedge",
+            "id": "thugforgeedge",
             "label": "A Bomb-Maker",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "forge": 5,
                 "edge": 3
             },
@@ -74,12 +74,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thugknock",
+            "id": "thugknock",
             "label": "An Entry Consultant",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "knock": 5
             },
             "description": "'I'm good with doors. [This Hireling may be useful for some Expeditions.]'",
@@ -92,12 +92,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thuglanternmoth",
+            "id": "thuglanternmoth",
             "label": "A Fortune-Teller",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "lantern": 5,
                 "moth": 3
             },
@@ -111,12 +111,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_thugmoth",
+            "id": "thugmoth",
             "label": "An Experienced Swindler",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "moth": 5,
                 "grail": 1
             },

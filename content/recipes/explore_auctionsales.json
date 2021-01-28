@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_auctionentry6",
+            "id": "auctionentry6",
             "label": "Sell Something of Great Value",
             "actionid": "explore_r",
             "requirements": {
@@ -9,15 +9,15 @@
                 "auctionable": 6
             },
             "effects": {
-                "r_lmfunds": 20
+                "lmfunds": 20
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increasegrand",
+                    "id": "auctionsell_increasegrand",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -26,7 +26,7 @@
             "craftable": true
         },
         {
-            "id": "r_auctionentry5",
+            "id": "auctionentry5",
             "label": "Sell Something of Rare Value",
             "actionid": "explore_r",
             "requirements": {
@@ -34,15 +34,15 @@
                 "auctionable": 5
             },
             "effects": {
-                "r_lmfunds": 16
+                "lmfunds": 16
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increasemajor",
+                    "id": "auctionsell_increasemajor",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -51,7 +51,7 @@
             "craftable": true
         },
         {
-            "id": "r_auctionentry4",
+            "id": "auctionentry4",
             "label": "Sell Something of Significant Value",
             "actionid": "explore_r",
             "requirements": {
@@ -59,15 +59,15 @@
                 "auctionable": 4
             },
             "effects": {
-                "r_lmfunds": 8
+                "lmfunds": 8
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increasemajor",
+                    "id": "auctionsell_increasemajor",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -76,7 +76,7 @@
             "craftable": true
         },
         {
-            "id": "r_auctionentry3",
+            "id": "auctionentry3",
             "label": "Sell Something of Real Value",
             "actionid": "explore_r",
             "requirements": {
@@ -84,15 +84,15 @@
                 "auctionable": 3
             },
             "effects": {
-                "r_lmfunds": 4
+                "lmfunds": 4
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increaseminor",
+                    "id": "auctionsell_increaseminor",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -101,7 +101,7 @@
             "craftable": true
         },
         {
-            "id": "r_auctionentry2",
+            "id": "auctionentry2",
             "label": "Sell Something of Some Value",
             "actionid": "explore_r",
             "requirements": {
@@ -109,15 +109,15 @@
                 "auctionable": 2
             },
             "effects": {
-                "r_lmfunds": 2
+                "lmfunds": 2
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increaseminor",
+                    "id": "auctionsell_increaseminor",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -126,7 +126,7 @@
             "craftable": true
         },
         {
-            "id": "r_auctionentry1",
+            "id": "auctionentry1",
             "label": "Sell Something of Minimal Value",
             "actionid": "explore_r",
             "requirements": {
@@ -134,19 +134,19 @@
                 "auctionable": 1
             },
             "effects": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "linked": [
                 {
-                    "id": "r_auctionsell_increasepetty",
+                    "id": "auctionsell_increasepetty",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctionsell_worthless",
+                    "id": "auctionsell_worthless",
                     "chance": 30
                 },
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
@@ -155,88 +155,88 @@
             "craftable": true
         },
         {
-            "id": "r_auctionsell_worthless",
+            "id": "auctionsell_worthless",
             "label": "Auction: A Total Lack of Interest",
             "actionid": "explore_r",
             "startdescription": "No-one is impressed. The auctioneer's gavel bangs. My item has sold, but for a sum so trifling as not to be worth recording.",
             "linked": [
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
             "effects": {
-                "r_lmfunds": -99,
+                "lmfunds": -99,
                 "auctionable": -99
             },
             "warmup": 30
         },
         {
-            "id": "r_auctionsell_increasepetty",
+            "id": "auctionsell_increasepetty",
             "label": "Auction: Murmurings in the Audience",
             "actionid": "explore_r",
             "startdescription": "For whatever unlikely reason, my item has caught the fancy of the bidders.",
             "linked": [
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
             "effects": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "warmup": 30
         },
         {
-            "id": "r_auctionsell_increaseminor",
+            "id": "auctionsell_increaseminor",
             "label": "Auction: Energetic Bidding",
             "actionid": "explore_r",
             "startdescription": "Some of the audience are on their feet, now. Passions are rising.",
             "linked": [
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
             "effects": {
-                "r_lmfunds": 2
+                "lmfunds": 2
             },
             "warmup": 30
         },
         {
-            "id": "r_auctionsell_increasemajor",
+            "id": "auctionsell_increasemajor",
             "label": "Auction: Shouts of Excitement",
             "actionid": "explore_r",
             "startdescription": "The auctioneer has to raise his voice over the hubbub of the crowd.",
             "linked": [
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
             "effects": {
-                "r_lmfunds": 4
+                "lmfunds": 4
             },
             "warmup": 30
         },
         {
-            "id": "r_auctionsell_increasegrand",
+            "id": "auctionsell_increasegrand",
             "label": "Auction: Duelling Bidders",
             "actionid": "explore_r",
             "startdescription": "Two wealthy collectors lock eyes with the auctioneer, signalling their intentions with the slightest nods. Except for the auctioneer's grave tones, the room is utterly silent.",
             "effects": {
-                "r_lmfunds": 8
+                "lmfunds": 8
             },
             "linked": [
                 {
-                    "id": "r_auctioncleanup",
+                    "id": "auctioncleanup",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_auctioncleanup",
+            "id": "auctioncleanup",
             "label": "The Auction is Complete",
             "actionid": "explore_r",
             "description": "The auctioneer's gavel bangs. My item has sold.",

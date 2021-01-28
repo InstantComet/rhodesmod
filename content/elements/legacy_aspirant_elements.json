@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_bequestintro",
+            "id": "bequestintro",
             "label": "A Bequest",
             "aspects": {
                 "legacyplotitem": 1
@@ -9,7 +9,7 @@
             "description": "A package of peculiar papers from my correspondent's executor. I must STUDY it, using either Passion or Reason.",
             "slots": [
                 {
-                    "id": "r_Approach",
+                    "id": "Approach",
                     "label": "Approach",
                     "actionid": "study_r",
                     "required": {
@@ -21,15 +21,15 @@
             ]
         },
         {
-            "id": "r_introjob",
+            "id": "introjob",
             "label": "Menial Employment",
             "description": "A precarious position as a hospital porter. Miserable, but it's all you can find just now.",
             "aspects": {
-                "r_job": 1
+                "job": 1
             }
         },
         {
-            "id": "r_contactintro",
+            "id": "contactintro",
             "aspects": {
                 "legacyplotitem": 1
             },

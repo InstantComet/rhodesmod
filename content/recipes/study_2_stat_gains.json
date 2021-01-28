@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_studyincreasehealthstarter",
+            "id": "studyincreasehealthstarter",
             "label": "Exercise the Body",
             "actionid": "study_r",
             "requirements": {
@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasevitalitytoplus",
+            "id": "studyincreasevitalitytoplus",
             "label": "Exercise the Body",
             "actionid": "study_r",
             "requirements": {
@@ -35,7 +35,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasevitalitywithinfluencehearttoplus",
+            "id": "studyincreasevitalitywithinfluencehearttoplus",
             "label": "Exercise the Body",
             "actionid": "study_r",
             "requirements": {
@@ -53,7 +53,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskilla",
+            "id": "studyincreasehealthskilla",
             "label": "Exercise the Body: Stronger...",
             "actionid": "study_r",
             "requirements": {
@@ -72,7 +72,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskillb",
+            "id": "studyincreasehealthskillb",
             "label": "Exercise the Body:  Stronger Yet...",
             "actionid": "study_r",
             "requirements": {
@@ -91,7 +91,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskill_to_d_edge",
+            "id": "studyincreasehealthskill_to_d_edge",
             "label": "Exercise the Body: A Higher Strength",
             "actionid": "study_r",
             "requirements": {
@@ -111,7 +111,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskill_to_d_forge",
+            "id": "studyincreasehealthskill_to_d_forge",
             "label": "Exercise the Body: A Higher Strength",
             "actionid": "study_r",
             "requirements": {
@@ -131,7 +131,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskill_to_d_grail",
+            "id": "studyincreasehealthskill_to_d_grail",
             "label": "Exercise the Body: A Deeper Grace",
             "actionid": "study_r",
             "requirements": {
@@ -151,7 +151,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskill_to_d_heart",
+            "id": "studyincreasehealthskill_to_d_heart",
             "label": "Exercise the Body: A Deeper Grace",
             "actionid": "study_r",
             "requirements": {
@@ -172,7 +172,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasehealthskill_to_d_moth",
+            "id": "studyincreasehealthskill_to_d_moth",
             "label": "Exercise the Body: A Deeper Grace",
             "actionid": "study_r",
             "requirements": {
@@ -192,7 +192,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonstarter",
+            "id": "studyincreasereasonstarter",
             "label": "Exercise the Mind",
             "actionid": "study_r",
             "requirements": {
@@ -210,7 +210,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreaseeruditiontoplus",
+            "id": "studyincreaseeruditiontoplus",
             "label": "Exercise the Mind",
             "actionid": "study_r",
             "requirements": {
@@ -226,7 +226,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreaseeruditionwithlanterninfluencetoplus",
+            "id": "studyincreaseeruditionwithlanterninfluencetoplus",
             "label": "The Light of the Mind",
             "actionid": "study_r",
             "requirements": {
@@ -244,7 +244,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskilla",
+            "id": "studyincreasereasonskilla",
             "label": "Exercise the Mind: Wiser...",
             "actionid": "study_r",
             "requirements": {
@@ -263,7 +263,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskillb",
+            "id": "studyincreasereasonskillb",
             "label": "Exercise the Mind:  Wisest...",
             "actionid": "study_r",
             "requirements": {
@@ -282,7 +282,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_lantern",
+            "id": "studyincreasereasonskill_to_d_lantern",
             "label": "Exercise the Mind: A Brighter Illumination",
             "actionid": "study_r",
             "requirements": {
@@ -302,7 +302,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_winter",
+            "id": "studyincreasereasonskill_to_d_winter",
             "label": "Exercise the Mind: A Deeper Concentration",
             "actionid": "study_r",
             "requirements": {
@@ -322,7 +322,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_knock",
+            "id": "studyincreasereasonskill_to_d_knock",
             "label": "Exercise the Mind: A Brighter Illumination",
             "actionid": "study_r",
             "requirements": {
@@ -342,7 +342,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_secrethistories",
+            "id": "studyincreasereasonskill_to_d_secrethistories",
             "label": "Exercise the Mind: A Deeper Concentration",
             "actionid": "study_r",
             "requirements": {
@@ -362,7 +362,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_forge",
+            "id": "studyincreasereasonskill_to_d_forge",
             "label": "Exercise the Mind: A Brighter Illumination",
             "actionid": "study_r",
             "requirements": {
@@ -382,7 +382,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasereasonskill_to_d_edge",
+            "id": "studyincreasereasonskill_to_d_edge",
             "label": "Exercise the Mind: A Deeper Concentration",
             "actionid": "study_r",
             "requirements": {
@@ -402,7 +402,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionstarter",
+            "id": "studyincreasepassionstarter",
             "label": "Feed my Imagination",
             "actionid": "study_r",
             "requirements": {
@@ -420,7 +420,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreaseglimmeringtoplus",
+            "id": "studyincreaseglimmeringtoplus",
             "label": "Feed my Imagination",
             "actionid": "study_r",
             "requirements": {
@@ -436,7 +436,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreaseglimmeringwithmothinfluencetoplus",
+            "id": "studyincreaseglimmeringwithmothinfluencetoplus",
             "label": "Feed my Imagination",
             "actionid": "study_r",
             "requirements": {
@@ -454,7 +454,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskilla",
+            "id": "studyincreasepassionskilla",
             "label": "Feed my Imagination: Fiercer...",
             "actionid": "study_r",
             "requirements": {
@@ -473,7 +473,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskillb",
+            "id": "studyincreasepassionskillb",
             "label": "Feed my Imagination:  Fiercest...",
             "actionid": "study_r",
             "requirements": {
@@ -492,7 +492,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskill_to_d_moth",
+            "id": "studyincreasepassionskill_to_d_moth",
             "label": "Exercise the Imagination: Unreason",
             "actionid": "study_r",
             "requirements": {
@@ -512,7 +512,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskill_to_d_heart",
+            "id": "studyincreasepassionskill_to_d_heart",
             "label": "Exercise the Imagination: Unreason",
             "actionid": "study_r",
             "requirements": {
@@ -532,7 +532,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskill_to_d_knock",
+            "id": "studyincreasepassionskill_to_d_knock",
             "label": "Exercise the Imagination: Folly",
             "actionid": "study_r",
             "requirements": {
@@ -552,7 +552,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyincreasepassionskill_to_d_grail",
+            "id": "studyincreasepassionskill_to_d_grail",
             "label": "Exercise the Imagination: Folly",
             "actionid": "study_r",
             "requirements": {
@@ -572,7 +572,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyhealth",
+            "id": "studyhealth",
             "label": "Fresh Air and Exercise",
             "actionid": "study_r",
             "requirements": {
@@ -589,7 +589,7 @@
             "craftable": true
         },
         {
-            "id": "r_studyreason",
+            "id": "studyreason",
             "label": "Read Whatever Is To Hand",
             "actionid": "study_r",
             "requirements": {
@@ -606,7 +606,7 @@
             "craftable": true
         },
         {
-            "id": "r_studypassion",
+            "id": "studypassion",
             "label": "Read Sentimental Literature",
             "actionid": "study_r",
             "requirements": {

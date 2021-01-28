@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_ambition.apostlelantern.emitfuel",
+            "id": "ambition.apostlelantern.emitfuel",
             "actionid": "work_r",
             "label": "A Vision from the Illuminated One",
             "requirements": {
@@ -13,7 +13,7 @@
             }
         },
         {
-            "id": "r_work.apostlelantern.majorvictory.postbetrayal",
+            "id": "work.apostlelantern.majorvictory.postbetrayal",
             "actionid": "work_r",
             "label": "And Yet, The Gate Opens Outwards",
             "extantreqs": {
@@ -34,7 +34,7 @@
             "ending": "majorlanternvictory"
         },
         {
-            "id": "r_work.apostlelantern.majorvictory",
+            "id": "work.apostlelantern.majorvictory",
             "actionid": "work_r",
             "label": "The Gate Opens Outwards",
             "extantreqs": {
@@ -55,7 +55,7 @@
             "ending": "majorlanternvictory"
         },
         {
-            "id": "r_apostlelantern.createpillar2",
+            "id": "apostlelantern.createpillar2",
             "actionid": "dream_r",
             "label": "Locate the Crossroads",
             "startdescription": "Behind the Peacock Door, Wormwards of the Chamber of Ways, two roads cross at the shadow of an oak.",
@@ -71,7 +71,7 @@
             "warmup": 60
         },
         {
-            "id": "r_apostlelantern.createpillar3.hint2",
+            "id": "apostlelantern.createpillar3.hint2",
             "actionid": "dream_r",
             "label": "Seed the Allure?",
             "startdescription": "Press the dream of a key into the soft soil of the crossroads. Bathe it the keenest radiance we can muster. What will grow?",
@@ -82,7 +82,7 @@
             "hintonly": true
         },
         {
-            "id": "r_apostlelantern.createpillar3.hint1",
+            "id": "apostlelantern.createpillar3.hint1",
             "actionid": "dream_r",
             "label": "Seed the Allure?",
             "startdescription": "When the dream of the key next comes, I will bring it to the Crossroads.",
@@ -92,7 +92,7 @@
             "hintonly": true
         },
         {
-            "id": "r_apostlelantern.createpillar3",
+            "id": "apostlelantern.createpillar3",
             "actionid": "dream_r",
             "label": "Seed the Allure",
             "startdescription": "Press the dream of a key into the soft soil of the crossroads. Bathe it in the Watchman's light. A shining tree will uncoil, with a radiant harvest in its branches.",
@@ -111,7 +111,7 @@
             "craftable": true
         },
         {
-            "id": "r_apostlelantern.maintainpillar3.hint",
+            "id": "apostlelantern.maintainpillar3.hint",
             "actionid": "study_r",
             "label": "Maintain the Allure?",
             "startdescription": "The Allure will wither... unless it is watered with the correct colours.",
@@ -121,7 +121,7 @@
             "hintonly": true
         },
         {
-            "id": "r_apostlelantern.maintainpillar3",
+            "id": "apostlelantern.maintainpillar3",
             "actionid": "study_r",
             "label": "Maintain the Allure",
             "startdescription": "In the blue dream of the Mansus, it is sometimes possible to carry light in one's cupped hands.",
@@ -140,7 +140,7 @@
             "craftable": true
         },
         {
-            "id": "r_apostlelantern.usepillar3",
+            "id": "apostlelantern.usepillar3",
             "actionid": "talk_r",
             "label": "Send a Maid-in-the-Mirror to lure a Witness",
             "startdescription": "My Maid will lead the sleeping soul through the White Door, and bear them up the Ascent of Knives, until what is left of it sees the Allure at the Crossroads.",
@@ -150,12 +150,12 @@
             },
             "linked": [
                 {
-                    "id": "r_apostlelantern.trycreatepillar4"
+                    "id": "apostlelantern.trycreatepillar4"
                 }
             ]
         },
         {
-            "id": "r_apostlelantern.trycreatepillar4",
+            "id": "apostlelantern.trycreatepillar4",
             "actionid": "talk_r",
             "label": "Send a Maid-in-the-Mirror to lure a Witness",
             "startdescription": "The Maid murmurs the lesser elements of the Mantra of Ascent. She places her pale feet carefully on the stones of the road: they leave no print. The Witness' feet are spotted with blood.",
@@ -167,7 +167,7 @@
             },
             "slots": [
                 {
-                    "id": "r_pillar4",
+                    "id": "pillar4",
                     "label": "Witnesses",
                     "required": {
                         "uqthirdwaywitnesses": 1
@@ -177,13 +177,13 @@
             ],
             "alt": [
                 {
-                    "id": "r_apostlelantern.upgradepillar4"
+                    "id": "apostlelantern.upgradepillar4"
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_apostlelantern.upgradepillar4",
+            "id": "apostlelantern.upgradepillar4",
             "actionid": "talk_r",
             "label": "Send a Maid-in-the-Mirror to lure a Witness",
             "startdescription": "The Maid murmurs the lesser elements of the Mantra of Ascent. She places her pale feet carefully on the stones of the road: they leave no print. The Witness' feet are spotted with blood.",
@@ -200,7 +200,7 @@
             }
         },
         {
-            "id": "r_apostlelantern.pillar4.chat",
+            "id": "apostlelantern.pillar4.chat",
             "actionid": "talk_r",
             "label": "Speak with the Witnesses",
             "startdescription": "Their mouths are closed, but their ears are open.",
@@ -215,7 +215,7 @@
             "craftable": true
         },
         {
-            "id": "r_apostlelantern.attemptrecruitkleidouchos.sulochana",
+            "id": "apostlelantern.attemptrecruitkleidouchos.sulochana",
             "actionid": "talk_r",
             "label": "Ask Sulochana about the Key",
             "startdescription": "'The Key of Days.' Sulochana gnaws on her lip. Her teeth glint in the lamp-light. 'Yes, I have a relevant sister. But I'm not going to make that introduction. Ask someone on the other side of the Wood - someone who cares about the Glory.'",
@@ -225,7 +225,7 @@
             }
         },
         {
-            "id": "r_apostlelantern.recruitkleidouchos.teresa",
+            "id": "apostlelantern.recruitkleidouchos.teresa",
             "actionid": "talk_r",
             "label": "Ask Teresa about the Dream of the Key",
             "startdescription": "'So my ascent-fellow has set their sights still higher, hm? They may regret it.' Teresa turns the imaginary key in her hands. 'A dream of the Key of Days. The dream is false; the Key is real. But it's not a thing for you or me to touch.'",
@@ -241,7 +241,7 @@
             }
         },
         {
-            "id": "r_apostlelantern.persuadekleidouchos",
+            "id": "apostlelantern.persuadekleidouchos",
             "actionid": "talk_r",
             "label": "Speak to the Woman in Black-and-White",
             "startdescription": "'You need me to assist you with the Tricuspid Gate, yes, that is correct? In its ultimate mode? With my Key of Days? Yes, yes, I am aware. I do not like to travel in ignorance.'",
@@ -261,7 +261,7 @@
             "craftable": true
         },
         {
-            "id": "r_apostlelantern.kleidouchos.persuaded.hint",
+            "id": "apostlelantern.kleidouchos.persuaded.hint",
             "actionid": "talk_r",
             "label": "Speak to the Woman in Black-and-White",
             "startdescription": "'When you're ready. Take your time. I still have skins to glean.'",

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_ascensionpower_upgradetoobsession",
+            "id": "ascensionpower_upgradetoobsession",
             "label": "The Burning Key",
             "actionid": "work_r",
             "requirements": {
@@ -21,7 +21,7 @@
         },
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
-            "id": "r_ascensionsensation_upgradetoobsessionm",
+            "id": "ascensionsensation_upgradetoobsessionm",
             "label": "The Sighing Key",
             "actionid": "work_r",
             "requirements": {
@@ -41,7 +41,7 @@
         },
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
-            "id": "r_ascensionsensation_upgradetoobsessionf",
+            "id": "ascensionsensation_upgradetoobsessionf",
             "label": "The Sighing Key",
             "actionid": "work_r",
             "requirements": {
@@ -60,7 +60,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_ascensionsensation_switchpolarity_mtof",
+            "id": "ascensionsensation_switchpolarity_mtof",
             "label": "Preferences",
             "actionid": "dream_r",
             "requirements": {
@@ -76,7 +76,7 @@
             "craftable": true
         },
         {
-            "id": "r_ascensionsensation_switchpolarity_ftom",
+            "id": "ascensionsensation_switchpolarity_ftom",
             "label": "Preferences",
             "actionid": "dream_r",
             "requirements": {
@@ -92,7 +92,7 @@
             "craftable": true
         },
         {
-            "id": "r_ascensionenlightenment_upgradetoobsession",
+            "id": "ascensionenlightenment_upgradetoobsession",
             "label": "The Blinding Key",
             "actionid": "work_r",
             "requirements": {
@@ -111,7 +111,7 @@
             "burnimage": "flammarion"
         },
         {
-            "id": "r_majorforgevictory",
+            "id": "majorforgevictory",
             "label": "THE DAWN IS COME",
             "actionid": "work_r",
             "requirements": {
@@ -126,7 +126,7 @@
             "craftable": false
         },
         {
-            "id": "r_minorforgevictory_trigger",
+            "id": "minorforgevictory_trigger",
             "actionid": "work_r",
             "label": "The Conflagration of the Heart",
             "startdescription": "I have been in the flame so many times. The plates of my flesh grate one against another. I conjure now the heat of the Forge, which will sear from me what I was. I will die as I pass the Tricuspid Gate, but death is not the end. I will be immortal: a Long, favoured of the Forge. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
@@ -139,26 +139,26 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "r_operator": -3,
+                "operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
             "linked": [
                 {
-                    "id": "r_minorforgevictory_overture",
+                    "id": "minorforgevictory_overture",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_minorforgevictory_overture",
+            "id": "minorforgevictory_overture",
             "label": "The Conflagration of the Heart",
             "actionid": "work_r",
             "description": "I am becoming a name of fire. Remember that the ending text will contain the payload.",
             "warmup": 60,
             "slots": [
                 {
-                    "id": "r_beloved",
+                    "id": "beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -174,20 +174,20 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "r_belovedfarewell"
+                    "id": "belovedfarewell"
                 },
                 {
                     "chance": 100,
-                    "id": "r_minorforgevictorywithrisen"
+                    "id": "minorforgevictorywithrisen"
                 },
                 {
                     "chance": 100,
-                    "id": "r_minorforgevictory"
+                    "id": "minorforgevictory"
                 }
             ]
         },
         {
-            "id": "r_minorforgevictory",
+            "id": "minorforgevictory",
             "label": "The Conflagration of the Heart",
             "requirements": {
                 "ascensionpowerf": 1
@@ -196,7 +196,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_minorforgevictorywithrisen",
+            "id": "minorforgevictorywithrisen",
             "requirements": {
                 "summoned": 1,
                 "ascensionpowerf": 1
@@ -206,7 +206,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_majorgrailvictory",
+            "id": "majorgrailvictory",
             "label": "THE FEAST IS NIGH",
             "actionid": "work_r",
             "requirements": {
@@ -221,7 +221,7 @@
             "craftable": false
         },
         {
-            "id": "r_minorgrailvictory_withromanticsacrifice",
+            "id": "minorgrailvictory_withromanticsacrifice",
             "label": "The Feast of the Heart's Remembrance",
             "actionid": "work_r",
             "requirements": {
@@ -238,7 +238,7 @@
             "ending": "minorgrailvictory"
         },
         {
-            "id": "r_minorgrailvictory_trigger",
+            "id": "minorgrailvictory_trigger",
             "actionid": "work_r",
             "label": "The Feast of the True Birth",
             "startdescription": "I am swollen with the lives of others. The seams of my body begin to rupture. Now I invoke the Red Grail, who is the Mother of Mountains, who Consumes, who is the Source. In Her Name I will give birth to myself. The Tricuspid Gate opens. I will be immortal: a Long, favoured of the Grail. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
@@ -251,19 +251,19 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "r_operator": -3,
+                "operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
             "linked": [
                 {
-                    "id": "r_minorgrailvictory_overture",
+                    "id": "minorgrailvictory_overture",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_minorgrailvictory_overture",
+            "id": "minorgrailvictory_overture",
             "label": "The Feast of the True Birth",
             "actionid": "work_r",
             "description": ".",
@@ -271,7 +271,7 @@
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
-                    "id": "r_beloved",
+                    "id": "beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -286,20 +286,20 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "r_minorgrailvictorywithrisen"
+                    "id": "minorgrailvictorywithrisen"
                 },
                 {
                     "chance": 100,
-                    "id": "r_belovedfarewell"
+                    "id": "belovedfarewell"
                 },
                 {
                     "chance": 100,
-                    "id": "r_minorgrailvictory"
+                    "id": "minorgrailvictory"
                 }
             ]
         },
         {
-            "id": "r_minorgrailvictory",
+            "id": "minorgrailvictory",
             "label": "The Feast of the True Birth",
             "requirements": {
                 "ascensionsensationf": 1
@@ -308,7 +308,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_minorgrailvictorywithrisen",
+            "id": "minorgrailvictorywithrisen",
             "requirements": {
                 "summoned": 1,
                 "ascensionsensationf": 1
@@ -318,7 +318,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_majorlanternvictory",
+            "id": "majorlanternvictory",
             "label": "THE LANTERN",
             "actionid": "work_r",
             "requirements": {
@@ -333,7 +333,7 @@
             "craftable": false
         },
         {
-            "id": "r_belovedfarewell",
+            "id": "belovedfarewell",
             "label": "The Threshold Choice",
             "actionid": "work_r",
             "requirements": {
@@ -343,7 +343,7 @@
             "startdescription": "The final farewell. They will remain, and I will ascend.",
             "slots": [
                 {
-                    "id": "r_decision",
+                    "id": "decision",
                     "label": "Decision",
                     "description": "[Add Passion to turn aside from your ascent... and live as a mortal with your beloved. Do nothing to continue.]",
                     "required": {
@@ -353,98 +353,98 @@
             ],
             "alt": [
                 {
-                    "id": "r_auclairvictory",
+                    "id": "auclairvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_catvictory",
+                    "id": "catvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_clovettevictory",
+                    "id": "clovettevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_cliftonvictory",
+                    "id": "cliftonvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_dorothyvictory",
+                    "id": "dorothyvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_elridgevictory",
+                    "id": "elridgevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_enidvictory",
+                    "id": "enidvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_laidlawvictory",
+                    "id": "laidlawvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_leovictory",
+                    "id": "leovictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_nevillevictory",
+                    "id": "nevillevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_portervictory",
+                    "id": "portervictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_reniravictory",
+                    "id": "reniravictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_rosevictory",
+                    "id": "rosevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_salibavictory",
+                    "id": "salibavictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_sleevictory",
+                    "id": "sleevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_sylviavictory",
+                    "id": "sylviavictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_tristanvictory",
+                    "id": "tristanvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_valcianevictory",
+                    "id": "valcianevictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_victorvictory",
+                    "id": "victorvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_violetvictory",
+                    "id": "violetvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_ysabetvictory",
+                    "id": "ysabetvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_imnotinlove",
+                    "id": "imnotinlove",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_auclairvictory",
+            "id": "auclairvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -460,7 +460,7 @@
             "ending": "auclairvictory"
         },
         {
-            "id": "r_catvictory",
+            "id": "catvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -476,7 +476,7 @@
             "ending": "catvictory"
         },
         {
-            "id": "r_clovettevictory",
+            "id": "clovettevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -492,7 +492,7 @@
             "ending": "clovettevictory"
         },
         {
-            "id": "r_cliftonvictory",
+            "id": "cliftonvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -508,7 +508,7 @@
             "ending": "cliftonvictory"
         },
         {
-            "id": "r_dorothyvictory",
+            "id": "dorothyvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -524,7 +524,7 @@
             "ending": "dorothyvictory"
         },
         {
-            "id": "r_elridgevictory",
+            "id": "elridgevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -540,7 +540,7 @@
             "ending": "elridgevictory"
         },
         {
-            "id": "r_enidvictory",
+            "id": "enidvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -556,7 +556,7 @@
             "ending": "enidvictory"
         },
         {
-            "id": "r_laidlawvictory",
+            "id": "laidlawvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -572,7 +572,7 @@
             "ending": "laidlawvictory"
         },
         {
-            "id": "r_leovictory",
+            "id": "leovictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -588,7 +588,7 @@
             "ending": "leovictory"
         },
         {
-            "id": "r_nevillevictory",
+            "id": "nevillevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -604,7 +604,7 @@
             "ending": "nevillevictory"
         },
         {
-            "id": "r_portervictory",
+            "id": "portervictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -620,7 +620,7 @@
             "ending": "portervictory"
         },
         {
-            "id": "r_reniravictory",
+            "id": "reniravictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -636,7 +636,7 @@
             "ending": "reniravictory"
         },
         {
-            "id": "r_rosevictory",
+            "id": "rosevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -652,7 +652,7 @@
             "ending": "rosevictory"
         },
         {
-            "id": "r_salibavictory",
+            "id": "salibavictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -668,7 +668,7 @@
             "ending": "salibavictory"
         },
         {
-            "id": "r_sleevictory",
+            "id": "sleevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -684,7 +684,7 @@
             "ending": "sleevictory"
         },
         {
-            "id": "r_sylviavictory",
+            "id": "sylviavictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -700,7 +700,7 @@
             "ending": "sylviavictory"
         },
         {
-            "id": "r_tristanvictory",
+            "id": "tristanvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -716,7 +716,7 @@
             "ending": "tristanvictory"
         },
         {
-            "id": "r_valcianevictory",
+            "id": "valcianevictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -732,7 +732,7 @@
             "ending": "valcianevictory"
         },
         {
-            "id": "r_victorvictory",
+            "id": "victorvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -748,7 +748,7 @@
             "ending": "victorvictory"
         },
         {
-            "id": "r_violetvictory",
+            "id": "violetvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -764,7 +764,7 @@
             "ending": "violetvictory"
         },
         {
-            "id": "r_ysabetvictory",
+            "id": "ysabetvictory",
             "label": "Love?",
             "actionid": "work_r",
             "requirements": {
@@ -780,28 +780,28 @@
             "ending": "ysabetvictory"
         },
         {
-            "id": "r_imnotinlove",
+            "id": "imnotinlove",
             "label": "Dedication",
             "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
             "actionid": "work_r",
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_minorlanternvictory",
+                    "id": "minorlanternvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_minorgrailvictory",
+                    "id": "minorgrailvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_minorforgevictory",
+                    "id": "minorforgevictory",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_minorlanternvictory_trigger",
+            "id": "minorlanternvictory_trigger",
             "actionid": "work_r",
             "label": "The Incursus",
             "startdescription": "Little of this flesh remains. I will pass through the Tricuspid Gate and I will not return. The Watchman awaits me. In His footsteps, I will find the Glory's light. The understanding is too much for my soul to hold, and so my soul will open. I will not be immortal: I will be more than that. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
@@ -814,26 +814,26 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "r_operator": -3,
+                "operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
             "linked": [
                 {
-                    "id": "r_minorlanternvictory_overture",
+                    "id": "minorlanternvictory_overture",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_minorlanternvictory_overture",
+            "id": "minorlanternvictory_overture",
             "label": "The Incursus",
             "actionid": "work_r",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
-                    "id": "r_beloved",
+                    "id": "beloved",
                     "label": "Beloved",
                     "required": {
                         "romanticinterest": 1
@@ -849,20 +849,20 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "r_minorlanternvictorywithrisen"
+                    "id": "minorlanternvictorywithrisen"
                 },
                 {
                     "chance": 100,
-                    "id": "r_belovedfarewell"
+                    "id": "belovedfarewell"
                 },
                 {
                     "chance": 100,
-                    "id": "r_minorlanternvictory"
+                    "id": "minorlanternvictory"
                 }
             ]
         },
         {
-            "id": "r_minorlanternvictory",
+            "id": "minorlanternvictory",
             "label": "The Incursus",
             "requirements": {
                 "ascensionenlightenmentf": 1
@@ -871,7 +871,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_minorlanternvictorywithrisen",
+            "id": "minorlanternvictorywithrisen",
             "requirements": {
                 "summoned": 1,
                 "ascensionenlightenmentf": 1
@@ -881,7 +881,7 @@
             "actionid": "work_r"
         },
         {
-            "id": "r_ambition",
+            "id": "ambition",
             "requirements": {
                 "seasonambitions": 1
             },
@@ -889,7 +889,7 @@
             "actionid": "craving",
             "slots": [
                 {
-                    "id": "r_Obsessions",
+                    "id": "Obsessions",
                     "label": "Obsessions",
                     "description": "Deeper urges",
                     "required": {
@@ -911,93 +911,93 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "r_L_ascension_rival",
+                    "id": "L_ascension_rival",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_independent",
+                    "id": "L_independent",
                     "chance": 100
                 },
                 {
-                    "id": "r_L_rebellion_activate",
+                    "id": "L_rebellion_activate",
                     "chance": 70
                 },
                 {
-                    "id": "r_L_rebellion_noactivation",
+                    "id": "L_rebellion_noactivation",
                     "chance": 100
                 },
                 {
-                    "id": "r_ending.minorcrownedgrowthvictory",
+                    "id": "ending.minorcrownedgrowthvictory",
                     "chance": 100
                 },
                 {
-                    "id": "r_ambition.apostleforge.emitfuel",
+                    "id": "ambition.apostleforge.emitfuel",
                     "chance": 100
                 },
                 {
-                    "id": "r_ambition.apostlegrail.emitfuel",
+                    "id": "ambition.apostlegrail.emitfuel",
                     "chance": 100
                 },
                 {
-                    "id": "r_ambition.apostlelantern.emitfuel",
+                    "id": "ambition.apostlelantern.emitfuel",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingpower",
+                    "id": "ascensioncravingpower",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingsensation",
+                    "id": "ascensioncravingsensation",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingenlightenment",
+                    "id": "ascensioncravingenlightenment",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingremembrance",
+                    "id": "ascensioncravingremembrance",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingremembrancenegative",
+                    "id": "ascensioncravingremembrancenegative",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfromg",
+                    "id": "ascensioncravingchange_tryascendfromg",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfromf",
+                    "id": "ascensioncravingchange_tryascendfromf",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfrome",
+                    "id": "ascensioncravingchange_tryascendfrome",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfromd",
+                    "id": "ascensioncravingchange_tryascendfromd",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfromc",
+                    "id": "ascensioncravingchange_tryascendfromc",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfromb",
+                    "id": "ascensioncravingchange_tryascendfromb",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_tryascendfroma",
+                    "id": "ascensioncravingchange_tryascendfroma",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionnotyet",
+                    "id": "ascensionnotyet",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_L_independent",
+            "id": "L_independent",
             "label": "Rivalry!",
             "requirements": {
                 "independent": 1
@@ -1008,13 +1008,13 @@
             },
             "linked": [
                 {
-                    "id": "r_L_independent_router",
+                    "id": "L_independent_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_L_independent_router",
+            "id": "L_independent_router",
             "label": "Rivalry!",
             "actionid": "ambition",
             "requirements": {
@@ -1024,7 +1024,7 @@
             "startdescription": "Here is another who would ascend before me. [Independent occultists will try to monopolise the attention of the Hours. They may also conduct other schemes, whether you like it or not.]",
             "alt": [
                 {
-                    "id": "r_scheme_murderhunter",
+                    "id": "scheme_murderhunter",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -1035,7 +1035,7 @@
                     }
                 },
                 {
-                    "id": "r_scheme_expedition_grab",
+                    "id": "scheme_expedition_grab",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -1046,7 +1046,7 @@
                     }
                 },
                 {
-                    "id": "r_scheme_activities",
+                    "id": "scheme_activities",
                     "chance": 100,
                     "additional": true,
                     "expulsion": {
@@ -1060,7 +1060,7 @@
             "warmup": 30
         },
         {
-            "id": "r_L_ascension_rival",
+            "id": "L_ascension_rival",
             "actionid": "ambition",
             "requirements": {
                 "rivalmarks": 7
@@ -1075,7 +1075,7 @@
             "warmup": 60
         },
         {
-            "id": "r_L_ascension_rival_apostle",
+            "id": "L_ascension_rival_apostle",
             "actionid": "ambition",
             "requirements": {
                 "rivalmarks": 7
@@ -1090,7 +1090,7 @@
             "warmup": 60
         },
         {
-            "id": "r_L_rebellion_activate",
+            "id": "L_rebellion_activate",
             "label": "Rebellion!",
             "actionid": "ambition",
             "requirements": {
@@ -1104,7 +1104,7 @@
             "warmup": 30
         },
         {
-            "id": "r_L_rebellion_noactivation",
+            "id": "L_rebellion_noactivation",
             "label": "Discontent",
             "actionid": "ambition",
             "requirements": {
@@ -1114,7 +1114,7 @@
             "description": "This one has spent some time in sulky solitude. For now, they'll return to the fold.",
             "mutations": [
                 {
-                    "filter": "r_operator",
+                    "filter": "operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
@@ -1123,7 +1123,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ending.minorcrownedgrowthvictory",
+            "id": "ending.minorcrownedgrowthvictory",
             "actionid": "ambition",
             "label": "TO INFECT AND BECOME",
             "requirements": {
@@ -1135,7 +1135,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensionnotyet",
+            "id": "ascensionnotyet",
             "label": "Mortal Frustrations",
             "actionid": "craving",
             "requirements": {
@@ -1145,7 +1145,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Temptations",
+                    "id": "Temptations",
                     "label": "Temptations",
                     "description": "The fire needs feeding",
                     "required": {
@@ -1161,42 +1161,42 @@
             "description": "As yet, I have only the needs and desires of any other mortal. But what stirs in me?",
             "alt": [
                 {
-                    "id": "r_ascensionhintpower2",
+                    "id": "ascensionhintpower2",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintenlightenment2",
+                    "id": "ascensionhintenlightenment2",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintsensation2m",
+                    "id": "ascensionhintsensation2m",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintsensation2f",
+                    "id": "ascensionhintsensation2f",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintpower1",
+                    "id": "ascensionhintpower1",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintenlightenment1",
+                    "id": "ascensionhintenlightenment1",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensionhintsensation1",
+                    "id": "ascensionhintsensation1",
                     "chance": 100
                 },
                 {
-                    "id": "r_legacydetectiveplotitem_tempt",
+                    "id": "legacydetectiveplotitem_tempt",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintpower2",
+            "id": "ascensionhintpower2",
             "label": "The Forge's Roar",
             "actionid": "craving",
             "requirements": {
@@ -1210,7 +1210,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintenlightenment2",
+            "id": "ascensionhintenlightenment2",
             "label": "The Watchman's Light",
             "actionid": "craving",
             "requirements": {
@@ -1224,7 +1224,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintsensation2m",
+            "id": "ascensionhintsensation2m",
             "label": "The Grail's Touch",
             "actionid": "craving",
             "requirements": {
@@ -1238,7 +1238,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintsensation2f",
+            "id": "ascensionhintsensation2f",
             "label": "The Grail's Touch",
             "actionid": "craving",
             "requirements": {
@@ -1252,7 +1252,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintpower1",
+            "id": "ascensionhintpower1",
             "label": "The Forge's Glow",
             "actionid": "craving",
             "requirements": {
@@ -1266,7 +1266,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintenlightenment1",
+            "id": "ascensionhintenlightenment1",
             "label": "The Watchman's Footsteps",
             "actionid": "craving",
             "requirements": {
@@ -1280,7 +1280,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensionhintsensation1",
+            "id": "ascensionhintsensation1",
             "label": "The Grail's Whispers",
             "actionid": "craving",
             "requirements": {
@@ -1294,7 +1294,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingpower",
+            "id": "ascensioncravingpower",
             "label": "The Shaping Heat",
             "actionid": "craving",
             "requirements": {
@@ -1302,11 +1302,11 @@
             },
             "slots": [
                 {
-                    "id": "r_Fuels",
+                    "id": "Fuels",
                     "label": "Fuels",
                     "description": "The fire needs feeding",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     },
                     "greedy": true
                 }
@@ -1314,26 +1314,26 @@
             "startdescription": "I require ever hotter fires. Their fuel now is rare and costly. If I cannot afford them, the cold will overtake me.",
             "linked": [
                 {
-                    "id": "r_ascensionsuccesscravingpower_descend",
+                    "id": "ascensionsuccesscravingpower_descend",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingpower_ascend",
+                    "id": "ascensioncravingpower_ascend",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensionsuccesscravingpower_descend",
+            "id": "ascensionsuccesscravingpower_descend",
             "label": "The Ashes of Change",
             "actionid": "craving",
             "requirements": {
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "slots": [
                 {
-                    "id": "r_Pain",
+                    "id": "Pain",
                     "label": "Pain",
                     "description": "My need gnaws at me",
                     "required": {
@@ -1355,21 +1355,21 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingpower_ascend",
+            "id": "ascensioncravingpower_ascend",
             "label": "Another Mark",
             "actionid": "craving",
             "startdescription": "",
             "description": "The flames yearn for me as I for them. Their touch is much more than pain. I have another Mark.",
             "effects": {
                 "vitality": 2,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "aspects": {
                 "ascend": 1
             }
         },
         {
-            "id": "r_ascensioncravingsensation",
+            "id": "ascensioncravingsensation",
             "label": "The Red Need",
             "actionid": "craving",
             "requirements": {
@@ -1377,7 +1377,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Sustenance",
+                    "id": "Sustenance",
                     "label": "Sustenance",
                     "description": "The recently dead, or the living.",
                     "required": {
@@ -1391,18 +1391,18 @@
             "startdescription": "A thirst for blood? If only it were so simple. I will drain them far more deeply.",
             "linked": [
                 {
-                    "id": "r_ascensionsuccesscravingsensation_descend",
+                    "id": "ascensionsuccesscravingsensation_descend",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingsensation_ascend",
+                    "id": "ascensioncravingsensation_ascend",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensionsuccesscravingsensation_descend",
+            "id": "ascensionsuccesscravingsensation_descend",
             "label": "The Desert Inside",
             "actionid": "craving",
             "requirements": {
@@ -1412,7 +1412,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Pain",
+                    "id": "Pain",
                     "label": "Pain",
                     "description": "My need gnaws at me",
                     "required": {
@@ -1434,7 +1434,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingsensation_ascend",
+            "id": "ascensioncravingsensation_ascend",
             "label": "Another Mark",
             "actionid": "craving",
             "effects": {
@@ -1450,7 +1450,7 @@
             }
         },
         {
-            "id": "r_ascensioncravingenlightenment",
+            "id": "ascensioncravingenlightenment",
             "label": "The Curiosities of Light",
             "actionid": "craving",
             "requirements": {
@@ -1458,7 +1458,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Conversation",
+                    "id": "Conversation",
                     "label": "Conversation",
                     "description": "The last words of a living mind.",
                     "required": {
@@ -1470,18 +1470,18 @@
             "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
             "linked": [
                 {
-                    "id": "r_ascensionsuccesscravingenlightenment_descend",
+                    "id": "ascensionsuccesscravingenlightenment_descend",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingenlightenment_ascend",
+                    "id": "ascensioncravingenlightenment_ascend",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensionsuccesscravingenlightenment_descend",
+            "id": "ascensionsuccesscravingenlightenment_descend",
             "label": "The Desert Inside",
             "actionid": "craving",
             "requirements": {
@@ -1489,7 +1489,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Pain",
+                    "id": "Pain",
                     "label": "Pain",
                     "description": "My need gnaws at me",
                     "required": {
@@ -1511,7 +1511,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingenlightenment_ascend",
+            "id": "ascensioncravingenlightenment_ascend",
             "label": "Another Mark",
             "actionid": "craving",
             "effects": {
@@ -1525,7 +1525,7 @@
             }
         },
         {
-            "id": "r_ascensioncravingremembrance",
+            "id": "ascensioncravingremembrance",
             "label": "The Hunger that Grows in Dark Earth",
             "actionid": "craving",
             "requirements": {
@@ -1544,7 +1544,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingremembrancenegative",
+            "id": "ascensioncravingremembrancenegative",
             "label": "The Hunger that Grows in Dark Earth",
             "actionid": "craving",
             "requirements": {
@@ -1563,7 +1563,7 @@
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfroma",
+            "id": "ascensioncravingchange_tryascendfroma",
             "label": "The Temptation of Change",
             "actionid": "craving",
             "requirements": {
@@ -1571,7 +1571,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -1584,22 +1584,22 @@
             "startdescription": "I long to be something else, but have I learnt the lesson I need before the witnesses I must have?",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfroma",
+                    "id": "ascensioncravingchange_heartlessonascendfroma",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfroma",
+                    "id": "ascensioncravingchange_mothlessonascendfroma",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfroma",
+            "id": "ascensioncravingchange_heartlessonascendfroma",
             "label": "Garments, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1623,7 +1623,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfroma",
+            "id": "ascensioncravingchange_mothlessonascendfroma",
             "label": "Garments, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1647,7 +1647,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfromb",
+            "id": "ascensioncravingchange_tryascendfromb",
             "label": "Toward the Second Change",
             "actionid": "craving",
             "requirements": {
@@ -1655,7 +1655,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -1668,22 +1668,22 @@
             "startdescription": "The skin I bear will grow too small, and so I must begin to abandon it. I will need to send a part of myself to learn how.",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfromb",
+                    "id": "ascensioncravingchange_heartlessonascendfromb",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfromb",
+                    "id": "ascensioncravingchange_mothlessonascendfromb",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfromb",
+            "id": "ascensioncravingchange_heartlessonascendfromb",
             "label": "Integument, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1707,7 +1707,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfromb",
+            "id": "ascensioncravingchange_mothlessonascendfromb",
             "label": "Integument, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1731,7 +1731,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfromc",
+            "id": "ascensioncravingchange_tryascendfromc",
             "label": "Toward the Third Change",
             "actionid": "craving",
             "requirements": {
@@ -1739,7 +1739,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -1752,22 +1752,22 @@
             "startdescription": "One reveals, one conceals, one reveals. To proceed, I must learn a lesson of concealment.",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfromc",
+                    "id": "ascensioncravingchange_heartlessonascendfromc",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfromc",
+                    "id": "ascensioncravingchange_mothlessonascendfromc",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfromc",
+            "id": "ascensioncravingchange_heartlessonascendfromc",
             "label": "Steps, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1791,7 +1791,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfromc",
+            "id": "ascensioncravingchange_mothlessonascendfromc",
             "label": "Steps, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1816,7 +1816,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfromd",
+            "id": "ascensioncravingchange_tryascendfromd",
             "label": "Toward the Fourth Change",
             "actionid": "craving",
             "requirements": {
@@ -1824,7 +1824,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -1837,22 +1837,22 @@
             "startdescription": "For the next change, I must soften myself to receive the agencies of alteration.",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfromd",
+                    "id": "ascensioncravingchange_heartlessonascendfromd",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfromd",
+                    "id": "ascensioncravingchange_mothlessonascendfromd",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfromd",
+            "id": "ascensioncravingchange_heartlessonascendfromd",
             "label": "Hues Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1876,7 +1876,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfromd",
+            "id": "ascensioncravingchange_mothlessonascendfromd",
             "label": "Hues, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1900,7 +1900,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfrome",
+            "id": "ascensioncravingchange_tryascendfrome",
             "label": "Toward the Fifth Change",
             "actionid": "craving",
             "requirements": {
@@ -1908,7 +1908,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -1921,22 +1921,22 @@
             "startdescription": "The door I will pass is never visible to either the waking eye, or the eye that is closed. I must surrender those eyes to one who knows the way, so that I can see.",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfrome",
+                    "id": "ascensioncravingchange_heartlessonascendfrome",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfrome",
+                    "id": "ascensioncravingchange_mothlessonascendfrome",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfrome",
+            "id": "ascensioncravingchange_heartlessonascendfrome",
             "label": "Sight, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1960,7 +1960,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfrome",
+            "id": "ascensioncravingchange_mothlessonascendfrome",
             "label": "Sight, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -1984,7 +1984,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfromg",
+            "id": "ascensioncravingchange_tryascendfromg",
             "actionid": "craving",
             "label": "The Pulse Inside",
             "requirements": {
@@ -1992,7 +1992,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -2006,7 +2006,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_tryascendfromf",
+            "id": "ascensioncravingchange_tryascendfromf",
             "actionid": "craving",
             "label": "Toward the Sixth Change",
             "requirements": {
@@ -2014,7 +2014,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Lesson",
+                    "id": "Lesson",
                     "label": "Lesson",
                     "description": "Surrender, to become",
                     "required": {
@@ -2027,22 +2027,22 @@
             "startdescription": "The bones are always last. When I have learnt how they change, I will be ready.",
             "linked": [
                 {
-                    "id": "r_ascensioncravingchange_heartlessonascendfromf",
+                    "id": "ascensioncravingchange_heartlessonascendfromf",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_mothlessonascendfromf",
+                    "id": "ascensioncravingchange_mothlessonascendfromf",
                     "chance": 100
                 },
                 {
-                    "id": "r_ascensioncravingchange_noascension",
+                    "id": "ascensioncravingchange_noascension",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_ascensioncravingchange_heartlessonascendfromf",
+            "id": "ascensioncravingchange_heartlessonascendfromf",
             "label": "Bones, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -2066,7 +2066,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_mothlessonascendfromf",
+            "id": "ascensioncravingchange_mothlessonascendfromf",
             "label": "Bones, Surrendered",
             "actionid": "craving",
             "requirements": {
@@ -2090,7 +2090,7 @@
             "warmup": 10
         },
         {
-            "id": "r_ascensioncravingchange_noascension",
+            "id": "ascensioncravingchange_noascension",
             "label": "The Same Self",
             "actionid": "craving",
             "description": "I am no further along my path of change. In the movements of the secret Forms must I find my lesson.",

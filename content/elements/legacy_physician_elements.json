@@ -1,15 +1,15 @@
 {
     "elements": [
         {
-            "id": "r_legacyphysicianjob",
+            "id": "legacyphysicianjob",
             "description": "Today I return to work. ",
             "label": "A Position at the Institute",
             "aspects": {
-                "r_job": 1
+                "job": 1
             }
         },
         {
-            "id": "r_legacyphysiciannotes",
+            "id": "legacyphysiciannotes",
             "description": "My own eyewitness account of the ghastly decline of #PREVIOUSCHARACTERNAME#. My handwriting deteriorates as the account progresses.",
             "label": "Notes on the Case of #PREVIOUSCHARACTERNAME#",
             "aspects": {

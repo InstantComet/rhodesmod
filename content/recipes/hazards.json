@@ -1,14 +1,14 @@
 {
     "recipes": [
         {
-            "id": "r_despairrisk",
+            "id": "despairrisk",
             "label": "Bleak Thoughts",
             "actionid": "despair",
             "requirements": {},
             "effects": {},
             "slots": [
                 {
-                    "id": "r_Shadows",
+                    "id": "Shadows",
                     "label": "Shadows",
                     "required": {
                         "inducesdespair": 1
@@ -22,17 +22,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_despairactive",
+                    "id": "despairactive",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairdefeated",
+                    "id": "despairdefeated",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_despairactive",
+            "id": "despairactive",
             "label": "DESPAIR",
             "actionid": "despair",
             "requirements": {
@@ -43,7 +43,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "r_Thoughts",
+                    "id": "Thoughts",
                     "label": "Thoughts",
                     "required": {
                         "contentment": 1,
@@ -56,27 +56,27 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_despairwarning",
+                    "id": "despairwarning",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "r_despairabate",
+                    "id": "despairabate",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairdeath",
+                    "id": "despairdeath",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairactive",
+                    "id": "despairactive",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_despairwarning",
+            "id": "despairwarning",
             "label": "DESPAIR",
             "actionid": "despair",
             "requirements": {
@@ -89,21 +89,21 @@
             "burnimage": "despair",
             "linked": [
                 {
-                    "id": "r_despairabate",
+                    "id": "despairabate",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairdeath",
+                    "id": "despairdeath",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairactive",
+                    "id": "despairactive",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_despairabate",
+            "id": "despairabate",
             "label": "Despair Abates",
             "actionid": "despair",
             "requirements": {
@@ -119,17 +119,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_despairactive",
+                    "id": "despairactive",
                     "chance": 100
                 },
                 {
-                    "id": "r_despairdefeated",
+                    "id": "despairdefeated",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_despairdeath",
+            "id": "despairdeath",
             "label": "DESPAIR OVERWHELMS ME",
             "actionid": "despair",
             "requirements": {
@@ -137,7 +137,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Thoughts",
+                    "id": "Thoughts",
                     "label": "Thoughts",
                     "required": {
                         "contentment": 1
@@ -152,7 +152,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_despairabate",
+                    "id": "despairabate",
                     "chance": 100
                 }
             ],
@@ -161,7 +161,7 @@
             "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
         },
         {
-            "id": "r_despairdefeated",
+            "id": "despairdefeated",
             "label": "The Clouds Part",
             "actionid": "despair",
             "effects": {
@@ -172,13 +172,13 @@
             "craftable": false
         },
         {
-            "id": "r_visionsrisk",
+            "id": "visionsrisk",
             "label": "A Trembling in the Air",
             "actionid": "visions",
             "requirements": {},
             "slots": [
                 {
-                    "id": "r_Shadows",
+                    "id": "Shadows",
                     "label": "Shadows",
                     "required": {
                         "fascination": 1
@@ -192,17 +192,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_visionsactive",
+                    "id": "visionsactive",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsdefeated",
+                    "id": "visionsdefeated",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_visionsactive",
+            "id": "visionsactive",
             "label": "I Am Seeing Things",
             "actionid": "visions",
             "requirements": {
@@ -213,7 +213,7 @@
             "warmup": 60,
             "slots": [
                 {
-                    "id": "r_Thoughts",
+                    "id": "Thoughts",
                     "label": "Thoughts",
                     "required": {
                         "dread": 1,
@@ -227,31 +227,31 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_visionswarning",
+                    "id": "visionswarning",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "r_visionsabate",
+                    "id": "visionsabate",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsabatefleeting",
+                    "id": "visionsabatefleeting",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsdeath",
+                    "id": "visionsdeath",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsactive",
+                    "id": "visionsactive",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_visionswarning",
+            "id": "visionswarning",
             "label": "I Am Seeing Things!",
             "actionid": "visions",
             "requirements": {
@@ -265,25 +265,25 @@
             "burnimage": "visions",
             "linked": [
                 {
-                    "id": "r_visionsabate",
+                    "id": "visionsabate",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsabatefleeting",
+                    "id": "visionsabatefleeting",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsdeath",
+                    "id": "visionsdeath",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsactive",
+                    "id": "visionsactive",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_visionsdeath",
+            "id": "visionsdeath",
             "label": "Help Me - ",
             "actionid": "visions",
             "requirements": {
@@ -291,7 +291,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Thoughts",
+                    "id": "Thoughts",
                     "label": "Thoughts",
                     "required": {
                         "dread": 1,
@@ -307,11 +307,11 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_visionsabate",
+                    "id": "visionsabate",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsabatefleeting",
+                    "id": "visionsabatefleeting",
                     "chance": 100
                 }
             ],
@@ -319,7 +319,7 @@
             "ending": "visionsending"
         },
         {
-            "id": "r_visionsabate",
+            "id": "visionsabate",
             "label": "Visions Abate",
             "actionid": "visions",
             "requirements": {
@@ -335,17 +335,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_visionsactive",
+                    "id": "visionsactive",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsdefeated",
+                    "id": "visionsdefeated",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_visionsabatefleeting",
+            "id": "visionsabatefleeting",
             "label": "Visions Abate",
             "actionid": "visions",
             "requirements": {
@@ -361,17 +361,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_visionsactive",
+                    "id": "visionsactive",
                     "chance": 100
                 },
                 {
-                    "id": "r_visionsdefeated",
+                    "id": "visionsdefeated",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_visionsdefeated",
+            "id": "visionsdefeated",
             "label": "The World as it Is",
             "actionid": "visions",
             "effects": {
@@ -382,19 +382,19 @@
             "craftable": false
         },
         {
-            "id": "r_curse_dread_dormant",
+            "id": "curse_dread_dormant",
             "label": "Dormant Dry Soul Curse",
             "actionid": "curse_dread",
             "startdescription": "The Dry Soul Curse has not yet taken effect.",
             "alt": [
                 {
-                    "id": "r_curse_dread_active",
+                    "id": "curse_dread_active",
                     "chance": 30
                 }
             ],
             "linked": [
                 {
-                    "id": "r_curse_dread_dormant",
+                    "id": "curse_dread_dormant",
                     "chance": 100
                 }
             ],
@@ -402,7 +402,7 @@
             "craftable": false
         },
         {
-            "id": "r_curse_dread_active",
+            "id": "curse_dread_active",
             "label": "Dry Soul Curse",
             "requirements": {
                 "reason": -1
@@ -411,7 +411,7 @@
             "startdescription": "The Dry Soul Curse settles softly, like a withered hand on the shoulder.",
             "slots": [
                 {
-                    "id": "r_Reason",
+                    "id": "Reason",
                     "label": "Reason",
                     "greedy": true,
                     "required": {
@@ -421,23 +421,23 @@
             ],
             "linked": [
                 {
-                    "id": "r_curse_dread_active",
+                    "id": "curse_dread_active",
                     "chance": 100
                 },
                 {
-                    "id": "r_curse_dread_attempt_mitigation",
+                    "id": "curse_dread_attempt_mitigation",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_curse_dread_attempt_mitigation",
+            "id": "curse_dread_attempt_mitigation",
             "label": "The Dry Soul Curse: A Last Chance",
             "actionid": "curse_dread",
             "slots": [
                 {
-                    "id": "r_Protection",
+                    "id": "Protection",
                     "label": "Protection",
                     "required": {
                         "influencehearte": 1,
@@ -447,7 +447,7 @@
             ],
             "alt": [
                 {
-                    "id": "r_curse_dread_mitigation_successful",
+                    "id": "curse_dread_mitigation_successful",
                     "chance": 100
                 }
             ],
@@ -459,7 +459,7 @@
             "warmup": 60
         },
         {
-            "id": "r_curse_dread_mitigation_successful",
+            "id": "curse_dread_mitigation_successful",
             "label": "The Thunderskin's Favour",
             "actionid": "curse_dread",
             "requirements": {
@@ -472,19 +472,19 @@
             "description": "My soul swells again. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
         },
         {
-            "id": "r_curse_visions_dormant",
+            "id": "curse_visions_dormant",
             "label": "Dormant Fifth Eye Curse",
             "actionid": "curse_visions",
             "startdescription": "The Fifth Eye Curse has not yet taken effect.",
             "alt": [
                 {
-                    "id": "r_curse_visions_active",
+                    "id": "curse_visions_active",
                     "chance": 30
                 }
             ],
             "linked": [
                 {
-                    "id": "r_curse_visions_dormant",
+                    "id": "curse_visions_dormant",
                     "chance": 100
                 }
             ],
@@ -492,7 +492,7 @@
             "craftable": false
         },
         {
-            "id": "r_curse_visions_active",
+            "id": "curse_visions_active",
             "label": "Fifth Eye Curse",
             "actionid": "curse_visions",
             "requirements": {
@@ -501,7 +501,7 @@
             "startdescription": "The Third Eye is a myth, or the pineal gland. The Fourth Eye is a Mark in certain processes of ascension. The Fifth Eye now opens before me.",
             "slots": [
                 {
-                    "id": "r_Passion",
+                    "id": "Passion",
                     "label": "Passion",
                     "greedy": true,
                     "required": {
@@ -511,23 +511,23 @@
             ],
             "linked": [
                 {
-                    "id": "r_curse_visions_active",
+                    "id": "curse_visions_active",
                     "chance": 100
                 },
                 {
-                    "id": "r_curse_visions_attempt_mitigation",
+                    "id": "curse_visions_attempt_mitigation",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_curse_visions_attempt_mitigation",
+            "id": "curse_visions_attempt_mitigation",
             "label": "The Fifth Eye Curse: A Last Chance",
             "actionid": "curse_visions",
             "slots": [
                 {
-                    "id": "r_Protection",
+                    "id": "Protection",
                     "label": "Protection",
                     "required": {
                         "influencehearte": 1,
@@ -537,7 +537,7 @@
             ],
             "alt": [
                 {
-                    "id": "r_curse_visions_mitigation_successful",
+                    "id": "curse_visions_mitigation_successful",
                     "chance": 100
                 }
             ],
@@ -549,7 +549,7 @@
             "warmup": 60
         },
         {
-            "id": "r_curse_visions_mitigation_successful",
+            "id": "curse_visions_mitigation_successful",
             "label": "The Thunderskin's Favour",
             "actionid": "curse_visions",
             "requirements": {
@@ -562,19 +562,19 @@
             "description": "My eyes are clear. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
         },
         {
-            "id": "r_curse_affliction_dormant",
+            "id": "curse_affliction_dormant",
             "label": "Dormant Creeping Breath Curse",
             "actionid": "curse_affliction",
             "startdescription": "The Creeping Breath curse has not yet come due.",
             "alt": [
                 {
-                    "id": "r_curse_affliction_active",
+                    "id": "curse_affliction_active",
                     "chance": 30
                 }
             ],
             "linked": [
                 {
-                    "id": "r_curse_affliction_dormant",
+                    "id": "curse_affliction_dormant",
                     "chance": 100
                 }
             ],
@@ -582,7 +582,7 @@
             "craftable": false
         },
         {
-            "id": "r_curse_affliction_active",
+            "id": "curse_affliction_active",
             "label": "Creeping Breath Curse",
             "actionid": "curse_affliction",
             "requirements": {
@@ -591,7 +591,7 @@
             "startdescription": "The Creeping Breath Curse begins with a cough - a cough that loiters in one's throat like a debt-collector.",
             "slots": [
                 {
-                    "id": "r_Health",
+                    "id": "Health",
                     "label": "Health",
                     "greedy": true,
                     "required": {
@@ -601,23 +601,23 @@
             ],
             "linked": [
                 {
-                    "id": "r_curse_affliction_active",
+                    "id": "curse_affliction_active",
                     "chance": 100
                 },
                 {
-                    "id": "r_curse_affliction_attempt_mitigation",
+                    "id": "curse_affliction_attempt_mitigation",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_curse_affliction_attempt_mitigation",
+            "id": "curse_affliction_attempt_mitigation",
             "label": "The Creeping Breath Curse: A Last Chance",
             "actionid": "curse_affliction",
             "slots": [
                 {
-                    "id": "r_Protection",
+                    "id": "Protection",
                     "label": "Protection",
                     "required": {
                         "influencehearte": 1,
@@ -627,7 +627,7 @@
             ],
             "alt": [
                 {
-                    "id": "r_curse_affliction_mitigation_successful",
+                    "id": "curse_affliction_mitigation_successful",
                     "chance": 100
                 }
             ],
@@ -639,7 +639,7 @@
             "warmup": 60
         },
         {
-            "id": "r_curse_affliction_mitigation_successful",
+            "id": "curse_affliction_mitigation_successful",
             "label": "The Thunderskin's Favour",
             "actionid": "curse_affliction",
             "requirements": {
@@ -652,19 +652,19 @@
             "description": "My lungs are clear. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
         },
         {
-            "id": "r_curse_nowhere_dormant",
+            "id": "curse_nowhere_dormant",
             "label": "Something's Come Back With Us",
             "actionid": "curse_nowhere",
             "startdescription": "I glimpse subtle movement in the world - like the floaters which sometimes move through the eye, but slyer. Sometimes, too, I hear them.",
             "alt": [
                 {
-                    "id": "r_curse_nowhere_active",
+                    "id": "curse_nowhere_active",
                     "chance": 30
                 }
             ],
             "linked": [
                 {
-                    "id": "r_curse_nowhere_dormant",
+                    "id": "curse_nowhere_dormant",
                     "chance": 100
                 }
             ],
@@ -672,7 +672,7 @@
             "craftable": false
         },
         {
-            "id": "r_curse_nowhere_active",
+            "id": "curse_nowhere_active",
             "label": "The Worms in the World",
             "actionid": "curse_nowhere",
             "requirements": {
@@ -681,7 +681,7 @@
             "startdescription": "There are Worms in the city. One does not see Worms, but neither does one forget them. They will search until they find someone they can enter through the spaces in the skin, and then do what Worms will.",
             "slots": [
                 {
-                    "id": "r_Someone",
+                    "id": "Someone",
                     "label": "Someone",
                     "greedy": true,
                     "required": {
@@ -691,23 +691,23 @@
             ],
             "linked": [
                 {
-                    "id": "r_curse_nowhere_active",
+                    "id": "curse_nowhere_active",
                     "chance": 100
                 },
                 {
-                    "id": "r_curse_nowhere_attempt_mitigation",
+                    "id": "curse_nowhere_attempt_mitigation",
                     "chance": 100
                 }
             ],
             "warmup": 60
         },
         {
-            "id": "r_curse_nowhere_attempt_mitigation",
+            "id": "curse_nowhere_attempt_mitigation",
             "label": "The Worms in the World: A Last Chance",
             "actionid": "curse_nowhere",
             "slots": [
                 {
-                    "id": "r_Protection",
+                    "id": "Protection",
                     "label": "Protection",
                     "required": {
                         "influenceheartg": 1
@@ -716,7 +716,7 @@
             ],
             "alt": [
                 {
-                    "id": "r_curse_nowhere_mitigation_successful",
+                    "id": "curse_nowhere_mitigation_successful",
                     "chance": 100
                 }
             ],
@@ -730,7 +730,7 @@
             "warmup": 60
         },
         {
-            "id": "r_curse_nowhere_mitigation_successful",
+            "id": "curse_nowhere_mitigation_successful",
             "label": "The Thunderskin's Favour",
             "actionid": "curse_nowhere",
             "requirements": {

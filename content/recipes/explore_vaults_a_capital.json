@@ -1,13 +1,13 @@
 {
     "recipes": [
         {
-            "id": "r_explore_vaultcapital1_setup",
+            "id": "explore_vaultcapital1_setup",
             "label": "Beginning an Expedition: Strathcoyne's Collection",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital1": 1,
-                "r_lmfunds": 1,
-                "r_operator": 1
+                "vaultcapital1": 1,
+                "lmfunds": 1,
+                "operator": 1
             },
             "effects": {
                 "guardian_watchers": 1
@@ -18,19 +18,19 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcapital2_setup",
+            "id": "explore_vaultcapital2_setup",
             "label": "Beginning an Expedition: the Forgotten Mithraeum",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
-                "r_vaultcapital2": 1
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultcapital2": 1
             },
             "effects": {
                 "seal_hiddendoor": 1
@@ -41,19 +41,19 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcapital3_setup",
+            "id": "explore_vaultcapital3_setup",
             "label": "Beginning an Expedition: Cater & Hero Limited",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital3": 1,
-                "r_lmfunds": 1,
-                "r_operator": 1
+                "vaultcapital3": 1,
+                "lmfunds": 1,
+                "operator": 1
             },
             "effects": {
                 "peril_treacherousground": 1
@@ -64,19 +64,19 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcapital4_setup",
+            "id": "explore_vaultcapital4_setup",
             "label": "Beginning an Expedition: St Agnes Hospital",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
-                "r_vaultcapital4": 1
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultcapital4": 1
             },
             "effects": {
                 "curse_dread": 1
@@ -87,19 +87,19 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcapital5_setup",
+            "id": "explore_vaultcapital5_setup",
             "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
-                "r_vaultcapital5": 1
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultcapital5": 1
             },
             "effects": {
                 "guardian_monks": 1
@@ -110,19 +110,19 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultcapitaldefault_setup",
+            "id": "explore_vaultcapitaldefault_setup",
             "label": "Beginning an Expedition: The Forsaken Reach",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
-                "r_vaultcapitaldefault": 1
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultcapitaldefault": 1
             },
             "effects": {
                 "peril_treacherousground": 1,
@@ -134,20 +134,20 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultcapital1_success",
+            "id": "explorevaultcapital1_success",
             "label": "Strathcoyne's Treasures",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital1": 1
+                "vaultcapital1": 1
             },
             "effects": {
-                "r_vaultcapital1": -1
+                "vaultcapital1": -1
             },
             "internaldeck": {
                 "spec": [
@@ -167,14 +167,14 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcapital2_success",
+            "id": "explorevaultcapital2_success",
             "label": "The Deeper Sanctuary",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital2": 1
+                "vaultcapital2": 1
             },
             "effects": {
-                "r_vaultcapital2": -1
+                "vaultcapital2": -1
             },
             "internaldeck": {
                 "spec": [
@@ -193,14 +193,14 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcapital3_success",
+            "id": "explorevaultcapital3_success",
             "label": "Cater's Office",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital3": 1
+                "vaultcapital3": 1
             },
             "effects": {
-                "r_vaultcapital3": -1
+                "vaultcapital3": -1
             },
             "internaldeck": {
                 "spec": [
@@ -220,14 +220,14 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcapital4_success",
+            "id": "explorevaultcapital4_success",
             "label": "The Violet Chamber",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital4": 1
+                "vaultcapital4": 1
             },
             "effects": {
-                "r_vaultcapital4": -1
+                "vaultcapital4": -1
             },
             "internaldeck": {
                 "spec": [
@@ -247,14 +247,14 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultcapital5_success",
+            "id": "explorevaultcapital5_success",
             "label": "Secret Devotions",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapital5": 1
+                "vaultcapital5": 1
             },
             "effects": {
-                "r_vaultcapital5": -1
+                "vaultcapital5": -1
             },
             "internaldeck": {
                 "spec": [
@@ -275,21 +275,21 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_expedition.corpse.find.vaultcapital5",
+                    "id": "expedition.corpse.find.vaultcapital5",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_explorevaultcapitaldefault_success",
+            "id": "explorevaultcapitaldefault_success",
             "label": "A Delayed Delivery",
             "actionid": "explore_r",
             "requirements": {
-                "r_vaultcapitaldefault": 1
+                "vaultcapitaldefault": 1
             },
             "effects": {
-                "r_vaultcapitaldefault": -1,
-                "r_lmfunds": 1
+                "vaultcapitaldefault": -1,
+                "lmfunds": 1
             },
             "deckeffects": {
                 "vaultrewardsa": 3

@@ -1,11 +1,11 @@
 {
     "elements": [
         {
-            "id": "r_legacytemplatejob",
+            "id": "legacytemplatejob",
             "label": "Inspector of Police",
             "description": "I have a senior position in the capital's police force.",
             "aspects": {
-                "r_job": 1
+                "job": 1
             },
             "xtriggers": {
                 "careeradvancement": "legacytemplatejob_matured"
@@ -13,17 +13,17 @@
             "noartneeded": true
         },
         {
-            "id": "r_legacytemplatejob_matured",
+            "id": "legacytemplatejob_matured",
             "description": "",
             "label": "",
             "aspects": {
-                "r_job": 1
+                "job": 1
             },
             "comments": "Exists to allow a switch to a longer cycle immediately after first use.",
             "noartneeded": true
         },
         {
-            "id": "r_legacytemplate_plotitem",
+            "id": "legacytemplate_plotitem",
             "label": "",
             "description": "#PREVIOUSCHARACTERNAME#.",
             "noartneeded": true

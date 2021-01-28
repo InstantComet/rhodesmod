@@ -1,37 +1,37 @@
 {
     "elements": [
         {
-            "id": "r_locationprocurement_a",
+            "id": "locationprocurement_a",
             "label": "罗德岛采购部",
             "description": "只有想不到，没有买不到。",
             "aspects": {
-                "r_location": 1
+                "location": 1
             },
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
@@ -39,28 +39,28 @@
             "unique": true
         },
         {
-            "id": "r_locationprocurement_b",
+            "id": "locationprocurement_b",
             "label": "罗德岛采购部",
             "description": "只有想不到，没有买不到。",
             "aspects": {
-                "r_location": 1
+                "location": 1
             },
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "一些龙门币",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 },
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "很多龙门币",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
-                        "r_ingredient": 1
+                        "ingredient": 1
                     },
                     "consumes": true
                 }
@@ -68,17 +68,17 @@
             "unique": true
         },
         {
-            "id": "r_locationdarkroom",
+            "id": "locationdarkroom",
             "label": "可露希尔的小黑屋",
             "description": "不能在明面上流通的东西，都在这里。",
             "aspects": {
-                "r_location": 1
+                "location": 1
             },
             "slots": [
                 {
-                    "id": "r_Cost",
+                    "id": "Cost",
                     "label": "花费",
-                    "actionId": "r_explore",
+                    "actionId": "explore",
                     "required": {
                         "lmfunds": 1
                     },
@@ -88,7 +88,7 @@
             "xtriggers": {
                 "exhaustlocation": [
                     {
-                        "id": "r_locationbookdealer_exhausted"
+                        "id": "locationbookdealer_exhausted"
                     }
                 ]
             },

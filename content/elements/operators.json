@@ -1,55 +1,55 @@
 {
     "elements": [
         {
-            "id": "r_operator_amiya",
+            "id": "operator_amiya",
             "label": "阿米娅",
             "aspects": {
-                "r_operator": 1,
-                "r_moth": 4,
-                "r_knock": 4,
-                "r_forge": 2
+                "operator": 1,
+                "moth": 4,
+                "knock": 4,
+                "forge": 2
             },
             "description": "罗德岛的公开领袖，在内部拥有最高执行权。"
         },
         {
-            "id": "r_operator_kaltist",
+            "id": "operator_kaltist",
             "label": "凯尔希",
             "aspects": {
-                "r_operator": 1,
-                "r_grail": 4,
-                "r_lantern": 2
+                "operator": 1,
+                "grail": 4,
+                "lantern": 2
             },
             "description": "不知道为什么，她似乎不怎么乐意出力。"
         },
         {
-            "id": "r_operator_debug_a",
+            "id": "operator_debug_a",
             "label": "debug干员a",
             "aspects": {
-                "r_operator": 10,
-                "r_heart": 10,
-                "r_edge": 10,
-                "r_forge": 10,
-                "r_winter": 10,
-                "r_lantern": 10,
-                "r_moth": 10,
-                "r_grail": 10,
-                "r_knock": 10
+                "operator": 10,
+                "heart": 10,
+                "edge": 10,
+                "forge": 10,
+                "winter": 10,
+                "lantern": 10,
+                "moth": 10,
+                "grail": 10,
+                "knock": 10
             },
             "description": "二星干员a的介绍"
         },
         {
-            "id": "r_operator_2stars_a",
+            "id": "operator_2stars_a",
             "label": "二星干员a",
             "aspects": {
-                "r_operator": 1
+                "operator": 1
             },
             "description": "二星干员a的介绍"
         },
         {
-            "id": "r_operator_2stars_b",
+            "id": "operator_2stars_b",
             "label": "二星干员b",
             "aspects": {
-                "r_operator": 1
+                "operator": 1
             },
             "description": "二星干员b的介绍"
         }

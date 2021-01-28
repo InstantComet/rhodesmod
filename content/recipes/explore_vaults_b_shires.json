@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_explore_vaultshires1_setup",
+            "id": "explore_vaultshires1_setup",
             "label": "Beginning an Expedition: Gladwyn Lake",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshires1": 1
             },
             "effects": {
@@ -18,18 +18,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultshires2_setup",
+            "id": "explore_vaultshires2_setup",
             "label": "Beginning an Expedition: Lockwood Fen",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshires2": 1
             },
             "effects": {
@@ -42,18 +42,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultshires3_setup",
+            "id": "explore_vaultshires3_setup",
             "label": "Beginning an Expedition: Crowkiss Hill",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshires3": 1
             },
             "effects": {
@@ -65,18 +65,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultshires4_setup",
+            "id": "explore_vaultshires4_setup",
             "label": "Beginning an Expedition: Keglin's Scratch",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshires4": 1
             },
             "effects": {
@@ -89,18 +89,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultshires5_setup",
+            "id": "explore_vaultshires5_setup",
             "label": "Beginning an Expedition: the Gwaer Inn",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshires5": 1
             },
             "effects": {
@@ -113,18 +113,18 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explore_vaultshiresdefault_setup",
+            "id": "explore_vaultshiresdefault_setup",
             "label": "Beginning an Expedition: Kerisham",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultshiresdefault": 1
             },
             "effects": {
@@ -138,13 +138,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultshires1_success",
+            "id": "explorevaultshires1_success",
             "label": "The Chapel-Root",
             "actionid": "explore_r",
             "requirements": {
@@ -169,7 +169,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultshires2_success",
+            "id": "explorevaultshires2_success",
             "label": "The Ring-Yew's Shrine",
             "actionid": "explore_r",
             "requirements": {
@@ -195,7 +195,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultshires3_success",
+            "id": "explorevaultshires3_success",
             "label": "The Warrior's End",
             "actionid": "explore_r",
             "requirements": {
@@ -223,13 +223,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_expedition.corpse.find.vaultshires3",
+                    "id": "expedition.corpse.find.vaultshires3",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_explorevaultshires4_success",
+            "id": "explorevaultshires4_success",
             "label": "Once a Lady",
             "actionid": "explore_r",
             "requirements": {
@@ -254,13 +254,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_expedition.corpse.find.vaultshires4",
+                    "id": "expedition.corpse.find.vaultshires4",
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_explorevaultshires5_success",
+            "id": "explorevaultshires5_success",
             "label": "The White Library",
             "actionid": "explore_r",
             "requirements": {
@@ -287,7 +287,7 @@
             "craftable": false
         },
         {
-            "id": "r_explorevaultshiresdefault_success",
+            "id": "explorevaultshiresdefault_success",
             "label": "The Last Room",
             "actionid": "explore_r",
             "requirements": {
@@ -305,15 +305,15 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_explore.apostleforge.findflaw",
+                    "id": "explore.apostleforge.findflaw",
                     "chance": 100
                 },
                 {
-                    "id": "r_expeditionascensionheartb",
+                    "id": "expeditionascensionheartb",
                     "chance": 100
                 },
                 {
-                    "id": "r_expeditionascensionmothb",
+                    "id": "expeditionascensionmothb",
                     "chance": 100
                 }
             ]

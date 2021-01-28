@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_scheme_murderhunter",
+            "id": "scheme_murderhunter",
             "label": "A scheme to murder a Hunter is afoot",
             "actionid": "scheme",
             "requirements": {
@@ -13,18 +13,18 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_scheme_murderhunter_grab",
+                    "id": "scheme_murderhunter_grab",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_murderhunter_grab",
+            "id": "scheme_murderhunter_grab",
             "label": "A scheme to murder a Hunter is afoot",
             "actionid": "scheme",
             "slots": [
                 {
-                    "id": "r_victim",
+                    "id": "victim",
                     "label": "Victim",
                     "greedy": true,
                     "required": {
@@ -37,21 +37,21 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_scheme_murderhunter_success",
+                    "id": "scheme_murderhunter_success",
                     "chance": 30
                 },
                 {
-                    "id": "r_scheme_murderhunter_failure",
+                    "id": "scheme_murderhunter_failure",
                     "chance": 100
                 },
                 {
-                    "id": "r_scheme_murderhunter_nohunterfound",
+                    "id": "scheme_murderhunter_nohunterfound",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_murderhunter_success",
+            "id": "scheme_murderhunter_success",
             "label": "Someone has murdered a Hunter!",
             "actionid": "scheme",
             "requirements": {
@@ -68,7 +68,7 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_murderhunter_failure",
+            "id": "scheme_murderhunter_failure",
             "label": "Someone has failed to murder a Hunter!",
             "actionid": "scheme",
             "requirements": {
@@ -82,7 +82,7 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_murderhunter_nohunterfound",
+            "id": "scheme_murderhunter_nohunterfound",
             "label": "A scheme to murder a Hunter has ended without consequences.",
             "actionid": "scheme",
             "effects": {},
@@ -91,12 +91,12 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_expedition_debug",
+            "id": "scheme_expedition_debug",
             "label": "FORCE EXP START",
             "actionid": "scheme",
             "slots": [
                 {
-                    "id": "r_target",
+                    "id": "target",
                     "label": "Actor",
                     "required": {
                         "independent": 1
@@ -108,12 +108,12 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_grab"
+                    "id": "scheme_expedition_grab"
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_grab",
+            "id": "scheme_expedition_grab",
             "label": "A Rival is Considering an Expedition...",
             "actionid": "scheme",
             "requirements": {
@@ -121,11 +121,11 @@
             },
             "slots": [
                 {
-                    "id": "r_target",
+                    "id": "target",
                     "label": "Target",
                     "greedy": true,
                     "required": {
-                        "r_vault": 1
+                        "vault": 1
                     }
                 }
             ],
@@ -135,18 +135,18 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_scheme_expedition_prep",
+                    "id": "scheme_expedition_prep",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_prep",
+            "id": "scheme_expedition_prep",
             "label": "An Opportunity to Use a Snare",
             "actionid": "scheme",
             "slots": [
                 {
-                    "id": "r_snare",
+                    "id": "snare",
                     "label": "Ambush",
                     "required": {
                         "snare": 1
@@ -154,7 +154,7 @@
                 }
             ],
             "requirements": {
-                "r_vault": 1
+                "vault": 1
             },
             "startdescription": "If I've prepared a Snare, I can try to set an ambush for my Rival, to defeat their Expedition and even injure them...",
             "warmup": 60,
@@ -162,100 +162,100 @@
             "linked": [
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_snare_great"
+                    "id": "scheme_expedition_snare_great"
                 },
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_snare_good"
+                    "id": "scheme_expedition_snare_good"
                 },
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_snare_poor"
+                    "id": "scheme_expedition_snare_poor"
                 },
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_snare_rubbish"
+                    "id": "scheme_expedition_snare_rubbish"
                 },
                 {
                     "chance": 70,
-                    "id": "r_scheme_expedition_success"
+                    "id": "scheme_expedition_success"
                 },
                 {
                     "chance": 100,
-                    "id": "r_scheme_expedition_failure"
+                    "id": "scheme_expedition_failure"
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_great",
+            "id": "scheme_expedition_snare_great",
             "actionid": "scheme",
             "requirements": {
                 "snarelevel": 4
             },
             "linked": [
                 {
-                    "id": "r_scheme_expedition_snare_success",
+                    "id": "scheme_expedition_snare_success",
                     "chance": 90
                 },
                 {
-                    "id": "r_scheme_expedition_snare_failure",
+                    "id": "scheme_expedition_snare_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_good",
+            "id": "scheme_expedition_snare_good",
             "actionid": "scheme",
             "requirements": {
                 "snarelevel": 3
             },
             "linked": [
                 {
-                    "id": "r_scheme_expedition_snare_success",
+                    "id": "scheme_expedition_snare_success",
                     "chance": 70
                 },
                 {
-                    "id": "r_scheme_expedition_snare_failure",
+                    "id": "scheme_expedition_snare_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_poor",
+            "id": "scheme_expedition_snare_poor",
             "actionid": "scheme",
             "requirements": {
                 "snarelevel": 2
             },
             "linked": [
                 {
-                    "id": "r_scheme_expedition_snare_success",
+                    "id": "scheme_expedition_snare_success",
                     "chance": 30
                 },
                 {
-                    "id": "r_scheme_expedition_snare_failure",
+                    "id": "scheme_expedition_snare_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_rubbish",
+            "id": "scheme_expedition_snare_rubbish",
             "actionid": "scheme",
             "requirements": {
                 "snarelevel": 1
             },
             "linked": [
                 {
-                    "id": "r_scheme_expedition_snare_success",
+                    "id": "scheme_expedition_snare_success",
                     "chance": 10
                 },
                 {
-                    "id": "r_scheme_expedition_snare_failure",
+                    "id": "scheme_expedition_snare_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_success",
+            "id": "scheme_expedition_snare_success",
             "label": "Our Snare has succeeded!",
             "actionid": "scheme",
             "effects": {
@@ -274,13 +274,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_independent_scar",
+                    "id": "independent_scar",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_snare_failure",
+            "id": "scheme_expedition_snare_failure",
             "label": "Our Snare has failed!",
             "actionid": "scheme",
             "startdescription": "My Rival has evaded our trap...",
@@ -299,67 +299,67 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_scheme_expedition_success",
+                    "id": "scheme_expedition_success",
                     "chance": 70
                 },
                 {
-                    "id": "r_scheme_expedition_failure",
+                    "id": "scheme_expedition_failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_success",
+            "id": "scheme_expedition_success",
             "label": "My Rival has ransacked this place...",
             "actionid": "scheme",
             "requirements": {
-                "r_vault": 1
+                "vault": 1
             },
             "effects": {
-                "r_vault": -1
+                "vault": -1
             },
             "startdescription": "Whatever they sought here, they've found it.",
             "warmup": 5,
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_expedition.corpse.find.vaultcapital5.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
                     "additional": true
                 },
                 {
-                    "id": "r_expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
                     "additional": true
                 },
                 {
-                    "id": "r_expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
                     "additional": true
                 },
                 {
-                    "id": "r_expedition.corpse.find.vaultshires4.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultshires4.ransackedbyrival",
                     "additional": true
                 },
                 {
-                    "id": "r_expedition.corpse.find.vaultcapital5.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
                     "additional": true
                 },
                 {
-                    "id": "r_expedition.corpse.find.vaultshires3.ransackedbyrival",
+                    "id": "expedition.corpse.find.vaultshires3.ransackedbyrival",
                     "additional": true
                 }
             ],
             "linked": [
                 {
-                    "id": "r_scheme_promotion",
+                    "id": "scheme_promotion",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_scheme_expedition_failure",
+            "id": "scheme_expedition_failure",
             "label": "My Rival has failed in their Expedition.",
             "actionid": "scheme",
             "requirements": {
-                "r_vault": 1
+                "vault": 1
             },
             "effects": {},
             "startdescription": "Whatever they sought here, they haven't found it. They've abandoned their expedition... for now.",
@@ -367,7 +367,7 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_activities",
+            "id": "scheme_activities",
             "label": "A Rival is at their business in the shadows.",
             "actionid": "scheme",
             "requirements": {
@@ -380,11 +380,11 @@
             "description": "My Rival has been up to some kind of mischief. The Suppression Bureau may take note.",
             "alt": [
                 {
-                    "id": "r_scheme_calm",
+                    "id": "scheme_calm",
                     "chance": 10
                 },
                 {
-                    "id": "r_scheme_promotion",
+                    "id": "scheme_promotion",
                     "chance": 11
                 }
             ],
@@ -392,7 +392,7 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_calm",
+            "id": "scheme_calm",
             "label": "My Rival's mood has softened.",
             "actionid": "scheme",
             "effects": {
@@ -411,13 +411,13 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_promotion",
+            "id": "scheme_promotion",
             "label": "My Rival has advanced their cause.",
             "actionid": "scheme",
             "alt": [
                 {
                     "chance": 100,
-                    "id": "r_scheme_promotion_ascension"
+                    "id": "scheme_promotion_ascension"
                 }
             ],
             "effects": {
@@ -431,7 +431,7 @@
             "craftable": false
         },
         {
-            "id": "r_scheme_promotion_ascension",
+            "id": "scheme_promotion_ascension",
             "label": "My rival strives to pass the Tricuspid Gate, and become something greater.",
             "actionid": "scheme",
             "requirements": {
@@ -453,27 +453,27 @@
             "craftable": false
         },
         {
-            "id": "r_independent_scar",
+            "id": "independent_scar",
             "label": "A Rival has been Scarred",
             "startdescription": "My Rival has met with a misfortune. They have been scarred by their defeat; they will be angry with me. [Three Scars of the same type will kill any mortal.]",
             "actionid": "scheme",
             "linked": [
                 {
-                    "id": "r_independent_givescar_edge",
+                    "id": "independent_givescar_edge",
                     "chance": 30
                 },
                 {
-                    "id": "r_independent_givescar_knock",
+                    "id": "independent_givescar_knock",
                     "chance": 50
                 },
                 {
-                    "id": "r_independent_givescar_winter",
+                    "id": "independent_givescar_winter",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_independent_givescar_edge",
+            "id": "independent_givescar_edge",
             "actionid": "scheme",
             "label": "A Setback for a Rival",
             "mutations": [
@@ -492,13 +492,13 @@
             ],
             "linked": [
                 {
-                    "id": "r_independent_deathscar_edge",
+                    "id": "independent_deathscar_edge",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_independent_givescar_knock",
+            "id": "independent_givescar_knock",
             "label": "A Setback for a Rival",
             "actionid": "scheme",
             "mutations": [
@@ -517,13 +517,13 @@
             ],
             "linked": [
                 {
-                    "id": "r_independent_deathscar_knock",
+                    "id": "independent_deathscar_knock",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_independent_givescar_winter",
+            "id": "independent_givescar_winter",
             "actionid": "scheme",
             "label": "A Setback for a Rival",
             "mutations": [
@@ -542,13 +542,13 @@
             ],
             "linked": [
                 {
-                    "id": "r_independent_deathscar_winter",
+                    "id": "independent_deathscar_winter",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_independent_deathscar_edge",
+            "id": "independent_deathscar_edge",
             "actionid": "scheme",
             "label": "Death: a Defeat",
             "requirements": {
@@ -560,7 +560,7 @@
             }
         },
         {
-            "id": "r_independent_deathscar_knock",
+            "id": "independent_deathscar_knock",
             "actionid": "scheme",
             "label": "Death: an Opening",
             "requirements": {
@@ -572,7 +572,7 @@
             }
         },
         {
-            "id": "r_independent_deathscar_winter",
+            "id": "independent_deathscar_winter",
             "actionid": "scheme",
             "label": "Death: an Ending",
             "requirements": {

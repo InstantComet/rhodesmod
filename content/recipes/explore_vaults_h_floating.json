@@ -1,12 +1,12 @@
 {
     "recipes": [
         {
-            "id": "r_explore_vaultfloating1_setup",
+            "id": "explore_vaultfloating1_setup",
             "label": "Beginning an Expedition: the 'Hebe Stanton'",
             "actionid": "explore_r",
             "requirements": {
-                "r_lmfunds": 1,
-                "r_operator": 1,
+                "lmfunds": 1,
+                "operator": 1,
                 "vaultfloating1": 1
             },
             "effects": {
@@ -20,13 +20,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorevault_expeditionbegun",
+                    "id": "explorevault_expeditionbegun",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorevaultfloating1_success",
+            "id": "explorevaultfloating1_success",
             "label": "A Cosy Nest",
             "actionid": "explore_r",
             "requirements": {

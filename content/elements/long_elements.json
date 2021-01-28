@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_welland_unknown",
+            "id": "welland_unknown",
             "label": "A Shadowy Presence",
             "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
             "aspects": {
@@ -13,7 +13,7 @@
             }
         },
         {
-            "id": "r_tryphon_unknown",
+            "id": "tryphon_unknown",
             "label": "A Shadowy Presence",
             "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
             "aspects": {
@@ -25,7 +25,7 @@
             }
         },
         {
-            "id": "r_diarist_unknown",
+            "id": "diarist_unknown",
             "label": "A Shadowy Presence",
             "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
             "aspects": {
@@ -37,7 +37,7 @@
             }
         },
         {
-            "id": "r_julian_unknown",
+            "id": "julian_unknown",
             "label": "A Shadowy Presence",
             "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
             "aspects": {
@@ -49,7 +49,7 @@
             }
         },
         {
-            "id": "r_welland",
+            "id": "welland",
             "label": "Captain Welland",
             "description": "'This is no Noble Endeavour. We'll have no Jack-come-quickly jumping up the House ranks.' [Welland is more likely to use Assault attacks.]",
             "aspects": {
@@ -62,7 +62,7 @@
             }
         },
         {
-            "id": "r_tryphon",
+            "id": "tryphon",
             "label": "Lady Tryphon",
             "description": "'No, He cannot harm you; He cannot find you. But I suffer no such circumscription.' [Tryphon is more likely to use Intrigue attacks.]",
             "aspects": {
@@ -75,7 +75,7 @@
             }
         },
         {
-            "id": "r_diarist",
+            "id": "diarist",
             "label": "The Diarist",
             "description": "'Your pretender is going to make a damned good footnote. But I wouldn't expect anything more than that.' [The Diarist is more likely to use Starlight attacks.]",
             "aspects": {
@@ -88,7 +88,7 @@
             }
         },
         {
-            "id": "r_julian",
+            "id": "julian",
             "label": "J.C.",
             "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
             "aspects": {
@@ -101,12 +101,12 @@
             }
         },
         {
-            "id": "r_welland.defeated",
+            "id": "welland.defeated",
             "label": "A Letter from Welland",
             "description": "'SIR - (It does not seem to have occurred to Welland that he might have been defeated by anyone but a 'sir')\nI am the most dangerous enemy you will ever face, and I have defeated far greater than you. You deserve better than to be pyre-fuel. I urge you to shatter your chains, as the Lionsmith did so long ago, and rise to take your own place as Long.\nI attach the secret that Darius told Alexander at Issus. Use it wisely.\nRegards,\nW. '\n[The secret is attached. You can use it to break free of your Mentor.]",
             "slots": [
                 {
-                    "id": "r_mentor",
+                    "id": "mentor",
                     "label": "Shaper",
                     "required": {
                         "apostleforge.mentor": 1
@@ -119,12 +119,12 @@
             }
         },
         {
-            "id": "r_tryphon.defeated",
+            "id": "tryphon.defeated",
             "label": "A Letter from Lady Tryphon",
             "description": "'My love,\nI am defeated, and you my vanquisher have won my devotion. I enclose a remaining scrap of myself, and go forth to meet my demise.\nConsume what remains of me, and we shall be one, as the Flowermaker has always intended. Reject your 'Delight'. Your destiny is far greater.\nYou will ask: is this a last trick? A desperate stratagem to assure your betrayal? I can only answer: taste me, and see.\nI remain,\nyour delicious friend,\nT.E.'\n[If you consume the enclosed morsel of Lady Tryphon, you can break free of your Mentor.]",
             "slots": [
                 {
-                    "id": "r_mentor",
+                    "id": "mentor",
                     "label": "Delight",
                     "required": {
                         "apostlegrail.mentor": 1
@@ -137,12 +137,12 @@
             }
         },
         {
-            "id": "r_diarist.defeated",
+            "id": "diarist.defeated",
             "label": "A Dream of the Diarist",
             "description": "The sunlight through the western window in the Scriptorium is failing. As the Diarist writes his last entry, the chamber chills from gold towards grey. He closes his little book with a snap. 'Death is down,' he explains, 'and I am already losing altitude. I don't bear you any grudge. I tell you what, though, I hope your Illuminated One trips and falls down the Ascent.' The Diarist's face is erasing itself, like a man unwriting, and his eyes are already gone. He hands you his little book. 'This is your last chance. You can go where I was, or where you're going. I know which is better.' His mouth spools itself up like the undrawing of a zip, and he is blank white paper.\n\n[If you consider the dream of the diary, you can break free of your Mentor.]",
             "slots": [
                 {
-                    "id": "r_mentor",
+                    "id": "mentor",
                     "label": "Illuminated One",
                     "required": {
                         "apostlelantern.mentor": 1
@@ -156,12 +156,12 @@
             "lifetime": 120
         },
         {
-            "id": "r_julian.defeated",
+            "id": "julian.defeated",
             "label": "A Letter from Julian Coseley",
             "description": "'Enemy,\n\nI am not so easily destroyed. But I will acknowledge that you have defeated me, and so I will reward you with my counsel.\n\nYou are a fool, cozened by a fool to emplace one more stone in the walls of the Mansus. You may, if you choose, cast that stone away into night.\n\nShould you so cast it, you will die empty and alone, as do all, even the Long. You might die free.\n\n- Julian'\n\n[If you take Julian's lesson to heart, you can break free of your Mentor.]",
             "slots": [
                 {
-                    "id": "r_mentor",
+                    "id": "mentor",
                     "label": "Founder",
                     "required": {
                         "apostleforge.mentor": 1,
@@ -176,19 +176,19 @@
             }
         },
         {
-            "id": "r_strategy.prep",
+            "id": "strategy.prep",
             "label": "Preparations Ongoing",
             "description": "Our immortal enemy is preparing another action. [The Long needs three Preparations to launch another action.]",
             "lifetime": 1
         },
         {
-            "id": "r_strategy.prep.delayed",
+            "id": "strategy.prep.delayed",
             "label": "Preparations Spoiled!",
             "description": "Our spy has upset some element of our enemy's preparations. [The Long has lost one Preparation token to your sabotage.]",
             "lifetime": 1
         },
         {
-            "id": "r_strategy.assault.concealed",
+            "id": "strategy.assault.concealed",
             "label": "The Long's Plans",
             "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
             "aspects": {
@@ -201,7 +201,7 @@
             "icon": "strategy.unknown"
         },
         {
-            "id": "r_strategy.intrigue.concealed",
+            "id": "strategy.intrigue.concealed",
             "label": "The Long's Plans",
             "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
             "aspects": {
@@ -214,7 +214,7 @@
             "icon": "strategy.unknown"
         },
         {
-            "id": "r_strategy.dreams.concealed",
+            "id": "strategy.dreams.concealed",
             "label": "The Long's Plans",
             "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
             "aspects": {
@@ -227,7 +227,7 @@
             "icon": "strategy.unknown"
         },
         {
-            "id": "r_strategy.downtime.concealed",
+            "id": "strategy.downtime.concealed",
             "label": "The Long's Plans",
             "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
             "aspects": {
@@ -240,7 +240,7 @@
             "icon": "strategy.unknown"
         },
         {
-            "id": "r_strategy.assault.revealed",
+            "id": "strategy.assault.revealed",
             "label": "The Long's Plans Revealed: Assault",
             "description": "Our enemy intends a direct attack of some kind, this time.",
             "aspects": {
@@ -253,7 +253,7 @@
             "lifetime": 1
         },
         {
-            "id": "r_strategy.intrigue.revealed",
+            "id": "strategy.intrigue.revealed",
             "label": "The Long's Plans Revealed: Intrigue",
             "description": "Our enemy intends to use trickery against us, this time.",
             "aspects": {
@@ -266,7 +266,7 @@
             "lifetime": 1
         },
         {
-            "id": "r_strategy.dreams.revealed",
+            "id": "strategy.dreams.revealed",
             "label": "The Long's Plans Revealed: Dreams",
             "description": "Our enemy will find us through the Mansus, this time.",
             "aspects": {
@@ -279,7 +279,7 @@
             "lifetime": 1
         },
         {
-            "id": "r_strategy.downtime.revealed",
+            "id": "strategy.downtime.revealed",
             "label": "The Long's Plans Revealed: A Respite",
             "description": "Our enemy will not move against us, this time. They will rest... and perhaps in resting they will grow stronger.",
             "aspects": {
@@ -292,7 +292,7 @@
             "lifetime": 1
         },
         {
-            "id": "r_strategy.dreams.preference",
+            "id": "strategy.dreams.preference",
             "label": "A Presentiment: the Lessons of the Soul",
             "description": "For their next action, this Long will probably try to learn from our weaknesses in dreams - even if their plans would usually dictate otherwise.",
             "comments": "This is currently unused - it became less relevant once tablereqs came in.",
@@ -300,7 +300,7 @@
             "noartneeded": true
         },
         {
-            "id": "r_long.lesson.might",
+            "id": "long.lesson.might",
             "label": "Increased Might",
             "aspects": {
                 "long.lesson": 1
@@ -308,7 +308,7 @@
             "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Might will increase, allowing them to conduct more powerful assaults.]"
         },
         {
-            "id": "r_long.lesson.connections",
+            "id": "long.lesson.connections",
             "label": "More Connections",
             "aspects": {
                 "long.lesson": 1
@@ -316,7 +316,7 @@
             "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Connections will increase, allowing them to conduct more devious intrigues.]"
         },
         {
-            "id": "r_long.lesson.dreamwork",
+            "id": "long.lesson.dreamwork",
             "label": "Glimpses of the Soul",
             "aspects": {
                 "long.lesson": 1

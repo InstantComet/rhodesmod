@@ -1,16 +1,16 @@
 {
     "recipes": [
         {
-            "id": "r_auctionbuy",
+            "id": "auctionbuy",
             "label": "Bid in an Auction",
             "actionid": "explore_r",
             "effects": {},
             "slots": [
                 {
-                    "id": "r_Bid",
+                    "id": "Bid",
                     "label": "Bid",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
@@ -20,48 +20,48 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_playerincreasedbid",
+                    "id": "playerincreasedbid",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "r_auctionfailureclear",
+                    "id": "auctionfailureclear",
                     "chance": 100
                 }
             ],
             "comments": "The auction item should be inherited from the linking recipe. If this event completes, the auction has failed and the item is removed. NB the auctioncomplete aspect, which converts existing bids back into funds."
         },
         {
-            "id": "r_playerincreasedbid",
+            "id": "playerincreasedbid",
             "actionid": "explore_r",
             "label": "I've bid!",
             "requirements": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "startdescription": "I've raised my hand. The auctioneer raps out an acknowledgement. Will anyone match me?",
             "description": ".",
             "effects": {
-                "r_lmfunds": -1,
+                "lmfunds": -1,
                 "bid": 1
             },
             "warmup": 0,
             "linked": [
                 {
-                    "id": "r_auctionbidmatched.grailapostlepillar3"
+                    "id": "auctionbidmatched.grailapostlepillar3"
                 },
                 {
-                    "id": "r_auctionsuccess",
+                    "id": "auctionsuccess",
                     "chance": 70
                 },
                 {
-                    "id": "r_auctionbidmatched",
+                    "id": "auctionbidmatched",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_auctionbidmatched.grailapostlepillar3",
+            "id": "auctionbidmatched.grailapostlepillar3",
             "actionid": "explore_r",
             "requirements": {
                 "bid": -6,
@@ -69,40 +69,40 @@
             },
             "linked": [
                 {
-                    "id": "r_auctionbidmatched"
+                    "id": "auctionbidmatched"
                 }
             ]
         },
         {
-            "id": "r_auctionbidmatched",
+            "id": "auctionbidmatched",
             "label": "Another bidder!",
             "actionid": "explore_r",
             "startdescription": "Someone else has matched my bid! I must match it with more funds, or forgo my prize.",
             "description": ".",
             "slots": [
                 {
-                    "id": "r_Bid",
+                    "id": "Bid",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     }
                 }
             ],
             "alt": [
                 {
-                    "id": "r_playerincreasedbid",
+                    "id": "playerincreasedbid",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "r_auctionfailureclear",
+                    "id": "auctionfailureclear",
                     "chance": 100
                 }
             ],
             "warmup": 30
         },
         {
-            "id": "r_auctionfailureclear",
+            "id": "auctionfailureclear",
             "actionid": "explore_r",
             "effects": {
                 "text": -1,
@@ -112,14 +112,14 @@
             "comments": "Tools and ingredients might subsequently be offered as purchases; in particular, ingredients are right now in a Grail Apostle plot recipe.",
             "linked": [
                 {
-                    "id": "r_auctionfailure",
+                    "id": "auctionfailure",
                     "chance": 100
                 }
             ],
             "warmup": 0
         },
         {
-            "id": "r_auctionfailure",
+            "id": "auctionfailure",
             "actionid": "explore_r",
             "label": "I haven't won the auction",
             "aspects": {
@@ -130,11 +130,11 @@
             "warmup": 0
         },
         {
-            "id": "r_auctionsuccess",
+            "id": "auctionsuccess",
             "label": "I've won the auction!",
             "actionid": "explore_r",
             "effects": {
-                "r_lmfunds": -100,
+                "lmfunds": -100,
                 "bid": -100
             },
             "startdescription": ".",
@@ -144,7 +144,7 @@
             "comments": "The auction item should be inherited from the linking recipe."
         },
         {
-            "id": "r_expedition.corpse.find.vaultshires3",
+            "id": "expedition.corpse.find.vaultshires3",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "The others who came here all overlooked the secrets locked within the warrior-king's corpse. I will not make the same mistake.",
@@ -157,7 +157,7 @@
             "warmup": 10
         },
         {
-            "id": "r_expedition.corpse.find.vaultcapital5",
+            "id": "expedition.corpse.find.vaultcapital5",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "I should not neglect this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
@@ -170,7 +170,7 @@
             "warmup": 10
         },
         {
-            "id": "r_expedition.corpse.find.vaultloneandlevelsands2",
+            "id": "expedition.corpse.find.vaultloneandlevelsands2",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "I will gather what I can of Lagun's remains. I will find a way to unlock the memories within. Even if I have to steep it in tea.",
@@ -183,7 +183,7 @@
             "warmup": 10
         },
         {
-            "id": "r_expedition.corpse.find.vaultrendingmountainsdefault",
+            "id": "expedition.corpse.find.vaultrendingmountainsdefault",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "I will keep what is left of the King to myself.",
@@ -199,7 +199,7 @@
             "warmup": 10
         },
         {
-            "id": "r_expedition.corpse.find.vaultshires4",
+            "id": "expedition.corpse.find.vaultshires4",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "'Caput gerat lupinum'. When a human passes beyond the permissible, they were once considered to have become a wolf.",
@@ -212,7 +212,7 @@
             "warmup": 10
         },
         {
-            "id": "r_expedition.corpse.find.vaultshires3.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultshires3.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "My rival, like all the others who have come here, overlooked the secrets locked within the warrior-king's corpse. I will not make the same mistake.",
@@ -228,12 +228,12 @@
             "warmup": 60
         },
         {
-            "id": "r_expedition.corpse.find.vaultcapital5.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
             "requirements": {
-                "r_vaultcapital5": 1
+                "vaultcapital5": 1
             },
             "extantreqs": {
                 "remembrancemarks": 1
@@ -244,7 +244,7 @@
             "warmup": 60
         },
         {
-            "id": "r_expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge the once-immortal remains I require. I will gather what I can of Lagun's remains. I will find a way to unlock the memories within. Even if I have to steep it in tea.",
@@ -260,7 +260,7 @@
             "warmup": 60
         },
         {
-            "id": "r_expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge the half-mortal remains I require. I will keep what is left of the King to myself.",
@@ -279,7 +279,7 @@
             "warmup": 60
         },
         {
-            "id": "r_expedition.corpse.find.vaultshires4.ransackedbyrival",
+            "id": "expedition.corpse.find.vaultshires4.ransackedbyrival",
             "actionid": "expedition.corpse.find",
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge the mortal remains we require.",

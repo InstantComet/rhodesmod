@@ -1,25 +1,25 @@
 {
     "elements": [
         {
-            "id": "r_owl",
+            "id": "owl",
             "label": "The Owl Without a Hat",
             "aspects": {
-                "r_job": 1
+                "job": 1
             },
             "description": "The Owl says that our last character was #PREVIOUSCHARACTERNAME#, our last desire was #LAST_DESIRE#, our last best follower was #LAST_FOLLOWER# and our last book was #LAST_BOOK#.",
             "noartneeded": true
         },
         {
-            "id": "r_wolfatthedoor",
+            "id": "wolfatthedoor",
             "label": "T H  E  WO L  F  W  H  O   L  I  V  E  S IN THE BIG HOUSE",
             "aspects": {
                 "ability": 1,
-                "r_location": 1,
+                "location": 1,
                 "acquaintance": 1
             },
             "slots": [
                 {
-                    "id": "r_Meal5",
+                    "id": "Meal5",
                     "consumes": true,
                     "actionid": "explore_r"
                 }
@@ -29,35 +29,35 @@
             "noartneeded": true
         },
         {
-            "id": "r_wolf",
+            "id": "wolf",
             "lifetime": 1,
             "decayTo": "wolfatthedoor",
             "description": "",
             "noartneeded": true
         },
         {
-            "id": "r_lionweb",
+            "id": "lionweb",
             "label": "The Lion in the Web",
             "comments": "Information lives in the sky.",
             "icon": "valciane_p",
             "noartneeded": true
         },
         {
-            "id": "r_boarwords",
+            "id": "boarwords",
             "label": "The Boar in the Words",
             "comments": "Titles are criminal.",
             "icon": "victor_p",
             "noartneeded": true
         },
         {
-            "id": "r_worldbull",
+            "id": "worldbull",
             "label": "The World in the Bull",
             "comments": "The crime At the beginning",
             "icon": "clifton_p",
             "noartneeded": true
         },
         {
-            "id": "r_notaworm",
+            "id": "notaworm",
             "label": "Possibly a Bird",
             "comments": "We Await S.T.E.",
             "icon": "clovette_p",

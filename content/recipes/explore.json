@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_exploremovehq",
+            "id": "exploremovehq",
             "actionid": "explore_r",
             "label": "A Change of Premises",
             "startdescription": "Move our organisation's headquarters to a new location. [This will permanently relocate your headquarters. No return is possible. It can reduce Notoriety.]",
@@ -15,7 +15,7 @@
             },
             "slots": [
                 {
-                    "id": "r_coldtrail",
+                    "id": "coldtrail",
                     "label": "A Cold Trail",
                     "description": "When we move, the Suppression Bureau may waste time investigating our old location.",
                     "greedy": true,
@@ -31,114 +31,114 @@
             "craftable": true
         },
         {
-            "id": "r_explorehq.townhouse",
+            "id": "explorehq.townhouse",
             "actionid": "explore_r",
             "label": "--",
             "startdescription": "--",
             "description": "--",
             "requirements": {
                 "hq.townhouse": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influencegrail": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorehq.hospital",
+            "id": "explorehq.hospital",
             "actionid": "explore_r",
             "label": "Where It Opens",
             "startdescription": "The first wardens of this place practised their incisions and their transections until the world parted like fruit-peel. Those openings have long since healed, but nothing ever heals completely.",
             "description": "There is always discomfort, at first, but we have made sure that everything is done cleanly, and so we touch the bright skirts of the Mother-of-Ants.",
             "requirements": {
                 "hq.hospital": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influenceknock": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorehq.mithraeum",
+            "id": "explorehq.mithraeum",
             "actionid": "explore_r",
             "label": "The Sun Beneath Us",
             "startdescription": "This was a holy place of the Sun Unconquered, the Sun Undivided. With the purest of candles, we can touch the light that still swims in the stone.",
             "description": "The lucent, the translucent, the memory of splendour. Much is lost, and much remains, of the Sun Invisible and Indivisible.",
             "requirements": {
                 "hq.mithraeum": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influencelantern": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorehq.church",
+            "id": "explorehq.church",
             "actionid": "explore_r",
             "label": "The Wounds of Wisdom",
             "startdescription": "'Not all doors are wounds, but every wound is a door.' The history of this place is rich with both wounds and doors. With the right materials, we can soften the air where once the air opened.",
             "description": "Tonight, no door in this church will close; no lock will require a key; and every heart will be opened.",
             "requirements": {
                 "hq.church": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influenceknock": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorehq.bookshop",
+            "id": "explorehq.bookshop",
             "actionid": "explore_r",
             "label": "The Guarded Hearth",
             "startdescription": "We will warm the spaces behind the shop with fire-light, enliven them with the kettle's whistle and the gramophone's hum. Not all our celebrations require the shedding of blood.",
             "description": "Bookshops give solace to the anxious, the ignorant and the troubled in spirit. Even after Morland brought her curious wares here, this solace lingers. Tonight the Hour called Thunderskin steps softly.",
             "requirements": {
                 "hq.bookshop": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influenceheart": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorehq.warehouse",
+            "id": "explorehq.warehouse",
             "actionid": "explore_r",
             "label": "In Memory of Engines",
             "startdescription": "Before this was a warehouse, it was a mansion of machines: a house of steam and iron and, from time to time, torn flesh and screaming. We will pour the oils that commemorate that time. ",
             "description": "Once more we have flames, once more we have iron, and once more flesh will know heat's kiss; though nowhere it will show, not by daylight. Far above, far below, the Forge of Days performs her purifications.",
             "requirements": {
                 "hq.warehouse": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {
                 "influenceforge": 1,
-                "r_lmfunds": -1
+                "lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "r_explorelocationbookdealer",
+            "id": "explorelocationbookdealer",
             "label": "Add to your Library",
             "actionid": "explore_r",
             "requirements": {
                 "locationbookdealer": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "effects": {},
             "deckeffects": {
@@ -150,13 +150,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_explorelocationbookdealer_exhausted",
+                    "id": "explorelocationbookdealer_exhausted",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorelocationbookdealer_exhausted",
+            "id": "explorelocationbookdealer_exhausted",
             "label": "Morland's is Closing!",
             "actionid": "explore_r",
             "requirements": {
@@ -172,7 +172,7 @@
             }
         },
         {
-            "id": "r_explorelocationauctionhouse",
+            "id": "explorelocationauctionhouse",
             "label": "Attend an Auction at Oriflamme's",
             "actionid": "explore_r",
             "requirements": {
@@ -189,13 +189,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_auctionbuy",
+                    "id": "auctionbuy",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorelocationstreetsstrange",
+            "id": "explorelocationstreetsstrange",
             "label": "Explore an uncanny tangle of streets by the light of the moon.",
             "actionid": "explore_r",
             "requirements": {
@@ -210,23 +210,23 @@
             "craftable": true
         },
         {
-            "id": "r_explorefollower",
+            "id": "explorefollower",
             "label": "Search the City",
             "actionid": "explore_r",
             "requirements": {
-                "r_operator": 1,
-                "r_location": -1
+                "operator": 1,
+                "location": -1
             },
             "deckeffects": {
                 "exploreevents": 1
             },
             "linked": [
                 {
-                    "id": "r_explorefindcriminal",
+                    "id": "explorefindcriminal",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorefindplace",
+                    "id": "explorefindplace",
                     "chance": 100
                 }
             ],
@@ -236,7 +236,7 @@
             "craftable": true
         },
         {
-            "id": "r_explorerumour",
+            "id": "explorerumour",
             "label": "Track down a rumour",
             "actionid": "explore_r",
             "requirements": {
@@ -255,12 +255,12 @@
             "craftable": true
         },
         {
-            "id": "r_explorehealth",
+            "id": "explorehealth",
             "label": "Search the City",
             "actionid": "explore_r",
             "requirements": {
                 "health": 1,
-                "r_location": -1
+                "location": -1
             },
             "deckeffects": {
                 "exploreevents": 1
@@ -270,11 +270,11 @@
             },
             "linked": [
                 {
-                    "id": "r_explorefindcriminal",
+                    "id": "explorefindcriminal",
                     "chance": 100
                 },
                 {
-                    "id": "r_explorefindplace",
+                    "id": "explorefindplace",
                     "chance": 100
                 }
             ],
@@ -284,7 +284,7 @@
             "craftable": true
         },
         {
-            "id": "r_explorefindcriminal",
+            "id": "explorefindcriminal",
             "label": "A Hireling?",
             "actionid": "explore_r",
             "requirements": {
@@ -299,29 +299,29 @@
             "warmup": 0,
             "linked": [
                 {
-                    "id": "r_explorechoosepaycriminal",
+                    "id": "explorechoosepaycriminal",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_explorechoosepaycriminal",
+            "id": "explorechoosepaycriminal",
             "label": "A Hireling?",
             "actionid": "explore_r",
             "startdescription": "I've found someone whom I might pay to enact regrettable necessities. [Add Funds to hire them, for a limited time.]",
             "slots": [
                 {
-                    "id": "r_Payment",
+                    "id": "Payment",
                     "label": "Payment",
                     "required": {
-                        "r_lmfunds": 1
+                        "lmfunds": 1
                     },
                     "consumes": true
                 }
             ],
             "alt": [
                 {
-                    "id": "r_explorepaycriminal",
+                    "id": "explorepaycriminal",
                     "chance": 100
                 }
             ],
@@ -332,19 +332,19 @@
             "warmup": 60
         },
         {
-            "id": "r_explorepaycriminal",
+            "id": "explorepaycriminal",
             "label": "A Hireling",
             "requirements": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "actionid": "explore_r",
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
-                "r_lmfunds": -1
+                "lmfunds": -1
             }
         },
         {
-            "id": "r_explorefindplace",
+            "id": "explorefindplace",
             "label": "An Overlooked Place?",
             "actionid": "explore_r",
             "requirements": {
@@ -361,7 +361,7 @@
             "warmup": 5
         },
         {
-            "id": "r_explore.searchgraveyard.self",
+            "id": "explore.searchgraveyard.self",
             "actionid": "explore_r",
             "requirements": {
                 "location.cemetery": 1,
@@ -381,11 +381,11 @@
             "craftable": true
         },
         {
-            "id": "r_explore.searchgraveyard.follower",
+            "id": "explore.searchgraveyard.follower",
             "actionid": "explore_r",
             "requirements": {
                 "location.cemetery": 1,
-                "r_operator": 1
+                "operator": 1
             },
             "effects": {
                 "corpse": 1,
@@ -398,7 +398,7 @@
             "craftable": true
         },
         {
-            "id": "r_explore.searchgraveyard.closing.self",
+            "id": "explore.searchgraveyard.closing.self",
             "actionid": "explore_r",
             "requirements": {
                 "location.cemetery.closing": 1,
@@ -418,11 +418,11 @@
             "craftable": true
         },
         {
-            "id": "r_explore.searchgraveyard.closing.follower",
+            "id": "explore.searchgraveyard.closing.follower",
             "actionid": "explore_r",
             "requirements": {
                 "location.cemetery.closing": 1,
-                "r_operator": 1
+                "operator": 1
             },
             "effects": {
                 "corpse": 1,
@@ -435,7 +435,7 @@
             "craftable": true
         },
         {
-            "id": "r_explore.fleeting",
+            "id": "explore.fleeting",
             "actionid": "explore_r",
             "requirements": {
                 "fleeting": 1

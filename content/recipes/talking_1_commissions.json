@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_getcommissionaladim",
+            "id": "getcommissionaladim",
             "label": "Get a Commission from Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "r_getcommissionbechet",
+            "id": "getcommissionbechet",
             "label": "Get a Commission from Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -37,7 +37,7 @@
             "craftable": true
         },
         {
-            "id": "r_getcommissionjannings",
+            "id": "getcommissionjannings",
             "label": "Get a Commission from Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -55,7 +55,7 @@
             "craftable": true
         },
         {
-            "id": "r_getcommissionpoppy",
+            "id": "getcommissionpoppy",
             "label": "Get a Commission from Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -73,7 +73,7 @@
             "craftable": true
         },
         {
-            "id": "r_fulfilcommissionaladimsecrethistoriesc",
+            "id": "fulfilcommissionaladimsecrethistoriesc",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -96,7 +96,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionaladimsecrethistoriesb",
+            "id": "fulfilcommissionaladimsecrethistoriesb",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -119,7 +119,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionaladimsecrethistories",
+            "id": "fulfilcommissionaladimsecrethistories",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -142,7 +142,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionaladimlanternc",
+            "id": "fulfilcommissionaladimlanternc",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -165,7 +165,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionaladimlanternb",
+            "id": "fulfilcommissionaladimlanternb",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -188,7 +188,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionaladimlantern",
+            "id": "fulfilcommissionaladimlantern",
             "label": "Fulfil a Commission for Dr al-Adim",
             "actionid": "talk_r",
             "requirements": {
@@ -211,7 +211,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetforgec",
+            "id": "fulfilcommissionbechetforgec",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -234,7 +234,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetforgeb",
+            "id": "fulfilcommissionbechetforgeb",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -257,7 +257,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetforge",
+            "id": "fulfilcommissionbechetforge",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -280,7 +280,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetgrailc",
+            "id": "fulfilcommissionbechetgrailc",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -303,7 +303,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetgrailb",
+            "id": "fulfilcommissionbechetgrailb",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -326,7 +326,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetgrail",
+            "id": "fulfilcommissionbechetgrail",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -349,7 +349,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetmothc",
+            "id": "fulfilcommissionbechetmothc",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -372,7 +372,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetmothb",
+            "id": "fulfilcommissionbechetmothb",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -395,7 +395,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionbechetmoth",
+            "id": "fulfilcommissionbechetmoth",
             "label": "Fulfil a Commission for Mme Bechet",
             "actionid": "talk_r",
             "requirements": {
@@ -418,7 +418,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsheartc",
+            "id": "fulfilcommissionjanningsheartc",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -441,7 +441,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsheartb",
+            "id": "fulfilcommissionjanningsheartb",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -464,7 +464,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsheart",
+            "id": "fulfilcommissionjanningsheart",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -487,7 +487,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsedgec",
+            "id": "fulfilcommissionjanningsedgec",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -510,7 +510,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsedgeb",
+            "id": "fulfilcommissionjanningsedgeb",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -533,7 +533,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionjanningsedge",
+            "id": "fulfilcommissionjanningsedge",
             "label": "Fulfil a Commission for Count Jannings",
             "actionid": "talk_r",
             "requirements": {
@@ -556,7 +556,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionwinterc",
+            "id": "fulfilcommissionpoppycommissionwinterc",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -579,7 +579,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionwinterb",
+            "id": "fulfilcommissionpoppycommissionwinterb",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -602,7 +602,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionwinter",
+            "id": "fulfilcommissionpoppycommissionwinter",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -625,7 +625,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionknockc",
+            "id": "fulfilcommissionpoppycommissionknockc",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -648,7 +648,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionknockb",
+            "id": "fulfilcommissionpoppycommissionknockb",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {
@@ -671,7 +671,7 @@
             }
         },
         {
-            "id": "r_fulfilcommissionpoppycommissionknock",
+            "id": "fulfilcommissionpoppycommissionknock",
             "label": "Fulfil a Commission for Poppy Lascelles",
             "actionid": "talk_r",
             "requirements": {

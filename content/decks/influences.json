@@ -1,7 +1,7 @@
 {
     "decks": [
         {
-            "id": "r_randominfluencelow",
+            "id": "randominfluencelow",
             "label": "Auguries",
             "description": "Times and places of power, soon. They could be tied to almost any Aspect.",
             "spec": [

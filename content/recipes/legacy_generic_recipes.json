@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_studymapbookdealer",
+            "id": "studymapbookdealer",
             "label": "Find Morland's shop",
             "actionid": "study_r",
             "requirements": {
@@ -13,7 +13,7 @@
             },
             "alt": [
                 {
-                    "id": "r_openexplore",
+                    "id": "openexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -25,7 +25,7 @@
             "comments": "This is one way the Explore verb may be opened."
         },
         {
-            "id": "r_openexplore",
+            "id": "openexplore",
             "label": "explore_r",
             "actionid": "explore_r",
             "requirements": {},

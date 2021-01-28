@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_worktemplatejob",
+            "id": "worktemplatejob",
             "label": "Start template Job",
             "actionid": "work_r",
             "requirements": {
@@ -15,7 +15,7 @@
             },
             "alt": [
                 {
-                    "id": "r_templateopenstudy",
+                    "id": "templateopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -26,7 +26,7 @@
             "craftable": true
         },
         {
-            "id": "r_worktemplatejob_matured",
+            "id": "worktemplatejob_matured",
             "label": "",
             "actionid": "work_r",
             "requirements": {
@@ -34,13 +34,13 @@
             },
             "alt": [
                 {
-                    "id": "r_needs",
+                    "id": "needs",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "effects": {
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "startdescription": "",
             "description": "",
@@ -48,7 +48,7 @@
             "craftable": true
         },
         {
-            "id": "r_worktemplatejob_epilogue",
+            "id": "worktemplatejob_epilogue",
             "label": "",
             "actionid": "work_r",
             "effects": {
@@ -59,7 +59,7 @@
             "craftable": false
         },
         {
-            "id": "r_templateopendream",
+            "id": "templateopendream",
             "label": "OPEN DREAM",
             "actionid": "dream_r",
             "startdescription": "",
@@ -71,21 +71,21 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_visionsrisk",
+                    "id": "visionsrisk",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_templateopenstudy",
+            "id": "templateopenstudy",
             "label": "OPEN STUDY",
             "actionid": "study_r",
             "startdescription": "",
             "description": "",
             "alt": [
                 {
-                    "id": "r_templateopendream",
+                    "id": "templateopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -97,7 +97,7 @@
             "craftable": false
         },
         {
-            "id": "r_templateopenexplore",
+            "id": "templateopenexplore",
             "label": "OPEN EXPLORE",
             "actionid": "explore_r",
             "startdescription": "",
@@ -110,7 +110,7 @@
             "craftable": false
         },
         {
-            "id": "r_templateopentalk",
+            "id": "templateopentalk",
             "label": "",
             "actionid": "talk_r",
             "startdescription": "",
@@ -120,7 +120,7 @@
             "craftable": false
         },
         {
-            "id": "r_templatestudy_plotitem",
+            "id": "templatestudy_plotitem",
             "label": "",
             "actionid": "study_r",
             "requirements": {
@@ -128,7 +128,7 @@
             },
             "alt": [
                 {
-                    "id": "r_templateopendream",
+                    "id": "templateopendream",
                     "chance": 100,
                     "additional": true
                 }

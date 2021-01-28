@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_dreamascensionpowera",
+            "id": "dreamascensionpowera",
             "label": "Meditate on my goal of unearthly power",
             "actionid": "dream_r",
             "requirements": {
@@ -9,7 +9,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Calculation",
+                    "id": "Calculation",
                     "label": "Calculation",
                     "required": {
                         "lore": 1,
@@ -24,19 +24,19 @@
             "description": "I have decided to remain as I am... for now.",
             "alt": [
                 {
-                    "id": "r_dreamascension_abandontemptation",
+                    "id": "dreamascension_abandontemptation",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_sensation",
+                    "id": "dreamascension_switchto_sensation",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_enlightenment",
+                    "id": "dreamascension_switchto_enlightenment",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_upgrade_power_1to2",
+                    "id": "dreamascension_upgrade_power_1to2",
                     "chance": 100
                 }
             ],
@@ -44,7 +44,7 @@
             "craftable": true
         },
         {
-            "id": "r_dreamascensionsensationa",
+            "id": "dreamascensionsensationa",
             "label": "Meditate on the pursuit of sensation",
             "actionid": "dream_r",
             "requirements": {
@@ -52,7 +52,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Musing",
+                    "id": "Musing",
                     "label": "Musing",
                     "required": {
                         "lore": 1,
@@ -67,23 +67,23 @@
             "description": "I have decided to remain as I am... for now.",
             "alt": [
                 {
-                    "id": "r_dreamascension_abandontemptation",
+                    "id": "dreamascension_abandontemptation",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_power",
+                    "id": "dreamascension_switchto_power",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_enlightenment",
+                    "id": "dreamascension_switchto_enlightenment",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_upgrade_sensation_1to2m",
+                    "id": "dreamascension_upgrade_sensation_1to2m",
                     "chance": 50
                 },
                 {
-                    "id": "r_dreamascension_upgrade_sensation_1to2f",
+                    "id": "dreamascension_upgrade_sensation_1to2f",
                     "chance": 100
                 }
             ],
@@ -91,7 +91,7 @@
             "craftable": true
         },
         {
-            "id": "r_dreamascensionenlightenmenta",
+            "id": "dreamascensionenlightenmenta",
             "label": "Meditate on my goal of unearthly knowledge",
             "actionid": "dream_r",
             "requirements": {
@@ -99,7 +99,7 @@
             },
             "slots": [
                 {
-                    "id": "r_Reflection",
+                    "id": "Reflection",
                     "label": "Reflection",
                     "required": {
                         "lore": 1,
@@ -114,19 +114,19 @@
             "description": "I have decided to remain as I am... for now.",
             "alt": [
                 {
-                    "id": "r_dreamascension_abandontemptation",
+                    "id": "dreamascension_abandontemptation",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_sensation",
+                    "id": "dreamascension_switchto_sensation",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_switchto_power",
+                    "id": "dreamascension_switchto_power",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamascension_upgrade_enlightenment_1to2",
+                    "id": "dreamascension_upgrade_enlightenment_1to2",
                     "chance": 100
                 }
             ],
@@ -134,7 +134,7 @@
             "craftable": true
         },
         {
-            "id": "r_dreamascension_abandontemptation",
+            "id": "dreamascension_abandontemptation",
             "actionid": "dream_r",
             "label": "Purge myself of Temptation",
             "startdescription": "My own desires are nothing. I am the Threshold. I am the road that my people will walk. I will set myself irrevocably to that purpose. [This will destroy your Temptation permanently. Be sure that's what you want.]",
@@ -148,7 +148,7 @@
             }
         },
         {
-            "id": "r_dreamascension_switchfromchange",
+            "id": "dreamascension_switchfromchange",
             "label": "Pursue Sensation rather than Change",
             "requirements": {
                 "ascensionchangea": 1
@@ -164,7 +164,7 @@
             "craftable": true
         },
         {
-            "id": "r_dreamascension_switchto_power",
+            "id": "dreamascension_switchto_power",
             "label": "My goal is Power, now.",
             "actionid": "dream_r",
             "requirements": {
@@ -178,7 +178,7 @@
             "description": "I have refocused my intentions. My predecessors wielded the power of remaking: a power that empresses, generals, physicists could only dream of. So shall I, though the power might sear me."
         },
         {
-            "id": "r_dreamascension_switchto_sensation",
+            "id": "dreamascension_switchto_sensation",
             "label": "My goal is Sensation, now.",
             "actionid": "dream_r",
             "requirements": {
@@ -192,7 +192,7 @@
             "description": "I have refocused my intentions. There are experiences tucked like veins beneath the world's skin. I will know the deepest of them, though the experience might devour me."
         },
         {
-            "id": "r_dreamascension_switchto_enlightenment",
+            "id": "dreamascension_switchto_enlightenment",
             "label": "My goal is Enlightenment, now.",
             "actionid": "dream_r",
             "requirements": {
@@ -206,7 +206,7 @@
             "description": "I have refocused my intentions. My predecessors understood the highest secrets, the searching secrets, the secrets that shone through bones like glass and skin like parchment. So shall I, though the knowledge might undo me."
         },
         {
-            "id": "r_dreamascension_upgrade_power_1to2",
+            "id": "dreamascension_upgrade_power_1to2",
             "label": "Flame's Dedication",
             "actionid": "dream_r",
             "requirements": {
@@ -222,7 +222,7 @@
             "burnimage": "forgededication"
         },
         {
-            "id": "r_dreamascension_upgrade_sensation_1to2m",
+            "id": "dreamascension_upgrade_sensation_1to2m",
             "label": "Blood's Dedication",
             "actionid": "dream_r",
             "requirements": {
@@ -238,7 +238,7 @@
             "burnimage": "graildedication"
         },
         {
-            "id": "r_dreamascension_upgrade_sensation_1to2f",
+            "id": "dreamascension_upgrade_sensation_1to2f",
             "label": "Blood's Dedication",
             "actionid": "dream_r",
             "requirements": {
@@ -254,7 +254,7 @@
             "burnimage": "graildedication"
         },
         {
-            "id": "r_dreamascension_upgrade_enlightenment_1to2",
+            "id": "dreamascension_upgrade_enlightenment_1to2",
             "label": "Light's Dedication",
             "actionid": "dream_r",
             "requirements": {
@@ -270,7 +270,7 @@
             "burnimage": "lanterndedication"
         },
         {
-            "id": "r_dreamreason",
+            "id": "dreamreason",
             "label": "The Wandering Mind",
             "actionid": "dream_r",
             "requirements": {
@@ -283,13 +283,13 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "r_dream_router",
+                    "id": "dream_router",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_dream_router",
+            "id": "dream_router",
             "label": "The Crowds of Sleep",
             "actionid": "dream_r",
             "deckeffects": {
@@ -297,34 +297,34 @@
             },
             "linked": [
                 {
-                    "id": "r_dreamcontentment",
+                    "id": "dreamcontentment",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamrestlessness",
+                    "id": "dreamrestlessness",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamvitality",
+                    "id": "dreamvitality",
                     "chance": 100
                 },
                 {
-                    "id": "r_dreamglimmering",
+                    "id": "dreamglimmering",
                     "chance": 100
                 },
                 {
-                    "id": "r_nightmarehersault",
+                    "id": "nightmarehersault",
                     "chance": 100
                 },
                 {
-                    "id": "r_nightmarecleansingdawn",
+                    "id": "nightmarecleansingdawn",
                     "chance": 100
                 }
             ],
             "warmup": 10
         },
         {
-            "id": "r_dreamcontentment",
+            "id": "dreamcontentment",
             "label": "Dreams of the Rain",
             "actionid": "dream_r",
             "requirements": {
@@ -335,7 +335,7 @@
             "warmup": 10
         },
         {
-            "id": "r_dreamrestlessness",
+            "id": "dreamrestlessness",
             "label": "Dreams of Doors",
             "actionid": "dream_r",
             "requirements": {
@@ -346,7 +346,7 @@
             "warmup": 10
         },
         {
-            "id": "r_dreamvitality",
+            "id": "dreamvitality",
             "label": "A Profound and Restful Sleep",
             "actionid": "dream_r",
             "requirements": {
@@ -357,7 +357,7 @@
             "warmup": 10
         },
         {
-            "id": "r_dreamglimmering",
+            "id": "dreamglimmering",
             "label": "Dreams of Curios behind Glass",
             "actionid": "dream_r",
             "requirements": {
@@ -368,7 +368,7 @@
             "warmup": 10
         },
         {
-            "id": "r_nightmarecleansingdawn",
+            "id": "nightmarecleansingdawn",
             "label": "Nightmare: The Cleansing Dawn",
             "actionid": "dream_r",
             "requirements": {
@@ -376,7 +376,7 @@
             },
             "alt": [
                 {
-                    "id": "r_nightmarecleansingdawnsuccess",
+                    "id": "nightmarecleansingdawnsuccess",
                     "chance": 30
                 }
             ],
@@ -385,7 +385,7 @@
             "warmup": 10
         },
         {
-            "id": "r_nightmarecleansingdawnsuccess",
+            "id": "nightmarecleansingdawnsuccess",
             "actionid": "dream_r",
             "effects": {
                 "influencelanternc": 1
@@ -393,7 +393,7 @@
             "description": "Now I can slough off my flesh, patch by patch, tugging the tendons free like fibres picked from teeth. My skin lies like a shredded blanket. The sun heaves itself above the horizon with a triumphant battle-yell. The light falls like acid on my naked bones. Pain will wake me, and my bones will ache for days, but the Sun's  words are etched on my bones."
         },
         {
-            "id": "r_nightmarehersault",
+            "id": "nightmarehersault",
             "label": "Hersault's Nightmare",
             "actionid": "dream_r",
             "requirements": {
@@ -401,7 +401,7 @@
             },
             "alt": [
                 {
-                    "id": "r_nightmarehersaultsuccess",
+                    "id": "nightmarehersaultsuccess",
                     "chance": 30
                 }
             ],
@@ -410,7 +410,7 @@
             "warmup": 10
         },
         {
-            "id": "r_nightmarehersaultsuccess",
+            "id": "nightmarehersaultsuccess",
             "label": "Hersault's Nightmare",
             "actionid": "dream_r",
             "effects": {

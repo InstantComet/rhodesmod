@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_previtality",
+            "id": "previtality",
             "label": "Vitality",
             "description": "[Vitality is burgeoning...]",
             "lifetime": 1,
@@ -9,7 +9,7 @@
             "decayTo": "vitality"
         },
         {
-            "id": "r_preerudition",
+            "id": "preerudition",
             "label": "Erudition",
             "description": "[Erudition arises from a moment of comprehension...]",
             "lifetime": 1,
@@ -17,7 +17,7 @@
             "decayTo": "erudition"
         },
         {
-            "id": "r_prerestlessness",
+            "id": "prerestlessness",
             "label": "Restlessness",
             "description": "[Restlessness flickers...]",
             "lifetime": 1,
@@ -25,7 +25,7 @@
             "decayTo": "restlessness"
         },
         {
-            "id": "r_preglimmering",
+            "id": "preglimmering",
             "label": "Glimmering",
             "description": "[A Glimmering develops...]",
             "lifetime": 1,
@@ -33,7 +33,7 @@
             "decayTo": "glimmering"
         },
         {
-            "id": "r_predread",
+            "id": "predread",
             "label": "Dread",
             "description": "[Dread frosts my spirit...]",
             "lifetime": 1,
@@ -41,7 +41,7 @@
             "decayTo": "dread"
         },
         {
-            "id": "r_prefascination",
+            "id": "prefascination",
             "label": "Fascination",
             "description": "[Fascination brightens...]",
             "lifetime": 1,
@@ -49,7 +49,7 @@
             "decayTo": "fascination"
         },
         {
-            "id": "r_pre.fragmentedgeb",
+            "id": "pre.fragmentedgeb",
             "label": "Hints: Edge",
             "description": "I am coming to understand something new about the invisible arts.",
             "lifetime": 1,
@@ -57,7 +57,7 @@
             "icon": "fragmentedgeb"
         },
         {
-            "id": "r_pre.fragmentforgeb",
+            "id": "pre.fragmentforgeb",
             "label": "Hints: Forge",
             "description": "I am coming to understand something new about the invisible arts.",
             "lifetime": 1,
@@ -65,7 +65,7 @@
             "icon": "fragmentforgeb"
         },
         {
-            "id": "r_pre.fragmentgrailb",
+            "id": "pre.fragmentgrailb",
             "label": "Hints: Grail",
             "description": "I am coming to understand something new about the invisible arts.",
             "lifetime": 1,
@@ -73,7 +73,7 @@
             "icon": "fragmentgrailb"
         },
         {
-            "id": "r_pre.fragmentheartb",
+            "id": "pre.fragmentheartb",
             "label": "Hints: Heart",
             "description": "I am coming to understand something new about the invisible arts.",
             "lifetime": 1,
@@ -81,7 +81,7 @@
             "icon": "fragmentheartb"
         },
         {
-            "id": "r_pre.fragmentknockb",
+            "id": "pre.fragmentknockb",
             "label": "Hints: Knock",
             "description": "I am coming to understand something new about the invisible arts.",
             "lifetime": 1,

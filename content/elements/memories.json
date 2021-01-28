@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_memorybittersweet",
+            "id": "memorybittersweet",
             "label": "Bittersweet Memory",
             "description": "I could recall a complex time.",
             "aspects": {
@@ -11,7 +11,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memorypleasant",
+            "id": "memorypleasant",
             "label": "Pleasant Memory",
             "description": "I could recall a happier time.",
             "aspects": {
@@ -21,7 +21,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memorypassionate",
+            "id": "memorypassionate",
             "label": "Passionate Memory",
             "description": "I could recall a warmer time.",
             "aspects": {
@@ -31,7 +31,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.shameful",
+            "id": "memory.shameful",
             "label": "Something Shameful",
             "aspects": {
                 "memory": 1
@@ -40,7 +40,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.profitable",
+            "id": "memory.profitable",
             "label": "Something Profitable",
             "aspects": {
                 "memory": 1
@@ -49,7 +49,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.joyful",
+            "id": "memory.joyful",
             "label": "Something Joyful",
             "aspects": {
                 "memory": 1
@@ -58,7 +58,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.menacing",
+            "id": "memory.menacing",
             "label": "Something Menacing",
             "aspects": {
                 "memory": 1
@@ -67,7 +67,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.unexpected",
+            "id": "memory.unexpected",
             "label": "Something Unexpected",
             "aspects": {
                 "memory": 1
@@ -76,7 +76,7 @@
             "lifetime": 300
         },
         {
-            "id": "r_memory.furious",
+            "id": "memory.furious",
             "label": "Furious Memory",
             "aspects": {
                 "memory": 5
@@ -84,7 +84,7 @@
             "description": "Long after the cause for rage has passed, the rage endures. Here is a memory of a wrong done before ever iron was tamed. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.luxurious",
+            "id": "memory.luxurious",
             "label": "Luxurious Memory",
             "aspects": {
                 "memory": 5
@@ -92,7 +92,7 @@
             "description": "Pleasure, like the sea, is ancient; pleasure, like the sea, precedes the conscious human soul; but like the sea, pleasure is different in every age and every hour. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.liminal",
+            "id": "memory.liminal",
             "label": "Liminal Memory",
             "aspects": {
                 "memory": 5
@@ -100,7 +100,7 @@
             "description": "'We each of us have a memory of a moment when things changed forever, though at the time we never knew it. Perhaps the world also has those memories.' [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.horizon",
+            "id": "memory.horizon",
             "label": "Glorious Memory",
             "aspects": {
                 "memory": 5
@@ -108,7 +108,7 @@
             "description": "The Sun was warmer once - no brighter, but its touch was a kind of mercy. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.splendid",
+            "id": "memory.splendid",
             "label": "Splendid Memory",
             "aspects": {
                 "memory": 5
@@ -116,7 +116,7 @@
             "description": "The Sun was brighter once - no warmer, but its light held colours we no longer see. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.endless",
+            "id": "memory.endless",
             "label": "Endless Memory",
             "aspects": {
                 "memory": 5
@@ -124,7 +124,7 @@
             "description": "There is a Wheel that only turns beneath the Moon, where once it turned beneath the Sun. But why only one? Why only two? [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.wildering",
+            "id": "memory.wildering",
             "label": "Wildering Memory",
             "aspects": {
                 "memory": 5
@@ -132,7 +132,7 @@
             "description": "Sometimes we remember what was lost even when we have forgotten that it is gone. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.golden",
+            "id": "memory.golden",
             "label": "Golden Memory",
             "aspects": {
                 "memory": 5
@@ -140,7 +140,7 @@
             "description": "In fire are all the treasures of the earth revealed. [Paint with this Memory to bring it to full awareness.]"
         },
         {
-            "id": "r_memory.honeyed",
+            "id": "memory.honeyed",
             "label": "Honeyed Memory",
             "aspects": {
                 "memory": 5

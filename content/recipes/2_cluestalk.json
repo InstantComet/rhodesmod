@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "r_recruitindependentresentmenthint",
+            "id": "recruitindependentresentmenthint",
             "label": "Recruit an Independent?",
             "actionid": "talk_r",
             "requirements": {
@@ -14,7 +14,7 @@
             "hintonly": true
         },
         {
-            "id": "r_recruitindependenthint",
+            "id": "recruitindependenthint",
             "label": "Recruit an Independent?",
             "actionid": "talk_r",
             "requirements": {
@@ -27,12 +27,12 @@
             "hintonly": true
         },
         {
-            "id": "r_promoteto_d_edgehint",
+            "id": "promoteto_d_edgehint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultedge_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to an Assassin, I will need Edge to at least the twenty-first intensity. In any case, only the most savage will be suitable.",
@@ -40,12 +40,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_forgehint",
+            "id": "promoteto_d_forgehint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultforge_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Reshaper, I will need Forge to at least the twenty-first intensity. In any case, only the most ingenious and effective will be suitable.",
@@ -53,12 +53,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_grailhint",
+            "id": "promoteto_d_grailhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultgrail_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Cyprian, I will need Grail to at least the twenty-first intensity. In any case, only those with the most inconsolable appetites will be suitable.",
@@ -66,12 +66,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_hearthint",
+            "id": "promoteto_d_hearthint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultheart_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Tarantellist, I will need Heart to at least the twenty-first intensity. In any case, only the most spirited will be suitable.",
@@ -79,12 +79,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_knockhint",
+            "id": "promoteto_d_knockhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultknock_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Key, I will need Knock to at least the twenty-first intensity.  In any case, only the most gifted will be suitable.",
@@ -92,12 +92,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_lanternhint",
+            "id": "promoteto_d_lanternhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultlantern_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Seer, I will need Lantern to at least the twenty-first intensity.  In any case, only the most clear-sighted will be suitable.",
@@ -105,12 +105,12 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_mothhint",
+            "id": "promoteto_d_mothhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
                 "cultmoth_1": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Skintwister, I will need Moth to at least the twenty-first intensity.  In any case, only very rare individuals will be suitable.",
@@ -118,7 +118,7 @@
             "craftable": true
         },
         {
-            "id": "r_promoteto_d_winterhint",
+            "id": "promoteto_d_winterhint",
             "label": "Exalt a Disciple?",
             "actionid": "talk_r",
             "requirements": {
@@ -130,7 +130,7 @@
                 "venerationlantern": -1,
                 "venerationknock": -1,
                 "venerationmoth": -1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a degree that has no name, I will need Winter to at least the twenty-first intensity.  In any case, only the bleakest souls will be suitable.",
@@ -138,12 +138,12 @@
             "craftable": true
         },
         {
-            "id": "r_promotetodisciplehint",
+            "id": "promotetodisciplehint",
             "label": "Promote a Believer?",
             "actionid": "talk_r",
             "requirements": {
                 "society": 1,
-                "r_operator": 1,
+                "operator": 1,
                 "disciple": -1,
                 "summoned": -11
             },
@@ -152,7 +152,7 @@
             "craftable": true
         },
         {
-            "id": "r_talktobenefactorhint",
+            "id": "talktobenefactorhint",
             "label": "My Benefactor Insists on Discretion",
             "actionid": "talk_r",
             "requirements": {
@@ -163,7 +163,7 @@
             "hintonly": true
         },
         {
-            "id": "r_recruitacquaintancenoculthint",
+            "id": "recruitacquaintancenoculthint",
             "label": "Recruit a new Follower?",
             "actionid": "talk_r",
             "requirements": {
@@ -175,7 +175,7 @@
             "hintonly": true
         },
         {
-            "id": "r_recruitacquaintancehint",
+            "id": "recruitacquaintancehint",
             "label": "Recruit a new Follower?",
             "actionid": "talk_r",
             "requirements": {
@@ -187,7 +187,7 @@
             "hintonly": true
         },
         {
-            "id": "r_talk_aladim_wantscommission",
+            "id": "talk_aladim_wantscommission",
             "label": "A Commission?",
             "actionid": "talk_r",
             "requirements": {
@@ -198,7 +198,7 @@
             "craftable": true
         },
         {
-            "id": "r_talk_bechet_wantscommission",
+            "id": "talk_bechet_wantscommission",
             "label": "A Commission?",
             "actionid": "talk_r",
             "requirements": {
@@ -209,7 +209,7 @@
             "craftable": true
         },
         {
-            "id": "r_talk_jannings_wantscommission",
+            "id": "talk_jannings_wantscommission",
             "label": "A Commission?",
             "actionid": "talk_r",
             "requirements": {
@@ -220,7 +220,7 @@
             "craftable": true
         },
         {
-            "id": "r_talk_poppy_wantscommission",
+            "id": "talk_poppy_wantscommission",
             "label": "A Commission?",
             "actionid": "talk_r",
             "requirements": {
@@ -231,7 +231,7 @@
             "craftable": true
         },
         {
-            "id": "r_fulfilcommission_aladimhint",
+            "id": "fulfilcommission_aladimhint",
             "label": "Fulfil a Commission for the Doctor?",
             "actionid": "talk_r",
             "requirements": {
@@ -245,7 +245,7 @@
             "hintonly": true
         },
         {
-            "id": "r_fulfilcommission_bechethint",
+            "id": "fulfilcommission_bechethint",
             "label": "Fulfil a Commission for Mme Bechet?",
             "actionid": "talk_r",
             "requirements": {
@@ -259,7 +259,7 @@
             "hintonly": true
         },
         {
-            "id": "r_fulfilcommission_janningshint",
+            "id": "fulfilcommission_janningshint",
             "label": "Fulfil a Commission for the Count?",
             "actionid": "talk_r",
             "requirements": {
@@ -273,7 +273,7 @@
             "hintonly": true
         },
         {
-            "id": "r_fulfilcommission_poppyhint",
+            "id": "fulfilcommission_poppyhint",
             "label": "Fulfil a Commission for Poppy?",
             "actionid": "talk_r",
             "requirements": {
@@ -287,7 +287,7 @@
             "hintonly": true
         },
         {
-            "id": "r_talk_nointeraction_mortal",
+            "id": "talk_nointeraction_mortal",
             "label": "Nothing to say?",
             "actionid": "talk_r",
             "requirements": {

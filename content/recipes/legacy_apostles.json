@@ -1,19 +1,19 @@
 {
     "recipes": [
         {
-            "id": "r_workapostleforgejob",
+            "id": "workapostleforgejob",
             "label": "Consider my Resources",
             "actionid": "work_r",
             "requirements": {
                 "legacyapostleforgejob": 1
             },
             "effects": {
-                "r_lmfunds": 7,
+                "lmfunds": 7,
                 "legacyapostleforgejob": -1
             },
             "alt": [
                 {
-                    "id": "r_apostleforgeopentalk",
+                    "id": "apostleforgeopentalk",
                     "chance": 100,
                     "additional": true
                 }
@@ -24,14 +24,14 @@
             "craftable": true
         },
         {
-            "id": "r_apostleforgeopentalk",
+            "id": "apostleforgeopentalk",
             "label": "Our Cause",
             "actionid": "talk_r",
             "requirements": {},
             "startdescription": "I am not alone.",
             "alt": [
                 {
-                    "id": "r_apostleforgeopenstudy",
+                    "id": "apostleforgeopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -46,19 +46,19 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_begincultfoundation",
+                    "id": "begincultfoundation",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_apostleforgeopenstudy",
+            "id": "apostleforgeopenstudy",
             "label": "What do I recall?",
             "actionid": "study_r",
             "startdescription": "I have been vouchsafed secrets.",
             "alt": [
                 {
-                    "id": "r_apostleforgeopenexplore",
+                    "id": "apostleforgeopenexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -74,14 +74,14 @@
             "craftable": false
         },
         {
-            "id": "r_apostleforgeopenexplore",
+            "id": "apostleforgeopenexplore",
             "label": "A Place to Begin",
             "actionid": "explore_r",
             "startdescription": "Where were we?",
             "description": "In our meeting-place, I shall consider the commands I was given.",
             "alt": [
                 {
-                    "id": "r_apostleforgeopendream",
+                    "id": "apostleforgeopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -94,7 +94,7 @@
             "craftable": false
         },
         {
-            "id": "r_apostleforgeopendream",
+            "id": "apostleforgeopendream",
             "label": "Distant Thunder",
             "actionid": "dream_r",
             "startdescription": "What is coming? Who is coming?",
@@ -106,28 +106,28 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_long.spawn.forge",
+                    "id": "long.spawn.forge",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_workapostlegrailjob",
+            "id": "workapostlegrailjob",
             "label": "Consider my Resources",
             "actionid": "work_r",
             "requirements": {
                 "legacyapostlegrailjob": 1
             },
             "effects": {
-                "r_lmfunds": 7,
+                "lmfunds": 7,
                 "legacyapostlegrailjob": -1,
                 "apostlegrail.pillar2.dormant": 1,
                 "apostlegrail.pillarfuel": 1
             },
             "alt": [
                 {
-                    "id": "r_apostlegrailopentalk",
+                    "id": "apostlegrailopentalk",
                     "chance": 100,
                     "additional": true
                 }
@@ -138,14 +138,14 @@
             "craftable": true
         },
         {
-            "id": "r_apostlegrailopentalk",
+            "id": "apostlegrailopentalk",
             "label": "Our Cause",
             "actionid": "talk_r",
             "requirements": {},
             "startdescription": "I am not alone.",
             "alt": [
                 {
-                    "id": "r_apostlegrailopenstudy",
+                    "id": "apostlegrailopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -160,19 +160,19 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_begincultfoundation",
+                    "id": "begincultfoundation",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_apostlegrailopenstudy",
+            "id": "apostlegrailopenstudy",
             "label": "What do I recall?",
             "actionid": "study_r",
             "startdescription": "I have been vouchsafed secrets.",
             "alt": [
                 {
-                    "id": "r_apostlegrailopenexplore",
+                    "id": "apostlegrailopenexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -188,14 +188,14 @@
             "craftable": false
         },
         {
-            "id": "r_apostlegrailopenexplore",
+            "id": "apostlegrailopenexplore",
             "label": "A Place to Begin",
             "actionid": "explore_r",
             "startdescription": "Where were we?",
             "description": "In our meeting-place, I shall consider the commands I was given.",
             "alt": [
                 {
-                    "id": "r_apostlegrailopendream",
+                    "id": "apostlegrailopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -208,7 +208,7 @@
             "craftable": false
         },
         {
-            "id": "r_apostlegrailopendream",
+            "id": "apostlegrailopendream",
             "label": "Distant Light",
             "actionid": "dream_r",
             "startdescription": "What is coming? Who is coming?",
@@ -220,27 +220,27 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_long.spawn.grail",
+                    "id": "long.spawn.grail",
                     "chance": 100,
                     "additional": true
                 }
             ]
         },
         {
-            "id": "r_workapostlelanternjob",
+            "id": "workapostlelanternjob",
             "label": "What I Must Do",
             "actionid": "work_r",
             "requirements": {
                 "legacyapostlelanternjob": 1
             },
             "effects": {
-                "r_lmfunds": 7,
+                "lmfunds": 7,
                 "legacyapostlelanternjob": -1,
                 "apostlelantern.pillar1": 1
             },
             "alt": [
                 {
-                    "id": "r_apostlelanternopentalk",
+                    "id": "apostlelanternopentalk",
                     "chance": 100,
                     "additional": true
                 }
@@ -251,14 +251,14 @@
             "craftable": true
         },
         {
-            "id": "r_apostlelanternopentalk",
+            "id": "apostlelanternopentalk",
             "label": "Our Cause",
             "actionid": "talk_r",
             "requirements": {},
             "startdescription": "I remember these names, though I have never heard them spoken.",
             "alt": [
                 {
-                    "id": "r_apostlelanternopenstudy",
+                    "id": "apostlelanternopenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -273,19 +273,19 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "r_begincultfoundation",
+                    "id": "begincultfoundation",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "r_apostlelanternopenstudy",
+            "id": "apostlelanternopenstudy",
             "label": "What do I recall?",
             "actionid": "study_r",
             "startdescription": "I have been vouchsafed secrets.",
             "alt": [
                 {
-                    "id": "r_apostlelanternopenexplore",
+                    "id": "apostlelanternopenexplore",
                     "chance": 100,
                     "additional": true
                 }
@@ -301,14 +301,14 @@
             "craftable": false
         },
         {
-            "id": "r_apostlelanternopenexplore",
+            "id": "apostlelanternopenexplore",
             "label": "A Place to Begin",
             "actionid": "explore_r",
             "startdescription": "Where were we?",
             "description": "This is the place I saw, in the light at sleep's edge.",
             "alt": [
                 {
-                    "id": "r_apostlelanternopendream",
+                    "id": "apostlelanternopendream",
                     "chance": 100,
                     "additional": true
                 }
@@ -320,7 +320,7 @@
             "craftable": false
         },
         {
-            "id": "r_apostlelanternopendream",
+            "id": "apostlelanternopendream",
             "label": "Distant Light",
             "actionid": "dream_r",
             "startdescription": "What is coming? Who is coming?",
@@ -332,7 +332,7 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "r_long.spawn.lantern",
+                    "id": "long.spawn.lantern",
                     "chance": 100,
                     "additional": true
                 }

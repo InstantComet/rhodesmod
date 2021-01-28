@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "r_ascensionpowera",
+            "id": "ascensionpowera",
             "label": "Temptation: Power",
             "aspects": {
                 "desire": 1,
@@ -11,7 +11,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationa",
+            "id": "ascensionsensationa",
             "label": "Temptation: Sensation",
             "aspects": {
                 "desire": 1,
@@ -21,7 +21,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmenta",
+            "id": "ascensionenlightenmenta",
             "label": "Temptation: Enlightenment",
             "aspects": {
                 "desire": 1,
@@ -31,7 +31,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionpowerb",
+            "id": "ascensionpowerb",
             "label": "Dedication: Power",
             "aspects": {
                 "desire": 2,
@@ -40,7 +40,7 @@
             "description": "I have dedicated myself to the acquisition of immortal power, at any cost. [Upgrade this card further to make a Power victory possible. I must be a true initiate of the Mansus; I'll need to Work with Forge-aspect to invoke the Forge of Days and begin the change.]",
             "slots": [
                 {
-                    "id": "r_Know",
+                    "id": "Know",
                     "label": "Know",
                     "actionid": "work_r",
                     "required": {
@@ -49,7 +49,7 @@
                     "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
                 },
                 {
-                    "id": "r_Power",
+                    "id": "Power",
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
@@ -61,7 +61,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationbm",
+            "id": "ascensionsensationbm",
             "label": "Dedication: Sensation",
             "aspects": {
                 "desire": 2,
@@ -70,7 +70,7 @@
             "description": "I have dedicated myself to the immortal pursuit of sensation. [Upgrade this card further to make a Sensation victory possible. I must be a true initiate of the Mansus; I'll need to Work with Grail-aspect to make myself palatable to the Red Grail.]",
             "slots": [
                 {
-                    "id": "r_Know",
+                    "id": "Know",
                     "label": "Know",
                     "actionid": "work_r",
                     "required": {
@@ -79,7 +79,7 @@
                     "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
                 },
                 {
-                    "id": "r_Power",
+                    "id": "Power",
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
@@ -91,7 +91,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationbf",
+            "id": "ascensionsensationbf",
             "label": "Dedication: Sensation",
             "aspects": {
                 "desire": 2,
@@ -100,7 +100,7 @@
             "description": "I have dedicated myself to the immortal pursuit of sensation. [Upgrade this card further to makes a Sensation victory possible. I must be a true initiate of the Mansus; I'll need to Work with Grail-aspect to make myself palatable to the Red Grail.]",
             "slots": [
                 {
-                    "id": "r_Know",
+                    "id": "Know",
                     "label": "Know",
                     "actionid": "work_r",
                     "required": {
@@ -109,7 +109,7 @@
                     "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
                 },
                 {
-                    "id": "r_Power",
+                    "id": "Power",
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
@@ -121,7 +121,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmentb",
+            "id": "ascensionenlightenmentb",
             "label": "Dedication: Enlightenment",
             "aspects": {
                 "desire": 2,
@@ -130,7 +130,7 @@
             "description": "I have dedicated myself to the pursuit of higher understanding. I must see beneath the skin, whatever the cost. [This makes an Enlightenment victory possible. I must be a true initiate of the Mansus; I'll need to Work with Lantern-aspect to allow the Watchman to see me.]",
             "slots": [
                 {
-                    "id": "r_Know",
+                    "id": "Know",
                     "actionid": "work_r",
                     "required": {
                         "waystag_after": 1
@@ -138,7 +138,7 @@
                     "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
                 },
                 {
-                    "id": "r_Power",
+                    "id": "Power",
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
@@ -150,7 +150,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionpowerc",
+            "id": "ascensionpowerc",
             "label": "Ascension: Power",
             "aspects": {
                 "desire": 3,
@@ -163,7 +163,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionpowerd",
+            "id": "ascensionpowerd",
             "label": "Ascension: Power",
             "aspects": {
                 "desire": 4,
@@ -177,7 +177,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionpowere",
+            "id": "ascensionpowere",
             "label": "Ascension: Power",
             "aspects": {
                 "desire": 5,
@@ -192,7 +192,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionpowerf",
+            "id": "ascensionpowerf",
             "label": "Ascension: Power",
             "aspects": {
                 "desire": 6,
@@ -206,7 +206,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationc",
+            "id": "ascensionsensationc",
             "label": "Ascension: Sensation",
             "aspects": {
                 "desire": 3,
@@ -219,7 +219,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationd",
+            "id": "ascensionsensationd",
             "label": "Ascension: Sensation",
             "aspects": {
                 "desire": 4,
@@ -233,7 +233,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensatione",
+            "id": "ascensionsensatione",
             "label": "Ascension: Sensation",
             "aspects": {
                 "desire": 5,
@@ -247,7 +247,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionsensationf",
+            "id": "ascensionsensationf",
             "label": "Ascension: Sensation",
             "aspects": {
                 "desire": 6,
@@ -260,7 +260,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmentc",
+            "id": "ascensionenlightenmentc",
             "label": "Ascension: Enlightenment",
             "aspects": {
                 "desire": 3,
@@ -273,7 +273,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmentd",
+            "id": "ascensionenlightenmentd",
             "label": "Ascension: Enlightenment",
             "aspects": {
                 "desire": 4,
@@ -287,7 +287,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmente",
+            "id": "ascensionenlightenmente",
             "label": "Ascension: Enlightenment",
             "aspects": {
                 "desire": 5,
@@ -301,7 +301,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_ascensionenlightenmentf",
+            "id": "ascensionenlightenmentf",
             "label": "Ascension: Enlightenment",
             "aspects": {
                 "desire": 6,
@@ -314,7 +314,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "r_temptation.remembrance",
+            "id": "temptation.remembrance",
             "label": "Temptation: Remembrance",
             "description": "The cool wind that blew when the sun was red and low. The voice the waves once used. The shapes that loped beside us in the snow. All crushed behind the flat glass of time. I must revisit what was lost. ",
             "aspects": {
@@ -326,7 +326,7 @@
             }
         },
         {
-            "id": "r_dedication.remembrance",
+            "id": "dedication.remembrance",
             "label": "Dedication: Remembrance",
             "description": "The cool wind that blew when the sun was red and low. The voice the waves once used. The shapes that loped beside us in the snow. All crushed behind the flat glass of time. I must revisit what was lost... though the taste of it be ripe and strange.",
             "aspects": {

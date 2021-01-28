@@ -1,21 +1,21 @@
 {
     "recipes": [
         {
-            "id": "r_studybenefactorwill",
+            "id": "studybenefactorwill",
             "label": "Study a Dearly Departed's Papers",
             "actionid": "study_r",
             "requirements": {
                 "benefactorwill": 1,
-                "r_lmfunds": 1
+                "lmfunds": 1
             },
             "alt": [
                 {
-                    "id": "r_studybenefactorwill_suspicion",
+                    "id": "studybenefactorwill_suspicion",
                     "chance": 30
                 }
             ],
             "effects": {
-                "r_lmfunds": 49,
+                "lmfunds": 49,
                 "benefactorwill": -1
             },
             "startdescription": "This situation requires discretion. Society considered our association improper.",
@@ -24,7 +24,7 @@
             "craftable": true
         },
         {
-            "id": "r_studybenefactorwill_suspicion",
+            "id": "studybenefactorwill_suspicion",
             "label": ".",
             "actionid": "study_r",
             "effects": {
@@ -34,7 +34,7 @@
             "description": "Something has gone awry. Our former acquaintances cross the street when I pass. A newspaper hints at foul play. The solicitor will not receive me. I can expect no bequest, and there may be worse to come."
         },
         {
-            "id": "r_study.welland.defeated",
+            "id": "study.welland.defeated",
             "actionid": "study_r",
             "label": "As At Issus",
             "startdescription": "I have the opportunity to turn against our Shaper, as the Lionsmith did against the Colonel. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Forge victory. It will have no other effect.]",
@@ -52,7 +52,7 @@
             "craftable": true
         },
         {
-            "id": "r_study.tryphon.defeated",
+            "id": "study.tryphon.defeated",
             "actionid": "study_r",
             "label": "The Selectest of Menus",
             "startdescription": "If I consume what remains of Lady Tryphon, I will not be consumed. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Grail victory. It will have no other effect.]",
@@ -70,7 +70,7 @@
             "craftable": true
         },
         {
-            "id": "r_study.diarist.defeated",
+            "id": "study.diarist.defeated",
             "actionid": "study_r",
             "label": "One Door Closes",
             "startdescription": "The Diarist has given me the means to abandon our Illuminated One to the Mansus. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Lantern victory. It will have no other effect.]",
@@ -88,7 +88,7 @@
             "craftable": true
         },
         {
-            "id": "r_study.julian.defeated",
+            "id": "study.julian.defeated",
             "actionid": "study_r",
             "label": "Empty and Alone",
             "startdescription": "'One more stone in the Mansus-wall.' Is that all I am? Is there anything else? [This will prevent your previous character from ever ascending, and add Dread to the board. It will have no other effect.]",
