@@ -12,7 +12,7 @@
                     "id": "r_Cost",
                     "label": "需要……",
                     "required": {
-                        "sanity": 1
+                        "r_sanity": 1
                     }
                 }
             ]
