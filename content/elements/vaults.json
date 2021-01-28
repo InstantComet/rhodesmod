@@ -1,12 +1,12 @@
 {
     "elements": [
         {
-            "id": "vaultcapital1",
+            "id": "vaultrhodes1",
             "label": "Strathcoyne's Residence",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {
@@ -50,12 +50,12 @@
             "unique": true
         },
         {
-            "id": "vaultcapital2",
+            "id": "vaultrhodes2",
             "label": "Forgotten Mithraeum",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {
@@ -99,12 +99,12 @@
             "unique": true
         },
         {
-            "id": "vaultcapital3",
+            "id": "vaultrhodes3",
             "label": "Cater & Hero Limited",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {
@@ -148,12 +148,12 @@
             "unique": true
         },
         {
-            "id": "vaultcapital4",
+            "id": "vaultrhodes4",
             "label": "St Agnes Hospital",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {
@@ -197,12 +197,12 @@
             "unique": true
         },
         {
-            "id": "vaultcapital5",
+            "id": "vaultrhodes5",
             "label": "Congregation of St Felix of Schüren",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {
@@ -246,12 +246,12 @@
             "unique": true
         },
         {
-            "id": "vaultcapitaldefault",
+            "id": "vaultrhodesdefault",
             "label": "The Forsaken Reach",
             "aspects": {
                 "vault": 1,
                 "location": 1,
-                "vaultcapital": 1
+                "vaultrhodes": 1
             },
             "slots": [
                 {

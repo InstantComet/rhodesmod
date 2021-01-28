@@ -5,7 +5,7 @@
             "label": "Beginning an Expedition: Strathcoyne's Collection",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital1": 1,
+                "vaultrhodes1": 1,
                 "lmfunds": 1,
                 "operator": 1
             },
@@ -30,7 +30,7 @@
             "requirements": {
                 "lmfunds": 1,
                 "operator": 1,
-                "vaultcapital2": 1
+                "vaultrhodes2": 1
             },
             "effects": {
                 "seal_hiddendoor": 1
@@ -51,7 +51,7 @@
             "label": "Beginning an Expedition: Cater & Hero Limited",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital3": 1,
+                "vaultrhodes3": 1,
                 "lmfunds": 1,
                 "operator": 1
             },
@@ -76,7 +76,7 @@
             "requirements": {
                 "lmfunds": 1,
                 "operator": 1,
-                "vaultcapital4": 1
+                "vaultrhodes4": 1
             },
             "effects": {
                 "curse_dread": 1
@@ -99,7 +99,7 @@
             "requirements": {
                 "lmfunds": 1,
                 "operator": 1,
-                "vaultcapital5": 1
+                "vaultrhodes5": 1
             },
             "effects": {
                 "guardian_monks": 1
@@ -122,7 +122,7 @@
             "requirements": {
                 "lmfunds": 1,
                 "operator": 1,
-                "vaultcapitaldefault": 1
+                "vaultrhodesdefault": 1
             },
             "effects": {
                 "peril_treacherousground": 1,
@@ -144,10 +144,10 @@
             "label": "Strathcoyne's Treasures",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital1": 1
+                "vaultrhodes1": 1
             },
             "effects": {
-                "vaultcapital1": -1
+                "vaultrhodes1": -1
             },
             "internaldeck": {
                 "spec": [
@@ -171,10 +171,10 @@
             "label": "The Deeper Sanctuary",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital2": 1
+                "vaultrhodes2": 1
             },
             "effects": {
-                "vaultcapital2": -1
+                "vaultrhodes2": -1
             },
             "internaldeck": {
                 "spec": [
@@ -197,10 +197,10 @@
             "label": "Cater's Office",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital3": 1
+                "vaultrhodes3": 1
             },
             "effects": {
-                "vaultcapital3": -1
+                "vaultrhodes3": -1
             },
             "internaldeck": {
                 "spec": [
@@ -224,10 +224,10 @@
             "label": "The Violet Chamber",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital4": 1
+                "vaultrhodes4": 1
             },
             "effects": {
-                "vaultcapital4": -1
+                "vaultrhodes4": -1
             },
             "internaldeck": {
                 "spec": [
@@ -251,10 +251,10 @@
             "label": "Secret Devotions",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapital5": 1
+                "vaultrhodes5": 1
             },
             "effects": {
-                "vaultcapital5": -1
+                "vaultrhodes5": -1
             },
             "internaldeck": {
                 "spec": [
@@ -285,10 +285,10 @@
             "label": "A Delayed Delivery",
             "actionid": "explore_r",
             "requirements": {
-                "vaultcapitaldefault": 1
+                "vaultrhodesdefault": 1
             },
             "effects": {
-                "vaultcapitaldefault": -1,
+                "vaultrhodesdefault": -1,
                 "lmfunds": 1
             },
             "deckeffects": {

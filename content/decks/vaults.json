@@ -5,13 +5,13 @@
             "label": "Hidden Locations in the Capital",
             "description": "Places close at hand.",
             "spec": [
-                "vaultcapital1",
-                "vaultcapital2",
-                "vaultcapital3",
-                "vaultcapital4",
-                "vaultcapital5"
+                "vaultrhodes1",
+                "vaultrhodes2",
+                "vaultrhodes3",
+                "vaultrhodes4",
+                "vaultrhodes5"
             ],
-            "defaultcard": "vaultcapitaldefault",
+            "defaultcard": "vaultrhodesdefault",
             "resetonexhaustion": false
         },
         {

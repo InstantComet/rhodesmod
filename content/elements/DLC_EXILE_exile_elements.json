@@ -747,7 +747,7 @@
             "label": "Local Contact",
             "description": "Someone who belongs here.",
             "isAspect": true,
-            "icon": "vaultcapital"
+            "icon": "vaultrhodes"
         },
         {
             "id": "associate",
@@ -3103,7 +3103,7 @@
             "label": "Palazzo Dario",
             "inherits": "_vault.exile",
             "description": "Two hundred years ago, an immortal named Hokobald worked alchemy here. In another hundred years, it may slide into the canal. It's wreathed in mist and prowled by gloomy dead, but Orsolina believes its vault has never been breached.",
-            "icon": "vaultcapital3",
+            "icon": "vaultrhodes3",
             "xtriggers": {
                 "success": [
                     {
@@ -3169,7 +3169,7 @@
             "label": "Skyrius T",
             "inherits": "_vault.exile",
             "description": "The authorities maintain a clandestine department dedicated to teratogenic phenomena. Once we've found its location, we'll have to breach its walls and weather the ghastly influences radiating from its heart.",
-            "icon": "vaultcapital4",
+            "icon": "vaultrhodes4",
             "xtriggers": {
                 "success": [
                     {
@@ -3342,7 +3342,7 @@
             "label": "Church of St Marzanna the White",
             "inherits": "_vault.exile",
             "description": "On a hill above the city where the wind blows keen and fierce, a decaying wooden church stands in a bleak grove of leafless oak trees. Yitzchok tells me there's something in there I'll find useful, but he warns me: 'I looked in all my books for this St Marzanna. Where did I find her? Nowhere.'",
-            "icon": "vaultcapital5",
+            "icon": "vaultrhodes5",
             "xtriggers": {
                 "success": [
                     {
@@ -5476,7 +5476,7 @@
                 "deception": 1
             },
             "description": "Not too obvious, and not too far out of the way.",
-            "icon": "vaultcapital1"
+            "icon": "vaultrhodes1"
         },
         {
             "id": "warehouse",
@@ -5490,7 +5490,7 @@
                 "deception": 1
             },
             "description": "There's plenty of space here, although not much else to recommend it.",
-            "icon": "vaultcapitaldefault"
+            "icon": "vaultrhodesdefault"
         },
         {
             "id": "townhouse",
