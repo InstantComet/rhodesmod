@@ -103,9 +103,7 @@
                     "r_secrethistories": 1,
                     "r_location": 1,
                     "r_terra_location": 1,
-                    "health": 1,
-                    "follower": 1,
-                    "location": 1
+                    "health": 1
                 },
                 "forbidden": {
                     "hireling": 1

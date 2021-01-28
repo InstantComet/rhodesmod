@@ -523,7 +523,7 @@
                     "label": "Projector",
                     "description": "I'll need to purchase a projector to watch this.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_study"
                 }

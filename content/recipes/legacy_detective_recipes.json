@@ -13,7 +13,7 @@
             "effects": {
                 "lever_LastFollower": 1,
                 "legacydetective_plotitem": 1,
-                "funds": 3,
+                "r_lmfunds": 3,
                 "health": 1
             },
             "alt": [
@@ -107,7 +107,7 @@
                 }
             ],
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "startdescription": "Investigating a target. The more Reason I use, the better my chance of success.",
             "description": "My investigation has turned up no new leads.",
@@ -201,7 +201,7 @@
             "label": "Progress!",
             "actionid": "r_work",
             "effects": {
-                "funds": 3,
+                "r_lmfunds": 3,
                 "myevidence": 1
             },
             "aspects": {
@@ -248,7 +248,7 @@
                 "fatiguing": 1
             },
             "effects": {
-                "funds": 2,
+                "r_lmfunds": 2,
                 "suspicious": -99
             },
             "craftable": false
@@ -267,7 +267,7 @@
             "startdescription": "I've turned over my evidence to the Assistant Director General of the Suppression Bureau. At this moment, I can assume, hard-faced men in plain clothing are pounding on the door of my quarry.",
             "description": "The Suppression Bureau holds their trials in closed court, and they are not merciful. My quarry disappears from the world. I have earned myself a promotion. ",
             "effects": {
-                "funds": 7,
+                "r_lmfunds": 7,
                 "favour": 1,
                 "suspicious": -99,
                 "independent": -1,
@@ -298,7 +298,7 @@
             "startdescription": "I've turned over my evidence to the Assistant Director General of the Suppression Bureau. At this moment, I can assume, hard-faced men in plain clothing are pounding on the door of my quarry.",
             "description": "The Suppression Bureau holds their trials in closed court, and they are not merciful. My quarry disappears from the world. I have earned myself a promotion. ",
             "effects": {
-                "funds": 7,
+                "r_lmfunds": 7,
                 "favour": 1,
                 "suspicious": -99,
                 "independent": -1

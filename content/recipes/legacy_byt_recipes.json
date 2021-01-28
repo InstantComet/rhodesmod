@@ -9,7 +9,7 @@
                 "legacybytjob": 1
             },
             "effects": {
-                "funds": 3,
+                "r_lmfunds": 3,
                 "legacybytjob": -1,
                 "legacybytjobmatured": 1
             },
@@ -33,7 +33,7 @@
                 "legacybytjobmatured": 1
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "alt": [
                 {
@@ -54,7 +54,7 @@
             "craftable": false,
             "effects": {
                 "legacybytjobmatured": -1,
-                "funds": 2
+                "r_lmfunds": 2
             },
             "alt": [
                 {
@@ -77,7 +77,7 @@
             ],
             "effects": {
                 "health": 2,
-                "funds": 20
+                "r_lmfunds": 20
             },
             "startdescription": "Papa is dead! No-one will tell me exactly how. But the estate is in a state. My allowance is tied up in probate and so forth. One can only hope it's resolved before the bills come due. ",
             "description": "The business of the will has been settled... but Papa's business affairs have been eaten up with debts like woodworm. No-one seems to know exactly what he spent the money on. But the solicitor is sending me some papers, apparently.",

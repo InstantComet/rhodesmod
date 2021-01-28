@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: the Cave of Candles",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforest1": 1
             },
             "effects": {
@@ -29,8 +29,8 @@
             "label": "Beginning an Expedition: the Voivode's Citadel",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforest2": 1
             },
             "effects": {
@@ -53,8 +53,8 @@
             "label": "Beginning an Expedition: Grunewald's Permanent Circus",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforest3": 1
             },
             "effects": {
@@ -77,8 +77,8 @@
             "label": "Beginning an Expedition: Tower Revek",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforest4": 1
             },
             "effects": {
@@ -101,8 +101,8 @@
             "label": "Beginning an Expedition: the Kusnetsov Endowment",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforest5": 1
             },
             "effects": {
@@ -126,8 +126,8 @@
             "label": "Beginning an Expedition: Foxlily Meadows",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultlandbeyondforestdefault": 1
             },
             "effects": {

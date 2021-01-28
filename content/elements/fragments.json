@@ -1762,7 +1762,7 @@
                     "id": "r_materials",
                     "label": "Materials",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_study"
                 }

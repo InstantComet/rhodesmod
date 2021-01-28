@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: the 'Hebe Stanton'",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultfloating1": 1
             },
             "effects": {

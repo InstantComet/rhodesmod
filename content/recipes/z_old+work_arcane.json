@@ -7,7 +7,7 @@
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
-                "follower": 1,
+                "r_operator": 1,
                 "ascensionpowera": 1
             },
             "effects": {},
@@ -43,7 +43,7 @@
             "requirements": {
                 "ritual": 1,
                 "knock": 2,
-                "funds": 1,
+                "r_lmfunds": 1,
                 "ascensionenlightenmenta": 1
             },
             "effects": {},

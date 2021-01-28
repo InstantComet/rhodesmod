@@ -4,7 +4,7 @@
             "id": "r_spirit_wintera_edge",
             "label": "Shattered Risen",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "winter": 4,
                 "edge": 4,
@@ -22,7 +22,7 @@
             "id": "r_spirit_wintera_moth",
             "label": "Burgeoning Risen",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "winter": 4,
                 "moth": 4,
@@ -41,7 +41,7 @@
             "id": "r_spirit_winterb_heart",
             "label": "Voiceless Dead",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "winter": 6,
                 "moth": 6,
@@ -78,7 +78,7 @@
             "id": "r_spirit_forgec_winter",
             "label": "Caligine",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "forge": 8,
                 "moth": 8,
@@ -114,7 +114,7 @@
             "id": "r_spirit_grailc_moth",
             "label": "Raw Prophet",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "grail": 8,
                 "moth": 8,
@@ -152,7 +152,7 @@
             "id": "r_spirit_lanternc_edge",
             "label": "Hint",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "lantern": 8,
                 "edge": 8,
@@ -188,7 +188,7 @@
             "id": "r_spirit_heartc_edge",
             "label": "Percussigant",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "heart": 8,
                 "edge": 8,
@@ -226,7 +226,7 @@
             "id": "r_spirit_winterd_edge",
             "label": "Maid-in-the-Mirror",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "winter": 10,
                 "edge": 10,
@@ -263,7 +263,7 @@
             "id": "r_spirit_forgee_edge",
             "label": "King Crucible",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "forge": 12,
                 "edge": 12,
@@ -305,7 +305,7 @@
             "id": "r_spirit_graile_edge",
             "label": "Ezeem, the Second Thirstly",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "grail": 12,
                 "edge": 12,
@@ -349,7 +349,7 @@
             "id": "r_spirit_lanterne_secret",
             "label": "Teresa",
             "aspects": {
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1,
                 "lantern": 12,
                 "secrethistories": 12,

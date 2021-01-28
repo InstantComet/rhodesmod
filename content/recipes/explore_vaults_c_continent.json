@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: Chateau Raveline",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent1": 1
             },
             "effects": {
@@ -29,8 +29,8 @@
             "label": "Beginning an Expedition: Fermier Abbey",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent2": 1
             },
             "effects": {
@@ -53,8 +53,8 @@
             "label": "Beginning an Expedition: Orthos Wood",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent3": 1
             },
             "effects": {
@@ -77,8 +77,8 @@
             "label": "Beginning an Expedition: the Vanderschaaf Collection",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent4": 1
             },
             "effects": {
@@ -101,8 +101,8 @@
             "label": "Beginning an Expedition: Forman House",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent5": 1
             },
             "effects": {
@@ -125,8 +125,8 @@
             "label": "Beginning an Expedition: the Key-Hunter's Garret",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinent6": 1
             },
             "effects": {
@@ -149,8 +149,8 @@
             "label": "Beginning an Expedition: the Unnumbered Stones",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultcontinentdefault": 1
             },
             "effects": {

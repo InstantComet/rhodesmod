@@ -6,12 +6,12 @@
             "label": "Visit the Ecdysis Club",
             "requirements": {
                 "locationcabaret": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": "The entrance is lost beneath soft drapes of crimson, cinnabar and incarnadine. Above the door, the club motto: 'IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI'. It has been rendered as 'into night's circle we fly, until the fire enjoys us'.",
             "description": ".",
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "craftable": true,
             "deckeffects": {

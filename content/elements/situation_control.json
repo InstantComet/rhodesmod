@@ -11,7 +11,7 @@
             "label": "Bid",
             "description": "A bid placed in an auction house.",
             "xtriggers": {
-                "restore": "funds"
+                "restore": "r_lmfunds"
             }
         },
         {

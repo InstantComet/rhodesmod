@@ -40,7 +40,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": "",
             "description": "",

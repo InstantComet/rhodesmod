@@ -6,7 +6,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 3
             },
             "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -24,7 +24,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 3
             },
             "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -42,7 +42,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 5
             },
             "description": "'I'll break them in half.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
@@ -60,7 +60,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 5,
                 "edge": 3
             },
@@ -79,7 +79,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "knock": 5
             },
             "description": "'I'm good with doors. [This Hireling may be useful for some Expeditions.]'",
@@ -97,7 +97,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "lantern": 5,
                 "moth": 3
             },
@@ -116,7 +116,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 5,
                 "grail": 1
             },

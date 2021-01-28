@@ -97,7 +97,7 @@
             "startdescription": "Get in, get the goods, get out. I don't think it's ever been that simple.",
             "description": "I've begun. [Keep an eye on the Operation. Complications will arise along the way.]",
             "requirements": {
-                "vault": 1
+                "r_vault": 1
             },
             "aspects": {
                 "minortracerisk": 1
@@ -109,7 +109,7 @@
                     "expulsion": {
                         "limit": 2,
                         "filter": {
-                            "vault": 1,
+                            "r_vault": 1,
                             "edge": 1,
                             "forge": 1,
                             "grail": 1,
@@ -724,7 +724,7 @@
                 "weakness.foe.unknown": -1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "wound.exile": 1
             },
             "aspects": {
@@ -748,7 +748,7 @@
                 "tranquillity": -1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "wound.exile": 1
             },
             "linked": [
@@ -864,7 +864,7 @@
                 "epiphany.colonel": 1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "wound.exile": 1
             },
             "warmup": 60,
@@ -888,7 +888,7 @@
                 "epiphany": 1
             },
             "effects": {
-                "location": -1
+                "r_location": -1
             },
             "warmup": 60,
             "craftable": true
@@ -924,7 +924,7 @@
                 "weakness.foe.unknown": -1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "rage": 1
             },
             "aspects": {
@@ -948,7 +948,7 @@
                 "tranquillity": -1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "rage": 1
             },
             "linked": [
@@ -1064,7 +1064,7 @@
                 "epiphany.lionsmith": 1
             },
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "rage": 1
             },
             "warmup": 60,
@@ -1088,7 +1088,7 @@
                 "epiphany": 1
             },
             "effects": {
-                "location": -1
+                "r_location": -1
             },
             "warmup": 60,
             "craftable": true
@@ -1122,7 +1122,7 @@
                 }
             ],
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "wound.exile": 1
             },
             "burnimage": "consecration.colonel",
@@ -1158,7 +1158,7 @@
                 }
             ],
             "effects": {
-                "location": -1,
+                "r_location": -1,
                 "rage": 1
             },
             "burnimage": "consecration.lionsmith",
@@ -1200,7 +1200,7 @@
             ],
             "effects": {
                 "temptation.obscurity": -1,
-                "location": -1,
+                "r_location": -1,
                 "wound.exile": 1
             },
             "warmup": 60,
@@ -1241,7 +1241,7 @@
             ],
             "effects": {
                 "temptation.obscurity": -1,
-                "location": -1,
+                "r_location": -1,
                 "rage": 1
             },
             "warmup": 60,
@@ -1458,7 +1458,7 @@
             "effects": {
                 "obscurity": 9,
                 "pentiment": -7,
-                "location": -1,
+                "r_location": -1,
                 "op.dawn": 1,
                 "trail.false.exile.nameless": 1
             }
@@ -1470,7 +1470,7 @@
             "startdescription": "This is a start. But there aren't enough secrets here yet to draw the Velvet's attention. These things always happen in sevens. The mist dissolves around me, and the shrine is gone.",
             "effects": {
                 "op.dawn": 1,
-                "location": -1
+                "r_location": -1
             }
         },
         {
@@ -1967,7 +1967,7 @@
                 "trace": 100,
                 "asset": 100,
                 "op": 100,
-                "location": 100,
+                "r_location": 100,
                 "destination": 100,
                 "contact.local": 100,
                 "rkx.internal": 100,

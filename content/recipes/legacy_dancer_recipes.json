@@ -215,7 +215,7 @@
             "startdescription": "The stage awaits, hot and clean and bare and bright. If I move the moves and step the steps and do what is required, they'll pay me.",
             "description": ".",
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "warmup": 45,
             "craftable": true
@@ -273,7 +273,7 @@
             "description": "A gentleman has prevailed on the stage manager to arrange an introduction to me backstage. He is courteous; he says all the right things about my work; he has brought a gift. He hopes that we can be friends.",
             "effects": {
                 "benefactorm": 1,
-                "funds": 2,
+                "r_lmfunds": 2,
                 "influence": -1
             },
             "mutations": [
@@ -303,7 +303,7 @@
             "description": "A lady has arranged for us to be introduced in the glittering cafe across the street. She is very complimentary; she listens attentively to everything I say; she has brought a gift. She hopes that we can be friends.",
             "effects": {
                 "benefactorf": 1,
-                "funds": 2,
+                "r_lmfunds": 2,
                 "influence": -1
             },
             "mutations": [
@@ -333,7 +333,7 @@
             "description": "A hand-delivered letter, addressed to me. It smells strongly of cigarette smoke and cloves. It reads: 'If you need to talk to someone about your dreams, find me here. Don't call until you're ready.' There is a telephone number and a name: Sulochana.",
             "effects": {
                 "sulochana": 1,
-                "funds": 1,
+                "r_lmfunds": 1,
                 "influence": -1
             },
             "mutations": [
@@ -361,7 +361,7 @@
             "startdescription": "Tonight, they'll notice that.",
             "description": "I felt all their eyes upon me. Afterwards, I received a gift from an admirer - too gaudy for my tastes, but I can sell it in the second-hand market.",
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "influence": -1
             }
         },
@@ -375,7 +375,7 @@
             "startdescription": "Tonight, they'll notice that.",
             "description": "I felt all their eyes upon me. Afterwards, I received a gift from an admirer - a little too personal for me to feel comfortable, but I can sell it in the second-hand market.",
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "influence": -1
             }
         },
@@ -386,10 +386,10 @@
             "requirements": {
                 "benefactor": 1,
                 "health": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "aspects": {
                 "employment": 1
@@ -500,9 +500,9 @@
             "slots": [
                 {
                     "id": "r_funds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -561,7 +561,7 @@
                 }
             ],
             "effects": {
-                "funds": 5
+                "r_lmfunds": 5
             }
         },
         {
@@ -581,14 +581,14 @@
                 }
             ],
             "effects": {
-                "funds": 5
+                "r_lmfunds": 5
             }
         },
         {
             "id": "r_L_workdancerjobbenefactor_satisfactory_funds",
             "actionid": "r_work",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "label": "My Benefactor Watches Me Fondly",
             "description": "I've chosen my attire well for the performance. My benefactor showers me with compliments, and gifts.",
@@ -601,7 +601,7 @@
                 }
             ],
             "effects": {
-                "funds": 4
+                "r_lmfunds": 4
             },
             "comments": "only 4 funds; 1 used up"
         },
@@ -622,7 +622,7 @@
                 }
             ],
             "effects": {
-                "funds": 5
+                "r_lmfunds": 5
             }
         },
         {
@@ -640,7 +640,7 @@
                 }
             ],
             "effects": {
-                "funds": 5
+                "r_lmfunds": 5
             }
         },
         {
@@ -657,7 +657,7 @@
                 }
             ],
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "aspects": {
                 "employment": 1
@@ -676,7 +676,7 @@
                 "rejection": 1
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             }
         },
         {
@@ -690,7 +690,7 @@
             "startdescription": "They have an air of suppressed excitement tonight.",
             "description": ".",
             "effects": {
-                "funds": 5,
+                "r_lmfunds": 5,
                 "contentment": 1
             },
             "aspects": {
@@ -708,7 +708,7 @@
             "startdescription": "They have an air of suppressed excitement tonight.",
             "description": ".",
             "effects": {
-                "funds": 5,
+                "r_lmfunds": 5,
                 "contentment": 1
             },
             "aspects": {

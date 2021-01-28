@@ -5,9 +5,9 @@
             "label": "Beginning an Expedition: Strathcoyne's Collection",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital1": 1,
-                "funds": 1,
-                "follower": 1
+                "r_vaultcapital1": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1
             },
             "effects": {
                 "guardian_watchers": 1
@@ -28,9 +28,9 @@
             "label": "Beginning an Expedition: the Forgotten Mithraeum",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultcapital2": 1
+                "r_lmfunds": 1,
+                "r_operator": 1,
+                "r_vaultcapital2": 1
             },
             "effects": {
                 "seal_hiddendoor": 1
@@ -51,9 +51,9 @@
             "label": "Beginning an Expedition: Cater & Hero Limited",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital3": 1,
-                "funds": 1,
-                "follower": 1
+                "r_vaultcapital3": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1
             },
             "effects": {
                 "peril_treacherousground": 1
@@ -74,9 +74,9 @@
             "label": "Beginning an Expedition: St Agnes Hospital",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultcapital4": 1
+                "r_lmfunds": 1,
+                "r_operator": 1,
+                "r_vaultcapital4": 1
             },
             "effects": {
                 "curse_dread": 1
@@ -97,9 +97,9 @@
             "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultcapital5": 1
+                "r_lmfunds": 1,
+                "r_operator": 1,
+                "r_vaultcapital5": 1
             },
             "effects": {
                 "guardian_monks": 1
@@ -120,9 +120,9 @@
             "label": "Beginning an Expedition: The Forsaken Reach",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultcapitaldefault": 1
+                "r_lmfunds": 1,
+                "r_operator": 1,
+                "r_vaultcapitaldefault": 1
             },
             "effects": {
                 "peril_treacherousground": 1,
@@ -144,10 +144,10 @@
             "label": "Strathcoyne's Treasures",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital1": 1
+                "r_vaultcapital1": 1
             },
             "effects": {
-                "vaultcapital1": -1
+                "r_vaultcapital1": -1
             },
             "internaldeck": {
                 "spec": [
@@ -171,10 +171,10 @@
             "label": "The Deeper Sanctuary",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital2": 1
+                "r_vaultcapital2": 1
             },
             "effects": {
-                "vaultcapital2": -1
+                "r_vaultcapital2": -1
             },
             "internaldeck": {
                 "spec": [
@@ -197,10 +197,10 @@
             "label": "Cater's Office",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital3": 1
+                "r_vaultcapital3": 1
             },
             "effects": {
-                "vaultcapital3": -1
+                "r_vaultcapital3": -1
             },
             "internaldeck": {
                 "spec": [
@@ -224,10 +224,10 @@
             "label": "The Violet Chamber",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital4": 1
+                "r_vaultcapital4": 1
             },
             "effects": {
-                "vaultcapital4": -1
+                "r_vaultcapital4": -1
             },
             "internaldeck": {
                 "spec": [
@@ -251,10 +251,10 @@
             "label": "Secret Devotions",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapital5": 1
+                "r_vaultcapital5": 1
             },
             "effects": {
-                "vaultcapital5": -1
+                "r_vaultcapital5": -1
             },
             "internaldeck": {
                 "spec": [
@@ -285,11 +285,11 @@
             "label": "A Delayed Delivery",
             "actionid": "r_explore",
             "requirements": {
-                "vaultcapitaldefault": 1
+                "r_vaultcapitaldefault": 1
             },
             "effects": {
-                "vaultcapitaldefault": -1,
-                "funds": 1
+                "r_vaultcapitaldefault": -1,
+                "r_lmfunds": 1
             },
             "deckeffects": {
                 "vaultrewardsa": 3

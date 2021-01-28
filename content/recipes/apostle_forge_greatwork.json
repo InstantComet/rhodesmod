@@ -150,7 +150,7 @@
             "startdescription": "With our Shaper's assistance, we can prepare a follower to find the way to a flaw in the world. Once they've found it, they will find nothing else, ever again.",
             "description": "The eyes, embers. The heart, a waiting temple.",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "mortal": 1,
                 "apostleforge.pillarfuel": 1,
                 "tool": -1,

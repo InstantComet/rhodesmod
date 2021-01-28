@@ -22,7 +22,7 @@
             "label": "Auclair, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "winter": 2,
                 "follower_lustenlightenment": 1
             },
@@ -41,7 +41,7 @@
             "label": "Auclair, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "winter": 5,
@@ -62,7 +62,7 @@
             "label": "A gaunt woman, who is silent.",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "winter": 10,
@@ -99,7 +99,7 @@
             "label": "Cat Caro, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
@@ -118,7 +118,7 @@
             "label": "Cat Caro, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "lantern": 5,
@@ -139,7 +139,7 @@
             "label": "Cat Caro, a Seer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "lantern": 10,
@@ -175,7 +175,7 @@
             "label": "'Pope' Clifton, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
@@ -194,7 +194,7 @@
             "label": "'Pope' Clifton, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "lantern": 5,
@@ -215,7 +215,7 @@
             "label": "Clifton, a Seer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "lantern": 10,
@@ -251,7 +251,7 @@
             "label": "Clovette, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
@@ -270,7 +270,7 @@
             "label": "Clovette, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "heart": 5,
@@ -291,7 +291,7 @@
             "label": "Clovette, a Tarantellist",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "heart": 10,
@@ -311,7 +311,7 @@
             "label": "Connie, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "edge": 5,
@@ -333,7 +333,7 @@
             "label": "Connie, a Conqueress",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "edge": 10,
@@ -370,7 +370,7 @@
             "label": "Dorothy, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
@@ -389,7 +389,7 @@
             "label": "Dorothy, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "heart": 5,
@@ -410,7 +410,7 @@
             "label": "Dorothy, a Tarantellist",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "heart": 10,
@@ -430,7 +430,7 @@
             "label": "Douglas, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 2
             },
             "description": "Douglas has exchanged the Force for the Forge.",
@@ -449,7 +449,7 @@
             "label": "Douglas, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "forge": 5
@@ -470,7 +470,7 @@
             "label": "Douglas, a Reshaper",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "forge": 10
@@ -506,7 +506,7 @@
             "label": "Elridge, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 2,
                 "follower_lustpower": 1
             },
@@ -525,7 +525,7 @@
             "label": "Elridge, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "edge": 5,
@@ -546,7 +546,7 @@
             "label": "Elridge, an Assassin",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "edge": 10,
@@ -582,7 +582,7 @@
             "label": "Enid, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
@@ -601,7 +601,7 @@
             "label": "Enid, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "knock": 5,
@@ -622,7 +622,7 @@
             "label": "Enid, a Key",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "knock": 10,
@@ -658,7 +658,7 @@
             "label": "Laidlaw, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
@@ -677,7 +677,7 @@
             "label": "Laidlaw, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "forge": 5,
@@ -698,7 +698,7 @@
             "label": "Laidlaw, a Reshaper",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "forge": 10,
@@ -734,7 +734,7 @@
             "label": "Leo, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
@@ -753,7 +753,7 @@
             "label": "Leo, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "heart": 5,
@@ -774,7 +774,7 @@
             "label": "Leo, a Tarantellist",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "heart": 10,
@@ -794,7 +794,7 @@
             "label": "Natalia, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "lantern": 5,
@@ -816,7 +816,7 @@
             "label": "Natalia, a Sage",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "lantern": 10,
@@ -853,7 +853,7 @@
             "label": "Neville, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
@@ -872,7 +872,7 @@
             "label": "Neville, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "knock": 5,
@@ -893,7 +893,7 @@
             "label": "Neville, a Key",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "knock": 10,
@@ -929,7 +929,7 @@
             "label": "Porter, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
@@ -948,7 +948,7 @@
             "label": "Porter, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "moth": 5,
@@ -969,7 +969,7 @@
             "label": "Porter, a Skintwister",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "moth": 10,
@@ -1005,7 +1005,7 @@
             "label": "Renira, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
@@ -1024,7 +1024,7 @@
             "label": "Renira, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "grail": 5,
@@ -1045,7 +1045,7 @@
             "label": "Renira, a Cyprian",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "grail": 10,
@@ -1081,7 +1081,7 @@
             "label": "Rose, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
@@ -1100,7 +1100,7 @@
             "label": "Rose, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "edge": 5,
@@ -1121,7 +1121,7 @@
             "label": "Rose, an Assassin",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "edge": 10,
@@ -1157,7 +1157,7 @@
             "label": "Saliba, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
@@ -1176,7 +1176,7 @@
             "label": "Saliba, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "grail": 5,
@@ -1197,7 +1197,7 @@
             "label": "Saliba, a Cyprian",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "grail": 10,
@@ -1233,7 +1233,7 @@
             "label": "Slee, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
@@ -1252,7 +1252,7 @@
             "label": "Slee, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "lantern": 5,
@@ -1273,7 +1273,7 @@
             "label": "Slee, a Seer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "lantern": 10,
@@ -1293,7 +1293,7 @@
             "label": "Spencer, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "knock": 5,
@@ -1315,7 +1315,7 @@
             "label": "Spencer, a Herald",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "knock": 10,
@@ -1352,7 +1352,7 @@
             "label": "Sylvia, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
@@ -1371,7 +1371,7 @@
             "label": "Sylvia, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "moth": 5,
@@ -1392,7 +1392,7 @@
             "label": "Sylvia, a Skintwister",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "moth": 10,
@@ -1428,7 +1428,7 @@
             "label": "Tristan, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
@@ -1447,7 +1447,7 @@
             "label": "Tristan, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "forge": 5,
@@ -1468,7 +1468,7 @@
             "label": "Tristan, a Reshaper",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "forge": 10,
@@ -1504,7 +1504,7 @@
             "label": "Valciane, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
@@ -1523,7 +1523,7 @@
             "label": "Valciane, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "forge": 5,
@@ -1544,7 +1544,7 @@
             "label": "Valciane, a Reshaper",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "forge": 10,
@@ -1580,7 +1580,7 @@
             "label": "Victor, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
@@ -1599,7 +1599,7 @@
             "label": "Victor, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "edge": 5,
@@ -1620,7 +1620,7 @@
             "label": "Victor, an Assassin",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "edge": 10,
@@ -1656,7 +1656,7 @@
             "label": "Violet, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "winter": 2,
                 "follower_lustsensation": 1
             },
@@ -1675,7 +1675,7 @@
             "label": "Violet, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "winter": 5,
@@ -1696,7 +1696,7 @@
             "label": "A kindly-faced woman, who is silent.",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "winter": 10,
@@ -1732,7 +1732,7 @@
             "label": "Ysabet, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
@@ -1751,7 +1751,7 @@
             "label": "Ysabet, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "potential": 1,
                 "moth": 5,
@@ -1772,7 +1772,7 @@
             "label": "Ysabet, a Skintwister",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "moth": 10,
@@ -1792,7 +1792,7 @@
             "label": "Zachary, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "winter": 5,
@@ -1814,7 +1814,7 @@
             "label": "Zachary, a Conclusion",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "exalted": 1,
                 "winter": 10,
@@ -2404,7 +2404,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2422,7 +2422,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2439,7 +2439,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2456,7 +2456,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2473,7 +2473,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2490,7 +2490,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2507,7 +2507,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2524,7 +2524,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2541,7 +2541,7 @@
             "label": "A Pawn",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 1
             },
             "description": "This one is loyal, but lacks initiative.",
@@ -2558,7 +2558,7 @@
             "label": "A Sturdy Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 2
             },
@@ -2575,7 +2575,7 @@
             "label": "A Practical Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "forge": 2
@@ -2593,7 +2593,7 @@
             "label": "An Avid Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "grail": 2
@@ -2611,7 +2611,7 @@
             "label": "A Lively Disciple ",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "heart": 2
@@ -2629,7 +2629,7 @@
             "label": "A Dextrous Disciple ",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "knock": 2
@@ -2647,7 +2647,7 @@
             "label": "A Percipient Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "lantern": 2
@@ -2665,7 +2665,7 @@
             "label": "An Erratic Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "moth": 2
@@ -2685,7 +2685,7 @@
             "label": "A Silent Disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1,
                 "edge": 1,
                 "winter": 2

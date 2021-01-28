@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: the Star-Shattered Fane",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultloneandlevelsands1": 1
             },
             "effects": {
@@ -30,8 +30,8 @@
             "label": "Beginning an Expedition: Lagun's Tomb",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultloneandlevelsands2": 1
             },
             "effects": {
@@ -55,8 +55,8 @@
             "label": "Beginning an Expedition: Messana",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultloneandlevelsands3": 1
             },
             "effects": {
@@ -80,8 +80,8 @@
             "label": "Beginning an Expedition: the Temple of Seven Coils",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultloneandlevelsands4": 1
             },
             "effects": {
@@ -105,8 +105,8 @@
             "label": "Beginning an Expedition: Miah",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultloneandlevelsandsdefault": 1
             },
             "effects": {

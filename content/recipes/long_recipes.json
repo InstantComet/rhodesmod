@@ -97,7 +97,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -114,7 +114,7 @@
             "actionid": "expelspy",
             "label": "In from the Night",
             "requirements": {
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "Our spy has returned to us.",
             "warmup": 10
@@ -291,7 +291,7 @@
                     "label": "Spy",
                     "description": "Spies can learn of the Long's plans. If you know or guess the nature of those plans, the right spies can delay them.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     }
                 }
             ],
@@ -303,7 +303,7 @@
                     "expulsion": {
                         "limit": 9,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 },
@@ -314,7 +314,7 @@
                     "expulsion": {
                         "limit": 9,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 },
@@ -325,7 +325,7 @@
                     "expulsion": {
                         "limit": 9,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 },
@@ -336,7 +336,7 @@
                     "expulsion": {
                         "limit": 9,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -530,7 +530,7 @@
             "actionid": "expelallspies",
             "label": "Because We Are Too Many",
             "requirements": {
-                "follower": 3
+                "r_operator": 3
             },
             "startdescription": "Our enemy is vigilant. We've sent too many watchers - if we send more than two, all will fail.",
             "warmup": 10
@@ -541,7 +541,7 @@
             "label": "Before the Storm",
             "requirements": {
                 "long.might": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
             "warmup": 10
@@ -552,7 +552,7 @@
             "label": "Before the Storm",
             "requirements": {
                 "long.connections": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
             "warmup": 10
@@ -563,7 +563,7 @@
             "label": "Before the Storm",
             "requirements": {
                 "long.dreamwork": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
             "warmup": 10
@@ -584,7 +584,7 @@
                 }
             ],
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "strategy.revealed": -1
             },
             "startdescription": "The shape of the Long's strategy is coming clear.",
@@ -604,7 +604,7 @@
             "actionid": "long",
             "label": "Our Enemy's Identity",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "julian": -1,
                 "welland": -1,
                 "tryphon": -1,
@@ -622,7 +622,7 @@
             "actionid": "long",
             "label": "Our Enemy's Identity",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "julian": -1,
                 "welland": -1,
                 "tryphon": -1,
@@ -640,7 +640,7 @@
             "actionid": "long",
             "label": "Our Enemy's Identity",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "julian": -1,
                 "welland": -1,
                 "tryphon": -1,
@@ -675,7 +675,7 @@
             "label": "An Assault Delayed",
             "startdescription": "We divined that the Long intended to launch an assault; we've delayed it a little. [This is only possible once each action.]",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "strategy.prep": 1,
                 "strategy.prep.delayed": -1,
                 "intention.assault": 1
@@ -701,7 +701,7 @@
             "label": "An Intrigue Delayed!",
             "startdescription": "We divined that the Long intended to launch an intrigue; we've delayed it a little. [This is only possible once each action.]",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "strategy.prep": 1,
                 "strategy.prep.delayed": -1,
                 "intention.intrigue": 1
@@ -727,7 +727,7 @@
             "label": "The Moon, Occluded",
             "startdescription": "We divined that the Long intended to come at us through our dreams; we've delayed that a little. [This is only possible once each action.]",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "strategy.prep": 1,
                 "strategy.prep.delayed": -1,
                 "intention.dreams": 1
@@ -754,7 +754,7 @@
             "comments": "This generic recipe is included only for backwards compatibility with beta folks",
             "startdescription": "They can slow the Long's action, though not prevent it. [This is only possible once each action.]",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "strategy.prep": 1,
                 "strategy.prep.delayed": -1
             },
@@ -831,7 +831,7 @@
                 "long.might": 6
             },
             "tablereqs": {
-                "follower": 1
+                "r_operator": 1
             },
             "alt": [
                 {
@@ -881,7 +881,7 @@
                 "long.might": 4
             },
             "tablereqs": {
-                "vault": 1
+                "r_vault": 1
             },
             "alt": [
                 {
@@ -906,7 +906,7 @@
                 "long.might": 2
             },
             "tablereqs": {
-                "follower": 1
+                "r_operator": 1
             },
             "alt": [
                 {
@@ -1065,7 +1065,7 @@
             "id": "r_long.refinestrategy.intrigue.poison.follower.resentment",
             "actionid": "long",
             "tablereqs": {
-                "follower": 1
+                "r_operator": 1
             },
             "requirements": {
                 "intention.intrigue": 1,
@@ -1140,7 +1140,7 @@
             "id": "r_long.refinestrategy.intrigue.poison.follower.notoriety",
             "actionid": "long",
             "tablereqs": {
-                "follower": 1
+                "r_operator": 1
             },
             "requirements": {
                 "intention.intrigue": 1,
@@ -1190,7 +1190,7 @@
             "id": "r_long.refinestrategy.intrigue.fraud",
             "actionid": "long",
             "tablereqs": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "requirements": {
                 "intention.intrigue": 1,

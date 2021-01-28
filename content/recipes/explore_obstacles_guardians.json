@@ -14,8 +14,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -225,7 +225,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -252,8 +252,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -553,7 +553,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -580,8 +580,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -791,7 +791,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -818,8 +818,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -1029,7 +1029,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -1056,8 +1056,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -1267,7 +1267,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }
@@ -1294,8 +1294,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -1505,7 +1505,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "follower": 1
+                            "r_operator": 1
                         }
                     }
                 }

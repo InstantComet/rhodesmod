@@ -6,7 +6,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "hq": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "This one must serve another purpose now. Into the cupboard they go.",
             "description": "I've locked this one away safely. When their screaming and raving subsides, I will subdue them properly.",
@@ -350,7 +350,7 @@
             "startdescription": "'Yes, that's exactly right. I'll come back tonight.'",
             "description": "A tiny packet of tiny treasures: a gift from Poppy. She'll see me again in the Season of Rags, for me to make the introduction I promised.",
             "effects": {
-                "funds": 10,
+                "r_lmfunds": 10,
                 "compensationc": 1,
                 "poppyready": -1
             },
@@ -416,7 +416,7 @@
                     "id": "r_Sacrifice",
                     "label": "Sacrifice",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "forbidden": {
                         "hireling": 1,
@@ -441,14 +441,14 @@
             "actionid": "poppytime",
             "label": "A Suitable Conclusion",
             "requirements": {
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "'What a loyal friend you have here! Do say goodbye, now.'",
             "description": "My follower is gone. I remain. Poppy Lascelles is seen, here and there. She may have more to say to me.",
             "effects": {
                 "poppycommissionready": 1,
                 "influencewinter": 1,
-                "follower": -1
+                "r_operator": -1
             }
         }
     ]

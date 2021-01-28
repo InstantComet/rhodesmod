@@ -139,7 +139,7 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "follower": -3,
+                "r_operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
@@ -251,7 +251,7 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "follower": -3,
+                "r_operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
@@ -814,7 +814,7 @@
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
             "warmup": 1,
             "effects": {
-                "follower": -3,
+                "r_operator": -3,
                 "summoned": -3,
                 "passion": -3
             },
@@ -1114,7 +1114,7 @@
             "description": "This one has spent some time in sulky solitude. For now, they'll return to the fold.",
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
@@ -1306,7 +1306,7 @@
                     "label": "Fuels",
                     "description": "The fire needs feeding",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "greedy": true
                 }
@@ -1329,7 +1329,7 @@
             "label": "The Ashes of Change",
             "actionid": "craving",
             "requirements": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "slots": [
                 {
@@ -1362,7 +1362,7 @@
             "description": "The flames yearn for me as I for them. Their touch is much more than pain. I have another Mark.",
             "effects": {
                 "vitality": 2,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "aspects": {
                 "ascend": 1

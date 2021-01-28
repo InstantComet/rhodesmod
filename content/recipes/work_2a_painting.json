@@ -50,7 +50,7 @@
                 "fatiguing": 1
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             }
         },
         {
@@ -69,7 +69,7 @@
                     "required": {
                         "lore": 1,
                         "influence": 1,
-                        "follower": 1,
+                        "r_operator": 1,
                         "acquaintance": 1,
                         "memory": 1
                     },
@@ -770,7 +770,7 @@
                     "label": "Paints",
                     "required": {
                         "pigment": 1,
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -972,11 +972,11 @@
             "id": "r_painthasfunds",
             "actionid": "r_work",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "insight": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "label": "Quality materials...",
             "startdescription": "...for quality work?",

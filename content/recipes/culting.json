@@ -215,7 +215,7 @@
             "requirements": {
                 "venerationedge": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "edge": 1
             },
@@ -239,7 +239,7 @@
             "requirements": {
                 "venerationforge": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "forge": 1
             },
@@ -263,7 +263,7 @@
             "requirements": {
                 "venerationgrail": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "grail": 1
             },
@@ -287,7 +287,7 @@
             "requirements": {
                 "venerationheart": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "heart": 1
             },
@@ -311,7 +311,7 @@
             "requirements": {
                 "venerationknock": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "knock": 1
             },
@@ -335,7 +335,7 @@
             "requirements": {
                 "venerationlantern": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "lantern": 1
             },
@@ -359,7 +359,7 @@
             "requirements": {
                 "venerationmoth": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "moth": 1
             },
@@ -383,7 +383,7 @@
             "requirements": {
                 "venerationwinter": 1,
                 "acquaintance": 1,
-                "follower": -1,
+                "r_operator": -1,
                 "mortal": 1,
                 "winter": 1
             },
@@ -406,7 +406,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationedge": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -430,7 +430,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationforge": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -454,7 +454,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationgrail": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -478,7 +478,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationheart": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -502,7 +502,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationknock": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -526,7 +526,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationlantern": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -550,7 +550,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationmoth": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -574,7 +574,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "venerationwinter": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
@@ -598,7 +598,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultedge_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "edge": 21,
                 "exalted": -1,
                 "potential": 1
@@ -621,7 +621,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultforge_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 21,
                 "exalted": -1,
                 "potential": 1
@@ -644,7 +644,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultgrail_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "grail": 21,
                 "exalted": -1,
                 "potential": 1
@@ -667,7 +667,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultheart_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "heart": 21,
                 "exalted": -1,
                 "potential": 1
@@ -690,7 +690,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultknock_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "knock": 21,
                 "exalted": -1,
                 "potential": 1
@@ -713,7 +713,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultlantern_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "lantern": 21,
                 "exalted": -1,
                 "potential": 1
@@ -736,7 +736,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultmoth_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "moth": 21,
                 "exalted": -1,
                 "potential": 1
@@ -766,7 +766,7 @@
                 "venerationlantern": -1,
                 "venerationknock": -1,
                 "venerationmoth": -1,
-                "follower": 1,
+                "r_operator": 1,
                 "winter": 21,
                 "exalted": -1,
                 "potential": 1
@@ -790,7 +790,7 @@
             "requirements": {
                 "society": 1,
                 "mortal": 1,
-                "follower": -1
+                "r_operator": -1
             },
             "startdescription": "This one might be ready to achieve the next level, if I can supply something more.",
             "craftable": false,
@@ -1196,7 +1196,7 @@
             "label": "My First Recruit",
             "actionid": "establishcult",
             "requirements": {
-                "follower": -1
+                "r_operator": -1
             },
             "slots": [
                 {

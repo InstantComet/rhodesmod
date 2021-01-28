@@ -74,7 +74,7 @@
                     "id": "r_Expenses",
                     "label": "Expenses",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "greedy": true,
                     "noanim": true,
@@ -94,7 +94,7 @@
             "actionid": "time",
             "effects": {
                 "season": -1,
-                "funds": -999
+                "r_lmfunds": -999
             },
             "warmup": 0,
             "linked": [
@@ -393,7 +393,7 @@
             "label": "Starvation",
             "actionid": "illhealth",
             "requirements": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "effects": {
                 "health": -1,

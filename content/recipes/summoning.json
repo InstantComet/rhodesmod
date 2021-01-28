@@ -22,7 +22,7 @@
             "mutations": [
                 {
                     "filter": "corpse",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": 0
                 }
             ]
@@ -49,7 +49,7 @@
             "mutations": [
                 {
                     "filter": "corpse",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": 0
                 }
             ]

@@ -10,7 +10,7 @@
                     "id": "r_Bid",
                     "label": "Bid",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -37,12 +37,12 @@
             "actionid": "r_explore",
             "label": "I've bid!",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": "I've raised my hand. The auctioneer raps out an acknowledgement. Will anyone match me?",
             "description": ".",
             "effects": {
-                "funds": -1,
+                "r_lmfunds": -1,
                 "bid": 1
             },
             "warmup": 0,
@@ -83,7 +83,7 @@
                 {
                     "id": "r_Bid",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -134,7 +134,7 @@
             "label": "I've won the auction!",
             "actionid": "r_explore",
             "effects": {
-                "funds": -100,
+                "r_lmfunds": -100,
                 "bid": -100
             },
             "startdescription": ".",
@@ -233,7 +233,7 @@
             "label": "One More Treasure",
             "startdescription": "Now that my rival has gone, we can steal in and scavenge this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
             "requirements": {
-                "vaultcapital5": 1
+                "r_vaultcapital5": 1
             },
             "extantreqs": {
                 "remembrancemarks": 1

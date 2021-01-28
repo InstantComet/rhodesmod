@@ -382,7 +382,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "society": -1,
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": 1
             },
             "slots": [
@@ -693,7 +693,7 @@
             "requirements": {
                 "acquaintance": 1,
                 "ritual": -1,
-                "location": -1
+                "r_location": -1
             },
             "extantreqs": {
                 "society": -1

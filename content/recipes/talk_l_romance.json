@@ -382,7 +382,7 @@
                     "required": {
                         "health": 1,
                         "dread": 1,
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -455,7 +455,7 @@
                     "required": {
                         "passion": 1,
                         "dread": 1,
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -528,7 +528,7 @@
                     "required": {
                         "reason": 1,
                         "dread": 1,
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -600,7 +600,7 @@
                     "required": {
                         "passion": 1,
                         "dread": 1,
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -766,13 +766,13 @@
             "id": "r_A_rose_binoff_funds",
             "actionid": "rose",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "label": "End the affair, insultingly",
             "startdescription": "'There now. Buy yourself something nice.'",
             "description": "The door slams behind my former lover.",
             "effects": {
-                "funds": -1,
+                "r_lmfunds": -1,
                 "dread": 1
             },
             "mutations": [

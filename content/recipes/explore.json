@@ -38,11 +38,11 @@
             "description": "--",
             "requirements": {
                 "hq.townhouse": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influencegrail": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -55,11 +55,11 @@
             "description": "There is always discomfort, at first, but we have made sure that everything is done cleanly, and so we touch the bright skirts of the Mother-of-Ants.",
             "requirements": {
                 "hq.hospital": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influenceknock": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -72,11 +72,11 @@
             "description": "The lucent, the translucent, the memory of splendour. Much is lost, and much remains, of the Sun Invisible and Indivisible.",
             "requirements": {
                 "hq.mithraeum": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influencelantern": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -89,11 +89,11 @@
             "description": "Tonight, no door in this church will close; no lock will require a key; and every heart will be opened.",
             "requirements": {
                 "hq.church": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influenceknock": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -106,11 +106,11 @@
             "description": "Bookshops give solace to the anxious, the ignorant and the troubled in spirit. Even after Morland brought her curious wares here, this solace lingers. Tonight the Hour called Thunderskin steps softly.",
             "requirements": {
                 "hq.bookshop": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influenceheart": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -123,11 +123,11 @@
             "description": "Once more we have flames, once more we have iron, and once more flesh will know heat's kiss; though nowhere it will show, not by daylight. Far above, far below, the Forge of Days performs her purifications.",
             "requirements": {
                 "hq.warehouse": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "influenceforge": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "warmup": 60,
             "craftable": true
@@ -138,7 +138,7 @@
             "actionid": "r_explore",
             "requirements": {
                 "locationbookdealer": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {},
             "deckeffects": {
@@ -214,8 +214,8 @@
             "label": "Search the City",
             "actionid": "r_explore",
             "requirements": {
-                "follower": 1,
-                "location": -1
+                "r_operator": 1,
+                "r_location": -1
             },
             "deckeffects": {
                 "exploreevents": 1
@@ -260,7 +260,7 @@
             "actionid": "r_explore",
             "requirements": {
                 "health": 1,
-                "location": -1
+                "r_location": -1
             },
             "deckeffects": {
                 "exploreevents": 1
@@ -314,7 +314,7 @@
                     "id": "r_Payment",
                     "label": "Payment",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "consumes": true
                 }
@@ -335,12 +335,12 @@
             "id": "r_explorepaycriminal",
             "label": "A Hireling",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "actionid": "r_explore",
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             }
         },
         {
@@ -385,7 +385,7 @@
             "actionid": "r_explore",
             "requirements": {
                 "location.cemetery": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "effects": {
                 "corpse": 1,
@@ -422,7 +422,7 @@
             "actionid": "r_explore",
             "requirements": {
                 "location.cemetery.closing": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "effects": {
                 "corpse": 1,

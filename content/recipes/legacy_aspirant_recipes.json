@@ -10,7 +10,7 @@
             "effects": {
                 "introjob": -1,
                 "health": 1,
-                "funds": 2
+                "r_lmfunds": 2
             },
             "alt": [
                 {
@@ -69,7 +69,7 @@
             "requirements": {},
             "effects": {
                 "reason": 1,
-                "funds": 9,
+                "r_lmfunds": 9,
                 "bequestintro": 1
             },
             "startdescription": "A letter from a solicitor. The old man at the hospital - the one I dream of - has named me in his will. I'll hear more soon.",

@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: Gladwyn Lake",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshires1": 1
             },
             "effects": {
@@ -28,8 +28,8 @@
             "label": "Beginning an Expedition: Lockwood Fen",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshires2": 1
             },
             "effects": {
@@ -52,8 +52,8 @@
             "label": "Beginning an Expedition: Crowkiss Hill",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshires3": 1
             },
             "effects": {
@@ -75,8 +75,8 @@
             "label": "Beginning an Expedition: Keglin's Scratch",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshires4": 1
             },
             "effects": {
@@ -99,8 +99,8 @@
             "label": "Beginning an Expedition: the Gwaer Inn",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshires5": 1
             },
             "effects": {
@@ -123,8 +123,8 @@
             "label": "Beginning an Expedition: Kerisham",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultshiresdefault": 1
             },
             "effects": {

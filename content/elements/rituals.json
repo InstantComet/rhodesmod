@@ -118,7 +118,7 @@
                     "label": "Victim",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "consumes": true,
@@ -169,7 +169,7 @@
                     "label": "Assistant",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
@@ -217,7 +217,7 @@
                     "label": "Assistant",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
@@ -266,7 +266,7 @@
                     "label": "Assistant",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
@@ -363,7 +363,7 @@
                     "label": "Assistant",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will speak the words?"
@@ -412,7 +412,7 @@
                     "label": "Victim",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1
                     },
                     "description": "Who will be divided?",
@@ -462,7 +462,7 @@
                     "label": "Offering",
                     "actionid": "r_work",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "prisoner": 1,
                         "summoned": 1
                     },

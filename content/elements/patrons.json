@@ -287,7 +287,7 @@
                     "actionid": "r_work",
                     "label": "Glamour",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -323,7 +323,7 @@
                     "actionid": "r_work",
                     "label": "Glamour",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -405,7 +405,7 @@
                     "label": "Lawyer's Fees",
                     "consumes": true,
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],

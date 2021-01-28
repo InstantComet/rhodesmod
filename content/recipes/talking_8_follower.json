@@ -17,7 +17,7 @@
                     "label": "Healing",
                     "description": "Funds will buy medicine.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -36,7 +36,7 @@
             "startdescription": "Perhaps, now, they'll survive. But there are limits to what the human body can sustain.",
             "actionid": "r_talk",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "mutations": [
                 {
@@ -47,13 +47,13 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": 0,
                     "additive": false
                 }
             ],
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "linked": [
                 {
@@ -77,13 +77,13 @@
             "description": "The wound is healed. The scar remains. But each scar, as the scholar Shulga once observed, is a lesson.",
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_scar_edge",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "edge",
                     "level": 2,
                     "additive": true
@@ -103,13 +103,13 @@
             "description": "The wound is healed - as much as it will ever be. A gate of pain and possibility remains.",
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_scar_knock",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "knock",
                     "level": 2,
                     "additive": true
@@ -129,13 +129,13 @@
             "description": "The wound is healed, but this one came very close to death. Silence has touched them, like snow.",
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_scar_winter",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "winter",
                     "level": 2,
                     "additive": true
@@ -190,7 +190,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "society": -1,
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": -1
             },
             "slots": [
@@ -206,7 +206,7 @@
                         "tool": 1,
                         "ingredient": 1,
                         "annoyance": 1,
-                        "location": 1
+                        "r_location": 1
                     }
                 }
             ],
@@ -463,7 +463,7 @@
             "label": "Offer this hireling another payment.",
             "requirements": {
                 "hireling": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": "I could pay to extend this hireling's period of service.",
             "description": "'All right. Same terms as before.'",
@@ -471,7 +471,7 @@
                 "hiring": 1
             },
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "craftable": true,
             "warmup": 10
@@ -497,7 +497,7 @@
             "label": "Not Wise, or Not Permitted?",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "tool": 1,
                 "summoned": -1,
                 "follower_honoured": 1
@@ -509,7 +509,7 @@
             "label": "Gift a Tool to a Follower",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "tool": 1,
                 "summoned": -1,
                 "follower_honoured": -1,
@@ -646,19 +646,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "edge",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
@@ -678,19 +678,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "edge",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -710,19 +710,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "edge",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -742,19 +742,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "forge",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -774,19 +774,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "forge",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -806,19 +806,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "forge",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -838,25 +838,25 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "grail",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "moth",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -876,19 +876,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "grail",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -908,19 +908,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "grail",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -940,19 +940,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "grail",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -972,19 +972,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "heart",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1004,19 +1004,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "heart",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1036,19 +1036,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "heart",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -1068,19 +1068,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "knock",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1100,19 +1100,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "knock",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1132,19 +1132,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "knock",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -1164,19 +1164,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "lantern",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1196,19 +1196,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "lantern",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1228,19 +1228,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "lantern",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -1260,19 +1260,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "moth",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1292,19 +1292,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "moth",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1324,19 +1324,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "moth",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -1356,19 +1356,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "secrethistories",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1388,19 +1388,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "secrethistories",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1420,19 +1420,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "winter",
                     "level": 1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 1,
                     "additive": false
@@ -1452,19 +1452,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "winter",
                     "level": 2,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 2,
                     "additive": false
@@ -1484,19 +1484,19 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "winter",
                     "level": 3,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": -1,
                     "additive": true
                 },
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "follower_honoured",
                     "level": 3,
                     "additive": false
@@ -1619,7 +1619,7 @@
             "label": "Repair a Cracked Noonstone",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 1,
                 "toollanternbcracked": 1
             },
@@ -1642,7 +1642,7 @@
                     "label": "Materials",
                     "description": "Rare fuels and odd powders",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -1661,12 +1661,12 @@
             "label": "Repairing a Cracked Noonstone",
             "actionid": "r_talk",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": "My follower is at work on the stone.",
             "description": "The stone is repaired! It shines again as it did once before.",
             "effects": {
-                "funds": -1,
+                "r_lmfunds": -1,
                 "toollanternbcracked": -1,
                 "toollanternb": 1
             }
@@ -1676,7 +1676,7 @@
             "label": "Repair a Cracked Wildering Mirror",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 1,
                 "toollanterndcracked": 1
             },
@@ -1733,7 +1733,7 @@
             "label": "Repair a Cracked Watchman's Glass",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 1,
                 "toollanternfcracked": 1
             },
@@ -1790,7 +1790,7 @@
             "label": "Repair a Sabotaged Element of the Great Work",
             "actionid": "r_talk",
             "requirements": {
-                "follower": 1,
+                "r_operator": 1,
                 "forge": 1,
                 "greatwork.sabotaged": 1
             },
@@ -1847,7 +1847,7 @@
             "startdescription": "Rivals don't prowl the streets like Hunters. They will only meet us on neutral ground. To defeat one, we must prepare a trap they may stumble into. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
             "requirements": {
                 "independent": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "summoned": -1
             },
             "comments": "Follower requirement isn't redundant... cos we also link here from conversations with Independents.",
@@ -1877,7 +1877,7 @@
             "label": "Create a Snare to delay or defeat a Rival",
             "startdescription": "Rivals are cautious: they don't prowl the streets like Hunters. To defeat one, we must prepare a trap, and await our opportunity. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
             "requirements": {
-                "vault": 1
+                "r_vault": 1
             },
             "linked": [
                 {
@@ -2164,7 +2164,7 @@
             "requirements": {
                 "society": 1,
                 "edge": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2185,7 +2185,7 @@
             "requirements": {
                 "society": 1,
                 "edge": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2206,7 +2206,7 @@
             "requirements": {
                 "society": 1,
                 "edge": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2227,7 +2227,7 @@
             "description": "My minion has returned, with a carefully packaged prisoner.",
             "effects": {
                 "notoriety": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "deckeffects": {
                 "randomvictim": 1
@@ -2269,7 +2269,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2285,7 +2285,7 @@
             "requirements": {
                 "society": 1,
                 "winter": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2306,7 +2306,7 @@
             "requirements": {
                 "society": 1,
                 "winter": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2327,7 +2327,7 @@
             "requirements": {
                 "society": 1,
                 "winter": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2390,7 +2390,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2406,7 +2406,7 @@
             "requirements": {
                 "society": 1,
                 "forge": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2427,7 +2427,7 @@
             "requirements": {
                 "society": 1,
                 "forge": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2448,7 +2448,7 @@
             "requirements": {
                 "society": 1,
                 "forge": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2502,7 +2502,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2518,7 +2518,7 @@
             "requirements": {
                 "society": 1,
                 "grail": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2539,7 +2539,7 @@
             "requirements": {
                 "society": 1,
                 "grail": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2560,7 +2560,7 @@
             "requirements": {
                 "society": 1,
                 "grail": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2581,7 +2581,7 @@
             "description": "My minion has returned, attended by a prisoner rendered docile with delight.",
             "effects": {
                 "notoriety": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "deckeffects": {
                 "randomvictim": 1
@@ -2623,7 +2623,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2639,7 +2639,7 @@
             "requirements": {
                 "society": 1,
                 "knock": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2660,7 +2660,7 @@
             "requirements": {
                 "society": 1,
                 "knock": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2681,7 +2681,7 @@
             "requirements": {
                 "society": 1,
                 "knock": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2702,7 +2702,7 @@
             "description": "My follower has returned with their haul.",
             "effects": {
                 "notoriety": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "deckeffects": {
                 "robberyrewards": 2
@@ -2744,7 +2744,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2760,7 +2760,7 @@
             "requirements": {
                 "society": 1,
                 "heart": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2781,7 +2781,7 @@
             "requirements": {
                 "society": 1,
                 "heart": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2802,7 +2802,7 @@
             "requirements": {
                 "society": 1,
                 "heart": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2866,7 +2866,7 @@
             "requirements": {
                 "society": 1,
                 "lantern": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2887,7 +2887,7 @@
             "requirements": {
                 "society": 1,
                 "lantern": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2908,7 +2908,7 @@
             "requirements": {
                 "society": 1,
                 "lantern": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -2970,7 +2970,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }
@@ -2986,7 +2986,7 @@
             "requirements": {
                 "society": 1,
                 "moth": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -3007,7 +3007,7 @@
             "requirements": {
                 "society": 1,
                 "moth": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -3028,7 +3028,7 @@
             "requirements": {
                 "society": 1,
                 "moth": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -3049,7 +3049,7 @@
             "description": "A successful deception! Here are the rewards.",
             "effects": {
                 "notoriety": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "deckeffects": {
                 "robberyrewards": 2
@@ -3088,7 +3088,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }

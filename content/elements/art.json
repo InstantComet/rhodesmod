@@ -14,7 +14,7 @@
             "label": "Overexposure",
             "description": "All audiences are fickle.",
             "lifetime": 1,
-            "decayTo": "funds"
+            "decayTo": "r_lmfunds"
         }
     ]
 }

@@ -8,7 +8,7 @@
                 "legacyphysicianjob": 1
             },
             "effects": {
-                "funds": 2,
+                "r_lmfunds": 2,
                 "legacyphysicianjob": -1,
                 "institutephysicianjob": 1,
                 "health": 1,

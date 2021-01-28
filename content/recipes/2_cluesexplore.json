@@ -16,7 +16,7 @@
             "label": "A Second Self?",
             "actionid": "r_explore",
             "requirements": {
-                "vault": 1,
+                "r_vault": 1,
                 "sending": 1
             },
             "startdescription": "If this expedition succeeds, the I-that-is-not-I will be there to perform the Forms. [If you succeed, you'll reap the usual rewards, and also progress your Change ascension.]",
@@ -28,8 +28,8 @@
             "label": "Preparations for an Expedition?",
             "actionid": "r_explore",
             "requirements": {
-                "vault": 1,
-                "follower": 1
+                "r_vault": 1,
+                "r_operator": 1
             },
             "startdescription": "If I add at least one Funds, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
             "hintonly": true,
@@ -40,8 +40,8 @@
             "label": "Preparations for an Expedition?",
             "actionid": "r_explore",
             "requirements": {
-                "vault": 1,
-                "funds": 1
+                "r_vault": 1,
+                "r_lmfunds": 1
             },
             "startdescription": "If I add a Follower, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
             "hintonly": true,
@@ -52,7 +52,7 @@
             "label": "Preparations for an Expedition?",
             "actionid": "r_explore",
             "requirements": {
-                "vault": 1
+                "r_vault": 1
             },
             "startdescription": "I could send an Expedition here to find books, treasures, tools of power. But I'll need Followers to send, and Funds to supply them.",
             "hintonly": true,

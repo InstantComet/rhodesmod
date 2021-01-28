@@ -5,8 +5,8 @@
             "label": "An Expedition to Raven Isle",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaulteveningisles1": 1
             },
             "effects": {
@@ -30,8 +30,8 @@
             "label": "An Expedition to Fort Geryk",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaulteveningisles2": 1
             },
             "effects": {
@@ -55,8 +55,8 @@
             "label": "An Expedition to the Wreck of the Christabel",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaulteveningisles3": 1
             },
             "effects": {
@@ -80,8 +80,8 @@
             "label": "An Expedition to St Tentreto of the Deep Door",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaulteveningisles4": 1
             },
             "effects": {
@@ -105,8 +105,8 @@
             "label": "An Expedition to Port Noon",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaulteveningislesdefault": 1
             },
             "effects": {

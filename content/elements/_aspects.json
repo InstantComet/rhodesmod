@@ -5,7 +5,7 @@
 			"label": "干员",
 			"description": "Student, helpmeet, defender, champion, dupe, sacrifice... companion.",
 			"isAspect": true,
-			"icon": "follower"
+			"icon": "r_operator"
 		},
 		{
 			"id": "r_ingredient",
@@ -160,14 +160,14 @@
 			"label": "地点",
 			"description": "一切事物皆有其所在之处，如此物位于此处。",
 			"isAspect": true,
-			"icon": "location"
+			"icon": "r_location"
 		},
 		{
 			"id": "r_terra_location",
 			"label": "位置",
 			"description": "这片大地上遥远的某处。",
 			"isAspect": true,
-			"icon": "location"
+			"icon": "r_location"
 		},
 		{
 			"id": "r_illsanity",
@@ -195,7 +195,7 @@
 		},
 		{
 			"id": "r_follower",
-			"label": "Follower",
+			"label": "r_operator",
 			"description": "Student, helpmeet, defender, champion, dupe, sacrifice... companion.",
 			"isAspect": true
 		},

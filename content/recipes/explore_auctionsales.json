@@ -9,7 +9,7 @@
                 "auctionable": 6
             },
             "effects": {
-                "funds": 20
+                "r_lmfunds": 20
             },
             "linked": [
                 {
@@ -34,7 +34,7 @@
                 "auctionable": 5
             },
             "effects": {
-                "funds": 16
+                "r_lmfunds": 16
             },
             "linked": [
                 {
@@ -59,7 +59,7 @@
                 "auctionable": 4
             },
             "effects": {
-                "funds": 8
+                "r_lmfunds": 8
             },
             "linked": [
                 {
@@ -84,7 +84,7 @@
                 "auctionable": 3
             },
             "effects": {
-                "funds": 4
+                "r_lmfunds": 4
             },
             "linked": [
                 {
@@ -109,7 +109,7 @@
                 "auctionable": 2
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "linked": [
                 {
@@ -134,7 +134,7 @@
                 "auctionable": 1
             },
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "linked": [
                 {
@@ -166,7 +166,7 @@
                 }
             ],
             "effects": {
-                "funds": -99,
+                "r_lmfunds": -99,
                 "auctionable": -99
             },
             "warmup": 30
@@ -183,7 +183,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "warmup": 30
         },
@@ -199,7 +199,7 @@
                 }
             ],
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "warmup": 30
         },
@@ -215,7 +215,7 @@
                 }
             ],
             "effects": {
-                "funds": 4
+                "r_lmfunds": 4
             },
             "warmup": 30
         },
@@ -225,7 +225,7 @@
             "actionid": "r_explore",
             "startdescription": "Two wealthy collectors lock eyes with the auctioneer, signalling their intentions with the slightest nods. Except for the auctioneer's grave tones, the room is utterly silent.",
             "effects": {
-                "funds": 8
+                "r_lmfunds": 8
             },
             "linked": [
                 {

@@ -32,7 +32,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultedge_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to an Assassin, I will need Edge to at least the twenty-first intensity. In any case, only the most savage will be suitable.",
@@ -45,7 +45,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultforge_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Reshaper, I will need Forge to at least the twenty-first intensity. In any case, only the most ingenious and effective will be suitable.",
@@ -58,7 +58,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultgrail_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Cyprian, I will need Grail to at least the twenty-first intensity. In any case, only those with the most inconsolable appetites will be suitable.",
@@ -71,7 +71,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultheart_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Tarantellist, I will need Heart to at least the twenty-first intensity. In any case, only the most spirited will be suitable.",
@@ -84,7 +84,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultknock_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Key, I will need Knock to at least the twenty-first intensity.  In any case, only the most gifted will be suitable.",
@@ -97,7 +97,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultlantern_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Seer, I will need Lantern to at least the twenty-first intensity.  In any case, only the most clear-sighted will be suitable.",
@@ -110,7 +110,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "cultmoth_1": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a Skintwister, I will need Moth to at least the twenty-first intensity.  In any case, only very rare individuals will be suitable.",
@@ -130,7 +130,7 @@
                 "venerationlantern": -1,
                 "venerationknock": -1,
                 "venerationmoth": -1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": 1
             },
             "startdescription": "To Exalt a Disciple to a degree that has no name, I will need Winter to at least the twenty-first intensity.  In any case, only the bleakest souls will be suitable.",
@@ -143,7 +143,7 @@
             "actionid": "r_talk",
             "requirements": {
                 "society": 1,
-                "follower": 1,
+                "r_operator": 1,
                 "disciple": -1,
                 "summoned": -11
             },

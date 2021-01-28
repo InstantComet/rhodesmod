@@ -6,7 +6,7 @@
             "actionid": "r_study",
             "requirements": {
                 "benefactorwill": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "alt": [
                 {
@@ -15,7 +15,7 @@
                 }
             ],
             "effects": {
-                "funds": 49,
+                "r_lmfunds": 49,
                 "benefactorwill": -1
             },
             "startdescription": "This situation requires discretion. Society considered our association improper.",

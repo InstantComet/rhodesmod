@@ -364,7 +364,7 @@
                     "id": "r_sacrifice",
                     "label": "Blood",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "forbidden": {
                         "summoned": -1
@@ -420,10 +420,10 @@
             ],
             "requirements": {
                 "marinette": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "effects": {
-                "follower": -1
+                "r_operator": -1
             },
             "craftable": false
         }

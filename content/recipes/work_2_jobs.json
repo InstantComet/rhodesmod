@@ -66,7 +66,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "actionid": "r_work",
             "startdescription": "The scratching of pens, the sourness of dust, the sighing of the younger Glover, the greedy gurgling of the elder.",
@@ -101,7 +101,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "actionid": "r_work",
             "startdescription": "I will apply extra effort. Perhaps they'll appreciate it.",
@@ -117,7 +117,7 @@
                 "reason": 1
             },
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "aspects": {
                 "careeradvancement": 1
@@ -144,7 +144,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "actionid": "r_work",
             "startdescription": "The scratching of pens, the sourness of dust, the sighing of the younger Glover, the greedy gurgling of the elder.",
@@ -179,7 +179,7 @@
                 }
             ],
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "actionid": "r_work",
             "startdescription": "I will apply extra effort. Perhaps they'll appreciate it; perhaps I'll regain a higher position.",
@@ -195,7 +195,7 @@
                 "reason": 1
             },
             "effects": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "aspects": {
                 "careeradvancement": 1
@@ -218,7 +218,7 @@
             "startdescription": "I am better-paid than I was. But Mr Alden has taken an interest in me. Mr Alden is very particular. Mr Alden likes things done just so. And Mr Alden has never believed that I am qualified for this position.",
             "description": ".",
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "linked": [
                 {
@@ -337,7 +337,7 @@
                 "reason": -1
             },
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "craftable": false
         },
@@ -354,7 +354,7 @@
             "startdescription": "The office crackles with the news of Alden's unexpected absence. A scrawny, nervous fellow from the fourth floor has been appointed Supervisor of Records (Temporary). Unlike Alden, he does not interfere with my work.",
             "description": "Ink, paper, and the fizzing of the electric lights. The office is dark when I leave. But I leave at the appointed time.",
             "effects": {
-                "funds": 2,
+                "r_lmfunds": 2,
                 "gloverandglover_difficultbossa_gone_job": -1,
                 "gloverandgloverjob": 1
             },
@@ -377,7 +377,7 @@
                 }
             ],
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "actionid": "r_work",
             "startdescription": "The work is more demanding, now, but it's better-paid.",
@@ -406,7 +406,7 @@
                 "reason": 2
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "actionid": "r_work",
             "startdescription": "",
@@ -429,7 +429,7 @@
                 }
             ],
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "actionid": "r_work",
             "startdescription": "The work is more demanding, now, but it's better-paid.",
@@ -457,7 +457,7 @@
                 "reason": 2
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "actionid": "r_work",
             "startdescription": "",
@@ -475,7 +475,7 @@
                 "reason": 1
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "actionid": "r_work",
             "startdescription": "Curl my hands into the correct shapes, and begin.",
@@ -510,7 +510,7 @@
                 "reason": 1
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "actionid": "r_work",
             "startdescription": "Curl my hands into the correct shapes, and begin.",
@@ -540,7 +540,7 @@
                 "reason": 1
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "actionid": "r_work",
             "startdescription": "Curl my hands into the correct shapes, and begin.",
@@ -582,7 +582,7 @@
                 "passion": 1
             },
             "effects": {
-                "funds": 5
+                "r_lmfunds": 5
             },
             "aspects": {
                 "careeradvancement": 1
@@ -616,7 +616,7 @@
             "description": "If Glover and Glover had a heart, it would be the Accounts department, where money flows like the tides of spring. Its limbs would be its brisk hushed administrators and clerks. But I sit with the other directors at the peak of its skull, safe (for now) from scandal and financial concerns.",
             "warmup": 50,
             "effects": {
-                "funds": 4,
+                "r_lmfunds": 4,
                 "notoriety": -1
             },
             "craftable": true,
@@ -640,7 +640,7 @@
             "startdescription": ".",
             "description": "I have been summoned into the presence of the elder Glover - the only Glover, now. He shifts uncomfortably in his seat. 'I have heard - ' he begins. He hesitates. He looks me in the eyes. 'I don't want to hear anything more about that - about that. Not another word. Not a word.'",
             "effects": {
-                "funds": 4,
+                "r_lmfunds": 4,
                 "notoriety": -1,
                 "gloverandglovertopjob": -1,
                 "gloverandglovertopjob_tainted": 1
@@ -671,7 +671,7 @@
             "description": "I review tidy columns of figures in a tidy fifth-floor room. From my office window, I can see the river. My secretary brings me a hot drink every fifty-nine minutes. The river is the colour of rain.",
             "warmup": 60,
             "effects": {
-                "funds": 4,
+                "r_lmfunds": 4,
                 "notoriety": -1
             },
             "craftable": true,
@@ -692,7 +692,7 @@
             "startdescription": ".",
             "description": "I have received a formal (but oddly apprehensive) letter, hand-delivered from the firm of Glover and Glover. My services as director are no longer required, but I have been awarded quite a generous severance payment. The firm hopes very much that there will be no ill feeling. The signature on the letter is a little shaky... ",
             "effects": {
-                "funds": 8,
+                "r_lmfunds": 8,
                 "notoriety": -1,
                 "gloverandglovertopjob_tainted": -1
             }
@@ -705,7 +705,7 @@
                 "ritual": -1
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "actionid": "r_work",
             "startdescription": "There is a dank and clinging smell to the Institute halls that never quite leaves one. Perhaps it is the paint. Perhaps it is the patients. Perhaps it is something in the walls.",
@@ -721,7 +721,7 @@
                 "decrepitude": 1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "dread": 1
             },
             "alt": [
@@ -743,7 +743,7 @@
                 "decrepitude": 1
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "description": "A long day. Some flung coins, most turned away. But there is a gold sovereign in my bowl! A generous donation, or an accident?",
             "warmup": 90
@@ -760,7 +760,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "vitality": 1
             },
             "aspects": {
@@ -783,7 +783,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "vitality": 1
             },
             "aspects": {
@@ -806,7 +806,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "vitality": 1
             },
             "aspects": {
@@ -835,7 +835,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "vitality": 1
             },
             "aspects": {
@@ -861,7 +861,7 @@
             },
             "effects": {
                 "vitality": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "alt": [
                 {
@@ -894,7 +894,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "vitality": 1
             },
             "aspects": {
@@ -913,7 +913,7 @@
             "effects": {
                 "health": -1,
                 "injury": 1,
-                "funds": 1
+                "r_lmfunds": 1
             },
             "startdescription": ".",
             "description": "I'm injured! I'll hobble painfully home with my wretched pay.",
@@ -928,7 +928,7 @@
                 "investmentsjobc": 1
             },
             "effects": {
-                "funds": 4
+                "r_lmfunds": 4
             },
             "linked": [
                 {
@@ -949,7 +949,7 @@
                 "investmentsjobb": 1
             },
             "effects": {
-                "funds": 3
+                "r_lmfunds": 3
             },
             "linked": [
                 {
@@ -970,7 +970,7 @@
                 "investmentsjoba": 1
             },
             "effects": {
-                "funds": 2
+                "r_lmfunds": 2
             },
             "linked": [
                 {

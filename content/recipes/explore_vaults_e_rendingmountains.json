@@ -5,8 +5,8 @@
             "label": "Beginning an Expedition: Hunter's Pit",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultrendingmountains1": 1
             },
             "effects": {
@@ -30,8 +30,8 @@
             "label": "Beginning an Expedition: Snow's Keeper",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultrendingmountains2": 1
             },
             "effects": {
@@ -55,8 +55,8 @@
             "label": "Beginning an Expedition: the Eye of Ikirmawi",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultrendingmountains3": 1
             },
             "effects": {
@@ -80,8 +80,8 @@
             "label": "Beginning an Expedition: the Mausoleum of Wolves",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultrendingmountains4": 1
             },
             "effects": {
@@ -105,8 +105,8 @@
             "label": "Beginning an Expedition: Tombs of the Shadowless Kings",
             "actionid": "r_explore",
             "requirements": {
-                "funds": 1,
-                "follower": 1,
+                "r_lmfunds": 1,
+                "r_operator": 1,
                 "vaultrendingmountainsdefault": 1
             },
             "effects": {

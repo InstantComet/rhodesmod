@@ -5,9 +5,9 @@
             "label": "The Expedition Sets Off",
             "actionid": "r_explore",
             "requirements": {
-                "vault": 1,
-                "follower": 1,
-                "funds": 1
+                "r_vault": 1,
+                "r_operator": 1,
+                "r_lmfunds": 1
             },
             "startdescription": "I have given my agents the opportunity to serve. Let us hope it ends well for us all.",
             "description": ".",
@@ -106,8 +106,8 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will defeat obstacles.",
                     "required": {
-                        "follower": 1,
-                        "funds": 1
+                        "r_operator": 1,
+                        "r_lmfunds": 1
                     }
                 }
             ],
@@ -129,7 +129,7 @@
                 }
             ],
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "linked": [
                 {
@@ -210,7 +210,7 @@
             "startdescription": "Supplies are low. Unless I send more funds, we will have to abandon the expedition.",
             "description": "We can try again, when the dust has settled.",
             "requirements": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "effects": {
                 "dread": 1,
@@ -229,7 +229,7 @@
             "startdescription": "No expedition members remain. I must send help, or this expedition will be over.",
             "description": "No-one returns. I can attempt the expedition again. I can even reuse the supplies.",
             "requirements": {
-                "follower": -1
+                "r_operator": -1
             },
             "effects": {
                 "dread": 1,
@@ -461,7 +461,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "follower",
+                    "mutate": "r_operator",
                     "level": -1,
                     "additive": false
                 }

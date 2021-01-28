@@ -90,11 +90,11 @@
             "label": "Restore my Strength",
             "actionid": "r_dream",
             "requirements": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "hunger": 1
             },
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "aspects": {
                 "restorehealth": 1
@@ -143,11 +143,11 @@
             "label": "Heal",
             "actionid": "r_dream",
             "requirements": {
-                "funds": 1,
+                "r_lmfunds": 1,
                 "illhealth": 1
             },
             "effects": {
-                "funds": -1
+                "r_lmfunds": -1
             },
             "aspects": {
                 "restorehealth": 1
@@ -234,11 +234,11 @@
             "label": "Purchase a Tincture of Opium",
             "actionid": "r_dream",
             "requirements": {
-                "funds": 1
+                "r_lmfunds": 1
             },
             "effects": {
                 "contentment": 1,
-                "funds": -1
+                "r_lmfunds": -1
             },
             "startdescription": "In times of especial crisis, I might visit a discreet pharmacist, to purchase a tincture of opium and make my dreams sweet. But only in times of especial crisis. [This is an expensive and risky way to gain Contentment. It might provoke sickness or despair.]",
             "description": "Oh, that deep peace. But I should not do this again.",

@@ -359,7 +359,7 @@
                     "id": "r_Suspect",
                     "label": "Suspect",
                     "required": {
-                        "follower": 1,
+                        "r_operator": 1,
                         "independent": 1
                     },
                     "forbidden": {
@@ -425,7 +425,7 @@
             "label": "The Suppression Bureau is bringing an associate to trial!",
             "actionid": "suspicion",
             "requirements": {
-                "follower": 1
+                "r_operator": 1
             },
             "startdescription": "There are crimes the state does not openly recognise. My associate has been implicated in one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, my associate may be gone forever... ",
             "description": ".",
@@ -543,7 +543,7 @@
                 "investigatingsetback": 1
             },
             "effects": {
-                "follower": -1
+                "r_operator": -1
             }
         },
         {
@@ -560,7 +560,7 @@
             "id": "r_suspicion_followerexonerated",
             "actionid": "suspicion",
             "requirements": {
-                "follower": 1
+                "r_operator": 1
             },
             "label": "The Bureau's Fury",
             "startdescription": "My associate has been exonerated! The evidence was not sufficiently compelling to convict them, and they're free to go... though they may harbour a grudge against me. The Bureau has been stymied for the moment.",
@@ -569,7 +569,7 @@
             },
             "mutations": [
                 {
-                    "filter": "follower",
+                    "filter": "r_operator",
                     "mutate": "resentment",
                     "level": 1,
                     "additive": true
@@ -582,7 +582,7 @@
             "label": "The Bureau's Fury",
             "startdescription": "I have been exonerated! The evidence was not sufficiently compelling to convict me, and I'm free to go.",
             "requirements": {
-                "follower": -1
+                "r_operator": -1
             },
             "aspects": {
                 "evidencelevel": -1

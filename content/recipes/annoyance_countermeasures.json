@@ -9,7 +9,7 @@
             "requirements": {
                 "annoyance": 1,
                 "grail": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -31,7 +31,7 @@
             "requirements": {
                 "annoyance": 1,
                 "grail": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -53,7 +53,7 @@
             "requirements": {
                 "annoyance": 1,
                 "grail": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -94,7 +94,7 @@
             "requirements": {
                 "annoyance": 1,
                 "edge": 10,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -112,7 +112,7 @@
             "requirements": {
                 "annoyance": 1,
                 "edge": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -134,7 +134,7 @@
             "requirements": {
                 "annoyance": 1,
                 "edge": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -155,7 +155,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -211,7 +211,7 @@
             "startdescription": "I await word....",
             "description": "My minion has not returned. They must have failed. This may yet prove embarrassing.",
             "effects": {
-                "follower": -1,
+                "r_operator": -1,
                 "notoriety": 1
             },
             "warmup": 10
@@ -225,7 +225,7 @@
             "requirements": {
                 "annoyance": 1,
                 "moth": 5,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {
@@ -247,7 +247,7 @@
             "requirements": {
                 "annoyance": 1,
                 "moth": 1,
-                "follower": 1
+                "r_operator": 1
             },
             "linked": [
                 {

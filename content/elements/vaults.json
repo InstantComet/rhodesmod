@@ -4,9 +4,9 @@
             "id": "r_vaultcapital1",
             "label": "Strathcoyne's Residence",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -14,7 +14,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -23,16 +23,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -41,7 +41,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -53,9 +53,9 @@
             "id": "r_vaultcapital2",
             "label": "Forgotten Mithraeum",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -63,7 +63,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -72,16 +72,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -90,7 +90,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -102,9 +102,9 @@
             "id": "r_vaultcapital3",
             "label": "Cater & Hero Limited",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -112,7 +112,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -121,16 +121,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -139,7 +139,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -151,9 +151,9 @@
             "id": "r_vaultcapital4",
             "label": "St Agnes Hospital",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -161,7 +161,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -170,16 +170,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -188,7 +188,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -200,9 +200,9 @@
             "id": "r_vaultcapital5",
             "label": "Congregation of St Felix of Schüren",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -210,7 +210,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -219,16 +219,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -237,7 +237,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -249,9 +249,9 @@
             "id": "r_vaultcapitaldefault",
             "label": "The Forsaken Reach",
             "aspects": {
-                "vault": 1,
-                "location": 1,
-                "vaultcapital": 1
+                "r_vault": 1,
+                "r_location": 1,
+                "r_vaultcapital": 1
             },
             "slots": [
                 {
@@ -259,7 +259,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -268,16 +268,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -286,7 +286,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -297,8 +297,8 @@
             "id": "r_vaultshires1",
             "label": "Gladwyn Lake",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -307,7 +307,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -316,16 +316,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -334,7 +334,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -346,8 +346,8 @@
             "id": "r_vaultshires2",
             "label": "Lockwood Fen",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -356,7 +356,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -365,16 +365,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -383,7 +383,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -395,8 +395,8 @@
             "id": "r_vaultshires3",
             "label": "Crowkiss Hill",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -405,7 +405,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -414,16 +414,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -432,7 +432,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -444,8 +444,8 @@
             "id": "r_vaultshires4",
             "label": "Keglin's Scratch",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -454,7 +454,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -463,16 +463,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -481,7 +481,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -493,8 +493,8 @@
             "id": "r_vaultshires5",
             "label": "Gwaer Inn",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -503,7 +503,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -512,16 +512,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -530,7 +530,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -542,8 +542,8 @@
             "id": "r_vaultshiresdefault",
             "label": "Kerisham",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -552,7 +552,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -561,16 +561,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -579,7 +579,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -600,8 +600,8 @@
             "id": "r_vaultcontinent1",
             "label": "Chateau Raveline",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -610,7 +610,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -619,16 +619,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -637,7 +637,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -649,8 +649,8 @@
             "id": "r_vaultcontinent2",
             "label": "Fermier Abbey",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -659,7 +659,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -668,16 +668,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -686,7 +686,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -698,8 +698,8 @@
             "id": "r_vaultcontinent3",
             "label": "Orthos Wood",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -708,7 +708,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -717,16 +717,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -735,7 +735,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -747,8 +747,8 @@
             "id": "r_vaultcontinent4",
             "label": "The Vanderschaaf Collection",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -757,7 +757,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -766,16 +766,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -784,7 +784,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -796,8 +796,8 @@
             "id": "r_vaultcontinent5",
             "label": "Forman House",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -806,7 +806,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -815,16 +815,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -833,7 +833,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -845,8 +845,8 @@
             "id": "r_vaultcontinent6",
             "label": "Key-Hunter's Garret",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -855,7 +855,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -864,16 +864,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -882,7 +882,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -894,8 +894,8 @@
             "id": "r_vaultcontinentdefault",
             "label": "The  Unnumbered Stones",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -904,7 +904,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -913,16 +913,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -931,7 +931,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -952,8 +952,8 @@
             "id": "r_vaultlandbeyondforest1",
             "label": "Cave of Candles",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -962,7 +962,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -971,16 +971,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -989,7 +989,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1001,8 +1001,8 @@
             "id": "r_vaultlandbeyondforest2",
             "label": "Voivode's Citadel",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1011,7 +1011,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1020,16 +1020,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1038,7 +1038,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1050,8 +1050,8 @@
             "id": "r_vaultlandbeyondforest3",
             "label": "Grunewald's Permanent Circus",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1060,7 +1060,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1069,16 +1069,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1087,7 +1087,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1099,8 +1099,8 @@
             "id": "r_vaultlandbeyondforest4",
             "label": "Tower Revek",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1109,7 +1109,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1118,16 +1118,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1136,7 +1136,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1148,8 +1148,8 @@
             "id": "r_vaultlandbeyondforest5",
             "label": "The Kusnetsov Endowment",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1158,7 +1158,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1167,16 +1167,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1185,7 +1185,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1197,8 +1197,8 @@
             "id": "r_vaultlandbeyondforestdefault",
             "label": "Foxlily Meadows",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1207,7 +1207,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1216,16 +1216,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1234,7 +1234,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1255,8 +1255,8 @@
             "id": "r_vaultrendingmountains1",
             "label": "Hunter's Pits",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1265,7 +1265,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1274,16 +1274,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1292,7 +1292,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1304,8 +1304,8 @@
             "id": "r_vaultrendingmountains2",
             "label": "Snow's Keeper",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1314,7 +1314,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1323,16 +1323,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1341,7 +1341,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1353,8 +1353,8 @@
             "id": "r_vaultrendingmountains3",
             "label": "The Eye of Ikirmawi",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1363,7 +1363,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1372,16 +1372,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1390,7 +1390,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1402,8 +1402,8 @@
             "id": "r_vaultrendingmountains4",
             "label": "Mausoleum of Wolves",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1412,7 +1412,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1421,16 +1421,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1439,7 +1439,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1451,8 +1451,8 @@
             "id": "r_vaultrendingmountainsdefault",
             "label": "Tombs of the Shadowless Kings",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1461,7 +1461,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1470,16 +1470,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1488,7 +1488,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1499,8 +1499,8 @@
             "id": "r_vaultloneandlevelsands1",
             "label": "Star-Shattered Fane",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1509,7 +1509,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1518,16 +1518,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1536,7 +1536,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1548,8 +1548,8 @@
             "id": "r_vaultloneandlevelsands2",
             "label": "Lagun's Tomb",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1558,7 +1558,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1567,16 +1567,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1585,7 +1585,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1597,8 +1597,8 @@
             "id": "r_vaultloneandlevelsands3",
             "label": "Messana",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1607,7 +1607,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1616,16 +1616,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1634,7 +1634,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1646,8 +1646,8 @@
             "id": "r_vaultloneandlevelsands4",
             "label": "Temple of Seven Coils",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1656,7 +1656,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1665,16 +1665,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1683,7 +1683,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1695,8 +1695,8 @@
             "id": "r_vaultloneandlevelsandsdefault",
             "label": "Miah",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1705,7 +1705,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1714,16 +1714,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1732,7 +1732,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1753,8 +1753,8 @@
             "id": "r_vaulteveningisles1",
             "label": "Raven Isle",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1763,7 +1763,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1772,16 +1772,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1790,7 +1790,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1802,8 +1802,8 @@
             "id": "r_vaulteveningisles2",
             "label": "Fort Geryk",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1812,7 +1812,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1821,16 +1821,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1839,7 +1839,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1851,8 +1851,8 @@
             "id": "r_vaulteveningisles3",
             "label": "The Wreck of the Christabel",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1861,7 +1861,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1870,16 +1870,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1888,7 +1888,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1900,8 +1900,8 @@
             "id": "r_vaulteveningisles4",
             "label": "St Tentreto of the Deep Door",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1910,7 +1910,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1919,16 +1919,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1937,7 +1937,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
@@ -1949,8 +1949,8 @@
             "id": "r_vaulteveningislesdefault",
             "label": "Port Noon",
             "aspects": {
-                "vault": 1,
-                "location": 1,
+                "r_vault": 1,
+                "r_location": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1959,7 +1959,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1968,16 +1968,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -1986,7 +1986,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -2007,8 +2007,8 @@
             "id": "r_vaultfloating1",
             "label": "The 'Hebe Stanton'",
             "aspects": {
-                "vault": 1,
-                "location": 1
+                "r_vault": 1,
+                "r_location": 1
             },
             "slots": [
                 {
@@ -2016,7 +2016,7 @@
                     "label": "Leader",
                     "description": "I must have at least one Follower to start the expedition. I can add more later.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -2025,16 +2025,16 @@
                     "label": "Assistant",
                     "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
                     "required": {
-                        "follower": 1
+                        "r_operator": 1
                     },
                     "actionid": "r_explore"
                 },
                 {
                     "id": "r_expeditionfunds",
-                    "label": "Funds",
+                    "label": "r_lmfunds",
                     "description": "I must have at least one Funds to begin the expedition.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 },
@@ -2043,7 +2043,7 @@
                     "label": "Further Funds",
                     "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
                     "required": {
-                        "funds": 1
+                        "r_lmfunds": 1
                     },
                     "actionid": "r_explore"
                 }
