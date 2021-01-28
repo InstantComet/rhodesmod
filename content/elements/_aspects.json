@@ -1,6 +1,13 @@
 {
 	"elements": [
 		{
+			"id": "r_operator",
+			"label": "干员",
+			"description": "Student, helpmeet, defender, champion, dupe, sacrifice... companion.",
+			"isAspect": true,
+			"icon": "follower"
+		},
+		{
 			"id": "r_ingredient",
 			"label": "原料",
 			"isAspect": true,
