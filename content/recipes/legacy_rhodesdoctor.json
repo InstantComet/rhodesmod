@@ -1,0 +1,161 @@
+{
+    "recipes": [
+        {
+            "id": "r_workr_doctorjob",
+            "label": "石棺之中",
+            "actionid": "work",
+            "requirements": {
+                "introsanity": 1
+            },
+            "effects": {
+                "r_introsanity": -1,
+                "r_losesanity": 1
+            },
+            "alt": [
+                {
+                    "id": "r_doctoropendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "掌心微弱的温暖唤醒了我的意识。我必须打起精神……",
+            "description": "眼前是似曾相识的人影。是谁？我不记得了……",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "r_doctoropentalk",
+            "label": "Our Cause",
+            "actionid": "talk",
+            "requirements": {},
+            "startdescription": "I remember these names, though I have never heard them spoken.",
+            "description": "My allies; my Illuminated One.",
+            "effects": {
+                "lever_LastCult": 1,
+                "lever_LastFollower": 1
+            },
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "r_doctorintrotalk",
+            "label": "醒来，处境的简短说明",
+            "actionid": "introtalk",
+            "startdescription": "在车上，我听取了卡特斯少女的简短说明。",
+            "alt": [
+                {
+                    "id": "r_doctorskyfalla",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "operator_amiya": 1,
+                "operator_kaltist": 1,
+                "location_intro": 1
+            },
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "r_doctoropenstudy",
+            "label": "寻找脱困的手段",
+            "actionid": "study",
+            "startdescription": "幸运的是，我们找到了一张被撕毁了一半的地图，可以通过研究它找到控制中枢的位置。",
+            "alt": [
+                {
+                    "id": "r_doctorskyfalla",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "map_location_rhodes_a": 1
+            },
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "r_doctoropenexplore",
+            "label": "A Place to Begin",
+            "actionid": "explore",
+            "startdescription": "Where were we?",
+            "description": "This is the place I saw, in the light at sleep's edge.",
+            "alt": [
+                {
+                    "id": "r_doctoropendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "hq.temporary": 1
+            },
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "r_doctoropendream",
+            "label": "梦中的嘈杂",
+            "actionid": "dream",
+            "startdescription": "我是谁？我在哪里？我的身边有人……",
+            "description": "我的梦里充斥着难以理解的片段和感受。",
+            "warmup": 60,
+            "effects": {
+                "sanity": 1
+            },
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "r_doctorintrotalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "r_doctoropenheadhunt",
+            "label": "学习干员寻访",
+            "actionid": "headhunt",
+            "requirements": {},
+            "startdescription": "我学习干员寻访。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "r_doctorskyfalla",
+            "label": "天灾迫近",
+            "actionid": "skyfall",
+            "requirements": {},
+            "startdescription": "年久失修——捡来之后勉强使用的罗德岛已经到了极限，我们必须先修好它才能离开这里。",
+            "description": "我们试图寻找修复的方法。",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "r_doctorskyfallb",
+                    "chance": 100
+                }
+            ],
+            "alt": [
+                {
+                    "id": "r_doctoropenstudy",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "r_doctorskyfallb",
+            "label": "天灾迫近",
+            "actionid": "skyfall",
+            "requirements": {},
+            "startdescription": "我们必须做点什么，在一切为时已晚之前。",
+            "description": "应当立即行动。",
+            "warmup": 600,
+            "craftable": false,
+            "ending": "deathbyintroskyfireb"
+        }
+    ]
+}

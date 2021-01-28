@@ -1,24 +1,24 @@
 {
     "legacies": [
         {
-            "id": "rhodesdoctor",
+            "id": "r_doctor",
             "label": "罗德岛博士",
             "startdescription": "失去记忆。",
             "description": "我从石棺中醒来。",
             "effects": {
                 "introsanity": 1
             },
-            "image": "rhodesdoctor",
+            "image": "r_doctor",
             "fromending": "default",
             "availableWithoutEndingMatch": true,
             "startingverbid": "work",
-            "tablecoverimage": "table_rhodes",
+            "tablecoverimage": "r_table_rhodes",
             "newstart": true,
             "statusbarelements": [
-                "sanity",
-                "lmfunds",
-                "originium",
-                "closuretoken"
+                "r_sanity",
+                "r_lmfunds",
+                "r_originium",
+                "r_closuretoken"
             ]
         }
     ]

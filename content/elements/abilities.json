@@ -1,6 +1,131 @@
 {
     "elements": [
         {
+            "id": "r_fleeting",
+            "label": "追忆",
+            "description": "记忆中的某个瞬间。[研究“追忆”能获得更多“理智”。如果不使用，将会在三分钟后消失。]",
+            "aspects": {
+                "r_secrethistories": 2,
+                "r_moth": 2,
+                "r_influence": 1,
+                "r_memory": 1
+            },
+            "lifetime": "180",
+            "icon":"r_fleeting"
+        },
+        {
+            "id": "r_fleetingplus",
+            "label": "追忆：往日重现",
+            "description": "我已经准备好改变了。[与“指挥”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
+            "aspects": {
+                "r_secrethistories": 2,
+                "r_moth": 2,
+                "r_influence": 1,
+                "r_memory": 1
+            },
+            "lifetime": "180",
+            "icon":"r_fleeting"
+        },
+        {
+            "id": "r_introsanity",
+            "label": "理智",
+            "aspects": {
+                "r_lantern": 2,
+                "r_ingredient": 1,
+                "r_ability": 1
+            },
+            "animFrames": 1,
+            "description": "你的全部。",
+            "icon": "sanity",
+            "xtriggers": {
+                "job": [
+                    {
+                        "id": "r_losesanity"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "r_lmfunds",
+            "label": "龙门币",
+            "aspects": {
+                "r_ingredient": 1
+            },
+            "description": "由龙门发行的货币，用途广泛。——字条上这么写着。"
+        },
+        {
+            "id": "r_originium",
+            "label": "至纯源石",
+            "aspects": {
+                "r_ingredient": 1,
+                "r_gift": 1
+            },
+            "description": "危险而又必不可少的物质。"
+        },
+        {
+            "id": "r_closuretoken",
+            "label": "可露希尔的兑换券",
+            "aspects": {
+                "r_ingredient": 1,
+                "r_gift": 1
+            },
+            "description": "……"
+        },
+        {
+            "id": "r_sanity",
+            "label": "理智",
+            "aspects": {
+                "r_lantern": 2,
+                "r_ingredient": 1,
+                "r_ability": 1
+            },
+            "animFrames": 1,
+            "description": "你的全部。",
+            "icon": "sanity",
+            "xtriggers": {
+                "job": [
+                    {
+                        "id": "r_losesanity"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "r_losesanity",
+            "label": "理智[丧失]",
+            "description": "我失去了一部分的理智。[此卡不可使用，将于六十秒后复原。]",
+            "aspects": {
+                "r_illsanity": 1
+            },
+            "lifetime": 60,
+            "decayTo": "sanity",
+            "icon": "sanity",
+            "xtriggers": {},
+            "slots": [
+                {
+                    "id": "r_eatrhodesfood",
+                    "label": "吃食物",
+                    "actionId": "dream",
+                    "description": "我可以吃点",
+                    "required": {
+                        "rhodesfood": 1
+                    }
+                }
+            ],
+            "resaturate": true
+        },
+        {
+            "id": "r_contentment",
+            "label": "安逸",
+            "aspects": {
+                "r_lantern": 2,
+                "r_heart": 2,
+                "r_influence": 1
+            },
+            "description": "我很开心，大概吧。[安逸可以通过入梦迅速回复理智。]",
+            "lifetime": 60
+        },
+        {
             "id": "r_hunger",
             "label": "Hunger",
             "aspects": {
@@ -646,87 +771,6 @@
             },
             "description": "Before gods arose from blood, before ever ape stood upright, this was the language heard in the House of the Sun. [Some books must be translated before they can be read.]",
             "unique": true
-        },
-        {
-            "id": "r_fleeting",
-            "label": "Fleeting Reminiscence",
-            "description": "A moment in time. In another moment, it'll be gone.",
-            "aspects": {
-                "secrethistories": 2,
-                "moth": 2,
-                "influence": 1,
-                "memory": 1
-            },
-            "slots": [
-                {
-                    "id": "r_with",
-                    "label": "With",
-                    "description": "Perhaps I can find something in my memories to strengthen a transient influence.",
-                    "required": {
-                        "influencemoth": 1,
-                        "influencelantern": 1
-                    },
-                    "actionid": "study"
-                },
-                {
-                    "id": "r_knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionid": "study"
-                }
-            ],
-            "lifetime": 120,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            }
-        },
-        {
-            "id": "r_contentment",
-            "label": "Contentment",
-            "aspects": {
-                "lantern": 2,
-                "heart": 2,
-                "influence": 1
-            },
-            "description": "I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]",
-            "slots": [
-                {
-                    "id": "r_with",
-                    "label": "With",
-                    "description": "Perhaps I can use my Contentment to strengthen a positive influence.",
-                    "required": {
-                        "influencelantern": 1,
-                        "influenceheart": 1,
-                        "influencewinter": 1,
-                        "influenceforge": 1
-                    },
-                    "actionid": "study"
-                },
-                {
-                    "id": "r_knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
-                    "actionid": "study"
-                }
-            ],
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
-            }
         },
         {
             "id": "r_scar_edge",
