@@ -1,6 +1,19 @@
 {
 	"elements": [
 		{
+			"id": "r_ingredient",
+			"label": "原料",
+			"isAspect": true,
+			"description": "燃料、药膏、颜料以及耐心：全都随时间耗减。",
+			"induces": [
+				{
+					"id": "r_needs",
+					"chance": 100
+				}
+			],
+			"comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
+		},
+		{
 			"id": "r_edge",
 			"label": "刃",
 			"description": "古人用兵器刺人而杀之，说：“非我也，刃也。”你很快会明白，这话说得没错。 [刃是关于搏杀、叛逆与争斗的力量。]",
@@ -326,19 +339,6 @@
 			"label": "Uncertain",
 			"description": "This organisation has begun to question its tenets. I could apply pressure to alter its direction.",
 			"isAspect": true
-		},
-		{
-			"id": "r_ingredient",
-			"label": "Ingredient",
-			"isAspect": true,
-			"description": "Fuel, ointment, pigment, patience: all are consumed in time.",
-			"induces": [
-				{
-					"id": "r_needs",
-					"chance": 100
-				}
-			],
-			"comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
 		},
 		{
 			"id": "r_pigment",

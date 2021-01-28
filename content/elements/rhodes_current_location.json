@@ -1,0 +1,42 @@
+{
+    "elements": [
+        {
+            "id": "r_current_location_rim",
+            "label": "当前位于雷姆必拓",
+            "description": "罗德岛现在停泊在雷姆必拓。",
+            "aspects": {
+                "r_location": 1
+            },
+            "slots": [
+                {
+                    "id": "r_Cost",
+                    "label": "花费",
+                    "actionId": "explore",
+                    "required": {
+                        "r_ingredient": 1
+                    },
+                    "consumes": true
+                }
+            ]
+        },
+        {
+            "id": "r_current_location_columbia",
+            "label": "哥伦比亚",
+            "description": "哥伦比亚介绍占位符。",
+            "aspects": {
+                "r_location": 1
+            },
+            "slots": [
+                {
+                    "id": "r_Cost",
+                    "label": "花费",
+                    "actionId": "explore",
+                    "required": {
+                        "r_ingredient": 1
+                    },
+                    "consumes": true
+                }
+            ]
+        }
+    ]
+}
