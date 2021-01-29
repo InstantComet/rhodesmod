@@ -133,7 +133,7 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "doctorskyfallb",
+                    "id": "skyfallactive",
                     "chance": 100
                 }
             ],
@@ -144,37 +144,6 @@
                     "additional": true
                 }
             ]
-        },
-        {
-            "id": "doctorskyfallb",
-            "label": "天灾迫近",
-            "actionid": "skyfall_r",
-			"signalEndingFlavour": "Melancholy",
-            "requirements": {},
-            "startdescription": "我们必须做点什么，在一切为时已晚之前。",
-            "description": "应当立即行动。",
-            "warmup": 600,
-            "craftable": false,
-            "ending": "deathbyintroskyfallb",
-            "alt": [
-                {
-                    "id": "doctorskyfall_escaped",
-                    "chance": 100,
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "doctorskyfall_escaped",
-            "label": "逃离",
-            "actionid": "skyfall_r",
-            "requirements": {
-                "operator_debug_a": 1
-            },
-            "startdescription": "我们必须做点什么，在一切为时已晚之前。",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false
         }
     ]
 }

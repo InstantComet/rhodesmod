@@ -1,6 +1,24 @@
 {
     "elements": [
         {
+            "id": "skyfall_anti",
+            "label": "争取到的时间",
+            "aspects": {
+            },
+            "animFrames": 1,
+            "description": "危险稍微远离。",
+            "icon": ""
+        },
+        {
+            "id": "skyfall_coming",
+            "label": "天灾迫近",
+            "aspects": {
+            },
+            "animFrames": 1,
+            "description": "危险正在靠近。",
+            "icon": ""
+        },
+        {
             "id": "fleeting_r",
             "label": "追忆",
             "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。[研究“追忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
