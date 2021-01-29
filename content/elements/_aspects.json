@@ -51,7 +51,7 @@
 			"induces": [
 				{
 					"id": "grailinduction",
-					"chance": 5
+					"chance": 0
 				}
 			]
 		},

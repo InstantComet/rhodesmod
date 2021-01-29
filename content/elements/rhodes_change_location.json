@@ -16,7 +16,13 @@
             "warmup": 20,
             "startdescription": "旅途漫漫。",
             "description": "我们抵达了目的地。",
-            "craftable": true
+            "craftable": true,
+            "haltverb":{
+                "skyfall*": 100
+            },
+            "purge": {
+                "skyfall_coming": 100
+            }
         },
         {
             "id": "changelocation_tocolumbia",
