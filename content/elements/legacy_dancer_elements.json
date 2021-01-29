@@ -60,8 +60,8 @@
                     "actionid": "study_r",
                     "description": "The heart's throb, or the violin's cry?",
                     "required": {
-                        "heart": 1,
-                        "moth": 1
+                        "heart_r": 1,
+                        "moth_r": 1
                     }
                 }
             ],

@@ -53,7 +53,7 @@
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
-                        "forge": 1
+                        "forge_r": 1
                     },
                     "description": "I will require sufficient of the furious incandescence of the Forge."
                 }
@@ -83,7 +83,7 @@
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
-                        "grail": 1
+                        "grail_r": 1
                     },
                     "description": "I will require sufficient of the surging intensities of the Grail."
                 }
@@ -113,7 +113,7 @@
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
-                        "grail": 1
+                        "grail_r": 1
                     },
                     "description": "I will require sufficient of the surging intensities of the Grail."
                 }
@@ -142,7 +142,7 @@
                     "label": "Power",
                     "actionid": "work_r",
                     "required": {
-                        "lantern": 1
+                        "lantern_r": 1
                     },
                     "description": "I will require a token of the merciless light of the Mansus."
                 }

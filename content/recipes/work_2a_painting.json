@@ -1044,7 +1044,7 @@
             "id": "matchedge",
             "requirements": {
                 "ingredientedgeb": 1,
-                "edge": 5
+                "edge_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1069,7 +1069,7 @@
             "id": "matchforge",
             "requirements": {
                 "ingredientforgeb": 1,
-                "forge": 5
+                "forge_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1094,7 +1094,7 @@
             "id": "matchgrail",
             "requirements": {
                 "ingredientgrailb": 1,
-                "grail": 5
+                "grail_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1121,7 +1121,7 @@
             "id": "matchheart",
             "requirements": {
                 "ingredientheartb": 1,
-                "heart": 5
+                "heart_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1146,7 +1146,7 @@
             "id": "matchknock",
             "requirements": {
                 "ingredientknockb": 1,
-                "knock": 5
+                "knock_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1171,7 +1171,7 @@
             "id": "matchlantern",
             "requirements": {
                 "ingredientlanternb": 1,
-                "lantern": 5
+                "lantern_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1196,7 +1196,7 @@
             "id": "matchmoth",
             "requirements": {
                 "ingredientmothb": 1,
-                "moth": 5
+                "moth_r": 5
             },
             "actionid": "work_r",
             "label": "A Worthy Medium",
@@ -1222,7 +1222,7 @@
             "id": "matchwinter",
             "requirements": {
                 "ingredientwinterb": 1,
-                "winter": 5
+                "winter_r": 5
             },
             "effects": {
                 "insight": 2,
@@ -1248,7 +1248,7 @@
             "id": "paintmasteredge_unique",
             "requirements": {
                 "insight": 7,
-                "edge": 9
+                "edge_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1266,7 +1266,7 @@
             "id": "paintmasterforge_unique",
             "requirements": {
                 "insight": 7,
-                "forge": 9
+                "forge_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1284,7 +1284,7 @@
             "id": "paintmastergrail_unique",
             "requirements": {
                 "insight": 7,
-                "grail": 9
+                "grail_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1302,7 +1302,7 @@
             "id": "paintmasterheart_unique",
             "requirements": {
                 "insight": 7,
-                "heart": 9
+                "heart_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1320,7 +1320,7 @@
             "id": "paintmasterknock_unique",
             "requirements": {
                 "insight": 7,
-                "knock": 9
+                "knock_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1338,7 +1338,7 @@
             "id": "paintmasterlantern_unique",
             "requirements": {
                 "insight": 7,
-                "lantern": 9
+                "lantern_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1356,7 +1356,7 @@
             "id": "paintmastermoth_unique",
             "requirements": {
                 "insight": 7,
-                "moth": 9
+                "moth_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1374,7 +1374,7 @@
             "id": "paintmasterwinter_unique",
             "requirements": {
                 "insight": 7,
-                "winter": 9
+                "winter_r": 9
             },
             "maxexecutions": 1,
             "effects": {
@@ -1773,7 +1773,7 @@
             "label": "Depicting the Mansus",
             "actionid": "work_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "effects": {
                 "paintingmansus": 1

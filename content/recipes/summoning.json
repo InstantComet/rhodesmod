@@ -7,8 +7,8 @@
             "requirements": {
                 "ritual": 1,
                 "corpse": 1,
-                "winter": 4,
-                "edge": 2,
+                "winter_r": 4,
+                "edge_r": 2,
                 "desire": -1
             },
             "aspects": {
@@ -34,8 +34,8 @@
             "requirements": {
                 "ritual": 1,
                 "corpse": 1,
-                "winter": 4,
-                "moth": 2,
+                "winter_r": 4,
+                "moth_r": 2,
                 "desire": -1
             },
             "aspects": {
@@ -61,8 +61,8 @@
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_edge": 1,
-                "winter": 8,
-                "edge": 8,
+                "winter_r": 8,
+                "edge_r": 8,
                 "desire": -1
             },
             "aspects": {
@@ -80,8 +80,8 @@
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_moth": 1,
-                "winter": 8,
-                "moth": 8,
+                "winter_r": 8,
+                "moth_r": 8,
                 "desire": -1
             },
             "aspects": {
@@ -98,9 +98,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 5,
-                "forge": 10,
-                "lantern": 2,
+                "knock_r": 5,
+                "forge_r": 10,
+                "lantern_r": 2,
                 "desire": -1
             },
             "extantreqs": {
@@ -139,9 +139,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 5,
-                "grail": 10,
-                "forge": 2,
+                "knock_r": 5,
+                "grail_r": 10,
+                "forge_r": 2,
                 "desire": -1
             },
             "extantreqs": {
@@ -179,8 +179,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 5,
-                "lantern": 10,
+                "knock_r": 5,
+                "lantern_r": 10,
                 "secrethistories": 2,
                 "desire": -1
             },
@@ -204,9 +204,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 6,
-                "winter": 2,
+                "knock_r": 2,
+                "forge_r": 6,
+                "winter_r": 2,
                 "desire": -1
             },
             "effects": {
@@ -239,9 +239,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 6,
-                "moth": 2,
+                "knock_r": 2,
+                "grail_r": 6,
+                "moth_r": 2,
                 "desire": -1
             },
             "effects": {
@@ -274,9 +274,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 6,
-                "edge": 2,
+                "knock_r": 2,
+                "lantern_r": 6,
+                "edge_r": 2,
                 "desire": -1
             },
             "effects": {
@@ -309,9 +309,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "heart": 6,
-                "edge": 2,
+                "knock_r": 2,
+                "heart_r": 6,
+                "edge_r": 2,
                 "desire": -1
             },
             "effects": {
@@ -344,9 +344,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "winter": 8,
-                "edge": 2,
+                "knock_r": 2,
+                "winter_r": 8,
+                "edge_r": 2,
                 "desire": -1
             },
             "effects": {
@@ -379,9 +379,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "winter": 4,
-                "heart": 2,
+                "knock_r": 2,
+                "winter_r": 4,
+                "heart_r": 2,
                 "desire": -1
             },
             "effects": {

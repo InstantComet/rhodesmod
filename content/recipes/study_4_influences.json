@@ -10,7 +10,7 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "effects": {
                 "project_influence_upgrade_subvert_knock": 1
@@ -36,10 +36,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "edge": 1,
-                "winter": -1,
-                "forge": -1,
-                "knock": -1
+                "edge_r": 1,
+                "winter_r": -1,
+                "forge_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_edge": 1
@@ -72,8 +72,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "edge": 1,
-                "winter": 1
+                "edge_r": 1,
+                "winter_r": 1
             },
             "effects": {
                 "project_influence_subvert_edgetowinter": 1
@@ -106,10 +106,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "forge": 1,
-                "edge": -1,
-                "lantern": -1,
-                "knock": -1
+                "forge_r": 1,
+                "edge_r": -1,
+                "lantern_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_forge": 1
@@ -134,8 +134,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "forge": 1,
-                "edge": 1
+                "forge_r": 1,
+                "edge_r": 1
             },
             "effects": {
                 "project_influence_subvert_forgetoedge": 1
@@ -160,10 +160,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "grail": 1,
-                "moth": -1,
-                "heart": -1,
-                "knock": -1
+                "grail_r": 1,
+                "moth_r": -1,
+                "heart_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_grail": 1
@@ -188,8 +188,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "grail": 1,
-                "moth": 1
+                "grail_r": 1,
+                "moth_r": 1
             },
             "effects": {
                 "project_influence_subvert_grailtomoth": 1
@@ -214,10 +214,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "heart": 1,
-                "grail": -1,
-                "winter": -1,
-                "knock": -1
+                "heart_r": 1,
+                "grail_r": -1,
+                "winter_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_heart": 1
@@ -242,8 +242,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "heart": 1,
-                "grail": 1
+                "heart_r": 1,
+                "grail_r": 1
             },
             "effects": {
                 "project_influence_subvert_hearttograil": 1
@@ -268,10 +268,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "lantern": 1,
-                "forge": -1,
-                "moth": -1,
-                "knock": -1
+                "lantern_r": 1,
+                "forge_r": -1,
+                "moth_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_lantern": 1
@@ -296,8 +296,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "lantern": 1,
-                "forge": 1
+                "lantern_r": 1,
+                "forge_r": 1
             },
             "effects": {
                 "project_influence_subvert_lanterntoforge": 1
@@ -322,10 +322,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "moth": 1,
-                "lantern": -1,
-                "grail": -1,
-                "knock": -1
+                "moth_r": 1,
+                "lantern_r": -1,
+                "grail_r": -1,
+                "knock_r": -1
             },
             "alt": [
                 {
@@ -357,8 +357,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "moth": 1,
-                "lantern": 1
+                "moth_r": 1,
+                "lantern_r": 1
             },
             "alt": [
                 {
@@ -390,9 +390,9 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "winter": 1,
-                "heart": -1,
-                "knock": -1
+                "winter_r": 1,
+                "heart_r": -1,
+                "knock_r": -1
             },
             "effects": {
                 "project_influence_upgrade_winter": 1
@@ -417,8 +417,8 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "winter": 1,
-                "heart": 1
+                "winter_r": 1,
+                "heart_r": 1
             },
             "effects": {
                 "project_influence_subvert_wintertoheart": 1

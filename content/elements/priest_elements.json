@@ -5,7 +5,7 @@
             "label": "Fervour",
             "aspects": {
                 "influence": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. Fervour, if unused, will decay to Dread.]",
             "lifetime": 180,
@@ -17,9 +17,9 @@
             "description": "When I am Threshold, this scar will open beneath a blade's touch.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "edge": 2
+                "edge_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscaredge"
@@ -31,9 +31,9 @@
             "description": "When I am Threshold, this scar will open to the touch of hot iron.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "forge": 2
+                "forge_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscarforge"
@@ -45,9 +45,9 @@
             "description": "When I am Threshold, this scar will open to a fervent kiss.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "grail": 2
+                "grail_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscargrail"
@@ -59,9 +59,9 @@
             "description": "When I am Threshold, this scar will open at the beat of the drum.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscarheart"
@@ -73,9 +73,9 @@
             "description": "When I am Threshold, this scar will open at the flush of dawn.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "lantern": 2
+                "lantern_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscarlantern"
@@ -87,9 +87,9 @@
             "description": "When I am Threshold, this scar will answer to the scissors.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "moth": 2
+                "moth_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscarmoth"
@@ -101,9 +101,9 @@
             "description": "When I am Threshold, this scar will open last.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lockscar": 1,
-                "winter": 2
+                "winter_r": 2
             },
             "xtriggers": {
                 "unlockscar": "openedlockscarwinter"
@@ -115,9 +115,9 @@
             "description": "When I am Threshold, this scar will open beneath a blade's touch.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "edge": 2
+                "edge_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscaredge",
@@ -129,9 +129,9 @@
             "description": "When I am Threshold, this scar will open to the touch of hot iron.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "forge": 2
+                "forge_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscarforge",
@@ -143,9 +143,9 @@
             "description": "When I am Threshold, this scar will open to a fervent kiss.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "grail": 2
+                "grail_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscargrail",
@@ -157,9 +157,9 @@
             "description": "When I am Threshold, this scar will open at the beat of the drum.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscarheart",
@@ -171,9 +171,9 @@
             "description": "When I am Threshold, this scar will open at the flush of dawn.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "lantern": 2
+                "lantern_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscarlantern",
@@ -185,9 +185,9 @@
             "description": "When I am Threshold, this scar will answer to the scissors.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "moth": 2
+                "moth_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscarmoth",
@@ -199,9 +199,9 @@
             "description": "When I am Threshold, this scar will open last.",
             "aspects": {
                 "tool": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "openedlockscar": 1,
-                "winter": 2
+                "winter_r": 2
             },
             "lifetime": 1,
             "decayTo": "lockscarwinter",
@@ -214,7 +214,7 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 2
+                "edge_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -233,8 +233,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "forge": 2
+                "edge_r": 1,
+                "forge_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -253,8 +253,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "grail": 2
+                "edge_r": 1,
+                "grail_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -273,8 +273,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "heart": 2
+                "edge_r": 1,
+                "heart_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -293,8 +293,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "knock": 2
+                "edge_r": 1,
+                "knock_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -313,8 +313,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "lantern": 2
+                "edge_r": 1,
+                "lantern_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -333,8 +333,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "moth": 2
+                "edge_r": 1,
+                "moth_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
@@ -353,8 +353,8 @@
                 "mortal": 1,
                 "operator": 1,
                 "devotee": 1,
-                "edge": 1,
-                "winter": 2
+                "edge_r": 1,
+                "winter_r": 2
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {

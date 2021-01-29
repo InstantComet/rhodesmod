@@ -7,7 +7,7 @@
             "aspects": {
                 "ingredient": 1,
                 "secrethistories": 1,
-                "moth": 1
+                "moth_r": 1
             },
             "lifetime": 60
         },
@@ -45,7 +45,7 @@
             "id": "compensation",
             "label": "Iron Spintria",
             "aspects": {
-                "edge": 2,
+                "edge_r": 2,
                 "secrethistories": 1,
                 "compensationvalue": 2,
                 "ingredient": 1,
@@ -57,7 +57,7 @@
             "id": "compensationb",
             "label": "Bronze Spintria",
             "aspects": {
-                "forge": 4,
+                "forge_r": 4,
                 "secrethistories": 1,
                 "compensationvalue": 4,
                 "ingredient": 1,
@@ -69,7 +69,7 @@
             "id": "compensationc",
             "label": "Silver Spintria",
             "aspects": {
-                "grail": 6,
+                "grail_r": 6,
                 "secrethistories": 1,
                 "compensationvalue": 8,
                 "ingredient": 1,
@@ -81,7 +81,7 @@
             "id": "compensationd",
             "label": "Gold Spintria",
             "aspects": {
-                "lantern": 8,
+                "lantern_r": 8,
                 "secrethistories": 1,
                 "compensationvalue": 16,
                 "ingredient": 1,

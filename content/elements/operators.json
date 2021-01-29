@@ -5,9 +5,9 @@
             "label": "阿米娅",
             "aspects": {
                 "operator": 1,
-                "moth": 4,
-                "knock": 4,
-                "forge": 2
+                "moth_r": 4,
+                "knock_r": 4,
+                "forge_r": 2
             },
             "description": "看起来非常拼命的卡特斯少女。"
         },
@@ -16,8 +16,8 @@
             "label": "凯尔希",
             "aspects": {
                 "operator": 1,
-                "grail": 4,
-                "lantern": 2
+                "grail_r": 4,
+                "lantern_r": 2
             },
             "description": "不知道为什么，她似乎不怎么乐意出力。"
         },
@@ -26,14 +26,14 @@
             "label": "debug干员a",
             "aspects": {
                 "operator": 10,
-                "heart": 10,
-                "edge": 10,
-                "forge": 10,
-                "winter": 10,
-                "lantern": 10,
-                "moth": 10,
-                "grail": 10,
-                "knock": 10
+                "heart_r": 10,
+                "edge_r": 10,
+                "forge_r": 10,
+                "winter_r": 10,
+                "lantern_r": 10,
+                "moth_r": 10,
+                "grail_r": 10,
+                "knock_r": 10
             },
             "description": "二星干员a的介绍"
         },

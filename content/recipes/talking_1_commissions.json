@@ -149,7 +149,7 @@
                 "commissionarticlelanternc": 1,
                 "aladim": 1,
                 "article": 1,
-                "lantern": 6
+                "lantern_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -172,7 +172,7 @@
                 "commissionarticlelanternb": 1,
                 "aladim": 1,
                 "article": 1,
-                "lantern": 4
+                "lantern_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -195,7 +195,7 @@
                 "commissionarticlelantern": 1,
                 "aladim": 1,
                 "article": 1,
-                "lantern": 2
+                "lantern_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -218,7 +218,7 @@
                 "commissionarticleforgec": 1,
                 "bechet": 1,
                 "article": 1,
-                "forge": 6
+                "forge_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -241,7 +241,7 @@
                 "commissionarticleforgeb": 1,
                 "bechet": 1,
                 "article": 1,
-                "forge": 4
+                "forge_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -264,7 +264,7 @@
                 "commissionarticleforge": 1,
                 "bechet": 1,
                 "article": 1,
-                "forge": 2
+                "forge_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -287,7 +287,7 @@
                 "commissionarticlegrailc": 1,
                 "bechet": 1,
                 "article": 1,
-                "grail": 6
+                "grail_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -310,7 +310,7 @@
                 "commissionarticlegrailb": 1,
                 "bechet": 1,
                 "article": 1,
-                "grail": 4
+                "grail_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -333,7 +333,7 @@
                 "commissionarticlegrail": 1,
                 "bechet": 1,
                 "article": 1,
-                "grail": 2
+                "grail_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -356,7 +356,7 @@
                 "commissionarticlemothc": 1,
                 "bechet": 1,
                 "article": 1,
-                "moth": 6
+                "moth_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -379,7 +379,7 @@
                 "commissionarticlemothb": 1,
                 "bechet": 1,
                 "article": 1,
-                "moth": 4
+                "moth_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -402,7 +402,7 @@
                 "commissionarticlemoth": 1,
                 "bechet": 1,
                 "article": 1,
-                "moth": 2
+                "moth_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -425,7 +425,7 @@
                 "commissionarticleheartc": 1,
                 "jannings": 1,
                 "article": 1,
-                "heart": 6
+                "heart_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -448,7 +448,7 @@
                 "commissionarticleheartb": 1,
                 "jannings": 1,
                 "article": 1,
-                "heart": 4
+                "heart_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -471,7 +471,7 @@
                 "commissionarticleheart": 1,
                 "jannings": 1,
                 "article": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -494,7 +494,7 @@
                 "commissionarticleedgec": 1,
                 "jannings": 1,
                 "article": 1,
-                "edge": 6
+                "edge_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -517,7 +517,7 @@
                 "commissionarticleedgeb": 1,
                 "jannings": 1,
                 "article": 1,
-                "edge": 4
+                "edge_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -540,7 +540,7 @@
                 "commissionarticleedge": 1,
                 "jannings": 1,
                 "article": 1,
-                "edge": 2
+                "edge_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -563,7 +563,7 @@
                 "commissionarticlewinterc": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "winter": 6
+                "winter_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -586,7 +586,7 @@
                 "commissionarticlewinterb": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "winter": 4
+                "winter_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -609,7 +609,7 @@
                 "commissionarticlewinter": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "winter": 2
+                "winter_r": 2
             },
             "effects": {
                 "mystique": 1,
@@ -632,7 +632,7 @@
                 "commissionarticleknockc": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "knock": 6
+                "knock_r": 6
             },
             "effects": {
                 "mystique": 1,
@@ -655,7 +655,7 @@
                 "commissionarticleknockb": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "knock": 4
+                "knock_r": 4
             },
             "effects": {
                 "mystique": 1,
@@ -678,7 +678,7 @@
                 "commissionarticleknock": 1,
                 "poppycommission": 1,
                 "article": 1,
-                "knock": 2
+                "knock_r": 2
             },
             "effects": {
                 "mystique": 1,

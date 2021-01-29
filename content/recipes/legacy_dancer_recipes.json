@@ -18,7 +18,7 @@
             "label": "Consider the Crumpled Poem as a Physical Challenge",
             "requirements": {
                 "dancerlegacy_plotitem_a": 1,
-                "heart": 1
+                "heart_r": 1
             },
             "startdescription": "Is this some sort of code? Are there hints here towards an unusual set of dance steps?",
             "effects": {
@@ -42,7 +42,7 @@
             "label": "Consider the Crumpled Poem as a Dream-Challenge",
             "requirements": {
                 "dancerlegacy_plotitem_a": 1,
-                "moth": 1
+                "moth_r": 1
             },
             "startdescription": "I think I dreamt something like this, once, on a night when the moon dappled the sheets of my bed - when I dreamt that my hands were not exactly hands, that something more than blood pulsed under my skin - and that skin was not the skin I wear. What if I could find something of that dream again?",
             "description": "I lie awake half the night, convinced there is something in my room. A little after midnight it occurs to me that I am that something; and I fall gratefully into sleep.",
@@ -266,7 +266,7 @@
             "actionid": "work_r",
             "requirements": {
                 "potentialbenefactorm": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "label": "A Potential Benefactor",
             "startdescription": ".",
@@ -296,7 +296,7 @@
             "actionid": "work_r",
             "requirements": {
                 "potentialbenefactorf": 1,
-                "heart": 2
+                "heart_r": 2
             },
             "label": "A Potential Benefactor",
             "startdescription": "",
@@ -326,7 +326,7 @@
             "actionid": "work_r",
             "requirements": {
                 "potentialecdysiast": 1,
-                "moth": 2
+                "moth_r": 2
             },
             "label": "A Message from an Admirer?",
             "startdescription": ".",
@@ -355,7 +355,7 @@
             "id": "A_worklegacydancerjob_more_heart",
             "actionid": "work_r",
             "requirements": {
-                "heart": 2
+                "heart_r": 2
             },
             "label": "I am a lissom package of flesh and blood.",
             "startdescription": "Tonight, they'll notice that.",
@@ -369,7 +369,7 @@
             "id": "A_worklegacydancerjob_more_moth",
             "actionid": "work_r",
             "requirements": {
-                "moth": 2
+                "moth_r": 2
             },
             "label": "I am more than a lissom package of flesh and blood.",
             "startdescription": "Tonight, they'll notice that.",

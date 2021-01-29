@@ -5,7 +5,7 @@
             "label": "追忆",
             "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。[研究“追忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
             "aspects": {
-                "moth": 2,
+                "moth_r": 2,
                 "influence": 1,
                 "memory": 1,
                 "advancement": 1
@@ -29,7 +29,7 @@
             "label": "追忆：汹涌嘈杂",
             "description": "无数往事汇聚了起来，就像潮水般淹没了我。我忍不住伸手去触碰。它们仿佛就在眼前。[与“智慧”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
             "aspects": {
-                "moth": 2,
+                "moth_r": 2,
                 "influence": 1,
                 "memory": 1
             },
@@ -40,7 +40,7 @@
             "id": "introsanity",
             "label": "理智",
             "aspects": {
-                "lantern": 2,
+                "lantern_r": 2,
                 "ingredient": 1,
                 "ability": 1
             },
@@ -78,7 +78,7 @@
             "id": "sanity",
             "label": "理智",
             "aspects": {
-                "lantern": 2,
+                "lantern_r": 2,
                 "ingredient": 1,
                 "ability": 1
             },
@@ -121,8 +121,8 @@
             "id": "contentment",
             "label": "安逸",
             "aspects": {
-                "lantern": 2,
-                "heart": 2,
+                "lantern_r": 2,
+                "heart_r": 2,
                 "influence": 1
             },
             "description": "我很开心，大概吧。[安逸可以通过入梦迅速回复理智。]",
@@ -133,7 +133,7 @@
             "label": "Hunger",
             "aspects": {
                 "illhealth": 1,
-                "grail": 2,
+                "grail_r": 2,
                 "ingredient": 1
             },
             "slots": [
@@ -159,7 +159,7 @@
             "id": "health",
             "label": "Health",
             "aspects": {
-                "heart": 2,
+                "heart_r": 2,
                 "ingredient": 1,
                 "ability": 1
             },
@@ -193,7 +193,7 @@
             ],
             "aspects": {
                 "advancement": 1,
-                "heart": 1,
+                "heart_r": 1,
                 "influence": 1
             },
             "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]",
@@ -207,7 +207,7 @@
             "label": "Vitality: a Lesson Learnt ",
             "aspects": {
                 "advancement": 1,
-                "heart": 2,
+                "heart_r": 2,
                 "influence": 1
             },
             "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
@@ -222,11 +222,11 @@
             "label": "Restlessness",
             "aspects": {
                 "influence": 1,
-                "forge": 2,
-                "heart": 2,
-                "grail": 2,
-                "lantern": 2,
-                "moth": 2,
+                "forge_r": 2,
+                "heart_r": 2,
+                "grail_r": 2,
+                "lantern_r": 2,
+                "moth_r": 2,
                 "memory": 1
             },
             "description": "A restless longing has me. I feel that I want to do... <i>something</i>. What, exactly?",
@@ -244,7 +244,7 @@
             "label": "An Injury",
             "aspects": {
                 "illhealth": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "ingredient": 1
             },
             "slots": [
@@ -308,7 +308,7 @@
             "label": "Health (Fatigued)",
             "aspects": {
                 "illhealth": 1,
-                "heart": 1
+                "heart_r": 1
             },
             "description": "This card can't be used, but it will recover after sixty seconds. I can recover it faster by Dreaming.",
             "xtriggers": {
@@ -328,7 +328,7 @@
             "label": "An Affliction",
             "aspects": {
                 "illhealth": 1,
-                "winter": 2,
+                "winter_r": 2,
                 "ingredient": 1
             },
             "xtriggers": {
@@ -363,7 +363,7 @@
             "id": "reason",
             "label": "Reason",
             "aspects": {
-                "lantern": 2,
+                "lantern_r": 2,
                 "ingredient": 1,
                 "ability": 1
             },
@@ -410,7 +410,7 @@
             ],
             "aspects": {
                 "advancement": 1,
-                "lantern": 1,
+                "lantern_r": 1,
                 "influence": 1
             },
             "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]",
@@ -424,7 +424,7 @@
             "label": "Erudition: a Lesson Learnt",
             "aspects": {
                 "advancement": 1,
-                "lantern": 2,
+                "lantern_r": 2,
                 "influence": 1
             },
             "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]",
@@ -438,7 +438,7 @@
             "id": "dread",
             "label": "Dread",
             "aspects": {
-                "edge": 2,
+                "edge_r": 2,
                 "inducesdespair": 1,
                 "influence": 1,
                 "illhealth": 1,
@@ -489,7 +489,7 @@
             "id": "passion",
             "label": "Passion",
             "aspects": {
-                "moth": 2,
+                "moth_r": 2,
                 "ingredient": 1,
                 "ability": 1
             },
@@ -511,7 +511,7 @@
             "description": "Some wounds never quite heal. [Untreated Injuries and Hunger become Decrepitude, which does not return to Health. Decrepitude remains until you die.]",
             "aspects": {
                 "ability": 1,
-                "winter": 1,
+                "winter_r": 1,
                 "remnant": 1
             },
             "xtriggers": {
@@ -549,7 +549,7 @@
             ],
             "aspects": {
                 "advancement": 1,
-                "moth": 1,
+                "moth_r": 1,
                 "influence": 1
             },
             "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]",
@@ -563,7 +563,7 @@
             "label": "Glimmering: a Lesson Learnt",
             "aspects": {
                 "advancement": 1,
-                "moth": 2,
+                "moth_r": 2,
                 "influence": 1
             },
             "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]",
@@ -577,7 +577,7 @@
             "id": "fascination",
             "label": "Fascination",
             "aspects": {
-                "moth": 2,
+                "moth_r": 2,
                 "illhealth": 1,
                 "influence": 1,
                 "memory": 1
@@ -781,7 +781,7 @@
             "description": "FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [You've made a permanent sacrifice for power.]",
             "aspects": {
                 "tool": 1,
-                "edge": 4,
+                "edge_r": 4,
                 "scar": 1
             }
         },
@@ -791,7 +791,7 @@
             "description": "Not all doors are wounds; but all wounds are doors. [You've made a permanent sacrifice for power.]",
             "aspects": {
                 "tool": 1,
-                "knock": 4,
+                "knock_r": 4,
                 "scar": 1
             }
         },
@@ -801,7 +801,7 @@
             "description": "Step closer to the sunset, and see the first stars of night. [You've made a permanent sacrifice for power.]",
             "aspects": {
                 "tool": 1,
-                "winter": 4,
+                "winter_r": 4,
                 "scar": 1
             }
         },
@@ -811,7 +811,7 @@
             "description": "I have so much life in me. It is difficult not to move. When I sit, my joints burn. I know that if I stop, I might stop for always. [You've made a permanent sacrifice for power. Be careful: unlike Health, this card will not satisfy Sickness or Starvation.]",
             "aspects": {
                 "tool": 1,
-                "heart": 4,
+                "heart_r": 4,
                 "scar": 1
             },
             "xtriggers": {
@@ -834,7 +834,7 @@
             "description": "I've worn so many guises. With each new guise it is harder to recall my original face. Even the cartilage softens when my tempers are high. [You've made a permanent sacrifice for power.]",
             "aspects": {
                 "tool": 1,
-                "moth": 4,
+                "moth_r": 4,
                 "scar": 1
             },
             "xtriggers": {
@@ -857,7 +857,7 @@
             "description": "Sometimes now I am beautiful beneath my skin. When I bend to the right angle - when my garments falls aside - when the eye is keen - my shape is a perfect revelation. [You've made a permanent sacrifice for power.]",
             "aspects": {
                 "tool": 1,
-                "lantern": 4,
+                "lantern_r": 4,
                 "scar": 1
             }
         }

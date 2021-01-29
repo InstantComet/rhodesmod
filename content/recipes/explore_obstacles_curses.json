@@ -58,7 +58,7 @@
             "id": "explorevaultcurse_dread_highheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 10
+                "heart_r": 10
             },
             "label": "We call upon the Ring-Yew, who is renewed",
             "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
@@ -78,7 +78,7 @@
             "id": "explorevaultcurse_dread_midheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 5
+                "heart_r": 5
             },
             "label": "We call upon the Ring-Yew, who encompasseth",
             "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
@@ -98,7 +98,7 @@
             "id": "explorevaultcurse_dread_lowheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 1
+                "heart_r": 1
             },
             "label": "We call upon the Ring-Yew, who is succulent",
             "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
@@ -118,7 +118,7 @@
             "id": "explorevaultcurse_dread_highlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 10
+                "lantern_r": 10
             },
             "label": "We call upon the Colonel, who cannot be denied",
             "startdescription": "The Colonel is a fierce Hour, but a power which knows Light, and he has survived worse. His power will almost certainly protect us.",
@@ -138,7 +138,7 @@
             "id": "explorevaultcurse_dread_midlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 5
+                "lantern_r": 5
             },
             "label": "We call upon the Colonel, who is scarred",
             "startdescription": "The Colonel is a scarred Hour, but a power which knows Light, and he has survived worse. His power should protect us.",
@@ -158,7 +158,7 @@
             "id": "explorevaultcurse_dread_lowlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "We call upon the Colonel, who is blind",
             "startdescription": "The Colonel is an Hour which knows Light, but does he remember it? His power might yet protect us.",
@@ -275,7 +275,7 @@
             "id": "explorevaultcurse_visions_highheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 10
+                "heart_r": 10
             },
             "label": "We call upon the Ring-Yew, who is renewed",
             "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
@@ -295,7 +295,7 @@
             "id": "explorevaultcurse_visions_midheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 5
+                "heart_r": 5
             },
             "label": "We call upon the Ring-Yew, who encompasseth",
             "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
@@ -315,7 +315,7 @@
             "id": "explorevaultcurse_visions_lowheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 1
+                "heart_r": 1
             },
             "label": "We call upon the Ring-Yew, who is succulent",
             "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
@@ -335,7 +335,7 @@
             "id": "explorevaultcurse_visions_highwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 10
+                "winter_r": 10
             },
             "label": "We call upon the Elegiast, from whom nothing more can be taken",
             "startdescription": "The Elegiast knows what is already lost. His power will almost certainly protect us.",
@@ -355,7 +355,7 @@
             "id": "explorevaultcurse_visions_midwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 5
+                "winter_r": 5
             },
             "label": "We call upon the Elegiast, who cannot be deceived",
             "startdescription": "The Elegiast separates the remembered from the true. His power should protect us.",
@@ -375,7 +375,7 @@
             "id": "explorevaultcurse_visions_lowwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 1
+                "winter_r": 1
             },
             "label": "We call upon the Elegiast, who calls each of the Dead by name",
             "startdescription": "The Elegiast's irony and sorrow might yet quell the visions. Who knows?",
@@ -492,7 +492,7 @@
             "id": "explorevaultcurse_affliction_highheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 10
+                "heart_r": 10
             },
             "label": "We call upon the Ring-Yew, who is renewed",
             "startdescription": "We are almost certainly  strong enough in Heart to be secure against the Curse.",
@@ -512,7 +512,7 @@
             "id": "explorevaultcurse_affliction_midheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 5
+                "heart_r": 5
             },
             "label": "We call upon the Ring-Yew, who encompasseth",
             "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
@@ -532,7 +532,7 @@
             "id": "explorevaultcurse_affliction_lowheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 1
+                "heart_r": 1
             },
             "label": "We call upon the Ring-Yew, who is succulent",
             "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
@@ -552,7 +552,7 @@
             "id": "explorevaultcurse_affliction_highgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 10
+                "grail_r": 10
             },
             "label": "We call upon the Red Grail, which gives life",
             "startdescription": "The Red Grail's vigour will almost certainly preserve us from the Curse.",
@@ -572,7 +572,7 @@
             "id": "explorevaultcurse_affliction_midgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 5
+                "grail_r": 5
             },
             "label": "We call upon the Red Grail, which takes life",
             "startdescription": "The Red Grail's hungers should preserve us from the Curse.",
@@ -592,7 +592,7 @@
             "id": "explorevaultcurse_affliction_lowgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 1
+                "grail_r": 1
             },
             "label": "We call upon the Red Grail, which is not sated",
             "startdescription": "The Red Grail might preserve us from the Curse. It is a fickle Hour.",
@@ -709,7 +709,7 @@
             "id": "explorevaultcurse_nowhere_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "We call upon the Laughingthrush, who cannot be exhausted",
             "startdescription": "We are almost certainly strong enough in Moth to be secure against the Curse.",
@@ -729,7 +729,7 @@
             "id": "explorevaultcurse_nowhere_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "We call upon the Laughingthrush, who cannot be stayed",
             "startdescription": "The Hour called the Laughingthrush may be implored to carry this Curse away. We will probably be safe.",
@@ -749,7 +749,7 @@
             "id": "explorevaultcurse_nowhere_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "We call upon the Laughingthrush, who tells her tale to the willing and the unwilling",
             "startdescription": "The Laughingthrush is a Moth-power, and is not reliable. Perhaps she will protect us.",
@@ -769,7 +769,7 @@
             "id": "explorevaultcurse_nowhere_highlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 10
+                "lantern_r": 10
             },
             "label": "We call upon the Sun-in-Rags, which burns still",
             "startdescription": "The Sun-in-Rags lends Lantern-light. It will almost certainly end this Curse here.",
@@ -789,7 +789,7 @@
             "id": "explorevaultcurse_nowhere_midlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 5
+                "lantern_r": 5
             },
             "label": "We call upon the Sun-in-Rags, which is not as it was",
             "startdescription": "The Sun-in-Rags, that weary chilly power, can lend us Lantern. It will conclude this curse... probably.",
@@ -809,7 +809,7 @@
             "id": "explorevaultcurse_nowhere_lowlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "We call upon the Sun-in-Rags, which is distant",
             "startdescription": "We need Lantern to end the Curse, but the Sun-in-Rags can lend us only a little.",

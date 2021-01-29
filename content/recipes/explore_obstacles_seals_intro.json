@@ -36,7 +36,7 @@
             "id": "explorevaultseal_hiddendoor_highlantern_intro",
             "actionId": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "我们拜请守夜人，照明驱暗之神",
             "startdescription": "我们谅必能够发现暗门。",
@@ -52,7 +52,7 @@
             "id": "explorevaultseal_hiddendoor_highknock_intro",
             "actionId": "explore_r",
             "requirements": {
-                "knock": 1
+                "knock_r": 1
             },
             "label": "我们拜请拾滩鸦，明晓失物之神",
             "startdescription": "我们拥有强大的洞开之力，谅必能够发现暗门。",

@@ -137,7 +137,7 @@
             "description": "I have received a little vial of our Delight's blood, via courier. Our Delight's instructions are written herein, in the tiny tangles of cellular script. We can taste them, as they will taste us. If we waste it, our Delight will wax wroth.",
             "aspects": {
                 "ingredient": 1,
-                "grail": 3,
+                "grail_r": 3,
                 "auctionable": 1
             },
             "lifetime": 240,
@@ -187,7 +187,7 @@
             "aspects": {
                 "ingredient": 1,
                 "job": 1,
-                "grail": 2
+                "grail_r": 2
             }
         },
         {

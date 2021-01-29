@@ -186,42 +186,42 @@
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "forge",
+                    "mutate": "forge_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "heart",
+                    "mutate": "heart_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "lantern",
+                    "mutate": "lantern_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": -99
                 },
                 {
                     "filter": "apostleforge.pillar4.dormant",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": -99
                 }
             ],

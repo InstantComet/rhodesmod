@@ -84,7 +84,7 @@
                 },
                 {
                     "filter": "operator",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": 2,
                     "additive": true
                 }
@@ -110,7 +110,7 @@
                 },
                 {
                     "filter": "operator",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": 2,
                     "additive": true
                 }
@@ -136,7 +136,7 @@
                 },
                 {
                     "filter": "operator",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": 2,
                     "additive": true
                 }
@@ -647,7 +647,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": 1,
                     "additive": true
                 },
@@ -679,7 +679,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": 2,
                     "additive": true
                 },
@@ -711,7 +711,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": 3,
                     "additive": true
                 },
@@ -743,7 +743,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "forge",
+                    "mutate": "forge_r",
                     "level": 1,
                     "additive": true
                 },
@@ -775,7 +775,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "forge",
+                    "mutate": "forge_r",
                     "level": 2,
                     "additive": true
                 },
@@ -807,7 +807,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "forge",
+                    "mutate": "forge_r",
                     "level": 3,
                     "additive": true
                 },
@@ -839,13 +839,13 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": 1,
                     "additive": true
                 },
                 {
                     "filter": "operator",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": 1,
                     "additive": true
                 },
@@ -877,7 +877,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": 1,
                     "additive": true
                 },
@@ -909,7 +909,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": 2,
                     "additive": true
                 },
@@ -941,7 +941,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": 3,
                     "additive": true
                 },
@@ -973,7 +973,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "heart",
+                    "mutate": "heart_r",
                     "level": 1,
                     "additive": true
                 },
@@ -1005,7 +1005,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "heart",
+                    "mutate": "heart_r",
                     "level": 2,
                     "additive": true
                 },
@@ -1037,7 +1037,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "heart",
+                    "mutate": "heart_r",
                     "level": 3,
                     "additive": true
                 },
@@ -1069,7 +1069,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": 1,
                     "additive": true
                 },
@@ -1101,7 +1101,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": 2,
                     "additive": true
                 },
@@ -1133,7 +1133,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": 3,
                     "additive": true
                 },
@@ -1165,7 +1165,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "lantern",
+                    "mutate": "lantern_r",
                     "level": 1,
                     "additive": true
                 },
@@ -1197,7 +1197,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "lantern",
+                    "mutate": "lantern_r",
                     "level": 2,
                     "additive": true
                 },
@@ -1229,7 +1229,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "lantern",
+                    "mutate": "lantern_r",
                     "level": 3,
                     "additive": true
                 },
@@ -1261,7 +1261,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": 1,
                     "additive": true
                 },
@@ -1293,7 +1293,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": 2,
                     "additive": true
                 },
@@ -1325,7 +1325,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": 3,
                     "additive": true
                 },
@@ -1421,7 +1421,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": 1,
                     "additive": true
                 },
@@ -1453,7 +1453,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": 2,
                     "additive": true
                 },
@@ -1485,7 +1485,7 @@
             "mutations": [
                 {
                     "filter": "operator",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": 3,
                     "additive": true
                 },
@@ -1620,7 +1620,7 @@
             "actionid": "talk_r",
             "requirements": {
                 "operator": 1,
-                "forge": 1,
+                "forge_r": 1,
                 "toollanternbcracked": 1
             },
             "startdescription": "We can begin to repair this, but it will take Funds to purchase the necessary materials.",
@@ -1677,7 +1677,7 @@
             "actionid": "talk_r",
             "requirements": {
                 "operator": 1,
-                "forge": 1,
+                "forge_r": 1,
                 "toollanterndcracked": 1
             },
             "startdescription": "We can begin to repair this, but it will take at least a Bronze Spintria to purchase the necessary materials.",
@@ -1734,7 +1734,7 @@
             "actionid": "talk_r",
             "requirements": {
                 "operator": 1,
-                "forge": 1,
+                "forge_r": 1,
                 "toollanternfcracked": 1
             },
             "startdescription": "We can begin to repair this, but it will take at least a Silver Spintria to purchase the necessary materials.",
@@ -1791,7 +1791,7 @@
             "actionid": "talk_r",
             "requirements": {
                 "operator": 1,
-                "forge": 1,
+                "forge_r": 1,
                 "greatwork.sabotaged": 1
             },
             "startdescription": "We can begin to repair this, but it will take a Silver Spintria to purchase the necessary materials.",
@@ -1951,7 +1951,7 @@
             "id": "L_settrap_highedge",
             "actionid": "talk_r",
             "requirements": {
-                "edge": 10
+                "edge_r": 10
             },
             "linked": [
                 {
@@ -1964,7 +1964,7 @@
             "id": "L_settrap_highwinter",
             "actionid": "talk_r",
             "requirements": {
-                "winter": 10
+                "winter_r": 10
             },
             "linked": [
                 {
@@ -1977,7 +1977,7 @@
             "id": "L_settrap_highforge",
             "actionid": "talk_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "linked": [
                 {
@@ -1990,7 +1990,7 @@
             "id": "L_settrap_highmoth",
             "actionid": "talk_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "linked": [
                 {
@@ -2003,7 +2003,7 @@
             "id": "L_settrap_midedge",
             "actionid": "talk_r",
             "requirements": {
-                "edge": 7
+                "edge_r": 7
             },
             "linked": [
                 {
@@ -2016,7 +2016,7 @@
             "id": "L_settrap_midwinter",
             "actionid": "talk_r",
             "requirements": {
-                "winter": 7
+                "winter_r": 7
             },
             "linked": [
                 {
@@ -2029,7 +2029,7 @@
             "id": "L_settrap_midforge",
             "actionid": "talk_r",
             "requirements": {
-                "forge": 7
+                "forge_r": 7
             },
             "linked": [
                 {
@@ -2042,7 +2042,7 @@
             "id": "L_settrap_midmoth",
             "actionid": "talk_r",
             "requirements": {
-                "moth": 7
+                "moth_r": 7
             },
             "linked": [
                 {
@@ -2055,7 +2055,7 @@
             "id": "L_settrap_lowedge",
             "actionid": "talk_r",
             "requirements": {
-                "edge": 3
+                "edge_r": 3
             },
             "linked": [
                 {
@@ -2068,7 +2068,7 @@
             "id": "L_settrap_lowwinter",
             "actionid": "talk_r",
             "requirements": {
-                "winter": 3
+                "winter_r": 3
             },
             "linked": [
                 {
@@ -2081,7 +2081,7 @@
             "id": "L_settrap_lowforge",
             "actionid": "talk_r",
             "requirements": {
-                "forge": 3
+                "forge_r": 3
             },
             "linked": [
                 {
@@ -2094,7 +2094,7 @@
             "id": "L_settrap_lowmoth",
             "actionid": "talk_r",
             "requirements": {
-                "moth": 3
+                "moth_r": 3
             },
             "linked": [
                 {
@@ -2163,7 +2163,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "edge": 10,
+                "edge_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2184,7 +2184,7 @@
             "startdescription": "A skilled Disciple can probably abduct an unwary victim.",
             "requirements": {
                 "society": 1,
-                "edge": 5,
+                "edge_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2205,7 +2205,7 @@
             "startdescription": "My Believer will struggle to abduct a victim, but they may be lucky.",
             "requirements": {
                 "society": 1,
-                "edge": 1,
+                "edge_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2284,7 +2284,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "winter": 10,
+                "winter_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2305,7 +2305,7 @@
             "startdescription": "A skilled Disciple can probably bring back a fresh corpse.",
             "requirements": {
                 "society": 1,
-                "winter": 5,
+                "winter_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2326,7 +2326,7 @@
             "startdescription": "My Believer may very easily fail.",
             "requirements": {
                 "society": 1,
-                "winter": 1,
+                "winter_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2405,7 +2405,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "forge": 10,
+                "forge_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2426,7 +2426,7 @@
             "startdescription": "My Disciple can probably earn funds in illegal laboratories and shadowy manufactories - but there is a risk of accidents.",
             "requirements": {
                 "society": 1,
-                "forge": 5,
+                "forge_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2447,7 +2447,7 @@
             "startdescription": "My Believer might be able to earn funds in illegal laboratories and shadowy manufactories... if they're lucky.",
             "requirements": {
                 "society": 1,
-                "forge": 1,
+                "forge_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2517,7 +2517,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "grail": 10,
+                "grail_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2538,7 +2538,7 @@
             "startdescription": "A sufficiently persuasive Disciple can probably lure a susceptible companion back to us.",
             "requirements": {
                 "society": 1,
-                "grail": 5,
+                "grail_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2559,7 +2559,7 @@
             "startdescription": "My Believer might be able to lure a victim back to us.",
             "requirements": {
                 "society": 1,
-                "grail": 1,
+                "grail_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2638,7 +2638,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "knock": 10,
+                "knock_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2659,7 +2659,7 @@
             "startdescription": "My Disciple can probably use their talents to harvest treasures from the unsuspecting.",
             "requirements": {
                 "society": 1,
-                "knock": 5,
+                "knock_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2680,7 +2680,7 @@
             "startdescription": "My Believer might be able to harvest treasures from the unsuspecting... if they're lucky.",
             "requirements": {
                 "society": 1,
-                "knock": 1,
+                "knock_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2759,7 +2759,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "heart": 10,
+                "heart_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2780,7 +2780,7 @@
             "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Disciple can probably smooth them over.",
             "requirements": {
                 "society": 1,
-                "heart": 5,
+                "heart_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2801,7 +2801,7 @@
             "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Believer might be able to smooth them over. ",
             "requirements": {
                 "society": 1,
-                "heart": 1,
+                "heart_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2865,7 +2865,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "lantern": 10,
+                "lantern_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -2886,7 +2886,7 @@
             "startdescription": "My Disciple can probably determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
             "requirements": {
                 "society": 1,
-                "lantern": 5,
+                "lantern_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -2907,7 +2907,7 @@
             "startdescription": "My Believer might be able to determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
             "requirements": {
                 "society": 1,
-                "lantern": 1,
+                "lantern_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -2985,7 +2985,7 @@
             "description": ".",
             "requirements": {
                 "society": 1,
-                "moth": 10,
+                "moth_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -3006,7 +3006,7 @@
             "startdescription": "My Disciple can probably use their talents to part fools from their treasures.",
             "requirements": {
                 "society": 1,
-                "moth": 5,
+                "moth_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -3027,7 +3027,7 @@
             "startdescription": "My Believer might be able to part fools from their treasures... if they're lucky.",
             "requirements": {
                 "society": 1,
-                "moth": 1,
+                "moth_r": 1,
                 "operator": 1
             },
             "linked": [

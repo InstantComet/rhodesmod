@@ -7,7 +7,7 @@
             "requirements": {
                 "commissionarticleedgec": 1,
                 "lore": 1,
-                "edge": 6,
+                "edge_r": 6,
                 "reason": 2
             },
             "effects": {
@@ -25,7 +25,7 @@
             "requirements": {
                 "commissionarticleforgec": 1,
                 "lore": 1,
-                "forge": 6,
+                "forge_r": 6,
                 "reason": 2
             },
             "effects": {
@@ -43,7 +43,7 @@
             "requirements": {
                 "commissionarticlegrailc": 1,
                 "lore": 1,
-                "grail": 6,
+                "grail_r": 6,
                 "reason": 1,
                 "passion": 1
             },
@@ -62,7 +62,7 @@
             "requirements": {
                 "commissionarticleheartc": 1,
                 "lore": 1,
-                "heart": 6,
+                "heart_r": 6,
                 "reason": 1,
                 "passion": 1
             },
@@ -81,7 +81,7 @@
             "requirements": {
                 "commissionarticleknockc": 1,
                 "lore": 1,
-                "knock": 6,
+                "knock_r": 6,
                 "reason": 2
             },
             "effects": {
@@ -99,7 +99,7 @@
             "requirements": {
                 "commissionarticlelanternc": 1,
                 "lore": 1,
-                "lantern": 6,
+                "lantern_r": 6,
                 "reason": 2
             },
             "effects": {
@@ -117,7 +117,7 @@
             "requirements": {
                 "commissionarticlemothc": 1,
                 "lore": 1,
-                "moth": 6,
+                "moth_r": 6,
                 "reason": 1,
                 "passion": 1
             },
@@ -154,7 +154,7 @@
             "requirements": {
                 "commissionarticlewinterc": 1,
                 "lore": 1,
-                "winter": 6,
+                "winter_r": 6,
                 "reason": 2
             },
             "effects": {
@@ -172,7 +172,7 @@
             "requirements": {
                 "commissionarticleedgeb": 1,
                 "lore": 1,
-                "edge": 4,
+                "edge_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -190,7 +190,7 @@
             "requirements": {
                 "commissionarticleforgeb": 1,
                 "lore": 1,
-                "forge": 4,
+                "forge_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -208,7 +208,7 @@
             "requirements": {
                 "commissionarticlegrailb": 1,
                 "lore": 1,
-                "grail": 4,
+                "grail_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -226,7 +226,7 @@
             "requirements": {
                 "commissionarticleheartb": 1,
                 "lore": 1,
-                "heart": 4,
+                "heart_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -244,7 +244,7 @@
             "requirements": {
                 "commissionarticleknockb": 1,
                 "lore": 1,
-                "knock": 4,
+                "knock_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -262,7 +262,7 @@
             "requirements": {
                 "commissionarticlelanternb": 1,
                 "lore": 1,
-                "lantern": 4,
+                "lantern_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -280,7 +280,7 @@
             "requirements": {
                 "commissionarticlemothb": 1,
                 "lore": 1,
-                "moth": 4,
+                "moth_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -316,7 +316,7 @@
             "requirements": {
                 "commissionarticlewinterb": 1,
                 "lore": 1,
-                "winter": 4,
+                "winter_r": 4,
                 "reason": 1
             },
             "effects": {
@@ -334,7 +334,7 @@
             "requirements": {
                 "commissionarticleedge": 1,
                 "lore": 1,
-                "edge": 2,
+                "edge_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -352,7 +352,7 @@
             "requirements": {
                 "commissionarticleforge": 1,
                 "lore": 1,
-                "forge": 2,
+                "forge_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -370,7 +370,7 @@
             "requirements": {
                 "commissionarticlegrail": 1,
                 "lore": 1,
-                "grail": 2,
+                "grail_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -388,7 +388,7 @@
             "requirements": {
                 "commissionarticleheart": 1,
                 "lore": 1,
-                "heart": 2,
+                "heart_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -406,7 +406,7 @@
             "requirements": {
                 "commissionarticleknock": 1,
                 "lore": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -424,7 +424,7 @@
             "requirements": {
                 "commissionarticlelantern": 1,
                 "lore": 1,
-                "lantern": 2,
+                "lantern_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -442,7 +442,7 @@
             "requirements": {
                 "commissionarticlemoth": 1,
                 "lore": 1,
-                "moth": 2,
+                "moth_r": 2,
                 "reason": 1
             },
             "effects": {
@@ -478,7 +478,7 @@
             "requirements": {
                 "commissionarticlewinter": 1,
                 "lore": 1,
-                "winter": 2,
+                "winter_r": 2,
                 "reason": 1
             },
             "effects": {

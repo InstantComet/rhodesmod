@@ -485,7 +485,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "edge",
+                    "mutate": "edge_r",
                     "level": 2,
                     "additive": true
                 }
@@ -510,7 +510,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "knock",
+                    "mutate": "knock_r",
                     "level": 2,
                     "additive": true
                 }
@@ -535,7 +535,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "winter",
+                    "mutate": "winter_r",
                     "level": 2,
                     "additive": true
                 }

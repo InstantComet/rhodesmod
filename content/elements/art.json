@@ -5,8 +5,8 @@
             "label": "A Painting of the Outer Mansus",
             "description": "Staircases rise in grey rainbows; windows wait.",
             "aspects": {
-                "knock": 1,
-                "lantern": 1
+                "knock_r": 1,
+                "lantern_r": 1
             }
         },
         {

@@ -58,7 +58,7 @@
             "id": "explorevaultseal_hiddendoor_highlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 10
+                "lantern_r": 10
             },
             "label": "We call upon the Watchman, who Illuminates",
             "startdescription": "We'll almost certainly find this Hidden Door.",
@@ -78,7 +78,7 @@
             "id": "explorevaultseal_hiddendoor_midlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 5
+                "lantern_r": 5
             },
             "label": "We call upon the Watchman, who Navigates",
             "startdescription": "Our senses are sharpened. We should find this Hidden Door.",
@@ -98,7 +98,7 @@
             "id": "explorevaultseal_hiddendoor_lowlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "We call upon the Watchman, who is not Compassionate",
             "startdescription": "We carry light. We might find this Hidden Door. It'll be a struggle.",
@@ -118,7 +118,7 @@
             "id": "explorevaultseal_hiddendoor_highknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 10
+                "knock_r": 10
             },
             "label": "We call upon the Beach-Crow, who sees what is lost",
             "startdescription": "We bear a great power of opening. We'll almost certainly find this Hidden Door.",
@@ -138,7 +138,7 @@
             "id": "explorevaultseal_hiddendoor_midknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 5
+                "knock_r": 5
             },
             "label": "We call upon the Beach-Crow, who opens the earth",
             "startdescription": "We are skilled in uncovering hidden ways. We'll probably find this Hidden Door.",
@@ -158,7 +158,7 @@
             "id": "explorevaultseal_hiddendoor_lowknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 1
+                "knock_r": 1
             },
             "label": "We call upon the Beach-Crow, to whom belongs what is not possessed",
             "startdescription": "We have some ability in the matter of opening. We might find this Hidden Door. It'll be a struggle.",
@@ -265,7 +265,7 @@
             "id": "explorevaultseal_wardeddoor_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "We call upon the Forge of Days, who will end all nights",
             "startdescription": "We'll almost certainly shatter this Warded Door.",
@@ -285,7 +285,7 @@
             "id": "explorevaultseal_wardeddoor_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "We call upon the Forge of Days, who ends what will not change",
             "startdescription": "Our tools are ready. We should be able to penetrate this Warded Door.",
@@ -305,7 +305,7 @@
             "id": "explorevaultseal_wardeddoor_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "We call upon the Forge of Days, who remakes with fire",
             "startdescription": "We are ready with the Forge's fire. We might be able to penetrate this Warded Door. It'll be a struggle.",
@@ -325,7 +325,7 @@
             "id": "explorevaultseal_wardeddoor_highknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 10
+                "knock_r": 10
             },
             "label": "We call upon the Horned-Axe, who waits at the threshold",
             "startdescription": "We bear a great power of opening. We'll almost certainly shatter this Warded Door.",
@@ -345,7 +345,7 @@
             "id": "explorevaultseal_wardeddoor_midknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 5
+                "knock_r": 5
             },
             "label": "We call upon the Horned-Axe, who permits passage when passage is to be permitted",
             "startdescription": "We are skilled in uncovering warded ways. We'll probably penetrate this Warded Door.",
@@ -365,7 +365,7 @@
             "id": "explorevaultseal_wardeddoor_lowknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 1
+                "knock_r": 1
             },
             "label": "We call upon the Horned-Axe, who bears two blades",
             "startdescription": "We have some ability in the matter of opening. We might be able to penetrate this Warded Door. It'll be a struggle.",

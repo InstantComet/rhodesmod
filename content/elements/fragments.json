@@ -4,7 +4,7 @@
             "id": "fragmentedge",
             "label": "A Knife's Secret",
             "aspects": {
-                "edge": 2,
+                "edge_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1
@@ -30,7 +30,7 @@
             "id": "fragmentedgeb",
             "label": "Chiliarch's Lesson",
             "aspects": {
-                "edge": 4,
+                "edge_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1
@@ -57,7 +57,7 @@
             "id": "fragmentedgec",
             "label": "An Operation of the Labhite",
             "aspects": {
-                "edge": 6,
+                "edge_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1,
@@ -85,7 +85,7 @@
             "id": "fragmentedged",
             "label": "The Colonel's Names",
             "aspects": {
-                "edge": 8,
+                "edge_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1,
@@ -113,7 +113,7 @@
             "id": "fragmentedgee",
             "label": "The Lionsmith's Names",
             "aspects": {
-                "edge": 10,
+                "edge_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1,
@@ -142,7 +142,7 @@
             "id": "fragmentedgef",
             "label": "The Alignments of Murder",
             "aspects": {
-                "edge": 12,
+                "edge_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.practical": 1,
@@ -171,7 +171,7 @@
             "id": "fragmentedgeg",
             "label": "The Mysteries of Force",
             "aspects": {
-                "edge": 14,
+                "edge_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -193,7 +193,7 @@
             "id": "fragmentforge",
             "label": "A Smith's Secret",
             "aspects": {
-                "forge": 2,
+                "forge_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -219,7 +219,7 @@
             "id": "fragmentforgeb",
             "label": "An Ardent Orison",
             "aspects": {
-                "forge": 4,
+                "forge_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -246,7 +246,7 @@
             "id": "fragmentforgec",
             "label": "A Shaping Chant",
             "aspects": {
-                "forge": 6,
+                "forge_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -274,7 +274,7 @@
             "id": "fragmentforged",
             "label": "Callidate Invocation",
             "aspects": {
-                "forge": 8,
+                "forge_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -302,7 +302,7 @@
             "id": "fragmentforgee",
             "label": "Formula Fissive",
             "aspects": {
-                "forge": 10,
+                "forge_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -331,7 +331,7 @@
             "id": "fragmentforgef",
             "label": "Furnace Paean",
             "aspects": {
-                "forge": 12,
+                "forge_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -360,7 +360,7 @@
             "id": "fragmentforgeg",
             "label": "Mysteries of Making",
             "aspects": {
-                "forge": 14,
+                "forge_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -382,7 +382,7 @@
             "id": "fragmentgrail",
             "label": "A Red Secret",
             "aspects": {
-                "grail": 2,
+                "grail_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -408,7 +408,7 @@
             "id": "fragmentgrailb",
             "label": "A Megalesian Incantation",
             "aspects": {
-                "grail": 4,
+                "grail_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -435,7 +435,7 @@
             "id": "fragmentgrailc",
             "label": "A Delightful Sacrament",
             "aspects": {
-                "grail": 6,
+                "grail_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -463,7 +463,7 @@
             "id": "fragmentgraild",
             "label": "Thiatic Invocation",
             "aspects": {
-                "grail": 8,
+                "grail_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -491,7 +491,7 @@
             "id": "fragmentgraile",
             "label": "Formulae Voluptuous",
             "aspects": {
-                "grail": 10,
+                "grail_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -520,7 +520,7 @@
             "id": "fragmentgrailf",
             "label": "Anthic Elaboration",
             "aspects": {
-                "grail": 12,
+                "grail_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -549,7 +549,7 @@
             "id": "fragmentgrailg",
             "label": "Devouring Mysteries",
             "aspects": {
-                "grail": 14,
+                "grail_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -571,7 +571,7 @@
             "id": "fragmentheart",
             "label": "A Thunderous Secret",
             "aspects": {
-                "heart": 2,
+                "heart_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -597,7 +597,7 @@
             "id": "fragmentheartb",
             "label": "Words that Walk",
             "aspects": {
-                "heart": 4,
+                "heart_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -624,7 +624,7 @@
             "id": "fragmentheartc",
             "label": "A Waking Chant",
             "aspects": {
-                "heart": 6,
+                "heart_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -652,7 +652,7 @@
             "id": "fragmentheartd",
             "label": "Geminate Invocation",
             "aspects": {
-                "heart": 8,
+                "heart_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -680,7 +680,7 @@
             "id": "fragmenthearte",
             "label": "Formulae Vigilant",
             "aspects": {
-                "heart": 10,
+                "heart_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -709,7 +709,7 @@
             "id": "fragmentheartf",
             "label": "Velvet Charm",
             "aspects": {
-                "heart": 12,
+                "heart_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -738,7 +738,7 @@
             "id": "fragmentheartg",
             "label": "Unceasing Mysteries",
             "aspects": {
-                "heart": 14,
+                "heart_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -760,7 +760,7 @@
             "id": "fragmentknock",
             "label": "A Locksmith's Secret",
             "aspects": {
-                "knock": 2,
+                "knock_r": 2,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
@@ -791,7 +791,7 @@
             "id": "fragmentknockb",
             "label": "An Iguvine Rite",
             "aspects": {
-                "knock": 4,
+                "knock_r": 4,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
@@ -823,7 +823,7 @@
             "id": "fragmentknockc",
             "label": "A Consent of Wounds",
             "aspects": {
-                "knock": 6,
+                "knock_r": 6,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
@@ -856,7 +856,7 @@
             "id": "fragmentknockd",
             "label": "Meniscate Invocation",
             "aspects": {
-                "knock": 8,
+                "knock_r": 8,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
@@ -889,7 +889,7 @@
             "id": "fragmentknocke",
             "label": "Formulae Ophidian",
             "aspects": {
-                "knock": 10,
+                "knock_r": 10,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1,
@@ -923,7 +923,7 @@
             "id": "fragmentknockf",
             "label": "Liminal Evocation",
             "aspects": {
-                "knock": 12,
+                "knock_r": 12,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1,
@@ -957,7 +957,7 @@
             "id": "fragmentknockg",
             "label": "Mysteries of Opening",
             "aspects": {
-                "knock": 14,
+                "knock_r": 14,
                 "lore": 1
             },
             "description": "The Mother of Ants is the child of two rivers. The Horned-Axe is the last god-from-Stone. The Meniscate was born in the Moon from Light. The Wound and the Threshold and the Revelation are all the Gate's aspects, and here is their secret doctrine... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
@@ -978,7 +978,7 @@
             "id": "fragmentlantern",
             "label": "A Watchman's Secret",
             "aspects": {
-                "lantern": 2,
+                "lantern_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -1004,7 +1004,7 @@
             "id": "fragmentlanternb",
             "label": "A Mansus-Glimpse",
             "aspects": {
-                "lantern": 4,
+                "lantern_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -1031,7 +1031,7 @@
             "id": "fragmentlanternc",
             "label": "An Unmerciful Mantra",
             "aspects": {
-                "lantern": 6,
+                "lantern_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1059,7 +1059,7 @@
             "id": "fragmentlanternd",
             "label": "Phanaean Invocation",
             "aspects": {
-                "lantern": 8,
+                "lantern_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1087,7 +1087,7 @@
             "id": "fragmentlanterne",
             "label": "Formulae Concursate",
             "aspects": {
-                "lantern": 10,
+                "lantern_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1116,7 +1116,7 @@
             "id": "fragmentlanternf",
             "label": "Mantra of Ascent",
             "aspects": {
-                "lantern": 12,
+                "lantern_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1145,7 +1145,7 @@
             "id": "fragmentlanterng",
             "label": "Illuminate Mysteries",
             "aspects": {
-                "lantern": 14,
+                "lantern_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -1167,7 +1167,7 @@
             "id": "fragmentmoth",
             "label": "A Barber's Warning",
             "aspects": {
-                "moth": 2,
+                "moth_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -1193,7 +1193,7 @@
             "id": "fragmentmothb",
             "label": "A Wood-Whisper",
             "aspects": {
-                "moth": 4,
+                "moth_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
@@ -1220,7 +1220,7 @@
             "id": "fragmentmothc",
             "label": "An Ecdysiast's Parable",
             "aspects": {
-                "moth": 6,
+                "moth_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -1248,7 +1248,7 @@
             "id": "fragmentmothd",
             "label": "Moldywarp Admonitions",
             "aspects": {
-                "moth": 8,
+                "moth_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -1276,7 +1276,7 @@
             "id": "fragmentmothe",
             "label": "Centipede Testament",
             "aspects": {
-                "moth": 10,
+                "moth_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -1305,7 +1305,7 @@
             "id": "fragmentmothf",
             "label": "Thigh-born Thorax-Sweet",
             "aspects": {
-                "moth": 12,
+                "moth_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1,
@@ -1334,7 +1334,7 @@
             "id": "fragmentmothg",
             "label": "Mare-in-the-Yew",
             "aspects": {
-                "moth": 14,
+                "moth_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -1532,7 +1532,7 @@
             "id": "fragmentwinter",
             "label": "A Sexton's Secret",
             "aspects": {
-                "winter": 2,
+                "winter_r": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -1558,7 +1558,7 @@
             "id": "fragmentwinterb",
             "label": "A White Ceremony",
             "aspects": {
-                "winter": 4,
+                "winter_r": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
@@ -1585,7 +1585,7 @@
             "id": "fragmentwinterc",
             "label": "An Operation of the Declining Sun",
             "aspects": {
-                "winter": 6,
+                "winter_r": 6,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1613,7 +1613,7 @@
             "id": "fragmentwinterd",
             "label": "Invocation of the Ivory Dove",
             "aspects": {
-                "winter": 8,
+                "winter_r": 8,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1641,7 +1641,7 @@
             "id": "fragmentwintere",
             "label": "Recitation of Lost Hours",
             "aspects": {
-                "winter": 10,
+                "winter_r": 10,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1670,7 +1670,7 @@
             "id": "fragmentwinterf",
             "label": "The Divisions of the Names",
             "aspects": {
-                "winter": 12,
+                "winter_r": 12,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1,
@@ -1699,7 +1699,7 @@
             "id": "fragmentwinterg",
             "label": "Wolf-Word",
             "aspects": {
-                "winter": 14,
+                "winter_r": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
@@ -1721,8 +1721,8 @@
             "id": "fragmentglory",
             "label": "A Recollection of Glory",
             "aspects": {
-                "lantern": 6,
-                "forge": 6,
+                "lantern_r": 6,
+                "forge_r": 6,
                 "lore": 1
             },
             "description": "--",

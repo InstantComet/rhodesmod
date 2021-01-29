@@ -197,7 +197,7 @@
             "startdescription": "This will probably ensure the Hunter ceases to trouble us. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
             "requirements": {
                 "hunter": 1,
-                "winter": 10,
+                "winter_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -220,7 +220,7 @@
             "description": ".",
             "requirements": {
                 "hunter": 1,
-                "winter": 5,
+                "winter_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -242,7 +242,7 @@
             "description": ".",
             "requirements": {
                 "hunter": 1,
-                "winter": 1,
+                "winter_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -300,7 +300,7 @@
             "description": ".",
             "requirements": {
                 "hunter": 1,
-                "edge": 10,
+                "edge_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -318,7 +318,7 @@
             "description": ".",
             "requirements": {
                 "hunter": 1,
-                "edge": 5,
+                "edge_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -340,7 +340,7 @@
             "description": ".",
             "requirements": {
                 "hunter": 1,
-                "edge": 1,
+                "edge_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -446,7 +446,7 @@
             "description": ".",
             "requirements": {
                 "operator": 1,
-                "moth": 5,
+                "moth_r": 5,
                 "evidencelevel": 1
             },
             "linked": [
@@ -473,7 +473,7 @@
             "description": ".",
             "requirements": {
                 "operator": 1,
-                "moth": 1,
+                "moth_r": 1,
                 "evidencelevel": 1
             },
             "linked": [
@@ -572,7 +572,7 @@
             "label": "Share a terrible mystery of the Ragged Lore",
             "startdescription": "'When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. Hear me now...'  [This will likely sway the Hunter from their path, but it will always increase your own Dread.]",
             "requirements": {
-                "winter": 14,
+                "winter_r": 14,
                 "lore": 1
             },
             "mutations": [
@@ -607,7 +607,7 @@
             "label": "Share the colder invocations of the Ragged Lore",
             "startdescription": "'There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. I will tell you that power's name. Listen to me...' [This might sway the Hunter from their path, especially if they're already Grim, but it will always increase your own Dread.]",
             "requirements": {
-                "winter": 8,
+                "winter_r": 8,
                 "lore": 1
             },
             "linked": [
@@ -635,7 +635,7 @@
             "label": "Hint at the Ragged Lore",
             "startdescription": "'Let's speak of endings. Let's speak of the declining sun. Let's speak of things that aren't quite dead, and won't quite die...' [This might sway the Hunter from their path, but it will always increase your own Dread.]",
             "requirements": {
-                "winter": 1,
+                "winter_r": 1,
                 "lore": 1
             },
             "linked": [
@@ -791,7 +791,7 @@
             "label": "Share a terrible mystery of the Glorious Lore",
             "startdescription": "'This is the secret doctrine of the Door-in-the-Eye. Open your ears...' [This is likely to tempt the Hunter from their path, but will always increase your own Fascination.]",
             "requirements": {
-                "lantern": 14,
+                "lantern_r": 14,
                 "lore": 1
             },
             "mutations": [
@@ -826,7 +826,7 @@
             "label": "Share the brighter invocations of the Glorious Lore",
             "startdescription": "'The Door-in-the-Eye navigates; he is not merciful; but first and always, he illuminates. Listen, and be illuminated...' [This may tempt the Hunter from their path, especially if they're already an Idealist, but will always increase your own Fascination.]",
             "requirements": {
-                "lantern": 8,
+                "lantern_r": 8,
                 "lore": 1
             },
             "linked": [
@@ -854,7 +854,7 @@
             "label": "Hint at the Glorious Lore",
             "startdescription": "'There are finer things than we see. You must have felt it. Consider the possibilities of eternity...' [This might tempt the Hunter from their path, but will always increase your own Fascination.]",
             "requirements": {
-                "lantern": 1,
+                "lantern_r": 1,
                 "lore": 1
             },
             "linked": [

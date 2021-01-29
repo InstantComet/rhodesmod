@@ -10,7 +10,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "edge": 21
+                "edge_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -36,7 +36,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "forge": 21
+                "forge_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -62,7 +62,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "grail": 21
+                "grail_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -88,7 +88,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "heart": 21
+                "heart_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -114,7 +114,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "knock": 21
+                "knock_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -140,7 +140,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "lantern": 21
+                "lantern_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -166,7 +166,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "moth": 21
+                "moth_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -192,7 +192,7 @@
                 "independent": 1,
                 "mortal": 1,
                 "resentment": -1,
-                "winter": 21
+                "winter_r": 21
             },
             "effects": {
                 "ingredient": -1,
@@ -217,7 +217,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "edge": 1
+                "edge_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -241,7 +241,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "forge": 1
+                "forge_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -265,7 +265,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "grail": 1
+                "grail_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -289,7 +289,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "heart": 1
+                "heart_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -313,7 +313,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -337,7 +337,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -361,7 +361,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "moth": 1
+                "moth_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -385,7 +385,7 @@
                 "acquaintance": 1,
                 "operator": -1,
                 "mortal": 1,
-                "winter": 1
+                "winter_r": 1
             },
             "effects": {
                 "ingredient": -1,
@@ -410,7 +410,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "edge": 7
+                "edge_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -434,7 +434,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "forge": 7
+                "forge_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -458,7 +458,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "grail": 7
+                "grail_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -482,7 +482,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "heart": 7
+                "heart_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -506,7 +506,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "knock": 7
+                "knock_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -530,7 +530,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "lantern": 7
+                "lantern_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -554,7 +554,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "moth": 7
+                "moth_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -578,7 +578,7 @@
                 "disciple": -1,
                 "independent": -1,
                 "mortal": 1,
-                "winter": 7
+                "winter_r": 7
             },
             "effects": {
                 "ingredient": -1,
@@ -599,7 +599,7 @@
             "requirements": {
                 "cultedge_1": 1,
                 "operator": 1,
-                "edge": 21,
+                "edge_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -622,7 +622,7 @@
             "requirements": {
                 "cultforge_1": 1,
                 "operator": 1,
-                "forge": 21,
+                "forge_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -645,7 +645,7 @@
             "requirements": {
                 "cultgrail_1": 1,
                 "operator": 1,
-                "grail": 21,
+                "grail_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -668,7 +668,7 @@
             "requirements": {
                 "cultheart_1": 1,
                 "operator": 1,
-                "heart": 21,
+                "heart_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -691,7 +691,7 @@
             "requirements": {
                 "cultknock_1": 1,
                 "operator": 1,
-                "knock": 21,
+                "knock_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -714,7 +714,7 @@
             "requirements": {
                 "cultlantern_1": 1,
                 "operator": 1,
-                "lantern": 21,
+                "lantern_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -737,7 +737,7 @@
             "requirements": {
                 "cultmoth_1": 1,
                 "operator": 1,
-                "moth": 21,
+                "moth_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -767,7 +767,7 @@
                 "venerationknock": -1,
                 "venerationmoth": -1,
                 "operator": 1,
-                "winter": 21,
+                "winter_r": 21,
                 "exalted": -1,
                 "potential": 1
             },
@@ -874,7 +874,7 @@
             "label": "Establish the Church of the Bright Edge",
             "actionid": "establishcult",
             "requirements": {
-                "edge": 1
+                "edge_r": 1
             },
             "effects": {
                 "cultedge_1": 1
@@ -892,7 +892,7 @@
             "label": "Establish the Unflinching Order",
             "actionid": "establishcult",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "effects": {
                 "cultforge_1": 1
@@ -910,7 +910,7 @@
             "label": "Establish the Order of the Bloody Cup",
             "actionid": "establishcult",
             "requirements": {
-                "grail": 1
+                "grail_r": 1
             },
             "effects": {
                 "cultgrail_1": 1
@@ -928,7 +928,7 @@
             "label": "Establish the Temple Unceasing",
             "actionid": "establishcult",
             "requirements": {
-                "heart": 1
+                "heart_r": 1
             },
             "effects": {
                 "cultheart_1": 1
@@ -946,7 +946,7 @@
             "label": "Establish the Society of the Holy Wound",
             "actionid": "establishcult",
             "requirements": {
-                "knock": 1
+                "knock_r": 1
             },
             "effects": {
                 "cultknock_1": 1
@@ -964,7 +964,7 @@
             "label": "Establish the Mirror of Glory ",
             "actionid": "establishcult",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "effects": {
                 "cultlantern_1": 1
@@ -982,7 +982,7 @@
             "label": "Establish the Wildwood Club",
             "actionid": "establishcult",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "effects": {
                 "cultmoth_1": 1
@@ -1018,7 +1018,7 @@
             "label": "Establish the Children of Silence ",
             "actionid": "establishcult",
             "requirements": {
-                "winter": 1
+                "winter_r": 1
             },
             "effects": {
                 "cultwinter_1": 1

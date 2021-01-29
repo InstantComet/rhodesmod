@@ -7,7 +7,7 @@
             "requirements": {
                 "ascensionpowerb": 1,
                 "waystag_after": 1,
-                "forge": 6
+                "forge_r": 6
             },
             "effects": {
                 "ascensionpowerb": -1,
@@ -27,7 +27,7 @@
             "requirements": {
                 "ascensionsensationbm": 1,
                 "waystag_after": 1,
-                "grail": 6
+                "grail_r": 6
             },
             "effects": {
                 "ascensionsensationbm": -1,
@@ -47,7 +47,7 @@
             "requirements": {
                 "ascensionsensationbf": 1,
                 "waystag_after": 1,
-                "grail": 6
+                "grail_r": 6
             },
             "effects": {
                 "ascensionsensationbf": -1,
@@ -98,7 +98,7 @@
             "requirements": {
                 "ascensionenlightenmentb": 1,
                 "waystag_after": 1,
-                "lantern": 6
+                "lantern_r": 6
             },
             "effects": {
                 "ascensionenlightenmentb": -1,
@@ -117,7 +117,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionpowerf": 1,
-                "forge": 50
+                "forge_r": 50
             },
             "effects": {},
             "startdescription": "[This text is available when advanced legacies arrive.]",
@@ -133,7 +133,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionpowerf": 1,
-                "forge": 36
+                "forge_r": 36
             },
             "craftable": true,
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
@@ -212,7 +212,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionsensationf": 1,
-                "grail": 50
+                "grail_r": 50
             },
             "effects": {},
             "startdescription": "[This text is available when advanced legacies arrive.]",
@@ -228,7 +228,7 @@
                 "ritual": 1,
                 "ascensionsensationf": 1,
                 "romanticinterest": 1,
-                "grail": 27
+                "grail_r": 27
             },
             "startdescription": "I am swollen with the lives of others. The seams of my body begin to rupture. Now I invoke the Red Grail, who is the Mother of Mountains, who Consumes, who is the Source. One is here who loved me and whom perhaps I have loved, as perhaps the Red Grail loved the Thunderskin before his end. With this sacrifice, the invocation is both easier and more terrible. In Her Name I will give birth to myself. The Tricuspid Gate opens. I will be immortal: a Long, favoured of the Grail, and one who loved me will be remembered as long as I endure.",
             "description": ".",
@@ -245,7 +245,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionsensationf": 1,
-                "grail": 36
+                "grail_r": 36
             },
             "craftable": true,
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
@@ -324,7 +324,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmentf": 1,
-                "lantern": 50
+                "lantern_r": 50
             },
             "effects": {},
             "startdescription": "[This text is available when advanced legacies arrive.]",
@@ -808,7 +808,7 @@
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmentf": 1,
-                "lantern": 36
+                "lantern_r": 36
             },
             "craftable": true,
             "comments": "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",

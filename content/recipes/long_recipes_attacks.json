@@ -29,8 +29,8 @@
                 {
                     "id": "longassault.assassination.uncovered.success",
                     "challenges": {
-                        "heart": "base",
-                        "lantern": "base"
+                        "heart_r": "base",
+                        "lantern_r": "base"
                     }
                 },
                 {
@@ -92,9 +92,9 @@
                 {
                     "id": "longassault.assassination.attack.defeated",
                     "challenges": {
-                        "edge": "base",
-                        "winter": "base",
-                        "forge": "base"
+                        "edge_r": "base",
+                        "winter_r": "base",
+                        "forge_r": "base"
                     }
                 },
                 {
@@ -242,9 +242,9 @@
                 {
                     "id": "longassault.assassination.attack.follower.failure",
                     "challenges": {
-                        "edge": "base",
-                        "winter": "base",
-                        "forge": "base"
+                        "edge_r": "base",
+                        "winter_r": "base",
+                        "forge_r": "base"
                     }
                 },
                 {
@@ -369,9 +369,9 @@
                     "actionid": "longassault",
                     "label": "A Victory",
                     "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
+                        "edge_r": "base",
+                        "forge_r": "base",
+                        "winter_r": "base"
                     },
                     "startdescription": "Smashed lock - broken window - night air by the gulp. Our follower is free. Our enemy will pay closer attention, now.",
                     "effects": {
@@ -440,8 +440,8 @@
                 {
                     "id": "long.executestrategy.assault.failure",
                     "challenges": {
-                        "heart": "base",
-                        "forge": "base"
+                        "heart_r": "base",
+                        "forge_r": "base"
                     }
                 },
                 {
@@ -616,8 +616,8 @@
                 {
                     "id": "long.executestrategy.assault.failure",
                     "challenges": {
-                        "heart": "base",
-                        "edge": "base"
+                        "heart_r": "base",
+                        "edge_r": "base"
                     }
                 },
                 {
@@ -715,9 +715,9 @@
                     "actionid": "longassault",
                     "label": "A Victory",
                     "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
+                        "edge_r": "base",
+                        "forge_r": "base",
+                        "winter_r": "base"
                     },
                     "startdescription": "Our followers are not to be discounted lightly. Our enemy's agents retreat in disarray. Of course, our enemy will now take the matter more seriously.",
                     "effects": {
@@ -803,8 +803,8 @@
                 {
                     "id": "long.executestrategy.assault.failure",
                     "challenges": {
-                        "heart": "base",
-                        "edge": "base"
+                        "heart_r": "base",
+                        "edge_r": "base"
                     }
                 },
                 {
@@ -871,8 +871,8 @@
                 {
                     "id": "long.executestrategy.assault.failure",
                     "challenges": {
-                        "heart": "base",
-                        "grail": "base"
+                        "heart_r": "base",
+                        "grail_r": "base"
                     }
                 },
                 {
@@ -1107,8 +1107,8 @@
                 {
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
-                        "heart": "base",
-                        "grail": "base"
+                        "heart_r": "base",
+                        "grail_r": "base"
                     }
                 },
                 {
@@ -1454,8 +1454,8 @@
                 {
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
-                        "heart": "base",
-                        "moth": "base"
+                        "heart_r": "base",
+                        "moth_r": "base"
                     }
                 },
                 {
@@ -1650,7 +1650,7 @@
                 {
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
-                        "heart": "base"
+                        "heart_r": "base"
                     }
                 },
                 {
@@ -1689,8 +1689,8 @@
                 {
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
-                        "heart": "base",
-                        "moth": "base"
+                        "heart_r": "base",
+                        "moth_r": "base"
                     }
                 },
                 {
@@ -1754,7 +1754,7 @@
                 {
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
-                        "heart": "base"
+                        "heart_r": "base"
                     }
                 },
                 {
@@ -1961,8 +1961,8 @@
                 {
                     "id": "long.executestrategy.dreams.lantern.greatwork.failure",
                     "challenges": {
-                        "heart": "base",
-                        "lantern": "base"
+                        "heart_r": "base",
+                        "lantern_r": "base"
                     }
                 },
                 {
@@ -2444,9 +2444,9 @@
                 {
                     "id": "long.assault.confrontation.strongfollower",
                     "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
+                        "edge_r": "base",
+                        "forge_r": "base",
+                        "winter_r": "base"
                     }
                 },
                 {
@@ -2460,9 +2460,9 @@
             "label": "A Necessary Sacrifice",
             "startdescription": "One more candle extinguished.",
             "requirements": {
-                "edge": -5,
-                "forge": -5,
-                "winter": -5
+                "edge_r": -5,
+                "forge_r": -5,
+                "winter_r": -5
             },
             "warmup": 30,
             "aspects": {
@@ -2672,9 +2672,9 @@
                 {
                     "id": "long.dreams.confrontation.strongfollower",
                     "challenges": {
-                        "edge": "base",
-                        "lantern": "base",
-                        "moth": "base"
+                        "edge_r": "base",
+                        "lantern_r": "base",
+                        "moth_r": "base"
                     }
                 },
                 {
@@ -2782,9 +2782,9 @@
             "actionid": "long",
             "label": "A Necessary Sacrifice",
             "requirements": {
-                "edge": -5,
-                "lantern": -5,
-                "moth": -5
+                "edge_r": -5,
+                "lantern_r": -5,
+                "moth_r": -5
             },
             "startdescription": "One more candle extinguished.",
             "warmup": 30,
@@ -2897,14 +2897,14 @@
                 "revealidentity": 1
             },
             "effects": {
-                "edge": -99,
-                "forge": -99,
-                "grail": -99,
-                "heart": -99,
-                "knock": -99,
-                "lantern": -99,
-                "moth": -99,
-                "winter": -99
+                "edge_r": -99,
+                "forge_r": -99,
+                "grail_r": -99,
+                "heart_r": -99,
+                "knock_r": -99,
+                "lantern_r": -99,
+                "moth_r": -99,
+                "winter_r": -99
             },
             "linked": [
                 {

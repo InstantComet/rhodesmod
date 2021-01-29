@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "study_rincreasesanitystarter",
-            "label": "溯流追源",
+            "label": "获得理智技能",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
-            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
-            "description": "过去的我找见了我，以一种过于平静的方式。[我唤回了“理智”，但下次追溯记忆的难度会上升。]",
+            "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
+            "description": "I've grown stronger. [I've gained sanity, but it'll be more difficult to gain sanity next time.]",
             "effects": {
                 "fleeting_r": -2,
                 "sanity": 1,
@@ -20,13 +20,13 @@
         },
         {
             "id": "study_rincreasefleeting_rtoplus",
-            "label": "溯流追源",
+            "label": "Exercise the Body",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
             "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
-            "description": "过去的我找见了我，以一种过于平静的方式。[拥抱“汹涌嘈杂”的回忆来提升理智技能。]",
+            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
             "effects": {
                 "fleeting_r": -2,
                 "fleetingplus_r": 1
@@ -36,7 +36,7 @@
         },
         {
             "id": "study_rincreasefleeting_rwithinfluencehearttoplus",
-            "label": "溯流追源",
+            "label": "Exercise the Body",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 1,
@@ -97,7 +97,7 @@
             "requirements": {
                 "skillsanityc": 1,
                 "fleetingplus_r": 4,
-                "edge": 1,
+                "edge_r": 1,
                 "lore": 1
             },
             "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
@@ -117,7 +117,7 @@
             "requirements": {
                 "skillsanityc": 1,
                 "fleetingplus_r": 4,
-                "forge": 1,
+                "forge_r": 1,
                 "lore": 1
             },
             "startdescription": "I will burn with the strength of the Forge of Days.",
@@ -137,7 +137,7 @@
             "requirements": {
                 "skillsanityc": 1,
                 "fleetingplus_r": 4,
-                "grail": 1,
+                "grail_r": 1,
                 "lore": 1
             },
             "startdescription": "I will taste what the Grail has prescribed. I will be lithe and thorned and sweet.",
@@ -157,7 +157,7 @@
             "requirements": {
                 "skillsanityc": 1,
                 "fleetingplus_r": 4,
-                "heart": 9,
+                "heart_r": 9,
                 "lore": 1
             },
             "comments": "ugh: heart influence from fleetingplus_r",
@@ -178,7 +178,7 @@
             "requirements": {
                 "skillsanityc": 1,
                 "fleetingplus_r": 4,
-                "moth": 1,
+                "moth_r": 1,
                 "lore": 1
             },
             "startdescription": "Through the fire we fly, and it shall not consume us.",

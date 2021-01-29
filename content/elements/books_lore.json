@@ -106,7 +106,7 @@
             "label": "The Locksmith's Dream: Incursus",
             "aspects": {
                 "text": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "description": "The fifth (and final?) volume of Teresa Galmier's notorious work, which began as an examination of parallels in the mystic dreams of artisans but became an account of her own occult journey. This volume was never published nor, apparently, even written."
         },
@@ -245,7 +245,7 @@
             "unique": true,
             "label": "The Geminiad",
             "aspects": {
-                "knock": 2,
+                "knock_r": 2,
                 "tool": 1,
                 "text": 1,
                 "auctionable": 2
@@ -257,7 +257,7 @@
             "unique": true,
             "label": "The Geminiad [Read]",
             "aspects": {
-                "knock": 2,
+                "knock_r": 2,
                 "tool": 1,
                 "auctionable": 2
             },

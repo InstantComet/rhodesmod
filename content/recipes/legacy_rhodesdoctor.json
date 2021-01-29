@@ -89,7 +89,6 @@
                 }
             ],
             "effects": {
-                "hq.temporary": 1
             },
             "warmup": 10,
             "craftable": false

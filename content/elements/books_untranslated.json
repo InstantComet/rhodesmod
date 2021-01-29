@@ -117,7 +117,7 @@
             "unique": true,
             "label": "The Geminiad",
             "aspects": {
-                "knock": 2,
+                "knock_r": 2,
                 "tool": 1,
                 "text": 1,
                 "auctionable": 1,

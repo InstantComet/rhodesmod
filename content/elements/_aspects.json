@@ -4,7 +4,8 @@
 			"id": "sanityskill",
 			"label": "智慧",
 			"isAspect": true,
-			"description": "I am strong by day as well as by night. [This may allow you to perform better as a manual labourer, or as a dancer.]"
+			"description": "I am strong by day as well as by night. [This may allow you to perform better as a manual labourer, or as a dancer.]",
+			"icon": "reasonskill"
 		},
 		{
 			"id": "operator",
@@ -27,7 +28,7 @@
 			"comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
 		},
 		{
-			"id": "edge",
+			"id": "edge_r",
 			"label": "刃",
 			"description": "古人用兵器刺人而杀之，说：“非我也，刃也。”你很快会明白，这话说得没错。 [刃是关于搏杀、叛逆与争斗的力量。]",
 			"isAspect": true,
@@ -35,14 +36,14 @@
 			"icon": "edge"
 		},
 		{
-			"id": "forge",
+			"id": "forge_r",
 			"label": "铸",
 			"description": "铸庄严，沉重，不可撼动。[铸是关于坚守、毁灭与捍卫的力量。]",
 			"isAspect": true,
 			"icon": "forge"
 		},
 		{
-			"id": "grail",
+			"id": "grail_r",
 			"label": "杯",
 			"description": "传说圣子被钉死时，人们用他的餐杯去盛血。当满溢时，杯中淌出了泉与酒。[杯是关于治愈、祝福与救赎的力量。]",
 			"isAspect": true,
@@ -55,7 +56,7 @@
 			]
 		},
 		{
-			"id": "heart",
+			"id": "heart_r",
 			"label": "心",
 			"description": "心是常开不败的花朵。听吧。藏匿在黑暗深邃的土壤里、它正在跳动。[心是生命的化身。心是关于激振、擢升与续存的力量。]",
 			"isAspect": true,
@@ -63,14 +64,14 @@
 			"induces": []
 		},
 		{
-			"id": "knock",
+			"id": "knock_r",
 			"label": "启",
 			"description": "万物间皆存在联系。万物皆为一体。启是钥匙，而万物是一把锁。 [启是关于连接、拆分与瓦解的力量。它介于诸法则之中。]",
 			"isAspect": true,
 			"icon": "knock"
 		},
 		{
-			"id": "lantern",
+			"id": "lantern_r",
 			"label": "灯",
 			"description": "父创造我。我澄澈如镜与窗。我为容器。容器中照进光。[灯是关于明识穷达、洞若观火与心无二用的力量。]",
 			"isAspect": true,
@@ -83,11 +84,11 @@
 			]
 		},
 		{
-			"id": "moth",
+			"id": "moth_r",
 			"label": "蛾",
 			"isAspect": true,
-			"icon": "moth",
-			"description": "生命畏惧源石、就如同畏惧火。这是自然之理。可灰烬告诉我们，有一种生命的巡礼是越过死亡的。[法术与源石的结合是危险而野蛮的，如同飞蛾扑火。蛾是源自于追逐、拥抱与奋不顾身的力量。]",
+			"icon": "mothr",
+			"description": "生命畏惧源石、就如同畏惧火。这是自然之理。可灰烬却告诉我，有一种生命的巡礼是超越死亡的。[法术与源石的结合是危险而野蛮的，如同飞蛾扑火。蛾是源自于追逐、拥抱与奋不顾身的力量。]",
 			"induces": [
 				{
 					"id": "mothinduction",
@@ -96,11 +97,11 @@
 			]
 		},
 		{
-			"id": "winter",
+			"id": "winter_r",
 			"label": "冬",
-			"description": "“岁寒，然后知松柏之后凋也。”有一种人知晓。此谓之冬。 [冬是在模糊的生与死交界的边缘处使用的力量。它几乎不能被称之为一种力量，因为它的主人往往不一定能掌握。]",
+			"description": "“岁寒，然后知松柏之后凋也。”这话语有一种人知晓。此谓之冬。[冬是在模糊的生与死交界的边缘处使用的力量。它几乎不能被称之为一种力量，因为它的主人往往不一定能掌握。]",
 			"isAspect": true,
-			"icon": "winter"
+			"icon": "winter_r"
 		},
 		{
 			"id": "ability",

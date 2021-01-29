@@ -421,9 +421,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "lantern_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -441,9 +441,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "lantern_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -459,9 +459,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "lantern_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -477,9 +477,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "lantern_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -495,9 +495,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
+                "knock_r": 2,
+                "grail_r": 1,
+                "forge_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -514,9 +514,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
+                "knock_r": 2,
+                "grail_r": 1,
+                "forge_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -532,9 +532,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
+                "knock_r": 2,
+                "grail_r": 1,
+                "forge_r": 1,
                 "desire": -1
             },
             "extantreqs": {
@@ -550,8 +550,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
+                "knock_r": 2,
+                "lantern_r": 1,
                 "secrethistories": 1,
                 "desire": -1
             },
@@ -569,8 +569,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
+                "knock_r": 2,
+                "lantern_r": 1,
                 "secrethistories": 1,
                 "desire": -1
             },
@@ -587,8 +587,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
+                "knock_r": 2,
+                "lantern_r": 1,
                 "secrethistories": 1,
                 "desire": -1
             },
@@ -605,9 +605,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "winter": 1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "winter_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this smoky, tricksy entity, I'll need a significant power of Forge, as well as a little Winter and Knock.",
@@ -620,9 +620,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "moth": 1,
+                "knock_r": 2,
+                "grail_r": 1,
+                "moth_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this monstrous, if affectionate, entity, I'll need a significant intensity of Grail, and a little Moth and Knock.",
@@ -635,9 +635,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "edge": 1,
+                "knock_r": 2,
+                "lantern_r": 1,
+                "edge_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this subtle, fragile, murderous thing, I'll need a significant intensity of Lantern, and a little Knock and Edge.",
@@ -650,9 +650,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "heart": 1,
-                "edge": 1,
+                "knock_r": 2,
+                "heart_r": 1,
+                "edge_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this merry, ceaseless, merciless thing, I'll need a significant intensity of Heart, and a little Knock and Edge.",
@@ -665,9 +665,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "edge": 1,
+                "knock_r": 2,
+                "winter_r": 1,
+                "edge_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this chilly and shining thing, I'll need a very significant intensity of Winter, and a little Knock and Edge.",
@@ -680,9 +680,9 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "heart": 1,
+                "knock_r": 2,
+                "winter_r": 1,
+                "heart_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this wretched, voiceless thing, I'll need Winter at the fourth intensity, and a little Knock and Heart.",
@@ -721,8 +721,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "winter": 1,
-                "edge": 1,
+                "winter_r": 1,
+                "edge_r": 1,
                 "desire": -1
             },
             "startdescription": "I've found a useful conjunction of aspects, but I need more. With some Winter aspect, a little Edge, and a Corpse, I might create a brutal servant.",
@@ -735,8 +735,8 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "winter": 1,
-                "moth": 1,
+                "winter_r": 1,
+                "moth_r": 1,
                 "desire": -1
             },
             "startdescription": "With some Winter aspect, a little Moth, and a Corpse, I might create a cunning servant.",
@@ -751,7 +751,7 @@
             "requirements": {
                 "ritual": 1,
                 "lockscar": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "effects": {},
             "warmup": 60,
@@ -764,15 +764,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "edge": 1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "edge_r": 1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here, if I add Lantern, or Heart, or Winter.",
             "craftable": false,
@@ -784,15 +784,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "edge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "forge_r": 1,
+                "edge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add Winter, I might contact something smoky; if I add Lantern, I might contact an incandescent power.",
             "craftable": false,
@@ -804,15 +804,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "grail_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add Moth, I might contact something shapeless; if I add Forge, I might contact a seductive, savage power.",
             "craftable": false,
@@ -824,15 +824,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "heart": 1,
-                "edge": -1,
-                "forge": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "heart_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add Edge, I might contact something irrepressible; if I add Winter, I might summon up one of the Dead.",
             "craftable": false,
@@ -844,15 +844,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "lantern_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add Edge, I might bring something out from behind mirrors; if I add Forge, I might contact something incandescent.",
             "craftable": false,
@@ -864,15 +864,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "moth": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
+                "knock_r": 2,
+                "moth_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add Grail, I might contact something shapeless.",
             "craftable": false,
@@ -884,15 +884,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "secrethistories": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "winter": -1
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
+                "winter_r": -1
             },
             "startdescription": "There are possibilities here. If I add enough Lantern, who knows what I could attract?",
             "craftable": false,
@@ -900,18 +900,18 @@
         },
         {
             "id": "ritehinthasknockwinter",
-            "label": "Winter",
+            "label": "winter_r",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "winter_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1
             },
             "startdescription": "There are possibilities here, if I add Edge, or Heart, or Forge.",
@@ -923,10 +923,10 @@
             "id": "arcane_lantern_edge_hint",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
+                "knock_r": -1,
                 "desire": -1,
-                "lantern": 1,
-                "edge": 1
+                "lantern_r": 1,
+                "edge_r": 1
             },
             "actionid": "work_r",
             "startdescription": "With at least 5 Lantern and 1 Edge, I could use the mystic discipline called Reason's Glory to transform my Passion to Reason.",
@@ -938,10 +938,10 @@
             "id": "arcane_moth_edge_hint",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
+                "knock_r": -1,
                 "desire": -1,
-                "moth": 1,
-                "edge": 1
+                "moth_r": 1,
+                "edge_r": 1
             },
             "actionid": "work_r",
             "startdescription": "With at least 5 Moth and 1 Edge, I could use the ecstatic practice called Passion's Gyre to transform my Reason to Passion.",
@@ -954,10 +954,10 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
+                "knock_r": -1,
                 "desire": -1,
-                "forge": 1,
-                "grail": 1
+                "forge_r": 1,
+                "grail_r": 1
             },
             "startdescription": "With at least 5 Forge and 1 Grail, I could use the forbidden procedure known as Forge's Redemption to return Decrepitude to Health.",
             "craftable": false,
@@ -969,10 +969,10 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
+                "knock_r": -1,
                 "desire": -1,
-                "winter": 1,
-                "lantern": 1
+                "winter_r": 1,
+                "lantern_r": 1
             },
             "startdescription": "With at least 5 Winter and 1 Lantern, I could beseech the Hour of endings, the Sun-in-Rags, to destroy someone... but not someone in particular. The Sun-in-Rags alone will choose.",
             "craftable": false,
@@ -984,15 +984,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "edge": 1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "edge_r": 1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "Edge is the aspect of battle and of struggle. If I add Knock, I might be able to attempt a summoning; if I add Lantern or Moth, I could enact a battle in my own soul.",
             "craftable": false,
@@ -1004,15 +1004,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "forge": 1,
-                "edge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "forge_r": 1,
+                "edge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "Forge is the aspect that transforms and destroys. If I add Knock, I might be able to attempt a summoning; or if I have grown decrepit, then if I add Grail, perhaps I could renew my body.",
             "craftable": false,
@@ -1024,15 +1024,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "grail": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "grail_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "Grail is the aspect of appetite, blood, and birth. If I add Knock, I might be able to attempt a summoning; or if I have grown decrepit, then if I add Forge, perhaps I could renew my body.",
             "craftable": false,
@@ -1044,15 +1044,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "heart": 1,
-                "edge": -1,
-                "forge": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "heart_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "Heart is the aspect of preservation, but also of ceaseless motion. If I add Knock, I might be able to attempt a summoning.",
             "craftable": false,
@@ -1064,15 +1064,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 2,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": 1
+                "winter_r": 1
             },
             "startdescription": "A summoning begins with Knock, but it usually requires two other aspects besides. If I don't use Knock, I might find other occult operations besides summoning.",
             "craftable": false,
@@ -1084,15 +1084,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": 1
+                "winter_r": 1
             },
             "startdescription": "A summoning begins with Knock; but I will need at least a little more Knock.",
             "craftable": false,
@@ -1104,15 +1104,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "lantern": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "lantern_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1,
-                "winter": -1,
+                "winter_r": -1,
                 "apostlelantern.pillar4": -1
             },
             "comments": "extremely specific and probably unnecessary exclusion with the pillar, but it caught one person once",
@@ -1126,15 +1126,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "moth": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
+                "knock_r": -1,
+                "moth_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
                 "secrethistories": -1,
-                "winter": -1
+                "winter_r": -1
             },
             "startdescription": "Moth is the wild and perilous aspect of chaos and yearning. If I add Knock, I might be able to attempt a summoning. If I add Edge, I can try to drown my Reason in Passion.",
             "craftable": false,
@@ -1146,15 +1146,15 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
+                "knock_r": -1,
                 "secrethistories": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "winter": -1
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
+                "winter_r": -1
             },
             "startdescription": "Secret Histories describe the unknown complexities of the world, and its many pasts. They're not usually used directly in the invisible arts, but if I add Knock, who knows what might be possible?",
             "craftable": false,
@@ -1162,18 +1162,18 @@
         },
         {
             "id": "ritehinthaswinter",
-            "label": "Winter",
+            "label": "winter_r",
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": -1,
-                "winter": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
+                "knock_r": -1,
+                "winter_r": 1,
+                "edge_r": -1,
+                "forge_r": -1,
+                "heart_r": -1,
+                "grail_r": -1,
+                "lantern_r": -1,
+                "moth_r": -1,
                 "secrethistories": -1
             },
             "startdescription": "Winter is the aspect of silence, of endings, and of those things that are not entirely dead. If I add Knock, I might be able to attempt a summoning. If I add Lantern, I can attempt a foolish, beautiful magic.",
@@ -1204,7 +1204,7 @@
             "requirements": {
                 "ascensionpowerb": 1,
                 "waystag_after": 1,
-                "forge": 1
+                "forge_r": 1
             },
             "startdescription": "Not yet enough. The Forge of Days will not attend unless I can merit her attention. I need Forge power of at least the sixth intensity.",
             "description": ".",
@@ -1218,7 +1218,7 @@
             "requirements": {
                 "ascensionsensationbm": 1,
                 "waystag_after": 1,
-                "grail": 1
+                "grail_r": 1
             },
             "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
             "description": ".",
@@ -1231,7 +1231,7 @@
             "requirements": {
                 "ascensionsensationbf": 1,
                 "waystag_after": 1,
-                "grail": 1
+                "grail_r": 1
             },
             "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
             "description": ".",
@@ -1244,7 +1244,7 @@
             "requirements": {
                 "ascensionenlightenmentb": 1,
                 "waystag_after": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "startdescription": "Not yet enough. The Watchman will not attend unless I can merit his attention. I need Lantern power of at least the sixth intensity.",
             "description": ".",

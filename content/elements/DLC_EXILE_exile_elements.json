@@ -780,14 +780,14 @@
             "id": "venerates.colonel",
             "label": "Respects the Colonel",
             "description": "Patience before strength.",
-            "icon": "winter",
+            "icon": "winter_r",
             "isAspect": true
         },
         {
             "id": "venerates.lionsmith",
             "label": "Respects the Lionsmith",
             "description": "Courage before cunning.",
-            "icon": "forge",
+            "icon": "forge_r",
             "isAspect": true
         },
         {
@@ -2264,14 +2264,14 @@
                     "actionid": "travel",
                     "label": "Resource",
                     "required": {
-                        "edge": 1,
-                        "forge": 1,
-                        "grail": 1,
-                        "heart": 1,
-                        "knock": 1,
-                        "lantern": 1,
-                        "moth": 1,
-                        "winter": 1
+                        "edge_r": 1,
+                        "forge_r": 1,
+                        "grail_r": 1,
+                        "heart_r": 1,
+                        "knock_r": 1,
+                        "lantern_r": 1,
+                        "moth_r": 1,
+                        "winter_r": 1
                     }
                 }
             ],
@@ -2344,37 +2344,37 @@
                         "level": -3
                     },
                     {
-                        "id": "edge",
+                        "id": "edge_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "forge",
+                        "id": "forge_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "grail",
+                        "id": "grail_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "heart",
+                        "id": "heart_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "knock",
+                        "id": "knock_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "moth",
+                        "id": "moth_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "winter",
+                        "id": "winter_r",
                         "morpheffect": "mutate",
                         "level": -99
                     }
@@ -2402,37 +2402,37 @@
                         "level": -3
                     },
                     {
-                        "id": "edge",
+                        "id": "edge_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "forge",
+                        "id": "forge_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "grail",
+                        "id": "grail_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "heart",
+                        "id": "heart_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "knock",
+                        "id": "knock_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "moth",
+                        "id": "moth_r",
                         "morpheffect": "mutate",
                         "level": -99
                     },
                     {
-                        "id": "winter",
+                        "id": "winter_r",
                         "morpheffect": "mutate",
                         "level": -99
                     }
@@ -2445,8 +2445,8 @@
             "label": "A Human Corpse",
             "aspects": {
                 "remnant": 1,
-                "winter": 2,
-                "grail": 2,
+                "winter_r": 2,
+                "grail_r": 2,
                 "supplies": 1
             },
             "description": "They're not here any more. I should make sure I'm not, either.",
@@ -2482,8 +2482,8 @@
             "label": "A Reckoner Corpse",
             "aspects": {
                 "remnant": 1,
-                "winter": 2,
-                "grail": 2,
+                "winter_r": 2,
+                "grail_r": 2,
                 "supplies": 1
             },
             "description": "Proof of a victory. This is going to make my Foe very upset.",
@@ -2551,9 +2551,9 @@
                 "portable": 1,
                 "worth": 1,
                 "supplies": 1,
-                "forge": 2,
-                "grail": 2,
-                "knock": 2
+                "forge_r": 2,
+                "grail_r": 2,
+                "knock_r": 2
             },
             "xtriggers": {
                 "fatiguing": "husk"
@@ -2976,8 +2976,8 @@
                 ]
             },
             "aspects": {
-                "forge": 3,
-                "heart": 3,
+                "forge_r": 3,
+                "heart_r": 3,
                 "mortal": 1,
                 "contact.local": 1
             },
@@ -3376,7 +3376,7 @@
             "description": "When I woke from the Wood, this is what I found in the sealed bottle beside my bed.",
             "aspects": {
                 "vault.completed": 1,
-                "moth": 12,
+                "moth_r": 12,
                 "asset": 1,
                 "portable": 1,
                 "supplies": 1,
@@ -3393,7 +3393,7 @@
             "description": "Red as a forgotten sun.",
             "aspects": {
                 "vault.completed": 1,
-                "forge": 12,
+                "forge_r": 12,
                 "asset": 1,
                 "portable": 1,
                 "supplies": 1,
@@ -3420,7 +3420,7 @@
             "description": "The 'seasoning' Dominykas wanted: a pot of nasty-looking larval remnants. The pot is icy cold to the touch.",
             "aspects": {
                 "vault.completed": 1,
-                "winter": 12,
+                "winter_r": 12,
                 "asset": 1,
                 "portable": 1,
                 "supplies": 1,
@@ -3446,8 +3446,8 @@
             "label": "Tarrasquine Relic",
             "aspects": {
                 "vault.completed": 1,
-                "grail": 2,
-                "winter": 4,
+                "grail_r": 2,
+                "winter_r": 4,
                 "asset": 1,
                 "portable": 1,
                 "worth": 1
@@ -3462,7 +3462,7 @@
                 "vault.completed": 1,
                 "asset": 1,
                 "portable": 1,
-                "heart": 4,
+                "heart_r": 4,
                 "worth": 2
             },
             "description": "<i>E pur si muove!</i> [Note: if you present this to Mireya as proof of your success, you'll still be able to keep it afterwards.]",
@@ -3477,7 +3477,7 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "heart": 4,
+                "heart_r": 4,
                 "worth": 2
             },
             "description": "<i>E pur si muove!</i>",
@@ -3488,8 +3488,8 @@
             "label": "Mamurren Scar",
             "aspects": {
                 "vault.completed": 1,
-                "heart": 2,
-                "winter": 2
+                "heart_r": 2,
+                "winter_r": 2
             },
             "description": "Jannings says that some lessons can only be written on skin. That might be so, but it might be that Jannings just enjoys his work a little too much.",
             "xtriggers": {
@@ -3512,8 +3512,8 @@
             "id": "scar_mamurren",
             "label": "Mamurren Scar",
             "aspects": {
-                "heart": 2,
-                "winter": 2
+                "heart_r": 2,
+                "winter_r": 2
             },
             "description": "Jannings says that some lessons can only be written on skin. That might be so, but it might be that Jannings just enjoys his work a little too much.",
             "icon": "scar_winter"
@@ -3527,8 +3527,8 @@
                 "fatiguing": "contact.cultist.flowermaker.fatigued"
             },
             "aspects": {
-                "grail": 4,
-                "lantern": 4
+                "grail_r": 4,
+                "lantern_r": 4
             },
             "icon": "devotee_grail"
         },
@@ -3551,8 +3551,8 @@
                 "fatiguing": "contact.cultist.horned.fatigued"
             },
             "aspects": {
-                "knock": 4,
-                "winter": 4
+                "knock_r": 4,
+                "winter_r": 4
             },
             "icon": "devotee_knock"
         },
@@ -3575,8 +3575,8 @@
                 "fatiguing": "corpse.exile"
             },
             "aspects": {
-                "edge": 6,
-                "winter": 6
+                "edge_r": 6,
+                "winter_r": 6
             },
             "icon": "devotee_edge"
         },
@@ -3603,7 +3603,7 @@
                 ]
             },
             "aspects": {
-                "moth": 6
+                "moth_r": 6
             },
             "icon": "npc.barber"
         },
@@ -3623,7 +3623,7 @@
                 ]
             },
             "aspects": {
-                "forge": 6
+                "forge_r": 6
             },
             "icon": "npc.delver"
         },
@@ -3643,7 +3643,7 @@
                 ]
             },
             "aspects": {
-                "grail": 6
+                "grail_r": 6
             },
             "icon": "npc.fivegoer"
         },
@@ -3663,7 +3663,7 @@
                 ]
             },
             "aspects": {
-                "winter": 6
+                "winter_r": 6
             },
             "icon": "npc.ghoul"
         },
@@ -3674,7 +3674,7 @@
             "description": "A lithe, hard-faced Berber woman in the grey-brown striped jellaba of a French-Moroccan auxiliary.",
             "aspects": {
                 "venerates.colonel": 1,
-                "edge": 6
+                "edge_r": 6
             },
             "xtriggers": {
                 "fatiguing": "contact.huntress.fatigued",
@@ -3704,7 +3704,7 @@
                 ]
             },
             "aspects": {
-                "knock": 6
+                "knock_r": 6
             },
             "icon": "npc.smuggler"
         },
@@ -3724,7 +3724,7 @@
                 ]
             },
             "aspects": {
-                "lantern": 6
+                "lantern_r": 6
             },
             "icon": "npc.visionary"
         },
@@ -3744,7 +3744,7 @@
                 ]
             },
             "aspects": {
-                "heart": 6
+                "heart_r": 6
             },
             "icon": "jannings"
         },
@@ -3846,7 +3846,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "moth",
+                        "id": "moth_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -3858,7 +3858,7 @@
                 ]
             },
             "aspects": {
-                "moth": 6
+                "moth_r": 6
             },
             "icon": "npc.barber"
         },
@@ -3880,7 +3880,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "forge",
+                        "id": "forge_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -3892,7 +3892,7 @@
                 ]
             },
             "aspects": {
-                "forge": 6
+                "forge_r": 6
             },
             "icon": "npc.delver"
         },
@@ -3914,7 +3914,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "grail",
+                        "id": "grail_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -3926,7 +3926,7 @@
                 ]
             },
             "aspects": {
-                "grail": 6
+                "grail_r": 6
             },
             "icon": "npc.fivegoer"
         },
@@ -3948,7 +3948,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "winter",
+                        "id": "winter_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -3960,7 +3960,7 @@
                 ]
             },
             "aspects": {
-                "winter": 6
+                "winter_r": 6
             },
             "icon": "npc.ghoul"
         },
@@ -3971,7 +3971,7 @@
             "description": "A lithe, hard-faced Berber woman in the grey-brown striped jellaba of a French-Moroccan auxiliary.",
             "aspects": {
                 "venerates.colonel": 1,
-                "edge": 6
+                "edge_r": 6
             },
             "xtriggers": {
                 "fatiguing": [
@@ -3986,7 +3986,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "edge",
+                        "id": "edge_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -4017,7 +4017,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "knock",
+                        "id": "knock_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -4029,7 +4029,7 @@
                 ]
             },
             "aspects": {
-                "knock": 6
+                "knock_r": 6
             },
             "icon": "npc.smuggler"
         },
@@ -4051,7 +4051,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "lantern",
+                        "id": "lantern_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -4063,7 +4063,7 @@
                 ]
             },
             "aspects": {
-                "lantern": 6
+                "lantern_r": 6
             },
             "icon": "npc.visionary"
         },
@@ -4085,7 +4085,7 @@
                 ],
                 "upgrade.exile.ally": [
                     {
-                        "id": "heart",
+                        "id": "heart_r",
                         "morpheffect": "mutate",
                         "level": 1
                     },
@@ -4097,7 +4097,7 @@
                 ]
             },
             "aspects": {
-                "heart": 6
+                "heart_r": 6
             },
             "icon": "jannings"
         },
@@ -5148,7 +5148,7 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "grail": 2,
+                "grail_r": 2,
                 "worth": 1
             },
             "description": "This will sit handsomely on a shelf, if I ever have shelves again.",
@@ -5160,8 +5160,8 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "forge": 4,
-                "grail": 2,
+                "forge_r": 4,
+                "grail_r": 2,
                 "supplies": 1,
                 "worth": 1
             },
@@ -5178,7 +5178,7 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "grail": 8,
+                "grail_r": 8,
                 "supplies": 1,
                 "worth": 2
             },
@@ -5195,8 +5195,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "heart": 4,
-                "grail": 2,
+                "heart_r": 4,
+                "grail_r": 2,
                 "worth": 1
             },
             "description": "Ugly little thing, but there's a cheering warmth to it.",
@@ -5208,8 +5208,8 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "knock": 4,
-                "grail": 2,
+                "knock_r": 4,
+                "grail_r": 2,
                 "worth": 1
             },
             "description": "A nasty little illustration of what the pagans used to get up to. Or the Church. I don't know the history. I do know this icon has some kind of power over locks.",
@@ -5222,8 +5222,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "lantern": 4,
-                "grail": 2,
+                "lantern_r": 4,
+                "grail_r": 2,
                 "worth": 2
             },
             "slots": [
@@ -5260,7 +5260,7 @@
             "id": "curio.morgen",
             "label": "Curio: Flûte Matutine",
             "aspects": {
-                "winter": 4,
+                "winter_r": 4,
                 "uses.remaining": 1
             },
             "description": "'No-one had any use for it, not any more, so I have made from it something both practical and charming, no?' [This can only be used when you have access to a Sea Port card.]",
@@ -5274,7 +5274,7 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "edge": 8,
+                "edge_r": 8,
                 "supplies": 1,
                 "pentiment": 1,
                 "pentiment.3": 1
@@ -5291,7 +5291,7 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "grail": 4,
+                "grail_r": 4,
                 "worth": 1,
                 "pentiment": 1,
                 "pentiment.10": 1
@@ -5305,8 +5305,8 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "grail": 2,
-                "lantern": 2,
+                "grail_r": 2,
+                "lantern_r": 2,
                 "pentiment": 1,
                 "pentiment.4": 1
             },
@@ -5318,8 +5318,8 @@
             "aspects": {
                 "pentiment": 1,
                 "pentiment.2": 1,
-                "knock": 2,
-                "heart": 2
+                "knock_r": 2,
+                "heart_r": 2
             },
             "description": "Once, at a place and time of power and division, this knew the hands and mouth of a renegade Knock-Long. In at least one History, he finished smoking it.",
             "icon": "bytflavour"
@@ -5332,7 +5332,7 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "lantern": 4,
+                "lantern_r": 4,
                 "pentiment": 1,
                 "pentiment.3": 1
             },
@@ -5344,8 +5344,8 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "moth": 4,
-                "grail": 2
+                "moth_r": 4,
+                "grail_r": 2
             },
             "description": "It smells like unopened rooms. Somehow I keep thinking it's changing its shape when I don't look at it, but I never catch it in the act. [No-one will buy this.]",
             "icon": "toolmothb"
@@ -5357,8 +5357,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "forge": 8,
-                "grail": 4,
+                "forge_r": 8,
+                "grail_r": 4,
                 "worth": 2
             },
             "description": "Tiny, fragile-looking, but it packs a hell of a wallop.",
@@ -5371,8 +5371,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 2,
-                "heart": 8,
-                "grail": 6,
+                "heart_r": 8,
+                "grail_r": 6,
                 "worth": 3,
                 "pentiment": 1,
                 "pentiment.8": 1
@@ -5386,8 +5386,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 2,
-                "lantern": 8,
-                "grail": 4,
+                "lantern_r": 8,
+                "grail_r": 4,
                 "worth": 5,
                 "pentiment": 1,
                 "pentiment.5": 1
@@ -5401,8 +5401,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "knock": 8,
-                "grail": 4,
+                "knock_r": 8,
+                "grail_r": 4,
                 "worth": 3
             },
             "description": "This began life as an atlas of the cities of Europe. Over decades it's been extended and annotated by a dozen hands - adepts, burglars, soldiers, spies - to show secret routes and hiding-nooks."
@@ -5414,8 +5414,8 @@
             "aspects": {
                 "asset": 1,
                 "portable": 1,
-                "knock": 8,
-                "edge": 8,
+                "knock_r": 8,
+                "edge_r": 8,
                 "supplies": 1,
                 "worth": 1
             },
@@ -5431,8 +5431,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "moth": 8,
-                "grail": 4,
+                "moth_r": 8,
+                "grail_r": 4,
                 "worth": 2,
                 "pentiment": 1,
                 "pentiment.7": 1
@@ -5446,8 +5446,8 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 1,
-                "winter": 8,
-                "grail": 4,
+                "winter_r": 8,
+                "grail_r": 4,
                 "worth": 2
             },
             "description": "An oil painting of a city foundered in snow. Behind its bleakest tower, a sickle moon rises."
@@ -5459,7 +5459,7 @@
                 "asset": 1,
                 "portable": 1,
                 "comfort": 2,
-                "grail": 12,
+                "grail_r": 12,
                 "worth": 4
             },
             "description": "A great vintage wrung from a <i>terroir</i> ripe with secrets in the times before the Grand Blight. With discipline, patience, and resolution, it is <i>possible</i> to taste a glass of this wine and not to finish the bottle."
@@ -5470,7 +5470,7 @@
             "aspects": {
                 "asset": 1,
                 "space": 1,
-                "heart": 2,
+                "heart_r": 2,
                 "worth": 1,
                 "comfort": 1,
                 "deception": 1
@@ -5484,8 +5484,8 @@
             "aspects": {
                 "asset": 1,
                 "space": 2,
-                "forge": 4,
-                "heart": 4,
+                "forge_r": 4,
+                "heart_r": 4,
                 "worth": 2,
                 "deception": 1
             },
@@ -5499,8 +5499,8 @@
                 "asset": 1,
                 "space": 2,
                 "comfort": 4,
-                "heart": 4,
-                "grail": 4,
+                "heart_r": 4,
+                "grail_r": 4,
                 "worth": 4,
                 "deception": 1
             },
@@ -5514,8 +5514,8 @@
                 "asset": 1,
                 "space": 2,
                 "comfort": 4,
-                "heart": 4,
-                "grail": 4,
+                "heart_r": 4,
+                "grail_r": 4,
                 "deception": 1
             },
             "description": "The envy of every passerby. Let's close the curtains tightly.",
@@ -5528,9 +5528,9 @@
                 "asset": 1,
                 "space": 2,
                 "comfort": 8,
-                "forge": 6,
-                "heart": 6,
-                "grail": 6,
+                "forge_r": 6,
+                "heart_r": 6,
+                "grail_r": 6,
                 "deception": 1,
                 "worth": 8
             },
@@ -5602,8 +5602,8 @@
                 "connection": 1,
                 "asset": 1,
                 "deception": 1,
-                "grail": 6,
-                "lantern": 6
+                "grail_r": 6,
+                "lantern_r": 6
             },
             "description": "A mutually beneficial arrangement with someone in authority.",
             "slots": [
@@ -5628,9 +5628,9 @@
                 "connection": 1,
                 "asset": 1,
                 "deception": 1,
-                "edge": 10,
-                "grail": 10,
-                "knock": 10
+                "edge_r": 10,
+                "grail_r": 10,
+                "knock_r": 10
             },
             "slots": [
                 {
@@ -5655,8 +5655,8 @@
                 "connection": 1,
                 "asset": 1,
                 "deception": 1,
-                "heart": 4,
-                "lantern": 4
+                "heart_r": 4,
+                "lantern_r": 4
             },
             "slots": [
                 {
@@ -5689,9 +5689,9 @@
                 "connection": 1,
                 "asset": 1,
                 "deception": 1,
-                "edge": 8,
-                "moth": 8,
-                "forge": 6
+                "edge_r": 8,
+                "moth_r": 8,
+                "forge_r": 6
             },
             "slots": [
                 {
@@ -5699,8 +5699,8 @@
                     "id": "direction",
                     "label": "Direction",
                     "required": {
-                        "forge": 2,
-                        "winter": 2
+                        "forge_r": 2,
+                        "winter_r": 2
                     }
                 },
                 {
@@ -5736,9 +5736,9 @@
                 "connection": 1,
                 "asset": 1,
                 "deception": 1,
-                "edge": 8,
-                "moth": 8,
-                "knock": 6
+                "edge_r": 8,
+                "moth_r": 8,
+                "knock_r": 6
             },
             "slots": [
                 {
@@ -5746,7 +5746,7 @@
                     "id": "means",
                     "label": "Means",
                     "required": {
-                        "forge": 1,
+                        "forge_r": 1,
                         "op.sea": 1,
                         "year.stolen": 1
                     }
@@ -5779,7 +5779,7 @@
             "label": "Profane Weapon",
             "aspects": {
                 "weapon": 1,
-                "edge": 2,
+                "edge_r": 2,
                 "asset": 1,
                 "portable": 1,
                 "worth": 1
@@ -5820,7 +5820,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
-                "edge": 4,
+                "edge_r": 4,
                 "uses.remaining": 3,
                 "worth": 2,
                 "asset": 1,
@@ -5862,7 +5862,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
-                "edge": 4,
+                "edge_r": 4,
                 "uses.remaining": 2,
                 "worth": 2,
                 "asset": 1,
@@ -5904,7 +5904,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
-                "edge": 4,
+                "edge_r": 4,
                 "uses.remaining": 1,
                 "worth": 2,
                 "asset": 1,
@@ -5946,9 +5946,9 @@
             "label": "Ebrehel, the Ragged Sword",
             "aspects": {
                 "weapon": 1,
-                "edge": 6,
-                "knock": 6,
-                "forge": 6,
+                "edge_r": 6,
+                "knock_r": 6,
+                "forge_r": 6,
                 "worth": 3,
                 "asset": 1,
                 "portable": 1,
@@ -5990,7 +5990,7 @@
             "label": "Biedde's Blade",
             "aspects": {
                 "weapon": 1,
-                "edge": 8,
+                "edge_r": 8,
                 "worth": 3,
                 "asset": 1,
                 "portable": 1
@@ -6031,7 +6031,7 @@
             "label": "Imhullune Tectrix",
             "aspects": {
                 "weapon": 1,
-                "edge": 10,
+                "edge_r": 10,
                 "worth": 4,
                 "asset": 1,
                 "portable": 1
@@ -6071,7 +6071,7 @@
             "label": "Histid's Dart",
             "aspects": {
                 "weapon": 1,
-                "edge": 12,
+                "edge_r": 12,
                 "worth": 1,
                 "asset": 1,
                 "portable": 1
@@ -6111,7 +6111,7 @@
             "label": "Skaptodon's Sacrifice",
             "aspects": {
                 "weapon": 1,
-                "edge": 12,
+                "edge_r": 12,
                 "worth": 1,
                 "asset": 1,
                 "portable": 1
@@ -6246,8 +6246,8 @@
             "label": "Obscurity",
             "description": "This might be the only defence against a reckoner lord. It might be no defence at all. ",
             "aspects": {
-                "moth": 2,
-                "winter": 2,
+                "moth_r": 2,
+                "winter_r": 2,
                 "supplies": 1
             },
             "xtriggers": {
@@ -8521,8 +8521,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "winter": 2,
-                "edge": 2
+                "winter_r": 2,
+                "edge_r": 2
             },
             "description": "Frost walks here.",
             "lifetime": 300,
@@ -8537,8 +8537,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "forge": 2,
-                "grail": 2
+                "forge_r": 2,
+                "grail_r": 2
             },
             "description": "The air shimmers like a naked furnace. Serpents' weather.",
             "lifetime": 300,
@@ -8553,8 +8553,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "moth": 2,
-                "winter": 2
+                "moth_r": 2,
+                "winter_r": 2
             },
             "description": "We're by the sea, here, and the sea bears gifts: peace, or death, or escape.",
             "slots": [
@@ -8580,8 +8580,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "lantern": 2,
-                "heart": 2
+                "lantern_r": 2,
+                "heart_r": 2
             },
             "description": "I've passed a place of worship.",
             "xtriggers": {
@@ -8596,8 +8596,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "grail": 2,
-                "moth": 2
+                "grail_r": 2,
+                "moth_r": 2
             },
             "description": "I've found a place bristling with excitable cats.",
             "xtriggers": {
@@ -8612,8 +8612,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "lantern": 2,
-                "moth": 2
+                "lantern_r": 2,
+                "moth_r": 2
             },
             "description": "A high place. Don't look down.",
             "xtriggers": {
@@ -8628,8 +8628,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "knock": 6,
-                "winter": 6
+                "knock_r": 6,
+                "winter_r": 6
             },
             "description": "The smell of hawthorn, and the colour of sunset bisected with shadow. The Horned Axe is strong here.",
             "xtriggers": {
@@ -8644,8 +8644,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "edge": 6,
-                "winter": 6
+                "edge_r": 6,
+                "winter_r": 6
             },
             "description": "That scent which is neither tar nor blood nor ozone. The Wolf-Divided's rage boils beneath the air.",
             "xtriggers": {
@@ -8659,8 +8659,8 @@
             "label": "The Wolf Divided's Attention",
             "aspects": {
                 "op": 1,
-                "edge": 6,
-                "winter": 6
+                "edge_r": 6,
+                "winter_r": 6
             },
             "description": "An unclean flame smoulders beneath the world's skin. I've invoked the Wolf, and like it or not, I'm doing his work.",
             "lifetime": 1,
@@ -8672,8 +8672,8 @@
             "aspects": {
                 "op": 1,
                 "distraction": 1,
-                "grail": 6,
-                "lantern": 6
+                "grail_r": 6,
+                "lantern_r": 6
             },
             "description": "Here are sweet airs, here are the beginnings of dreams... here our thoughts turn to the Hour called Flowermaker.",
             "xtriggers": {
@@ -8789,8 +8789,8 @@
             "label": "Dawn",
             "aspects": {
                 "op": 1,
-                "knock": 4,
-                "lantern": 4
+                "knock_r": 4,
+                "lantern_r": 4
             },
             "description": "Sunrise, when the world is clean.",
             "lifetime": 15
@@ -8800,8 +8800,8 @@
             "label": "Sunset",
             "aspects": {
                 "op": 1,
-                "forge": 4,
-                "winter": 4
+                "forge_r": 4,
+                "winter_r": 4
             },
             "description": "Sunset, when the light is richer.",
             "lifetime": 15
@@ -8812,8 +8812,8 @@
             "aspects": {
                 "op": 1,
                 "deception": 1,
-                "moth": 4,
-                "winter": 4
+                "moth_r": 4,
+                "winter_r": 4
             },
             "description": "The deep watches of the night, and again I can't sleep.",
             "lifetime": 15
@@ -8849,8 +8849,8 @@
             "id": "tranquillity",
             "label": "Tranquillity",
             "aspects": {
-                "heart": 4,
-                "winter": 4,
+                "heart_r": 4,
+                "winter_r": 4,
                 "choice.merciful": 1
             },
             "description": "Even in a life like mine, there are moments when it's possible to think: what may come, may come.",
@@ -8860,7 +8860,7 @@
             "id": "grief",
             "label": "Grief",
             "aspects": {
-                "winter": 6
+                "winter_r": 6
             },
             "description": "Everything ends.",
             "lifetime": 300,
@@ -8870,8 +8870,8 @@
             "id": "rage",
             "label": "Rage",
             "aspects": {
-                "edge": 4,
-                "heart": 4,
+                "edge_r": 4,
+                "heart_r": 4,
                 "choice.merciless": 1
             },
             "description": "'Beware the fury of a patient man.' - Dryden, 'Absalom and Achitophel'",
@@ -8881,8 +8881,8 @@
             "id": "wound.exile",
             "label": "My Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "knock_r": 4,
+                "winter_r": 4,
                 "damage.exile": 1
             },
             "description": "Seven of these will end me.",
@@ -8904,8 +8904,8 @@
             "id": "wound.exile.unstanchable",
             "label": "My Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "knock_r": 4,
+                "winter_r": 4,
                 "damage.exile": 1
             },
             "description": "Seven of these will end me. [This Wound will take twice as long to heal.]",
@@ -8927,8 +8927,8 @@
             "id": "wound.exile.medusa",
             "label": "My Unhealing Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "knock_r": 4,
+                "winter_r": 4,
                 "damage.exile": 1,
                 "pentiment": 1,
                 "pentiment.6": 1

@@ -6,7 +6,7 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "operator": 1,
                 "ascensionpowera": 1
             },
@@ -42,7 +42,7 @@
             "actionid": "work_r",
             "requirements": {
                 "ritual": 1,
-                "knock": 2,
+                "knock_r": 2,
                 "lmfunds": 1,
                 "ascensionenlightenmenta": 1
             },

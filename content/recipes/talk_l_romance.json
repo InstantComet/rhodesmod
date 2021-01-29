@@ -55,7 +55,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "forge",
+                    "mutate": "forge_r",
                     "level": 1,
 					additive:true
                 }
@@ -81,7 +81,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "grail",
+                    "mutate": "grail_r",
                     "level": 1,
 					additive:true
                 }
@@ -107,7 +107,7 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "lantern",
+                    "mutate": "lantern_r",
                     "level": 1,					
 					additive:true
                 }
@@ -133,13 +133,13 @@
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "heart",
+                    "mutate": "heart_r",
                     "level": 1,					
 					additive:true
                 },
                 {
                     "filter": "mortal",
-                    "mutate": "moth",
+                    "mutate": "moth_r",
                     "level": 1,					
 					additive:true
                 }

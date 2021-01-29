@@ -58,7 +58,7 @@
             "id": "explorevaultperil_treacherousground_highlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 10
+                "lantern_r": 10
             },
             "label": "We call upon the Watchman, who navigates",
             "startdescription": "The Watchman will clear our sight, so that we can almost certainly pass without error.",
@@ -78,7 +78,7 @@
             "id": "explorevaultperil_treacherousground_midlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 5
+                "lantern_r": 5
             },
             "label": "We call upon the Watchman, who illuminates",
             "startdescription": "The Watchman will lend virtue to our lamps, that they will show us the perils to avoid. Probably.",
@@ -98,7 +98,7 @@
             "id": "explorevaultperil_treacherousground_lowlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "We call upon the Watchman, who is not compassionate",
             "startdescription": "The Watchman shows mercy neither to our obstacles nor to us. If we're lucky, we may make it through.",
@@ -118,7 +118,7 @@
             "id": "explorevaultperil_treacherousground_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "We call upon the Madrugad, who cannot be unbalanced",
             "startdescription": "We invoke the Madrugad, an Hour of Forge as well as Winter. We'll make our own path through. Success is almost certain.",
@@ -138,7 +138,7 @@
             "id": "explorevaultperil_treacherousground_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "We call upon the Madrugad, who quells and quiets",
             "startdescription": "The Madrugad is an Hour of Forge as well as Winter. Her power might quiet the unsteady earth. We'll probably be fine.",
@@ -158,7 +158,7 @@
             "id": "explorevaultperil_treacherousground_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "We call upon the Madrugad, who comes before the Sun",
             "startdescription": "The Madrugad is an Hour of Forge as well as Winter. Forge lends strength, but now the mists rise and cling. We might make it through.",
@@ -278,7 +278,7 @@
             "id": "explorevaultperil_forest_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "We call upon the Moth, who seeks among the trees of the Wood",
             "startdescription": "The Wood beneath the Mansus is darker even than this place. The Moth will guide our footfalls. Success is very likely.",
@@ -298,7 +298,7 @@
             "id": "explorevaultperil_forest_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "We call upon the Moth, who is dappled",
             "startdescription": "Shadows dapple the path. Perhaps the path is one the Moth has given us. Probably it is. Probably we'll make it through.",
@@ -318,7 +318,7 @@
             "id": "explorevaultperil_forest_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "We call upon the Moth, who beats within the skull",
             "startdescription": "We invoke the Moth at our peril. The forest pulses with beating wings, imagined eyes. We might make it through.",
@@ -338,7 +338,7 @@
             "id": "explorevaultperil_forest_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "Steel and Fire",
             "startdescription": "Forge is ingenious, Forge is ruthless. We'll almost certainly make it through.",
@@ -358,7 +358,7 @@
             "id": "explorevaultperil_forest_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "Axe and Lamp",
             "startdescription": "The forest enfolds us, but we are practical souls, strong in Forge. We'll probably be fine.",
@@ -378,7 +378,7 @@
             "id": "explorevaultperil_forest_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "Struggles in the Dusk",
             "startdescription": "We invoke the powers of Forge and hack our way through the trees. It's tough going. We might make it.",
@@ -498,7 +498,7 @@
             "id": "explorevaultperil_mountains_highwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 10
+                "winter_r": 10
             },
             "label": "We call upon the Madrugad, who cannot be unbalanced",
             "startdescription": "The Hour called the Madrugad is at home in the cold. She will almost certainly keep us from falling.",
@@ -518,7 +518,7 @@
             "id": "explorevaultperil_mountains_midwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 5
+                "winter_r": 5
             },
             "label": "We call upon the Madrugad, who quells and quiets",
             "startdescription": "The Madrugad is strong in Winter. Probably she will keep us from avalanches.",
@@ -538,7 +538,7 @@
             "id": "explorevaultperil_mountains_lowwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 1
+                "winter_r": 1
             },
             "label": "We call upon the Madrugad, which goes before the Sun",
             "startdescription": "The hours before dawn are sacred to the Hour called Madrugad, who knows Winter. If we rise then and invoke her, perhaps she will keep us safe.",
@@ -558,7 +558,7 @@
             "id": "explorevaultperil_mountains_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "The Mountaineer's Road",
             "startdescription": "Our Forge skills represent plenty of expertise. We'll almost certainly make it through.",
@@ -578,7 +578,7 @@
             "id": "explorevaultperil_mountains_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "The Explorer's Road",
             "startdescription": "We are practical souls, strong in Forge. We'll probably be fine.",
@@ -598,7 +598,7 @@
             "id": "explorevaultperil_mountains_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "The Wanderer's Road",
             "startdescription": "Forge-aspected followers are competent and practical, but the mountains are miles of fanged and freezing rock. Our road is hard. We might be lucky.",
@@ -718,7 +718,7 @@
             "id": "explorevaultperil_desert_highgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 10
+                "grail_r": 10
             },
             "label": "We call upon the Sister-and-Witch, who are pearl",
             "startdescription": "The Sister-and-Witch should see us safe through the dry places.",
@@ -738,7 +738,7 @@
             "id": "explorevaultperil_desert_midgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 5
+                "grail_r": 5
             },
             "label": "We call upon the Sister-and-Witch, who cannot be touched",
             "startdescription": "We'll call upon the Sister-and-Witch to shield us from the scorching heat of the sun and the mirrors of the horizon. It should see us through.",
@@ -758,7 +758,7 @@
             "id": "explorevaultperil_desert_lowgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 1
+                "grail_r": 1
             },
             "label": "We call upon the Sister-and-Witch, who cannot be separated",
             "startdescription": "We'll call upon the Sister-and-Witch to keep us together through the dust storms of the dry land. It might be enough.",
@@ -778,7 +778,7 @@
             "id": "explorevaultperil_desert_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "The Sun-Scorched Road",
             "startdescription": "Our Forge skills should keep us safe and lead us through the baking rocks to the green places. We'll almost certainly be fine.",
@@ -798,7 +798,7 @@
             "id": "explorevaultperil_desert_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "The Dry Road",
             "startdescription": "We are practical souls, strong in Forge. We should be able to make it between the baking rocks to the green places.",
@@ -818,7 +818,7 @@
             "id": "explorevaultperil_desert_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "The Pitiless Road",
             "startdescription": "Forge-aspected followers are competent and practical, but this is a blighted place. We might make it through.",
@@ -938,7 +938,7 @@
             "id": "explorevaultperil_sea_highheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 10
+                "heart_r": 10
             },
             "label": "We call upon the Sister-and-Witch, who cannot be touched",
             "startdescription": "Storms rise for the Thunderskin and subside for the Sister. The right words should carry us safe across the sea.",
@@ -958,7 +958,7 @@
             "id": "explorevaultperil_sea_midheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 5
+                "heart_r": 5
             },
             "label": "We call upon the Sister-and-Witch, who cannot be separated",
             "startdescription": "If storms strike, the Sister-and-Witch will keep our crew and our vessel in one piece. Probably.",
@@ -978,7 +978,7 @@
             "id": "explorevaultperil_sea_lowheart",
             "actionid": "explore_r",
             "requirements": {
-                "heart": 1
+                "heart_r": 1
             },
             "label": "We call upon the Sister-and-Witch, who are pearl",
             "startdescription": "The Sister-and-Witch are not of the sea, but they walk beside it. Perhaps their protection will be sufficient.",
@@ -998,7 +998,7 @@
             "id": "explorevaultperil_sea_highforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 10
+                "forge_r": 10
             },
             "label": "The Sailor's Surety",
             "startdescription": "Our Forge skills represent plenty of expertise. We'll almost certainly make it through.",
@@ -1018,7 +1018,7 @@
             "id": "explorevaultperil_sea_midforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 5
+                "forge_r": 5
             },
             "label": "The Sailor's Strength",
             "startdescription": "We are practical souls, strong in Forge. We'll probably be fine.",
@@ -1038,7 +1038,7 @@
             "id": "explorevaultperil_sea_lowforge",
             "actionid": "explore_r",
             "requirements": {
-                "forge": 1
+                "forge_r": 1
             },
             "label": "The Sailor's Hope",
             "startdescription": "Forge-aspected followers are competent and practical, but the sea is tricksy. We will struggle to stay on course.",

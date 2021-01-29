@@ -58,7 +58,7 @@
             "id": "explorevaultguardian_serpent_highedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 10
+                "edge_r": 10
             },
             "label": "Our strength is matchless.",
             "startdescription": "Eyes like gas-lamps; scales like black jade. A Serpent is a powerful foe, but it's nothing before us.",
@@ -78,7 +78,7 @@
             "id": "explorevaultguardian_serpent_midedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 5
+                "edge_r": 5
             },
             "label": "Our strength is considerable.",
             "startdescription": "Eyes like gas-lamps; fangs like stalactites. A great Serpent is a powerful foe, but so are we.",
@@ -98,7 +98,7 @@
             "id": "explorevaultguardian_serpent_lowedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 1
+                "edge_r": 1
             },
             "label": "Our strength may not be enough.",
             "startdescription": "Eyes like gas-lamps; a mouth one could crouch in. We might defeat this Serpent. We might regret trying.",
@@ -118,7 +118,7 @@
             "id": "explorevaultguardian_serpent_highknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 10
+                "knock_r": 10
             },
             "label": "We call upon the Mother of Ants, which ariseth from wounds",
             "startdescription": "The Serpent's mouth is large enough to crouch in. Its tongue is the thickness of a man's shoulders. But almost certainly it will respect the power we bear.",
@@ -138,7 +138,7 @@
             "id": "explorevaultguardian_serpent_midknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 5
+                "knock_r": 5
             },
             "label": "We call upon the Mother of Ants, which encircleth",
             "startdescription": "The Serpent is long enough to coil round a cottage. Its fangs glisten like ice. Probably it will respect the power we bear.",
@@ -158,7 +158,7 @@
             "id": "explorevaultguardian_serpent_lowknock",
             "actionid": "explore_r",
             "requirements": {
-                "knock": 1
+                "knock_r": 1
             },
             "label": "We call upon the Mother of Ants, which openeth",
             "startdescription": "The Serpent rears up like swelling river. Its eyes are slitted pits of hunger. Perhaps the Serpent will respect the power we bear.",
@@ -308,7 +308,7 @@
             "id": "explorevaultguardian_watchers_highedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 10
+                "edge_r": 10
             },
             "label": "Our strength is matchless.",
             "startdescription": "The Watchers will almost certainly regret standing against us.",
@@ -328,7 +328,7 @@
             "id": "explorevaultguardian_watchers_midedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 5
+                "edge_r": 5
             },
             "label": "Our strength is considerable.",
             "startdescription": "The Watchers aren't ready for us. We should be able to bring them down.",
@@ -348,7 +348,7 @@
             "id": "explorevaultguardian_watchers_lowedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 1
+                "edge_r": 1
             },
             "label": "Our strength may not be enough.",
             "startdescription": "The Watchers may be too much for us - but we still have a chance.",
@@ -368,7 +368,7 @@
             "id": "explorevaultguardian_watchers_highgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 10
+                "grail_r": 10
             },
             "label": "Against the Watchers: The Grail's Seductions",
             "startdescription": "'Come closer, dear ones. We have something special for you.'",
@@ -388,7 +388,7 @@
             "id": "explorevaultguardian_watchers_midgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 5
+                "grail_r": 5
             },
             "label": "Against the Watchers: The Grail's Temptations",
             "startdescription": "Our allures should sway the Watchers' minds.",
@@ -408,7 +408,7 @@
             "id": "explorevaultguardian_watchers_lowgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 1
+                "grail_r": 1
             },
             "label": "Against the Watchers: The Grail's Distractions",
             "startdescription": "Perhaps we can sway the Watchers from their purpose.",
@@ -428,7 +428,7 @@
             "id": "explorevaultguardian_watchers_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "Against the Watchers: A Powerful Deception",
             "startdescription": "'Look closer. Closer still. Closer! Keep looking. Closer. Now close your eyes...'",
@@ -448,7 +448,7 @@
             "id": "explorevaultguardian_watchers_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "Against the Watchers: A Likely Deception",
             "startdescription": "'Awake! Awake! They're upon us! That way, quickly!'",
@@ -468,7 +468,7 @@
             "id": "explorevaultguardian_watchers_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "Against the Watchers: A Desperate Deception",
             "startdescription": "'They went... that way?'",
@@ -624,7 +624,7 @@
             "id": "explorevaultguardian_monks_highedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 10
+                "edge_r": 10
             },
             "label": "Our strength is all but irresistible.",
             "startdescription": "We will dapple the earth with holy blood.",
@@ -644,7 +644,7 @@
             "id": "explorevaultguardian_monks_midedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 5
+                "edge_r": 5
             },
             "label": "Our strength is considerable.",
             "startdescription": "We should be more than enough for these holy fools.",
@@ -664,7 +664,7 @@
             "id": "explorevaultguardian_monks_lowedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 1
+                "edge_r": 1
             },
             "label": "Our strength may not be enough.",
             "startdescription": "They are only monks. But they are many, many monks. We might prevail, if we're lucky.",
@@ -684,7 +684,7 @@
             "id": "explorevaultguardian_monks_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "The Monks: a Potent Deception",
             "startdescription": "'We have brought here with us certain sacred texts, whose meaning is apparent only in moonlight - '",
@@ -704,7 +704,7 @@
             "id": "explorevaultguardian_monks_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "The Monks: a Likely Deception",
             "startdescription": "'This writ of entry bears the seal of the highest authority. Do not stand in our way -'",
@@ -724,7 +724,7 @@
             "id": "explorevaultguardian_monks_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "The Monks: a Desperate Deception",
             "startdescription": "'We have... relics. *Ancient* relics.'",
@@ -862,7 +862,7 @@
             "id": "explorevaultguardian_dead_highedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 10
+                "edge_r": 10
             },
             "label": "Our strength is matchless.",
             "startdescription": "The Dead are pale as inverse shadows. They move like cobwebs in a breeze. Almost certainly, they can't stand before us. We'll send them mumbling back into the shadows of the Wood.",
@@ -882,7 +882,7 @@
             "id": "explorevaultguardian_dead_midedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 5
+                "edge_r": 5
             },
             "label": "Our strength is considerable.",
             "startdescription": "These Dead, with their avid, pitiful eyes, have died once already. Their hold on the waking world is weak. We should be able to send them down into darkness, but we must take care.",
@@ -902,7 +902,7 @@
             "id": "explorevaultguardian_dead_lowedge",
             "actionid": "explore_r",
             "requirements": {
-                "edge": 1
+                "edge_r": 1
             },
             "label": "Our strength may not be enough.",
             "startdescription": "The Dead are slow as the movement of a sundial's shadow - slow, but ceaseless. They remember pain and fear, but not clearly. We know both sensations too well. They may be too much for us.",
@@ -922,7 +922,7 @@
             "id": "explorevaultguardian_dead_highwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 10
+                "winter_r": 10
             },
             "label": "We call upon the Ivory Dove, who knows the names of all the dead",
             "startdescription": "The Dead circle the edge of our vision like frayed dreams. The very air around us is chill with Winter's shadow. They must recognise that.",
@@ -942,7 +942,7 @@
             "id": "explorevaultguardian_dead_midwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 5
+                "winter_r": 5
             },
             "label": "We call upon the Ivory Dove, who cannot be deceived",
             "startdescription": "The Dead watch us closely, expressionless as saint-statues. But we are invested with the power of Winter. Probably the Dead will recognise that.",
@@ -962,7 +962,7 @@
             "id": "explorevaultguardian_dead_lowwinter",
             "actionid": "explore_r",
             "requirements": {
-                "winter": 1
+                "winter_r": 1
             },
             "label": "We call upon the Ivory Dove, from whom nothing more may be taken",
             "startdescription": "The Dead boil and rattle in the darkness, but we have been touched by the Hours of Winter. Perhaps they will recognise that.",
@@ -1100,7 +1100,7 @@
             "id": "explorevaultguardian_soucouyants_highlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 10
+                "lantern_r": 10
             },
             "label": "We call upon the Watchman, who illuminates",
             "startdescription": "We most likely have power enough to keep them at a distance.",
@@ -1120,7 +1120,7 @@
             "id": "explorevaultguardian_soucouyants_midlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 5
+                "lantern_r": 5
             },
             "label": "We call upon the Watchman, who is not compassionate",
             "startdescription": "Our power should be enough to hold them at bay - but they are ready for any lapse in vigilance.",
@@ -1140,7 +1140,7 @@
             "id": "explorevaultguardian_soucouyants_lowlantern",
             "actionid": "explore_r",
             "requirements": {
-                "lantern": 1
+                "lantern_r": 1
             },
             "label": "We call upon the Watchman, who navigates",
             "startdescription": "It is possible the power we carry will see us safe through the crowded night. It's definitely possible.",
@@ -1160,7 +1160,7 @@
             "id": "explorevaultguardian_soucouyants_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "We call upon the Moth, who seeks among the trees of the Wood",
             "startdescription": "The Moth has power in this close-crowded forest night. We will pass secretly and safely... unless we are very unlucky.",
@@ -1180,7 +1180,7 @@
             "id": "explorevaultguardian_soucouyants_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "We call upon the Moth, who beats in the skull",
             "startdescription": "We should have power enough to deceive and dismay these night-winged thirsty ones.",
@@ -1200,7 +1200,7 @@
             "id": "explorevaultguardian_soucouyants_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "We call upon the Moth, who is dappled",
             "startdescription": "The Moth will give us a chance in the dappled shadows of the forest - but only a chance.",
@@ -1338,7 +1338,7 @@
             "id": "explorevaultguardian_long_highgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 10
+                "grail_r": 10
             },
             "label": "'We are here for your pleasure.'",
             "startdescription": "Even the Long know desire; perhaps especially the Long. This one will almost certainly yield willingly to our attentions.",
@@ -1358,7 +1358,7 @@
             "id": "explorevaultguardian_long_midgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 5
+                "grail_r": 5
             },
             "label": "'We are here for your diversion.'",
             "startdescription": "This Long one welcomes our enticements, but they're still suspicious. We'll probably succeed.",
@@ -1378,7 +1378,7 @@
             "id": "explorevaultguardian_long_lowgrail",
             "actionid": "explore_r",
             "requirements": {
-                "grail": 1
+                "grail_r": 1
             },
             "label": "'We... hope we may amuse you?",
             "startdescription": "The Long have the appetites of any mortal, but they are jaded by a thousand experiences. Perhaps we might yet entertain one enough, if we're lucky.",
@@ -1398,7 +1398,7 @@
             "id": "explorevaultguardian_long_highmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 10
+                "moth_r": 10
             },
             "label": "'News! News from the Old Country! From all the Old Countries!'",
             "startdescription": "The Long are desperate for novelty. We'll take advantage of that, and if all goes well we'll be gone before they know it.",
@@ -1418,7 +1418,7 @@
             "id": "explorevaultguardian_long_midmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 5
+                "moth_r": 5
             },
             "label": "'Very well: a wager.'",
             "startdescription": "Is this one toying with us? It's hard to be sure. But even if this is a game, they may permit us to leave. All will probably be well. ",
@@ -1438,7 +1438,7 @@
             "id": "explorevaultguardian_long_lowmoth",
             "actionid": "explore_r",
             "requirements": {
-                "moth": 1
+                "moth_r": 1
             },
             "label": "'It's, ah, er, a funny story, actually...'",
             "startdescription": "The eyes of this Long are steady and distant as the line of the horizon. Their whole body is lizard-still. Are they even listening?",

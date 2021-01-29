@@ -494,29 +494,29 @@
                 {
                     "id": "long.spyonstrategy.success",
                     "challenges": {
-                        "knock": "base",
-                        "lantern": "base"
+                        "knock_r": "base",
+                        "lantern_r": "base"
                     }
                 },
                 {
                     "id": "long.delayaction.success.assault",
                     "challenges": {
-                        "edge": "base",
-                        "forge": "base"
+                        "edge_r": "base",
+                        "forge_r": "base"
                     }
                 },
                 {
                     "id": "long.delayaction.success.intrigue",
                     "challenges": {
-                        "grail": "base",
-                        "heart": "base"
+                        "grail_r": "base",
+                        "heart_r": "base"
                     }
                 },
                 {
                     "id": "long.delayaction.success.dreams",
                     "challenges": {
-                        "moth": "base",
-                        "winter": "base"
+                        "moth_r": "base",
+                        "winter_r": "base"
                     }
                 },
                 {

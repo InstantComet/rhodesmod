@@ -81,9 +81,9 @@
             "label": "The Ecdysis Club",
             "aspects": {
                 "location": 1,
-                "moth": 1,
-                "grail": 1,
-                "heart": 1
+                "moth_r": 1,
+                "grail_r": 1,
+                "heart_r": 1
             },
             "description": "A cabaret with an occult reputation.",
             "slots": [

@@ -57,7 +57,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "moth": 3
+                "moth_r": 3
             },
             "comments": "requirement 3, not 2, because there's already moth in the mix.",
             "startdescription": "I could cut a lock of hair before I sleep, to honour a power of the Wood.",
@@ -76,7 +76,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 2
+                "knock_r": 2
             },
             "startdescription": "Locksmiths often have the Dream after the sole of the foot is wounded - especially if it has been snake-bitten. I could try that.",
             "description": "I limp along the road, and so it is that I see the serpent in the ditch. I follow it across the waste places and into the root-maze. Is it hair that brushes my face, or hanging moss? I bend low, to stay close to the earth, like my guide. I will not forget the way to this place.",
@@ -94,7 +94,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 2
+                "lantern_r": 2
             },
             "startdescription": "I could sleep in a room without colours: bleach the sheets, whitewash the walls, dye my hair and paint my skin.",
             "description": "'Colour exists only where there is light': and the Wood is the place where light does not walk. In the dream, I close my eyes, and walk, stumbling, bruising my feet and knees. At last the undergrowth before me grows too thick to pass, and when I open my eyes, I am adrift among black trees. Shadows flutter. My feet will know the way back to this place.",
@@ -201,7 +201,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
@@ -228,7 +228,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 4
+                "lantern_r": 4
             },
             "startdescription": "There is a House in the Wood. I know something of that House. Enough to find my way to its light?",
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door. The light of the House leaks round its edges.",
@@ -251,7 +251,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
@@ -278,7 +278,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 4
+                "knock_r": 4
             },
             "startdescription": "There is a House in the Wood. I know enough Knock-secrets to find the hidden paths through the tangled trees.",
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door: open, as was prescribed so long ago.",
@@ -301,7 +301,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "winter": 1
+                "winter_r": 1
             },
             "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
             "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
@@ -328,7 +328,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "winter": 4
+                "winter_r": 4
             },
             "startdescription": "There is a House in the Wood, and a door where the Dead sometimes go. I have read of the paths the Dead take.",
             "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door, aglow like the moon in Winter.",
@@ -750,7 +750,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -774,7 +774,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 8
+                "lantern_r": 8
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
@@ -794,7 +794,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know of the words that open the wind - ",
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -818,7 +818,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 8
+                "knock_r": 8
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know the words that open the wind, so the Sands will permit my passage - ",
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
@@ -838,7 +838,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "grail": 1
+                "grail_r": 1
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
             "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -862,7 +862,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "grail": 8
+                "grail_r": 8
             },
             "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
             "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
@@ -971,7 +971,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 1
+                "lantern_r": 1
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
             "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -994,7 +994,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "lantern": 10
+                "lantern_r": 10
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
@@ -1014,7 +1014,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 1
+                "knock_r": 1
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I almost know the way - ",
             "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -1037,7 +1037,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "knock": 10
+                "knock_r": 10
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I will step carefully. I have learnt the way - ",
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
@@ -1057,7 +1057,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "edge": 1
+                "edge_r": 1
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be - ",
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light. Now I drift into other dreams.",
@@ -1081,7 +1081,7 @@
             "actionid": "dream_r",
             "requirements": {
                 "lore": 1,
-                "edge": 10
+                "edge_r": 10
             },
             "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be. I will choose my steps carefully, as the lore prescribes -",
             "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",

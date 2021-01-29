@@ -6,9 +6,9 @@
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
-                "moth": 3,
-                "grail": 3,
-                "heart": 3
+                "moth_r": 3,
+                "grail_r": 3,
+                "heart_r": 3
             },
             "description": "Some overwhelming experience has robbed this individual of their senses. They will disappear soon, never to be seen again.",
             "lifetime": 60,
@@ -22,9 +22,9 @@
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3
+                "lantern_r": 3,
+                "grail_r": 3,
+                "heart_r": 3
             },
             "description": "Someone has fallen into your clutches. They won't survive forever.",
             "lifetime": 600,
@@ -40,9 +40,9 @@
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3
+                "lantern_r": 3,
+                "grail_r": 3,
+                "heart_r": 3
             },
             "description": "Someone has fallen into your clutches. They won't survive forever.",
             "lifetime": 600,

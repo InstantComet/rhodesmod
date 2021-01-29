@@ -465,7 +465,7 @@
             "description": ".",
             "requirements": {
                 "mortal": 1,
-                "edge": 10
+                "edge_r": 10
             },
             "linked": [
                 {
@@ -486,7 +486,7 @@
             "description": ". deceiver_haunting_mortal_midedge",
             "requirements": {
                 "mortal": 1,
-                "edge": 5
+                "edge_r": 5
             },
             "linked": [
                 {
@@ -507,7 +507,7 @@
             "description": ". deceiver_haunting_mortal_lowedge",
             "requirements": {
                 "mortal": 1,
-                "edge": 1
+                "edge_r": 1
             },
             "linked": [
                 {

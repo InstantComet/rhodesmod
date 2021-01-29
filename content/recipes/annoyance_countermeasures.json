@@ -8,7 +8,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "grail": 10,
+                "grail_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -30,7 +30,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "grail": 5,
+                "grail_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -52,7 +52,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "grail": 1,
+                "grail_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -93,7 +93,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "edge": 10,
+                "edge_r": 10,
                 "operator": 1
             },
             "linked": [
@@ -111,7 +111,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "edge": 5,
+                "edge_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -133,7 +133,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "edge": 1,
+                "edge_r": 1,
                 "operator": 1
             },
             "linked": [
@@ -224,7 +224,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "moth": 5,
+                "moth_r": 5,
                 "operator": 1
             },
             "linked": [
@@ -246,7 +246,7 @@
             "description": ".",
             "requirements": {
                 "annoyance": 1,
-                "moth": 1,
+                "moth_r": 1,
                 "operator": 1
             },
             "linked": [
