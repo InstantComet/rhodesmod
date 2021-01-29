@@ -4,7 +4,7 @@
 			"id": "sanityskill",
 			"label": "智慧",
 			"isAspect": true,
-			"description": "I am strong by day as well as by night. [This may allow you to perform better as a manual labourer, or as a dancer.]",
+			"description": "假如它不属于我，当会如何？[这个技能可用于指挥作战。]",
 			"icon": "reasonskill"
 		},
 		{
@@ -87,12 +87,12 @@
 			"id": "moth_r",
 			"label": "蛾",
 			"isAspect": true,
-			"icon": "mothr",
+			"icon": "moth",
 			"description": "生命畏惧源石、就如同畏惧火。这是自然之理。可灰烬却告诉我，有一种生命的巡礼是超越死亡的。[法术与源石的结合是危险而野蛮的，如同飞蛾扑火。蛾是源自于追逐、拥抱与奋不顾身的力量。]",
 			"induces": [
 				{
 					"id": "mothinduction",
-					"chance": 10
+					"chance": 0
 				}
 			]
 		},
@@ -101,7 +101,7 @@
 			"label": "冬",
 			"description": "“岁寒，然后知松柏之后凋也。”这话语有一种人知晓。此谓之冬。[冬是在模糊的生与死交界的边缘处使用的力量。它几乎不能被称之为一种力量，因为它的主人往往不一定能掌握。]",
 			"isAspect": true,
-			"icon": "winter_r"
+			"icon": "winter"
 		},
 		{
 			"id": "ability",

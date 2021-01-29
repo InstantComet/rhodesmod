@@ -149,6 +149,7 @@
             "id": "doctorskyfallb",
             "label": "天灾迫近",
             "actionid": "skyfall_r",
+			"signalEndingFlavour": "Melancholy",
             "requirements": {},
             "startdescription": "我们必须做点什么，在一切为时已晚之前。",
             "description": "应当立即行动。",

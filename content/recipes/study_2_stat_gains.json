@@ -105,7 +105,7 @@
             "effects": {
                 "sanity": 1,
                 "skillsanityc": -1,
-                "skillsanityd_strength": 1
+                "skillsanityd_illumination": 1
             },
             "warmup": 60,
             "craftable": true
@@ -125,7 +125,7 @@
             "effects": {
                 "sanity": 1,
                 "skillsanityc": -1,
-                "skillsanityd_strength": 1
+                "skillsanityd_illumination": 1
             },
             "warmup": 60,
             "craftable": true
@@ -145,7 +145,7 @@
             "effects": {
                 "sanity": 1,
                 "skillsanityc": -1,
-                "skillsanityd_grace": 1
+                "skillsanityd_concentration": 1
             },
             "warmup": 60,
             "craftable": true
@@ -166,7 +166,7 @@
             "effects": {
                 "sanity": 1,
                 "skillsanityc": -1,
-                "skillsanityd_grace": 1
+                "skillsanityd_concentration": 1
             },
             "warmup": 60,
             "craftable": true
@@ -186,7 +186,7 @@
             "effects": {
                 "sanity": 1,
                 "skillsanityc": -1,
-                "skillsanityd_grace": 1
+                "skillsanityd_concentration": 1
             },
             "warmup": 60,
             "craftable": true
