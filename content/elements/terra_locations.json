@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "location_intro",
-            "label": "废城",
+            "label": "当前位置：废城",
             "description": "废弃的移动城市区划，我沉睡的地方。",
             "aspects": {
                 "terra_location": 1
@@ -14,21 +14,13 @@
                     "required": {
                         "map": 1
                     }
-                },
-                {
-                    "id": "Cost",
-                    "label": "花费",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true
                 }
             ],
             "unique": true
         },
         {
             "id": "location_defaults",
-            "label": "荒原中央",
+            "label": "当前位置：荒原中央",
             "description": "什么都没有的地方，旅途开始的地方。",
             "aspects": {
                 "terra_location": 1

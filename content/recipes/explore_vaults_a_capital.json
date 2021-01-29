@@ -9,7 +9,7 @@
                 "operator": 2
             },
             "effects": {
-                "location_defaults": 1
+                "map_location_default": 1
             },
             "startdescription": "Mr Strathcoyne has forbidden entry to his library. Unfortunate. Let's see what we can do. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
             "description": ".",

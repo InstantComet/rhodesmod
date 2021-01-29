@@ -19,7 +19,7 @@
         },
         {
             "id": "map_location_default",
-            "label": "空无一物的荒原",
+            "label": "位置：空无一物的荒原",
             "description": "目的地并不重要，我们需要的是尽快离开。",
             "aspects": {
                 "map": 1
@@ -28,7 +28,7 @@
         },
         {
             "id": "map_location_rim",
-            "label": "雷姆必拓的位置",
+            "label": "位置：雷姆必拓",
             "description": "雷姆必拓移动城市的位置，几分钟之前更新。",
             "aspects": {
                 "map": 1
