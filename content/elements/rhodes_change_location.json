@@ -26,7 +26,7 @@
                 "location_columbia": -1,
                 "terra_location": 1,
                 "map_location_columbia": 1,
-                "r_ingredient": 1
+                "ingredient": 1
             },
             "effects": {
                 "location_columbia": 1,
@@ -45,7 +45,7 @@
                 "location_rim": -1,
                 "terra_location": 1,
                 "map_location_rim": 1,
-                "r_ingredient": 1
+                "ingredient": 1
             },
             "effects": {
                 "location_rim": 1,

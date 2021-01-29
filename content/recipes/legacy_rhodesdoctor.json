@@ -155,7 +155,26 @@
             "description": "应当立即行动。",
             "warmup": 600,
             "craftable": false,
-            "ending": "deathbyintroskyfallb"
+            "ending": "deathbyintroskyfallb",
+            "alt": [
+                {
+                    "id": "doctorskyfall_escaped",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "doctorskyfall_escaped",
+            "label": "逃离",
+            "actionid": "skyfall_r",
+            "requirements": {
+                "operator_debug_a": 1
+            },
+            "startdescription": "我们必须做点什么，在一切为时已晚之前。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
         }
     ]
 }
