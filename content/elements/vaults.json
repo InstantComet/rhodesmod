@@ -1,6 +1,37 @@
 {
     "elements": [
         {
+            "id": "locationcommandcenter",
+            "label": "控制中枢",
+            "aspects": {
+                "introvault": 1,
+                "location": 1,
+                "vaultrhodes": 1
+            },
+            "slots": [
+                {
+                    "id": "expeditionmember",
+                    "label": "领队",
+                    "description": "我需要至少派出一名干员才能开始探险。之后可以再追加人数。",
+                    "required": {
+                        "operator": 1
+                    },
+                    "actionid": "explore_r"
+                },
+                {
+                    "id": "expeditionmember2",
+                    "label": "援手",
+                    "description": "现在，如果认为追加人手有用，我可以选择再派出其他干员。",
+                    "required": {
+                        "operator": 1
+                    },
+                    "actionid": "explore_r"
+                }
+            ],
+            "description": "罗德岛废弃内部构造的浅层部分，我们需要尽快前往指挥中枢。",
+            "unique": true
+        },
+        {
             "id": "vaultrhodes1",
             "label": "罗德岛内部构造（浅层）",
             "aspects": {

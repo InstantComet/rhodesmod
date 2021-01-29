@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explorevault_expeditionbegun_intro",
-            "label": "The Expedition Sets Off",
+            "label": "出发前往控制中枢",
             "actionid": "explore_r",
             "requirements": {
                 "vaultrhodes1": 1
@@ -53,7 +53,7 @@
         },
         {
             "id": "explorevaultsuccesslink_intro",
-            "label": "Treasures Lie Before Us",
+            "label": "我们非常接近了",
             "requirements": {
                 "peril": -1,
                 "seal": -1,
@@ -71,12 +71,11 @@
         },
         {
             "id": "explorevaultsuccess_intro",
-            "label": "Treasures Lie Before Us",
+            "label": "我们抵达了控制中枢",
             "actionid": "explore_r",
             "startdescription": "Success! I'll know more soon...",
             "description": ".",
             "effects": {
-                "notoriety": 1
             },
             "linked": [
                 {

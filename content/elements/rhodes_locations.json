@@ -1,44 +1,6 @@
 {
     "elements": [
         {
-            "id": "locationcommandcenter",
-            "label": "罗德岛控制中枢",
-            "description": "只有想不到，没有买不到。",
-            "aspects": {
-                "location": 1
-            },
-            "slots": [
-                {
-                    "id": "Cost",
-                    "label": "花费",
-                    "actionId": "explore",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true
-                },
-                {
-                    "id": "Cost",
-                    "label": "花费",
-                    "actionId": "explore",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true
-                },
-                {
-                    "id": "Cost",
-                    "label": "花费",
-                    "actionId": "explore",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true
-                }
-            ],
-            "unique": true
-        },
-        {
             "id": "locationprocurement_a",
             "label": "罗德岛采购部",
             "description": "只有想不到，没有买不到。",

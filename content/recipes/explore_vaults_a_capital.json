@@ -1,6 +1,22 @@
 {
     "recipes": [
         {
+            "id": "explore_rhodes_commandcenter",
+            "label": "Beginning an Expedition: Strathcoyne's Collection",
+            "actionid": "explore_r",
+            "requirements": {
+                "locationcommandcenter": 1,
+                "operator": 2
+            },
+            "effects": {
+                "location_defaults": 1
+            },
+            "startdescription": "Mr Strathcoyne has forbidden entry to his library. Unfortunate. Let's see what we can do. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
             "id": "explore_vaultrhodes1_setup",
             "label": "Beginning an Expedition: Strathcoyne's Collection",
             "actionid": "explore_r",
@@ -140,28 +156,17 @@
         },
         {
             "id": "explorevaultrhodes1_success",
-            "label": "Strathcoyne's Treasures",
+            "label": "控制中枢之内",
             "actionid": "explore_r",
             "requirements": {
                 "vaultrhodes1": 1
             },
             "effects": {
-                "vaultrhodes1": -1
+                "vaultrhodes1": -1,
+                "locationcommandcenter": 1
             },
-            "internaldeck": {
-                "spec": [
-                    "wainscothistories",
-                    "textbookfucine",
-                    "travellingatnight3",
-                    "locksmithsdream4",
-                    "treatiseonunderplaces"
-                ],
-                "draws": 5,
-                "defaultcard": "compensationb",
-                "resetonexhaustion": false
-            },
-            "startdescription": "Strathcoyne's cosy sanctum. A fire smoulders in the grate. Glass cases display hard-won trinkets. We must seize what we can, quickly! Strathcoyne may already have telephoned the police.",
-            "description": "Out into the night! We escape unseen, but the next day there are reports of a fire at Strathcoyne's. Did someone knock a live coal on to the hearth-rug? Or did Strathcoyne destroy the place himself, as part of some larger scheme?",
+            "startdescription": "控制中枢就在眼前。",
+            "description": "我们到了。",
             "warmup": 30,
             "craftable": false
         },
