@@ -3,9 +3,8 @@
         {
             "id": "fleeting_r",
             "label": "追忆",
-            "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。［研究“追忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。］",
+            "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。[研究“追忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
             "aspects": {
-                "secrethistories": 2,
                 "moth": 2,
                 "influence": 1,
                 "memory": 1,
@@ -27,10 +26,9 @@
         },
         {
             "id": "fleetingplus_r",
-            "label": "追忆：汹涌而来",
+            "label": "追忆：汹涌嘈杂",
             "description": "无数往事汇聚了起来，就像潮水般淹没了我。我忍不住伸手去触碰。它们仿佛就在眼前。[与“智慧”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“追忆”。]",
             "aspects": {
-                "secrethistories": 2,
                 "moth": 2,
                 "influence": 1,
                 "memory": 1

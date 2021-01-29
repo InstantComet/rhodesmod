@@ -155,7 +155,7 @@
             "description": "应当立即行动。",
             "warmup": 600,
             "craftable": false,
-            "ending": "deathbyintroskyfireb"
+            "ending": "deathbyintroskyfallb"
         }
     ]
 }

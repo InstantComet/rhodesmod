@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "study_rincreasesanitystarter",
-            "label": "获得理智技能",
+            "label": "溯流追源",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
-            "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
-            "description": "I've grown stronger. [I've gained sanity, but it'll be more difficult to gain sanity next time.]",
+            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
+            "description": "过去的我找见了我，以一种过于平静的方式。[我唤回了“理智”，但下次追溯记忆的难度会上升。]",
             "effects": {
                 "fleeting_r": -2,
                 "sanity": 1,
@@ -20,13 +20,13 @@
         },
         {
             "id": "study_rincreasefleeting_rtoplus",
-            "label": "Exercise the Body",
+            "label": "溯流追源",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
             "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
-            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
+            "description": "过去的我找见了我，以一种过于平静的方式。[拥抱“汹涌嘈杂”的回忆来提升理智技能。]",
             "effects": {
                 "fleeting_r": -2,
                 "fleetingplus_r": 1
@@ -36,7 +36,7 @@
         },
         {
             "id": "study_rincreasefleeting_rwithinfluencehearttoplus",
-            "label": "Exercise the Body",
+            "label": "溯流追源",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 1,

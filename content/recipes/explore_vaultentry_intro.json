@@ -5,7 +5,7 @@
             "label": "The Expedition Sets Off",
             "actionid": "explore_r",
             "requirements": {
-                "vaultrhodes1": 1,
+                "vaultrhodes1": 1
             },
             "startdescription": "这是第一次探险",
             "description": ".",
@@ -28,7 +28,7 @@
                     "label": "Assistance",
                     "description": "Funds are essential for expeditions. Followers will defeat obstacles.",
                     "required": {
-                        "operator": 1,
+                        "operator": 1
                     }
                 }
             ],
@@ -39,7 +39,7 @@
                 {
                     "id": "explorevaultsuccesslink_intro",
                     "chance": 100
-                },
+                }
             ],
             "effects": {
             },
@@ -47,7 +47,7 @@
                 {
                     "id": "explorevaultseal_hiddendoor_encounter_intro",
                     "chance": 100
-                },
+                }
             ],
             "craftable": false
         },
