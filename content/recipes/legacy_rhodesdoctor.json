@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workr_doctorjob",
-            "label": "石棺之中",
+            "label": "石中之梦",
             "actionid": "work_r",
             "requirements": {
                 "introsanity": 1
@@ -18,30 +18,35 @@
                     "additional": true
                 }
             ],
-            "startdescription": "掌心微弱的温暖唤醒了我的意识。我必须打起精神……",
-            "description": "眼前是似曾相识的人影。是谁？我不记得了……",
+            "startdescription": "微热的温度在牵引着我离开这麻木的冰冷的梦境。",
+            "description": "我眼前的身影似曾相识……但我什么也记不起来。",
             "warmup": 10,
             "craftable": true
         },
         {
-            "id": "doctoropentalk",
-            "label": "Our Cause",
-            "actionid": "talk_r",
-            "requirements": {},
-            "startdescription": "I remember these names, though I have never heard them spoken.",
-            "description": "My allies; my Illuminated One.",
-            "effects": {
-                "lever_LastCult": 1,
-                "lever_LastFollower": 1
-            },
+            "id": "doctoropendream",
+            "label": "嘈杂回音",
+            "actionid": "dream_r",
+            "startdescription": "不协和的音符逃从我的长眠中逃出，撞上头盖骨，又反弹了回来。",
+            "description": "不知为何，我的梦里充斥着难以理解的片段和感受。实在是过于喧嚣。",
             "warmup": 10,
-            "craftable": false
+            "effects": {
+                "sanity": 1
+            },
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "doctorintrotalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
         },
         {
             "id": "doctorintrotalk",
-            "label": "醒来，处境的简短说明",
-            "actionid": "introtalk",
-            "startdescription": "在车上，我听取了卡特斯少女的简短说明。",
+            "label": "醒时之境",
+            "actionid": "talk_r",
+            "startdescription": "在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。",
             "alt": [
                 {
                     "id": "doctorskyfalla",
@@ -57,70 +62,12 @@
             "craftable": false
         },
         {
-            "id": "doctoropenstudy",
-            "label": "寻找脱困的手段",
-            "actionid": "study_r",
-            "startdescription": "幸运的是，我们找到了一张被撕毁了一半的地图，可以通过研究它找到控制中枢的位置。",
-            "alt": [
-                {
-                    "id": "doctorskyfalla",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "effects": {
-                "map_location_rhodes_a": 1
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "doctoropenexplore",
-            "label": "前往控制中枢的计划",
-            "actionid": "explore_r",
-            "startdescription": "我们要如何前往控制中枢？",
-            "description": "如果我们已经掌握了路线，那就是时候出发了。",
-            "effects": {
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "doctoropendream",
-            "label": "梦中的嘈杂",
-            "actionid": "dream_r",
-            "startdescription": "我是谁？我在哪里？我的身边有人……",
-            "description": "我的梦里充斥着难以理解的片段和感受。",
-            "warmup": 60,
-            "effects": {
-                "sanity": 1
-            },
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "doctorintrotalk",
-                    "chance": 100,
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "doctoropenheadhunt",
-            "label": "学习干员寻访",
-            "actionid": "headhunt_r",
-            "requirements": {},
-            "startdescription": "我学习干员寻访。",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false
-        },
-        {
             "id": "doctorskyfalla",
             "label": "天灾迫近",
             "actionid": "skyfall_r",
             "requirements": {},
-            "startdescription": "年久失修——捡来之后勉强使用的罗德岛已经到了极限，我们必须先修好它才能离开这里。",
-            "description": "我们试图寻找修复的方法。",
+            "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
+            "description": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
             "warmup": 10,
             "craftable": false,
             "linked": [
@@ -139,6 +86,38 @@
                     "additional": true
                 }
             ]
-        }
+        },
+        {
+            "id": "doctoropenstudy",
+            "label": "来了！",
+            "actionid": "study_r",
+            "startdescription": "我们抢救出了半张地图……呃，这是地图吧？",
+            "effects": {
+                "map_location_rhodes_a": 1
+            },
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "doctoropenexplore",
+            "label": "制订计划",
+            "actionid": "explore_r",
+            "startdescription": "情况不甚乐观，罗德岛的内部简直如同废墟。我得从中找到一条可行的道路把干员们送到控制中枢。",
+            "description": "天无绝人之路。出发吧。",
+            "effects": {
+            },
+            "warmup": 20,
+            "craftable": false
+        },
+        {
+            "id": "doctoropenheadhunt",
+            "label": "学习干员寻访",
+            "actionid": "headhunt_r",
+            "requirements": {},
+            "startdescription": "我学习干员寻访。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        }        
     ]
 }

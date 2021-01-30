@@ -17,10 +17,7 @@
             "warmup": 20,
             "startdescription": "旅途漫漫。",
             "description": "我们抵达了目的地。",
-            "craftable": false,
-            "purge": {
-                "skyfall_coming": 100
-            }      
+            "craftable": true   
         },
         {
             "id": "changelocation_tocolumbia",
