@@ -117,7 +117,7 @@
         {
             "id": "doctorskyfalla",
             "label": "天灾迫近",
-            "actionid": "skyfall_r",
+            "actionid": "skyfall",
             "requirements": {},
             "startdescription": "年久失修——捡来之后勉强使用的罗德岛已经到了极限，我们必须先修好它才能离开这里。",
             "description": "我们试图寻找修复的方法。",
