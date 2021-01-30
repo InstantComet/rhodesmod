@@ -51,8 +51,7 @@
             ],
             "effects": {
                 "operator_amiya": 1,
-                "operator_kaltist": 1,
-                "location_intro": 1
+                "operator_kaltist": 1
             },
             "warmup": 30,
             "craftable": false
@@ -70,24 +69,18 @@
                 }
             ],
             "effects": {
-                "map_location_rhodes_a": 1
+                "map_location_rhodes_a": 1,
+                "skyfall_anti": 1
             },
             "warmup": 10,
             "craftable": false
         },
         {
             "id": "doctoropenexplore",
-            "label": "A Place to Begin",
+            "label": "前往控制中枢的计划",
             "actionid": "explore_r",
-            "startdescription": "Where were we?",
-            "description": "This is the place I saw, in the light at sleep's edge.",
-            "alt": [
-                {
-                    "id": "doctoropendream",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
+            "startdescription": "我们要如何前往控制中枢？",
+            "description": "如果我们已经掌握了路线，那就是时候出发了。",
             "effects": {
             },
             "warmup": 10,
@@ -137,6 +130,9 @@
                     "chance": 100
                 }
             ],
+            "effects": {
+                "skyfall_coming": 1
+            },
             "alt": [
                 {
                     "id": "doctoropenstudy",

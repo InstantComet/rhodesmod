@@ -23,8 +23,7 @@
             "description": "目的地并不重要，我们需要的是尽快离开。",
             "aspects": {
                 "map": 1
-            },
-            "lifetime": 180
+            }
         },
         {
             "id": "map_location_rim",

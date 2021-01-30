@@ -7,7 +7,7 @@
             },
             "animFrames": 1,
             "description": "危险稍微远离。",
-            "icon": "skyfall_anti"
+            "icon": "skyfall_anti",
         },
         {
             "id": "skyfall_coming",
