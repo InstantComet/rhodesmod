@@ -1,6 +1,32 @@
 {
 	"elements": [
 		{
+			"id": "skyfallmessager",
+			"label": "天灾信使",
+			"description": "就是天灾信使。",
+			"isAspect": true,
+			"icon": ""
+		},
+		{
+			"id": "venerationtheresa",
+			"label": "崇敬：特蕾西娅",
+			"description": "该组织崇敬特蕾西娅之准则，我们以无罪女王之名贯彻她的遗志。",
+			"isAspect": true,
+			"icon": "venerationtheresa"
+		},
+		{
+			"id": "currency",
+			"label": "货币",
+			"isAspect": true,
+			"description": "“任何人要活下去，都需要金钱和梦想。”"
+		},
+		{
+			"id": "society_r",
+			"label": "社团",
+			"isAspect": true,
+			"description": "To recruit believers, I must build something for them to believe."
+		},
+		{
             "id": "sky.internal",
             "label": "Reckoner internal",
             "description": "Used to mark sky internal components",
@@ -363,12 +389,6 @@
 			"label": "Rite",
 			"isAspect": true,
 			"description": "'The proper things, in the proper manner, in the proper order. God help us all.' - attributed to Hersault. [A Rite allows you to combine aspects to perform a summoning.]"
-		},
-		{
-			"id": "society",
-			"label": "Society",
-			"isAspect": true,
-			"description": "To recruit believers, I must build something for them to believe."
 		},
 		{
 			"id": "rededicable",

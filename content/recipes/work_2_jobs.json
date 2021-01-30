@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "findclericalwork",
+            "id": "sanitywork1",
             "label": "Find Clerical Work",
             "actionid": "work_r",
             "requirements": {

@@ -80,9 +80,9 @@
             "id": "lmfunds",
             "label": "龙门币",
             "aspects": {
-                "ingredient": 1
+                "currency": 1
             },
-            "description": "由龙门发行的货币，用途广泛。——字条上这么写着。"
+            "description": "龙门发行的货币。用途多种，流通广泛。而且不经常贬值。"
         },
         {
             "id": "originium",

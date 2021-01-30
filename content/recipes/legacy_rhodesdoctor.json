@@ -46,7 +46,7 @@
             "id": "doctorintrotalk",
             "label": "醒时之境",
             "actionid": "talk_r",
-            "startdescription": "在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。",
+            "startdescription": "在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。开车的是个看起来心情很不好的女人。",
             "alt": [
                 {
                     "id": "doctorskyfalla",
