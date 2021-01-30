@@ -2,12 +2,15 @@
     "recipes": [
         {
             "id": "skyfallactive",
-            "label": "天灾即将袭来",
+            "label": "和天灾赛跑",
             "actionid": "skyfall",
             "requirements": {},
             "startdescription": "[累计五个天灾迫近就会死]",
             "description": ".",
             "warmup": 60,
+            "effects": {
+                "skyfall_coming": 1
+            },
             "slots": [
                 {
                     "id": "skyfall_coming",
@@ -51,7 +54,7 @@
             },
             "startdescription": "我们必须抓紧时间了。",
             "description": ".",
-            "comments": "This exists specifically for the burn image at 2 Dread.",
+            "comments": "This exists specifically for the burn image at 3 skyfall.",
             "burnimage": "skyfall",
             "linked": [
                 {
