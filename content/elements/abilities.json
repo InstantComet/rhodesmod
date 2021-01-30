@@ -7,7 +7,7 @@
             },
             "animFrames": 1,
             "description": "危险稍微远离。",
-            "icon": ""
+            "icon": "skyfall_anti"
         },
         {
             "id": "skyfall_coming",
@@ -16,7 +16,7 @@
             },
             "animFrames": 1,
             "description": "危险正在靠近。",
-            "icon": ""
+            "icon": "skyfall_coming"
         },
         {
             "id": "fleeting_r",

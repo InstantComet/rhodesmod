@@ -56,6 +56,9 @@
             "description": ".",
             "comments": "This exists specifically for the burn image at 3 skyfall.",
             "burnimage": "skyfall",
+            "effects": {
+                "skyfall_coming": 1
+            },
             "linked": [
                 {
                     "id": "skyfallabate",

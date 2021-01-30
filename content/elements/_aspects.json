@@ -1,6 +1,13 @@
 {
 	"elements": [
 		{
+			"id": "skyfall",
+			"label": "天灾",
+			"isAspect": true,
+			"description": "这就是天灾。",
+			"icon": "skyfall"
+		},
+		{
 			"id": "sanityskill",
 			"label": "智慧",
 			"isAspect": true,
@@ -155,7 +162,7 @@
 			"label": "指引",
 			"description": "一幅地图，几句提示，前往某处的指引。",
 			"isAspect": true,
-			"icon": "map"
+			"icon": "map_r"
 		},
 		{
 			"id": "secret",
