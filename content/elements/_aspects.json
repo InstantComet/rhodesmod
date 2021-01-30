@@ -1,6 +1,14 @@
 {
 	"elements": [
 		{
+            "id": "sky.internal",
+            "label": "Reckoner internal",
+            "description": "Used to mark sky internal components",
+            "isAspect": true,
+            "noartneeded": true,
+            "isHidden": true
+        },
+		{
 			"id": "skyfall",
 			"label": "天灾",
 			"isAspect": true,

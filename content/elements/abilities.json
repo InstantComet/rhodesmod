@@ -1,13 +1,23 @@
 {
     "elements": [
         {
+            "id": "skyfall_end",
+            "label": "逃离天灾！",
+            "aspects": {
+                "sky.internal": -100
+            },
+            "animFrames": 1,
+            "description": "彻底远离危险。",
+            "icon": "skyfall_anti"
+        },
+        {
             "id": "skyfall_anti",
             "label": "争取到的时间",
             "aspects": {
             },
             "animFrames": 1,
             "description": "危险稍微远离。",
-            "icon": "skyfall_anti",
+            "icon": "skyfall_anti"
         },
         {
             "id": "skyfall_coming",
