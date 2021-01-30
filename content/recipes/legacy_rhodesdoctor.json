@@ -69,8 +69,7 @@
                 }
             ],
             "effects": {
-                "map_location_rhodes_a": 1,
-                "skyfall_anti": 1
+                "map_location_rhodes_a": 1
             },
             "warmup": 10,
             "craftable": false

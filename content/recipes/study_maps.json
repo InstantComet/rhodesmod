@@ -12,7 +12,8 @@
                 "map_location_rhodes_a": -1,
                 "sanity": -1,
                 "vaultrhodes1": 1,
-                "losesanity": 1
+                "losesanity": 1,
+				"skyfall_anti": 1
             },
             "startdescription": "尽管时间紧迫，但我不能操之过急。",
             "description": "成功，我已找到前往控制中枢的路线。",

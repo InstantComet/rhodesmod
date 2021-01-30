@@ -26,15 +26,19 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "skyfallwarning",
+                    "id": "skyfalldefeated",
                     "chance": 100
                 },
                 {
-                    "id": "skyfalldefeated",
+                    "id": "skyfallwarning",
                     "chance": 100
                 }
             ],
             "linked": [
+                {
+                    "id": "skyfalldefeated",
+                    "chance": 100
+                },
                 {
                     "id": "skyfallabate",
                     "chance": 100
@@ -45,10 +49,6 @@
                 },
                 {
                     "id": "skyfallactive",
-                    "chance": 100
-                },
-                {
-                    "id": "skyfalldefeated",
                     "chance": 100
                 }
             ]
@@ -69,6 +69,10 @@
             },
             "linked": [
                 {
+                    "id": "skyfalldefeated",
+                    "chance": 100
+                },
+                {
                     "id": "skyfallabate",
                     "chance": 100
                 },
@@ -79,17 +83,13 @@
                 {
                     "id": "skyfallactive",
                     "chance": 100
-                },
-                {
-                    "id": "skyfalldefeated",
-                    "chance": 100
                 }
             ],
             "alt": [
                 {
                     "id": "skyfalldefeated",
                     "chance": 100
-                }
+                }     
             ]
         },
         {
@@ -109,11 +109,11 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "skyfallactive",
+                    "id": "skyfalldefeated",
                     "chance": 100
                 },
                 {
-                    "id": "skyfalldefeated",
+                    "id": "skyfallactive",
                     "chance": 100
                 }
             ],
@@ -121,7 +121,7 @@
                 {
                     "id": "skyfalldefeated",
                     "chance": 100
-                }
+                }     
             ]
         },
         {
@@ -148,13 +148,13 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "skyfallabate",
+                    "id": "skyfalldefeated",
                     "chance": 100
                 },
                 {
-                    "id": "skyfalldefeated",
+                    "id": "skyfallabate",
                     "chance": 100
-                }
+                }                
             ],
             "ending": "deathbyskyfall",
             "signalEndingFlavour": "Melancholy",
@@ -168,12 +168,10 @@
                 "skyfall_coming": -1
             },
             "effects": {
-                "fleeting": 1,
-                "skyfall_anti": -100,
-                "skyfall_coming": -100
+                "fleeting": 1
             },
             "startdescription": ".",
-            "description": "天灾被我们甩在身后了。",
+            "description": "The wolf skyfall prowls elsewhere. [No Dread empowers this skyfall. It's over, for now.]",
             "craftable": false
         }
     ]
