@@ -128,7 +128,7 @@
             "aspects": {
                 "illsanity": 1
             },
-            "lifetime": 60,
+            "lifetime": 120,
             "decayTo": "sanity",
             "icon": "sanity",
             "xtriggers": {},

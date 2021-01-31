@@ -58,7 +58,7 @@
                 "operator_amiya": 1,
                 "operator_kaltist": 1
             },
-            "warmup": 30,
+            "warmup": 20,
             "craftable": false
         },
         {
@@ -68,7 +68,7 @@
             "requirements": {},
             "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
             "description": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
-            "warmup": 10,
+            "warmup": 20,
             "craftable": false,
             "linked": [
                 {
@@ -91,18 +91,36 @@
             "id": "doctoropenstudy",
             "label": "来了！",
             "actionid": "study_r",
-            "startdescription": "我们抢救出了半张地图……呃，这是地图吧？",
+            "startdescription": "我们抢救出了半张地图……呃，这是地图吧？[研究地图可以获得具体的地点]",
             "effects": {
                 "map_location_rhodes_a": 1
             },
             "warmup": 10,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "doctoropenexplore",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "doctorgaintime",
+            "label": "争取时间！",
+            "actionid": "study_r",
+            "startdescription": "在干员们前往控制中枢的时候，我应该想办法为我们多争取一些时间。[将地点放入探索中可以开始一次探险]",
+            "description": "天无绝人之路。出发吧。",
+            "effects": {
+            },
+            "warmup": 20,
             "craftable": false
         },
         {
             "id": "doctoropenexplore",
             "label": "制订计划",
             "actionid": "explore_r",
-            "startdescription": "情况不甚乐观，罗德岛的内部简直如同废墟。我得从中找到一条可行的道路把干员们送到控制中枢。",
+            "startdescription": "情况不甚乐观，罗德岛的内部简直如同废墟。我得从中找到一条可行的道路把干员们送到控制中枢。[将地点放入探索中可以开始一次探险]",
             "description": "天无绝人之路。出发吧。",
             "effects": {
             },

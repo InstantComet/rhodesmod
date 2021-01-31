@@ -5,7 +5,7 @@
             "label": "和天灾赛跑",
             "actionid": "skyfall",
             "requirements": {},
-            "startdescription": "[累计五个天灾迫近就会死]",
+            "startdescription": "[累计三个天灾迫近就会死]",
             "description": ".",
             "warmup": 60,
             "effects": {
@@ -55,7 +55,7 @@
             "label": "天灾正在接近",
             "actionid": "skyfall",
             "requirements": {
-                "skyfall_coming": 3
+                "skyfall_coming": 2
             },
             "startdescription": "我们必须抓紧时间了。",
             "description": ".",
@@ -110,7 +110,7 @@
             "label": "天灾迫在眉睫",
             "actionid": "skyfall",
             "requirements": {
-                "skyfall_coming": 5
+                "skyfall_coming": 3
             },
             "slots": [
                 {

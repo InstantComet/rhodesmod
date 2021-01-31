@@ -1,6 +1,23 @@
 {
     "recipes": [
         {
+            "id": "study_gaintime",
+            "label": "争取时间",
+            "actionid": "study_r",
+            "requirements": {
+                "fleeting_r": 1
+            },
+            "startdescription": "我试图在记忆中寻找应对天灾的方法。",
+            "description": "应当能争取时间！",
+            "effects": {
+                "fleeting_r": -1,
+                "skyfall_anti": 1
+            },
+            "warmup": 60,
+            "maxexecutions": 1,
+            "craftable": true
+        },
+        {
             "id": "study_rincreasesanitystarter",
             "label": "获得理智技能",
             "actionid": "study_r",

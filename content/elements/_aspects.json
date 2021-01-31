@@ -134,7 +134,7 @@
 			"induces": [
 				{
 					"id": "lanterninduction",
-					"chance": 5
+					"chance": 0
 				}
 			]
 		},
