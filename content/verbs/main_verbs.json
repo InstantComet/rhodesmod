@@ -15,11 +15,8 @@
                     "ritual": 1,
                     "desire": 1,
                     "benefactor": 1,
-                    "ability": 1,
-                    "job": 1,
-                    "ritual": 1,
-                    "desire": 1,
-                    "benefactor": 1
+                    "ext_department": 1,
+                    "bp_ext_department": 1
                 }
             }
         },
@@ -39,7 +36,6 @@
                     "lmfunds": 1,
                     "text": 1,
                     "lore": 1,
-                    "ability": 1,
                     "influence": 1,
                     "tutor": 1,
                     "language": 1,
@@ -60,8 +56,6 @@
                     "lore": 1,
                     "ability": 1,
                     "map": 1,
-                    "text": 1,
-                    "ability": 1,
                     "influence": 1,
                     "tutor": 1,
                     "language": 1,
@@ -124,6 +118,21 @@
             "label": "干员寻访",
 			"icon": "headhunt",
             "description": "罗德岛需要更多的人手，我也一样。",
+            "slot": {
+                "id": "hrtogo",
+                "label": "在哪里",
+                "description": "途径的区域，附近的移动城市，我们在整片大地上寻找志同道合之人。",
+                "required": {
+                    "location": 1
+                },
+                "forbidden": {}                
+            }
+        },
+        {
+            "id": "engineering_r",
+            "label": "展开的罗德岛工程部",
+			"icon": "headhunt",
+            "description": "罗德岛工程部。",
             "slot": {
                 "id": "hrtogo",
                 "label": "在哪里",

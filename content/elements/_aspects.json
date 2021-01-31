@@ -1,6 +1,20 @@
 {
 	"elements": [
 		{
+			"id": "ext_department",
+			"label": "蓝图：额外部门",
+			"description": "额外平台上可以开展更多的工作。",
+			"isAspect": true,
+			"icon": ""
+		},
+		{
+			"id": "bp_ext_department",
+			"label": "蓝图：额外部门",
+			"description": "额外平台上可以开展更多的工作。",
+			"isAspect": true,
+			"icon": ""
+		},
+		{
 			"id": "skyfallmessager",
 			"label": "天灾信使",
 			"description": "就是天灾信使。",
