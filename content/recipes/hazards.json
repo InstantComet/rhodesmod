@@ -5,7 +5,7 @@
             "label": "和天灾赛跑",
             "actionid": "skyfall",
             "requirements": {},
-            "startdescription": "[累计三个天灾迫近就会死]",
+            "startdescription": "我应当想办法争取一些时间！[累计三个天灾迫近就会死]",
             "description": ".",
             "warmup": 60,
             "effects": {

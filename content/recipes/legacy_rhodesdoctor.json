@@ -1,24 +1,23 @@
 {
     "recipes": [
         {
-            "id": "workr_doctorjob",
+            "id": "dreamr_doctorjob",
             "label": "石中之梦",
-            "actionid": "work_r",
+            "actionid": "dream_r",
             "requirements": {
                 "introsanity": 1
             },
-            "effects": {
-                "introsanity": -1,
-                "losesanity": 1
-            },
-            "alt": [
+            "linked": [
                 {
                     "id": "doctoropendream",
-                    "chance": 100,
-                    "additional": true
+                    "chance": 100
                 }
             ],
-            "startdescription": "微热的温度在牵引着我离开这麻木的冰冷的梦境。",
+            "effects": {
+                "introsanity": -1,
+                "fleeting_r": 1
+            },
+            "startdescription": "微热的温度在牵引着我离开这麻木的冰冷的梦境。[将理智入梦可以获得回忆]",
             "description": "我眼前的身影似曾相识……但我什么也记不起来。",
             "warmup": 10,
             "craftable": true
@@ -29,9 +28,9 @@
             "actionid": "dream_r",
             "startdescription": "不协和的音符逃从我的长眠中逃出，撞上头盖骨，又反弹了回来。",
             "description": "不知为何，我的梦里充斥着难以理解的片段和感受。实在是过于喧嚣。",
-            "warmup": 10,
+            "warmup": 20,
             "effects": {
-                "sanity": 1
+                "sanity": 2
             },
             "craftable": false,
             "alt": [
@@ -45,11 +44,16 @@
         {
             "id": "doctorintrotalk",
             "label": "醒时之境",
-            "actionid": "talk_r",
-            "startdescription": "在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。开车的是个看起来心情很不好的女人。",
+            "actionid": "talk_intro",
+            "startdescription": "清醒过来时，我已在车辆的后排座上，开车的是个看起来心情很不好的女人。将我从石棺中唤醒的卡斯特少女简略地说明了一下情况，按照她话里的意思，我们将很快到达“罗德岛”号移动平台。",
             "alt": [
                 {
                     "id": "doctorskyfalla",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "doctoropenstudy",
                     "chance": 100,
                     "additional": true
                 }
@@ -66,7 +70,7 @@
             "label": "天灾迫近",
             "actionid": "skyfall_r",
             "requirements": {},
-            "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
+            "startdescription": "我们刚刚到达，就接到灾难不久后将要降临于此的消息。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
             "description": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
             "warmup": 20,
             "craftable": false,
@@ -78,14 +82,7 @@
             ],
             "effects": {
                 "skyfall_coming": 1
-            },
-            "alt": [
-                {
-                    "id": "doctoropenstudy",
-                    "chance": 100,
-                    "additional": true
-                }
-            ]
+            }
         },
         {
             "id": "doctoropenstudy",
