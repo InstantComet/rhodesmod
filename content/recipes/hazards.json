@@ -17,7 +17,8 @@
                     "label": "天灾迫近",
                     "required": {
                         "skyfall_coming": 1,
-                        "skyfall_anti": 1
+                        "skyfall_anti": 1,
+                        "skyfall_end": 1
                     },
                     "greedy": true,
                     "noanim": true
@@ -26,23 +27,19 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                },
-                {
                     "id": "skyfallwarning",
                     "chance": 100
                 }
             ],
             "linked": [
                 {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                },
-                {
                     "id": "skyfallabate",
                     "chance": 100
                 },
+                {
+                    "id": "skyfall_end",
+                    "chance": 100
+                },          
                 {
                     "id": "skyfalldeath",
                     "chance": 100
@@ -69,13 +66,13 @@
             },
             "linked": [
                 {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                },
-                {
                     "id": "skyfallabate",
                     "chance": 100
                 },
+                {
+                    "id": "skyfall_end",
+                    "chance": 100
+                },          
                 {
                     "id": "skyfalldeath",
                     "chance": 100
@@ -84,12 +81,6 @@
                     "id": "skyfallactive",
                     "chance": 100
                 }
-            ],
-            "alt": [
-                {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                }     
             ]
         },
         {
@@ -109,19 +100,9 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                },
-                {
                     "id": "skyfallactive",
                     "chance": 100
                 }
-            ],
-            "alt": [
-                {
-                    "id": "skyfalldefeated",
-                    "chance": 100
-                }     
             ]
         },
         {
@@ -136,7 +117,8 @@
                     "id": "skyfall_anti",
                     "label": "争取时间",
                     "required": {
-                        "skyfall_anti": 1
+                        "skyfall_anti": 1,
+                        "skyfall_end": 1
                     },
                     "greedy": true
                 }
@@ -148,30 +130,33 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "skyfalldefeated",
+                    "id": "skyfallabate",
                     "chance": 100
                 },
                 {
-                    "id": "skyfallabate",
+                    "id": "skyfall_end",
                     "chance": 100
-                }                
+                }                   
             ],
             "ending": "deathbyskyfall",
             "signalEndingFlavour": "Melancholy",
             "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when skyfall is defeated."
         },
         {
-            "id": "skyfalldefeated",
-            "label": "成功逃离",
+            "id": "skyfall_end",
+            "label": "逃离天灾",
             "actionid": "skyfall",
             "requirements": {
-                "skyfall_coming": -1
+                "skyfall_end": 1
             },
             "effects": {
-                "fleeting": 1
+                "skyfall_anti": -100,
+                "skyfall_coming": -100,
+                "skyfall_end": -100                
             },
-            "startdescription": ".",
-            "description": "The wolf skyfall prowls elsewhere. [No Dread empowers this skyfall. It's over, for now.]",
+            "startdescription": "逃离天灾了",
+            "description": ".",
+            "warmup": 0,
             "craftable": false
         }
     ]

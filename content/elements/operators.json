@@ -1,6 +1,18 @@
 {
     "elements": [
         {
+            "id": "operator_earthspirit",
+            "label": "地灵",
+            "aspects": {
+                "skyfallmessager" :1,
+                "operator": 1,
+                "moth_r": 4,
+                "knock_r": 4,
+                "forge_r": 2
+            },
+            "description": "一般通过天灾信使。"
+        },
+        {
             "id": "operator_amiya",
             "label": "阿米娅",
             "aspects": {
