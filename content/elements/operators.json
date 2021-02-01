@@ -10,7 +10,9 @@
                 "knock_r": 4,
                 "forge_r": 2
             },
-            "description": "一般通过天灾信使。"
+            "description": "一般通过天灾信使。",
+            "icon":"earthspirit",
+            "unique": true
         },
         {
             "id": "operator_amiya",
@@ -21,7 +23,10 @@
                 "knock_r": 4,
                 "forge_r": 2
             },
-            "description": "看起来非常拼命的卡特斯少女。"
+            "description": "看起来非常拼命的卡特斯少女。",
+            "icon":"amiya",
+            "animFrames": 1,
+            "unique": true
         },
         {
             "id": "operator_kaltist",
@@ -31,7 +36,10 @@
                 "grail_r": 4,
                 "lantern_r": 2
             },
-            "description": "不知道为什么，她似乎不怎么乐意出力。"
+            "description": "不知道为什么，她似乎不怎么乐意出力。",
+            "icon":"kaltist",
+            "unique": true
+
         },
         {
             "id": "operator_debug_a",

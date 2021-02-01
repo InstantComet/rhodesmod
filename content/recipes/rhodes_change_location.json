@@ -4,7 +4,7 @@
             "id": "changelocation_todefault",
             "label": "前往荒原的旅程",
             "actionid": "explore_r",
-            "requirements":{
+            "requirements": {
                 "terra_location": 1,
                 "map_location_default": 1
             },
@@ -12,18 +12,19 @@
                 "skyfall_end": 1,
                 "location_defaults": 1,
                 "terra_location": -1,
-                "map_location_default": -1                
+                "map_location_default": -1,
+                "office_kaltist": 1
             },
             "warmup": 20,
             "startdescription": "旅途漫漫。",
             "description": "我们抵达了目的地。",
-            "craftable": true   
+            "craftable": true
         },
         {
             "id": "changelocation_tocolumbia",
             "label": "移动到哥伦比亚",
             "actionid": "explore_r",
-            "requirements":{
+            "requirements": {
                 "location_columbia": -1,
                 "terra_location": 1,
                 "map_location_columbia": 1,
@@ -42,7 +43,7 @@
             "id": "changelocation_torim_ready",
             "label": "前往雷姆必拓的旅程",
             "actionid": "explore_r",
-            "requirements":{
+            "requirements": {
                 "location_rim": -1,
                 "terra_location": 1,
                 "map_location_rim": 1,
@@ -61,7 +62,7 @@
             "id": "changelocation_torim_pre",
             "label": "移动到雷姆必拓",
             "actionid": "explore_r",
-            "requirements":{
+            "requirements": {
                 "terra_location": 1,
                 "location_rim": -1,
                 "map_location_rim": 1
@@ -75,7 +76,7 @@
             "id": "changelocation_setup",
             "label": "移动罗德岛的位置",
             "actionid": "explore_r",
-            "requirements":{
+            "requirements": {
                 "terra_location": 1
             },
             "startdescription": "我还需要指定一个目的地。",

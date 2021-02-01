@@ -1,6 +1,16 @@
 {
     "elements": [
         {
+            "id": "genericjob",
+            "label": "罗德岛上的杂务",
+            "aspects": {
+                "job": 1
+            },
+            "description": "总之就是打杂。",
+            "xtriggers": {
+            }
+        },
+        {
             "id": "gloverandgloverjuniorjob",
             "label": "Junior Position at Glover & Glover",
             "aspects": {

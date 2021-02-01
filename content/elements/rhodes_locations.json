@@ -1,6 +1,15 @@
 {
     "elements": [
         {
+            "id": "office_kaltist",
+            "label": "凯尔希的办公室",
+            "description": "凯尔希的办公室。",
+            "aspects": {
+                "location": 1
+            }, 
+            "unique": true
+        },
+        {
             "id": "bp_ext_platform_messager",
             "label": "罗德岛外勤部",
             "description": "在罗德岛保持停止时可以展开的额外作业平台，提供一个基础verb。",

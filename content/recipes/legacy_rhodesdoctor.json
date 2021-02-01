@@ -133,6 +133,62 @@
             "description": ".",
             "warmup": 10,
             "craftable": false
-        }        
+        },
+        {
+            "id": "goto_office_kaltist",
+            "label": "回应凯尔希的传唤",
+            "actionid": "explore_r",
+            "startdescription": "凯尔希把我叫到了她刚收拾出来作为办公室的地方，她有什么打算？",
+            "description": "天无绝人之路。出发吧。",
+            "requirements": {
+                "office_kaltist": 1
+            },
+            "effects":{
+                "office_kaltist": -1
+            },
+            "warmup": 20,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "doctoropentalk",
+            "label": "凯尔希的传唤",
+            "actionid": "talk_r",
+            "startdescription": "她有什么打算？",
+            "description": "“给你点钱，以后你就要自力更生，该打工了”。凯尔希甚至没有看我一眼。",
+            "requirements": {},
+            "alt": [
+                {
+                    "id": "doctoropenwork",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "lmfunds": 5,
+                "genericjob": 1
+            },
+            "warmup": 20,
+            "craftable": false,
+            "maxexecutions": 1
+        },
+        {
+            "id": "doctoropenwork",
+            "label": "开始工作",
+            "actionid": "work_r",
+            "startdescription": "阿米娅带领我大致认识了罗德岛内部。",
+            "description": "天无绝人之路。出发吧。",
+            "effects": {
+                "lmfunds":2
+            },
+            "warmup": 20,
+            "craftable": false
+        }
     ]
 }
