@@ -18,6 +18,25 @@
             ]
         },
         {
+            "id": "map_location_lungmen",
+            "label": "位置：龙门",
+            "description": "龙门移动城市的位置，几分钟之前更新。",
+            "aspects": {
+                "map": 1
+            },
+            "lifetime": 180,
+            "slots": [
+                {
+                    "id": "Cost",
+                    "label": "花费",
+                    "required": {
+                        "lmfunds": 20
+                    },
+                    "consumes": true
+                }
+            ]
+        },
+        {
             "id": "map_location_default",
             "label": "位置：空无一物的荒原",
             "description": "目的地并不重要，我们需要的是尽快离开。",
@@ -38,7 +57,7 @@
                     "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "ingredient": 1
+                        "lmfunds": 1
                     },
                     "consumes": true
                 }
@@ -57,7 +76,7 @@
                     "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "ingredient": 1
+                        "lmfunds": 1
                     },
                     "consumes": true
                 }

@@ -16,7 +16,8 @@
                     "desire": 1,
                     "benefactor": 1,
                     "ext_department": 1,
-                    "bp_ext_department": 1
+                    "bp_ext_department": 1,
+                    "lmfunds": 1
                 },
                 "forbidden": {
                     "sanityskill": 1

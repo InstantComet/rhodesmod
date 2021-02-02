@@ -34,12 +34,39 @@
                     }
                 },
                 {
-                    "id": "Cost",
-                    "label": "花费",
+                    "id": "lmfunds",
+                    "label": "资金",
                     "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
                 }
             ],
             "unique": true
@@ -64,7 +91,7 @@
                     "id": "Cost",
                     "label": "花费",
                     "required": {
-                        "ingredient": 1
+                        "lmfunds": 1
                     },
                     "consumes": true
                 }

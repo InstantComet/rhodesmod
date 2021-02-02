@@ -158,7 +158,12 @@
                     "id": "doctoropenwork",
                     "chance": 100,
                     "additional": true
-                }
+                },
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100,
+                    "additional": true
+                },
             ],
             "effects": {
                 "lmfunds": 5,
@@ -188,7 +193,10 @@
             "startdescription": "我学习干员寻访。",
             "description": ".",
             "warmup": 10,
-            "craftable": true
+            "craftable": true,
+            "effects": {
+                "operator_earthspirit":1
+            }
         }
     ]
 }

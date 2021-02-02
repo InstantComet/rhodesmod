@@ -8,7 +8,7 @@
                 "sanity": 1
             },
             "effects": {
-                "lmfunds": 4,
+                "lmfunds": 2,
                 "losesanity": 1
             },
             "startdescription": "我拿起吸尘器。",
@@ -24,7 +24,7 @@
                 "sanity": -1
             },
             "effects": {
-                "lmfunds": 2,
+                "lmfunds": 1,
                 "losesanity": 1
             },
             "startdescription": "我拿起吸尘器。",
@@ -64,6 +64,7 @@
                 {
                     "id": "needlmfunds",
                     "label": "理智",
+                    "description": "放进理智提高收益。",
                     "required": {
                         "sanity": 1
                     }
@@ -71,7 +72,7 @@
             ],
             "startdescription": "我拿起吸尘器。",
             "description": "投入理智可以更好地打杂。",
-            "warmup": 10,
+            "warmup": 20,
             "craftable": false,
             "linked": [
                 {
@@ -108,7 +109,7 @@
                 "sanity": 1
             },
             "effects": {
-                "lmfunds": 2
+                "lmfunds": 1
             },
             "startdescription": "我拿起笤帚。",
             "description": "我也不知道我为什么在这里打杂。",

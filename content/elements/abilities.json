@@ -78,6 +78,14 @@
             "icon": "sanity"
         },
         {
+            "id": "lmfunds_b",
+            "label": "大额龙门币",
+            "aspects": {
+                "currency": 1
+            },
+            "description": "龙门发行的货币。用途多种，流通广泛。而且不经常贬值。"
+        },
+        {
             "id": "lmfunds",
             "label": "龙门币",
             "aspects": {

@@ -1,6 +1,26 @@
 {
     "recipes": [
         {
+            "id": "changelocation_tolungmen",
+            "label": "前往龙门的旅程",
+            "actionid": "explore_r",
+            "requirements": {
+                "terra_location": 1,
+                "map_location_lungmen": 1,
+                "lmfunds":8
+            },
+            "effects": {
+                "terra_location": -1,
+                "map_location_lungmen": -1
+            },
+            "warmup": 20,
+            "ending": "arrivelungmen",
+            "signalEndingFlavour":"Grand",
+            "startdescription": "旅途漫漫。",
+            "description": "我们抵达了目的地。",
+            "craftable": true
+        },
+        {
             "id": "changelocation_todefault",
             "label": "前往荒原的旅程",
             "actionid": "explore_r",
