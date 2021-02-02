@@ -8,6 +8,24 @@
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",
             "achievement": ""
+        },
+        {
+            "id": "deathbynolmfunds",
+            "label": "死于没钱",
+            "description": "我被凯尔希扫地出门。",
+            "image": "suninrags",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil",
+            "achievement": ""
+        },
+        {
+            "id": "arrivelungmen",
+            "label": "抵达龙门",
+            "description": "抵达龙门，感谢游玩。",
+            "image": "suninrags",
+            "flavour": "Grand",
+            "anim": "DramaticLightCool",
+            "achievement": ""
         }
     ]
 }

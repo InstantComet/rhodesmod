@@ -125,16 +125,6 @@
             "craftable": false
         },
         {
-            "id": "doctoropenheadhunt",
-            "label": "学习干员寻访",
-            "actionid": "headhunt_r",
-            "requirements": {},
-            "startdescription": "我学习干员寻访。",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false
-        },
-        {
             "id": "goto_office_kaltist",
             "label": "回应凯尔希的传唤",
             "actionid": "explore_r",
@@ -203,6 +193,22 @@
             "startdescription": "开始打杂。",
             "description": "我也不知道为什么自己会在这里打杂。 ",
             "warmup": 60,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "doctoropenheadhunt",
+            "label": "学习干员寻访",
+            "actionid": "headhunt_r",
+            "requirements": {},
+            "startdescription": "我学习干员寻访。",
+            "description": ".",
+            "warmup": 10,
             "craftable": true
         }
     ]

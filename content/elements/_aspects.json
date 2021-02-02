@@ -80,12 +80,6 @@
 			"label": "原料",
 			"isAspect": true,
 			"description": "燃料、药膏、颜料以及耐心：全都随时间耗减。",
-			"induces": [
-				{
-					"id": "needs",
-					"chance": 100
-				}
-			],
 			"comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
 		},
 		{
@@ -370,11 +364,11 @@
 			"isAspect": true,
 			"description": "An arrangement to exchange one's life for money.",
 			"induces": [
-				{
-					"id": "needs",
-					"chance": 100
-				}
-			]
+                {
+                    "id": "needs_r",
+                    "chance": 100
+                }
+            ]
 		},
 		{
 			"id": "dance",

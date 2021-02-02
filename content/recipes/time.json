@@ -19,6 +19,10 @@
             "label": "时间流逝",
             "actionId": "time",
             "requirements": {},
+            "extantreqs": {
+                "sanity": -1,
+                "losesanity":-1
+            },
             "alternativerecipes": [
                 {
                     "id": "forlornbloodsickness",
@@ -138,8 +142,7 @@
                     "id": "Affliction",
                     "label": "健康",
                     "required": {
-         
-		                "health": 1,
+                        "health": 1,
                         "follower_wound": 1,
                         "fatigue": 1
                     },

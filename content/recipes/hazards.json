@@ -4,14 +4,6 @@
             "id": "skyfall_end_force_execute",
             "label": "逃离天灾（强制）",
             "actionid": "forceendskyfall",
-            "haltverb": {
-                "skyfall*": 100
-            },
-            "purge": {
-                "skyfall_anti": 100,
-                "skyfall_coming": 100,
-                "skyfall_end": 100
-            },
             "deleteverb": {
                 "skyfall*": 100
             },
@@ -133,8 +125,7 @@
                     "id": "skyfall_anti",
                     "label": "争取时间",
                     "required": {
-                        "skyfall_anti": 1,
-                        "skyfall_end": 1
+                        "skyfall_anti": 1
                     },
                     "greedy": true
                 }

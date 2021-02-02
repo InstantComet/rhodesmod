@@ -7,6 +7,7 @@
                 "sky.internal": -100
             },
             "animFrames": 1,
+            "lifetime":30,
             "description": "彻底远离危险。",
             "icon": "skyfall_anti"
         },
@@ -16,6 +17,7 @@
             "aspects": {
             },
             "animFrames": 1,
+            "lifetime":30,
             "description": "危险稍微远离。",
             "icon": "skyfall_anti"
         },

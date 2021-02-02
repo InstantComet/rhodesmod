@@ -9,7 +9,6 @@
                 "map_location_default": 1
             },
             "effects": {
-                "skyfall_end": 1,
                 "location_defaults": 1,
                 "terra_location": -1,
                 "map_location_default": -1,
