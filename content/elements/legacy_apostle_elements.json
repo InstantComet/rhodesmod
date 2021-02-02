@@ -14,7 +14,7 @@
             "label": "A Favoured Place",
             "description": "For so long I waited at the left hand of our Shaper. Now the time has come for me to lead the Great Work.",
             "aspects": {
-                "job": 1
+                "job_r": 1
             },
             "icon": "apostleforge.pillar1"
         },
@@ -127,7 +127,7 @@
             "label": "Duty and Delight",
             "description": "Our Delight saved me from death, and also from boredom. We shall give them everything.",
             "aspects": {
-                "job": 1
+                "job_r": 1
             },
             "icon": "apostlegrail.pillar1"
         },
@@ -186,7 +186,7 @@
             "description": "The Spices and Savouries department of the eccentric firm of T.R.N. Ltd caters to endeavours such as ours. They have supplied these tempting adornments, with which we shall bedizen and prepare ourselves... once they have been correctly prepared in a sealed and darkened kitchen.",
             "aspects": {
                 "ingredient": 1,
-                "job": 1,
+                "job_r": 1,
                 "grail_r": 2
             }
         },
@@ -315,7 +315,7 @@
             "label": "The First Dream",
             "description": "The dreams have hollowed me out like a withered oak, and now I am almost ready.",
             "aspects": {
-                "job": 1
+                "job_r": 1
             },
             "icon": "apostlelantern.pillar1"
         },

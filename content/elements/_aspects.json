@@ -1,6 +1,12 @@
 {
 	"elements": [
 		{
+			"id": "job_r",
+			"label": "job_r",
+			"isAspect": true,
+			"description": "打工挣钱。"
+		},
+		{
 			"id": "ext_department",
 			"label": "蓝图：额外部门",
 			"description": "额外平台上可以开展更多的工作。",
@@ -359,8 +365,8 @@
 			"description": "The mark of greatness? [In the right circumstances, this follower might become even more powerful.]"
 		},
 		{
-			"id": "job",
-			"label": "job",
+			"id": "job_r",
+			"label": "job_r",
 			"isAspect": true,
 			"description": "An arrangement to exchange one's life for money.",
 			"induces": [

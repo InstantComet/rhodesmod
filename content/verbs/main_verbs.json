@@ -10,8 +10,8 @@
                 "label": "work_r",
                 "description": "Something I can do; something I know; or something I am.",
                 "required": {
-                    "ability": 1,
-                    "job": 1,
+                    "ability_r": 1,
+                    "job_r": 1,
                     "ritual": 1,
                     "desire": 1,
                     "benefactor": 1,

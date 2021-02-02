@@ -74,7 +74,7 @@
             "description": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
             "warmup": 20,
             "craftable": false,
-            "linked": [
+            "alt": [
                 {
                     "id": "skyfallactive",
                     "chance": 100
@@ -189,6 +189,21 @@
             },
             "warmup": 20,
             "craftable": false
+        },
+        {
+            "id": "sanitywork_1",
+            "label": "在罗德岛打杂",
+            "actionid": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanity": 1
+            },
+            "effects": {
+            },
+            "startdescription": "开始打杂。",
+            "description": "我也不知道为什么自己会在这里打杂。 ",
+            "warmup": 60,
+            "craftable": true
         }
     ]
 }

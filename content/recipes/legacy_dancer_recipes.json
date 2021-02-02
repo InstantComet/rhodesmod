@@ -278,7 +278,7 @@
             },
             "mutations": [
                 {
-                    "filter": "job",
+                    "filter": "job_r",
                     "mutate": "potentialbenefactorm",
                     "level": -1
                 }
@@ -308,7 +308,7 @@
             },
             "mutations": [
                 {
-                    "filter": "job",
+                    "filter": "job_r",
                     "mutate": "potentialbenefactorf",
                     "level": -1
                 }
@@ -338,7 +338,7 @@
             },
             "mutations": [
                 {
-                    "filter": "job",
+                    "filter": "job_r",
                     "mutate": "potentialecdysiast",
                     "level": -1
                 }

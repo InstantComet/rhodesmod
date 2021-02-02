@@ -113,7 +113,7 @@
             "description": "你的全部。",
             "icon": "sanity",
             "xtriggers": {
-                "job": [
+                "job_r": [
                     {
                         "id": "losesanity"
                     }
@@ -196,7 +196,7 @@
                 "destroyhealth": "decrepitude",
                 "fatiguing": "fatigue",
                 "employment": "fatigue",
-                "job": "fatigue",
+                "job_r": "fatigue",
                 "ritual": "fatigue",
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
@@ -399,7 +399,7 @@
                 "damagereason": "dread",
                 "fatiguing": "concentration",
                 "employment": "concentration",
-                "job": "concentration",
+                "job_r": "concentration",
                 "topassion": "passion",
                 "ritual": "concentration",
                 "society": "concentration",
@@ -526,7 +526,7 @@
                 "plead": "disillusionment",
                 "fatiguing": "passionexhausted",
                 "employment": "passionexhausted",
-                "job": "passionexhausted",
+                "job_r": "passionexhausted",
                 "toreason": "reason",
                 "ritual": "passionexhausted",
                 "society": "passionexhausted"
@@ -842,7 +842,7 @@
                 "scar": 1
             },
             "xtriggers": {
-                "job": "scar_heart_fatigued",
+                "job_r": "scar_heart_fatigued",
                 "employment": "scar_heart_fatigued",
                 "ritual": "scar_heart_fatigued"
             }
@@ -865,7 +865,7 @@
                 "scar": 1
             },
             "xtriggers": {
-                "job": "scar_moth_fatigued",
+                "job_r": "scar_moth_fatigued",
                 "employment": "scar_moth_fatigued",
                 "ritual": "scar_moth_fatigued"
             }
