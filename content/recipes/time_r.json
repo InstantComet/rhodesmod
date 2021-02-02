@@ -6,7 +6,7 @@
             "deleteverb": {
                 "needs": 100
             },
-            "actionId": "timegoesverb_r",
+            "actionId": "time_r",
             "requirements": {},
             "effects": {
                 "lmfunds": -1
@@ -41,7 +41,7 @@
         {
             "id": "nolumfunds_recover",
             "label": "弄到了一点龙门币",
-            "actionid": "timegoesverb_r",
+            "actionid": "time_r",
             "requirements": {
                 "lmfunds": 1
             },
@@ -60,7 +60,7 @@
         {
             "id": "nolmfunds_end",
             "label": "怀疑",
-            "actionId": "timegoesverb_r",
+            "actionId": "time_r",
             "extantreqs": {
                 "lmfunds": -1
             },
