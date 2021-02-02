@@ -30,7 +30,7 @@
             "description": "不知为何，我的梦里充斥着难以理解的片段和感受。实在是过于喧嚣。",
             "warmup": 20,
             "effects": {
-                "sanity": 2
+                "sanity": 1
             },
             "craftable": false,
             "alt": [
@@ -92,7 +92,7 @@
             "effects": {
                 "map_location_rhodes_a": 1
             },
-            "warmup": 10,
+            "warmup": 20,
             "craftable": false,
             "alt": [
                 {
@@ -108,8 +108,7 @@
             "actionid": "study_r",
             "startdescription": "在干员们前往控制中枢的时候，我应该想办法为我们多争取一些时间。[将地点放入探索中可以开始一次探险]",
             "description": "天无绝人之路。出发吧。",
-            "effects": {
-            },
+            "effects": {},
             "warmup": 20,
             "craftable": false
         },
@@ -120,8 +119,9 @@
             "startdescription": "情况不甚乐观，罗德岛的内部简直如同废墟。我得从中找到一条可行的道路把干员们送到控制中枢。[将地点放入探索中可以开始一次探险]",
             "description": "天无绝人之路。出发吧。",
             "effects": {
+                "sanity": 1
             },
-            "warmup": 20,
+            "warmup": 30,
             "craftable": false
         },
         {
@@ -133,7 +133,7 @@
             "requirements": {
                 "office_kaltist": 1
             },
-            "effects":{
+            "effects": {
                 "office_kaltist": -1
             },
             "warmup": 20,
@@ -185,7 +185,7 @@
             "startdescription": "阿米娅带领我大致认识了罗德岛内部。",
             "description": "告别的时候，阿米娅偷偷在我的手里塞了一点龙门币。",
             "effects": {
-                "lmfunds":1
+                "lmfunds": 1
             },
             "warmup": 20,
             "craftable": false
@@ -200,7 +200,7 @@
             "warmup": 10,
             "craftable": true,
             "effects": {
-                "operator_earthspirit":1
+                "operator_earthspirit": 1
             }
         }
     ]

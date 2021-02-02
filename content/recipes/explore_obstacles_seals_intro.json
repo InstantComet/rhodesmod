@@ -3,23 +3,12 @@
         {
             "id": "explorevaultseal_hiddendoor_encounter_intro",
             "actionid": "explore_r",
-            "label": "A Hidden Door",
-            "startdescription": "There must be a door here. But without Lantern or Knock, we can't uncover it.",
+            "label": "暗门",
+            "startdescription": "按照地图，这里一定有一扇门，但我们需要“灯”或“启”属性才能开启它。",
             "requirements": {
                 "seal_hiddendoor_intro": 1
             },
-            "slots": [
-                {
-                    "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
-                    "required": {
-                        "operator": 1,
-                        "lmfunds": 1
-                    }
-                }
-            ],
-            "alt": [
+            "linked": [
                 {
                     "id": "explorevaultseal_hiddendoor_highknock_intro",
                     "chance": 100

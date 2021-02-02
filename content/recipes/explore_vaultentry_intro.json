@@ -22,17 +22,7 @@
             "comments": "Can't reach success until all the alternatives are unavailable. That means no obstacles, >0 followers and >0 funds.",
             "label": "继续推进",
             "actionid": "explore_r",
-            "slots": [
-                {
-                    "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will defeat obstacles.",
-                    "required": {
-                        "operator": 1
-                    }
-                }
-            ],
-            "startdescription": "如果这令人费解的地图（或者说，示意图）没有出错的话，我们应该很快就能抵达目的地了。至少我们又前进了一步。我可以趁这一短暂休息的空档给探索员们送一些工具和物资，或者再派遣一位干员提供帮助。",
+            "startdescription": "如果这令人费解的地图（或者说，示意图）没有出错的话，我们应该很快就能抵达目的地了。至少我们又前进了一步。[我可以趁这一短暂休息的空档给探索员们送一些工具和物资，或者再派遣一位干员提供帮助。]",
             "description": ".",
             "warmup": 10,
             "alt": [
