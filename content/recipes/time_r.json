@@ -1,14 +1,17 @@
 {
     "recipes": [
         {
-            "id": "needs_r",
+            "id": "timegoes_r",
             "label": "时间流逝",
-            "actionId": "time_r",
+            "deleteverb": {
+                "needs": 100
+            },
+            "actionId": "timegoesverb_r",
             "requirements": {},
             "effects": {
                 "lmfunds": -1
             },
-            "startdescription": "时间，随着日晷之影流逝着。我需要资金来维系生活，否则我被赶走。",
+            "startdescription": "时间流动",
             "description": ".",
             "warmup": 60,
             "slots": [
@@ -29,7 +32,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "needs_r",
+                    "id": "timegoes_r",
                     "chance": 100
                 }
             ],
@@ -38,7 +41,7 @@
         {
             "id": "nolumfunds_recover",
             "label": "弄到了一点龙门币",
-            "actionid": "time_r",
+            "actionid": "timegoesverb_r",
             "requirements": {
                 "lmfunds": 1
             },
@@ -57,7 +60,7 @@
         {
             "id": "nolmfunds_end",
             "label": "怀疑",
-            "actionId": "time_r",
+            "actionId": "timegoesverb_r",
             "extantreqs": {
                 "lmfunds": -1
             },

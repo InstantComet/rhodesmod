@@ -83,7 +83,7 @@
             "aspects": {
                 "currency": 1
             },
-            "description": "龙门发行的货币。用途多种，流通广泛。而且不经常贬值。"
+            "description": "龙门发行的货币。用途多种，流通广泛。而且保值。"
         },
         {
             "id": "lmfunds",
@@ -91,7 +91,7 @@
             "aspects": {
                 "currency": 1
             },
-            "description": "龙门发行的货币。用途多种，流通广泛。而且不经常贬值。"
+            "description": "龙门发行的货币。用途多种，流通广泛。而且保值。"
         },
         {
             "id": "originium",
@@ -116,7 +116,6 @@
             "label": "理智",
             "aspects": {
                 "lantern_r": 2,
-                "ingredient": 1,
                 "ability_r": 1
             },
             "animFrames": 1,

@@ -180,13 +180,6 @@
 			"icon": "disaster"
 		},
 		{
-			"id": "venerationtheresa",
-			"label": "崇敬：特蕾西娅",
-			"description": "该组织崇敬特蕾西娅之准则，我们以无罪女王之名贯彻她的遗志。",
-			"isAspect": true,
-			"icon": "venerationtheresa"
-		},
-		{
 			"id": "gift",
 			"label": "礼物",
 			"description": "也许可以展现诚意。",
@@ -357,18 +350,6 @@
 			"label": "Potential",
 			"isAspect": true,
 			"description": "The mark of greatness? [In the right circumstances, this follower might become even more powerful.]"
-		},
-		{
-			"id": "job_r",
-			"label": "job_r",
-			"isAspect": true,
-			"description": "An arrangement to exchange one's life for money.",
-			"induces": [
-                {
-                    "id": "needs_r",
-                    "chance": 100
-                }
-            ]
 		},
 		{
 			"id": "dance",

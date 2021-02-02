@@ -112,15 +112,6 @@
             }
         },
         {
-            "id": "time_r",
-            "label": "Time",
-            "description": "The sundial's shadow.",
-            "slot": {
-                "id": "time_r",
-                "label": "Time"
-            }
-        },
-        {
             "id": "headhunt_r",
             "label": "干员寻访",
             "icon": "headhunt",

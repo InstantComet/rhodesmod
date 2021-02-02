@@ -67,6 +67,27 @@
                     "required": {
                         "lmfunds": 1
                     }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
+                },
+                {
+                    "id": "lmfunds",
+                    "label": "资金",
+                    "required": {
+                        "lmfunds": 1
+                    }
                 }
             ],
             "unique": true

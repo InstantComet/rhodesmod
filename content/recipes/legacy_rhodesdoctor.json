@@ -151,7 +151,7 @@
             "label": "凯尔希的传唤",
             "actionid": "talk_r",
             "startdescription": "她有什么打算？",
-            "description": "“给你点钱，以后你就要自力更生，该打工了”。凯尔希甚至没有看我一眼。",
+            "description": "“给你点钱，以后你就要自力更生，去打工吧”。凯尔希甚至没有看我一眼。",
             "requirements": {},
             "alt": [
                 {
@@ -164,9 +164,14 @@
                     "chance": 100,
                     "additional": true
                 },
+                {
+                    "id": "timegoes_r",
+                    "chance": 100,
+                    "additional": true
+                }
             ],
             "effects": {
-                "lmfunds": 5,
+                "lmfunds": 2,
                 "genericjob": 1
             },
             "warmup": 20,
@@ -178,9 +183,9 @@
             "label": "开始工作",
             "actionid": "work_r",
             "startdescription": "阿米娅带领我大致认识了罗德岛内部。",
-            "description": "天无绝人之路。出发吧。",
+            "description": "告别的时候，阿米娅偷偷在我的手里塞了一点龙门币。",
             "effects": {
-                "lmfunds":2
+                "lmfunds":1
             },
             "warmup": 20,
             "craftable": false
