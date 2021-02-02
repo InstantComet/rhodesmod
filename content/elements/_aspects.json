@@ -159,7 +159,7 @@
 			"icon": "winter"
 		},
 		{
-			"id": "ability",
+			"id": "ability_r",
 			"label": "能力",
 			"isAspect": true,
 			"description": "对我来说，就是使用理智的才能。",

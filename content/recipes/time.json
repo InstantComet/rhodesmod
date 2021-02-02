@@ -16,12 +16,13 @@
         },
         {
             "id": "needs",
-            "label": "时间流逝",
+            "label": "时间流逝（原版）",
             "actionId": "time",
             "requirements": {},
             "extantreqs": {
                 "sanity": -1,
-                "losesanity":-1
+                "losesanity":-1,
+                "operator_amiya": -1
             },
             "alternativerecipes": [
                 {

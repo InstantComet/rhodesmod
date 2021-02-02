@@ -1,17 +1,117 @@
 {
     "recipes": [
         {
-            "id": "work_genericjob",
-            "label": "在罗德岛打杂",
+            "id": "work_commandjob_c1",
+            "label": "在罗德岛打杂（高级）后半",
             "actionId": "work_r",
             "requirements": {
                 "sanity": 1
             },
             "effects": {
+                "lmfunds": 4,
+                "losesanity": 1
+            },
+            "startdescription": "我拿起吸尘器。",
+            "description": "我也不知道我为什么在这里打杂。",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "work_commandjob_c2",
+            "label": "在罗德岛打杂（高级）半途而废",
+            "actionId": "work_r",
+            "requirements": {
+                "sanity": -1
+            },
+            "effects": {
+                "lmfunds": 2,
+                "losesanity": 1
+            },
+            "startdescription": "我拿起吸尘器。",
+            "description": "打杂的水平不行。",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "work_commandjob_b2",
+            "label": "在罗德岛打杂（高级）中段",
+            "actionId": "work_r",
+            "requirements": {},
+            "startdescription": "我拿起吸尘器。",
+            "description": "投入理智可以更好地打杂。",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "work_commandjob_c1",
+                    "chance": 100
+                },
+                {
+                    "id": "work_commandjob_c2",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_commandjob_b",
+            "label": "在罗德岛打杂（高级）前半",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanityskill": 1
+            },
+            "slots": [
+                {
+                    "id": "needlmfunds",
+                    "label": "理智",
+                    "required": {
+                        "sanity": 1
+                    }
+                }
+            ],
+            "startdescription": "我拿起吸尘器。",
+            "description": "投入理智可以更好地打杂。",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "work_commandjob_b2",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_commandjob_a",
+            "label": "在罗德岛打杂（高级）开始",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanityskill": 1
+            },
+            "startdescription": "我拿起吸尘器。",
+            "description": "投入理智可以更好地打杂。",
+            "warmup": 10,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "work_commandjob_b",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_genericjob",
+            "label": "在罗德岛打杂",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanity": 1
+            },
+            "effects": {
                 "lmfunds": 2
             },
-            "startdescription": "找一份不劳身，但未必不劳神的工作。",
-            "description": "格洛弗父子公司为我提供了一个高层职位。明早八点整我就得来上班！",
+            "startdescription": "我拿起笤帚。",
+            "description": "我也不知道我为什么在这里打杂。",
             "warmup": 10,
             "craftable": true
         },

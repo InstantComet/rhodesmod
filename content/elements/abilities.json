@@ -71,7 +71,7 @@
             "label": "理智",
             "aspects": {
                 "lantern_r": 2,
-                "ability": 1
+                "ability_r": 1
             },
             "animFrames": 1,
             "description": "你的全部。",
@@ -109,18 +109,11 @@
             "aspects": {
                 "lantern_r": 2,
                 "ingredient": 1,
-                "ability": 1
+                "ability_r": 1
             },
             "animFrames": 1,
             "description": "你的全部。",
-            "icon": "sanity",
-            "xtriggers": {
-                "job_r": [
-                    {
-                        "id": "losesanity"
-                    }
-                ]
-            }
+            "icon": "sanity"
         },
         {
             "id": "losesanity",
@@ -190,7 +183,7 @@
             "aspects": {
                 "heart_r": 2,
                 "ingredient": 1,
-                "ability": 1
+                "ability_r": 1
             },
             "xtriggers": {
                 "damagehealth": "injury",
@@ -394,7 +387,7 @@
             "aspects": {
                 "lantern_r": 2,
                 "ingredient": 1,
-                "ability": 1
+                "ability_r": 1
             },
             "description": "'No live organism can continue for long to exist sanely under conditions of absolute reality.' - Shirley Jackson\n\n[With Erudition, you can Study to gain more Reason.]",
             "xtriggers": {
@@ -520,7 +513,7 @@
             "aspects": {
                 "moth_r": 2,
                 "ingredient": 1,
-                "ability": 1
+                "ability_r": 1
             },
             "description": "'Dull minds are never either intuitive or mathematical.' - Blaise Pascal\n\n[With enough Glimmering, you can Study to gain more Passion.]",
             "xtriggers": {
@@ -539,7 +532,7 @@
             "label": "Decrepitude",
             "description": "Some wounds never quite heal. [Untreated Injuries and Hunger become Decrepitude, which does not return to Health. Decrepitude remains until you die.]",
             "aspects": {
-                "ability": 1,
+                "ability_r": 1,
                 "winter_r": 1,
                 "remnant": 1
             },

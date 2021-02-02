@@ -6,7 +6,7 @@
             "icon": "skillsanity",
             "aspects": {
                 "sanityskill": 1,
-                "ability": 1
+                "ability_r": 1
             },
             "description": "我曾经到过这里——[与两个“汹涌嘈杂”一起使用可唤回更多理智。]",
             "slots": [
@@ -29,6 +29,15 @@
                     "consumes": true,
                     "description": "要回忆起更多的战斗吗？",
                     "actionId": "study_r"
+                },
+                {
+                    "id": "W1",
+                    "label": "需要理智",
+                    "required": {
+                        "sanity": 1
+                    },
+                    "description": "进阶的工作",
+                    "actionId": "work_r"
                 }
             ],
             "xtriggers": {
@@ -45,7 +54,7 @@
             },
             "aspects": {
                 "sanityskill": 2,
-                "ability": 1
+                "ability_r": 1
             },
             "slots": [
                 {
@@ -77,6 +86,15 @@
                     "consumes": true,
                     "description": "我还能进一步学习吗？",
                     "actionId": "study_r"
+                },
+                {
+                    "id": "W1",
+                    "label": "需要理智",
+                    "required": {
+                        "sanity": 1
+                    },
+                    "description": "进阶的工作",
+                    "actionId": "work_r"
                 }
             ]
         },
@@ -87,7 +105,7 @@
             "description": "我想起了太多东西，以至于令我怀疑是我唤起了回忆，还是回忆唤起了我。[与四个“汹涌嘈杂”一起使用可唤回更多理智。]",
             "aspects": {
                 "sanityskill": 3,
-                "ability": 1
+                "ability_r": 1
             },
             "slots": [
                 {
@@ -138,6 +156,15 @@
                     "consumes": true,
                     "description": "我能将理智磨砺得更加锋锐吗？",
                     "actionId": "study_r"
+                },
+                {
+                    "id": "W1",
+                    "label": "需要理智",
+                    "required": {
+                        "sanity": 1
+                    },
+                    "description": "进阶的工作",
+                    "actionId": "work_r"
                 }
             ]
         },
@@ -147,7 +174,7 @@
             "description": "“已有的事后必再有；已行的事后必再行。日光之下并无新事。”［我已唤起了全部的理智。］",
             "aspects": {
                 "sanityskill": 4,
-                "ability": 1
+                "ability_r": 1
             },
             "icon": "skillsanity"
         },
@@ -157,7 +184,7 @@
             "description": "“实不相瞒，我觉得她的一生已经结束了…他脸上带着一种不近人情得镇静，它只能表示这人知道他的一生已经结束，只等肉体得衰败来证实那终局。”[我已唤回了全部理智。]",
             "aspects": {
                 "sanityskill": 4,
-                "ability": 1
+                "ability_r": 1
             },
             "icon": "skillsanity"
         }

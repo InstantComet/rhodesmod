@@ -13,7 +13,8 @@
                     "label": "工作",
                     "actionid": "work_r",
                     "required": {
-                        "sanity": 1
+                        "sanity": 1,
+                        "sanityskill": 1
                     },
                     "description": "Extra effort. It might help, if I'm very lucky."
                 }

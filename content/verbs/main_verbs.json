@@ -17,6 +17,9 @@
                     "benefactor": 1,
                     "ext_department": 1,
                     "bp_ext_department": 1
+                },
+                "forbidden": {
+                    "sanityskill": 1
                 }
             }
         },
@@ -29,7 +32,7 @@
                 "label": "dream_r",
                 "description": "A direction for my dreams; or a trouble to recover from.",
                 "required": {
-                    "ability": 1,
+                    "ability_r": 1,
                     "desire": 1,
                     "illhealth": 1,
                     "way": 1,
@@ -40,6 +43,9 @@
                     "tutor": 1,
                     "language": 1,
                     "legacyplotitem": 1
+                },
+                "forbidden": {
+                    "currency": 1
                 }
             }
         },
@@ -54,7 +60,7 @@
                 "required": {
                     "text": 1,
                     "lore": 1,
-                    "ability": 1,
+                    "ability_r": 1,
                     "map": 1,
                     "influence": 1,
                     "tutor": 1,
@@ -113,10 +119,10 @@
                 "label": "Time"
             }
         },
-		{
+        {
             "id": "headhunt_r",
             "label": "干员寻访",
-			"icon": "headhunt",
+            "icon": "headhunt",
             "description": "罗德岛需要更多的人手，我也一样。",
             "slot": {
                 "id": "hrtogo",
@@ -125,13 +131,13 @@
                 "required": {
                     "location": 1
                 },
-                "forbidden": {}                
+                "forbidden": {}
             }
         },
         {
             "id": "engineering_r",
             "label": "展开的罗德岛工程部",
-			"icon": "headhunt",
+            "icon": "headhunt",
             "description": "罗德岛工程部。",
             "slot": {
                 "id": "hrtogo",
@@ -140,7 +146,7 @@
                 "required": {
                     "location": 1
                 },
-                "forbidden": {}                
+                "forbidden": {}
             }
         }
     ]
