@@ -14,8 +14,7 @@
             },
             "warmup": 10,
             "craftable": true,
-            "burnimage":"burn1",
-            "maxexecutions": 1
+            "burnimage":"burn2"
         },
         {
             "id": "choose_ext_platform_firsttime",

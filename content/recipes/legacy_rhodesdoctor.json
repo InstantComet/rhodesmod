@@ -20,7 +20,8 @@
             "startdescription": "微热的温度在牵引着我离开这麻木的冰冷的梦境。[将理智入梦可以获得回忆]",
             "description": "我眼前的身影似曾相识……但我什么也记不起来。",
             "warmup": 10,
-            "craftable": true
+            "craftable": true,
+            "burnimage":"burn3"
         },
         {
             "id": "doctoropendream",
@@ -39,7 +40,7 @@
                     "chance": 100,
                     "additional": true
                 }
-            ]
+            ]            
         },
         {
             "id": "doctorintrotalk",
@@ -77,7 +78,8 @@
                     "id": "doctoropenstudy_b",
                     "chance": 100
                 }
-            ]
+            ],
+            "maxexecutions": 1
         },
         {
             "id": "doctoropenstudy_b",

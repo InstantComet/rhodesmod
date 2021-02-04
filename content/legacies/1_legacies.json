@@ -3,8 +3,8 @@
         {
             "id": "doctor",
             "label": "罗德岛博士",
-            "startdescription": "失去记忆。",
-            "description": "我从石棺中醒来。",
+            "startdescription": "我从长眠中醒来。一无所有地醒来。",
+            "description": "……",
             "effects": {
                 "introsanity": 1
             },

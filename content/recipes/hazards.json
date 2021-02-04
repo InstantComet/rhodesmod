@@ -60,12 +60,12 @@
         },
         {
             "id": "skyfallwarning",
-            "label": "天灾正在接近",
+            "label": "天灾迫近",
             "actionid": "skyfall_r",
             "requirements": {
                 "skyfall_coming": 2
             },
-            "startdescription": "我们必须抓紧时间了。",
+            "startdescription": "毁灭的诸多迹象已经开始显现。",
             "description": ".",
             "comments": "This exists specifically for the burn image at 3 skyfall.",
             "burnimage": "skyfall_r",
