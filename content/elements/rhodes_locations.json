@@ -4,6 +4,7 @@
             "id": "office_kaltist",
             "label": "凯尔希的办公室",
             "description": "凯尔希的办公室。",
+            "icon":"office_kaltist",
             "aspects": {
                 "location_r": 1
             }, 

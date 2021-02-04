@@ -3,6 +3,7 @@
         {
             "id": "genericjob",
             "label": "罗德岛上的杂务",
+            "icon":"genericjob",
             "aspects": {
                 "job_r": 1
             },

@@ -4,6 +4,7 @@
             "id": "map_location_rhodes_a",
             "label": "罗德岛内部结构图(浅层)",
             "description": "这份…涂鸦，如果我没理解错的话，应该是罗德岛内部浅层结构的地图。[配合理智进行研究来获得具体地点]",
+            "icon":"map_location_rhodes_a",
             "aspects": {
                 "map": 1
             },
