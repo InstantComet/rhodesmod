@@ -5,7 +5,7 @@
             "label": "凯尔希的办公室",
             "description": "凯尔希的办公室。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             }, 
             "unique": true
         },
@@ -41,7 +41,7 @@
             "label": "罗德岛采购部",
             "description": "只有想不到，没有买不到。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {
@@ -79,7 +79,7 @@
             "label": "罗德岛采购部",
             "description": "只有想不到，没有买不到。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {
@@ -108,7 +108,7 @@
             "label": "可露希尔的小黑屋",
             "description": "不能在明面上流通的东西，都在这里。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {

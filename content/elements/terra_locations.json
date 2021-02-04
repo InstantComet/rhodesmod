@@ -3,7 +3,7 @@
         {
             "id": "location_intro",
             "label": "当前位置：废城",
-            "description": "废弃的移动城市区划，我沉睡的地方。",
+            "description": "已被废弃遗忘的城市，也是天灾即将降临之地。我从这里醒来。",
             "aspects": {
                 "terra_location": 1
             },

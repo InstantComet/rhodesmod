@@ -75,7 +75,7 @@
             "description": "I perform at the Ecdysis Club, on the nights when it's open.",
             "slots": [
                 {
-                    "id": "location",
+                    "id": "location_r",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",
@@ -127,7 +127,7 @@
             "description": "I perform the more exacting dances at the Ecdysis Club.",
             "slots": [
                 {
-                    "id": "location",
+                    "id": "location_r",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",
@@ -190,7 +190,7 @@
             "description": "I am occasionally paid a generous consideration to perform very specific dances for very particular connoisseurs.",
             "slots": [
                 {
-                    "id": "location",
+                    "id": "location_r",
                     "label": "The Ecdysis Club",
                     "description": "The Ecdysis Club, where I enact revelations before witnesses",
                     "actionid": "work_r",

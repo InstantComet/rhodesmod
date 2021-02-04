@@ -27,7 +27,7 @@
         {
             "id": "dream_r",
             "label": "dream_r",
-            "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
+            "description": "休息，或是在梦里追寻。",
             "slot": {
                 "id": "dream_r",
                 "label": "dream_r",
@@ -37,10 +37,8 @@
                     "desire": 1,
                     "illhealth": 1,
                     "way": 1,
-                    "lmfunds": 1,
                     "text": 1,
                     "lore": 1,
-                    "influence": 1,
                     "tutor": 1,
                     "language": 1,
                     "legacyplotitem": 1
@@ -102,7 +100,7 @@
                 "required": {
                     "operator": 1,
                     "secrethistories": 1,
-                    "location": 1,
+                    "location_r": 1,
                     "terra_location": 1,
                     "health": 1
                 },

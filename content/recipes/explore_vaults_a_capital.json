@@ -150,8 +150,8 @@
                 "map_location_default": 1,
                 "location_intro": 1
             },
-            "startdescription": "控制中枢就在眼前。",
-            "description": "我们恢复了罗德岛的控制，现在，我们必须尽快把它开离会受到天灾影响的区域。",
+            "startdescription": "启动",
+            "description": "我们重获了罗德岛的控制。接下来，逃就对了。",
             "warmup": 30,
             "craftable": false
         },

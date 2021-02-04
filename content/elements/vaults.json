@@ -5,7 +5,7 @@
             "label": "控制中枢",
             "aspects": {
                 "introvault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -28,15 +28,15 @@
                     "actionid": "explore_r"
                 }
             ],
-            "description": "罗德岛废弃内部构造的浅层部分，我们需要尽快前往指挥中枢。",
+            "description": "罗德岛废弃内部的浅层部分，我们需要尽快前往指挥中枢。",
             "unique": true
         },
         {
             "id": "vaultrhodes1",
-            "label": "罗德岛内部构造（浅层）",
+            "label": "罗德岛内部（浅层）",
             "aspects": {
                 "introvault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -59,7 +59,7 @@
                     "actionid": "explore_r"
                 }
             ],
-            "description": "罗德岛废弃内部构造的浅层部分，我们需要尽快前往指挥中枢。",
+            "description": "控制中枢埋得不深。我们还有机会。",
             "unique": true
         },
         {
@@ -67,7 +67,7 @@
             "label": "罗德岛内部构造（中层）",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -116,7 +116,7 @@
             "label": "Cater & Hero Limited",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -165,7 +165,7 @@
             "label": "St Agnes Hospital",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -214,7 +214,7 @@
             "label": "Congregation of St Felix of Schüren",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -263,7 +263,7 @@
             "label": "The Forsaken Reach",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrhodes": 1
             },
             "slots": [
@@ -311,7 +311,7 @@
             "label": "Gladwyn Lake",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -360,7 +360,7 @@
             "label": "Lockwood Fen",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -409,7 +409,7 @@
             "label": "Crowkiss Hill",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -458,7 +458,7 @@
             "label": "Keglin's Scratch",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -507,7 +507,7 @@
             "label": "Gwaer Inn",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -556,7 +556,7 @@
             "label": "Kerisham",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultshires": 1
             },
             "slots": [
@@ -614,7 +614,7 @@
             "label": "Chateau Raveline",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -663,7 +663,7 @@
             "label": "Fermier Abbey",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -712,7 +712,7 @@
             "label": "Orthos Wood",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -761,7 +761,7 @@
             "label": "The Vanderschaaf Collection",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -810,7 +810,7 @@
             "label": "Forman House",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -859,7 +859,7 @@
             "label": "Key-Hunter's Garret",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -908,7 +908,7 @@
             "label": "The  Unnumbered Stones",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultcontinent": 1
             },
             "slots": [
@@ -966,7 +966,7 @@
             "label": "Cave of Candles",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1015,7 +1015,7 @@
             "label": "Voivode's Citadel",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1064,7 +1064,7 @@
             "label": "Grunewald's Permanent Circus",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1113,7 +1113,7 @@
             "label": "Tower Revek",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1162,7 +1162,7 @@
             "label": "The Kusnetsov Endowment",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1211,7 +1211,7 @@
             "label": "Foxlily Meadows",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultlandbeyondforest": 1
             },
             "slots": [
@@ -1269,7 +1269,7 @@
             "label": "Hunter's Pits",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1318,7 +1318,7 @@
             "label": "Snow's Keeper",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1367,7 +1367,7 @@
             "label": "The Eye of Ikirmawi",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1416,7 +1416,7 @@
             "label": "Mausoleum of Wolves",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1465,7 +1465,7 @@
             "label": "Tombs of the Shadowless Kings",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultrendingmountains": 1
             },
             "slots": [
@@ -1513,7 +1513,7 @@
             "label": "Star-Shattered Fane",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1562,7 +1562,7 @@
             "label": "Lagun's Tomb",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1611,7 +1611,7 @@
             "label": "Messana",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1660,7 +1660,7 @@
             "label": "Temple of Seven Coils",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1709,7 +1709,7 @@
             "label": "Miah",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaultloneandlevelsands": 1
             },
             "slots": [
@@ -1767,7 +1767,7 @@
             "label": "Raven Isle",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1816,7 +1816,7 @@
             "label": "Fort Geryk",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1865,7 +1865,7 @@
             "label": "The Wreck of the Christabel",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1914,7 +1914,7 @@
             "label": "St Tentreto of the Deep Door",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -1963,7 +1963,7 @@
             "label": "Port Noon",
             "aspects": {
                 "vault": 1,
-                "location": 1,
+                "location_r": 1,
                 "vaulteveningisles": 1
             },
             "slots": [
@@ -2021,7 +2021,7 @@
             "label": "The 'Hebe Stanton'",
             "aspects": {
                 "vault": 1,
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {

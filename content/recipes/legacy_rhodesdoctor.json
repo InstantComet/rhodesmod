@@ -45,15 +45,15 @@
             "id": "doctorintrotalk",
             "label": "醒时之境",
             "actionid": "talk_intro",
-            "startdescription": "清醒过来时，我已在车辆的后排座上，开车的是个看起来心情很不好的女人。将我从石棺中唤醒的卡斯特少女简略地说明了一下情况，按照她话里的意思，我们将很快到达“罗德岛”号移动平台。",
+            "startdescription": "我花了一些时间让自己更清醒一点。开车的是个看起来心情很不好的女人。在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。我们将要抵达的移动平台叫做“罗德岛”。",
             "alt": [
                 {
-                    "id": "doctorskyfalla",
+                    "id": "skyfallactive",
                     "chance": 100,
                     "additional": true
                 },
                 {
-                    "id": "doctoropenstudy",
+                    "id": "doctoropenstudy_a",
                     "chance": 100,
                     "additional": true
                 }
@@ -66,41 +66,37 @@
             "craftable": false
         },
         {
-            "id": "doctorskyfalla",
+            "id": "doctoropenstudy_a",
             "label": "天灾迫近",
-            "actionid": "skyfall_r",
-            "requirements": {},
-            "startdescription": "我们刚刚到达，就接到灾难不久后将要降临于此的消息。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
-            "description": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
-            "warmup": 20,
+            "actionid": "study_r",
+            "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
+            "warmup": 10,
             "craftable": false,
-            "alt": [
+            "linked": [
                 {
-                    "id": "skyfallactive",
+                    "id": "doctoropenstudy_b",
                     "chance": 100
                 }
-            ],
-            "effects": {
-                "skyfall_coming": 1
-            }
+            ]
         },
         {
-            "id": "doctoropenstudy",
+            "id": "doctoropenstudy_b",
             "label": "来了！",
             "actionid": "study_r",
-            "startdescription": "我们抢救出了半张地图……呃，这是地图吧？[研究地图可以获得具体的地点]",
+            "startdescription": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
+            "description": "我们抢救出了半张地图……呃，这是地图吧？[研究地图可以获得具体的地点]",
             "effects": {
                 "map_location_rhodes_a": 1
             },
-            "warmup": 20,
-            "craftable": false,
             "alt": [
                 {
                     "id": "doctoropenexplore",
-                    "chance": 100,
-                    "additional": true
+                    "additional": true,
+                    "chance": 100
                 }
-            ]
+            ],
+            "warmup": 20,
+            "craftable": false
         },
         {
             "id": "doctorgaintime",

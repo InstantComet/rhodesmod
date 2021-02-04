@@ -4,7 +4,7 @@
             "id": "locationbookdealer",
             "label": "Morland's Shop",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {
@@ -28,7 +28,7 @@
             "label": "Morland's Shop [Closed]",
             "description": "This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now.",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "hq.potential": 1
             },
             "slots": [
@@ -50,7 +50,7 @@
             "id": "locationauctionhouse",
             "label": "Oriflamme's Auction House",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "description": "Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]",
             "slots": [
@@ -80,7 +80,7 @@
             "id": "locationcabaret",
             "label": "The Ecdysis Club",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "moth_r": 1,
                 "grail_r": 1,
                 "heart_r": 1
@@ -123,7 +123,7 @@
             "label": "Temporary Headquarters",
             "aspects": {
                 "hq": 1,
-                "location": 1
+                "location_r": 1
             },
             "description": "Our business is private. We could use somewhere more secret.",
             "slots": [
@@ -151,7 +151,7 @@
             "label": "Opulent Townhouse",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "library": 1
             },
             "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
@@ -187,7 +187,7 @@
             "label": "Heterodox Church",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "sanctuary": 1
             },
             "description": "Even on Sunday morning, there are quirks in the order of service, but most outsiders don't notice. Outsiders are not invited to the ceremonies we hold at chillier hours.",
@@ -223,7 +223,7 @@
             "label": "Candle-lit Mithraeum",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "sanctuary": 1,
                 "secret": 1
             },
@@ -260,7 +260,7 @@
             "label": "House Violet",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "pit": 1,
                 "secret": 1
             },
@@ -297,7 +297,7 @@
             "label": "Rooms Behind a Bookshop",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "library": 1
             },
             "description": "The lesser elements of Miss Morland's stock yet remain. Over time, strangers drift in with books to sell, and sometimes we indulge them.",
@@ -333,7 +333,7 @@
             "label": "A Darkened Warehouse",
             "aspects": {
                 "hq": 1,
-                "location": 1,
+                "location_r": 1,
                 "pit": 1,
                 "secret": 1
             },
@@ -369,7 +369,7 @@
             "id": "hq.church.potential",
             "label": "Unattended Church",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "hq.potential": 1
             },
             "description": "The minister disappeared, one night, quite abruptly, with his inner circle and the church's chiefest treasures. He is widely assumed to have gone to a better place: possibly a sunny place beside a shining sea. We could recruit his leaderless flock, and make this our base of operations.",
@@ -393,7 +393,7 @@
             "id": "hq.mithraeum.potential",
             "label": "Empty Mithraeum",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "hq.potential": 1
             },
             "description": "This was a place of worship, once. We could make it so again.",
@@ -417,7 +417,7 @@
             "id": "hq.hospital.potential",
             "label": "Empty Hospital",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "hq.potential": 1
             },
             "description": "Phantoms - the neighbours say - still walk the echoing halls here. If we take possession, of course, they will leave, or we'll turn them to our use.",
@@ -441,7 +441,7 @@
             "id": "hq.warehouse.potential",
             "label": "An Abandoned Warehouse",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "hq.potential": 1
             },
             "description": "A rotting shell beside a rotting river. Who would follow us here?",
@@ -465,7 +465,7 @@
             "id": "locationstreetsstrange",
             "label": "Streets Strange by Moonlight",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "description": "Sometimes, the light of the moon is a key to other spaces. I've found a place where, for a night or two, the streets curve in unfamiliar ways. If I walk here, I might find insight, or I might be touched by madness.",
             "lifetime": 120
@@ -475,7 +475,7 @@
             "label": "The Montmerenzi-McDonald Gallery",
             "comments": "currently just used for early Ghoul flavour, but we could do more.",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "description": "Alistair Montmerenzi, third and last of the Montmerenzi cartographers, and his enigmatic benefactor Timothy McDonald, collected this small but striking miscellany. After their loss on their final polar expedition, the collection was made available to the public in a blank-faced grey building beside a quiet park... on condition that no piece of art therein was ever to be photographed, nor exposed to daylight."
         },
@@ -496,7 +496,7 @@
             ],
             "description": "In the waking world, as in dreams, the dead are most often found below.",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "lifetime": 300,
             "decayTo": "location.cemetery.closing"
@@ -518,7 +518,7 @@
                 }
             ],
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "lifetime": 60
         }

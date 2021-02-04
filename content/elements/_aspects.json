@@ -55,11 +55,11 @@
             "isHidden": true
         },
 		{
-			"id": "skyfall",
+			"id": "skyfall_r",
 			"label": "天灾",
 			"isAspect": true,
 			"description": "这就是天灾。",
-			"icon": "skyfall"
+			"icon": "skyfall_r"
 		},
 		{
 			"id": "sanityskill",
@@ -71,7 +71,7 @@
 		{
 			"id": "operator",
 			"label": "干员",
-			"description": "Student, helpmeet, defender, champion, dupe, sacrifice... companion.",
+			"description": "通常是罗德岛及其合作对象的合法雇员，但在少数情况下也可能是地方军阀、吊儿郎当游手好闲之徒或是逃犯。",
 			"isAspect": true,
 			"icon": "operator"
 		},
@@ -100,7 +100,7 @@
 		{
 			"id": "grail_r",
 			"label": "杯",
-			"description": "传说圣子被钉死时，人们用他的餐杯去盛血。当满溢时，杯中淌出了泉与酒。[杯是关于治愈、祝福与救赎的力量。]",
+			"description": "传说圣子被钉死时，人们用他的餐杯去盛血。当满溢时，杯中淌出了泉与酒。[杯是关于治愈、祝福与挽救的力量。]",
 			"isAspect": true,
 			"icon": "grail",
 			"induces": [
@@ -162,7 +162,7 @@
 			"id": "ability_r",
 			"label": "能力",
 			"isAspect": true,
-			"description": "对我来说，就是使用理智的才能。",
+			"description": "我所能、且应依赖之物，也是仅有之物。我该用什么标准来称衡它呢？。",
 			"icon":"ability"
 		},
 		{
@@ -187,8 +187,8 @@
 		},
 		{
 			"id": "introvault",
-			"label": "藏宝地",
-			"description": "藏有一些珍贵之物。",
+			"label": "废墟",
+			"description": "一般来说，不会有人在垃圾场里寻宝。不过也不好说。还是不要把宝藏藏在垃圾场里为好。",
 			"isAspect": true,
 			"icon": "vault"
 		},
@@ -218,18 +218,18 @@
 			"isAspect": true
 		},
 		{
-			"id": "location",
+			"id": "location_r",
 			"label": "地点",
-			"description": "一切事物皆有其所在之处，如此物位于此处。",
+			"description": "可以被定位、被索引。也许不能。通常是确定的、不变的。也许不是。",
 			"isAspect": true,
-			"icon": "location"
+			"icon": "location_r"
 		},
 		{
 			"id": "terra_location",
 			"label": "位置",
 			"description": "这片大地上遥远的某处。",
 			"isAspect": true,
-			"icon": "location"
+			"icon": "location_r"
 		},
 		{
 			"id": "illsanity",
@@ -763,7 +763,7 @@
 		{
 			"id": "vaultrhodes",
 			"label": "位于罗德岛",
-			"description": "我所居住的这个巨型移动平台中的一处隐秘场所。",
+			"description": "这个地点就在这座机械巨兽之内。但具体在哪儿可能没人清楚。",
 			"isAspect": true,
 			"icon": "vaultcapital"
 		},

@@ -14,7 +14,7 @@
             "label": "T H  E  WO L  F  W  H  O   L  I  V  E  S IN THE BIG HOUSE",
             "aspects": {
                 "ability": 1,
-                "location": 1,
+                "location_r": 1,
                 "acquaintance": 1
             },
             "slots": [

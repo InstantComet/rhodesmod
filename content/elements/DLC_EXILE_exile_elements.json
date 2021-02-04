@@ -2255,7 +2255,7 @@
             "id": "_vault.exile",
             "label": "_vault.exile",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "vault": 1
             },
             "slots": [
@@ -2574,7 +2574,7 @@
             "id": "loc.shrine.nameless",
             "label": "Misty Nook",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "description": "An unremarkable location that's somehow easier to stumble across at night. A nondescript candle has been jammed haphazardly into a crevice in the wall.",
             "slots": [
@@ -2600,7 +2600,7 @@
             "id": "loc.shrine.colonel.aachen",
             "label": "Chapel of St Andrew Stratelates",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2626,7 +2626,7 @@
             "id": "loc.shrine.colonel.candia",
             "label": "Roadside Shrine to an Iron Saint",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2652,7 +2652,7 @@
             "id": "loc.shrine.colonel.leningrad",
             "label": "Repurposed Datsan",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2678,7 +2678,7 @@
             "id": "loc.shrine.colonel.munich",
             "label": "Cellar Wotan",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2704,7 +2704,7 @@
             "id": "loc.shrine.colonel.nizhny",
             "label": "Scarred Lodge",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2730,7 +2730,7 @@
             "id": "loc.shrine.colonel.stalingrad",
             "label": "Fane of the One-Armed",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2756,7 +2756,7 @@
             "id": "loc.shrine.colonel.valletta",
             "label": "Mortal Shrine",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
@@ -2782,7 +2782,7 @@
             "id": "loc.shrine.lionsmith.alexandria",
             "label": "Anvil of the Bull",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2808,7 +2808,7 @@
             "id": "loc.shrine.lionsmith.algiers",
             "label": "Skaptodon Tomb",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2834,7 +2834,7 @@
             "id": "loc.shrine.lionsmith.marrakech",
             "label": "Hall of Brass Mirrors",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2860,7 +2860,7 @@
             "id": "loc.shrine.lionsmith.meshad",
             "label": "Shahrewar Stone",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2886,7 +2886,7 @@
             "id": "loc.shrine.lionsmith.samarkand",
             "label": "Crossroads Ateshgah",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2912,7 +2912,7 @@
             "id": "loc.shrine.lionsmith.tripoli",
             "label": "Antaeum",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -2939,7 +2939,7 @@
             "id": "loc.shrine.lionsmith.venice",
             "label": "Chapel of St Mark of the Hammer",
             "aspects": {
-                "location": 1,
+                "location_r": 1,
                 "shrine.edge": 1,
                 "shrine.lionsmith": 1
             },
@@ -3503,7 +3503,7 @@
             "label": "Serapeum Peristasis",
             "aspects": {
                 "vault.completed": 1,
-                "location": 1
+                "location_r": 1
             },
             "description": "I've entered one of the outer elements of the Invisible Serapeum - a sunny pillared porch of paradoxical size, where a certain Dr Blackwood will offer me a seat and a glass of iced hibiscus tea.",
             "icon": "vaultlandbeyondforest5"
@@ -5550,8 +5550,8 @@
             "slots": [
                 {
                     "actionid": "use",
-                    "id": "location",
-                    "label": "location",
+                    "id": "location_r",
+                    "label": "location_r",
                     "required": {
                         "space": 1
                     }
@@ -5579,8 +5579,8 @@
             "slots": [
                 {
                     "actionid": "use",
-                    "id": "location",
-                    "label": "location",
+                    "id": "location_r",
+                    "label": "location_r",
                     "required": {
                         "space": 2
                     }
@@ -5753,8 +5753,8 @@
                 },
                 {
                     "actionid": "use",
-                    "id": "location",
-                    "label": "location",
+                    "id": "location_r",
+                    "label": "location_r",
                     "required": {
                         "space": 2
                     }

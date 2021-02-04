@@ -7,7 +7,7 @@
             "requirements": {
                 "sanity": 1
             },
-            "startdescription": "我在脑子寻找可能有用的记忆，",
+            "startdescription": "我需要时间。",
             "description": "我找到了一些。[研究追忆可以获得“争取到的时间”，两张则可以获得“追忆：汹涌嘈杂”。]",
             "effects": {
                 "sanity": -1,

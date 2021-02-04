@@ -6,7 +6,7 @@
             "actionid": "explore_r",
             "requirements": {
                 "skyfallmessager": 1,
-                "location": -1
+                "location_r": -1
             },
             "deckeffects": {
                 "map_terracitys": 1

@@ -10,18 +10,14 @@
             "startdescription": "逃离天灾了",
             "description": ".",
             "warmup": 0,
-            "craftable": false,
-            "linked": {
-                "id": "skyfall_end_force",
-                "chance": 100
-            }
+            "craftable": false
         },
         {
             "id": "skyfallactive",
-            "label": "和天灾赛跑",
-            "actionid": "skyfall",
+            "label": "天灾迫近",
+            "actionid": "skyfall_r",
             "requirements": {},
-            "startdescription": "我应当想办法争取一些时间！[累计三个天灾迫近就会死]",
+            "startdescription": "灾难会出现在空气中、地平线上，接着出现在你的面前。它现在还没出现在地平线上。[累积三个“天灾迫近”会导致毁灭。]",
             "description": ".",
             "warmup": 60,
             "effects": {
@@ -65,14 +61,14 @@
         {
             "id": "skyfallwarning",
             "label": "天灾正在接近",
-            "actionid": "skyfall",
+            "actionid": "skyfall_r",
             "requirements": {
                 "skyfall_coming": 2
             },
             "startdescription": "我们必须抓紧时间了。",
             "description": ".",
             "comments": "This exists specifically for the burn image at 3 skyfall.",
-            "burnimage": "skyfall",
+            "burnimage": "skyfall_r",
             "effects": {
                 "skyfall_coming": 1
             },
@@ -93,8 +89,8 @@
         },
         {
             "id": "skyfallabate",
-            "label": "争取到了时间",
-            "actionid": "skyfall",
+            "label": "喘息的时间",
+            "actionid": "skyfall_r",
             "requirements": {
                 "skyfall_anti": 1
             },
@@ -102,7 +98,7 @@
                 "skyfall_coming": -1,
                 "skyfall_anti": -1
             },
-            "startdescription": "天灾仍在靠近，但起码我们争取到了一些应对的时间。",
+            "startdescription": "暴风眼中的平静。危机仍然迫在眉睫，但我们至少能喘口气了。",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -115,8 +111,8 @@
         },
         {
             "id": "skyfalldeath",
-            "label": "天灾迫在眉睫",
-            "actionid": "skyfall",
+            "label": "近在咫尺",
+            "actionid": "skyfall_r",
             "requirements": {
                 "skyfall_coming": 3
             },
@@ -131,7 +127,7 @@
                 }
             ],
             "effects": {},
-            "startdescription": "必须立即采取行动！[Find Contentment now, or it's over.]",
+            "startdescription": "钟声要敲响了；毁灭已触手可及。[立刻寻找“争取到的时间”或移动罗德岛的位置，否则游戏将会结束。]",
             "description": "Where will they find me? I am not here.",
             "warmup": 60,
             "craftable": false,
@@ -144,23 +140,6 @@
             "ending": "deathbyskyfall",
             "signalEndingFlavour": "Melancholy",
             "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when skyfall is defeated."
-        },
-        {
-            "id": "skyfall_end_force",
-            "label": "逃离天灾",
-            "actionid": "skyfall",
-            "requirements": {
-                "skyfall_end": 1
-            },
-            "effects": {
-                "skyfall_anti": -100,
-                "skyfall_coming": -100,
-                "skyfall_end": -100
-            },
-            "startdescription": "逃离天灾了",
-            "description": ".",
-            "warmup": 0,
-            "craftable": false
         }
     ]
 }

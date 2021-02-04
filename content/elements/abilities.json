@@ -18,7 +18,7 @@
             },
             "animFrames": 1,
             "lifetime":30,
-            "description": "危险稍微远离。",
+            "description": "机会。或许是生机，或许只是略微推迟一下行刑时间。",
             "icon": "skyfall_anti"
         },
         {
@@ -33,7 +33,7 @@
         {
             "id": "fleeting_r",
             "label": "回忆",
-            "description": "早已忘却的往事正在我脑海中回响。下一瞬间它或许便将稍纵即逝。[研究“回忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
+            "description": "早已忘却的往事如今正在我脑海中回响。它们稍纵即逝。[研究“回忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
             "aspects": {
                 "moth_r": 2,
                 "influence": 1,
@@ -74,7 +74,7 @@
                 "ability_r": 1
             },
             "animFrames": 1,
-            "description": "你的全部。",
+            "description": "全是理智的心，如同一柄全是锋刃的刀，叫使用它的人手上流血。",
             "icon": "sanity"
         },
         {
@@ -119,13 +119,13 @@
                 "ability_r": 1
             },
             "animFrames": 1,
-            "description": "你的全部。",
+            "description": "全是理智的心，如同一柄全是锋刃的刀，叫使用它的人手上流血。",
             "icon": "sanity"
         },
         {
             "id": "losesanity",
             "label": "理智[丧失]",
-            "description": "我失去了一部分的理智。[此卡不可使用，将于六十秒后复原。]",
+            "description": "“从他那疯癫的曲调里，我仿佛看到了一群幽灵般的萨特与巴克斯的信徒在由云雾、烟尘和光亮组成的翻腾深渊里疯狂地舞蹈和旋转。”[这部分理智已经没法使用了。不过它会在六十秒后复原。]",
             "aspects": {
                 "illsanity": 1
             },

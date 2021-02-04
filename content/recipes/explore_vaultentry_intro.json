@@ -22,7 +22,7 @@
             "comments": "Can't reach success until all the alternatives are unavailable. That means no obstacles, >0 followers and >0 funds.",
             "label": "继续推进",
             "actionid": "explore_r",
-            "startdescription": "如果这令人费解的地图（或者说，示意图）没有出错的话，我们应该很快就能抵达目的地了。至少我们又前进了一步。[我可以趁这一短暂休息的空档给探索员们送一些工具和物资，或者再派遣一位干员提供帮助。]",
+            "startdescription": "如果这令人费解的地图（或者说，示意图）没有出错的话，我们应该很快就能抵达目的地了。至少我们又前进了一步。",
             "description": ".",
             "warmup": 10,
             "alt": [
@@ -61,7 +61,7 @@
         },
         {
             "id": "explorevaultsuccess_intro",
-            "label": "控制中枢",
+            "label": "接近目标",
             "actionid": "explore_r",
             "startdescription": "我们抵达了这座机械巨兽的内脏。从这里，我可以清晰地看见罗德岛内部的每一寸领土；虽然现在只能看见灰尘和金属。生起炉火，我们还有很多事要做。",
             "description": ".",

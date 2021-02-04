@@ -693,7 +693,7 @@
             "requirements": {
                 "acquaintance": 1,
                 "ritual": -1,
-                "location": -1
+                "location_r": -1
             },
             "extantreqs": {
                 "society": -1

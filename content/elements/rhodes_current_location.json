@@ -5,7 +5,7 @@
             "label": "当前位于雷姆必拓",
             "description": "罗德岛现在停泊在雷姆必拓。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {
@@ -24,7 +24,7 @@
             "label": "哥伦比亚",
             "description": "哥伦比亚介绍占位符。",
             "aspects": {
-                "location": 1
+                "location_r": 1
             },
             "slots": [
                 {
