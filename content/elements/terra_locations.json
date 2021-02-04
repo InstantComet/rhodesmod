@@ -4,6 +4,7 @@
             "id": "location_intro",
             "label": "当前位置：废城",
             "description": "已被废弃遗忘的城市，也是天灾即将降临之地。我从这里醒来。",
+            "icon": "location_intro",
             "aspects": {
                 "terra_location": 1
             },
@@ -22,6 +23,7 @@
             "id": "location_defaults",
             "label": "当前位置：荒原中央",
             "description": "什么都没有的地方，旅途开始的地方。",
+            "icon": "location_default",
             "aspects": {
                 "terra_location": 1
             },

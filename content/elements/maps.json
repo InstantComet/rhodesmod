@@ -40,6 +40,7 @@
             "id": "map_location_default",
             "label": "位置：空无一物的荒原",
             "description": "目的地并不重要，我们需要的是尽快离开。",
+            "icon": "map_location_default",
             "aspects": {
                 "map": 1
             }

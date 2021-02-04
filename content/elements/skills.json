@@ -3,7 +3,7 @@
         {
             "id": "skillsanitya",
             "label": "智慧：陈朽的火花",
-            "icon": "skillsanity",
+            "icon": "skillsanitya",
             "aspects": {
                 "sanityskill": 1,
                 "ability_r": 1
@@ -47,7 +47,7 @@
         {
             "id": "skillsanityb",
             "label": "智慧：苏醒的思绪",
-            "icon": "skillsanity",
+            "icon": "skillsanityb",
             "description": "……我曾经见过他们。[与三个“汹涌嘈杂”一起使用可唤回更多理智。]",
             "xtriggers": {
                 "careeradvancement": "skillsanityc"
@@ -101,7 +101,7 @@
         {
             "id": "skillsanityc",
             "label": "智慧：太阳升起",
-            "icon": "skillsanity",
+            "icon": "skillsanityc",
             "description": "我想起了太多东西，以至于令我怀疑是我唤起了回忆，还是回忆唤起了我。[与四个“汹涌嘈杂”一起使用可唤回更多理智。]",
             "aspects": {
                 "sanityskill": 3,
