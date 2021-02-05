@@ -1188,7 +1188,7 @@
                 "ritual": 1,
                 "lore": -1,
                 "ingredient": -1,
-                "influence": -1,
+                "influence_r": -1,
                 "operator": -1,
                 "tool": -1,
                 "desire": -1

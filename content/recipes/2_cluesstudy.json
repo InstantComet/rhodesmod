@@ -208,7 +208,7 @@
             "label": "Upgrade Influences?",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "lore": -1,
                 "healthskill": -1,
                 "reasonskill": -1,
@@ -372,7 +372,7 @@
             "label": "Upgrade Influences?",
             "actionid": "study_r",
             "requirements": {
-                "influence": 1
+                "influence_r": 1
             },
             "startdescription": "It might be possible, with the right combination of Influences, to raise more power...",
             "hintonly": true,

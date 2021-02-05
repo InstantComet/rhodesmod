@@ -2,13 +2,13 @@
     "verbs": [
         {
             "id": "work_r",
-            "label": "work_r",
-            "description": "Earn a living, or practice the invisible arts.",
+            "label": "作业",
+            "description": "或赚钱糊口，或做别的事情。",
             "icon": "work_r",
             "slot": {
                 "id": "work_r",
-                "label": "work_r",
-                "description": "Something I can do; something I know; or something I am.",
+                "label": "作业",
+                "description": "我能做的，我知道的，或者我身为的。",
                 "required": {
                     "ability_r": 1,
                     "job_r": 1,
@@ -26,12 +26,12 @@
         },
         {
             "id": "dream_r",
-            "label": "dream_r",
+            "label": "入梦",
             "description": "休息，或是在梦里追寻。",
             "slot": {
                 "id": "dream_r",
-                "label": "dream_r",
-                "description": "A direction for my dreams; or a trouble to recover from.",
+                "label": "入梦",
+                "description": "或做梦的方向，或待解的烦忧。",
                 "required": {
                     "ability_r": 1,
                     "desire": 1,
@@ -50,18 +50,18 @@
         },
         {
             "id": "study_r",
-            "label": "study_r",
-            "description": "Unlock books and other treasures.",
+            "label": "研究",
+            "description": "研究各种各样的东西。",
             "slot": {
                 "id": "study_r",
-                "label": "study_r",
-                "description": "The invisible arts could occupy ten lifetimes of study.",
+                "label": "研究",
+                "description": "研究足够耗尽十世人生。",
                 "required": {
                     "text": 1,
                     "lore": 1,
                     "ability_r": 1,
                     "map": 1,
-                    "influence": 1,
+                    "influence_r": 1,
                     "tutor": 1,
                     "language": 1,
                     "legacyplotitem": 1
@@ -70,12 +70,12 @@
         },
         {
             "id": "talk_r",
-            "label": "talk_r",
-            "description": "Interrogate, intimidate, beguile, instruct, recruit.",
+            "label": "谈话",
+            "description": "逼问，威胁，诱骗，教导。",
             "slot": {
                 "id": "talk_r",
-                "label": "talk_r",
-                "description": "An ally, an enemy, or something in between.",
+                "label": "谈话",
+                "description": "盟友，仇敌，或者敌友难辨之人。",
                 "required": {
                     "mortal": 1,
                     "summoned": 1,
@@ -91,12 +91,12 @@
         },
         {
             "id": "explore_r",
-            "label": "explore_r",
-            "description": "Explore the city with Health or Followers; explore r_locations; or investigate the possibilities of lore. Exploration is often unpredictable.",
+            "label": "探索",
+            "description": "调查各个地点。探索的结果通常难以预期。",
             "slot": {
                 "id": "explore_r",
-                "label": "explore_r",
-                "description": "A place; a person; a r_location; a secret.",
+                "label": "探索",
+                "description": "地点，人物，场所，秘密。",
                 "required": {
                     "operator": 1,
                     "secrethistories": 1,

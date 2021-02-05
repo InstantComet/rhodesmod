@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "exploreskyfallmessager",
-            "label": "寻找最近城市的位置",
+            "label": "下一步",
             "actionid": "explore_r",
             "requirements": {
                 "skyfallmessager": 1,
@@ -11,9 +11,9 @@
             "deckeffects": {
                 "map_terracitys": 1
             },
-            "startdescription": "派出天灾信使寻找最近的移动城市。",
-            "description": ".",
-            "warmup": 10,
+            "startdescription": "是时候准备移动到最近的城市附近了。我可以派出天灾信使去完成定位以及初步的交涉。",
+            "description": "在数十英里外有一座繁华的炎国城邦。",
+            "warmup": 120,
             "craftable": true
         }
     ]

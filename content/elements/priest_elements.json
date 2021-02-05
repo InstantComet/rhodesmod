@@ -4,7 +4,7 @@
             "id": "fervour",
             "label": "Fervour",
             "aspects": {
-                "influence": 1,
+                "influence_r": 1,
                 "heart_r": 2
             },
             "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. Fervour, if unused, will decay to Dread.]",

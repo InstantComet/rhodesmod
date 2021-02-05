@@ -21,7 +21,7 @@
         {
             "id": "map_location_lungmen",
             "label": "位置：龙门",
-            "description": "龙门移动城市的位置，几分钟之前更新。",
+            "description": "一座对外开放的商业城邦，理想的落脚之处。[位置信息将在三分钟后过期]",
             "aspects": {
                 "map": 1
             },

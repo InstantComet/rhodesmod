@@ -68,10 +68,10 @@
                     "label": "Inspiration",
                     "required": {
                         "lore": 1,
-                        "influence": 1,
+                        "influence_r": 1,
                         "operator": 1,
                         "acquaintance": 1,
-                        "memory": 1
+                        "memory_r": 1
                     },
                     "description": "A worthy subject isn't essential, but it's useful. Some subjects will draw the authorities' attention, but aren't those the interesting ones?"
                 }
@@ -122,7 +122,7 @@
             "label": "Forgotten Colours",
             "startdescription": "I remember colours that are gone from the world. I dare not reproduce them faithfully - even if I could. But I could pay tribute to them... if I had a canvas worthy of the task.",
             "requirements": {
-                "memory": 5,
+                "memory_r": 5,
                 "passion": 1
             },
             "extantreqs": {
@@ -180,7 +180,7 @@
             "label": "A Forgotten Colour",
             "startdescription": "@#memory.furious|On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur...\n#memory.luxurious|In a night-blue Mansus-haze swims a coral palace-crown which yields now and then to the moon...\n#memory.liminal|A purple evening sky shot with red gold...\n#memory.horizon|A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon... \n#memory.splendid|Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon...\n#memory.endless|It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass... \n#memory.wildering|The Wood before its darkening, its fruits poison-green, its carnelian roots... \n#memory.golden|Each of its facets shows a single point of light. It might be the glint of firelight... \n#memory.honeyed|Our wings unfurled and shining, our scales lambent as obsidian...\n@",
             "requirements": {
-                "memory": 5,
+                "memory_r": 5,
                 "passion": 1
             },
             "warmup": 30,
@@ -499,7 +499,7 @@
                 "colours.honeyed": 1
             },
             "effects": {
-                "memory": -1,
+                "memory_r": -1,
                 "canvas.pale": -1,
                 "painting.palest": 1,
                 "notoriety": 2
@@ -538,7 +538,7 @@
                 "insight": 1
             },
             "requirements": {
-                "influence": 1
+                "influence_r": 1
             },
             "warmup": 5,
             "linked": [
@@ -554,7 +554,7 @@
             "label": "A Life Retold",
             "startdescription": "These memories would have been lost to the earth below us, and now they will live on. ",
             "requirements": {
-                "memory": 1
+                "memory_r": 1
             },
             "effects": {
                 "insight": 1,
@@ -710,7 +710,7 @@
             },
             "effects": {
                 "insight": 2,
-                "memory": -1
+                "memory_r": -1
             },
             "warmup": 10,
             "linked": [

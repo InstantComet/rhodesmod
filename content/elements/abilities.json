@@ -36,9 +36,9 @@
             "description": "早已忘却的往事如今正在我脑海中回响。它们稍纵即逝。[研究“回忆”或许唤回更多理智。如果不使用，将会在三分钟后消失。]",
             "aspects": {
                 "moth_r": 2,
-                "influence": 1,
-                "memory": 1,
-                "advancement": 1
+                "influence_r": 1,
+                "memory_r": 1,
+                "advancement_r": 1
             },
             "slots": [
                 {
@@ -60,8 +60,8 @@
             "description": "无数往事汇聚了起来，就像潮水般淹没了我。我忍不住伸手去触碰。它们仿佛就在眼前。[与“智慧”技能一起使用可提升该技能并获得“理智”。五分钟后会退化回“回忆”。]",
             "aspects": {
                 "moth_r": 2,
-                "influence": 1,
-                "memory": 1
+                "influence_r": 1,
+                "memory_r": 1
             },
             "lifetime": "300",
             "icon":"fleeting_r"
@@ -119,7 +119,7 @@
                 "ability_r": 1
             },
             "animFrames": 1,
-            "description": "全是理智的心，如同一柄全是锋刃的刀，叫使用它的人手上流血。",
+            "description": "“全是理智的心，如同一柄全是锋刃的刀，叫使用它的人手上流血。”——泰戈尔",
             "icon": "sanity"
         },
         {
@@ -129,7 +129,7 @@
             "aspects": {
                 "illsanity": 1
             },
-            "lifetime": 120,
+            "lifetime": 60,
             "decayTo": "sanity",
             "icon": "sanity",
             "xtriggers": {},
@@ -152,7 +152,7 @@
             "aspects": {
                 "lantern_r": 2,
                 "heart_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "我很开心，大概吧。[安逸可以通过入梦迅速回复理智。]",
             "lifetime": 60
@@ -221,9 +221,9 @@
                 }
             ],
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "heart_r": 1,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]",
             "xtriggers": {
@@ -235,9 +235,9 @@
             "id": "vitalityplus",
             "label": "Vitality: a Lesson Learnt ",
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "heart_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
             "xtriggers": {
@@ -250,13 +250,13 @@
             "id": "restlessness",
             "label": "Restlessness",
             "aspects": {
-                "influence": 1,
+                "influence_r": 1,
                 "forge_r": 2,
                 "heart_r": 2,
                 "grail_r": 2,
                 "lantern_r": 2,
                 "moth_r": 2,
-                "memory": 1
+                "memory_r": 1
             },
             "description": "A restless longing has me. I feel that I want to do... <i>something</i>. What, exactly?",
             "lifetime": 60,
@@ -438,9 +438,9 @@
                 }
             ],
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "lantern_r": 1,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]",
             "lifetime": 180,
@@ -452,9 +452,9 @@
             "id": "eruditionplus",
             "label": "Erudition: a Lesson Learnt",
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "lantern_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]",
             "lifetime": 300,
@@ -469,9 +469,9 @@
             "aspects": {
                 "edge_r": 2,
                 "inducesdespair": 1,
-                "influence": 1,
+                "influence_r": 1,
                 "illhealth": 1,
-                "memory": 1
+                "memory_r": 1
             },
             "slots": [
                 {
@@ -577,9 +577,9 @@
                 }
             ],
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "moth_r": 1,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]",
             "lifetime": 180,
@@ -591,9 +591,9 @@
             "id": "glimmeringplus",
             "label": "Glimmering: a Lesson Learnt",
             "aspects": {
-                "advancement": 1,
+                "advancement_r": 1,
                 "moth_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]",
             "lifetime": 300,
@@ -608,8 +608,8 @@
             "aspects": {
                 "moth_r": 2,
                 "illhealth": 1,
-                "influence": 1,
-                "memory": 1
+                "influence_r": 1,
+                "memory_r": 1
             },
             "slots": [
                 {

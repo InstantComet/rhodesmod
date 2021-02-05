@@ -7,7 +7,7 @@
             "aspects": {
                 "job_r": 1
             },
-            "description": "总之就是打杂。",
+            "description": "说是杂务，只是因为杂而已。事实上，我基本上包揽了罗德岛上的一切大小事务。早知有今日，我中学毕业就去扫厕所。",
             "slots": [
                 {
                     "id": "workgenericjob",

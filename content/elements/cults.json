@@ -6,7 +6,7 @@
             "aspects": {
                 "society_r": 1,
                 "venerationtheresa": 1,
-				"memory": 1
+				"memory_r": 1
             },
             "icon": "babel",
             "slots": [
@@ -40,7 +40,7 @@
                     "required": {
                         "tool": 1,
                         "r_ingredient": 1,
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
                 }

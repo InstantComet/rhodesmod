@@ -5,7 +5,7 @@
             "label": "Accelerate Fractures",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -31,7 +31,7 @@
             "label": "Find the Moment of Intensest Opposition",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -67,7 +67,7 @@
             "label": "Subvert Edge Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -101,7 +101,7 @@
             "label": "Build a Greater Heat",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -129,7 +129,7 @@
             "label": "Subvert Forge Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -155,7 +155,7 @@
             "label": "Unite Appetites",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -183,7 +183,7 @@
             "label": "Subvert Grail Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -209,7 +209,7 @@
             "label": "Interweave the Rhythms Unceasing",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -237,7 +237,7 @@
             "label": "Subvert Heart Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -263,7 +263,7 @@
             "label": "Align Luminosities",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -291,7 +291,7 @@
             "label": "Subvert Lantern Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -317,7 +317,7 @@
             "label": "Embrace the Possibilities of Peril",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -352,7 +352,7 @@
             "label": "Subvert Moth Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -385,7 +385,7 @@
             "label": "Deepen the Silence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -412,7 +412,7 @@
             "label": "Subvert Winter Influence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2,
+                "influence_r": 2,
                 "healthskill": -1,
                 "reasonskill": -1,
                 "passionskill": -1,
@@ -438,7 +438,7 @@
             "label": "The Moment of Consequence",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2
+                "influence_r": 2
             },
             "startdescription": "Now potencies and potentialities align -",
             "warmup": 5,
@@ -811,7 +811,7 @@
             "comments": "This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionid": "study_r",
             "requirements": {
-                "influence": 2
+                "influence_r": 2
             },
             "effects": {
                 "influenceknock": -1,

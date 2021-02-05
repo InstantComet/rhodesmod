@@ -150,8 +150,8 @@
                 "map_location_default": 1,
                 "location_intro": 1
             },
-            "startdescription": "启动",
-            "description": "我们重获了罗德岛的控制。接下来，逃就对了。",
+            "startdescription": "我们重获了罗德岛的控制。接下来，逃就对了。",
+            "description": ".",
             "warmup": 30,
             "craftable": false
         },

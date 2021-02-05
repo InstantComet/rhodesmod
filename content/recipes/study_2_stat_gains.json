@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "study_rincreasesanitystarter",
-            "label": "获得理智技能",
+            "label": "溯流追源",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
-            "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
-            "description": "I've grown stronger. [I've gained sanity, but it'll be more difficult to gain sanity next time.]",
+            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
+            "description": "过去的我找见了我，以一种过于平静的方式。[我唤回了“理智”，但下次追溯记忆的难度会上升。]",
             "effects": {
                 "fleeting_r": -2,
                 "sanity": 1,
@@ -20,13 +20,13 @@
         },
         {
             "id": "study_rincreasefleeting_rtoplus",
-            "label": "Exercise the Body",
+            "label": "浮光跃金",
             "actionid": "study_r",
             "requirements": {
                 "fleeting_r": 2
             },
-            "startdescription": "I am abrim with fleeting_r. If I devote some time to exercise, I'll benefit.",
-            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
+            "startdescription": "我从许多陌生的东西上看见了如水中月般摇曳不定的…我自己。",
+            "description": "散乱的回忆正在逐渐凝聚…变得无比庞大喧嚣。",
             "effects": {
                 "fleeting_r": -2,
                 "fleetingplus_r": 1
@@ -51,26 +51,8 @@
             "craftable": true
         },
         {
-            "id": "study_rincreasefleeting_rwithinfluencehearttoplus",
-            "label": "Exercise the Body",
-            "actionid": "study_r",
-            "requirements": {
-                "fleeting_r": 1,
-                "influenceheart": 1,
-                "lore": -1
-            },
-            "startdescription": "I am abrim with fleeting_r, and this is a brisk season. If I devote some time to exercise, I'll benefit. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
-            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
-            "effects": {
-                "influence": -2,
-                "fleetingplus_r": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
             "id": "study_rincreasesanityskilla",
-            "label": "Exercise the Body: Stronger...",
+            "label": "溯流追源：更进一步",
             "actionid": "study_r",
             "requirements": {
                 "skillsanitya": 1,
@@ -79,8 +61,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "I will grow stronger still.",
-            "description": "The machine, my body, ripples with power.",
+            "startdescription": "回忆是一砖一瓦砌成的城市。可我为何要推翻它？是因为我惧怕城池外的仇敌，还是因为我要拥抱他？",
+            "description": "我重新砌好了城墙，却没有从残砖碎瓦寻找到答案。然而时过境迁，旧敌与旧友也就没什么分别了。",
             "effects": {
                 "sanity": 1
             },
@@ -89,7 +71,7 @@
         },
         {
             "id": "study_rincreasesanityskillb",
-            "label": "Exercise the Body:  Stronger Yet...",
+            "label": "溯流追源：源头",
             "actionid": "study_r",
             "requirements": {
                 "skillsanityb": 1,
@@ -98,8 +80,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "I will grow stronger yet.",
-            "description": "I could carry a man across a river, now; or strangle him.",
+            "startdescription": "我已经在记忆的汪洋大海中确定了我的位置所在。或许是时候从这海洋里脱身、与镜中的倒影合二为一了。",
+            "description": "我再也没有什么需要找见的东西了。我的回忆……回忆现在对我没有用处了。",
             "effects": {
                 "sanity": 1
             },
@@ -107,7 +89,7 @@
             "craftable": true
         },
         {
-            "id": "study_rincreasesanityskill_to_d_edge",
+            "id": "study_rincreasesanityskill_to_d_illumination",
             "label": "Exercise the Body: A Higher Strength",
             "actionid": "study_r",
             "requirements": {
@@ -127,7 +109,7 @@
             "craftable": true
         },
         {
-            "id": "study_rincreasesanityskill_to_d_forge",
+            "id": "study_rincreasesanityskill_to_d_concentration",
             "label": "Exercise the Body: A Higher Strength",
             "actionid": "study_r",
             "requirements": {
@@ -142,67 +124,6 @@
                 "sanity": 1,
                 "skillsanityc": -1,
                 "skillsanityd_illumination": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "study_rincreasesanityskill_to_d_grail",
-            "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study_r",
-            "requirements": {
-                "skillsanityc": 1,
-                "fleetingplus_r": 4,
-                "grail_r": 1,
-                "lore": 1
-            },
-            "startdescription": "I will taste what the Grail has prescribed. I will be lithe and thorned and sweet.",
-            "description": "No storm can break the tree that bends.",
-            "effects": {
-                "sanity": 1,
-                "skillsanityc": -1,
-                "skillsanityd_concentration": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "study_rincreasesanityskill_to_d_heart",
-            "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study_r",
-            "requirements": {
-                "skillsanityc": 1,
-                "fleetingplus_r": 4,
-                "heart_r": 9,
-                "lore": 1
-            },
-            "comments": "ugh: heart influence from fleetingplus_r",
-            "startdescription": "I will follow the Thunderskin's voice.",
-            "description": "No storm can break the tree that bends.",
-            "effects": {
-                "sanity": 1,
-                "skillsanityc": -1,
-                "skillsanityd_concentration": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "study_rincreasesanityskill_to_d_moth",
-            "label": "Exercise the Body: A Deeper Grace",
-            "actionid": "study_r",
-            "requirements": {
-                "skillsanityc": 1,
-                "fleetingplus_r": 4,
-                "moth_r": 1,
-                "lore": 1
-            },
-            "startdescription": "Through the fire we fly, and it shall not consume us.",
-            "description": "No storm can break the tree that bends.",
-            "effects": {
-                "sanity": 1,
-                "skillsanityc": -1,
-                "skillsanityd_concentration": 1
             },
             "warmup": 60,
             "craftable": true

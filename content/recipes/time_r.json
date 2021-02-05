@@ -11,7 +11,7 @@
             "effects": {
                 "lmfunds": -1
             },
-            "startdescription": "时间流动",
+            "startdescription": "时间在流逝。钱也是。",
             "description": ".",
             "warmup": 60,
             "slots": [

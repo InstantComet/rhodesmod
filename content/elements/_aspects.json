@@ -1,10 +1,25 @@
 {
 	"elements": [
 		{
-			"id": "job_r",
-			"label": "job_r",
+			"id": "advancement_r",
+			"label": "提升",
 			"isAspect": true,
-			"description": "打工挣钱。"
+			"description": "我可以从中汲取我想要的东西。",
+			"icon":"advancement"
+		},
+		{
+			"id": "influence_r",
+			"label": "影响",
+			"isAspect": true,
+			"description": "某种江水般转瞬即逝之物。如果利用恰当，将能发挥出巨大的力量。",
+			"icon":"influence"
+		},
+		{
+			"id": "job_r",
+			"label": "工作",
+			"isAspect": true,
+			"description": "不劳者不得食。",
+			"icon": "job"
 		},
 		{
 			"id": "ext_department",
@@ -23,9 +38,9 @@
 		{
 			"id": "skyfallmessager",
 			"label": "天灾信使",
-			"description": "就是天灾信使。",
+			"description": "丧钟为谁而鸣？丧钟为你而鸣。",
 			"isAspect": true,
-			"icon": ""
+			"icon": "skyfallmessager"
 		},
 		{
 			"id": "venerationtheresa",
@@ -162,15 +177,15 @@
 			"id": "ability_r",
 			"label": "能力",
 			"isAspect": true,
-			"description": "我所能、且应依赖之物，也是仅有之物。我该用什么标准来称衡它呢？。",
+			"description": "我所能、且应依赖之物，也是仅有之物。我该用什么标准来称衡它呢？",
 			"icon":"ability"
 		},
 		{
-			"id": "memory",
+			"id": "memory_r",
 			"label": "回忆",
 			"isAspect": true,
 			"description": "我们铭记死者，直至将其遗忘。",
-			"icon": "memory"
+			"icon": "memory_r"
 		},
 		{
 			"id": "disaster",
@@ -222,14 +237,14 @@
 			"label": "地点",
 			"description": "可以被定位、被索引。也许不能。通常是确定的、不变的。也许不是。",
 			"isAspect": true,
-			"icon": "location_r"
+			"icon": "location"
 		},
 		{
 			"id": "terra_location",
 			"label": "位置",
 			"description": "这片大地上遥远的某处。",
 			"isAspect": true,
-			"icon": "location_r"
+			"icon": "location"
 		},
 		{
 			"id": "illsanity",
@@ -340,12 +355,6 @@
 			"description": "The irrevocable outcome of an irrevocable act."
 		},
 		{
-			"id": "advancement",
-			"label": "Advancement",
-			"isAspect": true,
-			"description": "A taste of what might be. [With enough of these cards, you can grow an Ability.]"
-		},
-		{
 			"id": "potential",
 			"label": "Potential",
 			"isAspect": true,
@@ -402,12 +411,6 @@
 			"label": "Lethal Poison",
 			"isAspect": true,
 			"description": "Under no circumstances should you put this in anyone you want to keep."
-		},
-		{
-			"id": "influence",
-			"label": "Influence",
-			"isAspect": true,
-			"description": "An echo, a resonance, an alignment. Something that will fade soon."
 		},
 		{
 			"id": "tool",

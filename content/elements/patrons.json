@@ -484,11 +484,11 @@
             "slots": [
                 {
                     "id": "subject",
-                    "label": "Memory",
+                    "label": "memory_r",
                     "description": "Miss Naenia never speaks to me - she is only a painting - but afterwards, I always remember what she has said.",
                     "actionid": "talk_r",
                     "required": {
-                        "memory": 1,
+                        "memory_r": 1,
                         "ascension.remembrance.offering": 1
                     }
                 }

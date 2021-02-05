@@ -69,7 +69,7 @@
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "description": "What influence will be taken?",
                     "consumes": true
@@ -311,11 +311,11 @@
                     "description": "What are the words?"
                 },
                 {
-                    "id": "Influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "description": "What power is present?"
                 },
@@ -373,7 +373,7 @@
                     "label": "Offering",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "consumes": true,
                     "description": "What influence will be consumed?"
@@ -419,11 +419,11 @@
                     "consumes": true
                 },
                 {
-                    "id": "Influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "description": "What power is present?"
                 },
@@ -484,7 +484,7 @@
                     "label": "Dissolution",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "description": "Something to be lost.",
                     "consumes": true

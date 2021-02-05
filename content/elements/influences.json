@@ -5,7 +5,7 @@
             "label": "A Thrilling Air",
             "aspects": {
                 "edge_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -44,7 +44,7 @@
             "label": "A Rousing Air",
             "aspects": {
                 "edge_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -83,7 +83,7 @@
             "label": "A Furious Air",
             "aspects": {
                 "edge_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -122,7 +122,7 @@
             "label": "A Resolution",
             "aspects": {
                 "edge_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "Who can avert the finality of battle? [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
@@ -133,7 +133,7 @@
             "label": "A Rising Heat",
             "aspects": {
                 "forge_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -171,7 +171,7 @@
             "label": "A Trembling Heat",
             "aspects": {
                 "forge_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -210,7 +210,7 @@
             "label": "An Exalting Heat",
             "aspects": {
                 "forge_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -249,7 +249,7 @@
             "label": "An Incandescence",
             "aspects": {
                 "forge_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "Change follows fire. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
@@ -260,7 +260,7 @@
             "label": "An Awareness of Appetite",
             "aspects": {
                 "grail_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -300,7 +300,7 @@
             "label": "An Urgency of Appetite",
             "aspects": {
                 "grail_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -339,7 +339,7 @@
             "label": "An Imperative of Appetite",
             "aspects": {
                 "grail_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -378,7 +378,7 @@
             "label": "An Incarnadescence",
             "aspects": {
                 "grail_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "The very air is succulent with possibility. Pierce it, and it might bleed. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
@@ -389,7 +389,7 @@
             "label": "Trembling Airs",
             "aspects": {
                 "heart_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -431,7 +431,7 @@
             "label": "Pulsing Airs",
             "aspects": {
                 "heart_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -470,7 +470,7 @@
             "label": "Pounding Airs",
             "aspects": {
                 "heart_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -509,7 +509,7 @@
             "label": "An Imminence",
             "aspects": {
                 "heart_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "The sky is a drum; the earth is ready for its ecstasy. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
@@ -527,7 +527,7 @@
             "label": "Subtle Flaw",
             "aspects": {
                 "knock_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -577,7 +577,7 @@
             "label": "Subtle Fracture",
             "aspects": {
                 "knock_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -622,7 +622,7 @@
             "label": "Subtle Rupture",
             "aspects": {
                 "knock_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -667,7 +667,7 @@
             "label": "Wrong Door",
             "aspects": {
                 "knock_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
@@ -678,7 +678,7 @@
             "label": "A Consciousness of Radiance",
             "aspects": {
                 "lantern_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -722,7 +722,7 @@
             "label": "An Intensity of Radiance",
             "aspects": {
                 "lantern_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -761,7 +761,7 @@
             "label": "A Blaze of Radiance",
             "aspects": {
                 "lantern_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -800,7 +800,7 @@
             "label": "A Splendour",
             "aspects": {
                 "lantern_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "lifetime": 60,
             "description": "Cover your eyes, if you like. It will serve no purpose. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
@@ -811,7 +811,7 @@
             "label": "A Buzzing in the Brain",
             "aspects": {
                 "moth_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -856,7 +856,7 @@
             "label": "A Rattling in the Soul",
             "aspects": {
                 "moth_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -895,7 +895,7 @@
             "label": "A Howling in the Heart",
             "aspects": {
                 "moth_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -934,7 +934,7 @@
             "label": "That Old Yearning",
             "aspects": {
                 "moth_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "\"\r\n    please\"",
             "lifetime": 60,
@@ -945,7 +945,7 @@
             "label": "A Chilly Atmosphere",
             "aspects": {
                 "winter_r": 2,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -986,7 +986,7 @@
             "label": "An Icy Atmosphere",
             "aspects": {
                 "winter_r": 6,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -1025,7 +1025,7 @@
             "label": "A Bitter Atmosphere",
             "aspects": {
                 "winter_r": 10,
-                "influence": 1
+                "influence_r": 1
             },
             "slots": [
                 {
@@ -1064,7 +1064,7 @@
             "label": "Perfect Frost",
             "aspects": {
                 "winter_r": 15,
-                "influence": 1
+                "influence_r": 1
             },
             "description": "The world is still as ice. Each movement is a journey. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
             "lifetime": 60,

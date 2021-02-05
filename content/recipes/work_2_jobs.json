@@ -113,7 +113,7 @@
             },
             "startdescription": "我拿起笤帚。",
             "description": "我也不知道我为什么在这里打杂。",
-            "warmup": 10,
+            "warmup": 60,
             "craftable": true
         }
     ]

@@ -105,12 +105,12 @@
                     }
                 },
                 {
-                    "id": "influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "consumes": true
                 }
@@ -168,12 +168,12 @@
                     }
                 },
                 {
-                    "id": "influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "consumes": true
                 }
@@ -242,12 +242,12 @@
                     }
                 },
                 {
-                    "id": "influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "description": "What stirs me today?",
                     "actionid": "work_r",
                     "required": {
-                        "influence": 1
+                        "influence_r": 1
                     },
                     "consumes": true
                 }

@@ -1144,8 +1144,8 @@
                 },
                 {
                     "actionid": "use",
-                    "id": "influence",
-                    "label": "Influence",
+                    "id": "influence_r",
+                    "label": "influence_r",
                     "required": {
                         "op.flowermaker": 1,
                         "op.horned": 1,

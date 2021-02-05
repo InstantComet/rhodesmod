@@ -2,12 +2,12 @@
     "recipes": [
         {
             "id": "skyfall_end_force_execute",
-            "label": "逃离天灾（强制）",
+            "label": "逃离天灾",
             "actionid": "forceendskyfall",
             "deleteverb": {
                 "skyfall*": 100
             },
-            "startdescription": "逃离天灾了",
+            "startdescription": "我们已经远离了风暴的中心。但破败之雨尚未散去，它仍在废墟上空盘踞着……至少与我们无关了。",
             "description": ".",
             "warmup": 0,
             "craftable": false
@@ -68,7 +68,6 @@
             "startdescription": "毁灭的诸多迹象已经开始显现。",
             "description": ".",
             "comments": "This exists specifically for the burn image at 3 skyfall.",
-            "burnimage": "skyfall_r",
             "effects": {
                 "skyfall_coming": 1
             },

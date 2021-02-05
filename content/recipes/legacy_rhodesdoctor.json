@@ -60,6 +60,7 @@
                 }
             ],
             "effects": {
+                "skyfall_coming": 1,
                 "operator_amiya": 1,
                 "operator_kaltist": 1
             },
@@ -71,7 +72,7 @@
             "label": "天灾迫近",
             "actionid": "study_r",
             "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
-            "warmup": 10,
+            "warmup": 20,
             "craftable": false,
             "linked": [
                 {
@@ -97,7 +98,7 @@
                     "chance": 100
                 }
             ],
-            "warmup": 20,
+            "warmup": 0,
             "craftable": false
         },
         {
@@ -112,9 +113,9 @@
         },
         {
             "id": "doctoropenexplore",
-            "label": "制订计划",
+            "label": "打开入口",
             "actionid": "explore_r",
-            "startdescription": "情况不甚乐观，罗德岛的内部简直如同废墟。我得从中找到一条可行的道路把干员们送到控制中枢。[将地点放入探索中可以开始一次探险]",
+            "startdescription": "是时候深入这巨人的尸骸中试图唤醒他了。他们还仰赖着我。我需要冷静。深呼——深吸。我感觉好些了。[将地点放入探索中可以开始一次探险]",
             "description": "天无绝人之路。出发吧。",
             "effects": {
                 "sanity": 1
@@ -126,8 +127,8 @@
             "id": "goto_office_kaltist",
             "label": "回应凯尔希的传唤",
             "actionid": "explore_r",
-            "startdescription": "凯尔希把我叫到了她刚收拾出来作为办公室的地方，她有什么打算？",
-            "description": "天无绝人之路。出发吧。",
+            "startdescription": "阿米娅临走前千叮咛万嘱咐，让我不要叫她小姐，也不要叫她夫人女士，更不要叫她女人。要称呼她为凯尔希博士。",
+            "description": "这间办公室选址不错，如果我希望清净些的话，也要找个这种墙头壁缝的角落工作。实在是太难找了。",
             "requirements": {
                 "office_kaltist": 1
             },
@@ -146,10 +147,10 @@
         },
         {
             "id": "doctoropentalk",
-            "label": "凯尔希的传唤",
+            "label": "与凯尔希“博士”的谈话",
             "actionid": "talk_r",
-            "startdescription": "她有什么打算？",
-            "description": "“给你点钱，以后你就要自力更生，去打工吧”。凯尔希甚至没有看我一眼。",
+            "startdescription": "让我来听听她有何高论。",
+            "description": "我算是听懂了。她叫我自力更生。",
             "requirements": {},
             "alt": [
                 {
@@ -169,8 +170,7 @@
                 }
             ],
             "effects": {
-                "lmfunds": 2,
-                "genericjob": 1
+                "lmfunds": 2
             },
             "warmup": 20,
             "craftable": false,
@@ -180,21 +180,22 @@
             "id": "doctoropenwork",
             "label": "开始工作",
             "actionid": "work_r",
-            "startdescription": "阿米娅带领我大致认识了罗德岛内部。",
+            "startdescription": "阿米娅带我熟悉了一下罗德岛内的大小事务，也就是我以后的日常工作。每到一处我的心就更凉一分。",
             "description": "告别的时候，阿米娅偷偷在我的手里塞了一点龙门币。",
             "effects": {
-                "lmfunds": 1
+                "lmfunds": 1,
+                "genericjob": 1
             },
             "warmup": 20,
             "craftable": false
         },
         {
             "id": "doctoropenheadhunt",
-            "label": "学习干员寻访",
+            "label": "干员寻访",
             "actionid": "headhunt_r",
             "requirements": {},
-            "startdescription": "我学习干员寻访。",
-            "description": ".",
+            "startdescription": "不行，再这样下去我会累死的。我得找人帮忙。",
+            "description": "我可以试试替罗德岛征募雇员。[在DEMO中暂不可用]",
             "warmup": 10,
             "craftable": true,
             "effects": {

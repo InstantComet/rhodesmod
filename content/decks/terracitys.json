@@ -7,7 +7,7 @@
             "spec": [
                 "map_location_lungmen"
             ],
-            "defaultcard": "map_location_default",
+            "defaultcard": "map_location_lungmen",
             "resetonexhaustion": false
         }
     ]
