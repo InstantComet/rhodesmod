@@ -2,17 +2,18 @@
     "recipes": [
         {
             "id": "work_commandjob_c1",
-            "label": "在罗德岛打杂（高级）后半",
+            "label": "专心致志地工作",
             "actionId": "work_r",
             "requirements": {
                 "sanity": 1
             },
             "effects": {
+                "sanity": -1,
                 "lmfunds": 2,
                 "losesanity": 1
             },
             "startdescription": "我拿起吸尘器。",
-            "description": "我也不知道我为什么在这里打杂。",
+            "description": "我是谁？",
             "warmup": 10,
             "craftable": false
         },
@@ -27,17 +28,17 @@
                 "lmfunds": 1,
                 "losesanity": 1
             },
-            "startdescription": "我拿起吸尘器。",
-            "description": "打杂的水平不行。",
+            "startdescription": "是这些废纸先动的手。",
+            "description": "……我又浪费了一天时间。我需要更加专心致志才行。",
             "warmup": 10,
             "craftable": false
         },
         {
             "id": "work_commandjob_b2",
-            "label": "在罗德岛打杂（高级）中段",
+            "label": "…必先利其器。",
             "actionId": "work_r",
             "requirements": {},
-            "startdescription": "我拿起吸尘器。",
+            "startdescription": "我的判断没错。我的时间和耐力不能全浪费在空转上。",
             "description": "投入理智可以更好地打杂。",
             "warmup": 10,
             "craftable": false,
@@ -54,7 +55,7 @@
         },
         {
             "id": "work_commandjob_b",
-            "label": "在罗德岛打杂（高级）前半",
+            "label": "工欲善其事",
             "actionId": "work_r",
             "requirements": {
                 "genericjob": 1,
@@ -64,14 +65,14 @@
                 {
                     "id": "needlmfunds",
                     "label": "理智",
-                    "description": "放进理智提高收益。",
+                    "description": "我需要更加专心致志。",
                     "required": {
                         "sanity": 1
                     }
                 }
             ],
-            "startdescription": "我拿起吸尘器。",
-            "description": "投入理智可以更好地打杂。",
+            "startdescription": "我尝试厘清这些鸡零狗碎之事。",
+            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。",
             "warmup": 20,
             "craftable": false,
             "linked": [
@@ -83,14 +84,14 @@
         },
         {
             "id": "work_commandjob_a",
-            "label": "在罗德岛打杂（高级）开始",
+            "label": "工欲善其事",
             "actionId": "work_r",
             "requirements": {
                 "genericjob": 1,
                 "sanityskill": 1
             },
-            "startdescription": "我拿起吸尘器。",
-            "description": "投入理智可以更好地打杂。",
+            "startdescription": "我尝试厘清这些鸡零狗碎之事。",
+            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。",
             "warmup": 10,
             "craftable": true,
             "linked": [
@@ -102,7 +103,7 @@
         },
         {
             "id": "work_genericjob",
-            "label": "在罗德岛打杂",
+            "label": "打杂。",
             "actionId": "work_r",
             "requirements": {
                 "genericjob": 1,
@@ -111,8 +112,8 @@
             "effects": {
                 "lmfunds": 1
             },
-            "startdescription": "我拿起笤帚。",
-            "description": "我也不知道我为什么在这里打杂。",
+            "startdescription": "这些繁琐的工作对我的耐心和体力是种挑战。",
+            "description": "我从哪里来？（尝试利用入梦得来的回忆唤回的理智来工作）",
             "warmup": 60,
             "craftable": true
         }
