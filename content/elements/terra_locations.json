@@ -22,7 +22,7 @@
         {
             "id": "location_defaults",
             "label": "当前位置：荒原中央",
-            "description": "从我脚下开始，贫瘠荒芜的大地不断向外延伸。",
+            "description": "从我脚下开始，贫瘠荒凉的大地不断向外延伸。",
             "icon": "location_default",
             "aspects": {
                 "terra_location": 1

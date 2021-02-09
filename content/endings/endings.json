@@ -21,8 +21,8 @@
         {
             "id": "arrivelungmen",
             "label": "抵达龙门",
-            "description": "抵达龙门，感谢游玩。",
-            "image": "suninrags",
+            "description": "抵达龙门，试玩DEMO/新手教程到此结束。感谢游玩。",
+            "image": "endinglungmen",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
             "achievement": ""

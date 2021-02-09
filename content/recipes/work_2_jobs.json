@@ -19,7 +19,7 @@
         },
         {
             "id": "work_commandjob_c2",
-            "label": "在罗德岛打杂（高级）半途而废",
+            "label": "半途而废",
             "actionId": "work_r",
             "requirements": {
                 "sanity": -1

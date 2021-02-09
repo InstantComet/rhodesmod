@@ -52,7 +52,7 @@
         },
         {
             "id": "study_rincreasesanityskilla",
-            "label": "溯流追源：更进一步",
+            "label": "溯流追源",
             "actionid": "study_r",
             "requirements": {
                 "skillsanitya": 1,
@@ -61,8 +61,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "回忆是一砖一瓦砌成的城市。可我为何要推翻它？是因为我惧怕城池外的仇敌，还是因为我要拥抱他？",
-            "description": "我重新砌好了城墙，却没有从残砖碎瓦寻找到答案。然而时过境迁，旧敌与旧友也就没什么分别了。",
+            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
+            "description": "过去的我找见了我，以一种过于平静的方式。",
             "effects": {
                 "sanity": 1
             },
@@ -71,7 +71,7 @@
         },
         {
             "id": "study_rincreasesanityskillb",
-            "label": "溯流追源：源头",
+            "label": "溯流追源：更进一步",
             "actionid": "study_r",
             "requirements": {
                 "skillsanityb": 1,
@@ -80,8 +80,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "我已经在记忆的汪洋大海中确定了我的位置所在。或许是时候从这海洋里脱身、与镜中的倒影合二为一了。",
-            "description": "我再也没有什么需要找见的东西了。我的回忆……回忆现在对我没有用处了。",
+            "startdescription": "回忆是一砖一瓦砌成的城市。可我为何要推翻它？是因为我惧怕城池外的仇敌，还是因为我要拥抱他？",
+            "description": "我重新砌好了城墙，却没有从残砖碎瓦寻找到答案。然而时过境迁，旧敌与旧友也就没什么分别了。",
             "effects": {
                 "sanity": 1
             },

@@ -11,7 +11,7 @@
 			"id": "influence_r",
 			"label": "影响",
 			"isAspect": true,
-			"description": "某种江水般转瞬即逝之物。如果利用恰当，将能发挥出巨大的力量。",
+			"description": "某种河水般转瞬即逝之物。如果利用恰当，将能发挥出巨大的力量。",
 			"icon":"influence"
 		},
 		{
@@ -184,7 +184,7 @@
 			"id": "memory_r",
 			"label": "回忆",
 			"isAspect": true,
-			"description": "我们铭记死者，直至将其遗忘。",
+			"description": "“已有的事后必再有；已行的事后必再行。日光之下并无新事。”——《传道书》",
 			"icon": "memory_r"
 		},
 		{
