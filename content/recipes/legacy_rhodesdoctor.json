@@ -127,7 +127,7 @@
             "id": "goto_office_kaltist",
             "label": "回应凯尔希的传唤",
             "actionid": "explore_r",
-            "startdescription": "阿米娅临走前千叮咛万嘱咐，让我不要叫她小姐，也不要叫她夫人女士，更不要叫她女人。要称呼她为凯尔希博士。",
+            "startdescription": "阿米娅临走前嘱咐，让我不要叫她小姐，也不要叫她夫人女士，更不要叫她女人。要称呼她为凯尔希博士。",
             "description": "这间办公室选址不错，如果我希望清净些的话，也要找个这种墙头壁缝的角落工作。实在是太难找了。",
             "requirements": {
                 "office_kaltist": 1
@@ -159,11 +159,6 @@
                     "additional": true
                 },
                 {
-                    "id": "doctoropenheadhunt",
-                    "chance": 100,
-                    "additional": true
-                },
-                {
                     "id": "timegoes_r",
                     "chance": 100,
                     "additional": true
@@ -186,7 +181,7 @@
                 "lmfunds": 1,
                 "genericjob": 1
             },
-            "warmup": 20,
+            "warmup": 30,
             "craftable": false
         },
         {
@@ -196,7 +191,7 @@
             "requirements": {},
             "startdescription": "不行，再这样下去我会累死的。我得找人帮忙。",
             "description": "我可以试试替罗德岛征募雇员。[在DEMO中暂不可用]",
-            "warmup": 10,
+            "warmup": 30,
             "craftable": true,
             "effects": {
                 "operator_earthspirit": 1

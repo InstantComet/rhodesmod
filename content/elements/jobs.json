@@ -11,10 +11,9 @@
             "slots": [
                 {
                     "id": "workgenericjob",
-                    "label": "工作",
+                    "label": "专业技能",
                     "actionid": "work_r",
                     "required": {
-                        "sanity": 1,
                         "sanityskill": 1
                     },
                     "description": "Extra effort. It might help, if I'm very lucky."

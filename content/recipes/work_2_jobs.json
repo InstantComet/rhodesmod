@@ -72,8 +72,8 @@
                 }
             ],
             "startdescription": "我尝试厘清这些鸡零狗碎之事。",
-            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。",
-            "warmup": 20,
+            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。[投入理智来提升工作效率]",
+            "warmup": 30,
             "craftable": false,
             "linked": [
                 {
@@ -102,12 +102,11 @@
             ]
         },
         {
-            "id": "work_genericjob",
-            "label": "打杂。",
+            "id": "work_genericjob_intro",
+            "label": "初次打杂。",
             "actionId": "work_r",
             "requirements": {
-                "genericjob": 1,
-                "sanity": 1
+                "genericjob": 1
             },
             "effects": {
                 "lmfunds": 1
@@ -115,7 +114,37 @@
             "startdescription": "这些繁琐的工作对我的耐心和体力是种挑战。",
             "description": "我从哪里来？（尝试利用入梦得来的回忆唤回的理智来工作）",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "maxexecutions": 1
+        },
+        {
+            "id": "work_genericjob",
+            "label": "打杂。",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1
+            },
+            "effects": {
+                "lmfunds": 1
+            },
+            "startdescription": "这些繁琐的工作对我的耐心和体力是种挑战。",
+            "description": "我从哪里来？（尝试利用入梦得来的回忆唤回的理智来工作）",
+            "warmup": 60,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
         }
     ]
 }
