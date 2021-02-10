@@ -40,7 +40,8 @@
                     "chance": 100,
                     "additional": true
                 }
-            ]            
+            ],
+            "portaleffect": "Wood"           
         },
         {
             "id": "doctorintrotalk",
