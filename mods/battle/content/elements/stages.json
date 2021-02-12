@@ -1,0 +1,12 @@
+{
+    "elements": [
+        {
+            "id": "stage1",
+            "label": "战斗地点1",
+            "icon": "",
+            "aspects": {
+            },
+            "description": "战斗地点1"
+        }
+    ]
+}

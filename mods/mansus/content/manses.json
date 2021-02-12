@@ -1,0 +1,205 @@
+{
+  "manses": [
+    {
+      "id": "darksus",
+      "map": "darksus",
+      "doors": {
+        "wood": "darkwood",
+        "whitedoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": 300,
+              "y": 300
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "stagdoor": "darkstag",
+        "spiderdoor": "darkspider",
+        "peacockdoor": "darkpeacock",
+        "tricuspidgate": {
+          "icon": "darktricuspid",
+          "color": "FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "mansus1",
+      "map": "mansus1",
+      "doors": {
+        "wood": "darkwood",
+        "whitedoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": 300,
+              "y": 300
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "stagdoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": -1000,
+              "y": -1000
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "spiderdoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": -1000,
+              "y": -1000
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "peacockdoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": -1000,
+              "y": -1000
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "tricuspidgate": {
+          "icon": "darktricuspid",
+          "color": "FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "mansus2",
+      "map": "mansus2",
+      "doors": {
+        "wood": "darkwood",
+        "whitedoor": {
+          "icon": "darkwhite",
+          "color": "FF0000",
+          "locations": {
+            "door": {
+              "x": 300,
+              "y": 300
+            },
+            "card_door": {
+              "x": 0,
+              "y": 100
+            },
+            "card_1": {
+              "x": 100,
+              "y": 200
+            },
+            "card_2": {
+              "x": 100,
+              "y": 0
+            }
+          },
+          "decks": [
+            "debug",
+            "debug",
+            "debug"
+          ]
+        },
+        "stagdoor": "darkstag",
+        "spiderdoor": "darkspider",
+        "peacockdoor": "darkpeacock",
+        "tricuspidgate": {
+          "icon": "darktricuspid",
+          "color": "FFFFFF"
+        }
+      }
+    }
+  ]
+}

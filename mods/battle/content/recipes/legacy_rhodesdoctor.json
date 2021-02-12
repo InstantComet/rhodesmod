@@ -1,0 +1,202 @@
+{
+    "recipes": [
+        {
+            "id": "dreamr_doctorjob",
+            "label": "石中之梦",
+            "actionid": "dream_r",
+            "requirements": {
+                "introsanity": 1
+            },
+            "linked": [
+                {
+                    "id": "doctoropendream",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "introsanity": -1,
+                "fleeting_r": 1
+            },
+            "startdescription": "微热的温度在牵引着我离开这麻木的冰冷的梦境。[将理智入梦可以获得回忆]",
+            "description": "我眼前的身影似曾相识……但我什么也记不起来。",
+            "warmup": 10,
+            "craftable": true,
+            "burnimage":"burn3"
+        },
+        {
+            "id": "doctoropendream",
+            "label": "嘈杂回音",
+            "actionid": "dream_r",
+            "startdescription": "不协和的音符逃从我的长眠中逃出，撞上头盖骨，又反弹了回来。",
+            "description": "不知为何，我的梦里充斥着难以理解的片段和感受。实在是过于喧嚣。",
+            "warmup": 20,
+            "effects": {
+                "sanity": 1
+            },
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "doctorintrotalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "portaleffect": "Wood"           
+        },
+        {
+            "id": "doctorintrotalk",
+            "label": "醒时之境",
+            "actionid": "talk_intro",
+            "startdescription": "我花了一些时间让自己更清醒一点。开车的是个看起来心情很不好的女人。在车上，将我从石棺中唤醒的卡斯特少女简略地说明了一下情况。我们将要抵达的移动平台叫做“罗德岛”。",
+            "alt": [
+                {
+                    "id": "skyfallactive",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "doctoropenstudy_a",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "skyfall_coming": 1,
+                "operator_amiya": 1,
+                "operator_kaltist": 1
+            },
+            "warmup": 20,
+            "craftable": false
+        },
+        {
+            "id": "doctoropenstudy_a",
+            "label": "天灾迫近",
+            "actionid": "study_r",
+            "startdescription": "灾难不久后将要降临于此。但这座移动要塞破败不堪、年久失修，已经到达了极限。我们必须先修好它才能离开这里。",
+            "warmup": 20,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "doctoropenstudy_b",
+                    "chance": 100
+                }
+            ],
+            "maxexecutions": 1
+        },
+        {
+            "id": "doctoropenstudy_b",
+            "label": "来了！",
+            "actionid": "study_r",
+            "startdescription": "想想办法。虽然你才开机十五分钟，大脑——想想办法。",
+            "description": "我们抢救出了半张地图……呃，这是地图吧？[研究地图可以获得具体的地点]",
+            "effects": {
+                "map_location_rhodes_a": 1
+            },
+            "alt": [
+                {
+                    "id": "doctoropenexplore",
+                    "additional": true,
+                    "chance": 100
+                }
+            ],
+            "warmup": 0,
+            "craftable": false
+        },
+        {
+            "id": "doctorgaintime",
+            "label": "争取时间！",
+            "actionid": "study_r",
+            "startdescription": "在干员们前往控制中枢的时候，我应该想办法为我们多争取一些时间。[将地点放入探索中可以开始一次探险]",
+            "description": "天无绝人之路。出发吧。",
+            "effects": {},
+            "warmup": 20,
+            "craftable": false
+        },
+        {
+            "id": "doctoropenexplore",
+            "label": "打开入口",
+            "actionid": "explore_r",
+            "startdescription": "是时候深入这巨人的尸骸中试图唤醒他了。他们还仰赖着我。我需要冷静。[将地点放入探索中可以开始一次探险]",
+            "description": "深呼——深吸。我感觉好些了。",
+            "effects": {
+                "sanity": 1
+            },
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "goto_office_kaltist",
+            "label": "回应凯尔希的传唤",
+            "actionid": "explore_r",
+            "startdescription": "阿米娅临走前千叮万嘱，让我不要叫她小姐，也不要叫她夫人或女士，更不要叫她女人。要称呼她为凯尔希博士。",
+            "description": "这间办公室选址不错，如果我希望清净些的话，也要找个这种墙头壁缝的角落工作。实在是太难找了。",
+            "requirements": {
+                "office_kaltist": 1
+            },
+            "effects": {
+                "office_kaltist": -1
+            },
+            "warmup": 20,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "doctoropentalk",
+            "label": "与凯尔希“博士”的谈话",
+            "actionid": "talk_r",
+            "startdescription": "让我来听听她有何高论。",
+            "description": "我算是听懂了。她叫我自力更生。",
+            "requirements": {},
+            "alt": [
+                {
+                    "id": "doctoropenwork",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "timegoes_r",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "lmfunds": 2
+            },
+            "warmup": 20,
+            "craftable": false,
+            "maxexecutions": 1
+        },
+        {
+            "id": "doctoropenwork",
+            "label": "开始工作",
+            "actionid": "work_r",
+            "startdescription": "阿米娅带我熟悉了一下罗德岛内的大小事务，也就是我以后的日常工作。每到一处我的心就更凉一分。",
+            "description": "告别的时候，阿米娅偷偷在我的手里塞了一点龙门币。",
+            "effects": {
+                "lmfunds": 1,
+                "genericjob": 1
+            },
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "doctoropenheadhunt",
+            "label": "干员寻访",
+            "actionid": "headhunt_r",
+            "requirements": {},
+            "startdescription": "不行，再这样下去我会累死的。我得找人帮忙。",
+            "description": "我可以试试替罗德岛征募雇员。[在DEMO中暂不可用]",
+            "warmup": 30,
+            "craftable": true,
+            "effects": {
+                "operator_earthspirit": 1
+            }
+        }
+    ]
+}

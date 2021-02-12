@@ -1,0 +1,292 @@
+{
+    "recipes": [
+        {
+            "id": "explore_vaultrhodes1_setup",
+            "label": "探索罗德岛的内部",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes1": 1,
+                "operator": 1
+            },
+            "effects": {
+                "seal_hiddendoor_intro": 1
+            },
+            "startdescription": "废置的大型机械造物内部通常不会有什么敌对的生物，比如盗匪或是幽灵。究其原因，是因为螺丝钉和锈铁板既不孕育（或说滋生）它们，在它们看来也没什么价值。但这并不代表这项工作无需谨慎。坍塌、辐射或是任何意外都比未经严格和科学的训练的二流恐怖分子要危险得多。总之，我们该出发了。",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun_intro",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaultrhodes2_setup",
+            "label": "Beginning an Expedition: the Forgotten Mithraeum",
+            "actionid": "explore_r",
+            "requirements": {
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultrhodes2": 1
+            },
+            "effects": {
+                "seal_hiddendoor": 1
+            },
+            "startdescription": "I'm convinced the Mithraeum still holds secrets that its discoverers never found. It's unlikely to be dangerous, but the search will require funds. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaultrhodes3_setup",
+            "label": "Beginning an Expedition: Cater & Hero Limited",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes3": 1,
+                "lmfunds": 1,
+                "operator": 1
+            },
+            "effects": {
+                "peril_treacherousground": 1
+            },
+            "startdescription": "The remaining factory walls could topple at any moment. Blackened timbers creak in pain. We must equip ourselves properly and move with dreadful care. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaultrhodes4_setup",
+            "label": "Beginning an Expedition: St Agnes Hospital",
+            "actionid": "explore_r",
+            "requirements": {
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultrhodes4": 1
+            },
+            "effects": {
+                "curse_dread": 1
+            },
+            "startdescription": "Only echoes walk the hospital halls now, but malice lingers in the air. We must search meticulously, room by room. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaultrhodes5_setup",
+            "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
+            "actionid": "explore_r",
+            "requirements": {
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultrhodes5": 1
+            },
+            "effects": {
+                "guardian_monks": 1
+            },
+            "startdescription": "Membership of the Congregation is strictly controlled. It may even be inherited. The safest approach is to burgle the minister's residence while he's conducting a service - but the sworn mothers of the Congregation guard the place in shifts, and they are not easily distracted. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaultrhodesdefault_setup",
+            "label": "Beginning an Expedition: The Forsaken Reach",
+            "actionid": "explore_r",
+            "requirements": {
+                "lmfunds": 1,
+                "operator": 1,
+                "vaultrhodesdefault": 1
+            },
+            "effects": {
+                "peril_treacherousground": 1,
+                "guardian_watchers": 1
+            },
+            "startdescription": "The law does not touch this decaying fringe of the city. The mud here has claimed many lives, and there will, no doubt, be some wretched criminals or other lairing in the warehouse. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultrhodes1_success",
+            "label": "控制中枢之内",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes1": 1
+            },
+            "effects": {
+                "vaultrhodes1": -1,
+                "map_location_default": 1,
+                "location_intro": 1
+            },
+            "startdescription": "我们重获了罗德岛的控制。接下来，逃就对了。",
+            "description": ".",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaultrhodes2_success",
+            "label": "The Deeper Sanctuary",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes2": 1
+            },
+            "effects": {
+                "vaultrhodes2": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "ingredientlanternb",
+                    "toolwinterd",
+                    "toollanternbcracked",
+                    "hq.mithraeum.potential"
+                ],
+                "draws": 4,
+                "defaultcard": "compensationb",
+                "resetonexhaustion": false
+            },
+            "startdescription": "A lonely space, musty with the memory of blood. We have found the hidden door that the highest grades of initiate used.",
+            "description": "The altar tilts back like a jaw. Behind it is the pyramid-space where only the Sun-hunters and Dawn-givers might go... but others have been here too, much more recently. They have left their treasures.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaultrhodes3_success",
+            "label": "Cater's Office",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes3": 1
+            },
+            "effects": {
+                "vaultrhodes3": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "toolheartb",
+                    "ingredientgrailb",
+                    "franklinbancroftdiarieslatin",
+                    "apolloandmarsyas",
+                    "hq.warehouse.potential"
+                ],
+                "draws": 5,
+                "defaultcard": "compensationb",
+                "resetonexhaustion": false
+            },
+            "startdescription": "Here is the capacious room where Mr Cater once watched his workers on the factory floor. The window-glass is long gone, and rats and crows have made this place their battle-ground, but perhaps there is still something of use here...",
+            "description": "Two floorboards lift away to reveal a hollow beneath Cater's desk! The rats have made free with the biscuits he stored there against the peckishness which haunts the entrepreneur, but they could not penetrate this iron lock-box. A moment with a crowbar will open it.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaultrhodes4_success",
+            "label": "The Violet Chamber",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes4": 1
+            },
+            "effects": {
+                "vaultrhodes4": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "toolgrailb",
+                    "ingredientheartb",
+                    "locksmithsdream3",
+                    "roseofhypatiagreek",
+                    "hq.hospital.potential"
+                ],
+                "draws": 5,
+                "defaultcard": "compensationb",
+                "resetonexhaustion": false
+            },
+            "startdescription": "What was this place? The door bore no sign. There were no windows. The walls were painted a rich violet - rich even now after the ravages of rain through the leaking ceiling. A rotting chair has leather straps on the arms. The floor is porcelain, and runnelled.",
+            "description": "There is a padlocked cupboard in the wall: it does not long resist our strength. It contains instruments tipped with flint and glass - instruments one would not expect a surgeon to use. It contains other matters of more interest to us too...",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaultrhodes5_success",
+            "label": "Secret Devotions",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes5": 1
+            },
+            "effects": {
+                "vaultrhodes5": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "roseofnurielgreek",
+                    "roseofwazneigreek",
+                    "chioneatabydos",
+                    "debellismurorum",
+                    "textbookgreek",
+                    "hq.church.potential"
+                ],
+                "draws": 6,
+                "defaultcard": "compensationb",
+                "resetonexhaustion": false
+            },
+            "startdescription": "The minister's bed-chamber is grand in proportion, but sparsely furnished. Beneath the window, a feathered ornamental axe rests besides an enameled chalice-drum on a little altar of yew-wood.",
+            "description": "Beneath the altar, in a box secured with a complicated triple knot, we find a trove of books - and more besides - a knife rank with old blood, a twist of cloth, a leathery remnant of something the minister must have surrendered at his ordination.",
+            "warmup": 30,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "expedition.corpse.find.vaultrhodes5",
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "explorevaultrhodesdefault_success",
+            "label": "A Delayed Delivery",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodesdefault": 1
+            },
+            "effects": {
+                "vaultrhodesdefault": -1,
+                "lmfunds": 1
+            },
+            "deckeffects": {
+                "vaultrewardsa": 3
+            },
+            "startdescription": "A barred door, a cramped space, a hidden cargo.",
+            "description": "The watchers here were guarding crates sealed with thief-signed ribbons. This was not a lawful operation: the owners of the cargo may not be pleased with our meddling.",
+            "warmup": 30,
+            "craftable": false
+        }
+    ]
+}

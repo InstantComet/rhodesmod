@@ -1,0 +1,150 @@
+{
+    "recipes": [
+        {
+            "id": "work_commandjob_c1",
+            "label": "专心致志地工作",
+            "actionId": "work_r",
+            "requirements": {
+                "sanity": 1
+            },
+            "effects": {
+                "sanity": -1,
+                "lmfunds": 2,
+                "losesanity": 1
+            },
+            "startdescription": "我拿起吸尘器。",
+            "description": "我是谁？",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "work_commandjob_c2",
+            "label": "半途而废",
+            "actionId": "work_r",
+            "requirements": {
+                "sanity": -1
+            },
+            "effects": {
+                "lmfunds": 1,
+                "losesanity": 1
+            },
+            "startdescription": "是这些废纸先动的手。",
+            "description": "……我又浪费了一天时间。我需要更加专心致志才行。",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "work_commandjob_b2",
+            "label": "…必先利其器。",
+            "actionId": "work_r",
+            "requirements": {},
+            "startdescription": "我的判断没错。我的时间和耐力不能全浪费在空转上。",
+            "description": "投入理智可以更好地打杂。",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "work_commandjob_c1",
+                    "chance": 100
+                },
+                {
+                    "id": "work_commandjob_c2",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_commandjob_b",
+            "label": "工欲善其事",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanityskill": 1
+            },
+            "slots": [
+                {
+                    "id": "needlmfunds",
+                    "label": "理智",
+                    "description": "我需要更加专心致志。",
+                    "required": {
+                        "sanity": 1
+                    }
+                }
+            ],
+            "startdescription": "我尝试厘清这些鸡零狗碎之事。",
+            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。[投入理智来提升工作效率]",
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "work_commandjob_b2",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_commandjob_a",
+            "label": "工欲善其事",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1,
+                "sanityskill": 1
+            },
+            "startdescription": "我尝试厘清这些鸡零狗碎之事。",
+            "description": "这些堆积成山的垃圾工作在试图激怒我。我需要镇定心神。",
+            "warmup": 10,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "work_commandjob_b",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work_genericjob_intro",
+            "label": "初次打杂。",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1
+            },
+            "effects": {
+                "lmfunds": 1
+            },
+            "startdescription": "这些繁琐的工作对我的耐心和体力是种挑战。",
+            "description": "我从哪里来？（尝试利用入梦得来的回忆唤回的理智来工作）",
+            "warmup": 60,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "maxexecutions": 1
+        },
+        {
+            "id": "work_genericjob",
+            "label": "打杂。",
+            "actionId": "work_r",
+            "requirements": {
+                "genericjob": 1
+            },
+            "effects": {
+                "lmfunds": 1
+            },
+            "startdescription": "这些繁琐的工作对我的耐心和体力是种挑战。",
+            "description": "我从哪里来？（尝试利用入梦得来的回忆唤回的理智来工作）",
+            "warmup": 60,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "doctoropenheadhunt",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        }
+    ]
+}

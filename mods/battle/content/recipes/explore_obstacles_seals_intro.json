@@ -1,0 +1,75 @@
+{
+    "recipes": [
+        {
+            "id": "explorevaultseal_hiddendoor_encounter_intro",
+            "actionid": "explore_r",
+            "label": "暗门",
+            "startdescription": "按照地图，这里一定有一扇门，但我们需要“灯”或“启”属性才能开启它。",
+            "requirements": {
+                "seal_hiddendoor_intro": 1
+            },
+            "linked": [
+                {
+                    "id": "explorevaultseal_hiddendoor_highknock_intro",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultseal_hiddendoor_highlantern_intro",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaultseal_hiddendoor_highlantern_intro",
+            "actionId": "explore_r",
+            "requirements": {
+                "lantern_r": 1
+            },
+            "label": "我们照见光",
+            "startdescription": "我派出的干员们专心致志、并且拥有能洞察事物本质的双眼，想必从这堆断壁残垣中找见一扇暗门算不得难事。实在不行，我们还有手电筒。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultseal_hiddendoor_success_intro",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultseal_hiddendoor_highknock_intro",
+            "actionId": "explore_r",
+            "requirements": {
+                "knock_r": 1
+            },
+            "label": "我们拆解锁",
+            "startdescription": "我派出的干员们懂得如何处理事物之间的联系，也懂得如果连接和拆解它们。这其中当然也包括一扇紧闭的暗门。这或许会损坏（或者损毁）掉它，但……罗德岛已经堆满了损坏的东西了，就再添点儿残骸吧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultseal_hiddendoor_success_intro",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultseal_hiddendoor_success_intro",
+            "actionid": "explore_r",
+            "label": "道路：穿过暗门",
+            "startdescription": "我们终于发现了暗门！伴随着尖利的摩擦声、地面的震动与弥漫的尘土，暗门终于向我们敞开。",
+            "description": ".",
+            "effects": {
+                "seal_hiddendoor_intro": -1
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick_intro",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "decks": [
+        {
+            "id": "debug_deck1",
+            "label": "Debug卡组",
+            "description": "Places close at hand.",
+            "spec": [
+                "debugelement1"
+            ],
+            "defaultcard": "debugelement1",
+            "resetonexhaustion": false
+        }
+    ]
+}

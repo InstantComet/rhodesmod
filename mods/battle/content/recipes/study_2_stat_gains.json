@@ -1,0 +1,132 @@
+{
+    "recipes": [
+        {
+            "id": "study_rincreasesanitystarter",
+            "label": "溯流追源",
+            "actionid": "study_r",
+            "requirements": {
+                "fleeting_r": 2
+            },
+            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
+            "description": "过去的我找见了我，以一种过于平静的方式。[我唤回了“理智”，但下次追溯记忆的难度会上升。]",
+            "effects": {
+                "fleeting_r": -2,
+                "sanity": 1,
+                "skillsanitya": 1
+            },
+            "warmup": 60,
+            "maxexecutions": 1,
+            "craftable": true
+        },
+        {
+            "id": "study_rincreasefleeting_rtoplus",
+            "label": "浮光跃金",
+            "actionid": "study_r",
+            "requirements": {
+                "fleeting_r": 2
+            },
+            "startdescription": "我从许多陌生的东西上看见了如水中月般摇曳不定的…我自己。",
+            "description": "散乱的回忆正在逐渐凝聚…变得无比庞大喧嚣。",
+            "effects": {
+                "fleeting_r": -2,
+                "fleetingplus_r": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study_gaintime",
+            "label": "争取时间",
+            "actionid": "study_r",
+            "requirements": {
+                "fleeting_r": 1
+            },
+            "startdescription": "我试图在记忆中寻找应对天灾的方法。",
+            "description": "应当能争取时间！",
+            "effects": {
+                "fleeting_r": -1,
+                "skyfall_anti": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study_rincreasesanityskilla",
+            "label": "溯流追源",
+            "actionid": "study_r",
+            "requirements": {
+                "skillsanitya": 1,
+                "fleetingplus_r": 2
+            },
+            "aspects": {
+                "careeradvancement": 1
+            },
+            "startdescription": "我从许多陌生的东西上感到了熟悉。或许现在正在做的事，我早就已经做过千百遍了。如果我静下心来寻觅，或许会找见回忆…找见我曾拥有过的能力。",
+            "description": "过去的我找见了我，以一种过于平静的方式。",
+            "effects": {
+                "sanity": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study_rincreasesanityskillb",
+            "label": "溯流追源：更进一步",
+            "actionid": "study_r",
+            "requirements": {
+                "skillsanityb": 1,
+                "fleetingplus_r": 3
+            },
+            "aspects": {
+                "careeradvancement": 1
+            },
+            "startdescription": "回忆是一砖一瓦砌成的城市。可我为何要推翻它？是因为我惧怕城池外的仇敌，还是因为我要拥抱他？",
+            "description": "我重新砌好了城墙，却没有从残砖碎瓦寻找到答案。然而时过境迁，旧敌与旧友也就没什么分别了。",
+            "effects": {
+                "sanity": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study_rincreasesanityskill_to_d_illumination",
+            "label": "Exercise the Body: A Higher Strength",
+            "actionid": "study_r",
+            "requirements": {
+                "skillsanityc": 1,
+                "fleetingplus_r": 4,
+                "edge_r": 1,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "sanity": 1,
+                "skillsanityc": -1,
+                "skillsanityd_illumination": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study_rincreasesanityskill_to_d_concentration",
+            "label": "Exercise the Body: A Higher Strength",
+            "actionid": "study_r",
+            "requirements": {
+                "skillsanityc": 1,
+                "fleetingplus_r": 4,
+                "forge_r": 1,
+                "lore": 1
+            },
+            "startdescription": "I will burn with the strength of the Forge of Days.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "sanity": 1,
+                "skillsanityc": -1,
+                "skillsanityd_illumination": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}

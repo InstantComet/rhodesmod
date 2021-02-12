@@ -1,0 +1,12 @@
+{
+    "recipes": [
+        {
+            "id": "dreamenterwood",
+            "mansus": "mansus1"
+        },
+        {
+            "id": "dreamenterwhite",
+            "mansus": "mansus2"
+        }
+    ]
+}

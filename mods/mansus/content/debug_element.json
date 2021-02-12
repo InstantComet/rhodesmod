@@ -1,0 +1,40 @@
+{
+    "elements": [
+        {
+            "id": "debugelement1",
+            "label": "debug卡片1",
+            "description": "这份…涂鸦，如果我没理解错的话，应该是罗德岛内部浅层结构的地图。[配合理智进行研究来获得具体地点]",
+            "icon":"map_location_rhodes_a",
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "debugelement2",
+            "label": "debug卡片1",
+            "description": "这份…涂鸦，如果我没理解错的话，应该是罗德岛内部浅层结构的地图。[配合理智进行研究来获得具体地点]",
+            "icon":"map_location_rhodes_a",
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "debugelement3",
+            "label": "debug卡片1",
+            "description": "这份…涂鸦，如果我没理解错的话，应该是罗德岛内部浅层结构的地图。[配合理智进行研究来获得具体地点]",
+            "icon":"map_location_rhodes_a",
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}

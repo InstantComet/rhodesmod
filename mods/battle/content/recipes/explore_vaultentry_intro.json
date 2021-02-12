@@ -1,0 +1,78 @@
+{
+    "recipes": [
+        {
+            "id": "explorevault_expeditionbegun_intro",
+            "label": "探索罗德岛的内部（浅层）",
+            "actionid": "explore_r",
+            "requirements": {
+                "vaultrhodes1": 1
+            },
+            "startdescription": "废置的大型机械造物内部通常不会有什么敌对的生物，比如盗匪或是幽灵。究其原因，是因为螺丝钉和锈铁板既不孕育（或说滋生）它们，在它们看来也没什么价值。但这并不代表这项工作无需谨慎。坍塌、辐射或是任何意外都比未经严格和科学的训练的二流恐怖分子要危险得多。总之，我们该出发了。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaulttick_intro",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "explorevaulttick_intro",
+            "comments": "Can't reach success until all the alternatives are unavailable. That means no obstacles, >0 followers and >0 funds.",
+            "label": "继续推进",
+            "actionid": "explore_r",
+            "startdescription": "如果这令人费解的地图（或者说，示意图）没有出错的话，我们应该很快就能抵达目的地了。至少我们又前进了一步。",
+            "description": ".",
+            "warmup": 10,
+            "alt": [
+                {
+                    "id": "explorevaultsuccesslink_intro",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+            },
+            "linked": [
+                {
+                    "id": "explorevaultseal_hiddendoor_encounter_intro",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "explorevaultsuccesslink_intro",
+            "label": "接近目标",
+            "requirements": {
+                "peril": -1,
+                "seal": -1,
+                "guardian": -1,
+                "curse": -1
+            },
+            "actionid": "explore_r",
+            "comments": "Separate recipe link to remove the confusing slot from Success, next.",
+            "linked": [
+                {
+                    "id": "explorevaultsuccess_intro",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultsuccess_intro",
+            "label": "接近目标",
+            "actionid": "explore_r",
+            "startdescription": "我们抵达了这座机械巨兽的内脏。从这里，我可以清晰地看见罗德岛内部的每一寸领土；虽然现在只能看见灰尘和金属。生起炉火，我们还有很多事要做。",
+            "description": ".",
+            "effects": {
+            },
+            "linked": [
+                {
+                    "id": "explorevaultrhodes1_success",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}

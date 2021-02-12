@@ -1,0 +1,28 @@
+{
+	"legacies": [
+        {
+            "id": "doormaster",
+            "label": "Doormaster",
+            "description": "All doors!",
+            "startdescription": "",
+            "effects": {
+                "waywood": 1,
+                "waywhite": 1,
+                "waystag_after": 1,
+                "wayspider": 1,
+                "waypeacock": 1,
+                "passion": 2,
+                "health": 2,
+                "reason": 2,
+                "generic_b_moth": 99,
+                "toolknockf": 1
+            },
+            "image": "aspirant",
+            "fromending": "default",
+            "newStart": true,
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "dream",
+            "mansus": "darksus"
+        },
+    ]
+}
