@@ -1,0 +1,13 @@
+{
+    "elements": [
+        {
+            "id": "enemy_a",
+            "label": "怪物a",
+            "aspects": {
+                "enemy":1
+            },
+            "description": "怪物a",
+            "icon": ""
+        }
+    ]
+}

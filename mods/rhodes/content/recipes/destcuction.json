@@ -1,0 +1,88 @@
+{
+    "recipes": [
+        {
+            "id": "destruction8_1",
+            "label": "我是谁？",
+            "actionid": "dream_1",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false,
+            "verbicon":"dream_r"
+        },
+        {
+            "id": "destruction8_2",
+            "label": "我是谁？",
+            "actionid": "dream_2",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_3",
+            "label": "我是谁？",
+            "actionid": "dream_3",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_4",
+            "label": "我是谁？",
+            "actionid": "dream_4",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_5",
+            "label": "我是谁？",
+            "actionid": "dream_5",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_6",
+            "label": "我是谁？",
+            "actionid": "dream_6",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_7",
+            "label": "我是谁？",
+            "actionid": "dream_7",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false,
+            "alt": [
+            ]
+        },
+        {
+            "id": "destruction8_8",
+            "label": "我是谁？",
+            "actionid": "dream_8",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "destruction8_9",
+            "label": "我是谁？",
+            "actionid": "dream_9",
+            "startdescription": "我是谁？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false
+        }
+    ]
+}

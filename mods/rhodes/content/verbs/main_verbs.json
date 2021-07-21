@@ -38,7 +38,7 @@
                     "way": 1,
                     "text": 1,
                     "lore": 1,
-                    "tutor": 1,
+                    "illsanity": 1,
                     "language": 1,
                     "legacyplotitem": 1
                 },
@@ -134,6 +134,21 @@
                 "description": "途径的区域，附近的移动城市，我们在整片大地上寻找志同道合之人。",
                 "required": {
                     "location": 1
+                },
+                "forbidden": {}
+            }
+        },
+        {
+            "id": "reflect_r",
+            "label": "……",
+            "icon": "dream_r",
+            "description": "……",
+            "slot": {
+                "id": "hrtogo",
+                "label": "……",
+                "description": "……",
+                "required": {
+                    "illsanity": 1
                 },
                 "forbidden": {}
             }

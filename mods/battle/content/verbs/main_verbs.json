@@ -24,6 +24,29 @@
             }
         },
         {
+            "id": "work_r",
+            "label": "作业",
+            "description": "或赚钱糊口，或做别的事情。",
+            "icon": "work_r",
+            "slot": {
+                "id": "work_r",
+                "label": "作业",
+                "description": "我能做的，我知道的，或者我身为的。",
+                "required": {
+                    "ability_r": 1,
+                    "job_r": 1,
+                    "ritual": 1,
+                    "desire": 1,
+                    "benefactor": 1,
+                    "ext_department": 1,
+                    "bp_ext_department": 1
+                },
+                "forbidden": {
+                    "sanityskill": 1
+                }
+            }
+        },
+        {
             "id": "dream_r",
             "label": "入梦",
             "description": "休息，或是在梦里追寻。",
@@ -101,7 +124,7 @@
                     "secrethistories": 1,
                     "location_r": 1,
                     "terra_location": 1,
-                    "health": 1
+                    "stage": 1
                 },
                 "forbidden": {
                     "hireling": 1
@@ -137,6 +160,12 @@
                 },
                 "forbidden": {}
             }
+        },
+        {
+            "id": "defend",
+            "label": "防御",
+            "icon": "headhunt",
+            "description": "罗德岛工程部。"
         }
     ]
 }

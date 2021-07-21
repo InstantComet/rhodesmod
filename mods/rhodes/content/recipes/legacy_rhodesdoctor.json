@@ -21,7 +21,7 @@
             "description": "我眼前的身影似曾相识……但我什么也记不起来。",
             "warmup": 10,
             "craftable": true,
-            "burnimage":"burn3"
+            "burnimage": "burn3"
         },
         {
             "id": "doctoropendream",
@@ -40,8 +40,7 @@
                     "chance": 100,
                     "additional": true
                 }
-            ],
-            "portaleffect": "Wood"           
+            ]
         },
         {
             "id": "doctorintrotalk",
@@ -197,6 +196,284 @@
             "effects": {
                 "operator_earthspirit": 1
             }
+        },
+        {
+            "id": "destruction1",
+            "label": "怎么回事",
+            "actionid": "destruction",
+            "requirements": {},
+            "startdescription": "我突然感到剧烈的头痛。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "deleteverb": {
+                "time_r": 100,
+                "end_fake": 100,
+                "explore_r": 100
+            },
+            "purge": {
+                "lmfunds": 100
+            },
+            "linked": [
+                {
+                    "id": "destruction2",
+                    "chance": 100
+                }
+            ],
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "destruction2",
+            "label": "不应如此",
+            "actionid": "destruction",
+            "requirements": {},
+            "startdescription": "我开始感到恶心。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "deleteverb": {
+                "work_r": 100
+            },
+            "purge": {
+                "genericjob": 100
+            },
+            "linked": [
+                {
+                    "id": "destruction3",
+                    "chance": 100
+                }
+            ],
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "destruction3",
+            "label": "不是这样",
+            "actionid": "destruction",
+            "requirements": {},
+            "startdescription": "我无法保持站立",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "deleteverb": {
+                "headhunt_r": 100
+            },
+            "purge": {
+                "operator_earthspirit": 100
+            },
+            "linked": [
+                {
+                    "id": "destruction4",
+                    "chance": 100
+                }
+            ],
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "destruction4",
+            "label": "似曾相识",
+            "actionid": "destruction",
+            "requirements": {},
+            "startdescription": "熟悉感使我开始呕吐。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "purge": {
+                "operator_amiya": 100,
+                "operator_kaltist": 100
+            },
+            "linked": [
+                {
+                    "id": "destruction5",
+                    "chance": 100
+                }
+            ],
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "destruction5",
+            "label": "……",
+            "actionid": "destruction",
+            "requirements": {},
+            "startdescription": "……",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "deleteverb": {
+                "study_r": 100,
+                "dream_r":100
+            },
+            "purge": {
+                "sanity": 100
+            },
+            "effects": {
+                "descruct_hint1": 1
+            },
+            "alt": [
+                {
+                    "id": "doctoropenreflect",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "doctoropenreflect",
+            "label": "……",
+            "actionid": "reflect_r",
+            "requirements": {},
+            "startdescription": "……",
+            "description": ".",
+            "warmup": 0,
+            "craftable": false
+        },
+        {
+            "id": "destruction6",
+            "label": "记忆",
+            "actionid": "reflect_r",
+            "requirements": {
+                "descruct_hint1": 1
+            },
+            "effects": {
+                "descruct_hint1": -1,
+                "operator_earthspirit_f": 1,
+                "operator_amiya_f": 1,
+                "operator_kaltist_f": 1,
+                "lmfunds_f": 10,
+                "genericjob_f": 1,
+                "ruinedsanity_a":1
+
+            },
+            "startdescription": "这就是你的记忆？",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "destruction7",
+            "label": "我是谁？",
+            "actionid": "reflect_r",
+            "requirements": {
+                "ruinedsanity_a": 1
+            },
+            "effects": {
+                "ruinedsanity_a": -1,
+                "ruinedsanity_b": 1
+            },
+            "startdescription": "我是谁？",
+            "description": "……",
+            "warmup": 10,
+            "alt": [
+                {
+                    "id": "destruction8",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": true
+        },
+        {
+            "id": "destruction8",
+            "label": "我要做什么？",
+            "actionid": "reflect_r",
+            "requirements": {
+                "ruinedsanity_b": 1
+            },
+            "effects": {
+                "ruinedsanity_b": -1,
+                "ruinedsanity_c": 1
+            },
+            "startdescription": "我要做什么？",
+            "description": "……",
+            "warmup": 10,
+            "alt": [
+                {
+                    "id": "destruction9",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": true
+        },
+        {
+            "id": "destruction9",
+            "label": "我要去哪里？",
+            "actionid": "reflect_r",
+            "requirements": {
+                "ruinedsanity_c": 1
+            },
+            "effects": {
+                "ruinedsanity_c": -1,
+                "ruinedsanity_d": 1
+            },
+            "startdescription": "我要去哪里？",
+            "description": "……",
+            "warmup": 10,
+            "alt": [
+                {
+                    "id": "destruction10",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": true
+        },
+        {
+            "id": "destruction10",
+            "label": "一张字条",
+            "actionid": "reflect_r",
+            "requirements": {
+                "ruinedsanity_d": 1
+            },
+            "effects": {
+                "ruinedsanity_d": -1,
+                "memo": 1
+            },
+            "startdescription": "上面有一行字，不知为何，我知道就是我自己的字。",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "changelocation_tolungmen",
+            "label": "前往龙门的旅程",
+            "actionid": "explore_r",
+            "requirements": {
+                "terra_location": 1,
+                "map_location_lungmen": 1
+            },
+            "effects": {
+                "terra_location": -1,
+                "map_location_lungmen": -1
+            },
+            "warmup": 5,
+            "startdescription": "旅途漫漫。",
+            "description": "我们抵达了目的地。",
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "end_fake",
+                    "chance": 100
+                }
+            ],
+            "alt": [
+                {
+                    "id": "destruction1",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "end_fake",
+            "label": "前往龙门的旅程",
+            "actionid": "explore_r",
+            "warmup": 30,
+            "ending": "arrivelungmen",
+            "signalEndingFlavour": "Melancholy",
+            "startdescription": "旅途漫漫。",
+            "description": "我们抵达了目的地。",
+            "craftable": false
         }
     ]
 }

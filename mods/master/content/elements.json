@@ -1,0 +1,45 @@
+{
+  "elements": [
+    {
+      "id": "loc_factory",
+      "label": "一间工厂",
+      "slots": [
+        {
+          "id": "use",
+          "label": "消耗",
+          "description": "消耗资金或者古钱币",
+          "required": {
+            "funds": 1
+          },
+          "consumes": true
+        }
+      ]
+    },
+    {
+      "id": "work_refine",
+      "label": "精炼",
+      "aspects": {
+        "job": 1
+      },
+      "slots": [
+        {
+          "id": "use",
+          "label": "use",
+          "description": "消耗资金或者古钱币",
+          "actionId": "work",
+          "required": {
+            "funds": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "loc",
+          "label": "地址",
+          "required": {
+            "loc_factory": 1
+          }
+        }
+      ]
+    }
+  ]
+}

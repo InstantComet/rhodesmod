@@ -88,6 +88,7 @@
         {
             "id": "lmfunds",
             "label": "龙门币",
+            "icon":"lmfunds",
             "aspects": {
                 "currency": 1
             },

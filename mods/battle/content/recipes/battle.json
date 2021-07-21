@@ -1,0 +1,145 @@
+{
+    "recipes": [
+        {
+            "id": "battle_router",
+            "label": "关卡选择器",
+            "actionid": "explore_r",
+            "requirements": {
+                "stage": 1
+            },
+            "alt": [
+                {
+                    "id": "battle_stage1_start",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "是时候准备移动到最近的城市附近了。我可以派出天灾信使去完成定位以及初步的交涉。",
+            "description": "在数十英里外有一座繁华的炎国城邦。",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "battle_idle",
+            "label": "刷怪结束，等待战斗结算",
+            "actionid": "explore_r",
+            "linked": [
+                {
+                    "id": "battle_idle",
+                    "chance": 100
+                }
+            ],
+            "alt": [
+                {
+                    "id": "battle_win",
+                    "chance": 100
+                },
+                {
+                    "id": "battle_lose",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "battle_stage1_start",
+            "label": "第一关开始",
+            "actionid": "explore_r",
+            "requirements": {
+                "stage_1": 1
+            },
+            "linked": [
+                {
+                    "id": "battle_stage1_wave1",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "战斗第一关开始",
+            "description": "战斗第一关开始",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "battle_stage1_wave1",
+            "label": "第一关第一波",
+            "actionid": "explore_r",
+            "startdescription": "第一关第一波",
+            "description": "第一关第一波",
+            "warmup": 10,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "battle_enemy_a",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "battle_enemy_a",
+            "label": "迎战a",
+            "actionid": "defend",
+            "effects":
+            {
+                "enemy_a":1
+            },
+            "warmup": 20,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "battle_defend_a",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "battle_defend_a",
+            "label": "迎战b",
+            "actionid": "defend",
+            "slots": [
+                {
+                    "id": "operator",
+                    "label": "干员",
+                    "required": {
+                        "operator": 1
+                    }
+                }
+            ],
+            "warmup": 20,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "battle_defend_success",
+                    "chance": 100
+                },
+                {
+                    "id": "battle_defend_fail",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "battle_defend_success",
+            "label": "迎战成功",
+            "actionid": "defend",
+            "requirements": {
+                "operator": 1
+            },
+            "effects": {
+                "enemy": -1
+            },
+            "warmup": 20,
+            "craftable": false
+        },
+        {
+            "id": "battle_defend_fail",
+            "label": "迎战失败",
+            "actionid": "defend",
+            "requirements": {
+                "operator": -1
+            },
+            "warmup": 20,
+            "craftable": false
+        }
+    ]
+}

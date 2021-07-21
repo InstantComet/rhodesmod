@@ -1,25 +1,18 @@
 {
     "legacies": [
         {
-            "id": "doctor",
-            "label": "罗德岛博士",
-            "startdescription": "我从长眠中醒来。一无所有地醒来。",
-            "description": "在我长眠于冰冷、甜蜜的黑暗中时，我听见有人在呼唤我的名字。",
+            "id": "battle",
+            "label": "战斗测试",
+            "startdescription": "战斗测试",
+            "description": "战斗测试",
             "effects": {
-                "introsanity": 1
+                "stage_1": 1
             },
             "image": "doctor",
             "fromending": "default",
             "availableWithoutEndingMatch": true,
-            "startingverbid": "dream_r",
-            "tablecoverimage": "table_rhodes",
-            "newstart": true,
-            "statusbarelements": [
-                "sanity",
-                "lmfunds",
-                "originium",
-                "closuretoken"
-            ]
+            "startingverbid": "explore_r",
+            "newstart": true
         }
     ]
 }

@@ -1,0 +1,21 @@
+{
+  "recipes": [
+    {
+      "id": "refine",
+      "label": "热浪滚滚",
+      "actionId": "work",
+      "startdescription": "热浪滚滚",
+      "description": "今天的利润并没有想象的那么多，对我而言这不是一个好兆头",
+      "craftable": true,
+      "deleted": false,
+      "effects": {
+        "funds": "5"
+      },
+      "requirements": {
+        "work_refine": "1",
+        "loc_factory": "1",
+        "funds": "1"
+      }
+    }
+  ]
+}

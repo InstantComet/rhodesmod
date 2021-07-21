@@ -1,0 +1,173 @@
+{
+    "elements": [
+        {
+            "id": "memo",
+            "label": "字条",
+            "description": "“你的名字是罗夏克，从今天开始，请以博士的身份活下去。”",
+            "icon": "",
+            "verbicon":"talk_r"
+        },
+        {
+            "id": "ruinedsanity_d",
+            "label": "理智[烧蚀]",
+            "description": "“从他那疯癫的曲调里，我仿佛看到了一群幽灵般的萨特与巴克斯的信徒在由云雾、烟尘和光亮组成的翻腾深渊里疯狂地舞蹈和旋转。”[这部分理智已经没法使用了。不过它会在六十秒后复原。]",
+            "aspects": {
+                "illsanity": 1
+            },
+            "icon": "sanity",
+            "verbicon":"talk_r",
+            "resaturate": true
+        },
+        {
+            "id": "ruinedsanity_c",
+            "label": "理智[烧蚀]",
+            "description": "“从他那疯癫的曲调里，我仿佛看到了一群幽灵般的萨特与巴克斯的信徒在由云雾、烟尘和光亮组成的翻腾深渊里疯狂地舞蹈和旋转。”[这部分理智已经没法使用了。不过它会在六十秒后复原。]",
+            "aspects": {
+                "illsanity": 1
+            },
+            "icon": "sanity",
+            "verbicon":"explore_r",
+            "resaturate": true
+        },
+        {
+            "id": "ruinedsanity_b",
+            "label": "理智[烧蚀]",
+            "description": "“从他那疯癫的曲调里，我仿佛看到了一群幽灵般的萨特与巴克斯的信徒在由云雾、烟尘和光亮组成的翻腾深渊里疯狂地舞蹈和旋转。”[这部分理智已经没法使用了。不过它会在六十秒后复原。]",
+            "aspects": {
+                "illsanity": 1
+            },
+            "icon": "sanity",
+            "verbicon":"work_r",
+            "resaturate": true
+        },
+        {
+            "id": "ruinedsanity_a",
+            "label": "理智[烧蚀]",
+            "description": "“从他那疯癫的曲调里，我仿佛看到了一群幽灵般的萨特与巴克斯的信徒在由云雾、烟尘和光亮组成的翻腾深渊里疯狂地舞蹈和旋转。”[这部分理智已经没法使用了。不过它会在六十秒后复原。]",
+            "aspects": {
+                "illsanity": 1
+            },
+            "icon": "sanity",
+            "resaturate": true
+        },
+        {
+            "id": "dread_r",
+            "label": "恐惧",
+            "icon":"dread",
+            "aspects": {
+                "memory_r": 1
+            },
+            "description": "我已经见得太多了。不知名的恐惧正在用利齿啃噬着我的希望；一种关于存在本身的的恐惧。",
+            "lifetime": 10
+        },
+        {
+            "id": "dread_r",
+            "label": "恐惧",
+            "icon":"dread",
+            "aspects": {
+                "memory_r": 1
+            },
+            "description": "我已经见得太多了。不知名的恐惧正在用利齿啃噬着我的希望；一种关于存在本身的的恐惧。",
+            "lifetime": 10
+        },
+        {
+            "id": "descruct_hint1",
+            "label": "轻微的裂缝",
+            "icon":"",
+            "aspects": {
+                "illsanity": 1
+            },
+            "description": "有什么事情不对劲。"
+        },
+        {
+            "id": "operator_earthspirit_f",
+            "label": "地灵",
+            "aspects": {
+                "skyfallmessager" :1,
+                "operator": 1
+            },
+            "description": "作为顾问，我可以信任她，但问题最好在额定工时内解决。我很可能付不起她的加班费。",
+            "icon":"earthspirit",
+            "unique": true,
+            "lifetime": 10,
+            "decayTo":"dread_r"
+        },
+        {
+            "id": "operator_amiya_f",
+            "label": "阿米娅",
+            "aspects": {
+                "operator": 1,
+                "moth_r": 4,
+                "knock_r": 4,
+                "forge_r": 2
+            },
+            "description": "这个尚不成熟的卡斯特姑娘颇有领袖风范。但我仍不明白她为什么这么信任我。",
+            "icon":"amiya",
+            "animFrames": 1,
+            "unique": true,
+            "lifetime": 10,
+            "decayTo":"dread_r"
+        },
+        {
+            "id": "operator_kaltist_f",
+            "label": "凯尔希",
+            "aspects": {
+                "operator": 1,
+                "grail_r": 4,
+                "lantern_r": 2
+            },
+            "description": "不知道为什么，她似乎不怎么乐意出力。",
+            "icon":"kaltist",
+            "unique": true,
+            "lifetime": 10,
+            "decayTo":"dread_r"
+
+        },
+        {
+            "id": "lmfunds_f",
+            "label": "龙门币",
+            "icon":"lmfunds",
+            "aspects": {
+                "currency": 1
+            },
+            "description": "龙门发行的货币。用途多种，流通广泛。而且保值。",
+            "lifetime": 10,
+            "decayTo":"dread_r"
+        },
+        {
+            "id": "genericjob_f",
+            "label": "罗德岛上的杂务",
+            "icon":"genericjob",
+            "aspects": {
+                "job_r": 1
+            },
+            "description": "说是杂务，只是因为杂而已。事实上，我基本上包揽了罗德岛上的一切大小事务。早知有今日，我中学毕业就去扫大街。",
+            "slots": [
+                {
+                    "id": "workgenericjob",
+                    "label": "专业技能",
+                    "actionid": "work_r",
+                    "required": {
+                        "sanityskill": 1
+                    },
+                    "description": "Extra effort. It might help, if I'm very lucky."
+                }
+            ],
+            "lifetime": 10,
+            "decayTo":"dread_r"
+        },
+        {
+            "id": "sanity_f",
+            "label": "理智",
+            "aspects": {
+                "lantern_r": 2,
+                "ability_r": 1
+            },
+            "animFrames": 1,
+            "description": "“全是理智的心，如同一柄全是锋刃的刀，叫使用它的人手上流血。”——泰戈尔",
+            "icon": "sanity",
+            "lifetime": 10,
+            "decayTo":"dread_r"
+        }
+    ]
+}

@@ -1,10 +1,11 @@
 {
     "elements": [
         {
-            "id": "stage1",
+            "id": "stage_1",
             "label": "战斗地点1",
             "icon": "",
             "aspects": {
+                "stage":1
             },
             "description": "战斗地点1"
         }

@@ -1,0 +1,2688 @@
+{
+	"elementStacks": {
+		"270_-195_2d27e991-5513-41aa-8075-a28f5b60ddd5": {
+			"lifetimeRemaining": "0",
+			"lastTablePosX": "270",
+			"markedForConsumption": "False",
+			"elementId": "loc_factory",
+			"lastTablePosY": "-195",
+			"quantity": "1"
+		},
+		"-90_130_57ac127c-8382-4e06-89bb-088ce1025274": {
+			"lifetimeRemaining": "0",
+			"lastTablePosX": "-90",
+			"markedForConsumption": "False",
+			"elementId": "introjob",
+			"lastTablePosY": "130",
+			"quantity": "1"
+		},
+		"0_-490_27bc70fd-70ba-4e0a-b234-07588fc5bcfb": {
+			"lifetimeRemaining": "0",
+			"lastTablePosX": "-90",
+			"markedForConsumption": "False",
+			"elementId": "dropzone",
+			"lastTablePosY": "130",
+			"quantity": "1"
+		},
+		"0_-520_9eb4fe04-70a8-438e-913c-f6e98484593e": {
+			"lifetimeRemaining": "0",
+			"lastTablePosX": "0",
+			"markedForConsumption": "False",
+			"elementId": "work_refine",
+			"lastTablePosY": "-520",
+			"quantity": "1"
+		},
+		"90_-520_cfe22698-5430-4380-8bd5-f2e0360689a1": {
+			"lifetimeRemaining": "0",
+			"lastTablePosX": "-90",
+			"markedForConsumption": "False",
+			"elementId": "funds",
+			"lastTablePosY": "130",
+			"quantity": "12"
+		}
+	},
+	"decks": {
+		"deck.explorevaulteveningisles4_success": {
+			"2": "commandspreservationallexistsmandaic",
+			"3": "toollanternf",
+			"eliminatedCards": [
+			],
+			"1": "birdsongphrygian",
+			"4": "scarskyfucine"
+		},
+		"deck.explorevaultcontinent1_success": {
+			"1": "bookoftruebloodlatin",
+			"4": "highmysterieschurchsolarfucine",
+			"5": "toolforgeb",
+			"eliminatedCards": [
+			],
+			"2": "ingredientwinterb",
+			"3": "morphycodexaramaic"
+		},
+		"hunters": {
+			"1": "investigator4",
+			"4": "investigator3",
+			"5": "investigator2",
+			"eliminatedCards": [
+			],
+			"2": "investigator1",
+			"3": "defaulthunter"
+		},
+		"stagriddles": {
+			"1": "waystagbefore_4",
+			"4": "waystagbefore_3",
+			"5": "waystagbefore_2",
+			"eliminatedCards": [
+			],
+			"2": "waystagbefore_1",
+			"3": "waystagbefore_5"
+		},
+		"deck.scout.morbihan": {
+			"1": "op.night",
+			"6": "op.sea",
+			"4": "op.dawn",
+			"5": "obscurity",
+			"eliminatedCards": [
+			],
+			"2": "op.faith",
+			"3": "op.horned"
+		},
+		"deck.explorevaultrhodes5_success": {
+			"1": "textbookgreek",
+			"6": "chioneatabydos",
+			"4": "hq.church.potential",
+			"5": "debellismurorum",
+			"eliminatedCards": [
+			],
+			"2": "roseofnurielgreek",
+			"3": "roseofwazneigreek"
+		},
+		"deck.send.investigate.baghdad": {
+			"1": "city.alexandria",
+			"4": "end.messana",
+			"5": "city.meshad",
+			"eliminatedCards": [
+			],
+			"2": "city.tiflis",
+			"3": "city.istanbul"
+		},
+		"deck.scout.marrakech": {
+			"13": "op.villa",
+			"14": "op.townhouse",
+			"8": "op.cats",
+			"9": "op.office",
+			"11": "loc.shrine.lionsmith.marrakech",
+			"2": "op.faith",
+			"3": "op.licence.medical",
+			"15": "op.dawn",
+			"1": "op.curio.lantern3",
+			"6": "op.weapon.a",
+			"7": "op.warehouse",
+			"12": "op.weapon.d",
+			"5": "op.echidna",
+			"4": "op.connection.holy",
+			"17": "op.connection.official",
+			"eliminatedCards": [
+			],
+			"16": "op.heat",
+			"18": "op.sunset",
+			"10": "op.connection.underworld"
+		},
+		"deck.explorevaultcontinent2_success": {
+			"1": "tantrawormssanskrit",
+			"6": "thirstingtantrasanskrit",
+			"4": "textbookaramaic",
+			"5": "dehoris2latin",
+			"eliminatedCards": [
+			],
+			"2": "againstsisterhoodknotgreek",
+			"3": "ingredientheartb"
+		},
+		"vaultscontinent": {
+			"1": "vaultcontinent5",
+			"6": "vaultcontinent3",
+			"4": "vaultcontinent6",
+			"5": "vaultcontinent4",
+			"eliminatedCards": [
+			],
+			"2": "vaultcontinent1",
+			"3": "vaultcontinent2"
+		},
+		"deck.scout.vienna": {
+			"8": "op.connection.underworld",
+			"9": "op.connection.official",
+			"11": "op.rarity.forge",
+			"2": "op.office",
+			"3": "op.weapon.b",
+			"1": "op.licence.medical",
+			"6": "op.townhouse",
+			"7": "op.weapon.a",
+			"12": "op.villa",
+			"5": "op.warehouse",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.kleidouchos"
+		},
+		"deck.send.investigate.wilderness": {
+			"1": "city.rostock",
+			"37": "city.cluj",
+			"35": "city.krakow",
+			"8": "city.london",
+			"9": "end.bornholm",
+			"28": "city.alexandria",
+			"2": "city.vienna",
+			"3": "city.aachen",
+			"18": "city.munich",
+			"6": "city.strasbourg",
+			"7": "city.baghdad",
+			"4": "city.leningrad",
+			"5": "city.nizhny",
+			"36": "city.algiers",
+			"38": "city.samarkand",
+			"24": "end.slettnes",
+			"34": "city.candia",
+			"25": "city.tripoli",
+			"14": "end.paro",
+			"15": "city.tiflis",
+			"40": "end.messana",
+			"20": "city.stalingrad",
+			"30": "city.marrakech",
+			"21": "city.granada",
+			"10": "city.prague",
+			"26": "city.kaunas",
+			"11": "city.paris",
+			"27": "city.budapest",
+			"16": "end.cheko",
+			"eliminatedCards": [
+			],
+			"17": "city.sverdlovsk",
+			"33": "city.venice",
+			"22": "end.ghardaia",
+			"32": "end.morbihan",
+			"23": "city.meshad",
+			"12": "city.valletta",
+			"13": "city.istanbul",
+			"31": "city.tirana",
+			"29": "city.avignon",
+			"39": "city.kiev",
+			"19": "city.amsterdam"
+		},
+		"vaultslandbeyondforest": {
+			"1": "vaultlandbeyondforest4",
+			"4": "vaultlandbeyondforest3",
+			"5": "vaultlandbeyondforest2",
+			"eliminatedCards": [
+			],
+			"2": "vaultlandbeyondforest1",
+			"3": "vaultlandbeyondforest5"
+		},
+		"deck.send.investigate.samarkand.turmoil": {
+			"2": "city.tiflis",
+			"3": "end.paro",
+			"eliminatedCards": [
+			],
+			"1": "city.meshad",
+			"4": "city.sverdlovsk"
+		},
+		"deck.scout.venice": {
+			"13": "op.warehouse",
+			"14": "op.connection.holy",
+			"8": "op.faith",
+			"9": "op.weapon.a",
+			"11": "op.connection.underworld",
+			"2": "op.villa",
+			"3": "op.office",
+			"1": "op.townhouse",
+			"6": "loc.shrine.lionsmith.venice",
+			"7": "op.curio.knock",
+			"12": "op.cats",
+			"5": "op.connection.official",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.licence.medical"
+		},
+		"mansus_wood1": {
+			"2": "rumour",
+			"3": "vitality",
+			"eliminatedCards": [
+			],
+			"1": "fragmentsecrethistoriesb",
+			"4": "influencegrail"
+		},
+		"deck.send.investigate.nizhny.turmoil": {
+			"2": "city.munich",
+			"3": "city.paris",
+			"eliminatedCards": [
+			],
+			"1": "city.prague",
+			"4": "city.amsterdam"
+		},
+		"deck.send.investigate.samarkand": {
+			"2": "city.tiflis",
+			"3": "end.paro",
+			"eliminatedCards": [
+			],
+			"1": "city.meshad",
+			"4": "city.sverdlovsk"
+		},
+		"deck.scout.candia": {
+			"13": "op.office",
+			"14": "op.sea",
+			"8": "op.connection.underworld",
+			"9": "op.curio.heart",
+			"11": "op.weapon.a",
+			"2": "op.connection.official",
+			"3": "op.heat",
+			"15": "op.villa",
+			"1": "loc.shrine.colonel.candia",
+			"6": "op.licence.import",
+			"7": "op.heights",
+			"12": "op.warehouse",
+			"5": "op.dawn",
+			"4": "op.townhouse",
+			"eliminatedCards": [
+			],
+			"16": "op.sea",
+			"10": "op.horned"
+		},
+		"deck.send.investigate.meshad": {
+			"2": "city.baghdad",
+			"3": "end.paro",
+			"eliminatedCards": [
+			],
+			"1": "end.messana",
+			"4": "city.samarkand"
+		},
+		"deck.scout.baghdad": {
+			"13": "op.connection.ruler",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.connection.radicals",
+			"2": "op.heat",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.faith",
+			"7": "op.connection.holy",
+			"12": "op.office",
+			"5": "op.curio.forge",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"deck.send.investigate.istanbul.turmoil": {
+			"2": "city.tirana",
+			"3": "city.baghdad",
+			"eliminatedCards": [
+			],
+			"1": "city.alexandria",
+			"4": "city.cluj"
+		},
+		"acquaintances": {
+			"1": "violet_a",
+			"8": "valciane_a",
+			"9": "sylvia_a",
+			"28": "cat_a",
+			"2": "generic_a_edge",
+			"3": "slee_a",
+			"18": "porter_a",
+			"6": "elridge_a",
+			"7": "generic_a_forge",
+			"4": "saliba_a",
+			"5": "tristan_a",
+			"24": "generic_a_lantern",
+			"25": "victor_a",
+			"14": "dorothy_a",
+			"15": "renira_a",
+			"20": "leo_a",
+			"21": "auclair_a",
+			"10": "neville_a",
+			"26": "clifton_a",
+			"11": "generic_a_moth",
+			"27": "ysabet_a",
+			"16": "clovette_a",
+			"eliminatedCards": [
+			],
+			"17": "generic_a_heart",
+			"22": "laidlaw_a",
+			"23": "rose_a",
+			"12": "enid_a",
+			"13": "generic_a_grail",
+			"29": "generic_a_knock",
+			"19": "generic_a_winter"
+		},
+		"deck.send.investigate.tiflis.turmoil": {
+			"2": "city.cluj",
+			"3": "city.samarkand",
+			"eliminatedCards": [
+			],
+			"1": "city.baghdad",
+			"4": "city.stalingrad"
+		},
+		"deck.scout.cluj": {
+			"13": "op.office",
+			"14": "op.connection.ruler",
+			"8": "op.heights",
+			"9": "op.weapon.a",
+			"11": "op.connection.official",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "op.weapon.b",
+			"12": "op.sunset",
+			"5": "op.rarity.winter",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.underworld"
+		},
+		"roserewards": {
+			"2": "fleeting",
+			"3": "memorypleasant",
+			"eliminatedCards": [
+			],
+			"1": "memorypassionate",
+			"4": "memorybittersweet"
+		},
+		"deck.long.executestrategy.assassination.begin": {
+			"2": "assassinationinprogress.player",
+			"1": "assassinationinprogress.follower",
+			"eliminatedCards": [
+			]
+		},
+		"mansus_stagdoor": {
+			"2": "influenceforgec",
+			"3": "influenceknocke",
+			"1": "fragmentsecrethistoriesc",
+			"eliminatedCards": [
+			]
+		},
+		"mansus_spiderdoor1": {
+			"2": "influencelanterne",
+			"3": "fragmentsecrethistoriese",
+			"eliminatedCards": [
+			],
+			"1": "ingredientforgef",
+			"4": "influenceforgeg"
+		},
+		"deck.send.investigate.sverdlovsk": {
+			"1": "city.stalingrad",
+			"4": "city.samarkand",
+			"5": "end.paro",
+			"eliminatedCards": [
+			],
+			"2": "end.cheko",
+			"3": "city.nizhny"
+		},
+		"deck.send.investigate.nizhny": {
+			"2": "city.leningrad",
+			"3": "city.sverdlovsk",
+			"eliminatedCards": [
+			],
+			"1": "city.stalingrad",
+			"4": "end.cheko"
+		},
+		"deck.explorevaultloneandlevelsands1_success": {
+			"2": "manneralchemistsparedvak",
+			"3": "focusambermandaic",
+			"eliminatedCards": [
+			],
+			"1": "medusaslamentgreek",
+			"4": "toollanternd"
+		},
+		"commontomes": {
+			"1": "burningofunburntgod",
+			"8": "skeletonsongs",
+			"9": "queensoftherivers",
+			"28": "onwhatiscontainedbysilvergreek",
+			"2": "textbookgreek",
+			"3": "locksmithsdream1",
+			"18": "textbookpassion",
+			"6": "locksmithsdream2",
+			"7": "textbooksanskrit",
+			"4": "waroftheroadscensored",
+			"5": "orchidtransfigurations2latin",
+			"24": "kitlingripe",
+			"25": "textbookpassion",
+			"14": "textbookreason",
+			"15": "victoryofcrowns",
+			"20": "textbookpassion",
+			"30": "textbookreason",
+			"21": "raptintheking",
+			"10": "vienneseconundra",
+			"26": "textbooklatin",
+			"11": "dehoris1latin",
+			"27": "sixlettersonnecessity",
+			"16": "onthewhite",
+			"eliminatedCards": [
+			],
+			"17": "orchidtransfigurations1latin",
+			"22": "travellingatnight1",
+			"23": "humoursofagentleman",
+			"12": "textbookreason",
+			"13": "apolloandmarsyas",
+			"29": "travellingatnight2",
+			"19": "introductiontohistories"
+		},
+		"deck.send.investigate.amsterdam": {
+			"2": "city.london",
+			"3": "city.aachen",
+			"eliminatedCards": [
+			],
+			"1": "city.rostock",
+			"4": "end.bornholm"
+		},
+		"deck.send.investigate.algiers.turmoil": {
+			"1": "end.ghardaia",
+			"4": "city.tripoli",
+			"5": "city.valletta",
+			"eliminatedCards": [
+			],
+			"2": "city.avignon",
+			"3": "city.marrakech"
+		},
+		"deck.explorevaulteveningisles3_success": {
+			"2": "ingredientgrailf",
+			"3": "bookwhitecatphrygian",
+			"eliminatedCards": [
+			],
+			"1": "toolknockf",
+			"4": "bookextinguishedheartmandaic"
+		},
+		"deck.explorevaultlandbeyondforest3_success": {
+			"1": "erudition",
+			"6": "ivorybookfucine",
+			"7": "historyofshadowlesskingsaramaic",
+			"4": "sunsetpassageslatin",
+			"5": "textbooksanskrit",
+			"eliminatedCards": [
+			],
+			"2": "ingredientgrailf",
+			"3": "jumble"
+		},
+		"rkx.weaknesses.disfavour": {
+			"2": "rkx.weakness.flowermaker.hidden",
+			"3": "rkx.weakness.horned.hidden",
+			"1": "rkx.weakness.wolf.hidden",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaulteveningisles2_success": {
+			"2": "ingredientheartf",
+			"3": "toolforgef",
+			"eliminatedCards": [
+			],
+			"1": "timedivisionmandaic",
+			"4": "bighufffucine"
+		},
+		"deck.scout.messana": {
+			"1": "op.sunset",
+			"6": "op.horned",
+			"4": "op.dawn",
+			"5": "obscurity",
+			"eliminatedCards": [
+			],
+			"2": "op.heat",
+			"3": "op.heights"
+		},
+		"deck.explorevaultlandbeyondforest5_success": {
+			"1": "silverbookfucine",
+			"6": "knownunknowntantrasanskrit",
+			"4": "matthiasamethystpursuitaramaic",
+			"5": "ironbookfucine",
+			"eliminatedCards": [
+			],
+			"2": "burningwomanphrygian",
+			"3": "encirclingtantrasanskrit"
+		},
+		"mansus_spiderdoor": {
+			"2": "favour",
+			"3": "influencehearte",
+			"eliminatedCards": [
+			],
+			"1": "fragmentsecrethistoriesd",
+			"4": "influencegraile"
+		},
+		"deck.explorevaultloneandlevelsands4_success": {
+			"1": "memoryofgodsfucine",
+			"4": "toolknockd",
+			"5": "influencewintere",
+			"eliminatedCards": [
+			],
+			"2": "ingredientwinterf",
+			"3": "toolwinterf"
+		},
+		"deck.explorevaultcontinent3_success": {
+			"2": "inthemountainsasupontheplainvak",
+			"3": "toolgrailmoth",
+			"eliminatedCards": [
+			],
+			"1": "toolmothd",
+			"4": "ingredientmothd"
+		},
+		"mansus_whitedoor1": {
+			"1": "fascination",
+			"6": "glimmering",
+			"4": "favour",
+			"5": "erudition",
+			"eliminatedCards": [
+			],
+			"2": "influenceknockc",
+			"3": "fragmentsecrethistoriesc"
+		},
+		"mansus_whitedoor2": {
+			"2": "fragmentsecrethistoriesc",
+			"3": "glimmering",
+			"eliminatedCards": [
+			],
+			"1": "influenceheartc",
+			"4": "influencelanternc"
+		},
+		"deck.send.investigate.sverdlovsk.turmoil": {
+			"1": "city.stalingrad",
+			"4": "city.samarkand",
+			"5": "end.paro",
+			"eliminatedCards": [
+			],
+			"2": "end.cheko",
+			"3": "city.nizhny"
+		},
+		"priest.repevent": {
+			"8": "notoriety",
+			"9": "notoriety",
+			"11": "notoriety",
+			"2": "mystique",
+			"3": "notoriety",
+			"1": "mystique",
+			"6": "mystique",
+			"7": "lmfunds",
+			"12": "lmfunds",
+			"5": "mystique",
+			"4": "lmfunds",
+			"eliminatedCards": [
+			],
+			"10": "lmfunds"
+		},
+		"vaultsrendingmountains": {
+			"2": "vaultrendingmountains4",
+			"3": "vaultrendingmountains2",
+			"eliminatedCards": [
+			],
+			"1": "vaultrendingmountains3",
+			"4": "vaultrendingmountains1"
+		},
+		"deck.send.investigate.aachen": {
+			"2": "city.munich",
+			"3": "city.paris",
+			"eliminatedCards": [
+			],
+			"1": "city.prague",
+			"4": "city.amsterdam"
+		},
+		"exploreevents": {
+			"2": "dayplaces",
+			"3": "dayplaces",
+			"eliminatedCards": [
+			],
+			"1": "daycriminals",
+			"4": "daycriminals"
+		},
+		"deck.explorevaultrendingmountains3_success": {
+			"2": "toolknockd",
+			"3": "larquebinecodexphrygian",
+			"eliminatedCards": [
+			],
+			"1": "bookofmasksphrygian",
+			"4": "toollanternfcracked"
+		},
+		"deck.send.investigate.leningrad": {
+			"2": "city.kaunas",
+			"3": "city.nizhny",
+			"eliminatedCards": [
+			],
+			"1": "city.kiev",
+			"4": "end.slettnes"
+		},
+		"deck.scout.sverdlovsk": {
+			"1": "op.licence.medical",
+			"6": "op.cold",
+			"7": "op.weapon.a",
+			"4": "op.dawn",
+			"5": "op.warehouse",
+			"eliminatedCards": [
+			],
+			"8": "op.curio.heart",
+			"9": "op.night",
+			"11": "op.connection.radicals",
+			"10": "op.connection.underworld",
+			"2": "op.office",
+			"3": "op.connection.official"
+		},
+		"locationscapital": {
+			"1": "vaultrhodes4",
+			"4": "vaultrhodes3",
+			"5": "vaultrhodes2",
+			"eliminatedCards": [
+			],
+			"2": "vaultrhodes1",
+			"3": "vaultrhodes5"
+		},
+		"map_terracitys": {
+			"eliminatedCards": [
+			],
+			"1": "map_location_lungmen"
+		},
+		"deck.send.investigate.budapest": {
+			"2": "city.venice",
+			"3": "city.cluj",
+			"eliminatedCards": [
+			],
+			"1": "city.tirana",
+			"4": "city.krakow"
+		},
+		"deck.scout.istanbul": {
+			"13": "op.heights",
+			"14": "op.heat",
+			"8": "op.sea",
+			"9": "op.office",
+			"11": "op.connection.radicals",
+			"2": "op.cats",
+			"3": "op.licence.import",
+			"15": "op.dawn",
+			"1": "op.curio.lantern1",
+			"6": "op.weapon.a",
+			"7": "op.warehouse",
+			"12": "op.weapon.d",
+			"5": "op.faith",
+			"4": "op.sea",
+			"17": "op.connection.official",
+			"eliminatedCards": [
+			],
+			"16": "op.connection.holy",
+			"18": "op.sunset",
+			"10": "op.connection.underworld"
+		},
+		"deck.send.investigate.strasbourg": {
+			"2": "end.morbihan",
+			"3": "city.aachen",
+			"eliminatedCards": [
+			],
+			"1": "city.granada",
+			"4": "city.paris"
+		},
+		"deck.explorevaultcapital1_success": {
+			"1": "locksmithsdream4",
+			"4": "travellingatnight3",
+			"5": "textbookfucine",
+			"eliminatedCards": [
+			],
+			"2": "wainscothistories",
+			"3": "treatiseonunderplaces"
+		},
+		"long.strategies.preference.assault": {
+			"1": "strategy.dreams.concealed",
+			"4": "strategy.intrigue.concealed",
+			"5": "strategy.assault.concealed",
+			"eliminatedCards": [
+			],
+			"2": "strategy.assault.concealed",
+			"3": "strategy.downtime.concealed"
+		},
+		"deck.explorevaultlandbeyondforest2_success": {
+			"1": "twentysixenticementsseventormentsfucine",
+			"6": "catalogueofunchartedpleasuresphrygian",
+			"4": "toolheartd",
+			"5": "bookofthronesphrygian",
+			"eliminatedCards": [
+			],
+			"2": "influencegrailc",
+			"3": "gospelzacchaeusgreek"
+		},
+		"deck.scout.strasbourg": {
+			"8": "op.connection.underworld",
+			"9": "op.connection.official",
+			"11": "op.rarity.knock",
+			"2": "op.office",
+			"3": "op.weapon.b",
+			"1": "op.licence.medical",
+			"6": "op.townhouse",
+			"7": "op.weapon.a",
+			"12": "op.villa",
+			"5": "op.warehouse",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.horned"
+		},
+		"paintingresultsreputation": {
+			"13": "lmfunds",
+			"14": "mystique",
+			"8": "mystique",
+			"9": "lmfunds",
+			"11": "lmfunds",
+			"2": "lmfunds",
+			"3": "lmfunds",
+			"15": "lmfunds",
+			"1": "overexposure",
+			"6": "overexposure",
+			"7": "lmfunds",
+			"12": "lmfunds",
+			"5": "overexposure",
+			"4": "lmfunds",
+			"19": "overexposure",
+			"17": "mystique",
+			"eliminatedCards": [
+			],
+			"16": "lmfunds",
+			"20": "mystique",
+			"18": "lmfunds",
+			"10": "lmfunds"
+		},
+		"mansus_wood2": {
+			"2": "rumour",
+			"3": "influenceheart",
+			"eliminatedCards": [
+			],
+			"1": "fragmentsecrethistoriesb",
+			"4": "influenceknock"
+		},
+		"deck.scout.nizhny": {
+			"8": "op.connection.official",
+			"9": "op.curio.forge",
+			"11": "op.connection.radicals",
+			"2": "op.office",
+			"3": "op.connection.underworld",
+			"1": "op.licence.medical",
+			"6": "op.cold",
+			"7": "op.weapon.a",
+			"12": "loc.shrine.colonel.nizhny",
+			"5": "op.warehouse",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.sunset"
+		},
+		"deck.scout.leningrad": {
+			"8": "op.connection.underworld",
+			"9": "op.connection.official",
+			"11": "op.licence.medical",
+			"2": "op.warehouse",
+			"3": "op.weapon.b",
+			"1": "op.office",
+			"6": "loc.shrine.colonel.leningrad",
+			"7": "op.weapon.a",
+			"12": "op.connection.radicals",
+			"5": "op.cold",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.sunset"
+		},
+		"deck.explorevaultshires5_success": {
+			"1": "matthiasamethystlossaramaic",
+			"4": "thosewhodonotsleepfucine",
+			"5": "concursumdiariesphrygian",
+			"eliminatedCards": [
+			],
+			"2": "shavenlocktantrasanskrit",
+			"3": "textbooklatin"
+		},
+		"deck.send.investigate.prague": {
+			"2": "city.aachen",
+			"3": "city.kaunas",
+			"eliminatedCards": [
+			],
+			"1": "city.vienna",
+			"4": "city.rostock"
+		},
+		"mansus_peacockdoor": {
+			"2": "fascination",
+			"3": "fragmentsecrethistoriese",
+			"eliminatedCards": [
+			],
+			"1": "influencelanterng",
+			"4": "scholarvak"
+		},
+		"long.strategies": {
+			"2": "strategy.downtime.concealed",
+			"3": "strategy.intrigue.concealed",
+			"eliminatedCards": [
+			],
+			"1": "strategy.dreams.concealed",
+			"4": "strategy.assault.concealed"
+		},
+		"hirelings": {
+			"13": "thuglanternmoth",
+			"14": "thugforgeedge",
+			"8": "thugmothminor",
+			"9": "thugmoth",
+			"11": "thugmothminor",
+			"2": "thugmothminor",
+			"3": "thugknock",
+			"15": "thugedgeminor",
+			"1": "thugedge",
+			"6": "thugedgeminor",
+			"7": "thugedge",
+			"12": "thugedgeminor",
+			"5": "thugknock",
+			"4": "thugmothminor",
+			"17": "thugforgeedge",
+			"eliminatedCards": [
+			],
+			"16": "thugmoth",
+			"18": "thugedgeminor",
+			"10": "thuglanternmoth"
+		},
+		"deck.scout.krakow": {
+			"13": "op.faith",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.connection.holy",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "op.heights",
+			"12": "op.office",
+			"5": "op.curio.lantern2",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"deck.scout.samarkand": {
+			"13": "op.office",
+			"14": "op.cats",
+			"8": "op.connection.holy",
+			"9": "op.weapon.d",
+			"11": "op.connection.underworld",
+			"2": "loc.shrine.lionsmith.samarkand",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.faith",
+			"7": "op.curio.lantern1",
+			"12": "op.dawn",
+			"5": "op.connection.official",
+			"4": "op.weapon.a",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.radicals"
+		},
+		"seasonevents": {
+			"1": "seasondespair",
+			"6": "seasonvisions",
+			"7": "seasonardours",
+			"4": "seasonsilence",
+			"5": "seasonvisions",
+			"eliminatedCards": [
+			],
+			"8": "seasonsickness",
+			"9": "seasonambitions",
+			"11": "seasonambitions",
+			"10": "seasonsuspicion",
+			"2": "seasondespair",
+			"3": "seasonsuspicion"
+		},
+		"deck.scout.avignon": {
+			"8": "op.rarity.heart",
+			"9": "op.curio.grail",
+			"11": "op.connection.underworld",
+			"2": "op.office",
+			"3": "op.connection.official",
+			"1": "op.licence.medical",
+			"6": "op.townhouse",
+			"7": "op.weapon.a",
+			"12": "op.villa",
+			"5": "op.warehouse",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.sunset"
+		},
+		"deck.send.investigate.vienna": {
+			"2": "city.munich",
+			"3": "city.krakow",
+			"eliminatedCards": [
+			],
+			"1": "city.venice",
+			"4": "city.prague"
+		},
+		"deck.explorevaultcapital4_success": {
+			"1": "roseofhypatiagreek",
+			"4": "locksmithsdream3",
+			"5": "ingredientheartb",
+			"eliminatedCards": [
+			],
+			"2": "toolgrailb",
+			"3": "hq.hospital.potential"
+		},
+		"deck.scout.slettnes": {
+			"1": "op.sunset",
+			"6": "op.sea",
+			"4": "op.dawn",
+			"5": "obscurity",
+			"eliminatedCards": [
+			],
+			"2": "op.cold",
+			"3": "op.wolf"
+		},
+		"deck.send.investigate.marrakech": {
+			"2": "end.morbihan",
+			"3": "city.algiers",
+			"eliminatedCards": [
+			],
+			"1": "end.ghardaia",
+			"4": "city.granada"
+		},
+		"cabaretevents": {
+			"1": "fascination",
+			"6": "glimmering",
+			"7": "influencemoth",
+			"4": "influencegrail",
+			"5": "erudition",
+			"eliminatedCards": [
+			],
+			"8": "contentment",
+			"9": "notoriety",
+			"11": "vitality",
+			"10": "contentment",
+			"2": "fascination",
+			"3": "contentment"
+		},
+		"ghoul.memory": {
+			"13": "memory.joyful",
+			"8": "memory.menacing",
+			"9": "memory.profitable",
+			"11": "memory.profitable",
+			"2": "memory.profitable",
+			"3": "memory.shameful",
+			"1": "memory.joyful",
+			"6": "memory.shameful",
+			"7": "memory.menacing",
+			"12": "memory.menacing",
+			"5": "memory.unexpected",
+			"4": "memory.shameful",
+			"eliminatedCards": [
+			],
+			"10": "memory.joyful"
+		},
+		"deck.send.investigate.algiers": {
+			"1": "end.ghardaia",
+			"4": "city.tripoli",
+			"5": "city.valletta",
+			"eliminatedCards": [
+			],
+			"2": "city.avignon",
+			"3": "city.marrakech"
+		},
+		"deck.scout.london": {
+			"8": "op.connection.official",
+			"9": "op.curio.lantern2",
+			"11": "op.licence.import",
+			"2": "op.warehouse",
+			"3": "op.connection.underworld",
+			"1": "op.office",
+			"6": "op.sea",
+			"7": "op.weapon.a",
+			"12": "op.sea",
+			"5": "op.sulochana",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.radicals"
+		},
+		"deck.explorevaultloneandlevelsands2_success": {
+			"1": "ingredientmothf",
+			"4": "toolmothf",
+			"5": "voyagesfofucine",
+			"eliminatedCards": [
+			],
+			"2": "toolsecrethistoriesd",
+			"3": "ingredientknockf"
+		},
+		"deck.explorevaultrhodes4_success": {
+			"1": "roseofhypatiagreek",
+			"4": "locksmithsdream3",
+			"5": "ingredientheartb",
+			"eliminatedCards": [
+			],
+			"2": "toolgrailb",
+			"3": "hq.hospital.potential"
+		},
+		"troublemakerconversations": {
+			"1": "dread",
+			"6": "glimmering",
+			"7": "erudition",
+			"4": "fascination",
+			"5": "erudition",
+			"8": "dread",
+			"9": "erudition",
+			"eliminatedCards": [
+			],
+			"2": "fascination",
+			"3": "glimmering"
+		},
+		"bechetcommissions": {
+			"1": "commissionarticleforgeb",
+			"6": "commissionarticlemothc",
+			"7": "commissionarticlemoth",
+			"4": "commissionarticlegrail",
+			"5": "commissionarticlegrailb",
+			"8": "commissionarticleforge",
+			"9": "commissionarticlegrailc",
+			"eliminatedCards": [
+			],
+			"2": "commissionarticleforgec",
+			"3": "commissionarticlemothb"
+		},
+		"deck.scout.algiers": {
+			"13": "op.villa",
+			"14": "op.townhouse",
+			"8": "op.heights",
+			"9": "op.office",
+			"11": "op.cats",
+			"2": "loc.shrine.lionsmith.algiers",
+			"3": "op.licence.import",
+			"15": "op.sea",
+			"1": "op.curio.forge",
+			"6": "op.connection.radicals",
+			"7": "op.warehouse",
+			"12": "op.dawn",
+			"5": "op.weapon.a",
+			"4": "op.heat",
+			"17": "op.connection.official",
+			"eliminatedCards": [
+			],
+			"16": "op.weapon.d",
+			"18": "op.sea",
+			"10": "op.connection.underworld"
+		},
+		"deck.send.investigate.alexandria": {
+			"2": "city.candia",
+			"3": "city.baghdad",
+			"eliminatedCards": [
+			],
+			"1": "end.messana",
+			"4": "city.istanbul"
+		},
+		"deck.send.investigate.baghdad.turmoil": {
+			"1": "city.alexandria",
+			"4": "end.messana",
+			"5": "city.meshad",
+			"eliminatedCards": [
+			],
+			"2": "city.tiflis",
+			"3": "city.istanbul"
+		},
+		"deck.explorevaultcontinent4_success": {
+			"1": "toolsecrethistoriesb",
+			"6": "vinzantinscriptionsphrygian",
+			"7": "watchfultantrasanskrit",
+			"4": "influencemothc",
+			"5": "textbookaramaic",
+			"eliminatedCards": [
+			],
+			"2": "geminiadfucine",
+			"3": "jumble"
+		},
+		"lanternlong": {
+			"2": "diarist_unknown",
+			"3": "julian_unknown",
+			"1": "diarist_unknown",
+			"eliminatedCards": [
+			]
+		},
+		"deck.scout.cheko": {
+			"1": "op.night",
+			"6": "op.wolf",
+			"4": "op.dawn",
+			"5": "obscurity",
+			"eliminatedCards": [
+			],
+			"2": "op.cold",
+			"3": "op.cats"
+		},
+		"forgelong": {
+			"2": "welland_unknown",
+			"3": "julian_unknown",
+			"1": "welland_unknown",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaultrendingmountains4_success": {
+			"1": "asthesunhiscoursearamaic",
+			"6": "ingredientwinterd",
+			"4": "textbookphrygiangreek",
+			"5": "secondglorymandaic",
+			"eliminatedCards": [
+			],
+			"2": "ingredientwinterd",
+			"3": "ingredientwinterd"
+		},
+		"deck.send.investigate.krakow": {
+			"2": "city.vienna",
+			"3": "city.kiev",
+			"eliminatedCards": [
+			],
+			"1": "city.budapest",
+			"4": "city.kaunas"
+		},
+		"deck.send.investigate.aachen.turmoil": {
+			"2": "city.munich",
+			"3": "city.paris",
+			"eliminatedCards": [
+			],
+			"1": "city.prague",
+			"4": "city.amsterdam"
+		},
+		"aladimcommissions": {
+			"1": "commissionarticlelanternb",
+			"6": "commissionarticlesecrethistoriesc",
+			"4": "commissionarticlelanternc",
+			"5": "commissionarticlelantern",
+			"eliminatedCards": [
+			],
+			"2": "commissionarticlesecrethistories",
+			"3": "commissionarticlesecrethistoriesb"
+		},
+		"deck.send.investigate.avignon": {
+			"2": "city.granada",
+			"3": "city.venice",
+			"eliminatedCards": [
+			],
+			"1": "city.algiers",
+			"4": "city.munich"
+		},
+		"janningscommissions": {
+			"1": "commissionarticleheartb",
+			"6": "commissionarticleedgec",
+			"4": "commissionarticleheartc",
+			"5": "commissionarticleheart",
+			"eliminatedCards": [
+			],
+			"2": "commissionarticleedge",
+			"3": "commissionarticleedgeb"
+		},
+		"paintingresultsbasic": {
+			"1": "glimmering",
+			"6": "glimmering",
+			"4": "glimmering",
+			"5": "glimmering",
+			"eliminatedCards": [
+			],
+			"2": "contentment",
+			"3": "contentment"
+		},
+		"deck.send.investigate.kaunas": {
+			"1": "city.prague",
+			"4": "city.krakow",
+			"5": "city.leningrad",
+			"eliminatedCards": [
+			],
+			"2": "end.slettnes",
+			"3": "city.rostock"
+		},
+		"deck.explorevaultshires3_success": {
+			"1": "ingredientmothb",
+			"6": "influencewinterc",
+			"4": "bookofcentipedegreek",
+			"5": "ingredientwinterb",
+			"eliminatedCards": [
+			],
+			"2": "toolwinterb",
+			"3": "tooledgeb"
+		},
+		"deck.send.investigate.stalingrad.turmoil": {
+			"2": "city.kiev",
+			"3": "city.sverdlovsk",
+			"eliminatedCards": [
+			],
+			"1": "city.tiflis",
+			"4": "city.nizhny"
+		},
+		"deck.scout.meshad": {
+			"13": "op.warehouse",
+			"14": "op.dawn",
+			"8": "op.licence.medical",
+			"9": "op.connection.official",
+			"11": "op.weapon.d",
+			"2": "op.connection.underworld",
+			"3": "op.faith",
+			"15": "loc.shrine.lionsmith.meshad",
+			"1": "op.heat",
+			"6": "op.office",
+			"7": "op.connection.holy",
+			"12": "op.townhouse",
+			"5": "op.weapon.a",
+			"4": "op.villa",
+			"17": "op.sunset",
+			"eliminatedCards": [
+			],
+			"16": "op.curio.forge",
+			"10": "op.cats"
+		},
+		"deck.scout.alexandria": {
+			"13": "op.dawn",
+			"14": "op.weapon.a",
+			"8": "op.townhouse",
+			"9": "op.connection.holy",
+			"11": "op.licence.import",
+			"2": "op.heat",
+			"3": "op.office",
+			"15": "op.villa",
+			"1": "op.connection.official",
+			"6": "op.weapon.d",
+			"7": "op.night",
+			"12": "op.cats",
+			"5": "op.curio.lantern1",
+			"4": "op.faith",
+			"19": "op.sea",
+			"17": "loc.shrine.lionsmith.alexandria",
+			"eliminatedCards": [
+			],
+			"16": "op.sea",
+			"18": "op.connection.underworld",
+			"10": "op.warehouse"
+		},
+		"mansus_peacockdoor1": {
+			"1": "favour",
+			"4": "fragmentsecrethistoriesf",
+			"5": "ingredientgraild",
+			"eliminatedCards": [
+			],
+			"2": "influencegrailg",
+			"3": "fascination"
+		},
+		"mansus_peacockdoor2": {
+			"2": "dread",
+			"3": "influencewinterg",
+			"1": "fragmentsecrethistoriesf",
+			"eliminatedCards": [
+			]
+		},
+		"deck.send.investigate.granada": {
+			"2": "end.morbihan",
+			"3": "city.avignon",
+			"eliminatedCards": [
+			],
+			"1": "city.marrakech",
+			"4": "city.strasbourg"
+		},
+		"deck.send.investigate.munich.turmoil": {
+			"2": "city.strasbourg",
+			"3": "city.vienna",
+			"eliminatedCards": [
+			],
+			"1": "city.avignon",
+			"4": "city.aachen"
+		},
+		"poppycommissions": {
+			"1": "commissionarticleknockb",
+			"6": "commissionarticlewinterc",
+			"4": "commissionarticleknockc",
+			"5": "commissionarticleknock",
+			"eliminatedCards": [
+			],
+			"2": "commissionarticlewinter",
+			"3": "commissionarticlewinterb"
+		},
+		"deck.scout.munich": {
+			"8": "op.connection.underworld",
+			"9": "op.connection.official",
+			"11": "op.licence.medical",
+			"2": "op.warehouse",
+			"3": "op.connection.radicals",
+			"1": "op.office",
+			"6": "op.horned",
+			"7": "op.weapon.a",
+			"12": "op.weapon.b",
+			"5": "loc.shrine.colonel.munich",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.night"
+		},
+		"deck.explorevaultlandbeyondforest1_success": {
+			"2": "ingredientlanternf",
+			"3": "accountkanishkspidersdooraramaic",
+			"eliminatedCards": [
+			],
+			"1": "theskythesoularamaic",
+			"4": "influencelanternc"
+		},
+		"deck.travel.wilderness.leave": {
+			"1": "city.meshad",
+			"37": "city.algiers",
+			"35": "city.candia",
+			"8": "city.granada",
+			"9": "city.tiflis",
+			"28": "end.slettnes",
+			"2": "city.strasbourg",
+			"3": "end.bornholm",
+			"18": "city.kiev",
+			"6": "city.paris",
+			"7": "end.ghardaia",
+			"4": "city.cluj",
+			"5": "city.krakow",
+			"36": "end.cheko",
+			"38": "city.munich",
+			"24": "city.sverdlovsk",
+			"34": "city.alexandria",
+			"25": "city.samarkand",
+			"14": "city.vienna",
+			"15": "city.aachen",
+			"40": "city.valletta",
+			"20": "city.nizhny",
+			"30": "city.istanbul",
+			"21": "city.amsterdam",
+			"10": "city.marrakech",
+			"26": "city.baghdad",
+			"11": "city.london",
+			"27": "end.morbihan",
+			"16": "city.tirana",
+			"eliminatedCards": [
+			],
+			"17": "city.prague",
+			"33": "city.stalingrad",
+			"22": "city.tripoli",
+			"32": "city.venice",
+			"23": "city.kaunas",
+			"12": "city.leningrad",
+			"13": "city.avignon",
+			"31": "city.rostock",
+			"29": "end.messana",
+			"39": "city.budapest",
+			"19": "end.paro"
+		},
+		"streetsstrangefinds": {
+			"1": "influenceknockc",
+			"6": "fascination",
+			"7": "glimmering",
+			"4": "glimmering",
+			"5": "contentment",
+			"eliminatedCards": [
+			],
+			"2": "contentment",
+			"3": "influenceknockc"
+		},
+		"paintingresults": {
+			"13": "mystique",
+			"14": "contentment",
+			"8": "glimmering",
+			"9": "mystique",
+			"11": "glimmering",
+			"2": "contentment",
+			"3": "glimmering",
+			"15": "contentment",
+			"1": "glimmering",
+			"6": "contentment",
+			"7": "mystique",
+			"12": "mystique",
+			"5": "glimmering",
+			"4": "mystique",
+			"19": "mystique",
+			"17": "contentment",
+			"eliminatedCards": [
+			],
+			"16": "mystique",
+			"18": "glimmering",
+			"10": "glimmering"
+		},
+		"deck.send.investigate.venice": {
+			"2": "city.avignon",
+			"3": "city.budapest",
+			"eliminatedCards": [
+			],
+			"1": "city.valletta",
+			"4": "city.vienna"
+		},
+		"deck.explore.fleeting": {
+			"8": "dread",
+			"9": "restlessness",
+			"11": "contentment",
+			"2": "dread",
+			"3": "fascination",
+			"1": "restlessness",
+			"6": "contentment",
+			"7": "contentment",
+			"12": "restlessness",
+			"5": "fascination",
+			"4": "fascination",
+			"eliminatedCards": [
+			],
+			"10": "dread"
+		},
+		"randominfluencelow": {
+			"48": "influencewinter",
+			"1": "influencemothc",
+			"49": "vitality",
+			"37": "influenceedge",
+			"35": "influenceheart",
+			"8": "erudition",
+			"9": "influenceforge",
+			"eliminatedCards": [
+			],
+			"28": "influenceforge",
+			"2": "vitality",
+			"3": "influenceedgec",
+			"18": "influencemothc",
+			"6": "influencelantern",
+			"7": "influenceheartc",
+			"4": "influenceedgec",
+			"5": "influencemoth",
+			"36": "influencemothc",
+			"38": "influenceforgec",
+			"51": "influencelantern",
+			"56": "influenceknock",
+			"24": "influenceforge",
+			"34": "influencelantern",
+			"25": "influenceheartc",
+			"14": "influenceknockc",
+			"15": "influencemoth",
+			"44": "erudition",
+			"54": "influenceedge",
+			"45": "influencegrail",
+			"55": "influencewinterc",
+			"40": "influenceknockc",
+			"20": "influenceheart",
+			"30": "influenceforgec",
+			"21": "influencegrailc",
+			"10": "influencelanternc",
+			"26": "influencemoth",
+			"11": "influencewinter",
+			"27": "influenceedge",
+			"16": "influenceknock",
+			"41": "influenceedgec",
+			"17": "influencegrail",
+			"46": "erudition",
+			"52": "influencegrailc",
+			"47": "influencelanternc",
+			"57": "influenceknockc",
+			"33": "influencewinterc",
+			"22": "influencegrail",
+			"32": "influenceheart",
+			"23": "influencegrailc",
+			"12": "influenceforgec",
+			"13": "influencelanternc",
+			"42": "influenceknock",
+			"31": "vitality",
+			"43": "glimmering",
+			"53": "glimmering",
+			"50": "influencewinterc",
+			"29": "influenceheartc",
+			"39": "influencewinter",
+			"19": "glimmering"
+		},
+		"deck.explorevaultrendingmountains1_success": {
+			"1": "ingredientedgef",
+			"6": "textbookmandaicaramaic",
+			"7": "ingredientforgeb",
+			"4": "toolforged",
+			"5": "bookofdissolutionmandaic",
+			"8": "ingredientedgef",
+			"9": "ingredientforgeb",
+			"eliminatedCards": [
+			],
+			"2": "ingredientedgef",
+			"3": "ingredientforgeb"
+		},
+		"deck.scout.bornholm": {
+			"2": "obscurity",
+			"3": "op.flowermaker",
+			"eliminatedCards": [
+			],
+			"1": "op.sea",
+			"4": "op.cold"
+		},
+		"rkx.events": {
+			"2": "rkx.event.passive",
+			"3": "rkx.event.aggressive",
+			"eliminatedCards": [
+			],
+			"1": "rkx.event.aggressive",
+			"4": "rkx.event.aggressive"
+		},
+		"mansus_spiderdoor2": {
+			"1": "fragmentsecrethistoriesc",
+			"6": "influencewintere",
+			"4": "fascination",
+			"5": "influencemothe",
+			"eliminatedCards": [
+			],
+			"2": "influenceknockg",
+			"3": "influencelanterne"
+		},
+		"ecdysisrewards": {
+			"13": "vienneseconundra",
+			"14": "lmfunds",
+			"8": "compensationc",
+			"9": "compensationb",
+			"11": "lmfunds",
+			"2": "lmfunds",
+			"3": "compensationb",
+			"15": "jumble",
+			"1": "lmfunds",
+			"6": "lmfunds",
+			"7": "raptintheking",
+			"12": "compensationc",
+			"5": "lmfunds",
+			"4": "compensationb",
+			"19": "jumble",
+			"17": "lmfunds",
+			"eliminatedCards": [
+			],
+			"16": "kitlingripe",
+			"18": "lmfunds",
+			"10": "compensationb"
+		},
+		"deck.explorevaultshires2_success": {
+			"2": "toolknockb",
+			"3": "flayedtantrasanskrit",
+			"eliminatedCards": [
+			],
+			"1": "ingredientgrailb",
+			"4": "toolmothb"
+		},
+		"schemeevents": {
+			"1": "schemeexpedition",
+			"6": "schemeexpedition",
+			"7": "schemeactivities",
+			"4": "schemeactivities",
+			"5": "schemeexpedition",
+			"eliminatedCards": [
+			],
+			"8": "schemeactivities",
+			"9": "schememurder",
+			"10": "schemeactivities",
+			"2": "schemeexpedition",
+			"3": "schememurder"
+		},
+		"deck.scout.rostock": {
+			"13": "op.night",
+			"14": "op.warehouse",
+			"8": "op.connection.underworld",
+			"9": "op.sea",
+			"11": "op.licence.import",
+			"2": "op.connection.official",
+			"3": "op.villa",
+			"15": "op.sea",
+			"1": "op.townhouse",
+			"6": "op.weapon.b",
+			"7": "op.cold",
+			"12": "op.rarity.moth",
+			"5": "op.dawn",
+			"4": "op.office",
+			"eliminatedCards": [
+			],
+			"10": "op.weapon.a"
+		},
+		"deck.scout.kaunas": {
+			"13": "op.office",
+			"14": "op.night",
+			"8": "op.connection.underworld",
+			"9": "op.curio.forge",
+			"11": "op.weapon.a",
+			"2": "op.connection.official",
+			"3": "op.faith",
+			"15": "op.villa",
+			"1": "op.cold",
+			"6": "op.licence.medical",
+			"7": "op.connection.holy",
+			"12": "op.warehouse",
+			"5": "op.dawn",
+			"4": "op.townhouse",
+			"eliminatedCards": [
+			],
+			"16": "op.connection.ruler",
+			"10": "op.wolf"
+		},
+		"deck.explorevaultcontinent5_success": {
+			"2": "matthiasamethysttransformationaramaic",
+			"3": "worlddoesnotweeparamaic",
+			"eliminatedCards": [
+			],
+			"1": "deedsofthescarredcaptaingreek",
+			"4": "devouredtantrasanskrit"
+		},
+		"vaultrewardse": {
+			"13": "bookofdissolutionmandaic",
+			"14": "toollanternfcracked",
+			"8": "textbookphrygiangreek",
+			"9": "ingredientmothd",
+			"21": "textbookmandaicaramaic",
+			"11": "ingredientgraild",
+			"2": "ingredientedged",
+			"3": "toolgraild",
+			"15": "ingredientheartd",
+			"1": "dreamconspiracyskiesphrygian",
+			"6": "tooledgef",
+			"7": "wherehasshegonevak",
+			"12": "bookofmasksphrygian",
+			"5": "ingredientforged",
+			"23": "ingredientknockd",
+			"4": "larquebinecodexphrygian",
+			"19": "secondglorymandaic",
+			"17": "ingredientwinterd",
+			"eliminatedCards": [
+			],
+			"16": "toolforged",
+			"20": "ingredientlanternd",
+			"18": "asthesunhiscoursearamaic",
+			"10": "toolknockd",
+			"22": "textbookvaksanskrit"
+		},
+		"long.strategies.preference.intrigue": {
+			"1": "strategy.dreams.concealed",
+			"4": "strategy.intrigue.concealed",
+			"5": "strategy.intrigue.concealed",
+			"eliminatedCards": [
+			],
+			"2": "strategy.assault.concealed",
+			"3": "strategy.downtime.concealed"
+		},
+		"vaultrewardsg": {
+			"13": "fivecreationsvak",
+			"14": "bookextinguishedheartmandaic",
+			"8": "birdsongphrygian",
+			"9": "ingredientmothf",
+			"21": "ingredientlanternf",
+			"11": "ingredientgrailf",
+			"2": "ingredientedgef",
+			"3": "originsofhoursvak",
+			"15": "ingredientheartf",
+			"1": "timedivisionmandaic",
+			"6": "toolforgef",
+			"7": "bighufffucine",
+			"12": "toolknockf",
+			"5": "ingredientforgef",
+			"23": "ingredientheartf",
+			"4": "bookwhitecatphrygian",
+			"19": "manualdeparturevak",
+			"17": "ingredientwinterf",
+			"eliminatedCards": [
+			],
+			"16": "toolgrailf",
+			"20": "scarskyfucine",
+			"18": "toollanternf",
+			"10": "ingredientgrailf",
+			"22": "commandspreservationallexistsmandaic",
+			"24": "ingredientknockf"
+		},
+		"vaultrewardsf": {
+			"1": "memoryofgodsfucine",
+			"8": "toolknockd",
+			"9": "influencewintere",
+			"28": "toollanternd",
+			"2": "ingredientedgef",
+			"3": "ingredientmothf",
+			"18": "medusaslamentgreek",
+			"6": "ingredientknockf",
+			"7": "ingredientforgef",
+			"4": "ingredientwinterf",
+			"5": "ingredientforged",
+			"24": "toolheartf",
+			"25": "ingredientknockd",
+			"14": "ingredientgrailf",
+			"15": "ingredientgraild",
+			"20": "songscarapacecrossmandaic",
+			"30": "focusambermandaic",
+			"21": "ingredientwinterf",
+			"10": "ingredientmothd",
+			"26": "ingredientlanternf",
+			"11": "manneralchemistsparedvak",
+			"27": "ingredientwinterd",
+			"16": "sevenfoldslayingsevencoiledfucine",
+			"eliminatedCards": [
+			],
+			"17": "ingredientedged",
+			"33": "ingredientknockf",
+			"22": "ingredientlanternd",
+			"32": "voyagesfofucine",
+			"23": "toolsecrethistoriesd",
+			"12": "ingredientmothf",
+			"13": "ingredientheartd",
+			"31": "toolwinterf",
+			"29": "toolmothf",
+			"19": "ingredientheartf"
+		},
+		"vaultrewardsa": {
+			"1": "apolloandmarsyas",
+			"8": "franklinbancroftdiarieslatin",
+			"9": "ingredientgrailb",
+			"28": "textbookfucine",
+			"2": "ingredientedgeb",
+			"3": "locksmithsdream4",
+			"18": "toolwinterd",
+			"6": "treatiseonunderplaces",
+			"7": "ingredientforgeb",
+			"4": "toolheartb",
+			"5": "locksmithsdream3",
+			"24": "ingredientlanternb",
+			"25": "textbookgreek",
+			"14": "roseofhypatiagreek",
+			"15": "toollanternbcracked",
+			"20": "chioneatabydos",
+			"21": "wainscothistories",
+			"10": "debellismurorum",
+			"26": "travellingatnight3",
+			"11": "ingredientmothb",
+			"27": "toolgrailb",
+			"16": "ingredientheartb",
+			"eliminatedCards": [
+			],
+			"17": "ingredientheartb",
+			"22": "ingredientlanternb",
+			"23": "roseofwazneigreek",
+			"12": "roseofnurielgreek",
+			"13": "ingredientgrailb",
+			"29": "ingredientknockb",
+			"19": "ingredientwinterb"
+		},
+		"vaultrewardsc": {
+			"1": "textbookfucinelatin",
+			"37": "ingredientwinterb",
+			"35": "textbookaramaic",
+			"8": "textbookaramaic",
+			"9": "geminiadfucine",
+			"eliminatedCards": [
+			],
+			"28": "ingredientwinterd",
+			"2": "ingredientedged",
+			"3": "againstsisterhoodknotgreek",
+			"18": "ingredientgraild",
+			"6": "deedsofthescarredcaptaingreek",
+			"7": "ingredientforgeb",
+			"4": "vinzantinscriptionsphrygian",
+			"5": "bookoftruebloodlatin",
+			"36": "ingredientknockb",
+			"38": "ingredientlanternd",
+			"24": "inthemountainsasupontheplainvak",
+			"34": "tantrawormssanskrit",
+			"25": "ingredientheartd",
+			"14": "highmysterieschurchsolarfucine",
+			"15": "toolsecrethistoriesb",
+			"44": "serenityofblackwoodgreek",
+			"45": "influencemothc",
+			"40": "toolgrailmoth",
+			"20": "worlddoesnotweeparamaic",
+			"30": "jumble",
+			"21": "dehoris2latin",
+			"10": "ingredientforged",
+			"26": "devouredtantrasanskrit",
+			"11": "onthematterandthedeedsofserpentsvak",
+			"27": "toolforgeb",
+			"16": "ingredientmothd",
+			"41": "watchfultantrasanskrit",
+			"17": "ingredientheartb",
+			"46": "ingredientknockd",
+			"33": "irreproachabletraditionssocietynobleendeavourlatin",
+			"22": "morphycodexaramaic",
+			"32": "ingredientheartb",
+			"23": "ingredientedgeb",
+			"12": "matthiasamethysttransformationaramaic",
+			"13": "ingredientmothb",
+			"42": "thirstingtantrasanskrit",
+			"31": "ingredientmothd",
+			"43": "toolmothd",
+			"29": "ingredientlanternb",
+			"39": "ingredientwinterb",
+			"19": "ingredientgrailb"
+		},
+		"vaultrewardsb": {
+			"1": "ingredientmothb",
+			"8": "ingredientwinterb",
+			"9": "influencewinterc",
+			"28": "ingredientheartd",
+			"2": "ingredientedgeb",
+			"3": "toolmothb",
+			"18": "toolknockb",
+			"6": "flayedtantrasanskrit",
+			"7": "ingredientforgeb",
+			"4": "tooledgeb",
+			"5": "victoryofcrowns",
+			"24": "ingredientlanternb",
+			"25": "textbooklatin",
+			"14": "thosewhodonotsleepfucine",
+			"15": "toolwinterb",
+			"20": "concursumdiariesphrygian",
+			"21": "orchidtransfigurations3latin",
+			"10": "matthiasamethystlossaramaic",
+			"26": "indignitiesobliviatelatin",
+			"11": "ingredientmothb",
+			"27": "bookofcentipedegreek",
+			"16": "toollanterndcracked",
+			"eliminatedCards": [
+			],
+			"17": "ingredientheartb",
+			"22": "ingredientgrailb",
+			"23": "shavenlocktantrasanskrit",
+			"12": "tooledged",
+			"13": "ingredientgrailb",
+			"29": "ingredientknockb",
+			"19": "ingredientwinterb"
+		},
+		"deck.send.investigate.rostock": {
+			"2": "city.prague",
+			"3": "city.amsterdam",
+			"eliminatedCards": [
+			],
+			"1": "city.kaunas",
+			"4": "end.bornholm"
+		},
+		"deck.explorevaultloneandlevelsands3_success": {
+			"2": "sevenfoldslayingsevencoiledfucine",
+			"3": "toolheartf",
+			"1": "songscarapacecrossmandaic",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaultcontinent6_success": {
+			"2": "serenityofblackwoodgreek",
+			"3": "irreproachabletraditionssocietynobleendeavourlatin",
+			"eliminatedCards": [
+			],
+			"1": "textbookfucinelatin",
+			"4": "onthematterandthedeedsofserpentsvak"
+		},
+		"deck.explorevaulteveningisles1_success": {
+			"2": "originsofhoursvak",
+			"3": "toolgrailf",
+			"eliminatedCards": [
+			],
+			"1": "fivecreationsvak",
+			"4": "manualdeparturevak"
+		},
+		"deck.scout.paris": {
+			"13": "op.office",
+			"14": "op.flowermaker",
+			"8": "op.heights",
+			"9": "op.weapon.a",
+			"11": "op.weapon.b",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "op.connection.official",
+			"12": "op.night",
+			"5": "op.connection.underworld",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.rarity.grail"
+		},
+		"deck.send.investigate.london.turmoil": {
+			"2": "end.morbihan",
+			"3": "city.amsterdam",
+			"eliminatedCards": [
+			],
+			"1": "city.paris",
+			"4": "end.bornholm"
+		},
+		"deck.explorevaultrhodes3_success": {
+			"1": "apolloandmarsyas",
+			"4": "franklinbancroftdiarieslatin",
+			"5": "ingredientgrailb",
+			"eliminatedCards": [
+			],
+			"2": "toolheartb",
+			"3": "hq.warehouse.potential"
+		},
+		"deck.send.investigate.valletta": {
+			"2": "city.algiers",
+			"3": "city.tirana",
+			"eliminatedCards": [
+			],
+			"1": "city.tripoli",
+			"4": "city.venice"
+		},
+		"deck.send.investigate.london": {
+			"2": "end.morbihan",
+			"3": "city.amsterdam",
+			"eliminatedCards": [
+			],
+			"1": "city.paris",
+			"4": "end.bornholm"
+		},
+		"oneoffrewards": {
+			"1": "fragmentedgeb",
+			"6": "fragmentwinterb",
+			"7": "fragmentlanternb",
+			"4": "fragmentgrailb",
+			"5": "fragmentheartb",
+			"8": "fragmentknockb",
+			"eliminatedCards": [
+			],
+			"2": "fragmentforgeb",
+			"3": "fragmentmothb"
+		},
+		"deck.send.investigate.paris": {
+			"2": "end.morbihan",
+			"3": "city.aachen",
+			"eliminatedCards": [
+			],
+			"1": "city.strasbourg",
+			"4": "city.london"
+		},
+		"deck.scout.tirana": {
+			"8": "op.connection.underworld",
+			"9": "op.connection.official",
+			"11": "op.office",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.flowermaker",
+			"7": "op.weapon.a",
+			"12": "op.connection.ruler",
+			"5": "op.villa",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.sunset"
+		},
+		"deck.send.investigate.munich": {
+			"2": "city.strasbourg",
+			"3": "city.vienna",
+			"eliminatedCards": [
+			],
+			"1": "city.avignon",
+			"4": "city.aachen"
+		},
+		"deck.scout.stalingrad": {
+			"13": "op.connection.radicals",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.night",
+			"2": "loc.shrine.colonel.stalingrad",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.cold",
+			"7": "op.wolf",
+			"12": "op.office",
+			"5": "op.curio.moth",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"deck.use.connection.official": {
+			"2": "op.licence.import",
+			"1": "op.licence.medical",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaultrhodes2_success": {
+			"2": "hq.mithraeum.potential",
+			"3": "toolwinterd",
+			"eliminatedCards": [
+			],
+			"1": "toollanternbcracked",
+			"4": "ingredientlanternb"
+		},
+		"deck.send.investigate.kiev": {
+			"2": "city.krakow",
+			"3": "city.stalingrad",
+			"eliminatedCards": [
+			],
+			"1": "city.cluj",
+			"4": "city.leningrad"
+		},
+		"deck.scout.paro": {
+			"1": "obscurity",
+			"6": "op.faith",
+			"4": "op.dawn",
+			"5": "op.cats",
+			"eliminatedCards": [
+			],
+			"2": "op.cold",
+			"3": "op.heights"
+		},
+		"deck.send.investigate.leningrad.turmoil": {
+			"2": "city.kaunas",
+			"3": "city.nizhny",
+			"eliminatedCards": [
+			],
+			"1": "city.kiev",
+			"4": "end.slettnes"
+		},
+		"deck.send.investigate.istanbul": {
+			"2": "city.tirana",
+			"3": "city.baghdad",
+			"eliminatedCards": [
+			],
+			"1": "city.alexandria",
+			"4": "city.cluj"
+		},
+		"rkx.weaknesses.quirk": {
+			"2": "rkx.weakness.heights.hidden",
+			"3": "rkx.weakness.faith.hidden",
+			"1": "rkx.weakness.cats.hidden",
+			"eliminatedCards": [
+			]
+		},
+		"vaultsloneandlevelsands": {
+			"2": "vaultloneandlevelsands4",
+			"3": "vaultloneandlevelsands2",
+			"eliminatedCards": [
+			],
+			"1": "vaultloneandlevelsands3",
+			"4": "vaultloneandlevelsands1"
+		},
+		"deck.scout.amsterdam": {
+			"13": "op.townhouse",
+			"14": "op.weapon.b",
+			"8": "op.sea",
+			"9": "op.weapon.a",
+			"11": "op.licence.import",
+			"2": "op.morgen",
+			"3": "op.warehouse",
+			"1": "op.villa",
+			"6": "op.sea",
+			"7": "op.connection.official",
+			"12": "op.sunset",
+			"5": "op.connection.underworld",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.office"
+		},
+		"long.strategies.preference.dreamwork": {
+			"1": "strategy.dreams.concealed",
+			"4": "strategy.dreams.concealed",
+			"5": "strategy.intrigue.concealed",
+			"eliminatedCards": [
+			],
+			"2": "strategy.assault.concealed",
+			"3": "strategy.downtime.concealed"
+		},
+		"vaultsshires": {
+			"1": "vaultshires4",
+			"4": "vaultshires3",
+			"5": "vaultshires2",
+			"eliminatedCards": [
+			],
+			"2": "vaultshires1",
+			"3": "vaultshires5"
+		},
+		"deck.scout.granada": {
+			"13": "op.office",
+			"14": "op.dawn",
+			"8": "op.connection.underworld",
+			"9": "op.curio.heart",
+			"11": "op.weapon.d",
+			"2": "op.connection.official",
+			"3": "op.heights",
+			"15": "op.villa",
+			"1": "op.heat",
+			"6": "op.licence.medical",
+			"7": "op.cats",
+			"12": "op.warehouse",
+			"5": "op.weapon.a",
+			"4": "op.townhouse",
+			"eliminatedCards": [
+			],
+			"16": "op.night",
+			"10": "op.flowermaker"
+		},
+		"deck.explorevaultcapital2_success": {
+			"2": "hq.mithraeum.potential",
+			"3": "toolwinterd",
+			"eliminatedCards": [
+			],
+			"1": "toollanternbcracked",
+			"4": "ingredientlanternb"
+		},
+		"deck.scout.budapest": {
+			"13": "op.connection.underworld",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.night",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "op.medusa",
+			"12": "op.office",
+			"5": "op.curio.grail",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"vaultseveningisles": {
+			"2": "vaulteveningisles4",
+			"3": "vaulteveningisles2",
+			"eliminatedCards": [
+			],
+			"1": "vaulteveningisles3",
+			"4": "vaulteveningisles1"
+		},
+		"deck.send.investigate.stalingrad": {
+			"2": "city.kiev",
+			"3": "city.sverdlovsk",
+			"eliminatedCards": [
+			],
+			"1": "city.tiflis",
+			"4": "city.nizhny"
+		},
+		"deck.explorevaultrendingmountains2_success": {
+			"1": "dreamconspiracyskiesphrygian",
+			"4": "tooledgef",
+			"5": "wherehasshegonevak",
+			"eliminatedCards": [
+			],
+			"2": "toolgraild",
+			"3": "textbookvaksanskrit"
+		},
+		"deck.scout.prague": {
+			"13": "op.connection.ruler",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.night",
+			"2": "op.townhouse",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "op.cold",
+			"12": "op.office",
+			"5": "op.curio.knock",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"deck.scout.valletta": {
+			"13": "op.sea",
+			"8": "op.weapon.a",
+			"9": "op.connection.underworld",
+			"11": "op.sea",
+			"2": "op.townhouse",
+			"3": "op.licence.import",
+			"1": "op.warehouse",
+			"6": "op.villa",
+			"7": "loc.shrine.colonel.valletta",
+			"12": "op.office",
+			"5": "op.curio.forge",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.official"
+		},
+		"deck.explorevaultcapital3_success": {
+			"1": "apolloandmarsyas",
+			"4": "franklinbancroftdiarieslatin",
+			"5": "ingredientgrailb",
+			"eliminatedCards": [
+			],
+			"2": "toolheartb",
+			"3": "hq.warehouse.potential"
+		},
+		"deck.scout.aachen": {
+			"1": "op.office",
+			"6": "op.connection.radicals",
+			"7": "op.dawn",
+			"4": "op.night",
+			"5": "loc.shrine.colonel.aachen",
+			"eliminatedCards": [
+			],
+			"8": "op.connection.official",
+			"9": "op.weapon.b",
+			"11": "op.weapon.a",
+			"10": "op.licence.medical",
+			"2": "op.warehouse",
+			"3": "op.connection.underworld"
+		},
+		"deck.scout.kiev": {
+			"13": "op.office",
+			"14": "op.connection.holy",
+			"8": "op.faith",
+			"9": "op.weapon.a",
+			"11": "op.connection.underworld",
+			"2": "op.marinette",
+			"3": "op.licence.medical",
+			"1": "op.warehouse",
+			"6": "op.heights",
+			"7": "op.curio.knock",
+			"12": "op.sunset",
+			"5": "op.connection.official",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.connection.radicals"
+		},
+		"deck.explorevaultshires1_success": {
+			"2": "indignitiesobliviatelatin",
+			"3": "orchidtransfigurations3latin",
+			"1": "ingredientheartd",
+			"eliminatedCards": [
+			]
+		},
+		"citysecrets": {
+			"2": "locationstreetsstrange",
+			"3": "locationcabaret",
+			"eliminatedCards": [
+			],
+			"1": "locationbookdealer",
+			"4": "locationauctionhouse"
+		},
+		"deck.send.investigate.kiev.turmoil": {
+			"2": "city.krakow",
+			"3": "city.stalingrad",
+			"eliminatedCards": [
+			],
+			"1": "city.cluj",
+			"4": "city.leningrad"
+		},
+		"deck.explorevaultfloating1_success": {
+			"2": "firecircletantrasanskrit",
+			"3": "leoninetantrasanskrit",
+			"eliminatedCards": [
+			],
+			"1": "incandescenttantrasanskrit",
+			"4": "ceaselesstantrasanskrit"
+		},
+		"deck.explorevaultshires4_success": {
+			"2": "tooledged",
+			"3": "toollanterndcracked",
+			"1": "victoryofcrowns",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaultlandbeyondforest4_success": {
+			"2": "ingredientforgeb",
+			"3": "twinserpenttantrasanskrit",
+			"eliminatedCards": [
+			],
+			"1": "howendwillbeginvak",
+			"4": "furioustantrasanskrit"
+		},
+		"robberyrewards": {
+			"1": "jumble",
+			"37": "compensationb",
+			"35": "compensation",
+			"8": "lmfunds",
+			"9": "lmfunds",
+			"eliminatedCards": [
+			],
+			"28": "compensation",
+			"2": "compensationb",
+			"3": "lmfunds",
+			"18": "ingredientedgeb",
+			"6": "lmfunds",
+			"7": "compensation",
+			"4": "lmfunds",
+			"5": "lmfunds",
+			"36": "ingredientheartb",
+			"38": "lmfunds",
+			"24": "lmfunds",
+			"34": "lmfunds",
+			"25": "ingredientforgeb",
+			"14": "lmfunds",
+			"15": "lmfunds",
+			"44": "ingredientgrailb",
+			"40": "lmfunds",
+			"20": "lmfunds",
+			"30": "lmfunds",
+			"21": "lmfunds",
+			"10": "compensationb",
+			"26": "lmfunds",
+			"11": "jumble",
+			"27": "ingredientmothb",
+			"16": "ingredientknockb",
+			"41": "lmfunds",
+			"17": "compensation",
+			"33": "lmfunds",
+			"22": "lmfunds",
+			"32": "lmfunds",
+			"23": "jumble",
+			"12": "jumble",
+			"13": "compensation",
+			"42": "jumble",
+			"31": "lmfunds",
+			"43": "lmfunds",
+			"29": "lmfunds",
+			"39": "lmfunds",
+			"19": "compensation"
+		},
+		"deck.use.first": {
+			"1": "city.aachen",
+			"6": "city.budapest",
+			"7": "city.avignon",
+			"4": "city.munich",
+			"5": "city.london",
+			"8": "city.krakow",
+			"eliminatedCards": [
+			],
+			"2": "city.prague",
+			"3": "city.venice"
+		},
+		"deck.send.investigate.candia": {
+			"2": "city.tripoli",
+			"3": "city.alexandria",
+			"eliminatedCards": [
+			],
+			"1": "end.messana",
+			"4": "city.tirana"
+		},
+		"deck.scout.tiflis": {
+			"8": "op.connection.official",
+			"9": "op.curio.lantern2",
+			"11": "op.connection.radicals",
+			"2": "op.office",
+			"3": "op.connection.underworld",
+			"1": "op.licence.medical",
+			"6": "op.heights",
+			"7": "op.weapon.a",
+			"12": "op.wolf",
+			"5": "op.warehouse",
+			"4": "op.dawn",
+			"eliminatedCards": [
+			],
+			"10": "op.weapon.b"
+		},
+		"mansus_stagdoor1": {
+			"2": "influencewintere",
+			"3": "influenceedgee",
+			"1": "influencegrailc",
+			"eliminatedCards": [
+			]
+		},
+		"deck.explorevaultcapital5_success": {
+			"1": "textbookgreek",
+			"6": "chioneatabydos",
+			"4": "hq.church.potential",
+			"5": "debellismurorum",
+			"eliminatedCards": [
+			],
+			"2": "roseofnurielgreek",
+			"3": "roseofwazneigreek"
+		},
+		"graillong": {
+			"2": "julian_unknown",
+			"3": "tryphon_unknown",
+			"1": "tryphon_unknown",
+			"eliminatedCards": [
+			]
+		},
+		"randomvictim": {
+			"2": "genericprisonerf",
+			"1": "genericprisonerm",
+			"eliminatedCards": [
+			]
+		},
+		"mansus_wood": {
+			"2": "rumour",
+			"3": "influencemoth",
+			"1": "fragmentsecrethistories",
+			"eliminatedCards": [
+			]
+		},
+		"deck.scout.tripoli": {
+			"13": "op.office",
+			"14": "op.dawn",
+			"8": "op.connection.underworld",
+			"9": "op.curio.lantern3",
+			"11": "op.weapon.d",
+			"2": "op.connection.official",
+			"3": "op.cats",
+			"15": "op.villa",
+			"1": "op.heat",
+			"6": "op.licence.import",
+			"7": "op.sea",
+			"12": "op.warehouse",
+			"5": "op.weapon.a",
+			"4": "op.townhouse",
+			"eliminatedCards": [
+			],
+			"16": "op.sunset",
+			"10": "op.sea"
+		},
+		"deck.send.investigate.tiflis": {
+			"2": "city.cluj",
+			"3": "city.samarkand",
+			"eliminatedCards": [
+			],
+			"1": "city.baghdad",
+			"4": "city.stalingrad"
+		},
+		"scholarpatrons": {
+			"1": "poppyready",
+			"4": "janningsready",
+			"5": "bechetready",
+			"eliminatedCards": [
+			],
+			"2": "aladimready",
+			"3": "sulochana"
+		},
+		"mansus_stagdoor2": {
+			"2": "eruditionplus",
+			"3": "fascination",
+			"1": "fragmentsecrethistoriesd",
+			"eliminatedCards": [
+			]
+		},
+		"dreamreasonresults": {
+			"1": "contentment",
+			"6": "glimmering",
+			"4": "restlessness",
+			"5": "vitality",
+			"eliminatedCards": [
+			],
+			"2": "dread",
+			"3": "fascination"
+		},
+		"talkevents": {
+			"1": "dayacquaintances",
+			"6": "daypatrons",
+			"7": "dayacquaintances",
+			"4": "dayacquaintances",
+			"5": "dayacquaintances",
+			"8": "dayacquaintances",
+			"9": "dayacquaintances",
+			"eliminatedCards": [
+			],
+			"2": "dayacquaintances",
+			"3": "daypatrons"
+		},
+		"deck.send.investigate.tirana": {
+			"2": "city.valletta",
+			"3": "city.istanbul",
+			"eliminatedCards": [
+			],
+			"1": "city.candia",
+			"4": "city.budapest"
+		},
+		"deck.scout.ghardaia": {
+			"1": "obscurity",
+			"4": "op.flowermaker",
+			"5": "op.cats",
+			"eliminatedCards": [
+			],
+			"2": "op.heat",
+			"3": "op.dawn"
+		},
+		"rkx.weaknesses.environment": {
+			"2": "rkx.weakness.sea.hidden",
+			"3": "rkx.weakness.cold.hidden",
+			"1": "rkx.weakness.heat.hidden",
+			"eliminatedCards": [
+			]
+		},
+		"deck.scout.wilderness": {
+			"2": "op.sea",
+			"3": "op.cold",
+			"1": "op.heat",
+			"eliminatedCards": [
+			]
+		},
+		"deck.send.investigate.tripoli": {
+			"2": "city.algiers",
+			"3": "city.candia",
+			"eliminatedCards": [
+			],
+			"1": "end.ghardaia",
+			"4": "city.valletta"
+		},
+		"vaultrewardsd": {
+			"1": "silverbookfucine",
+			"37": "matthiasamethystpursuitaramaic",
+			"35": "theskythesoularamaic",
+			"8": "ingredientforged",
+			"9": "ironbookfucine",
+			"28": "gospelzacchaeusgreek",
+			"2": "ingredientedged",
+			"3": "furioustantrasanskrit",
+			"18": "ingredientlanternf",
+			"6": "catalogueofunchartedpleasuresphrygian",
+			"7": "twinserpenttantrasanskrit",
+			"4": "encirclingtantrasanskrit",
+			"5": "ingredientforgeb",
+			"36": "toolheartd",
+			"38": "ingredientgrailf",
+			"24": "ingredientlanternb",
+			"34": "textbooksanskrit",
+			"25": "ivorybookfucine",
+			"14": "ingredientheartb",
+			"15": "ingredientgraild",
+			"20": "sunsetpassageslatin",
+			"30": "ingredientknockb",
+			"21": "ingredientheartd",
+			"10": "knownunknowntantrasanskrit",
+			"26": "bookofthronesphrygian",
+			"11": "ingredientmothb",
+			"27": "accountkanishkspidersdooraramaic",
+			"16": "ingredientgrailb",
+			"eliminatedCards": [
+			],
+			"17": "burningwomanphrygian",
+			"33": "twentysixenticementsseventormentsfucine",
+			"22": "ingredientforgeb",
+			"32": "ingredientwinterb",
+			"23": "ingredientwinterd",
+			"12": "historyofshadowlesskingsaramaic",
+			"13": "ingredientmothd",
+			"31": "ingredientlanternd",
+			"29": "howendwillbeginvak",
+			"39": "ingredientknockd",
+			"19": "ingredientedgeb"
+		},
+		"auctionedcommontomes": {
+			"1": "waroftheroadscensored",
+			"8": "onthewhite",
+			"9": "introductiontohistories",
+			"2": "truecompleteasclepiangreek",
+			"3": "travellingatnight1",
+			"18": "locksmithsdream1",
+			"6": "travellingatnight2",
+			"7": "apolloandmarsyas",
+			"4": "humoursofagentleman",
+			"5": "burningofunburntgod",
+			"24": "orchidtransfigurations2latin",
+			"25": "dehoris1latin",
+			"14": "victoryofcrowns",
+			"15": "locksmithsdream2",
+			"20": "onwhatiscontainedbysilvergreek",
+			"21": "sixlettersonnecessity",
+			"10": "orchidtransfigurations1latin",
+			"26": "queensoftherivers",
+			"11": "textbookreason",
+			"27": "textbooksanskrit",
+			"16": "skeletonsongs",
+			"eliminatedCards": [
+			],
+			"17": "textbookgreek",
+			"22": "debellismurorumlatin",
+			"23": "textbookpassion",
+			"12": "stumm",
+			"13": "textbooklatin",
+			"19": "textbookpassion"
+		},
+		"deck.send.investigate.cluj": {
+			"2": "city.budapest",
+			"3": "city.tiflis",
+			"eliminatedCards": [
+			],
+			"1": "city.istanbul",
+			"4": "city.kiev"
+		},
+		"mansus_whitedoor": {
+			"2": "restlessness",
+			"3": "influencewinterc",
+			"1": "fragmentsecrethistoriesb",
+			"eliminatedCards": [
+			]
+		}
+	},
+	"metainfo": {
+		"VERSIONNUMBER": "2021.1.b.2"
+	},
+	"characterDetails": {
+		"executions": {
+			"refine": "3"
+		},
+		"name": "[点击此处起名]",
+		"profession": "有志青年",
+		"pastLevers": {
+			"lastheadquarters": "generichq",
+			"lastfollower": "rose_b",
+			"lastsignificantpainting": "paintingmansus",
+			"lastpersonkilled": "neville_a",
+			"lastcharactername": "J.N. Sinombre",
+			"lastcult": "cultgrail_1",
+			"lasttool": "toolknockb",
+			"lastbook": "textbooksanskrit",
+			"lastdesire": "ascensionsensationa"
+		},
+		"futureLevers": {
+		},
+		"activeLegacy": "aspirant"
+	},
+	"situations": {
+		"-360_195_3dc47d6f-5267-43d3-ad36-cb3ae5e49e91": {
+			"timeRemaining": "60",
+			"recipeId": "needs",
+			"state": "Ongoing",
+			"situationWindowOpen": "False",
+			"situationWindowX": "331.8232",
+			"situationWindowZ": "-100",
+			"situationOutputNotes": {
+				"1": {
+					"title": "时间，随着日晷之影流逝着。我需要资金来维系生活，否则我会生病。"
+				}
+			},
+			"title": "时间流逝",
+			"verbId": "time",
+			"situationWindowY": "597.9161",
+			"completioncount": "0",
+			"ongoingSlotElements": {
+				"Expenses_0a22188c-bbde-47d3-8fd1-c7df145a7ac6": {
+					"lifetimeRemaining": "0",
+					"lastTablePosX": "-270",
+					"markedForConsumption": "False",
+					"elementId": "funds",
+					"lastTablePosY": "130",
+					"quantity": "1"
+				}
+			}
+		},
+		"-537.5_200_08a474dc-1e18-4646-911d-a0681c1ef443": {
+			"timeRemaining": "0",
+			"recipeId": NULL,
+			"state": "Unstarted",
+			"situationWindowOpen": "False",
+			"situationWindowX": "-57.70462",
+			"situationWindowZ": "-100",
+			"situationOutputNotes": {
+				"1": {
+					"title": "或赚钱糊口，或施展无形之术。"
+				}
+			},
+			"title": "作业",
+			"verbId": "work",
+			"situationWindowY": "129.4824",
+			"completioncount": "0"
+		}
+	}
+}
